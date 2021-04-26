@@ -1,5 +1,7 @@
 ```
 algo
+├── Array
+│   └── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
@@ -32,7 +34,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-12 directories, 19 files
+13 directories, 20 files
 
 =====================================
 ============= Local Repo ============
@@ -51,13 +53,14 @@ __0111__Minimum Depth of Binary Tree.py
 __0144__Binary Tree Preorder Traversal.py
 __0167__Two Sum II - Input array is sorted.py
 __0200__Number of Islands.py
+__0215__Kth Largest Element in an Array.py
 __0226__Invert Binary Tree.py
 __0242__Valid Anagram.py
 __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  19
+Num of Python Practice:  20
 
 
 =====================================
@@ -78,17 +81,18 @@ Num of Python Practice:  19
  0144 Binary Tree Preorder Traversal
  0167 Two Sum II - Input array is sorted
  0200 Number of Islands
+ 0215 Kth Largest Element in an Array
  0226 Invert Binary Tree
  0242 Valid Anagram
  0322 Coin Change
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
 =====================================
-Solved / Total (Easy)  :    8 /  480
-Solved / Total (Medium):   12 /  969
-Solved / Total (Hard)  :    0 /  387
-Solved / Total (All)   :   20 / 1836
-Total Score            :   44
+Solved / Total (Easy)  :    8 /  481
+Solved / Total (Medium):   13 /  972
+Solved / Total (Hard)  :    0 /  388
+Solved / Total (All)   :   21 / 1841
+Total Score            :   47
 =====================================
 
 ```
