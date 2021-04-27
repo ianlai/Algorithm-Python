@@ -4,7 +4,8 @@ algo
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
-│   └── __0111__Minimum\ Depth\ of\ Binary\ Tree.py
+│   ├── __0111__Minimum\ Depth\ of\ Binary\ Tree.py
+│   └── __0199__Binary\ Tree\ Right\ Side\ View.py
 ├── BinarySearch
 ├── DFS
 │   ├── __0039__Combination\ Sum.py
@@ -35,7 +36,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-13 directories, 21 files
+13 directories, 22 files
 
 =====================================
 ============= Local Repo ============
@@ -54,6 +55,7 @@ __0107__Binary Tree Level Order Traversal II.py
 __0111__Minimum Depth of Binary Tree.py
 __0144__Binary Tree Preorder Traversal.py
 __0167__Two Sum II - Input array is sorted.py
+__0199__Binary Tree Right Side View.py
 __0200__Number of Islands.py
 __0215__Kth Largest Element in an Array.py
 __0226__Invert Binary Tree.py
@@ -62,7 +64,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  21
+Num of Python Practice:  22
 
 
 =====================================
@@ -82,6 +84,7 @@ Num of Python Practice:  21
  0111 Minimum Depth of Binary Tree
  0144 Binary Tree Preorder Traversal
  0167 Two Sum II - Input array is sorted
+ 0199 Binary Tree Right Side View
  0200 Number of Islands
  0215 Kth Largest Element in an Array
  0226 Invert Binary Tree
@@ -91,10 +94,10 @@ Num of Python Practice:  21
  0694 Number of Distinct Islands
 =====================================
 Solved / Total (Easy)  :    8 /  481
-Solved / Total (Medium):   13 /  972
+Solved / Total (Medium):   14 /  972
 Solved / Total (Hard)  :    0 /  388
-Solved / Total (All)   :   21 / 1841
-Total Score            :   47
+Solved / Total (All)   :   22 / 1841
+Total Score            :   50
 =====================================
 
 ```
