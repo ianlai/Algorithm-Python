@@ -1,7 +1,6 @@
 ```
 algo
 ├── Array
-│   └── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
@@ -19,11 +18,13 @@ algo
 │   ├── __0001__Two\ Sum.py
 │   └── __0049__Group\ Anagrams.py
 ├── Heap
+│   └── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
 ├── LinkedList
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
 ├── String
 ├── Tree
+│   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
 │   ├── __0100__Same\ Tree.py
 │   ├── __0101__Symmetric\ Tree.py
@@ -34,7 +35,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-13 directories, 20 files
+13 directories, 21 files
 
 =====================================
 ============= Local Repo ============
@@ -44,6 +45,7 @@ __0003__Longest Substring Without Repeating Characters.py
 __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
+__0094__Binary Tree Inorder Traversal.py 
 __0098__Validate Binary Search Tree.py
 __0100__Same Tree.py
 __0101__Symmetric Tree.py
@@ -60,7 +62,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  20
+Num of Python Practice:  21
 
 
 =====================================
