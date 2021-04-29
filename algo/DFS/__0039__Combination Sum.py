@@ -1,4 +1,6 @@
 class Solution:
+
+    # Backtracking [56%]
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         if candidates is None or len(candidates) == 0:
             return []

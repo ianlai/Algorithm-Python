@@ -1,4 +1,6 @@
 class Solution:
+
+    # Backtracking [64%]
     def permute(self, nums: List[int]) -> List[List[int]]:
         if nums is None or len(nums) == 0:
             return 0
