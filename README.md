@@ -10,6 +10,8 @@ algo
 ├── DFS
 │   ├── __0039__Combination\ Sum.py
 │   ├── __0046__Permutations.py
+│   ├── __0077__Combinations.py
+│   ├── __0078__Subsets.py
 │   ├── __0200__Number\ of\ Islands.py
 │   └── __0694__Number\ of\ Distinct\ Islands.py
 ├── DP
@@ -38,7 +40,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 23 files
+14 directories, 25 files
 
 =====================================
 ============= Local Repo ============
@@ -48,6 +50,8 @@ __0003__Longest Substring Without Repeating Characters.py
 __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
+__0077__Combinations.py
+__0078__Subsets.py
 __0094__Binary Tree Inorder Traversal.py 
 __0098__Validate Binary Search Tree.py
 __0100__Same Tree.py
@@ -67,7 +71,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  23
+Num of Python Practice:  25
 
 
 =====================================
@@ -78,6 +82,8 @@ Num of Python Practice:  23
  0039 Combination Sum
  0046 Permutations
  0049 Group Anagrams
+ 0077 Combinations
+ 0078 Subsets
  0094 Binary Tree Inorder Traversal
  0098 Validate Binary Search Tree
  0100 Same Tree
@@ -98,10 +104,10 @@ Num of Python Practice:  23
  0694 Number of Distinct Islands
 =====================================
 Solved / Total (Easy)  :    9 /  481
-Solved / Total (Medium):   14 /  972
+Solved / Total (Medium):   16 /  972
 Solved / Total (Hard)  :    0 /  389
-Solved / Total (All)   :   23 / 1842
-Total Score            :   51
+Solved / Total (All)   :   25 / 1842
+Total Score            :   57
 =====================================
 
 ```
