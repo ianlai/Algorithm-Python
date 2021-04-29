@@ -23,6 +23,8 @@ algo
 ├── LinkedList
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
+├── Stack
+│   └── __0155__Min\ Stack.py
 ├── String
 ├── Tree
 │   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
@@ -36,7 +38,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-13 directories, 22 files
+14 directories, 23 files
 
 =====================================
 ============= Local Repo ============
@@ -54,6 +56,7 @@ __0102__Binary Tree Level Order Traversal.py
 __0107__Binary Tree Level Order Traversal II.py
 __0111__Minimum Depth of Binary Tree.py
 __0144__Binary Tree Preorder Traversal.py
+__0155__Min Stack.py
 __0167__Two Sum II - Input array is sorted.py
 __0199__Binary Tree Right Side View.py
 __0200__Number of Islands.py
@@ -64,7 +67,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  22
+Num of Python Practice:  23
 
 
 =====================================
@@ -83,6 +86,7 @@ Num of Python Practice:  22
  0107 Binary Tree Level Order Traversal II
  0111 Minimum Depth of Binary Tree
  0144 Binary Tree Preorder Traversal
+ 0155 Min Stack
  0167 Two Sum II - Input array is sorted
  0199 Binary Tree Right Side View
  0200 Number of Islands
@@ -93,11 +97,11 @@ Num of Python Practice:  22
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
 =====================================
-Solved / Total (Easy)  :    8 /  481
+Solved / Total (Easy)  :    9 /  481
 Solved / Total (Medium):   14 /  972
-Solved / Total (Hard)  :    0 /  388
-Solved / Total (All)   :   22 / 1841
-Total Score            :   50
+Solved / Total (Hard)  :    0 /  389
+Solved / Total (All)   :   23 / 1842
+Total Score            :   51
 =====================================
 
 ```
