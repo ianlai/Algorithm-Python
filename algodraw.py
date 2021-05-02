@@ -34,6 +34,8 @@ FILE_IMAGE_SCORE202007 = FILE_PREFIX_SCORE + "_202007" + ".png"
 FILE_IMAGE_SCORE202008 = FILE_PREFIX_SCORE + "_202008" + ".png"
 
 FILE_IMAGE_SCORE202104 = FILE_PREFIX_SCORE + "_202104" + ".png"
+FILE_IMAGE_SCORE202105 = FILE_PREFIX_SCORE + "_202105" + ".png"
+
 
 
 DATE_FORMATTER = "%Y-%m-%d"
@@ -157,10 +159,10 @@ def draw(dates, values):
 
     ### Draw number figure 
     axs[0].set(xlabel="Date", ylabel="Number of Problems",
-        title="Number of Problems (2020.04)")
-    axs[0].set_title("Number of Problems (2020.04)", fontweight = 'bold')
+        title="Number of Problems (2021.04)")
+    axs[0].set_title("Number of Problems (2021.04)", fontweight = 'bold')
 
-    axs[0].set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
+    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,4,30)) 
     axs[0].set_ylim(0,100) #number of quiz
     axs[0].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
@@ -270,6 +272,13 @@ def draw(dates, values):
     axs[1].set_title("Score (2021.04)", fontweight = 'bold')
     axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,4,30)) 
     plt.savefig(FILE_IMAGE_SCORE202104)
+
+    axs[1].set(xlabel="Date", ylabel="Score",
+        title="Score of Quiz (2021.05)")
+    axs[0].set_title("Number of Problems (2021.05)", fontweight = 'bold')
+    axs[1].set_title("Score (2021.05)", fontweight = 'bold')
+    axs[0].set_xlim(datetime.datetime(2021,5,1), datetime.datetime(2021,5,31)) 
+    plt.savefig(FILE_IMAGE_SCORE202105)
 
     # plt.show()
 

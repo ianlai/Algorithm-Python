@@ -12,6 +12,8 @@ algo
 │   ├── __0046__Permutations.py
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
+│   ├── __0112__Path\ Sum.py
+│   ├── __0113__Path\ Sum\ II.py
 │   ├── __0200__Number\ of\ Islands.py
 │   └── __0694__Number\ of\ Distinct\ Islands.py
 ├── DP
@@ -40,7 +42,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 25 files
+14 directories, 27 files
 
 =====================================
 ============= Local Repo ============
@@ -59,6 +61,8 @@ __0101__Symmetric Tree.py
 __0102__Binary Tree Level Order Traversal.py
 __0107__Binary Tree Level Order Traversal II.py
 __0111__Minimum Depth of Binary Tree.py
+__0112__Path Sum.py
+__0113__Path Sum II.py
 __0144__Binary Tree Preorder Traversal.py
 __0155__Min Stack.py
 __0167__Two Sum II - Input array is sorted.py
@@ -71,7 +75,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  25
+Num of Python Practice:  27
 
 
 =====================================
@@ -91,6 +95,8 @@ Num of Python Practice:  25
  0102 Binary Tree Level Order Traversal
  0107 Binary Tree Level Order Traversal II
  0111 Minimum Depth of Binary Tree
+ 0112 Path Sum
+ 0113 Path Sum II
  0144 Binary Tree Preorder Traversal
  0155 Min Stack
  0167 Two Sum II - Input array is sorted
@@ -103,11 +109,11 @@ Num of Python Practice:  25
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
 =====================================
-Solved / Total (Easy)  :    9 /  481
-Solved / Total (Medium):   16 /  972
-Solved / Total (Hard)  :    0 /  389
-Solved / Total (All)   :   25 / 1842
-Total Score            :   57
+Solved / Total (Easy)  :   10 /  483
+Solved / Total (Medium):   17 /  977
+Solved / Total (Hard)  :    0 /  391
+Solved / Total (All)   :   27 / 1851
+Total Score            :   61
 =====================================
 
 ```
