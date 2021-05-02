@@ -151,7 +151,7 @@ def draw(dates, values):
     dates = dates[-len(leetscore):]
     values = values[-len(leetscore):]
 
-    annotate_y_offset = 12
+    annotate_y_offset = 5
 
     fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 14))
 
@@ -198,15 +198,16 @@ def draw(dates, values):
     # for i,j in zip(dates, leetnumber):
     #     axs[0].annotate(str(j), xy=(i, j + annotate_y_offset - 5))
     for i in range(len(leetnumber)):
-        axs[0].annotate(leetnumber[i]  , xy=(dates[i], leetnumber[i] + annotate_y_offset - 5), fontweight = 'bold')
-        axs[0].annotate(hardNumber[i]  , xy=(dates[i], leetnumber[i] - annotate_y_offset - 0), fontsize = 9)
-        axs[0].annotate(mediumNumber[i], xy=(dates[i], easyNumber[i] + mediumNumber[i] - annotate_y_offset - 3), fontsize = 9)
-        axs[0].annotate(easyNumber[i]  , xy=(dates[i], easyNumber[i] - annotate_y_offset - 3),fontsize = 9)
+        axs[0].annotate(leetnumber[i]  , xy=(dates[i], leetnumber[i] + annotate_y_offset ), fontweight = 'bold')
+        #axs[0].annotate(hardNumber[i]  , xy=(dates[i], leetnumber[i] - annotate_y_offset - 0), fontsize = 9)
+        axs[0].annotate(mediumNumber[i], xy=(dates[i], easyNumber[i] + mediumNumber[i] - annotate_y_offset), fontsize = 9)
+        #axs[0].annotate(easyNumber[i]  , xy=(dates[i], easyNumber[i] - annotate_y_offset) ,fontsize = 9)
 
-    for i in range(len(reviewNumber)):
-        axs[0].annotate(reviewNumber[i],
-        xy=(dates[-len(reviewNumber):][i], reviewNumber[i] + annotate_y_offset - 5),
-        fontweight = 'bold', color='#555555')
+    # review number (gray line)
+    # for i in range(len(reviewNumber)):
+    #     axs[0].annotate(reviewNumber[i],
+    #     xy=(dates[-len(reviewNumber):][i], reviewNumber[i] + annotate_y_offset - 5),
+    #     fontweight = 'bold', color='#555555')
     
     # leetcode score
     for i,j in zip(dates, leetscore):
