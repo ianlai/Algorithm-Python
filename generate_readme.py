@@ -9,3 +9,4 @@ os.system('./lcode.py')
 os.system('echo "\`\`\`"')
 
 print("![Alt text](score_202104.png)")
+print("![Alt text](score_202105.png)")
