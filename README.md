@@ -8,6 +8,7 @@ algo
 │   └── __0199__Binary\ Tree\ Right\ Side\ View.py
 ├── BinarySearch
 ├── DFS
+│   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
 │   ├── __0039__Combination\ Sum.py
 │   ├── __0046__Permutations.py
 │   ├── __0077__Combinations.py
@@ -42,13 +43,14 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 27 files
+14 directories, 28 files
 
 =====================================
 ============= Local Repo ============
 =====================================
 __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
+__0017__Letter Combinations of a Phone Number.py
 __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
@@ -75,7 +77,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  27
+Num of Python Practice:  28
 
 
 =====================================
@@ -83,6 +85,7 @@ Num of Python Practice:  27
 =====================================
  0001 Two Sum
  0003 Longest Substring Without Repeating Characters
+ 0017 Letter Combinations of a Phone Number
  0039 Combination Sum
  0046 Permutations
  0049 Group Anagrams
@@ -110,10 +113,10 @@ Num of Python Practice:  27
  0694 Number of Distinct Islands
 =====================================
 Solved / Total (Easy)  :   10 /  483
-Solved / Total (Medium):   17 /  977
+Solved / Total (Medium):   18 /  977
 Solved / Total (Hard)  :    0 /  391
-Solved / Total (All)   :   27 / 1851
-Total Score            :   61
+Solved / Total (All)   :   28 / 1851
+Total Score            :   64
 =====================================
 
 ```
