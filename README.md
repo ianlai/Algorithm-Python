@@ -5,7 +5,8 @@ algo
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
 │   ├── __0111__Minimum\ Depth\ of\ Binary\ Tree.py
-│   └── __0199__Binary\ Tree\ Right\ Side\ View.py
+│   ├── __0199__Binary\ Tree\ Right\ Side\ View.py
+│   └── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
 ├── BinarySearch
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
@@ -26,6 +27,7 @@ algo
 ├── Heap
 │   └── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
 ├── LinkedList
+│   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
 │   └── __0206__Reverse\ Linked\ List.py
 ├── Sorting
@@ -45,7 +47,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 30 files
+14 directories, 32 files
 
 =====================================
 ============= Local Repo ============
@@ -53,6 +55,7 @@ algo
 __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
 __0017__Letter Combinations of a Phone Number.py
+__0021__Merge Two Sorted Lists.py
 __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
@@ -77,11 +80,12 @@ __0206__Reverse Linked List.py
 __0215__Kth Largest Element in an Array.py
 __0226__Invert Binary Tree.py
 __0242__Valid Anagram.py
+__0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  30
+Num of Python Practice:  32
 
 
 =====================================
@@ -90,6 +94,7 @@ Num of Python Practice:  30
  0001 Two Sum
  0003 Longest Substring Without Repeating Characters
  0017 Letter Combinations of a Phone Number
+ 0021 Merge Two Sorted Lists
  0039 Combination Sum
  0046 Permutations
  0049 Group Anagrams
@@ -114,15 +119,16 @@ Num of Python Practice:  30
  0215 Kth Largest Element in an Array
  0226 Invert Binary Tree
  0242 Valid Anagram
+ 0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
 =====================================
-Solved / Total (Easy)  :   11 /  483
+Solved / Total (Easy)  :   12 /  483
 Solved / Total (Medium):   19 /  977
-Solved / Total (Hard)  :    0 /  391
-Solved / Total (All)   :   30 / 1851
-Total Score            :   68
+Solved / Total (Hard)  :    1 /  391
+Solved / Total (All)   :   32 / 1851
+Total Score            :   74
 =====================================
 
 ```
