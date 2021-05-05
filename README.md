@@ -1,6 +1,7 @@
 ```
 algo
 ├── Array
+│   └── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
@@ -19,6 +20,7 @@ algo
 │   ├── __0200__Number\ of\ Islands.py
 │   └── __0694__Number\ of\ Distinct\ Islands.py
 ├── DP
+│   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   └── __0322__Coin\ Change.py
 ├── DataStructure
 ├── HashMap
@@ -47,7 +49,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 32 files
+14 directories, 34 files
 
 =====================================
 ============= Local Repo ============
@@ -71,6 +73,8 @@ __0107__Binary Tree Level Order Traversal II.py
 __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
+__0121__Best Time to Buy and Sell Stock.py
+__0122__Best Time to Buy and Sell Stock II.py
 __0144__Binary Tree Preorder Traversal.py
 __0155__Min Stack.py
 __0167__Two Sum II - Input array is sorted.py
@@ -85,7 +89,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  32
+Num of Python Practice:  34
 
 
 =====================================
@@ -110,6 +114,8 @@ Num of Python Practice:  32
  0111 Minimum Depth of Binary Tree
  0112 Path Sum
  0113 Path Sum II
+ 0121 Best Time to Buy and Sell Stock
+ 0122 Best Time to Buy and Sell Stock II
  0144 Binary Tree Preorder Traversal
  0155 Min Stack
  0167 Two Sum II - Input array is sorted
@@ -124,11 +130,11 @@ Num of Python Practice:  32
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
 =====================================
-Solved / Total (Easy)  :   12 /  483
+Solved / Total (Easy)  :   14 /  483
 Solved / Total (Medium):   19 /  977
 Solved / Total (Hard)  :    1 /  391
-Solved / Total (All)   :   32 / 1851
-Total Score            :   74
+Solved / Total (All)   :   34 / 1851
+Total Score            :   76
 =====================================
 
 ```
