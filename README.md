@@ -4,6 +4,7 @@ algo
 │   └── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
+│   ├── __0103__Binary\ Tree\ Zigzag\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
 │   ├── __0111__Minimum\ Depth\ of\ Binary\ Tree.py
 │   ├── __0199__Binary\ Tree\ Right\ Side\ View.py
@@ -49,7 +50,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 34 files
+14 directories, 35 files
 
 =====================================
 ============= Local Repo ============
@@ -69,6 +70,7 @@ __0098__Validate Binary Search Tree.py
 __0100__Same Tree.py
 __0101__Symmetric Tree.py
 __0102__Binary Tree Level Order Traversal.py
+__0103__Binary Tree Zigzag Level Order Traversal.py
 __0107__Binary Tree Level Order Traversal II.py
 __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
@@ -89,7 +91,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  34
+Num of Python Practice:  35
 
 
 =====================================
@@ -110,6 +112,7 @@ Num of Python Practice:  34
  0100 Same Tree
  0101 Symmetric Tree
  0102 Binary Tree Level Order Traversal
+ 0103 Binary Tree Zigzag Level Order Traversal
  0107 Binary Tree Level Order Traversal II
  0111 Minimum Depth of Binary Tree
  0112 Path Sum
@@ -131,10 +134,10 @@ Num of Python Practice:  34
  0694 Number of Distinct Islands
 =====================================
 Solved / Total (Easy)  :   14 /  483
-Solved / Total (Medium):   19 /  977
+Solved / Total (Medium):   20 /  978
 Solved / Total (Hard)  :    1 /  391
-Solved / Total (All)   :   34 / 1851
-Total Score            :   76
+Solved / Total (All)   :   35 / 1852
+Total Score            :   79
 =====================================
 
 ```
