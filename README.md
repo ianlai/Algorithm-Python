@@ -7,6 +7,7 @@ algo
 │   ├── __0103__Binary\ Tree\ Zigzag\ Level\ Order\ Traversal.py
 │   ├── __0107__Binary\ Tree\ Level\ Order\ Traversal\ II.py
 │   ├── __0111__Minimum\ Depth\ of\ Binary\ Tree.py
+│   ├── __0127__Word\ Ladder.py
 │   ├── __0133__Clone\ Graph.py
 │   ├── __0199__Binary\ Tree\ Right\ Side\ View.py
 │   └── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
@@ -51,7 +52,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 36 files
+14 directories, 37 files
 
 =====================================
 ============= Local Repo ============
@@ -78,6 +79,7 @@ __0112__Path Sum.py
 __0113__Path Sum II.py
 __0121__Best Time to Buy and Sell Stock.py
 __0122__Best Time to Buy and Sell Stock II.py
+__0127__Word Ladder.py
 __0133__Clone Graph.py
 __0144__Binary Tree Preorder Traversal.py
 __0155__Min Stack.py
@@ -93,7 +95,7 @@ __0322__Coin Change.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  36
+Num of Python Practice:  37
 
 
 =====================================
@@ -121,6 +123,7 @@ Num of Python Practice:  36
  0113 Path Sum II
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
+ 0127 Word Ladder
  0133 Clone Graph
  0144 Binary Tree Preorder Traversal
  0155 Min Stack
@@ -138,9 +141,9 @@ Num of Python Practice:  36
 =====================================
 Solved / Total (Easy)  :   14 /  483
 Solved / Total (Medium):   21 /  978
-Solved / Total (Hard)  :    1 /  391
-Solved / Total (All)   :   36 / 1852
-Total Score            :   82
+Solved / Total (Hard)  :    2 /  391
+Solved / Total (All)   :   37 / 1852
+Total Score            :   87
 =====================================
 
 ```
