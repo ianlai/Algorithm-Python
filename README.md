@@ -28,7 +28,8 @@ algo
 ├── DataStructure
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
-│   └── __0049__Group\ Anagrams.py
+│   ├── __0049__Group\ Anagrams.py
+│   └── __0347__Top\ K\ Frequent\ Elements.py
 ├── Heap
 │   └── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
 ├── LinkedList
@@ -52,7 +53,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 37 files
+14 directories, 38 files
 
 =====================================
 ============= Local Repo ============
@@ -92,10 +93,11 @@ __0226__Invert Binary Tree.py
 __0242__Valid Anagram.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
+__0347__Top K Frequent Elements.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
 =====================================
-Num of Python Practice:  37
+Num of Python Practice:  38
 
 
 =====================================
@@ -136,14 +138,15 @@ Num of Python Practice:  37
  0242 Valid Anagram
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
+ 0347 Top K Frequent Elements
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
 =====================================
-Solved / Total (Easy)  :   14 /  483
-Solved / Total (Medium):   21 /  978
+Solved / Total (Easy)  :   14 /  484
+Solved / Total (Medium):   22 /  978
 Solved / Total (Hard)  :    2 /  391
-Solved / Total (All)   :   37 / 1852
-Total Score            :   87
+Solved / Total (All)   :   38 / 1853
+Total Score            :   90
 =====================================
 
 ```
