@@ -14,6 +14,7 @@ algo
 │   ├── __0210__Course\ Schedule\ II.py
 │   └── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
 ├── BinarySearch
+│   └── __0704__Binary\ Search.py
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
 │   ├── __0039__Combination\ Sum.py
@@ -51,12 +52,13 @@ algo
 │   ├── __0101__Symmetric\ Tree.py
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
 │   ├── __0226__Invert\ Binary\ Tree.py
+│   ├── __0230__Kth\ Smallest\ Element\ in\ a\ BST.py
 │   └── __0617__Merge\ Two\ Binary\ Trees.py
 └── Two-Pointer
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 41 files
+14 directories, 43 files
 
 =====================================
 ============= Local Repo ============
@@ -95,15 +97,17 @@ __0207__Course Schedule.py
 __0210__Course Schedule II.py
 __0215__Kth Largest Element in an Array.py
 __0226__Invert Binary Tree.py
+__0230__Kth Smallest Element in a BST.py
 __0242__Valid Anagram.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
 __0617__Merge Two Binary Trees.py
 __0694__Number of Distinct Islands.py
+__0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  41
+Num of Python Practice:  43
 
 
 =====================================
@@ -143,19 +147,21 @@ Num of Python Practice:  41
  0210 Course Schedule II
  0215 Kth Largest Element in an Array
  0226 Invert Binary Tree
+ 0230 Kth Smallest Element in a BST
  0242 Valid Anagram
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
  0347 Top K Frequent Elements
  0617 Merge Two Binary Trees
  0694 Number of Distinct Islands
+ 0704 Binary Search
  0706 Design HashMap
 =====================================
-Solved / Total (Easy)  :   15 /  484
-Solved / Total (Medium):   24 /  978
-Solved / Total (Hard)  :    2 /  391
-Solved / Total (All)   :   41 / 1853
-Total Score            :   97
+Solved / Total (Easy)  :   16 /  485
+Solved / Total (Medium):   25 /  980
+Solved / Total (Hard)  :    2 /  392
+Solved / Total (All)   :   43 / 1857
+Total Score            :  101
 =====================================
 
 ```
