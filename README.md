@@ -14,6 +14,8 @@ algo
 │   ├── __0210__Course\ Schedule\ II.py
 │   └── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
 ├── BinarySearch
+│   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
+│   ├── __0050__Pow(x,\ n).py
 │   └── __0704__Binary\ Search.py
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
@@ -58,7 +60,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 43 files
+14 directories, 45 files
 
 =====================================
 ============= Local Repo ============
@@ -67,9 +69,11 @@ __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
 __0017__Letter Combinations of a Phone Number.py
 __0021__Merge Two Sorted Lists.py
+__0034__Find First and Last Position of Element in Sorted Array.py
 __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
+__0050__Pow(x, n).py
 __0077__Combinations.py
 __0078__Subsets.py
 __0092__Reverse Linked List II.py
@@ -107,7 +111,7 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  43
+Num of Python Practice:  45
 
 
 =====================================
@@ -117,9 +121,11 @@ Num of Python Practice:  43
  0003 Longest Substring Without Repeating Characters
  0017 Letter Combinations of a Phone Number
  0021 Merge Two Sorted Lists
+ 0034 Find First and Last Position of Element in Sorted Array
  0039 Combination Sum
  0046 Permutations
  0049 Group Anagrams
+ 0050 Pow(x, n)
  0077 Combinations
  0078 Subsets
  0092 Reverse Linked List II
@@ -158,10 +164,10 @@ Num of Python Practice:  43
  0706 Design HashMap
 =====================================
 Solved / Total (Easy)  :   16 /  485
-Solved / Total (Medium):   25 /  980
+Solved / Total (Medium):   27 /  980
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   43 / 1857
-Total Score            :  101
+Solved / Total (All)   :   45 / 1857
+Total Score            :  107
 =====================================
 
 ```
