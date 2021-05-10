@@ -16,6 +16,8 @@ algo
 ├── BinarySearch
 │   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
 │   ├── __0050__Pow(x,\ n).py
+│   ├── __0153__Find\ Minimum\ in\ Rotated\ Sorted\ Array.py
+│   ├── __0162__Find\ Peak\ Element.py
 │   └── __0704__Binary\ Search.py
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
@@ -60,7 +62,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 45 files
+14 directories, 47 files
 
 =====================================
 ============= Local Repo ============
@@ -92,7 +94,9 @@ __0122__Best Time to Buy and Sell Stock II.py
 __0127__Word Ladder.py
 __0133__Clone Graph.py
 __0144__Binary Tree Preorder Traversal.py
+__0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
+__0162__Find Peak Element.py
 __0167__Two Sum II - Input array is sorted.py
 __0199__Binary Tree Right Side View.py
 __0200__Number of Islands.py
@@ -111,7 +115,7 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  45
+Num of Python Practice:  47
 
 
 =====================================
@@ -144,7 +148,9 @@ Num of Python Practice:  45
  0127 Word Ladder
  0133 Clone Graph
  0144 Binary Tree Preorder Traversal
+ 0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
+ 0162 Find Peak Element
  0167 Two Sum II - Input array is sorted
  0199 Binary Tree Right Side View
  0200 Number of Islands
@@ -164,10 +170,10 @@ Num of Python Practice:  45
  0706 Design HashMap
 =====================================
 Solved / Total (Easy)  :   16 /  485
-Solved / Total (Medium):   27 /  980
+Solved / Total (Medium):   29 /  980
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   45 / 1857
-Total Score            :  107
+Solved / Total (All)   :   47 / 1857
+Total Score            :  113
 =====================================
 
 ```
