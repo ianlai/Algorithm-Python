@@ -18,6 +18,7 @@ algo
 │   ├── __0050__Pow(x,\ n).py
 │   ├── __0153__Find\ Minimum\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0162__Find\ Peak\ Element.py
+│   ├── __0658__Find\ K\ Closest\ Elements.py
 │   └── __0704__Binary\ Search.py
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
@@ -62,7 +63,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 47 files
+14 directories, 48 files
 
 =====================================
 ============= Local Repo ============
@@ -111,11 +112,12 @@ __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
 __0617__Merge Two Binary Trees.py
+__0658__Find K Closest Elements.py
 __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  47
+Num of Python Practice:  48
 
 
 =====================================
@@ -165,15 +167,16 @@ Num of Python Practice:  47
  0322 Coin Change
  0347 Top K Frequent Elements
  0617 Merge Two Binary Trees
+ 0658 Find K Closest Elements
  0694 Number of Distinct Islands
  0704 Binary Search
  0706 Design HashMap
 =====================================
-Solved / Total (Easy)  :   16 /  485
-Solved / Total (Medium):   29 /  980
+Solved / Total (Easy)  :   18 /  488
+Solved / Total (Medium):   28 /  977
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   47 / 1857
-Total Score            :  113
+Solved / Total (All)   :   48 / 1857
+Total Score            :  112
 =====================================
 
 ```
