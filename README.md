@@ -16,6 +16,7 @@ algo
 ├── BinarySearch
 │   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
 │   ├── __0050__Pow(x,\ n).py
+│   ├── __0074__Search\ a\ 2D\ Matrix.py
 │   ├── __0153__Find\ Minimum\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0162__Find\ Peak\ Element.py
 │   ├── __0658__Find\ K\ Closest\ Elements.py
@@ -63,7 +64,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 48 files
+14 directories, 49 files
 
 =====================================
 ============= Local Repo ============
@@ -77,6 +78,7 @@ __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
+__0074__Search a 2D Matrix.py
 __0077__Combinations.py
 __0078__Subsets.py
 __0092__Reverse Linked List II.py
@@ -117,7 +119,7 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  48
+Num of Python Practice:  49
 
 
 =====================================
@@ -132,6 +134,7 @@ Num of Python Practice:  48
  0046 Permutations
  0049 Group Anagrams
  0050 Pow(x, n)
+ 0074 Search a 2D Matrix
  0077 Combinations
  0078 Subsets
  0092 Reverse Linked List II
@@ -173,10 +176,10 @@ Num of Python Practice:  48
  0706 Design HashMap
 =====================================
 Solved / Total (Easy)  :   18 /  488
-Solved / Total (Medium):   28 /  977
+Solved / Total (Medium):   29 /  977
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   48 / 1857
-Total Score            :  112
+Solved / Total (All)   :   49 / 1857
+Total Score            :  115
 =====================================
 
 ```
