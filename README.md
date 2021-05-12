@@ -14,11 +14,13 @@ algo
 │   ├── __0210__Course\ Schedule\ II.py
 │   └── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
 ├── BinarySearch
+│   ├── __0033__Search\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
 │   ├── __0050__Pow(x,\ n).py
 │   ├── __0074__Search\ a\ 2D\ Matrix.py
 │   ├── __0153__Find\ Minimum\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0162__Find\ Peak\ Element.py
+│   ├── __0240__Search\ a\ 2D\ Matrix\ II.py
 │   ├── __0658__Find\ K\ Closest\ Elements.py
 │   └── __0704__Binary\ Search.py
 ├── DFS
@@ -64,7 +66,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 49 files
+14 directories, 51 files
 
 =====================================
 ============= Local Repo ============
@@ -73,6 +75,7 @@ __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
 __0017__Letter Combinations of a Phone Number.py
 __0021__Merge Two Sorted Lists.py
+__0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
 __0039__Combination Sum.py
 __0046__Permutations.py
@@ -109,6 +112,7 @@ __0210__Course Schedule II.py
 __0215__Kth Largest Element in an Array.py
 __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
+__0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
@@ -119,7 +123,7 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  49
+Num of Python Practice:  51
 
 
 =====================================
@@ -129,6 +133,7 @@ Num of Python Practice:  49
  0003 Longest Substring Without Repeating Characters
  0017 Letter Combinations of a Phone Number
  0021 Merge Two Sorted Lists
+ 0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0039 Combination Sum
  0046 Permutations
@@ -165,6 +170,7 @@ Num of Python Practice:  49
  0215 Kth Largest Element in an Array
  0226 Invert Binary Tree
  0230 Kth Smallest Element in a BST
+ 0240 Search a 2D Matrix II
  0242 Valid Anagram
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
@@ -176,10 +182,10 @@ Num of Python Practice:  49
  0706 Design HashMap
 =====================================
 Solved / Total (Easy)  :   18 /  488
-Solved / Total (Medium):   29 /  977
+Solved / Total (Medium):   31 /  977
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   49 / 1857
-Total Score            :  115
+Solved / Total (All)   :   51 / 1857
+Total Score            :  121
 =====================================
 
 ```
