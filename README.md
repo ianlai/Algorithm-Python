@@ -1,6 +1,7 @@
 ```
 algo
 ├── Array
+│   ├── __0053__Maximum\ Subarray.py
 │   └── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
@@ -41,9 +42,11 @@ algo
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
 │   ├── __0049__Group\ Anagrams.py
+│   ├── __0287__Find\ the\ Duplicate\ Number.py
 │   └── __0347__Top\ K\ Frequent\ Elements.py
 ├── Heap
-│   └── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
+│   ├── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
+│   └── __0378__Kth\ Smallest\ Element\ in\ a\ Sorted\ Matrix.py
 ├── LinkedList
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
@@ -58,6 +61,7 @@ algo
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
 │   ├── __0100__Same\ Tree.py
 │   ├── __0101__Symmetric\ Tree.py
+│   ├── __0108__Convert\ Sorted\ Array\ to\ Binary\ Search\ Tree.py
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
 │   ├── __0226__Invert\ Binary\ Tree.py
 │   ├── __0230__Kth\ Smallest\ Element\ in\ a\ BST.py
@@ -66,7 +70,7 @@ algo
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 51 files
+14 directories, 55 files
 
 =====================================
 ============= Local Repo ============
@@ -81,6 +85,7 @@ __0039__Combination Sum.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
+__0053__Maximum Subarray.py
 __0074__Search a 2D Matrix.py
 __0077__Combinations.py
 __0078__Subsets.py
@@ -92,6 +97,7 @@ __0101__Symmetric Tree.py
 __0102__Binary Tree Level Order Traversal.py
 __0103__Binary Tree Zigzag Level Order Traversal.py
 __0107__Binary Tree Level Order Traversal II.py
+__0108__Convert Sorted Array to Binary Search Tree.py
 __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
@@ -114,16 +120,18 @@ __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
 __0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
+__0287__Find the Duplicate Number.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
+__0378__Kth Smallest Element in a Sorted Matrix.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
 __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  51
+Num of Python Practice:  55
 
 
 =====================================
@@ -139,6 +147,7 @@ Num of Python Practice:  51
  0046 Permutations
  0049 Group Anagrams
  0050 Pow(x, n)
+ 0053 Maximum Subarray
  0074 Search a 2D Matrix
  0077 Combinations
  0078 Subsets
@@ -150,6 +159,7 @@ Num of Python Practice:  51
  0102 Binary Tree Level Order Traversal
  0103 Binary Tree Zigzag Level Order Traversal
  0107 Binary Tree Level Order Traversal II
+ 0108 Convert Sorted Array to Binary Search Tree
  0111 Minimum Depth of Binary Tree
  0112 Path Sum
  0113 Path Sum II
@@ -172,20 +182,22 @@ Num of Python Practice:  51
  0230 Kth Smallest Element in a BST
  0240 Search a 2D Matrix II
  0242 Valid Anagram
+ 0287 Find the Duplicate Number
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
  0347 Top K Frequent Elements
+ 0378 Kth Smallest Element in a Sorted Matrix
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
  0694 Number of Distinct Islands
  0704 Binary Search
  0706 Design HashMap
 =====================================
-Solved / Total (Easy)  :   18 /  488
-Solved / Total (Medium):   31 /  977
+Solved / Total (Easy)  :   20 /  488
+Solved / Total (Medium):   33 /  978
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   51 / 1857
-Total Score            :  121
+Solved / Total (All)   :   55 / 1858
+Total Score            :  129
 =====================================
 
 ```
