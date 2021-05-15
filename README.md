@@ -65,13 +65,14 @@ algo
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
 │   ├── __0226__Invert\ Binary\ Tree.py
 │   ├── __0230__Kth\ Smallest\ Element\ in\ a\ BST.py
+│   ├── __0235__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Search\ Tree.py
 │   ├── __0236__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Tree.py
 │   └── __0617__Merge\ Two\ Binary\ Trees.py
 └── Two-Pointer
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 56 files
+14 directories, 57 files
 
 =====================================
 ============= Local Repo ============
@@ -119,6 +120,7 @@ __0210__Course Schedule II.py
 __0215__Kth Largest Element in an Array.py
 __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
+__0235__Lowest Common Ancestor of a Binary Search Tree.py
 __0236__Lowest Common Ancestor of a Binary Tree.py
 __0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
@@ -133,7 +135,7 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  56
+Num of Python Practice:  57
 
 
 =====================================
@@ -182,6 +184,7 @@ Num of Python Practice:  56
  0215 Kth Largest Element in an Array
  0226 Invert Binary Tree
  0230 Kth Smallest Element in a BST
+ 0235 Lowest Common Ancestor of a Binary Search Tree
  0236 Lowest Common Ancestor of a Binary Tree
  0240 Search a 2D Matrix II
  0242 Valid Anagram
@@ -196,11 +199,11 @@ Num of Python Practice:  56
  0704 Binary Search
  0706 Design HashMap
 =====================================
-Solved / Total (Easy)  :   20 /  488
+Solved / Total (Easy)  :   21 /  488
 Solved / Total (Medium):   34 /  978
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   56 / 1858
-Total Score            :  132
+Solved / Total (All)   :   57 / 1858
+Total Score            :  133
 =====================================
 
 ```
