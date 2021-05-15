@@ -67,12 +67,13 @@ algo
 │   ├── __0230__Kth\ Smallest\ Element\ in\ a\ BST.py
 │   ├── __0235__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Search\ Tree.py
 │   ├── __0236__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Tree.py
+│   ├── __0257__Binary\ Tree\ Paths.py
 │   └── __0617__Merge\ Two\ Binary\ Trees.py
 └── Two-Pointer
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 57 files
+14 directories, 58 files
 
 =====================================
 ============= Local Repo ============
@@ -124,6 +125,7 @@ __0235__Lowest Common Ancestor of a Binary Search Tree.py
 __0236__Lowest Common Ancestor of a Binary Tree.py
 __0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
+__0257__Binary Tree Paths.py
 __0287__Find the Duplicate Number.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
@@ -135,7 +137,7 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 =====================================
-Num of Python Practice:  57
+Num of Python Practice:  58
 
 
 =====================================
@@ -188,6 +190,7 @@ Num of Python Practice:  57
  0236 Lowest Common Ancestor of a Binary Tree
  0240 Search a 2D Matrix II
  0242 Valid Anagram
+ 0257 Binary Tree Paths
  0287 Find the Duplicate Number
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
@@ -199,11 +202,11 @@ Num of Python Practice:  57
  0704 Binary Search
  0706 Design HashMap
 =====================================
-Solved / Total (Easy)  :   21 /  488
+Solved / Total (Easy)  :   22 /  488
 Solved / Total (Medium):   34 /  978
 Solved / Total (Hard)  :    2 /  392
-Solved / Total (All)   :   57 / 1858
-Total Score            :  133
+Solved / Total (All)   :   58 / 1858
+Total Score            :  134
 =====================================
 
 ```
