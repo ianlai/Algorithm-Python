@@ -6,8 +6,31 @@
 #         self.right = right
 class Solution:
     
-    # Inorder traversal to get the sorted array ; use return val [O(n), 6%]
+    # Inorder traversal, iteration, up to k [O(k + h), 76%]
     def kthSmallest(self, root: TreeNode, k: int) -> int:
+        print("Inorder, iteration")
+        if not root:
+            return None 
+        
+        dummy = TreeNode(0)
+        dummy.right = root
+        stack = [dummy]
+        
+        for _ in range(k):
+            if not stack:
+                return None
+            cur = stack.pop()
+            if cur.right:
+                cur = cur.right
+                while cur:
+                    stack.append(cur)
+                    cur = cur.left
+        return stack[-1].val
+        
+    # =========================================================
+
+    # Inorder traversal to get the sorted array ; use return val [O(n), 6%]
+    def kthSmallest2(self, root: TreeNode, k: int) -> int:
         print("Inorder, recursion, return val")
         if not root:
             return None
