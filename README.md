@@ -35,6 +35,7 @@ algo
 │   ├── __0200__Number\ of\ Islands.py
 │   └── __0694__Number\ of\ Distinct\ Islands.py
 ├── DP
+│   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   └── __0322__Coin\ Change.py
 ├── DataStructure
@@ -54,6 +55,7 @@ algo
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
 ├── Stack
+│   ├── __0020__Valid\ Parentheses.py
 │   └── __0155__Min\ Stack.py
 ├── String
 ├── Tree
@@ -69,12 +71,13 @@ algo
 │   ├── __0236__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Tree.py
 │   ├── __0257__Binary\ Tree\ Paths.py
 │   ├── __0437__Path\ Sum\ III.py
-│   └── __0617__Merge\ Two\ Binary\ Trees.py
+│   ├── __0617__Merge\ Two\ Binary\ Trees.py
+│   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 └── Two-Pointer
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
     └── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
 
-14 directories, 59 files
+14 directories, 62 files
 
 =====================================
 ============= Local Repo ============
@@ -82,6 +85,7 @@ algo
 __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
 __0017__Letter Combinations of a Phone Number.py
+__0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
@@ -90,6 +94,7 @@ __0046__Permutations.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
 __0053__Maximum Subarray.py
+__0070__Climbing Stairs.py
 __0074__Search a 2D Matrix.py
 __0077__Combinations.py
 __0078__Subsets.py
@@ -138,8 +143,9 @@ __0658__Find K Closest Elements.py
 __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
+__0863__All Nodes Distance K in Binary Tree.py
 =====================================
-Num of Python Practice:  59
+Num of Python Practice:  62
 
 
 =====================================
@@ -148,6 +154,7 @@ Num of Python Practice:  59
  0001 Two Sum
  0003 Longest Substring Without Repeating Characters
  0017 Letter Combinations of a Phone Number
+ 0020 Valid Parentheses
  0021 Merge Two Sorted Lists
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
@@ -156,6 +163,7 @@ Num of Python Practice:  59
  0049 Group Anagrams
  0050 Pow(x, n)
  0053 Maximum Subarray
+ 0070 Climbing Stairs
  0074 Search a 2D Matrix
  0077 Combinations
  0078 Subsets
@@ -204,12 +212,13 @@ Num of Python Practice:  59
  0694 Number of Distinct Islands
  0704 Binary Search
  0706 Design HashMap
+ 0863 All Nodes Distance K in Binary Tree
 =====================================
-Solved / Total (Easy)  :   22 /  491
-Solved / Total (Medium):   35 /  982
+Solved / Total (Easy)  :   24 /  491
+Solved / Total (Medium):   36 /  982
 Solved / Total (Hard)  :    2 /  394
-Solved / Total (All)   :   59 / 1867
-Total Score            :  137
+Solved / Total (All)   :   62 / 1867
+Total Score            :  142
 =====================================
 
 ```
