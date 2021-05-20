@@ -78,21 +78,25 @@ algo
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 └── Two-Pointer
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
+    ├── __0011__Container\ With\ Most\ Water.py
     ├── __0015__3Sum.py
+    ├── __0016__3Sum\ Closest.py
     ├── __0125__Valid\ Palindrome.py
     ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
     ├── __0189__Rotate\ Array.py
     ├── __0680__Valid\ Palindrome\ II.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-14 directories, 70 files
+14 directories, 72 files
 
 =====================================
 ============= Local Repo ============
 =====================================
 __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
+__0011__Container With Most Water.py
 __0015__3Sum.py
+__0016__3Sum Closest.py
 __0017__Letter Combinations of a Phone Number.py
 __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
@@ -161,7 +165,7 @@ __0706__Design HashMap.py
 __0863__All Nodes Distance K in Binary Tree.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  70
+Num of Python Practice:  72
 
 
 =====================================
@@ -169,7 +173,9 @@ Num of Python Practice:  70
 =====================================
  0001 Two Sum
  0003 Longest Substring Without Repeating Characters
+ 0011 Container With Most Water
  0015 3Sum
+ 0016 3Sum Closest
  0017 Letter Combinations of a Phone Number
  0020 Valid Parentheses
  0021 Merge Two Sorted Lists
@@ -239,10 +245,10 @@ Num of Python Practice:  70
  1099 Two Sum Less Than K
 =====================================
 Solved / Total (Easy)  :   28 /  490
-Solved / Total (Medium):   40 /  983
+Solved / Total (Medium):   42 /  983
 Solved / Total (Hard)  :    2 /  394
-Solved / Total (All)   :   70 / 1867
-Total Score            :  158
+Solved / Total (All)   :   72 / 1867
+Total Score            :  164
 =====================================
 
 ```
