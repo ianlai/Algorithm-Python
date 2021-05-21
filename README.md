@@ -24,6 +24,8 @@ algo
 │   ├── __0240__Search\ a\ 2D\ Matrix\ II.py
 │   ├── __0658__Find\ K\ Closest\ Elements.py
 │   └── __0704__Binary\ Search.py
+├── BitOperation
+│   └── __0136__Single\ Number.py
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
 │   ├── __0039__Combination\ Sum.py
@@ -78,26 +80,30 @@ algo
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 └── Two-Pointer
     ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
+    ├── __0005__Longest\ Palindromic\ Substring.py
     ├── __0011__Container\ With\ Most\ Water.py
     ├── __0015__3Sum.py
     ├── __0016__3Sum\ Closest.py
+    ├── __0018__4Sum.py
     ├── __0125__Valid\ Palindrome.py
     ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
     ├── __0189__Rotate\ Array.py
     ├── __0680__Valid\ Palindrome\ II.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-14 directories, 72 files
+15 directories, 75 files
 
 =====================================
 ============= Local Repo ============
 =====================================
 __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
+__0005__Longest Palindromic Substring.py
 __0011__Container With Most Water.py
 __0015__3Sum.py
 __0016__3Sum Closest.py
 __0017__Letter Combinations of a Phone Number.py
+__0018__4Sum.py
 __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0033__Search in Rotated Sorted Array.py
@@ -129,6 +135,7 @@ __0122__Best Time to Buy and Sell Stock II.py
 __0125__Valid Palindrome.py
 __0127__Word Ladder.py
 __0133__Clone Graph.py
+__0136__Single Number.py
 __0144__Binary Tree Preorder Traversal.py
 __0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
@@ -165,7 +172,7 @@ __0706__Design HashMap.py
 __0863__All Nodes Distance K in Binary Tree.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  72
+Num of Python Practice:  75
 
 
 =====================================
@@ -173,10 +180,12 @@ Num of Python Practice:  72
 =====================================
  0001 Two Sum
  0003 Longest Substring Without Repeating Characters
+ 0005 Longest Palindromic Substring
  0011 Container With Most Water
  0015 3Sum
  0016 3Sum Closest
  0017 Letter Combinations of a Phone Number
+ 0018 4Sum
  0020 Valid Parentheses
  0021 Merge Two Sorted Lists
  0033 Search in Rotated Sorted Array
@@ -208,6 +217,7 @@ Num of Python Practice:  72
  0125 Valid Palindrome
  0127 Word Ladder
  0133 Clone Graph
+ 0136 Single Number
  0144 Binary Tree Preorder Traversal
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
@@ -244,11 +254,11 @@ Num of Python Practice:  72
  0863 All Nodes Distance K in Binary Tree
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   28 /  490
-Solved / Total (Medium):   42 /  983
+Solved / Total (Easy)  :   29 /  490
+Solved / Total (Medium):   44 /  984
 Solved / Total (Hard)  :    2 /  394
-Solved / Total (All)   :   72 / 1867
-Total Score            :  164
+Solved / Total (All)   :   75 / 1868
+Total Score            :  171
 =====================================
 
 ```
