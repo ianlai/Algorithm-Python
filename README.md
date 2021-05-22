@@ -85,13 +85,17 @@ algo
     ├── __0015__3Sum.py
     ├── __0016__3Sum\ Closest.py
     ├── __0018__4Sum.py
+    ├── __0075__Sort\ Colors.py
     ├── __0125__Valid\ Palindrome.py
     ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
     ├── __0189__Rotate\ Array.py
     ├── __0680__Valid\ Palindrome\ II.py
+    ├── __0905__Sort\ Array\ By\ Parity.py
+    ├── __0912__Sort\ an\ Array.py
+    ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 75 files
+15 directories, 79 files
 
 =====================================
 ============= Local Repo ============
@@ -115,6 +119,7 @@ __0050__Pow(x, n).py
 __0053__Maximum Subarray.py
 __0070__Climbing Stairs.py
 __0074__Search a 2D Matrix.py
+__0075__Sort Colors.py
 __0077__Combinations.py
 __0078__Subsets.py
 __0092__Reverse Linked List II.py
@@ -170,9 +175,12 @@ __0694__Number of Distinct Islands.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 __0863__All Nodes Distance K in Binary Tree.py
+__0905__Sort Array By Parity.py
+__0912__Sort an Array.py
+__0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  75
+Num of Python Practice:  79
 
 
 =====================================
@@ -197,6 +205,7 @@ Num of Python Practice:  75
  0053 Maximum Subarray
  0070 Climbing Stairs
  0074 Search a 2D Matrix
+ 0075 Sort Colors
  0077 Combinations
  0078 Subsets
  0092 Reverse Linked List II
@@ -252,13 +261,16 @@ Num of Python Practice:  75
  0704 Binary Search
  0706 Design HashMap
  0863 All Nodes Distance K in Binary Tree
+ 0905 Sort Array By Parity
+ 0912 Sort an Array
+ 0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   29 /  490
-Solved / Total (Medium):   44 /  984
-Solved / Total (Hard)  :    2 /  394
-Solved / Total (All)   :   75 / 1868
-Total Score            :  171
+Solved / Total (Easy)  :   30 /  490
+Solved / Total (Medium):   47 /  985
+Solved / Total (Hard)  :    2 /  393
+Solved / Total (All)   :   79 / 1868
+Total Score            :  181
 =====================================
 
 ```
