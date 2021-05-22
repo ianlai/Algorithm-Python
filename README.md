@@ -92,10 +92,11 @@ algo
     ├── __0680__Valid\ Palindrome\ II.py
     ├── __0905__Sort\ Array\ By\ Parity.py
     ├── __0912__Sort\ an\ Array.py
+    ├── __0922__Sort\ Array\ By\ Parity\ II.py
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 79 files
+15 directories, 80 files
 
 =====================================
 ============= Local Repo ============
@@ -177,10 +178,11 @@ __0706__Design HashMap.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
+__0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  79
+Num of Python Practice:  80
 
 
 =====================================
@@ -263,14 +265,15 @@ Num of Python Practice:  79
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
  0912 Sort an Array
+ 0922 Sort Array By Parity II
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   30 /  490
+Solved / Total (Easy)  :   31 /  490
 Solved / Total (Medium):   47 /  985
 Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   79 / 1868
-Total Score            :  181
+Solved / Total (All)   :   80 / 1868
+Total Score            :  182
 =====================================
 
 ```
