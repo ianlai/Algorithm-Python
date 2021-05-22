@@ -201,9 +201,9 @@ def draw(dates, values):
     #     axs[0].annotate(str(j), xy=(i, j + annotate_y_offset - 5))
     for i in range(len(leetnumber)):
         axs[0].annotate(leetnumber[i]  , xy=(dates[i], leetnumber[i] + annotate_y_offset ), fontweight = 'bold')
-        #axs[0].annotate(hardNumber[i]  , xy=(dates[i], leetnumber[i] - annotate_y_offset - 0), fontsize = 9)
-        axs[0].annotate(mediumNumber[i], xy=(dates[i], easyNumber[i] + mediumNumber[i] - annotate_y_offset), fontsize = 9)
-        #axs[0].annotate(easyNumber[i]  , xy=(dates[i], easyNumber[i] - annotate_y_offset) ,fontsize = 9)
+        axs[0].annotate(hardNumber[i]  , xy=(dates[i], leetnumber[i] - annotate_y_offset ), fontsize = 9, color='#b00e2c')
+        axs[0].annotate(mediumNumber[i], xy=(dates[i], easyNumber[i] + mediumNumber[i] - annotate_y_offset - 7), fontsize = 9 , color='#c9891a')
+        axs[0].annotate(easyNumber[i]  , xy=(dates[i], easyNumber[i] - annotate_y_offset) ,fontsize = 9, color='#3e7d23')
 
     # review number (gray line)
     # for i in range(len(reviewNumber)):
