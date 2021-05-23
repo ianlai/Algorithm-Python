@@ -1,8 +1,47 @@
-class Solution:
+class Solution:    
+    
+    # Merge Sort (Python style) [Time: O(nlogn), 22% / Space: O(n), 16%]
+    def sortArray(self, nums: List[int]) -> List[int]:
+        print("MergeSort (Python Style)")
+        def mergeSort(nums):
+            if not nums: 
+                return []
+            if len(nums) == 1:  #MUST, otherwise it will go into an infinite loop
+                return nums
+            
+            mid = len(nums) // 2 
+            leftList = nums[:mid]
+            rightList = nums[mid:]
+            
+            leftList = mergeSort(leftList)
+            rightList = mergeSort(rightList)
+            result = merge(leftList, rightList)
+            return result
+            
+        def merge(leftList, rightList):
+            #print("merge", leftList, rightList)
+            if not leftList and not rightList:
+                return []
+            result = []
+            left, right = 0, 0 
+            while left < len(leftList) and right < len(rightList):
+                if leftList[left] <= rightList[right]:
+                    result.append(leftList[left])
+                    left += 1 
+                else:
+                    result.append(rightList[right])
+                    right += 1 
+            if right == len(rightList):
+                result.extend(leftList[left:])
+            if left == len(leftList):
+                result.extend(rightList[right:])
+            return result
+        
+        return mergeSort(nums)
     
     # ================================================
     # Merge Sort (Java style) [Time: O(nlogn), 11% / Space: O(n), 47%]
-    def sortArray(self, nums: List[int]) -> List[int]:
+    def sortArray3(self, nums: List[int]) -> List[int]:
         print("MergeSort (Java Style)")
         def mergeSort(nums, start, end, temp):
             #print("mergeSort(", start, ",", end, ")")
@@ -49,7 +88,6 @@ class Solution:
             for i in range(start, end + 1):  # only this interval, not whole nums
                 nums[i] = temp[i]
 
-                
         temp = [0] * len(nums)
         mergeSort(nums, 0, len(nums) - 1, temp)
         
