@@ -89,6 +89,7 @@ algo
     ├── __0125__Valid\ Palindrome.py
     ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
     ├── __0189__Rotate\ Array.py
+    ├── __0532__K-diff\ Pairs\ in\ an\ Array.py
     ├── __0680__Valid\ Palindrome\ II.py
     ├── __0905__Sort\ Array\ By\ Parity.py
     ├── __0912__Sort\ an\ Array.py
@@ -96,7 +97,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 80 files
+15 directories, 81 files
 
 =====================================
 ============= Local Repo ============
@@ -169,6 +170,7 @@ __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0437__Path Sum III.py
+__0532__K-diff Pairs in an Array.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
 __0680__Valid Palindrome II.py
@@ -182,7 +184,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  80
+Num of Python Practice:  81
 
 
 =====================================
@@ -256,6 +258,7 @@ Num of Python Practice:  80
  0347 Top K Frequent Elements
  0378 Kth Smallest Element in a Sorted Matrix
  0437 Path Sum III
+ 0532 K-diff Pairs in an Array
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
  0680 Valid Palindrome II
@@ -269,11 +272,11 @@ Num of Python Practice:  80
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   31 /  490
-Solved / Total (Medium):   47 /  985
-Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   80 / 1868
-Total Score            :  182
+Solved / Total (Easy)  :   31 /  491
+Solved / Total (Medium):   48 /  987
+Solved / Total (Hard)  :    2 /  394
+Solved / Total (All)   :   81 / 1872
+Total Score            :  185
 =====================================
 
 ```
