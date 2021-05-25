@@ -35,7 +35,8 @@ algo
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
 │   ├── __0200__Number\ of\ Islands.py
-│   └── __0694__Number\ of\ Distinct\ Islands.py
+│   ├── __0694__Number\ of\ Distinct\ Islands.py
+│   └── __0695__Max\ Area\ of\ Island.py
 ├── DP
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -97,7 +98,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 81 files
+15 directories, 82 files
 
 =====================================
 ============= Local Repo ============
@@ -175,6 +176,7 @@ __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
 __0680__Valid Palindrome II.py
 __0694__Number of Distinct Islands.py
+__0695__Max Area of Island.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 __0863__All Nodes Distance K in Binary Tree.py
@@ -184,7 +186,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  81
+Num of Python Practice:  82
 
 
 =====================================
@@ -263,6 +265,7 @@ Num of Python Practice:  81
  0658 Find K Closest Elements
  0680 Valid Palindrome II
  0694 Number of Distinct Islands
+ 0695 Max Area of Island
  0704 Binary Search
  0706 Design HashMap
  0863 All Nodes Distance K in Binary Tree
@@ -272,11 +275,11 @@ Num of Python Practice:  81
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   31 /  491
-Solved / Total (Medium):   48 /  987
-Solved / Total (Hard)  :    2 /  394
-Solved / Total (All)   :   81 / 1872
-Total Score            :  185
+Solved / Total (Easy)  :   31 /  493
+Solved / Total (Medium):   49 /  987
+Solved / Total (Hard)  :    2 /  393
+Solved / Total (All)   :   82 / 1873
+Total Score            :  188
 =====================================
 
 ```
