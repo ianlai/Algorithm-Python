@@ -31,6 +31,7 @@ algo
 │   ├── __0039__Combination\ Sum.py
 │   ├── __0040__Combination\ Sum\ II.py
 │   ├── __0046__Permutations.py
+│   ├── __0047__Permutations\ II.py
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
 │   ├── __0112__Path\ Sum.py
@@ -99,7 +100,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 83 files
+15 directories, 84 files
 
 =====================================
 ============= Local Repo ============
@@ -119,6 +120,7 @@ __0034__Find First and Last Position of Element in Sorted Array.py
 __0039__Combination Sum.py
 __0040__Combination Sum II.py
 __0046__Permutations.py
+__0047__Permutations II.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
 __0053__Maximum Subarray.py
@@ -188,7 +190,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  83
+Num of Python Practice:  84
 
 
 =====================================
@@ -209,6 +211,7 @@ Num of Python Practice:  83
  0039 Combination Sum
  0040 Combination Sum II
  0046 Permutations
+ 0047 Permutations II
  0049 Group Anagrams
  0050 Pow(x, n)
  0053 Maximum Subarray
@@ -279,10 +282,10 @@ Num of Python Practice:  83
  1099 Two Sum Less Than K
 =====================================
 Solved / Total (Easy)  :   31 /  493
-Solved / Total (Medium):   50 /  987
+Solved / Total (Medium):   51 /  987
 Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   83 / 1873
-Total Score            :  191
+Solved / Total (All)   :   84 / 1873
+Total Score            :  194
 =====================================
 
 ```
