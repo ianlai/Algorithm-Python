@@ -29,6 +29,7 @@ algo
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
 │   ├── __0039__Combination\ Sum.py
+│   ├── __0040__Combination\ Sum\ II.py
 │   ├── __0046__Permutations.py
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
@@ -98,7 +99,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 82 files
+15 directories, 83 files
 
 =====================================
 ============= Local Repo ============
@@ -116,6 +117,7 @@ __0021__Merge Two Sorted Lists.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
 __0039__Combination Sum.py
+__0040__Combination Sum II.py
 __0046__Permutations.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
@@ -186,7 +188,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  82
+Num of Python Practice:  83
 
 
 =====================================
@@ -205,6 +207,7 @@ Num of Python Practice:  82
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0039 Combination Sum
+ 0040 Combination Sum II
  0046 Permutations
  0049 Group Anagrams
  0050 Pow(x, n)
@@ -276,10 +279,10 @@ Num of Python Practice:  82
  1099 Two Sum Less Than K
 =====================================
 Solved / Total (Easy)  :   31 /  493
-Solved / Total (Medium):   49 /  987
+Solved / Total (Medium):   50 /  987
 Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   82 / 1873
-Total Score            :  188
+Solved / Total (All)   :   83 / 1873
+Total Score            :  191
 =====================================
 
 ```
