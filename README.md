@@ -38,6 +38,7 @@ algo
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
 │   ├── __0200__Number\ of\ Islands.py
+│   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   └── __0695__Max\ Area\ of\ Island.py
 ├── DP
@@ -101,7 +102,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 85 files
+15 directories, 86 files
 
 =====================================
 ============= Local Repo ============
@@ -178,6 +179,7 @@ __0347__Top K Frequent Elements.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
+__0560__Subarray Sum Equals K.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
 __0680__Valid Palindrome II.py
@@ -192,7 +194,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  85
+Num of Python Practice:  86
 
 
 =====================================
@@ -270,6 +272,7 @@ Num of Python Practice:  85
  0378 Kth Smallest Element in a Sorted Matrix
  0437 Path Sum III
  0532 K-diff Pairs in an Array
+ 0560 Subarray Sum Equals K
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
  0680 Valid Palindrome II
@@ -285,10 +288,10 @@ Num of Python Practice:  85
  1099 Two Sum Less Than K
 =====================================
 Solved / Total (Easy)  :   31 /  493
-Solved / Total (Medium):   52 /  988
+Solved / Total (Medium):   53 /  988
 Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   85 / 1874
-Total Score            :  197
+Solved / Total (All)   :   86 / 1874
+Total Score            :  200
 =====================================
 
 ```
