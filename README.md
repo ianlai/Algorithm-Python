@@ -40,7 +40,8 @@ algo
 │   ├── __0200__Number\ of\ Islands.py
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
-│   └── __0695__Max\ Area\ of\ Island.py
+│   ├── __0695__Max\ Area\ of\ Island.py
+│   └── __0784__Letter\ Case\ Permutation.py
 ├── DP
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -102,7 +103,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 86 files
+15 directories, 87 files
 
 =====================================
 ============= Local Repo ============
@@ -187,6 +188,7 @@ __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
+__0784__Letter Case Permutation.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
@@ -194,7 +196,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  86
+Num of Python Practice:  87
 
 
 =====================================
@@ -280,6 +282,7 @@ Num of Python Practice:  86
  0695 Max Area of Island
  0704 Binary Search
  0706 Design HashMap
+ 0784 Letter Case Permutation
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
  0912 Sort an Array
@@ -288,10 +291,10 @@ Num of Python Practice:  86
  1099 Two Sum Less Than K
 =====================================
 Solved / Total (Easy)  :   31 /  493
-Solved / Total (Medium):   53 /  988
+Solved / Total (Medium):   54 /  988
 Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   86 / 1874
-Total Score            :  200
+Solved / Total (All)   :   87 / 1874
+Total Score            :  203
 =====================================
 
 ```
