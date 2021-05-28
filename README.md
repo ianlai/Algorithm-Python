@@ -34,10 +34,12 @@ algo
 │   ├── __0047__Permutations\ II.py
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
+│   ├── __0079__Word\ Search.py
 │   ├── __0090__Subsets\ II.py
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
 │   ├── __0200__Number\ of\ Islands.py
+│   ├── __0401__Binary\ Watch.py
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
@@ -103,7 +105,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 87 files
+15 directories, 89 files
 
 =====================================
 ============= Local Repo ============
@@ -132,6 +134,7 @@ __0074__Search a 2D Matrix.py
 __0075__Sort Colors.py
 __0077__Combinations.py
 __0078__Subsets.py
+__0079__Word Search.py
 __0090__Subsets II.py
 __0092__Reverse Linked List II.py
 __0094__Binary Tree Inorder Traversal.py 
@@ -178,6 +181,7 @@ __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
+__0401__Binary Watch.py
 __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
 __0560__Subarray Sum Equals K.py
@@ -196,7 +200,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  87
+Num of Python Practice:  89
 
 
 =====================================
@@ -214,6 +218,7 @@ Num of Python Practice:  87
  0021 Merge Two Sorted Lists
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
+ 0036 Valid Sudoku
  0039 Combination Sum
  0040 Combination Sum II
  0046 Permutations
@@ -226,6 +231,7 @@ Num of Python Practice:  87
  0075 Sort Colors
  0077 Combinations
  0078 Subsets
+ 0079 Word Search
  0090 Subsets II
  0092 Reverse Linked List II
  0094 Binary Tree Inorder Traversal
@@ -272,6 +278,7 @@ Num of Python Practice:  87
  0322 Coin Change
  0347 Top K Frequent Elements
  0378 Kth Smallest Element in a Sorted Matrix
+ 0401 Binary Watch
  0437 Path Sum III
  0532 K-diff Pairs in an Array
  0560 Subarray Sum Equals K
@@ -290,11 +297,11 @@ Num of Python Practice:  87
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   31 /  493
-Solved / Total (Medium):   54 /  988
+Solved / Total (Easy)  :   32 /  493
+Solved / Total (Medium):   56 /  988
 Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   87 / 1874
-Total Score            :  203
+Solved / Total (All)   :   90 / 1874
+Total Score            :  210
 =====================================
 
 ```
