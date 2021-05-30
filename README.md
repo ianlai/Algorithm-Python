@@ -32,6 +32,7 @@ algo
 │   ├── __0040__Combination\ Sum\ II.py
 │   ├── __0046__Permutations.py
 │   ├── __0047__Permutations\ II.py
+│   ├── __0051__N-Queens.py
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
 │   ├── __0079__Word\ Search.py
@@ -39,11 +40,13 @@ algo
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
 │   ├── __0200__Number\ of\ Islands.py
+│   ├── __0216__Combination\ Sum\ III.py
 │   ├── __0401__Binary\ Watch.py
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
-│   └── __0784__Letter\ Case\ Permutation.py
+│   ├── __0784__Letter\ Case\ Permutation.py
+│   └── ______0212__Word\ Search\ II.py\ 
 ├── DP
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -105,7 +108,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 89 files
+15 directories, 92 files
 
 =====================================
 ============= Local Repo ============
@@ -128,6 +131,7 @@ __0046__Permutations.py
 __0047__Permutations II.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
+__0051__N-Queens.py
 __0053__Maximum Subarray.py
 __0070__Climbing Stairs.py
 __0074__Search a 2D Matrix.py
@@ -168,6 +172,7 @@ __0206__Reverse Linked List.py
 __0207__Course Schedule.py
 __0210__Course Schedule II.py
 __0215__Kth Largest Element in an Array.py
+__0216__Combination Sum III.py
 __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
 __0235__Lowest Common Ancestor of a Binary Search Tree.py
@@ -199,8 +204,9 @@ __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
+______0212__Word Search II.py 
 =====================================
-Num of Python Practice:  89
+Num of Python Practice:  92
 
 
 =====================================
@@ -225,6 +231,7 @@ Num of Python Practice:  89
  0047 Permutations II
  0049 Group Anagrams
  0050 Pow(x, n)
+ 0051 N-Queens
  0053 Maximum Subarray
  0070 Climbing Stairs
  0074 Search a 2D Matrix
@@ -265,6 +272,7 @@ Num of Python Practice:  89
  0207 Course Schedule
  0210 Course Schedule II
  0215 Kth Largest Element in an Array
+ 0216 Combination Sum III
  0226 Invert Binary Tree
  0230 Kth Smallest Element in a BST
  0235 Lowest Common Ancestor of a Binary Search Tree
@@ -297,11 +305,11 @@ Num of Python Practice:  89
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   32 /  493
-Solved / Total (Medium):   56 /  988
-Solved / Total (Hard)  :    2 /  393
-Solved / Total (All)   :   90 / 1874
-Total Score            :  210
+Solved / Total (Easy)  :   32 /  496
+Solved / Total (Medium):   57 /  992
+Solved / Total (Hard)  :    3 /  395
+Solved / Total (All)   :   92 / 1883
+Total Score            :  218
 =====================================
 
 ```
