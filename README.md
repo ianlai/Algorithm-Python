@@ -33,6 +33,7 @@ algo
 │   ├── __0046__Permutations.py
 │   ├── __0047__Permutations\ II.py
 │   ├── __0051__N-Queens.py
+│   ├── __0052__N-Queens\ II.py
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
 │   ├── __0079__Word\ Search.py
@@ -108,7 +109,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 92 files
+15 directories, 93 files
 
 =====================================
 ============= Local Repo ============
@@ -132,6 +133,7 @@ __0047__Permutations II.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
 __0051__N-Queens.py
+__0052__N-Queens II.py
 __0053__Maximum Subarray.py
 __0070__Climbing Stairs.py
 __0074__Search a 2D Matrix.py
@@ -206,7 +208,7 @@ __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 ______0212__Word Search II.py 
 =====================================
-Num of Python Practice:  92
+Num of Python Practice:  93
 
 
 =====================================
@@ -232,6 +234,7 @@ Num of Python Practice:  92
  0049 Group Anagrams
  0050 Pow(x, n)
  0051 N-Queens
+ 0052 N-Queens II
  0053 Maximum Subarray
  0070 Climbing Stairs
  0074 Search a 2D Matrix
@@ -305,11 +308,11 @@ Num of Python Practice:  92
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   32 /  496
-Solved / Total (Medium):   57 /  992
-Solved / Total (Hard)  :    3 /  395
-Solved / Total (All)   :   92 / 1883
-Total Score            :  218
+Solved / Total (Easy)  :   32 /  495
+Solved / Total (Medium):   57 /  993
+Solved / Total (Hard)  :    4 /  395
+Solved / Total (All)   :   93 / 1883
+Total Score            :  223
 =====================================
 
 ```
