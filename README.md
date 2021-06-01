@@ -28,6 +28,7 @@ algo
 │   └── __0136__Single\ Number.py
 ├── DFS
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
+│   ├── __0037__Sudoku\ Solver.py
 │   ├── __0039__Combination\ Sum.py
 │   ├── __0040__Combination\ Sum\ II.py
 │   ├── __0046__Permutations.py
@@ -109,7 +110,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 93 files
+15 directories, 94 files
 
 =====================================
 ============= Local Repo ============
@@ -126,6 +127,7 @@ __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
+__0037__Sudoku Solver.py
 __0039__Combination Sum.py
 __0040__Combination Sum II.py
 __0046__Permutations.py
@@ -208,7 +210,7 @@ __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 ______0212__Word Search II.py 
 =====================================
-Num of Python Practice:  93
+Num of Python Practice:  94
 
 
 =====================================
@@ -227,6 +229,7 @@ Num of Python Practice:  93
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0036 Valid Sudoku
+ 0037 Sudoku Solver
  0039 Combination Sum
  0040 Combination Sum II
  0046 Permutations
@@ -310,9 +313,9 @@ Num of Python Practice:  93
 =====================================
 Solved / Total (Easy)  :   32 /  495
 Solved / Total (Medium):   57 /  993
-Solved / Total (Hard)  :    4 /  395
-Solved / Total (All)   :   93 / 1883
-Total Score            :  223
+Solved / Total (Hard)  :    5 /  395
+Solved / Total (All)   :   94 / 1883
+Total Score            :  228
 =====================================
 
 ```

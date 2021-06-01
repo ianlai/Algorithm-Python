@@ -2,7 +2,7 @@ class Solution:
     
     # DFS [O(n!), 27%] 
     # - 時間複雜度不是O(n^n)，因為每次可以選的位置都會少1
-    # - 要在這圈做還是下一圈做，順序要搞清楚 
+    # - 要在這圈做還是下一圈做，順序要搞清楚 (0051我的寫法是在此層加，0052我寫在下層加入，都可以)
     #   (e.g. isValid, result creation, cur append, loop, cur backtrack)
     def solveNQueens(self, n: int) -> List[List[str]]:
         if n == 0:

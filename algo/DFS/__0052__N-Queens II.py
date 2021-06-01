@@ -5,16 +5,16 @@ class Solution:
         if n <= 0:
             return 0
         
-        results = [0]
+        results = []
         self.dfs(n, 0, [], results)
-        #print(results)
-        #return len(results)
-        return results[0]
+        print(results)
+        return len(results)
+        #return results[0]
     
     def dfs(self, n, row, cur, results):
         if row == n:
-            #results.append(cur) #Store all methods (not correct yet)
-            results[0] +=1       #Store the number of methods only
+            results.append(list(cur)) #Store all methods
+            #results[0] +=1       #Store the number of methods only
             return 
         
         for i in range(n):
