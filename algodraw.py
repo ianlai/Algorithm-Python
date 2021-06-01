@@ -35,6 +35,7 @@ FILE_IMAGE_SCORE202008 = FILE_PREFIX_SCORE + "_202008" + ".png"
 
 FILE_IMAGE_SCORE202104 = FILE_PREFIX_SCORE + "_202104" + ".png"
 FILE_IMAGE_SCORE202105 = FILE_PREFIX_SCORE + "_202105" + ".png"
+FILE_IMAGE_SCORE202106 = FILE_PREFIX_SCORE + "_202106" + ".png"
 
 
 
@@ -279,6 +280,13 @@ def draw(dates, values):
     axs[1].set_title("Score (2021.05)", fontweight = 'bold')
     axs[0].set_xlim(datetime.datetime(2021,5,1), datetime.datetime(2021,5,31)) 
     plt.savefig(FILE_IMAGE_SCORE202105)
+
+    axs[1].set(xlabel="Date", ylabel="Score",
+        title="Score of Quiz (2021.06)")
+    axs[0].set_title("Number of Problems (2021.06)", fontweight = 'bold')
+    axs[1].set_title("Score (2021.06)", fontweight = 'bold')
+    axs[0].set_xlim(datetime.datetime(2021,6,1), datetime.datetime(2021,6,30)) 
+    plt.savefig(FILE_IMAGE_SCORE202106)
 
     # plt.show()
 

@@ -1,0 +1,111 @@
+class Solution:
+    
+    
+    # DFS + PrefixSet, check and add in the next layer, use string as cur (TLE)
+    def findWords1(self, board: List[List[str]], words: List[str]) -> List[str]:
+        if len(board) == 0 or len(board[0]) == 0 or len(words) == 0:
+            return []
+        
+        m = len(board)
+        n = len(board[0])
+        prefixSet = set("")
+        visited = [[0 for _ in range(n)] for _ in range(m)] 
+        results = set()  #remove redundancies 
+        
+        #create prefixSet
+        for word in words:
+            for i in range(len(word) + 1):
+                prefixSet.add(word[:i])
+        #print(prefixSet)
+        
+        for i in range(m):
+            for j in range(n):
+                #print(board[i][j])
+                visited[i][j] = 1
+                self.dfs2(board, words, prefixSet, i, j, board[i][j], visited, results) #cur starts with board[i][j]
+                visited[i][j] = 0  #backtracking 
+        return list(results)
+    
+    def dfs2(self, board, words, prefixSet, i, j, cur, visited, results):
+        curStr = "".join(cur)
+        if curStr not in prefixSet:
+            return 
+        if curStr in words: 
+            results.add(curStr)
+            # keep searching
+        
+        m = len(board)
+        n = len(board[0])
+        dirs = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        
+        # next 
+        for d in dirs:
+            nextI = i + d[0]
+            nextJ = j + d[1]
+            
+            # current
+            if not (0 <= nextI < m and 0 <= nextJ < n): #check the board 
+                continue
+            if visited[nextI][nextJ] == 1: #remove the redundancies
+                continue        
+            
+            visited[nextI][nextJ] = 1
+            nextWord = board[nextI][nextJ]
+            #print(">>> ", nextI, nextJ, cur + nextWord)
+            self.dfs2(board, words, prefixSet, nextI, nextJ, cur + nextWord, visited, results)  #concatanate the cur string 
+            visited[nextI][nextJ] = 0         # backtracking
+
+    # ===========================================
+         
+    # DFS + PrefixSet, check and add in the current layer, use list as cur (TLE)
+    def findWords1(self, board: List[List[str]], words: List[str]) -> List[str]:
+        if len(board) == 0 or len(board[0]) == 0 or len(words) == 0:
+            return []
+        
+        m = len(board)
+        n = len(board[0])
+        prefixSet = set("")
+        visited = [[0 for _ in range(n)] for _ in range(m)] 
+        results = set()  #remove redundancies 
+        
+        #create prefixSet
+        for word in words:
+            for i in range(len(word) + 1):
+                prefixSet.add(word[:i])
+        print(prefixSet)
+        
+        for i in range(m):
+            for j in range(n):
+                self.dfs1(board, words, prefixSet, i, j, [], visited, results)
+        return list(results)
+    
+    def dfs1(self, board, words, prefixSet, i, j, cur, visited, results):
+        curStr = "".join(cur)
+        if curStr not in prefixSet:
+            return 
+        if curStr in words: 
+            results.add(curStr)
+            # keep searching
+        
+        m = len(board)
+        n = len(board[0])
+        dirs = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+
+        # current
+        if not (0 <= i < m and 0 <= j < n): #check the board 
+            return 
+        if visited[i][j] == 1: #remove the redundancies
+            return 
+        cur.append(board[i][j])
+        #print(curStr, cur)
+        
+        # next 
+        visited[i][j] = 1
+        for d in dirs:
+            nextI = i + d[0]
+            nextJ = j + d[1]
+            self.dfs1(board, words, prefixSet, nextI, nextJ, cur, visited, results)
+        
+        # backtrack 
+        visited[i][j] = 0
+        cur.pop()
