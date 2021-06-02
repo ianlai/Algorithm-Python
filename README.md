@@ -2,7 +2,8 @@
 algo
 ├── Array
 │   ├── __0053__Maximum\ Subarray.py
-│   └── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
+│   ├── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
+│   └── __0670__Maximum\ Swap.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
 │   ├── __0103__Binary\ Tree\ Zigzag\ Level\ Order\ Traversal.py
@@ -27,7 +28,9 @@ algo
 ├── BitOperation
 │   └── __0136__Single\ Number.py
 ├── DFS
+│   ├── _0212
 │   ├── __0017__Letter\ Combinations\ of\ a\ Phone\ Number.py
+│   ├── __0022__Generate\ Parentheses.py
 │   ├── __0037__Sudoku\ Solver.py
 │   ├── __0039__Combination\ Sum.py
 │   ├── __0040__Combination\ Sum\ II.py
@@ -47,8 +50,7 @@ algo
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
-│   ├── __0784__Letter\ Case\ Permutation.py
-│   └── ______0212__Word\ Search\ II.py\ 
+│   └── __0784__Letter\ Case\ Permutation.py
 ├── DP
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -89,6 +91,7 @@ algo
 │   ├── __0257__Binary\ Tree\ Paths.py
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
 │   ├── __0437__Path\ Sum\ III.py
+│   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 └── Two-Pointer
@@ -110,7 +113,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 94 files
+15 directories, 97 files
 
 =====================================
 ============= Local Repo ============
@@ -125,6 +128,7 @@ __0017__Letter Combinations of a Phone Number.py
 __0018__4Sum.py
 __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
+__0022__Generate Parentheses.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
 __0037__Sudoku Solver.py
@@ -193,9 +197,11 @@ __0378__Kth Smallest Element in a Sorted Matrix.py
 __0401__Binary Watch.py
 __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
+__0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
+__0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
@@ -208,9 +214,8 @@ __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
-______0212__Word Search II.py 
 =====================================
-Num of Python Practice:  94
+Num of Python Practice:  96
 
 
 =====================================
@@ -226,6 +231,7 @@ Num of Python Practice:  94
  0018 4Sum
  0020 Valid Parentheses
  0021 Merge Two Sorted Lists
+ 0022 Generate Parentheses
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0036 Valid Sudoku
@@ -295,9 +301,11 @@ Num of Python Practice:  94
  0401 Binary Watch
  0437 Path Sum III
  0532 K-diff Pairs in an Array
+ 0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
+ 0670 Maximum Swap
  0680 Valid Palindrome II
  0694 Number of Distinct Islands
  0695 Max Area of Island
@@ -311,13 +319,14 @@ Num of Python Practice:  94
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   32 /  495
-Solved / Total (Medium):   57 /  993
+Solved / Total (Easy)  :   33 /  495
+Solved / Total (Medium):   59 /  994
 Solved / Total (Hard)  :    5 /  395
-Solved / Total (All)   :   94 / 1883
-Total Score            :  228
+Solved / Total (All)   :   97 / 1884
+Total Score            :  235
 =====================================
 
 ```
 ![Alt text](score_202104.png)
 ![Alt text](score_202105.png)
+![Alt text](score_202106.png)
