@@ -84,6 +84,7 @@ algo
 │   ├── __0114__Flatten\ Binary\ Tree\ to\ Linked\ List.py
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
 │   ├── __0173__Binary\ Search\ Tree\ Iterator.py
+│   ├── __0208__Implement\ Trie\ (Prefix\ Tree).py
 │   ├── __0226__Invert\ Binary\ Tree.py
 │   ├── __0230__Kth\ Smallest\ Element\ in\ a\ BST.py
 │   ├── __0235__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Search\ Tree.py
@@ -113,7 +114,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 97 files
+15 directories, 98 files
 
 =====================================
 ============= Local Repo ============
@@ -178,6 +179,7 @@ __0199__Binary Tree Right Side View.py
 __0200__Number of Islands.py
 __0206__Reverse Linked List.py
 __0207__Course Schedule.py
+__0208__Implement Trie (Prefix Tree).py
 __0210__Course Schedule II.py
 __0215__Kth Largest Element in an Array.py
 __0216__Combination Sum III.py
@@ -215,7 +217,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  96
+Num of Python Practice:  97
 
 
 =====================================
@@ -282,6 +284,7 @@ Num of Python Practice:  96
  0200 Number of Islands
  0206 Reverse Linked List
  0207 Course Schedule
+ 0208 Implement Trie (Prefix Tree)
  0210 Course Schedule II
  0215 Kth Largest Element in an Array
  0216 Combination Sum III
@@ -320,10 +323,10 @@ Num of Python Practice:  96
  1099 Two Sum Less Than K
 =====================================
 Solved / Total (Easy)  :   33 /  495
-Solved / Total (Medium):   59 /  994
+Solved / Total (Medium):   60 /  994
 Solved / Total (Hard)  :    5 /  395
-Solved / Total (All)   :   97 / 1884
-Total Score            :  235
+Solved / Total (All)   :   98 / 1884
+Total Score            :  238
 =====================================
 
 ```
