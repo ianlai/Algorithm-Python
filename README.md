@@ -23,6 +23,7 @@ algo
 │   ├── __0153__Find\ Minimum\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0162__Find\ Peak\ Element.py
 │   ├── __0240__Search\ a\ 2D\ Matrix\ II.py
+│   ├── __0278__First\ Bad\ Version.py
 │   ├── __0658__Find\ K\ Closest\ Elements.py
 │   └── __0704__Binary\ Search.py
 ├── BitOperation
@@ -114,7 +115,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 98 files
+15 directories, 99 files
 
 =====================================
 ============= Local Repo ============
@@ -191,6 +192,7 @@ __0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
 __0257__Binary Tree Paths.py
 __0270__Closest Binary Search Tree Value.py
+__0278__First Bad Version.py
 __0287__Find the Duplicate Number.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
@@ -217,7 +219,7 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __1099__Two Sum Less Than K.py
 =====================================
-Num of Python Practice:  97
+Num of Python Practice:  98
 
 
 =====================================
@@ -296,6 +298,7 @@ Num of Python Practice:  97
  0242 Valid Anagram
  0257 Binary Tree Paths
  0270 Closest Binary Search Tree Value
+ 0278 First Bad Version
  0287 Find the Duplicate Number
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
@@ -322,11 +325,11 @@ Num of Python Practice:  97
  0969 Pancake Sorting
  1099 Two Sum Less Than K
 =====================================
-Solved / Total (Easy)  :   33 /  495
+Solved / Total (Easy)  :   34 /  495
 Solved / Total (Medium):   60 /  994
 Solved / Total (Hard)  :    5 /  395
-Solved / Total (All)   :   98 / 1884
-Total Score            :  238
+Solved / Total (All)   :   99 / 1884
+Total Score            :  239
 =====================================
 
 ```
