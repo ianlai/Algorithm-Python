@@ -57,7 +57,10 @@ algo
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   └── __0322__Coin\ Change.py
 ├── DataStructure
-│   └── __0706__Design\ HashMap.py
+│   ├── __0146__LRU\ Cache.py
+│   ├── __0387__First\ Unique\ Character\ in\ a\ String.py
+│   ├── __0706__Design\ HashMap.py
+│   └── __1429__First\ Unique\ Number.py
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
 │   ├── __0049__Group\ Anagrams.py
@@ -65,7 +68,10 @@ algo
 │   └── __0347__Top\ K\ Frequent\ Elements.py
 ├── Heap
 │   ├── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
-│   └── __0378__Kth\ Smallest\ Element\ in\ a\ Sorted\ Matrix.py
+│   ├── __0263__Ugly\ Number.py
+│   ├── __0264__Ugly\ Number\ II.py
+│   ├── __0378__Kth\ Smallest\ Element\ in\ a\ Sorted\ Matrix.py
+│   └── __0973__K\ Closest\ Points\ to\ Origin.py
 ├── LinkedList
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
@@ -115,7 +121,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 99 files
+15 directories, 105 files
 
 =====================================
 ============= Local Repo ============
@@ -170,6 +176,7 @@ __0127__Word Ladder.py
 __0133__Clone Graph.py
 __0136__Single Number.py
 __0144__Binary Tree Preorder Traversal.py
+__0146__LRU Cache.py
 __0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
 __0162__Find Peak Element.py
@@ -191,6 +198,8 @@ __0236__Lowest Common Ancestor of a Binary Tree.py
 __0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
 __0257__Binary Tree Paths.py
+__0263__Ugly Number.py
+__0264__Ugly Number II.py
 __0270__Closest Binary Search Tree Value.py
 __0278__First Bad Version.py
 __0287__Find the Duplicate Number.py
@@ -198,6 +207,7 @@ __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
+__0387__First Unique Character in a String.py
 __0401__Binary Watch.py
 __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
@@ -217,9 +227,11 @@ __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
+__0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
+__1429__First Unique Number.py
 =====================================
-Num of Python Practice:  98
+Num of Python Practice:  104
 
 
 =====================================
@@ -276,6 +288,7 @@ Num of Python Practice:  98
  0133 Clone Graph
  0136 Single Number
  0144 Binary Tree Preorder Traversal
+ 0146 LRU Cache
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
  0162 Find Peak Element
@@ -297,6 +310,8 @@ Num of Python Practice:  98
  0240 Search a 2D Matrix II
  0242 Valid Anagram
  0257 Binary Tree Paths
+ 0263 Ugly Number
+ 0264 Ugly Number II
  0270 Closest Binary Search Tree Value
  0278 First Bad Version
  0287 Find the Duplicate Number
@@ -304,6 +319,7 @@ Num of Python Practice:  98
  0322 Coin Change
  0347 Top K Frequent Elements
  0378 Kth Smallest Element in a Sorted Matrix
+ 0387 First Unique Character in a String
  0401 Binary Watch
  0437 Path Sum III
  0532 K-diff Pairs in an Array
@@ -323,13 +339,15 @@ Num of Python Practice:  98
  0912 Sort an Array
  0922 Sort Array By Parity II
  0969 Pancake Sorting
+ 0973 K Closest Points to Origin
  1099 Two Sum Less Than K
+ 1429 First Unique Number
 =====================================
-Solved / Total (Easy)  :   34 /  495
-Solved / Total (Medium):   60 /  994
+Solved / Total (Easy)  :   36 /  495
+Solved / Total (Medium):   64 /  995
 Solved / Total (Hard)  :    5 /  395
-Solved / Total (All)   :   99 / 1884
-Total Score            :  239
+Solved / Total (All)   :  105 / 1885
+Total Score            :  253
 =====================================
 
 ```
