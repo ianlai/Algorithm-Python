@@ -53,6 +53,7 @@ algo
 │   ├── __0695__Max\ Area\ of\ Island.py
 │   └── __0784__Letter\ Case\ Permutation.py
 ├── DP
+│   ├── __0010__Regular\ Expression\ Matching.py
 │   ├── __0044__Wildcard\ Matching.py
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -125,7 +126,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 109 files
+15 directories, 110 files
 
 =====================================
 ============= Local Repo ============
@@ -133,6 +134,7 @@ algo
 __0001__Two Sum.py
 __0003__Longest Substring Without Repeating Characters.py
 __0005__Longest Palindromic Substring.py
+__0010__Regular Expression Matching.py
 __0011__Container With Most Water.py
 __0015__3Sum.py
 __0016__3Sum Closest.py
@@ -239,7 +241,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  108
+Num of Python Practice:  109
 
 
 =====================================
@@ -248,6 +250,7 @@ Num of Python Practice:  108
  0001 Two Sum
  0003 Longest Substring Without Repeating Characters
  0005 Longest Palindromic Substring
+ 0010 Regular Expression Matching
  0011 Container With Most Water
  0015 3Sum
  0016 3Sum Closest
@@ -357,9 +360,9 @@ Num of Python Practice:  108
 =====================================
 Solved / Total (Easy)  :   38 /  496
 Solved / Total (Medium):   65 /  997
-Solved / Total (Hard)  :    6 /  396
-Solved / Total (All)   :  109 / 1889
-Total Score            :  263
+Solved / Total (Hard)  :    7 /  396
+Solved / Total (All)   :  110 / 1889
+Total Score            :  268
 =====================================
 
 ```
