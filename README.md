@@ -53,6 +53,7 @@ algo
 │   ├── __0695__Max\ Area\ of\ Island.py
 │   └── __0784__Letter\ Case\ Permutation.py
 ├── DP
+│   ├── __0044__Wildcard\ Matching.py
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   └── __0322__Coin\ Change.py
@@ -124,7 +125,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 108 files
+15 directories, 109 files
 
 =====================================
 ============= Local Repo ============
@@ -145,6 +146,7 @@ __0034__Find First and Last Position of Element in Sorted Array.py
 __0037__Sudoku Solver.py
 __0039__Combination Sum.py
 __0040__Combination Sum II.py
+__0044__Wildcard Matching.py
 __0046__Permutations.py
 __0047__Permutations II.py
 __0049__Group Anagrams.py
@@ -237,7 +239,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  107
+Num of Python Practice:  108
 
 
 =====================================
@@ -260,6 +262,7 @@ Num of Python Practice:  107
  0037 Sudoku Solver
  0039 Combination Sum
  0040 Combination Sum II
+ 0044 Wildcard Matching
  0046 Permutations
  0047 Permutations II
  0049 Group Anagrams
@@ -354,9 +357,9 @@ Num of Python Practice:  107
 =====================================
 Solved / Total (Easy)  :   38 /  496
 Solved / Total (Medium):   65 /  997
-Solved / Total (Hard)  :    5 /  396
-Solved / Total (All)   :  108 / 1889
-Total Score            :  258
+Solved / Total (Hard)  :    6 /  396
+Solved / Total (All)   :  109 / 1889
+Total Score            :  263
 =====================================
 
 ```
