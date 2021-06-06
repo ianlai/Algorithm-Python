@@ -75,7 +75,10 @@ algo
 ├── LinkedList
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
-│   └── __0206__Reverse\ Linked\ List.py
+│   ├── __0141__Linked\ List\ Cycle.py
+│   ├── __0142__Linked\ List\ Cycle\ II.py
+│   ├── __0206__Reverse\ Linked\ List.py
+│   └── __0234__Palindrome\ Linked\ List.py
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
 ├── Stack
@@ -121,7 +124,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 105 files
+15 directories, 108 files
 
 =====================================
 ============= Local Repo ============
@@ -175,6 +178,8 @@ __0125__Valid Palindrome.py
 __0127__Word Ladder.py
 __0133__Clone Graph.py
 __0136__Single Number.py
+__0141__Linked List Cycle.py
+__0142__Linked List Cycle II.py
 __0144__Binary Tree Preorder Traversal.py
 __0146__LRU Cache.py
 __0153__Find Minimum in Rotated Sorted Array.py
@@ -193,6 +198,7 @@ __0215__Kth Largest Element in an Array.py
 __0216__Combination Sum III.py
 __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
+__0234__Palindrome Linked List.py
 __0235__Lowest Common Ancestor of a Binary Search Tree.py
 __0236__Lowest Common Ancestor of a Binary Tree.py
 __0240__Search a 2D Matrix II.py
@@ -231,7 +237,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  104
+Num of Python Practice:  107
 
 
 =====================================
@@ -287,6 +293,8 @@ Num of Python Practice:  104
  0127 Word Ladder
  0133 Clone Graph
  0136 Single Number
+ 0141 Linked List Cycle
+ 0142 Linked List Cycle II
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
  0153 Find Minimum in Rotated Sorted Array
@@ -305,6 +313,7 @@ Num of Python Practice:  104
  0216 Combination Sum III
  0226 Invert Binary Tree
  0230 Kth Smallest Element in a BST
+ 0234 Palindrome Linked List
  0235 Lowest Common Ancestor of a Binary Search Tree
  0236 Lowest Common Ancestor of a Binary Tree
  0240 Search a 2D Matrix II
@@ -343,11 +352,11 @@ Num of Python Practice:  104
  1099 Two Sum Less Than K
  1429 First Unique Number
 =====================================
-Solved / Total (Easy)  :   36 /  495
-Solved / Total (Medium):   64 /  995
-Solved / Total (Hard)  :    5 /  395
-Solved / Total (All)   :  105 / 1885
-Total Score            :  253
+Solved / Total (Easy)  :   38 /  496
+Solved / Total (Medium):   65 /  997
+Solved / Total (Hard)  :    5 /  396
+Solved / Total (All)   :  108 / 1889
+Total Score            :  258
 =====================================
 
 ```
