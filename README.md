@@ -75,6 +75,7 @@ algo
 │   ├── __0378__Kth\ Smallest\ Element\ in\ a\ Sorted\ Matrix.py
 │   └── __0973__K\ Closest\ Points\ to\ Origin.py
 ├── LinkedList
+│   ├── __0002__Add\ Two\ Numbers.py
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
 │   ├── __0141__Linked\ List\ Cycle.py
@@ -127,12 +128,13 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 111 files
+15 directories, 112 files
 
 =====================================
 ============= Local Repo ============
 =====================================
 __0001__Two Sum.py
+__0002__Add Two Numbers.py
 __0003__Longest Substring Without Repeating Characters.py
 __0005__Longest Palindromic Substring.py
 __0010__Regular Expression Matching.py
@@ -243,13 +245,14 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  110
+Num of Python Practice:  111
 
 
 =====================================
 ============= Leetcode ==============
 =====================================
  0001 Two Sum
+ 0002 Add Two Numbers
  0003 Longest Substring Without Repeating Characters
  0005 Longest Palindromic Substring
  0010 Regular Expression Matching
@@ -362,10 +365,10 @@ Num of Python Practice:  110
  1429 First Unique Number
 =====================================
 Solved / Total (Easy)  :   38 /  496
-Solved / Total (Medium):   66 /  997
+Solved / Total (Medium):   67 /  997
 Solved / Total (Hard)  :    7 /  396
-Solved / Total (All)   :  111 / 1889
-Total Score            :  271
+Solved / Total (All)   :  112 / 1889
+Total Score            :  274
 =====================================
 
 ```
