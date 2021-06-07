@@ -8,7 +8,6 @@ class Node:
         self.key = key
         self.val = val
         self.next = None
-
 class LRUCache:
 
     def __init__(self, capacity: int):
@@ -29,7 +28,8 @@ class LRUCache:
         else:
             self.printDebugFull()
             return -1
-        
+    
+    # (1) disconnect cur (2) connect cur to tail
     def kick(self, prev):
         cur = prev.next 
         if cur == self.tail:                     #special case: only one node (except dummy)  <--FORGOT
@@ -37,8 +37,9 @@ class LRUCache:
         
         prev.next = cur.next                     #remove cur
         self.keyToPrev[cur.next.key] = prev      #update next's mapping  <--- FORGOT
-        self.pushBack(cur)    #push cur to tail
-        
+        self.pushBack(cur)                       #push cur to tail
+    
+    # Connect cur to tail 
     def pushBack(self, cur):
         cur.next = None                        
         self.keyToPrev[cur.key] = self.tail      #update cur's mapping <--- FORGOT

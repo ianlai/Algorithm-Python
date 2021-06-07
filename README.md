@@ -116,6 +116,7 @@ algo
     ├── __0018__4Sum.py
     ├── __0075__Sort\ Colors.py
     ├── __0125__Valid\ Palindrome.py
+    ├── __0152__Maximum\ Product\ Subarray.py
     ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
     ├── __0189__Rotate\ Array.py
     ├── __0532__K-diff\ Pairs\ in\ an\ Array.py
@@ -126,7 +127,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 110 files
+15 directories, 111 files
 
 =====================================
 ============= Local Repo ============
@@ -186,6 +187,7 @@ __0141__Linked List Cycle.py
 __0142__Linked List Cycle II.py
 __0144__Binary Tree Preorder Traversal.py
 __0146__LRU Cache.py
+__0152__Maximum Product Subarray.py
 __0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
 __0162__Find Peak Element.py
@@ -241,7 +243,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  109
+Num of Python Practice:  110
 
 
 =====================================
@@ -303,6 +305,7 @@ Num of Python Practice:  109
  0142 Linked List Cycle II
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
+ 0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
  0162 Find Peak Element
@@ -359,10 +362,10 @@ Num of Python Practice:  109
  1429 First Unique Number
 =====================================
 Solved / Total (Easy)  :   38 /  496
-Solved / Total (Medium):   65 /  997
+Solved / Total (Medium):   66 /  997
 Solved / Total (Hard)  :    7 /  396
-Solved / Total (All)   :  110 / 1889
-Total Score            :  268
+Solved / Total (All)   :  111 / 1889
+Total Score            :  271
 =====================================
 
 ```

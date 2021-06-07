@@ -1,6 +1,7 @@
 class Solution:
     
     # Partition [Time: O(n) 80% / Space: O(1) 93% ]
+    # half even elements, then half odd elements
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
         print("Partition")
         if not nums:
