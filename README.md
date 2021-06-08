@@ -56,6 +56,7 @@ algo
 │   ├── __0010__Regular\ Expression\ Matching.py
 │   ├── __0044__Wildcard\ Matching.py
 │   ├── __0070__Climbing\ Stairs.py
+│   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   └── __0322__Coin\ Change.py
 ├── DataStructure
@@ -128,7 +129,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 112 files
+15 directories, 113 files
 
 =====================================
 ============= Local Repo ============
@@ -179,6 +180,7 @@ __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
 __0114__Flatten Binary Tree to Linked List.py
+__0120__Triangle.py
 __0121__Best Time to Buy and Sell Stock.py
 __0122__Best Time to Buy and Sell Stock II.py
 __0125__Valid Palindrome.py
@@ -245,7 +247,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  111
+Num of Python Practice:  112
 
 
 =====================================
@@ -298,6 +300,7 @@ Num of Python Practice:  111
  0112 Path Sum
  0113 Path Sum II
  0114 Flatten Binary Tree to Linked List
+ 0120 Triangle
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
  0125 Valid Palindrome
@@ -365,10 +368,10 @@ Num of Python Practice:  111
  1429 First Unique Number
 =====================================
 Solved / Total (Easy)  :   38 /  496
-Solved / Total (Medium):   67 /  997
+Solved / Total (Medium):   68 /  997
 Solved / Total (Hard)  :    7 /  396
-Solved / Total (All)   :  112 / 1889
-Total Score            :  274
+Solved / Total (All)   :  113 / 1889
+Total Score            :  277
 =====================================
 
 ```
