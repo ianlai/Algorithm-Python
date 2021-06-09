@@ -55,6 +55,8 @@ algo
 ├── DP
 │   ├── __0010__Regular\ Expression\ Matching.py
 │   ├── __0044__Wildcard\ Matching.py
+│   ├── __0062__Unique\ Paths.py
+│   ├── __0064__Minimum\ Path\ Sum.py
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -89,6 +91,7 @@ algo
 │   ├── __0020__Valid\ Parentheses.py
 │   └── __0155__Min\ Stack.py
 ├── String
+│   └── __0151__Reverse\ Words\ in\ a\ String.py
 ├── Tree
 │   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
@@ -129,7 +132,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 113 files
+15 directories, 116 files
 
 =====================================
 ============= Local Repo ============
@@ -160,6 +163,8 @@ __0050__Pow(x, n).py
 __0051__N-Queens.py
 __0052__N-Queens II.py
 __0053__Maximum Subarray.py
+__0062__Unique Paths.py
+__0064__Minimum Path Sum.py
 __0070__Climbing Stairs.py
 __0074__Search a 2D Matrix.py
 __0075__Sort Colors.py
@@ -191,6 +196,7 @@ __0141__Linked List Cycle.py
 __0142__Linked List Cycle II.py
 __0144__Binary Tree Preorder Traversal.py
 __0146__LRU Cache.py
+__0151__Reverse Words in a String.py
 __0152__Maximum Product Subarray.py
 __0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
@@ -247,7 +253,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  112
+Num of Python Practice:  115
 
 
 =====================================
@@ -280,6 +286,8 @@ Num of Python Practice:  112
  0051 N-Queens
  0052 N-Queens II
  0053 Maximum Subarray
+ 0062 Unique Paths
+ 0064 Minimum Path Sum
  0070 Climbing Stairs
  0074 Search a 2D Matrix
  0075 Sort Colors
@@ -311,6 +319,7 @@ Num of Python Practice:  112
  0142 Linked List Cycle II
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
+ 0151 Reverse Words in a String
  0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
@@ -368,10 +377,10 @@ Num of Python Practice:  112
  1429 First Unique Number
 =====================================
 Solved / Total (Easy)  :   38 /  496
-Solved / Total (Medium):   68 /  997
+Solved / Total (Medium):   71 /  997
 Solved / Total (Hard)  :    7 /  396
-Solved / Total (All)   :  113 / 1889
-Total Score            :  277
+Solved / Total (All)   :  116 / 1889
+Total Score            :  286
 =====================================
 
 ```
