@@ -6,6 +6,26 @@
         
 class Solution:      
     
+    # 3 pointers, dummy node [O(n), 99%]
+    # Note: remember to set head.next to None, otherwise it will be a circle
+    def reverseList(self, head: ListNode) -> ListNode:
+        if not head or not head.next:
+            return head
+        
+        preHead = ListNode()
+        preHead.next = head
+        p1, p2, p3 = preHead, head, head.next
+        
+        while p2:
+            p2.next = p1
+            p1 = p2
+            p2 = p3
+            if p3:
+                p3 = p3.next                
+        head.next = None #<----FORGET
+        return p1
+
+
     # Iterative [O(n), 61%]
     def reverseList(self, head: ListNode) -> ListNode:
         if not head:

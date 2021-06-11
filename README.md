@@ -60,7 +60,8 @@ algo
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
-│   └── __0322__Coin\ Change.py
+│   ├── __0322__Coin\ Change.py
+│   └── __0576__Out\ of\ Boundary\ Paths.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
 │   ├── __0387__First\ Unique\ Character\ in\ a\ String.py
@@ -70,6 +71,7 @@ algo
 │   ├── __0001__Two\ Sum.py
 │   ├── __0049__Group\ Anagrams.py
 │   ├── __0287__Find\ the\ Duplicate\ Number.py
+│   ├── __0290__Word\ Pattern.py
 │   └── __0347__Top\ K\ Frequent\ Elements.py
 ├── Heap
 │   ├── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
@@ -132,7 +134,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 116 files
+15 directories, 118 files
 
 =====================================
 ============= Local Repo ============
@@ -225,6 +227,7 @@ __0264__Ugly Number II.py
 __0270__Closest Binary Search Tree Value.py
 __0278__First Bad Version.py
 __0287__Find the Duplicate Number.py
+__0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
@@ -235,6 +238,7 @@ __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
 __0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
+__0576__Out of Boundary Paths.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
 __0670__Maximum Swap.py
@@ -253,7 +257,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  115
+Num of Python Practice:  117
 
 
 =====================================
@@ -348,6 +352,7 @@ Num of Python Practice:  115
  0270 Closest Binary Search Tree Value
  0278 First Bad Version
  0287 Find the Duplicate Number
+ 0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
  0347 Top K Frequent Elements
@@ -358,6 +363,7 @@ Num of Python Practice:  115
  0532 K-diff Pairs in an Array
  0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
+ 0576 Out of Boundary Paths
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
  0670 Maximum Swap
@@ -376,11 +382,11 @@ Num of Python Practice:  115
  1099 Two Sum Less Than K
  1429 First Unique Number
 =====================================
-Solved / Total (Easy)  :   38 /  496
-Solved / Total (Medium):   71 /  997
+Solved / Total (Easy)  :   39 /  497
+Solved / Total (Medium):   72 /  998
 Solved / Total (Hard)  :    7 /  396
-Solved / Total (All)   :  116 / 1889
-Total Score            :  286
+Solved / Total (All)   :  118 / 1891
+Total Score            :  290
 =====================================
 
 ```
