@@ -3,6 +3,7 @@ algo
 ├── Array
 │   ├── __0053__Maximum\ Subarray.py
 │   ├── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
+│   ├── __0239__Sliding\ Window\ Maximum.py
 │   └── __0670__Maximum\ Swap.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
@@ -134,7 +135,7 @@ algo
     ├── __0969__Pancake\ Sorting.py
     └── __1099__Two\ Sum\ Less\ Than\ K.py
 
-15 directories, 118 files
+15 directories, 119 files
 
 =====================================
 ============= Local Repo ============
@@ -219,6 +220,7 @@ __0230__Kth Smallest Element in a BST.py
 __0234__Palindrome Linked List.py
 __0235__Lowest Common Ancestor of a Binary Search Tree.py
 __0236__Lowest Common Ancestor of a Binary Tree.py
+__0239__Sliding Window Maximum.py
 __0240__Search a 2D Matrix II.py
 __0242__Valid Anagram.py
 __0257__Binary Tree Paths.py
@@ -257,7 +259,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  117
+Num of Python Practice:  118
 
 
 =====================================
@@ -344,6 +346,7 @@ Num of Python Practice:  117
  0234 Palindrome Linked List
  0235 Lowest Common Ancestor of a Binary Search Tree
  0236 Lowest Common Ancestor of a Binary Tree
+ 0239 Sliding Window Maximum
  0240 Search a 2D Matrix II
  0242 Valid Anagram
  0257 Binary Tree Paths
@@ -382,11 +385,11 @@ Num of Python Practice:  117
  1099 Two Sum Less Than K
  1429 First Unique Number
 =====================================
-Solved / Total (Easy)  :   39 /  497
-Solved / Total (Medium):   72 /  998
-Solved / Total (Hard)  :    7 /  396
-Solved / Total (All)   :  118 / 1891
-Total Score            :  290
+Solved / Total (Easy)  :   39 /  499
+Solved / Total (Medium):   72 / 1002
+Solved / Total (Hard)  :    8 /  399
+Solved / Total (All)   :  119 / 1900
+Total Score            :  295
 =====================================
 
 ```
