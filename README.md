@@ -79,6 +79,7 @@ algo
 │   ├── __0263__Ugly\ Number.py
 │   ├── __0264__Ugly\ Number\ II.py
 │   ├── __0378__Kth\ Smallest\ Element\ in\ a\ Sorted\ Matrix.py
+│   ├── __0703__Kth\ Largest\ Element\ in\ a\ Stream.py
 │   └── __0973__K\ Closest\ Points\ to\ Origin.py
 ├── LinkedList
 │   ├── __0002__Add\ Two\ Numbers.py
@@ -115,27 +116,36 @@ algo
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
-└── Two-Pointer
-    ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
-    ├── __0005__Longest\ Palindromic\ Substring.py
-    ├── __0011__Container\ With\ Most\ Water.py
-    ├── __0015__3Sum.py
-    ├── __0016__3Sum\ Closest.py
-    ├── __0018__4Sum.py
-    ├── __0075__Sort\ Colors.py
-    ├── __0125__Valid\ Palindrome.py
-    ├── __0152__Maximum\ Product\ Subarray.py
-    ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
-    ├── __0189__Rotate\ Array.py
-    ├── __0532__K-diff\ Pairs\ in\ an\ Array.py
-    ├── __0680__Valid\ Palindrome\ II.py
-    ├── __0905__Sort\ Array\ By\ Parity.py
-    ├── __0912__Sort\ an\ Array.py
-    ├── __0922__Sort\ Array\ By\ Parity\ II.py
-    ├── __0969__Pancake\ Sorting.py
-    └── __1099__Two\ Sum\ Less\ Than\ K.py
+├── Two-Pointer
+│   ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
+│   ├── __0005__Longest\ Palindromic\ Substring.py
+│   ├── __0011__Container\ With\ Most\ Water.py
+│   ├── __0015__3Sum.py
+│   ├── __0016__3Sum\ Closest.py
+│   ├── __0018__4Sum.py
+│   ├── __0075__Sort\ Colors.py
+│   ├── __0125__Valid\ Palindrome.py
+│   ├── __0152__Maximum\ Product\ Subarray.py
+│   ├── __0167__Two\ Sum\ II\ -\ Input\ array\ is\ sorted.py
+│   ├── __0189__Rotate\ Array.py
+│   ├── __0532__K-diff\ Pairs\ in\ an\ Array.py
+│   ├── __0680__Valid\ Palindrome\ II.py
+│   ├── __0905__Sort\ Array\ By\ Parity.py
+│   ├── __0912__Sort\ an\ Array.py
+│   ├── __0922__Sort\ Array\ By\ Parity\ II.py
+│   ├── __0969__Pancake\ Sorting.py
+│   └── __1099__Two\ Sum\ Less\ Than\ K.py
+└── _Experiment
+    ├── ArrayList.py
+    ├── LinkedList.py
+    ├── UnrolledLinkedList.py
+    ├── UnrolledLinkedList_Benchmark.py
+    └── __pycache__
+        ├── ArrayList.cpython-37.pyc
+        ├── LinkedList.cpython-37.pyc
+        └── UnrolledLinkedList.cpython-37.pyc
 
-15 directories, 119 files
+17 directories, 127 files
 
 =====================================
 ============= Local Repo ============
@@ -247,6 +257,7 @@ __0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
+__0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 __0784__Letter Case Permutation.py
@@ -259,7 +270,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 =====================================
-Num of Python Practice:  118
+Num of Python Practice:  119
 
 
 =====================================
@@ -373,6 +384,7 @@ Num of Python Practice:  118
  0680 Valid Palindrome II
  0694 Number of Distinct Islands
  0695 Max Area of Island
+ 0703 Kth Largest Element in a Stream
  0704 Binary Search
  0706 Design HashMap
  0784 Letter Case Permutation
@@ -385,11 +397,11 @@ Num of Python Practice:  118
  1099 Two Sum Less Than K
  1429 First Unique Number
 =====================================
-Solved / Total (Easy)  :   39 /  499
+Solved / Total (Easy)  :   40 /  499
 Solved / Total (Medium):   72 / 1002
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  119 / 1900
-Total Score            :  295
+Solved / Total (All)   :  120 / 1900
+Total Score            :  296
 =====================================
 
 ```
