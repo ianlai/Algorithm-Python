@@ -61,23 +61,3 @@ class LinkedList:
             arr.append(cur.val)
             cur = cur.next
         return arr
-
-
-# ll = LinkedList()
-
-
-# for i in range(10):
-#     ll.append(i)
-# ll.printList()
-# print(ll.get(2))
-# print(ll.get(15))
-# print(ll.get(9))
-# print(ll.get(10))
-# print(ll.get(11))
-
-# ll.insert(3,33)
-# ll.insert(0,100)
-# ll.insert(15,150)
-# ll.insert(12,120)
-# ll.printList()
-# ll.printArray()
