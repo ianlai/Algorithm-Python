@@ -52,7 +52,8 @@ algo
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
-│   └── __0784__Letter\ Case\ Permutation.py
+│   ├── __0784__Letter\ Case\ Permutation.py
+│   └── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
 ├── DP
 │   ├── __0010__Regular\ Expression\ Matching.py
 │   ├── __0044__Wildcard\ Matching.py
@@ -145,7 +146,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-17 directories, 127 files
+17 directories, 128 files
 
 =====================================
 ============= Local Repo ============
@@ -269,8 +270,9 @@ __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
+__1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  119
+Num of Python Practice:  120
 
 
 =====================================
@@ -396,12 +398,13 @@ Num of Python Practice:  119
  0973 K Closest Points to Origin
  1099 Two Sum Less Than K
  1429 First Unique Number
+ 1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  499
-Solved / Total (Medium):   72 / 1002
+Solved / Total (Medium):   73 / 1003
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  120 / 1900
-Total Score            :  296
+Solved / Total (All)   :  121 / 1901
+Total Score            :  299
 =====================================
 
 ```
