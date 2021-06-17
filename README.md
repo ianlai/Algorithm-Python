@@ -69,6 +69,8 @@ algo
 │   ├── __0387__First\ Unique\ Character\ in\ a\ String.py
 │   ├── __0706__Design\ HashMap.py
 │   └── __1429__First\ Unique\ Number.py
+├── Graph
+│   └── __0399__Evaluate\ Division.py
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
 │   ├── __0049__Group\ Anagrams.py
@@ -137,6 +139,7 @@ algo
 │   ├── __0969__Pancake\ Sorting.py
 │   └── __1099__Two\ Sum\ Less\ Than\ K.py
 └── _Experiment
+    ├── 20210616_currency_rate.py
     ├── ArrayList.py
     ├── LinkedList.py
     ├── UnrolledLinkedList.py
@@ -146,7 +149,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-17 directories, 128 files
+18 directories, 130 files
 
 =====================================
 ============= Local Repo ============
@@ -246,6 +249,7 @@ __0322__Coin Change.py
 __0347__Top K Frequent Elements.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0387__First Unique Character in a String.py
+__0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
@@ -272,7 +276,7 @@ __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  120
+Num of Python Practice:  121
 
 
 =====================================
@@ -374,6 +378,7 @@ Num of Python Practice:  120
  0347 Top K Frequent Elements
  0378 Kth Smallest Element in a Sorted Matrix
  0387 First Unique Character in a String
+ 0399 Evaluate Division
  0401 Binary Watch
  0437 Path Sum III
  0532 K-diff Pairs in an Array
@@ -401,10 +406,10 @@ Num of Python Practice:  120
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  499
-Solved / Total (Medium):   73 / 1003
+Solved / Total (Medium):   74 / 1003
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  121 / 1901
-Total Score            :  299
+Solved / Total (All)   :  122 / 1901
+Total Score            :  302
 =====================================
 
 ```
