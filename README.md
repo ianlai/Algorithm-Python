@@ -70,7 +70,9 @@ algo
 │   ├── __0706__Design\ HashMap.py
 │   └── __1429__First\ Unique\ Number.py
 ├── Graph
-│   └── __0399__Evaluate\ Division.py
+│   ├── __0323__Number\ of\ Connected\ Components\ in\ an\ Undirected\ Graph.py
+│   ├── __0399__Evaluate\ Division.py
+│   └── __0797__All\ Paths\ From\ Source\ to\ Target.py
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
 │   ├── __0049__Group\ Anagrams.py
@@ -149,7 +151,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-18 directories, 130 files
+18 directories, 132 files
 
 =====================================
 ============= Local Repo ============
@@ -246,6 +248,7 @@ __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
+__0323__Number of Connected Components in an Undirected Graph.py
 __0347__Top K Frequent Elements.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0387__First Unique Character in a String.py
@@ -266,6 +269,7 @@ __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
 __0784__Letter Case Permutation.py
+__0797__All Paths From Source to Target.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
@@ -276,7 +280,7 @@ __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  121
+Num of Python Practice:  123
 
 
 =====================================
@@ -375,6 +379,7 @@ Num of Python Practice:  121
  0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
+ 0323 Number of Connected Components in an Undirected Graph
  0347 Top K Frequent Elements
  0378 Kth Smallest Element in a Sorted Matrix
  0387 First Unique Character in a String
@@ -395,6 +400,7 @@ Num of Python Practice:  121
  0704 Binary Search
  0706 Design HashMap
  0784 Letter Case Permutation
+ 0797 All Paths From Source to Target
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
  0912 Sort an Array
@@ -406,10 +412,10 @@ Num of Python Practice:  121
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  499
-Solved / Total (Medium):   74 / 1003
+Solved / Total (Medium):   76 / 1003
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  122 / 1901
-Total Score            :  302
+Solved / Total (All)   :  124 / 1901
+Total Score            :  308
 =====================================
 
 ```
