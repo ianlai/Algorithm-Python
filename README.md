@@ -72,6 +72,7 @@ algo
 ├── Graph
 │   ├── __0323__Number\ of\ Connected\ Components\ in\ an\ Undirected\ Graph.py
 │   ├── __0399__Evaluate\ Division.py
+│   ├── __0743__Network\ Delay\ Time.py
 │   └── __0797__All\ Paths\ From\ Source\ to\ Target.py
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
@@ -151,7 +152,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-18 directories, 132 files
+18 directories, 133 files
 
 =====================================
 ============= Local Repo ============
@@ -268,6 +269,7 @@ __0695__Max Area of Island.py
 __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
+__0743__Network Delay Time.py
 __0784__Letter Case Permutation.py
 __0797__All Paths From Source to Target.py
 __0863__All Nodes Distance K in Binary Tree.py
@@ -280,7 +282,7 @@ __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  123
+Num of Python Practice:  124
 
 
 =====================================
@@ -399,6 +401,7 @@ Num of Python Practice:  123
  0703 Kth Largest Element in a Stream
  0704 Binary Search
  0706 Design HashMap
+ 0743 Network Delay Time
  0784 Letter Case Permutation
  0797 All Paths From Source to Target
  0863 All Nodes Distance K in Binary Tree
@@ -411,11 +414,11 @@ Num of Python Practice:  123
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
-Solved / Total (Easy)  :   40 /  499
-Solved / Total (Medium):   76 / 1003
+Solved / Total (Easy)  :   40 /  500
+Solved / Total (Medium):   77 / 1006
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  124 / 1901
-Total Score            :  308
+Solved / Total (All)   :  125 / 1905
+Total Score            :  311
 =====================================
 
 ```
