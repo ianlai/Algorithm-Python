@@ -72,7 +72,9 @@ algo
 ├── Graph
 │   ├── __0323__Number\ of\ Connected\ Components\ in\ an\ Undirected\ Graph.py
 │   ├── __0399__Evaluate\ Division.py
+│   ├── __0547__Number\ of\ Provinces.py
 │   ├── __0743__Network\ Delay\ Time.py
+│   ├── __0787__Cheapest\ Flights\ Within\ K\ Stops.py
 │   └── __0797__All\ Paths\ From\ Source\ to\ Target.py
 ├── HashMap
 │   ├── __0001__Two\ Sum.py
@@ -152,7 +154,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-18 directories, 133 files
+18 directories, 135 files
 
 =====================================
 ============= Local Repo ============
@@ -257,6 +259,7 @@ __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0437__Path Sum III.py
 __0532__K-diff Pairs in an Array.py
+__0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
 __0576__Out of Boundary Paths.py
@@ -271,6 +274,7 @@ __0704__Binary Search.py
 __0706__Design HashMap.py
 __0743__Network Delay Time.py
 __0784__Letter Case Permutation.py
+__0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
@@ -282,7 +286,7 @@ __1099__Two Sum Less Than K.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  124
+Num of Python Practice:  126
 
 
 =====================================
@@ -389,6 +393,7 @@ Num of Python Practice:  124
  0401 Binary Watch
  0437 Path Sum III
  0532 K-diff Pairs in an Array
+ 0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
  0576 Out of Boundary Paths
@@ -403,6 +408,7 @@ Num of Python Practice:  124
  0706 Design HashMap
  0743 Network Delay Time
  0784 Letter Case Permutation
+ 0787 Cheapest Flights Within K Stops
  0797 All Paths From Source to Target
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
@@ -415,10 +421,10 @@ Num of Python Practice:  124
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  500
-Solved / Total (Medium):   77 / 1006
+Solved / Total (Medium):   79 / 1006
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  125 / 1905
-Total Score            :  311
+Solved / Total (All)   :  127 / 1905
+Total Score            :  317
 =====================================
 
 ```
