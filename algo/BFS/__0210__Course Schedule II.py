@@ -1,7 +1,54 @@
 class Solution:
-    
-    #Topological sorting [O(n), 5%]
+    # Topological sorting [O(n), 64%]
+    # nodeToIndegree: node -> indegree (int)
+    # nodeToNextList: node -> nextList (list)  //faster if we have this since we can avoid scanning prerequisites again and again 
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        print("findOrder")
+        if not numCourses:
+            return []
+        
+        nodeToIndegree, nodeToNextList = self.parse(numCourses, prerequisites) 
+        print(nodeToIndegree, nodeToNextList)
+        zeroIndegreeNodes = [x for x in nodeToIndegree if nodeToIndegree[x] == 0]
+        results = []
+        
+        #BFS 
+        deque = collections.deque(zeroIndegreeNodes) 
+        while deque:
+            cur = deque.popleft()
+            #print(cur)
+            results.append(cur)
+            for child in nodeToNextList[cur]:
+                nodeToIndegree[child] -= 1
+                #print(cur, "-", child)
+                if nodeToIndegree[child] == 0:
+                    deque.append(child)
+        #print(results)
+        return results if len(results) == numCourses else []
+    
+    def parse(self, num, pairs):
+        
+        n2i = collections.defaultdict(int)
+        n2n = collections.defaultdict(list)
+        # parse (using defaultdict makes logic cleaner)
+        for dst, src in pairs:
+            n2i[dst] += 1
+            n2n[src].append(dst)
+        
+        # add isolated nodes 
+        for i in range(num):
+            if i not in n2i:
+                n2i[i] = 0
+            if i not in n2n:
+                n2n[i] = []
+        
+        return n2i, n2n
+        
+    # =========================================
+    # Topological sorting, slow [O(n), 5%]
+    # nodeToIndegree: node -> indegree (int)
+    def findOrder1(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        print("findOrder1")
         if not numCourses: 
             return []
         
