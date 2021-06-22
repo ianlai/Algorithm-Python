@@ -15,7 +15,8 @@ algo
 │   ├── __0199__Binary\ Tree\ Right\ Side\ View.py
 │   ├── __0207__Course\ Schedule.py
 │   ├── __0210__Course\ Schedule\ II.py
-│   └── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
+│   ├── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
+│   └── __0515__Find\ Largest\ Value\ in\ Each\ Tree\ Row.py
 ├── BinarySearch
 │   ├── __0033__Search\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
@@ -53,6 +54,7 @@ algo
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
 │   ├── __0784__Letter\ Case\ Permutation.py
+│   ├── __1254__Number\ of\ Closed\ Islands.py
 │   └── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
 ├── DP
 │   ├── __0010__Regular\ Expression\ Matching.py
@@ -62,6 +64,7 @@ algo
 │   ├── __0070__Climbing\ Stairs.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
+│   ├── __0221__Maximal\ Square.py
 │   ├── __0322__Coin\ Change.py
 │   └── __0576__Out\ of\ Boundary\ Paths.py
 ├── DataStructure
@@ -154,7 +157,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-18 directories, 135 files
+18 directories, 138 files
 
 =====================================
 ============= Local Repo ============
@@ -234,6 +237,7 @@ __0208__Implement Trie (Prefix Tree).py
 __0210__Course Schedule II.py
 __0215__Kth Largest Element in an Array.py
 __0216__Combination Sum III.py
+__0221__Maximal Square.py
 __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
 __0234__Palindrome Linked List.py
@@ -258,6 +262,7 @@ __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0437__Path Sum III.py
+__0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
@@ -283,10 +288,11 @@ __0922__Sort Array By Parity II.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
+__1254__Number of Closed Islands.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  126
+Num of Python Practice:  129
 
 
 =====================================
@@ -368,6 +374,7 @@ Num of Python Practice:  126
  0210 Course Schedule II
  0215 Kth Largest Element in an Array
  0216 Combination Sum III
+ 0221 Maximal Square
  0226 Invert Binary Tree
  0230 Kth Smallest Element in a BST
  0234 Palindrome Linked List
@@ -392,6 +399,7 @@ Num of Python Practice:  126
  0399 Evaluate Division
  0401 Binary Watch
  0437 Path Sum III
+ 0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
@@ -417,14 +425,15 @@ Num of Python Practice:  126
  0969 Pancake Sorting
  0973 K Closest Points to Origin
  1099 Two Sum Less Than K
+ 1254 Number of Closed Islands
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  500
-Solved / Total (Medium):   79 / 1006
+Solved / Total (Medium):   82 / 1007
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  127 / 1905
-Total Score            :  317
+Solved / Total (All)   :  130 / 1906
+Total Score            :  326
 =====================================
 
 ```
