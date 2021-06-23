@@ -146,6 +146,8 @@ algo
 │   ├── __0922__Sort\ Array\ By\ Parity\ II.py
 │   ├── __0969__Pancake\ Sorting.py
 │   └── __1099__Two\ Sum\ Less\ Than\ K.py
+├── UnionFind
+│   └── __0721__Accounts\ Merge.py
 └── _Experiment
     ├── 20210616_currency_rate.py
     ├── ArrayList.py
@@ -157,7 +159,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-18 directories, 138 files
+19 directories, 139 files
 
 =====================================
 ============= Local Repo ============
@@ -277,6 +279,7 @@ __0695__Max Area of Island.py
 __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
 __0706__Design HashMap.py
+__0721__Accounts Merge.py
 __0743__Network Delay Time.py
 __0784__Letter Case Permutation.py
 __0787__Cheapest Flights Within K Stops.py
@@ -292,7 +295,7 @@ __1254__Number of Closed Islands.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  129
+Num of Python Practice:  130
 
 
 =====================================
@@ -414,6 +417,7 @@ Num of Python Practice:  129
  0703 Kth Largest Element in a Stream
  0704 Binary Search
  0706 Design HashMap
+ 0721 Accounts Merge
  0743 Network Delay Time
  0784 Letter Case Permutation
  0787 Cheapest Flights Within K Stops
@@ -430,10 +434,10 @@ Num of Python Practice:  129
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  500
-Solved / Total (Medium):   82 / 1007
+Solved / Total (Medium):   83 / 1007
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  130 / 1906
-Total Score            :  326
+Solved / Total (All)   :  131 / 1906
+Total Score            :  329
 =====================================
 
 ```
