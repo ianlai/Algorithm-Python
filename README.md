@@ -47,6 +47,7 @@ algo
 │   ├── __0090__Subsets\ II.py
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
+│   ├── __0139__Word\ Break.py
 │   ├── __0200__Number\ of\ Islands.py
 │   ├── __0216__Combination\ Sum\ III.py
 │   ├── __0401__Binary\ Watch.py
@@ -159,7 +160,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 139 files
+19 directories, 140 files
 
 =====================================
 ============= Local Repo ============
@@ -219,6 +220,7 @@ __0125__Valid Palindrome.py
 __0127__Word Ladder.py
 __0133__Clone Graph.py
 __0136__Single Number.py
+__0139__Word Break.py
 __0141__Linked List Cycle.py
 __0142__Linked List Cycle II.py
 __0144__Binary Tree Preorder Traversal.py
@@ -295,7 +297,7 @@ __1254__Number of Closed Islands.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  130
+Num of Python Practice:  131
 
 
 =====================================
@@ -357,6 +359,7 @@ Num of Python Practice:  130
  0127 Word Ladder
  0133 Clone Graph
  0136 Single Number
+ 0139 Word Break
  0141 Linked List Cycle
  0142 Linked List Cycle II
  0144 Binary Tree Preorder Traversal
@@ -434,10 +437,10 @@ Num of Python Practice:  130
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  500
-Solved / Total (Medium):   83 / 1007
+Solved / Total (Medium):   84 / 1008
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  131 / 1906
-Total Score            :  329
+Solved / Total (All)   :  132 / 1907
+Total Score            :  332
 =====================================
 
 ```
