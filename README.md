@@ -148,6 +148,7 @@ algo
 │   ├── __0969__Pancake\ Sorting.py
 │   └── __1099__Two\ Sum\ Less\ Than\ K.py
 ├── UnionFind
+│   ├── __0128__Longest\ Consecutive\ Sequence.py
 │   └── __0721__Accounts\ Merge.py
 └── _Experiment
     ├── 20210616_currency_rate.py
@@ -160,7 +161,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 140 files
+19 directories, 141 files
 
 =====================================
 ============= Local Repo ============
@@ -218,6 +219,7 @@ __0121__Best Time to Buy and Sell Stock.py
 __0122__Best Time to Buy and Sell Stock II.py
 __0125__Valid Palindrome.py
 __0127__Word Ladder.py
+__0128__Longest Consecutive Sequence.py
 __0133__Clone Graph.py
 __0136__Single Number.py
 __0139__Word Break.py
@@ -297,7 +299,7 @@ __1254__Number of Closed Islands.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  131
+Num of Python Practice:  132
 
 
 =====================================
@@ -331,6 +333,7 @@ Num of Python Practice:  131
  0052 N-Queens II
  0053 Maximum Subarray
  0062 Unique Paths
+ 0063 Unique Paths II
  0064 Minimum Path Sum
  0070 Climbing Stairs
  0074 Search a 2D Matrix
@@ -357,6 +360,7 @@ Num of Python Practice:  131
  0122 Best Time to Buy and Sell Stock II
  0125 Valid Palindrome
  0127 Word Ladder
+ 0128 Longest Consecutive Sequence
  0133 Clone Graph
  0136 Single Number
  0139 Word Break
@@ -437,10 +441,10 @@ Num of Python Practice:  131
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
 Solved / Total (Easy)  :   40 /  500
-Solved / Total (Medium):   84 / 1008
+Solved / Total (Medium):   86 / 1008
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  132 / 1907
-Total Score            :  332
+Solved / Total (All)   :  134 / 1907
+Total Score            :  338
 =====================================
 
 ```
