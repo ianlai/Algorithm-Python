@@ -4,6 +4,7 @@ algo
 │   ├── __0053__Maximum\ Subarray.py
 │   ├── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 │   ├── __0239__Sliding\ Window\ Maximum.py
+│   ├── __0350__Intersection\ of\ Two\ Arrays\ II.py
 │   └── __0670__Maximum\ Swap.py
 ├── BFS
 │   ├── __0102__Binary\ Tree\ Level\ Order\ Traversal.py
@@ -161,7 +162,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 141 files
+19 directories, 142 files
 
 =====================================
 ============= Local Repo ============
@@ -263,6 +264,7 @@ __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0347__Top K Frequent Elements.py
+__0350__Intersection of Two Arrays II.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
@@ -299,7 +301,7 @@ __1254__Number of Closed Islands.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  132
+Num of Python Practice:  133
 
 
 =====================================
@@ -404,6 +406,7 @@ Num of Python Practice:  132
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
  0347 Top K Frequent Elements
+ 0350 Intersection of Two Arrays II
  0378 Kth Smallest Element in a Sorted Matrix
  0387 First Unique Character in a String
  0399 Evaluate Division
@@ -440,11 +443,11 @@ Num of Python Practice:  132
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
-Solved / Total (Easy)  :   40 /  500
+Solved / Total (Easy)  :   41 /  500
 Solved / Total (Medium):   86 / 1008
 Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  134 / 1907
-Total Score            :  338
+Solved / Total (All)   :  135 / 1907
+Total Score            :  339
 =====================================
 
 ```
