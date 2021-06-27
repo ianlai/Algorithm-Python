@@ -97,6 +97,7 @@ algo
 ├── LinkedList
 │   ├── __0002__Add\ Two\ Numbers.py
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
+│   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
 │   ├── __0141__Linked\ List\ Cycle.py
 │   ├── __0142__Linked\ List\ Cycle\ II.py
@@ -162,7 +163,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 142 files
+19 directories, 143 files
 
 =====================================
 ============= Local Repo ============
@@ -201,6 +202,7 @@ __0075__Sort Colors.py
 __0077__Combinations.py
 __0078__Subsets.py
 __0079__Word Search.py
+__0083__Remove Duplicates from Sorted List.py
 __0090__Subsets II.py
 __0092__Reverse Linked List II.py
 __0094__Binary Tree Inorder Traversal.py 
@@ -301,7 +303,7 @@ __1254__Number of Closed Islands.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  133
+Num of Python Practice:  134
 
 
 =====================================
@@ -343,6 +345,7 @@ Num of Python Practice:  133
  0077 Combinations
  0078 Subsets
  0079 Word Search
+ 0083 Remove Duplicates from Sorted List
  0090 Subsets II
  0092 Reverse Linked List II
  0094 Binary Tree Inorder Traversal
@@ -443,11 +446,11 @@ Num of Python Practice:  133
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
-Solved / Total (Easy)  :   41 /  500
-Solved / Total (Medium):   86 / 1008
-Solved / Total (Hard)  :    8 /  399
-Solved / Total (All)   :  135 / 1907
-Total Score            :  339
+Solved / Total (Easy)  :   42 /  502
+Solved / Total (Medium):   86 / 1012
+Solved / Total (Hard)  :    8 /  401
+Solved / Total (All)   :  136 / 1915
+Total Score            :  340
 =====================================
 
 ```
