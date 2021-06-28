@@ -57,6 +57,7 @@ algo
 │   ├── __0695__Max\ Area\ of\ Island.py
 │   ├── __0784__Letter\ Case\ Permutation.py
 │   ├── __1254__Number\ of\ Closed\ Islands.py
+│   ├── __1391__Check\ if\ There\ is\ a\ Valid\ Path\ in\ a\ Grid.py
 │   └── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
 ├── DP
 │   ├── __0010__Regular\ Expression\ Matching.py
@@ -109,7 +110,8 @@ algo
 │   ├── __0020__Valid\ Parentheses.py
 │   └── __0155__Min\ Stack.py
 ├── String
-│   └── __0151__Reverse\ Words\ in\ a\ String.py
+│   ├── __0151__Reverse\ Words\ in\ a\ String.py
+│   └── __0459__Repeated\ Substring\ Pattern.py
 ├── Tree
 │   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
@@ -163,7 +165,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 143 files
+19 directories, 145 files
 
 =====================================
 ============= Local Repo ============
@@ -272,6 +274,7 @@ __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0437__Path Sum III.py
+__0459__Repeated Substring Pattern.py
 __0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
 __0547__Number of Provinces.py
@@ -300,10 +303,11 @@ __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1254__Number of Closed Islands.py
+__1391__Check if There is a Valid Path in a Grid.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 =====================================
-Num of Python Practice:  134
+Num of Python Practice:  136
 
 
 =====================================
@@ -415,6 +419,7 @@ Num of Python Practice:  134
  0399 Evaluate Division
  0401 Binary Watch
  0437 Path Sum III
+ 0459 Repeated Substring Pattern
  0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
  0547 Number of Provinces
@@ -443,14 +448,15 @@ Num of Python Practice:  134
  0973 K Closest Points to Origin
  1099 Two Sum Less Than K
  1254 Number of Closed Islands
+ 1391 Check if There is a Valid Path in a Grid
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
 =====================================
-Solved / Total (Easy)  :   42 /  502
-Solved / Total (Medium):   86 / 1012
+Solved / Total (Easy)  :   43 /  502
+Solved / Total (Medium):   87 / 1012
 Solved / Total (Hard)  :    8 /  401
-Solved / Total (All)   :  136 / 1915
-Total Score            :  340
+Solved / Total (All)   :  138 / 1915
+Total Score            :  344
 =====================================
 
 ```
