@@ -58,7 +58,8 @@ algo
 │   ├── __0784__Letter\ Case\ Permutation.py
 │   ├── __1254__Number\ of\ Closed\ Islands.py
 │   ├── __1391__Check\ if\ There\ is\ a\ Valid\ Path\ in\ a\ Grid.py
-│   └── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
+│   ├── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
+│   └── __1905__Count\ Sub\ Islands.py
 ├── DP
 │   ├── __0010__Regular\ Expression\ Matching.py
 │   ├── __0044__Wildcard\ Matching.py
@@ -129,6 +130,7 @@ algo
 │   ├── __0257__Binary\ Tree\ Paths.py
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
 │   ├── __0437__Path\ Sum\ III.py
+│   ├── __0543__Diameter\ of\ Binary\ Tree.py
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
@@ -165,7 +167,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 145 files
+19 directories, 147 files
 
 =====================================
 ============= Local Repo ============
@@ -277,6 +279,7 @@ __0437__Path Sum III.py
 __0459__Repeated Substring Pattern.py
 __0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
+__0543__Diameter of Binary Tree.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
@@ -306,8 +309,9 @@ __1254__Number of Closed Islands.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
+__1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  136
+Num of Python Practice:  138
 
 
 =====================================
@@ -422,6 +426,7 @@ Num of Python Practice:  136
  0459 Repeated Substring Pattern
  0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
+ 0543 Diameter of Binary Tree
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
@@ -451,12 +456,13 @@ Num of Python Practice:  136
  1391 Check if There is a Valid Path in a Grid
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
+ 1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   43 /  502
-Solved / Total (Medium):   87 / 1012
-Solved / Total (Hard)  :    8 /  401
-Solved / Total (All)   :  138 / 1915
-Total Score            :  344
+Solved / Total (Easy)  :   44 /  502
+Solved / Total (Medium):   88 / 1013
+Solved / Total (Hard)  :    8 /  402
+Solved / Total (All)   :  140 / 1917
+Total Score            :  348
 =====================================
 
 ```
