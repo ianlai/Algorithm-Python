@@ -45,6 +45,7 @@ algo
 │   ├── __0077__Combinations.py
 │   ├── __0078__Subsets.py
 │   ├── __0079__Word\ Search.py
+│   ├── __0089__Gray\ Code.py
 │   ├── __0090__Subsets\ II.py
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
@@ -120,6 +121,7 @@ algo
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
 │   ├── __0100__Same\ Tree.py
 │   ├── __0101__Symmetric\ Tree.py
+│   ├── __0104__Maximum\ Depth\ of\ Binary\ Tree.py
 │   ├── __0108__Convert\ Sorted\ Array\ to\ Binary\ Search\ Tree.py
 │   ├── __0114__Flatten\ Binary\ Tree\ to\ Linked\ List.py
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
@@ -131,6 +133,7 @@ algo
 │   ├── __0236__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Tree.py
 │   ├── __0257__Binary\ Tree\ Paths.py
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
+│   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
@@ -169,7 +172,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 149 files
+19 directories, 152 files
 
 =====================================
 ============= Local Repo ============
@@ -209,6 +212,7 @@ __0077__Combinations.py
 __0078__Subsets.py
 __0079__Word Search.py
 __0083__Remove Duplicates from Sorted List.py
+__0089__Gray Code.py
 __0090__Subsets II.py
 __0092__Reverse Linked List II.py
 __0094__Binary Tree Inorder Traversal.py 
@@ -217,6 +221,7 @@ __0100__Same Tree.py
 __0101__Symmetric Tree.py
 __0102__Binary Tree Level Order Traversal.py
 __0103__Binary Tree Zigzag Level Order Traversal.py
+__0104__Maximum Depth of Binary Tree.py
 __0107__Binary Tree Level Order Traversal II.py
 __0108__Convert Sorted Array to Binary Search Tree.py
 __0111__Minimum Depth of Binary Tree.py
@@ -275,6 +280,7 @@ __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0347__Top K Frequent Elements.py
 __0350__Intersection of Two Arrays II.py
+__0366__Find Leaves of Binary Tree.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
@@ -315,7 +321,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  140
+Num of Python Practice:  143
 
 
 =====================================
@@ -358,6 +364,7 @@ Num of Python Practice:  140
  0078 Subsets
  0079 Word Search
  0083 Remove Duplicates from Sorted List
+ 0089 Gray Code
  0090 Subsets II
  0092 Reverse Linked List II
  0094 Binary Tree Inorder Traversal
@@ -366,6 +373,7 @@ Num of Python Practice:  140
  0101 Symmetric Tree
  0102 Binary Tree Level Order Traversal
  0103 Binary Tree Zigzag Level Order Traversal
+ 0104 Maximum Depth of Binary Tree
  0107 Binary Tree Level Order Traversal II
  0108 Convert Sorted Array to Binary Search Tree
  0111 Minimum Depth of Binary Tree
@@ -424,6 +432,7 @@ Num of Python Practice:  140
  0323 Number of Connected Components in an Undirected Graph
  0347 Top K Frequent Elements
  0350 Intersection of Two Arrays II
+ 0366 Find Leaves of Binary Tree
  0378 Kth Smallest Element in a Sorted Matrix
  0387 First Unique Character in a String
  0399 Evaluate Division
@@ -457,6 +466,7 @@ Num of Python Practice:  140
  0922 Sort Array By Parity II
  0969 Pancake Sorting
  0973 K Closest Points to Origin
+ 0994 Rotting Oranges
  1099 Two Sum Less Than K
  1254 Number of Closed Islands
  1391 Check if There is a Valid Path in a Grid
@@ -464,11 +474,11 @@ Num of Python Practice:  140
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   45 /  502
-Solved / Total (Medium):   89 / 1013
-Solved / Total (Hard)  :    8 /  402
-Solved / Total (All)   :  142 / 1917
-Total Score            :  352
+Solved / Total (Easy)  :   46 /  502
+Solved / Total (Medium):   92 / 1013
+Solved / Total (Hard)  :    8 /  403
+Solved / Total (All)   :  146 / 1918
+Total Score            :  362
 =====================================
 
 ```
