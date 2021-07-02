@@ -68,6 +68,7 @@ algo
 │   ├── __0062__Unique\ Paths.py
 │   ├── __0064__Minimum\ Path\ Sum.py
 │   ├── __0070__Climbing\ Stairs.py
+│   ├── __0119__Pascal's\ Triangle\ II.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   ├── __0221__Maximal\ Square.py
@@ -137,6 +138,7 @@ algo
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
+│   ├── __0572__Subtree\ of\ Another\ Tree.py
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 ├── Two-Pointer
@@ -172,7 +174,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 152 files
+19 directories, 154 files
 
 =====================================
 ============= Local Repo ============
@@ -228,6 +230,7 @@ __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
 __0114__Flatten Binary Tree to Linked List.py
+__0119__Pascal's Triangle II.py
 __0120__Triangle.py
 __0121__Best Time to Buy and Sell Stock.py
 __0122__Best Time to Buy and Sell Stock II.py
@@ -293,6 +296,7 @@ __0543__Diameter of Binary Tree.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
+__0572__Subtree of Another Tree.py
 __0576__Out of Boundary Paths.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
@@ -321,7 +325,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  143
+Num of Python Practice:  145
 
 
 =====================================
@@ -380,6 +384,7 @@ Num of Python Practice:  143
  0112 Path Sum
  0113 Path Sum II
  0114 Flatten Binary Tree to Linked List
+ 0119 Pascal's Triangle II
  0120 Triangle
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
@@ -445,6 +450,7 @@ Num of Python Practice:  143
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
+ 0572 Subtree of Another Tree
  0576 Out of Boundary Paths
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
@@ -474,14 +480,15 @@ Num of Python Practice:  143
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   46 /  502
+Solved / Total (Easy)  :   48 /  502
 Solved / Total (Medium):   92 / 1013
-Solved / Total (Hard)  :    8 /  403
-Solved / Total (All)   :  146 / 1918
-Total Score            :  362
+Solved / Total (Hard)  :    8 /  404
+Solved / Total (All)   :  148 / 1919
+Total Score            :  364
 =====================================
 
 ```
 ![Alt text](score_202104.png)
 ![Alt text](score_202105.png)
 ![Alt text](score_202106.png)
+![Alt text](score_202107.png)

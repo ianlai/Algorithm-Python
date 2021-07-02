@@ -36,7 +36,7 @@ FILE_IMAGE_SCORE202008 = FILE_PREFIX_SCORE + "_202008" + ".png"
 FILE_IMAGE_SCORE202104 = FILE_PREFIX_SCORE + "_202104" + ".png"
 FILE_IMAGE_SCORE202105 = FILE_PREFIX_SCORE + "_202105" + ".png"
 FILE_IMAGE_SCORE202106 = FILE_PREFIX_SCORE + "_202106" + ".png"
-
+FILE_IMAGE_SCORE202107 = FILE_PREFIX_SCORE + "_202107" + ".png"
 
 
 DATE_FORMATTER = "%Y-%m-%d"
@@ -181,7 +181,7 @@ def draw(dates, values):
         title="Score (2020.04)")
     #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
     axs[1].set_title("Score (2020.04)", fontweight = 'bold')
-    axs[1].set_ylim(0,300) #score of quiz
+    axs[1].set_ylim(0,400) #score of quiz
     axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[1].grid(which='major', color='#bbbbbb', axis ='y')
@@ -288,6 +288,13 @@ def draw(dates, values):
     axs[0].set_xlim(datetime.datetime(2021,6,1), datetime.datetime(2021,6,30)) 
     plt.savefig(FILE_IMAGE_SCORE202106)
 
+    axs[1].set(xlabel="Date", ylabel="Score",
+    title="Score of Quiz (2021.07)")
+    axs[0].set_title("Number of Problems (2021.07)", fontweight = 'bold')
+    axs[1].set_title("Score (2021.07)", fontweight = 'bold')
+    axs[0].set_xlim(datetime.datetime(2021,7,1), datetime.datetime(2021,7,31)) 
+    plt.savefig(FILE_IMAGE_SCORE202107)
+
     # plt.show()
 
 ###################### 
@@ -375,7 +382,7 @@ if str(today_date) != str(latest_date):
 else:
     print(">> Status: Existed date.")
 
-print(">> Save the image:", FILE_IMAGE_SCORE202104)
+#print(">> Save the image:", FILE_IMAGE_SCORE202104)
 
 #Debug
 # print("dates       :", len(dates))
