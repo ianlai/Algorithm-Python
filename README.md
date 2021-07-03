@@ -103,6 +103,7 @@ algo
 │   ├── __0002__Add\ Two\ Numbers.py
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
+│   ├── __0086__Partition\ List.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
 │   ├── __0141__Linked\ List\ Cycle.py
 │   ├── __0142__Linked\ List\ Cycle\ II.py
@@ -175,7 +176,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 155 files
+19 directories, 156 files
 
 =====================================
 ============= Local Repo ============
@@ -215,6 +216,7 @@ __0077__Combinations.py
 __0078__Subsets.py
 __0079__Word Search.py
 __0083__Remove Duplicates from Sorted List.py
+__0086__Partition List.py
 __0089__Gray Code.py
 __0090__Subsets II.py
 __0092__Reverse Linked List II.py
@@ -327,7 +329,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  146
+Num of Python Practice:  147
 
 
 =====================================
@@ -370,6 +372,7 @@ Num of Python Practice:  146
  0078 Subsets
  0079 Word Search
  0083 Remove Duplicates from Sorted List
+ 0086 Partition List
  0089 Gray Code
  0090 Subsets II
  0092 Reverse Linked List II
@@ -484,10 +487,10 @@ Num of Python Practice:  146
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   48 /  502
-Solved / Total (Medium):   93 / 1013
+Solved / Total (Medium):   94 / 1013
 Solved / Total (Hard)  :    8 /  404
-Solved / Total (All)   :  149 / 1919
-Total Score            :  367
+Solved / Total (All)   :  150 / 1919
+Total Score            :  370
 =====================================
 
 ```
