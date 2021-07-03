@@ -106,6 +106,7 @@ algo
 │   ├── __0092__Reverse\ Linked\ List\ II.py
 │   ├── __0141__Linked\ List\ Cycle.py
 │   ├── __0142__Linked\ List\ Cycle\ II.py
+│   ├── __0148__Sort\ List.py
 │   ├── __0160__Intersection\ of\ Two\ Linked\ Lists.py
 │   ├── __0206__Reverse\ Linked\ List.py
 │   └── __0234__Palindrome\ Linked\ List.py
@@ -174,7 +175,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 154 files
+19 directories, 155 files
 
 =====================================
 ============= Local Repo ============
@@ -245,6 +246,7 @@ __0141__Linked List Cycle.py
 __0142__Linked List Cycle II.py
 __0144__Binary Tree Preorder Traversal.py
 __0146__LRU Cache.py
+__0148__Sort List.py
 __0151__Reverse Words in a String.py
 __0152__Maximum Product Subarray.py
 __0153__Find Minimum in Rotated Sorted Array.py
@@ -325,7 +327,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  145
+Num of Python Practice:  146
 
 
 =====================================
@@ -399,6 +401,7 @@ Num of Python Practice:  145
  0142 Linked List Cycle II
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
+ 0148 Sort List
  0151 Reverse Words in a String
  0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
@@ -481,10 +484,10 @@ Num of Python Practice:  145
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   48 /  502
-Solved / Total (Medium):   92 / 1013
+Solved / Total (Medium):   93 / 1013
 Solved / Total (Hard)  :    8 /  404
-Solved / Total (All)   :  148 / 1919
-Total Score            :  364
+Solved / Total (All)   :  149 / 1919
+Total Score            :  367
 =====================================
 
 ```
