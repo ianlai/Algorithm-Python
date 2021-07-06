@@ -486,10 +486,10 @@ Num of Python Practice:  147
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   48 /  502
-Solved / Total (Medium):   94 / 1013
-Solved / Total (Hard)  :    8 /  404
-Solved / Total (All)   :  150 / 1919
+Solved / Total (Easy)  :   48 /  503
+Solved / Total (Medium):   94 / 1015
+Solved / Total (Hard)  :    8 /  405
+Solved / Total (All)   :  150 / 1923
 Total Score            :  370
 =====================================
 

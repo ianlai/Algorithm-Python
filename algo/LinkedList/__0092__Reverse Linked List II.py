@@ -58,6 +58,3 @@ class Solution:
         if right == count:                #e.g. [3, 5]
             return head
         return head                       #e.g. [2, 4]
-        
-            
-            
