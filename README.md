@@ -4,6 +4,7 @@ algo
 │   ├── __0053__Maximum\ Subarray.py
 │   ├── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 │   ├── __0239__Sliding\ Window\ Maximum.py
+│   ├── __0283__Move\ Zeroes.py
 │   ├── __0350__Intersection\ of\ Two\ Arrays\ II.py
 │   └── __0670__Maximum\ Swap.py
 ├── BFS
@@ -53,6 +54,7 @@ algo
 │   ├── __0139__Word\ Break.py
 │   ├── __0200__Number\ of\ Islands.py
 │   ├── __0216__Combination\ Sum\ III.py
+│   ├── __0332__Reconstruct\ Itinerary.py
 │   ├── __0401__Binary\ Watch.py
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
@@ -164,6 +166,7 @@ algo
 │   └── __1099__Two\ Sum\ Less\ Than\ K.py
 ├── UnionFind
 │   ├── __0128__Longest\ Consecutive\ Sequence.py
+│   ├── __0684__Redundant\ Connection.py
 │   └── __0721__Accounts\ Merge.py
 └── _Experiment
     ├── 20210616_currency_rate.py
@@ -176,7 +179,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 156 files
+19 directories, 159 files
 
 =====================================
 ============= Local Repo ============
@@ -280,11 +283,13 @@ __0263__Ugly Number.py
 __0264__Ugly Number II.py
 __0270__Closest Binary Search Tree Value.py
 __0278__First Bad Version.py
+__0283__Move Zeroes.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
+__0332__Reconstruct Itinerary.py
 __0347__Top K Frequent Elements.py
 __0350__Intersection of Two Arrays II.py
 __0366__Find Leaves of Binary Tree.py
@@ -306,6 +311,7 @@ __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
 __0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
+__0684__Redundant Connection.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
 __0703__Kth Largest Element in a Stream.py
@@ -329,7 +335,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  147
+Num of Python Practice:  150
 
 
 =====================================
@@ -436,11 +442,13 @@ Num of Python Practice:  147
  0264 Ugly Number II
  0270 Closest Binary Search Tree Value
  0278 First Bad Version
+ 0283 Move Zeroes
  0287 Find the Duplicate Number
  0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
+ 0332 Reconstruct Itinerary
  0347 Top K Frequent Elements
  0350 Intersection of Two Arrays II
  0366 Find Leaves of Binary Tree
@@ -462,6 +470,7 @@ Num of Python Practice:  147
  0658 Find K Closest Elements
  0670 Maximum Swap
  0680 Valid Palindrome II
+ 0684 Redundant Connection
  0694 Number of Distinct Islands
  0695 Max Area of Island
  0703 Kth Largest Element in a Stream
@@ -486,11 +495,11 @@ Num of Python Practice:  147
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   48 /  503
-Solved / Total (Medium):   94 / 1015
+Solved / Total (Easy)  :   49 /  503
+Solved / Total (Medium):   96 / 1015
 Solved / Total (Hard)  :    8 /  405
-Solved / Total (All)   :  150 / 1923
-Total Score            :  370
+Solved / Total (All)   :  153 / 1923
+Total Score            :  377
 =====================================
 
 ```
