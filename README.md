@@ -77,7 +77,8 @@ algo
 │   ├── __0221__Maximal\ Square.py
 │   ├── __0300__Longest\ Increasing\ Subsequence.py
 │   ├── __0322__Coin\ Change.py
-│   └── __0576__Out\ of\ Boundary\ Paths.py
+│   ├── __0576__Out\ of\ Boundary\ Paths.py
+│   └── __1395__Count\ Number\ of\ Teams.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
 │   ├── __0387__First\ Unique\ Character\ in\ a\ String.py
@@ -181,7 +182,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 161 files
+19 directories, 162 files
 
 =====================================
 ============= Local Repo ============
@@ -335,11 +336,12 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1254__Number of Closed Islands.py
 __1391__Check if There is a Valid Path in a Grid.py
+__1395__Count Number of Teams.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  152
+Num of Python Practice:  153
 
 
 =====================================
@@ -497,15 +499,16 @@ Num of Python Practice:  152
  1099 Two Sum Less Than K
  1254 Number of Closed Islands
  1391 Check if There is a Valid Path in a Grid
+ 1395 Count Number of Teams
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   49 /  503
-Solved / Total (Medium):   98 / 1015
+Solved / Total (Medium):   99 / 1015
 Solved / Total (Hard)  :    8 /  405
-Solved / Total (All)   :  155 / 1923
-Total Score            :  383
+Solved / Total (All)   :  156 / 1923
+Total Score            :  386
 =====================================
 
 ```
