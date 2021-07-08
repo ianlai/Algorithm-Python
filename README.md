@@ -2,6 +2,7 @@
 algo
 ├── Array
 │   ├── __0053__Maximum\ Subarray.py
+│   ├── __0056__Merge\ Intervals.py
 │   ├── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 │   ├── __0239__Sliding\ Window\ Maximum.py
 │   ├── __0283__Move\ Zeroes.py
@@ -182,7 +183,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 162 files
+19 directories, 163 files
 
 =====================================
 ============= Local Repo ============
@@ -213,6 +214,7 @@ __0050__Pow(x, n).py
 __0051__N-Queens.py
 __0052__N-Queens II.py
 __0053__Maximum Subarray.py
+__0056__Merge Intervals.py
 __0062__Unique Paths.py
 __0064__Minimum Path Sum.py
 __0070__Climbing Stairs.py
@@ -341,7 +343,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  153
+Num of Python Practice:  154
 
 
 =====================================
@@ -374,6 +376,7 @@ Num of Python Practice:  153
  0051 N-Queens
  0052 N-Queens II
  0053 Maximum Subarray
+ 0056 Merge Intervals
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
@@ -505,10 +508,10 @@ Num of Python Practice:  153
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   49 /  503
-Solved / Total (Medium):   99 / 1015
+Solved / Total (Medium):  100 / 1015
 Solved / Total (Hard)  :    8 /  405
-Solved / Total (All)   :  156 / 1923
-Total Score            :  386
+Solved / Total (All)   :  157 / 1923
+Total Score            :  389
 =====================================
 
 ```
