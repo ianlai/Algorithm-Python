@@ -75,6 +75,7 @@ algo
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
 │   ├── __0221__Maximal\ Square.py
+│   ├── __0300__Longest\ Increasing\ Subsequence.py
 │   ├── __0322__Coin\ Change.py
 │   └── __0576__Out\ of\ Boundary\ Paths.py
 ├── DataStructure
@@ -180,7 +181,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 160 files
+19 directories, 161 files
 
 =====================================
 ============= Local Repo ============
@@ -288,6 +289,7 @@ __0283__Move Zeroes.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
+__0300__Longest Increasing Subsequence.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0332__Reconstruct Itinerary.py
@@ -337,7 +339,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  151
+Num of Python Practice:  152
 
 
 =====================================
@@ -448,6 +450,7 @@ Num of Python Practice:  151
  0287 Find the Duplicate Number
  0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
+ 0300 Longest Increasing Subsequence
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
  0332 Reconstruct Itinerary
@@ -499,10 +502,10 @@ Num of Python Practice:  151
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   49 /  503
-Solved / Total (Medium):   97 / 1015
+Solved / Total (Medium):   98 / 1015
 Solved / Total (Hard)  :    8 /  405
-Solved / Total (All)   :  154 / 1923
-Total Score            :  380
+Solved / Total (All)   :  155 / 1923
+Total Score            :  383
 =====================================
 
 ```
