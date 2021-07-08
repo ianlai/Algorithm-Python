@@ -60,6 +60,7 @@ algo
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
 │   ├── __0784__Letter\ Case\ Permutation.py
+│   ├── __0841__Keys\ and\ Rooms.py
 │   ├── __1254__Number\ of\ Closed\ Islands.py
 │   ├── __1391__Check\ if\ There\ is\ a\ Valid\ Path\ in\ a\ Grid.py
 │   ├── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
@@ -179,7 +180,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 159 files
+19 directories, 160 files
 
 =====================================
 ============= Local Repo ============
@@ -322,6 +323,7 @@ __0743__Network Delay Time.py
 __0784__Letter Case Permutation.py
 __0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
+__0841__Keys and Rooms.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
@@ -335,7 +337,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  150
+Num of Python Practice:  151
 
 
 =====================================
@@ -481,6 +483,7 @@ Num of Python Practice:  150
  0784 Letter Case Permutation
  0787 Cheapest Flights Within K Stops
  0797 All Paths From Source to Target
+ 0841 Keys and Rooms
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
  0912 Sort an Array
@@ -496,10 +499,10 @@ Num of Python Practice:  150
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   49 /  503
-Solved / Total (Medium):   96 / 1015
+Solved / Total (Medium):   97 / 1015
 Solved / Total (Hard)  :    8 /  405
-Solved / Total (All)   :  153 / 1923
-Total Score            :  377
+Solved / Total (All)   :  154 / 1923
+Total Score            :  380
 =====================================
 
 ```
