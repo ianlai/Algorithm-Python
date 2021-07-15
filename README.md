@@ -73,6 +73,7 @@ algo
 │   ├── __0062__Unique\ Paths.py
 │   ├── __0064__Minimum\ Path\ Sum.py
 │   ├── __0070__Climbing\ Stairs.py
+│   ├── __0096__Unique\ Binary\ Search\ Trees.py
 │   ├── __0119__Pascal's\ Triangle\ II.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best\ Time\ to\ Buy\ and\ Sell\ Stock.py
@@ -190,7 +191,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 169 files
+20 directories, 170 files
 
 =====================================
 ============= Local Repo ============
@@ -238,6 +239,7 @@ __0090__Subsets II.py
 __0092__Reverse Linked List II.py
 __0094__Binary Tree Inorder Traversal.py 
 __0095__Unique Binary Search Trees II.py
+__0096__Unique Binary Search Trees.py
 __0098__Validate Binary Search Tree.py
 __0100__Same Tree.py
 __0101__Symmetric Tree.py
@@ -356,7 +358,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  160
+Num of Python Practice:  161
 
 
 =====================================
@@ -407,6 +409,7 @@ Num of Python Practice:  160
  0092 Reverse Linked List II
  0094 Binary Tree Inorder Traversal
  0095 Unique Binary Search Trees II
+ 0096 Unique Binary Search Trees
  0098 Validate Binary Search Tree
  0100 Same Tree
  0101 Symmetric Tree
@@ -527,10 +530,10 @@ Num of Python Practice:  160
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   52 /  506
-Solved / Total (Medium):  103 / 1018
+Solved / Total (Medium):  104 / 1018
 Solved / Total (Hard)  :    8 /  409
-Solved / Total (All)   :  163 / 1933
-Total Score            :  401
+Solved / Total (All)   :  164 / 1933
+Total Score            :  404
 =====================================
 
 ```
