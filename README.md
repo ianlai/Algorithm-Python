@@ -24,6 +24,7 @@ algo
 │   ├── __0033__Search\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
 │   ├── __0050__Pow(x,\ n).py
+│   ├── __0069__Sqrt(x).py
 │   ├── __0074__Search\ a\ 2D\ Matrix.py
 │   ├── __0153__Find\ Minimum\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0162__Find\ Peak\ Element.py
@@ -79,6 +80,7 @@ algo
 │   ├── __0300__Longest\ Increasing\ Subsequence.py
 │   ├── __0322__Coin\ Change.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
+│   ├── __0935__Knight\ Dialer.py
 │   └── __1395__Count\ Number\ of\ Teams.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
@@ -97,7 +99,8 @@ algo
 │   ├── __0049__Group\ Anagrams.py
 │   ├── __0287__Find\ the\ Duplicate\ Number.py
 │   ├── __0290__Word\ Pattern.py
-│   └── __0347__Top\ K\ Frequent\ Elements.py
+│   ├── __0347__Top\ K\ Frequent\ Elements.py
+│   └── __0705__Design\ HashSet.py
 ├── Heap
 │   ├── __0215__Kth\ Largest\ Element\ in\ an\ Array.py
 │   ├── __0263__Ugly\ Number.py
@@ -116,7 +119,10 @@ algo
 │   ├── __0148__Sort\ List.py
 │   ├── __0160__Intersection\ of\ Two\ Linked\ Lists.py
 │   ├── __0206__Reverse\ Linked\ List.py
-│   └── __0234__Palindrome\ Linked\ List.py
+│   ├── __0234__Palindrome\ Linked\ List.py
+│   └── __0237__Delete\ Node\ in\ a\ Linked\ List.py
+├── Recursion
+│   └── __0241__Different\ Ways\ to\ Add\ Parentheses.py
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
 ├── Stack
@@ -183,7 +189,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-19 directories, 163 files
+20 directories, 168 files
 
 =====================================
 ============= Local Repo ============
@@ -217,6 +223,7 @@ __0053__Maximum Subarray.py
 __0056__Merge Intervals.py
 __0062__Unique Paths.py
 __0064__Minimum Path Sum.py
+__0069__Sqrt(x).py
 __0070__Climbing Stairs.py
 __0074__Search a 2D Matrix.py
 __0075__Sort Colors.py
@@ -280,8 +287,10 @@ __0230__Kth Smallest Element in a BST.py
 __0234__Palindrome Linked List.py
 __0235__Lowest Common Ancestor of a Binary Search Tree.py
 __0236__Lowest Common Ancestor of a Binary Tree.py
+__0237__Delete Node in a Linked List.py
 __0239__Sliding Window Maximum.py
 __0240__Search a 2D Matrix II.py
+__0241__Different Ways to Add Parentheses.py
 __0242__Valid Anagram.py
 __0257__Binary Tree Paths.py
 __0263__Ugly Number.py
@@ -322,6 +331,7 @@ __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
 __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
+__0705__Design HashSet.py
 __0706__Design HashMap.py
 __0721__Accounts Merge.py
 __0743__Network Delay Time.py
@@ -333,6 +343,7 @@ __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
+__0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
@@ -343,7 +354,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  154
+Num of Python Practice:  159
 
 
 =====================================
@@ -380,6 +391,7 @@ Num of Python Practice:  154
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
+ 0069 Sqrt(x)
  0070 Climbing Stairs
  0074 Search a 2D Matrix
  0075 Sort Colors
@@ -443,8 +455,10 @@ Num of Python Practice:  154
  0234 Palindrome Linked List
  0235 Lowest Common Ancestor of a Binary Search Tree
  0236 Lowest Common Ancestor of a Binary Tree
+ 0237 Delete Node in a Linked List
  0239 Sliding Window Maximum
  0240 Search a 2D Matrix II
+ 0241 Different Ways to Add Parentheses
  0242 Valid Anagram
  0257 Binary Tree Paths
  0263 Ugly Number
@@ -485,6 +499,7 @@ Num of Python Practice:  154
  0695 Max Area of Island
  0703 Kth Largest Element in a Stream
  0704 Binary Search
+ 0705 Design HashSet
  0706 Design HashMap
  0721 Accounts Merge
  0743 Network Delay Time
@@ -496,6 +511,7 @@ Num of Python Practice:  154
  0905 Sort Array By Parity
  0912 Sort an Array
  0922 Sort Array By Parity II
+ 0935 Knight Dialer
  0969 Pancake Sorting
  0973 K Closest Points to Origin
  0994 Rotting Oranges
@@ -507,11 +523,11 @@ Num of Python Practice:  154
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   49 /  503
-Solved / Total (Medium):  100 / 1015
-Solved / Total (Hard)  :    8 /  405
-Solved / Total (All)   :  157 / 1923
-Total Score            :  389
+Solved / Total (Easy)  :   52 /  506
+Solved / Total (Medium):  102 / 1018
+Solved / Total (Hard)  :    8 /  409
+Solved / Total (All)   :  162 / 1933
+Total Score            :  398
 =====================================
 
 ```
