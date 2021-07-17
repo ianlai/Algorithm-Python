@@ -116,6 +116,7 @@ algo
 │   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
 │   ├── __0086__Partition\ List.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
+│   ├── __0109__Convert\ Sorted\ List\ to\ Binary\ Search\ Tree.py
 │   ├── __0141__Linked\ List\ Cycle.py
 │   ├── __0142__Linked\ List\ Cycle\ II.py
 │   ├── __0148__Sort\ List.py
@@ -192,7 +193,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 171 files
+20 directories, 172 files
 
 =====================================
 ============= Local Repo ============
@@ -250,6 +251,7 @@ __0103__Binary Tree Zigzag Level Order Traversal.py
 __0104__Maximum Depth of Binary Tree.py
 __0107__Binary Tree Level Order Traversal II.py
 __0108__Convert Sorted Array to Binary Search Tree.py
+__0109__Convert Sorted List to Binary Search Tree.py
 __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
@@ -360,7 +362,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  162
+Num of Python Practice:  163
 
 
 =====================================
@@ -421,6 +423,7 @@ Num of Python Practice:  162
  0104 Maximum Depth of Binary Tree
  0107 Binary Tree Level Order Traversal II
  0108 Convert Sorted Array to Binary Search Tree
+ 0109 Convert Sorted List to Binary Search Tree
  0111 Minimum Depth of Binary Tree
  0112 Path Sum
  0113 Path Sum II
@@ -533,10 +536,10 @@ Num of Python Practice:  162
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   52 /  505
-Solved / Total (Medium):  104 / 1020
+Solved / Total (Medium):  105 / 1020
 Solved / Total (Hard)  :    9 /  409
-Solved / Total (All)   :  165 / 1934
-Total Score            :  409
+Solved / Total (All)   :  166 / 1934
+Total Score            :  412
 =====================================
 
 ```
