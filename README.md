@@ -112,6 +112,7 @@ algo
 ├── LinkedList
 │   ├── __0002__Add\ Two\ Numbers.py
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
+│   ├── __0023__Merge\ k\ Sorted\ Lists.py
 │   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
 │   ├── __0086__Partition\ List.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
@@ -191,7 +192,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 170 files
+20 directories, 171 files
 
 =====================================
 ============= Local Repo ============
@@ -209,6 +210,7 @@ __0018__4Sum.py
 __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0022__Generate Parentheses.py
+__0023__Merge k Sorted Lists.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
 __0037__Sudoku Solver.py
@@ -358,7 +360,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  161
+Num of Python Practice:  162
 
 
 =====================================
@@ -377,6 +379,7 @@ Num of Python Practice:  161
  0020 Valid Parentheses
  0021 Merge Two Sorted Lists
  0022 Generate Parentheses
+ 0023 Merge k Sorted Lists
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0036 Valid Sudoku
@@ -529,11 +532,11 @@ Num of Python Practice:  161
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   52 /  506
-Solved / Total (Medium):  104 / 1018
-Solved / Total (Hard)  :    8 /  409
-Solved / Total (All)   :  164 / 1933
-Total Score            :  404
+Solved / Total (Easy)  :   52 /  505
+Solved / Total (Medium):  104 / 1020
+Solved / Total (Hard)  :    9 /  409
+Solved / Total (All)   :  165 / 1934
+Total Score            :  409
 =====================================
 
 ```
