@@ -111,6 +111,7 @@ algo
 │   └── __0973__K\ Closest\ Points\ to\ Origin.py
 ├── LinkedList
 │   ├── __0002__Add\ Two\ Numbers.py
+│   ├── __0019__Remove\ Nth\ Node\ From\ End\ of\ List.py
 │   ├── __0021__Merge\ Two\ Sorted\ Lists.py
 │   ├── __0023__Merge\ k\ Sorted\ Lists.py
 │   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
@@ -193,7 +194,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 172 files
+20 directories, 173 files
 
 =====================================
 ============= Local Repo ============
@@ -208,6 +209,7 @@ __0015__3Sum.py
 __0016__3Sum Closest.py
 __0017__Letter Combinations of a Phone Number.py
 __0018__4Sum.py
+__0019__Remove Nth Node From End of List.py
 __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0022__Generate Parentheses.py
@@ -362,7 +364,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  163
+Num of Python Practice:  164
 
 
 =====================================
@@ -378,6 +380,7 @@ Num of Python Practice:  163
  0016 3Sum Closest
  0017 Letter Combinations of a Phone Number
  0018 4Sum
+ 0019 Remove Nth Node From End of List
  0020 Valid Parentheses
  0021 Merge Two Sorted Lists
  0022 Generate Parentheses
@@ -536,10 +539,10 @@ Num of Python Practice:  163
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   52 /  506
-Solved / Total (Medium):  105 / 1022
+Solved / Total (Medium):  106 / 1022
 Solved / Total (Hard)  :    9 /  410
-Solved / Total (All)   :  166 / 1938
-Total Score            :  412
+Solved / Total (All)   :  167 / 1938
+Total Score            :  415
 =====================================
 
 ```
