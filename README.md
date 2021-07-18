@@ -116,7 +116,6 @@ algo
 │   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
 │   ├── __0086__Partition\ List.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
-│   ├── __0109__Convert\ Sorted\ List\ to\ Binary\ Search\ Tree.py
 │   ├── __0141__Linked\ List\ Cycle.py
 │   ├── __0142__Linked\ List\ Cycle\ II.py
 │   ├── __0148__Sort\ List.py
@@ -142,6 +141,7 @@ algo
 │   ├── __0101__Symmetric\ Tree.py
 │   ├── __0104__Maximum\ Depth\ of\ Binary\ Tree.py
 │   ├── __0108__Convert\ Sorted\ Array\ to\ Binary\ Search\ Tree.py
+│   ├── __0109__Convert\ Sorted\ List\ to\ Binary\ Search\ Tree.py
 │   ├── __0114__Flatten\ Binary\ Tree\ to\ Linked\ List.py
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
 │   ├── __0173__Binary\ Search\ Tree\ Iterator.py
@@ -535,10 +535,10 @@ Num of Python Practice:  163
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   52 /  505
-Solved / Total (Medium):  105 / 1020
-Solved / Total (Hard)  :    9 /  409
-Solved / Total (All)   :  166 / 1934
+Solved / Total (Easy)  :   52 /  506
+Solved / Total (Medium):  105 / 1022
+Solved / Total (Hard)  :    9 /  410
+Solved / Total (All)   :  166 / 1938
 Total Score            :  412
 =====================================
 

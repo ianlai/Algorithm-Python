@@ -4,27 +4,48 @@
 #         self.val = val
 #         self.next = next
 import heapq
+
+class Node:
+    def __init__(self, val, node):
+        self.val = val
+        self.node = node
+        
+    def __lt__(self, other):
+        if self.val <= other.val:
+            return True
+        return False
+    
 class Solution:
     
-    #WIP 
+    #Priority Queue + Implement a wrapper [O(nlogk): 41%]
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        print("Priority Queue")
         if not lists:
             return None
+        
         res = ListNode(0)
         p1 = res
-        
         hq = []
-        for head in lists:
-            heapq.heappush(hq, [head.val, head])   #val, node
-        
         numOfEnded = 0
+        
+        for head in lists:
+            if not head:
+                numOfEnded +=1 
+                continue
+            
+            #heapq.heappush(hq, [head.val, head])   #array: val, node
+            n = Node(head.val, head)                #wrap in a node class
+            heapq.heappush(hq, n)   #val, node
+                
         while numOfEnded < len(lists): 
-            _, node = heapq.heappop(hq)
+            n = heapq.heappop(hq)
+            node = n.node
             p1.next = node
             p1 = p1.next
             if node.next:
                 node = node.next
-                heapq.heappush(hq, [node.val, node])
+                n = Node(node.val, node)
+                heapq.heappush(hq, n)
             else:
                 numOfEnded += 1
         return res.next
