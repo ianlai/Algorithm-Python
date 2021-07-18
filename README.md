@@ -5,6 +5,8 @@ algo
 │   ├── __0056__Merge\ Intervals.py
 │   ├── __0122__Best\ Time\ to\ Buy\ and\ Sell\ Stock\ II.py
 │   ├── __0239__Sliding\ Window\ Maximum.py
+│   ├── __0252__Meeting\ Rooms.py
+│   ├── __0253__Meeting\ Rooms\ II.py
 │   ├── __0283__Move\ Zeroes.py
 │   ├── __0350__Intersection\ of\ Two\ Arrays\ II.py
 │   └── __0670__Maximum\ Swap.py
@@ -194,7 +196,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 173 files
+20 directories, 175 files
 
 =====================================
 ============= Local Repo ============
@@ -302,6 +304,8 @@ __0239__Sliding Window Maximum.py
 __0240__Search a 2D Matrix II.py
 __0241__Different Ways to Add Parentheses.py
 __0242__Valid Anagram.py
+__0252__Meeting Rooms.py
+__0253__Meeting Rooms II.py
 __0257__Binary Tree Paths.py
 __0263__Ugly Number.py
 __0264__Ugly Number II.py
@@ -364,7 +368,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  164
+Num of Python Practice:  166
 
 
 =====================================
@@ -475,6 +479,8 @@ Num of Python Practice:  164
  0240 Search a 2D Matrix II
  0241 Different Ways to Add Parentheses
  0242 Valid Anagram
+ 0252 Meeting Rooms
+ 0253 Meeting Rooms II
  0257 Binary Tree Paths
  0263 Ugly Number
  0264 Ugly Number II
@@ -538,11 +544,11 @@ Num of Python Practice:  164
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   52 /  506
-Solved / Total (Medium):  106 / 1022
+Solved / Total (Easy)  :   53 /  506
+Solved / Total (Medium):  107 / 1022
 Solved / Total (Hard)  :    9 /  410
-Solved / Total (All)   :  167 / 1938
-Total Score            :  415
+Solved / Total (All)   :  169 / 1938
+Total Score            :  419
 =====================================
 
 ```
