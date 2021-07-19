@@ -157,6 +157,7 @@ algo
 │   ├── __0236__Lowest\ Common\ Ancestor\ of\ a\ Binary\ Tree.py
 │   ├── __0257__Binary\ Tree\ Paths.py
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
+│   ├── __0314__Binary\ Tree\ Vertical\ Order\ Traversal.py
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
@@ -200,7 +201,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 179 files
+20 directories, 180 files
 
 =====================================
 ============= Local Repo ============
@@ -321,6 +322,7 @@ __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0300__Longest Increasing Subsequence.py
+__0314__Binary Tree Vertical Order Traversal.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0332__Reconstruct Itinerary.py
@@ -376,7 +378,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  170
+Num of Python Practice:  171
 
 
 =====================================
@@ -500,6 +502,7 @@ Num of Python Practice:  170
  0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
+ 0314 Binary Tree Vertical Order Traversal
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
  0332 Reconstruct Itinerary
@@ -557,10 +560,10 @@ Num of Python Practice:  170
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   53 /  507
-Solved / Total (Medium):  111 / 1021
+Solved / Total (Medium):  112 / 1021
 Solved / Total (Hard)  :    9 /  411
-Solved / Total (All)   :  173 / 1939
-Total Score            :  431
+Solved / Total (All)   :  174 / 1939
+Total Score            :  434
 =====================================
 
 ```
