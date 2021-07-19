@@ -87,6 +87,7 @@ algo
 │   └── __1395__Count\ Number\ of\ Teams.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
+│   ├── __0380__Insert\ Delete\ GetRandom\ O(1).py
 │   ├── __0387__First\ Unique\ Character\ in\ a\ String.py
 │   ├── __0706__Design\ HashMap.py
 │   └── __1429__First\ Unique\ Number.py
@@ -119,6 +120,7 @@ algo
 │   ├── __0083__Remove\ Duplicates\ from\ Sorted\ List.py
 │   ├── __0086__Partition\ List.py
 │   ├── __0092__Reverse\ Linked\ List\ II.py
+│   ├── __0138__Copy\ List\ with\ Random\ Pointer.py
 │   ├── __0141__Linked\ List\ Cycle.py
 │   ├── __0142__Linked\ List\ Cycle\ II.py
 │   ├── __0148__Sort\ List.py
@@ -157,6 +159,7 @@ algo
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
 │   ├── __0437__Path\ Sum\ III.py
+│   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
 │   ├── __0572__Subtree\ of\ Another\ Tree.py
@@ -180,7 +183,8 @@ algo
 │   ├── __0912__Sort\ an\ Array.py
 │   ├── __0922__Sort\ Array\ By\ Parity\ II.py
 │   ├── __0969__Pancake\ Sorting.py
-│   └── __1099__Two\ Sum\ Less\ Than\ K.py
+│   ├── __1099__Two\ Sum\ Less\ Than\ K.py
+│   └── __1214__Two\ Sum\ BSTs.py
 ├── UnionFind
 │   ├── __0128__Longest\ Consecutive\ Sequence.py
 │   ├── __0684__Redundant\ Connection.py
@@ -196,7 +200,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 175 files
+20 directories, 179 files
 
 =====================================
 ============= Local Repo ============
@@ -270,6 +274,7 @@ __0128__Longest Consecutive Sequence.py
 __0130__Surrounded Regions.py
 __0133__Clone Graph.py
 __0136__Single Number.py
+__0138__Copy List with Random Pointer.py
 __0139__Word Break.py
 __0141__Linked List Cycle.py
 __0142__Linked List Cycle II.py
@@ -323,6 +328,7 @@ __0347__Top K Frequent Elements.py
 __0350__Intersection of Two Arrays II.py
 __0366__Find Leaves of Binary Tree.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
+__0380__Insert Delete GetRandom O(1).py
 __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
@@ -330,6 +336,7 @@ __0437__Path Sum III.py
 __0459__Repeated Substring Pattern.py
 __0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
+__0538__Convert BST to Greater Tree.py
 __0543__Diameter of Binary Tree.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
@@ -361,6 +368,7 @@ __0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
+__1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
@@ -368,7 +376,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  166
+Num of Python Practice:  170
 
 
 =====================================
@@ -445,6 +453,7 @@ Num of Python Practice:  166
  0130 Surrounded Regions
  0133 Clone Graph
  0136 Single Number
+ 0138 Copy List with Random Pointer
  0139 Word Break
  0141 Linked List Cycle
  0142 Linked List Cycle II
@@ -498,6 +507,7 @@ Num of Python Practice:  166
  0350 Intersection of Two Arrays II
  0366 Find Leaves of Binary Tree
  0378 Kth Smallest Element in a Sorted Matrix
+ 0380 Insert Delete GetRandom O(1)
  0387 First Unique Character in a String
  0399 Evaluate Division
  0401 Binary Watch
@@ -505,6 +515,7 @@ Num of Python Practice:  166
  0459 Repeated Substring Pattern
  0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
+ 0538 Convert BST to Greater Tree
  0543 Diameter of Binary Tree
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
@@ -537,6 +548,7 @@ Num of Python Practice:  166
  0973 K Closest Points to Origin
  0994 Rotting Oranges
  1099 Two Sum Less Than K
+ 1214 Two Sum BSTs
  1254 Number of Closed Islands
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
@@ -544,11 +556,11 @@ Num of Python Practice:  166
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  506
-Solved / Total (Medium):  107 / 1022
-Solved / Total (Hard)  :    9 /  410
-Solved / Total (All)   :  169 / 1938
-Total Score            :  419
+Solved / Total (Easy)  :   53 /  507
+Solved / Total (Medium):  111 / 1021
+Solved / Total (Hard)  :    9 /  411
+Solved / Total (All)   :  173 / 1939
+Total Score            :  431
 =====================================
 
 ```
