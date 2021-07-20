@@ -84,6 +84,7 @@ algo
 │   ├── __0322__Coin\ Change.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
+│   ├── __1143__Longest\ Common\ Subsequence.py
 │   └── __1395__Count\ Number\ of\ Teams.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
@@ -159,6 +160,7 @@ algo
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
 │   ├── __0314__Binary\ Tree\ Vertical\ Order\ Traversal.py
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
+│   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
@@ -201,7 +203,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 180 files
+20 directories, 182 files
 
 =====================================
 ============= Local Repo ============
@@ -334,6 +336,7 @@ __0380__Insert Delete GetRandom O(1).py
 __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
+__0416__Partition Equal Subset Sum.py
 __0437__Path Sum III.py
 __0459__Repeated Substring Pattern.py
 __0515__Find Largest Value in Each Tree Row.py
@@ -370,6 +373,7 @@ __0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
+__1143__Longest Common Subsequence.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1391__Check if There is a Valid Path in a Grid.py
@@ -378,7 +382,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  171
+Num of Python Practice:  173
 
 
 =====================================
@@ -514,6 +518,7 @@ Num of Python Practice:  171
  0387 First Unique Character in a String
  0399 Evaluate Division
  0401 Binary Watch
+ 0416 Partition Equal Subset Sum
  0437 Path Sum III
  0459 Repeated Substring Pattern
  0515 Find Largest Value in Each Tree Row
@@ -551,6 +556,7 @@ Num of Python Practice:  171
  0973 K Closest Points to Origin
  0994 Rotting Oranges
  1099 Two Sum Less Than K
+ 1143 Longest Common Subsequence
  1214 Two Sum BSTs
  1254 Number of Closed Islands
  1391 Check if There is a Valid Path in a Grid
@@ -560,10 +566,10 @@ Num of Python Practice:  171
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   53 /  507
-Solved / Total (Medium):  112 / 1021
+Solved / Total (Medium):  114 / 1021
 Solved / Total (Hard)  :    9 /  411
-Solved / Total (All)   :  174 / 1939
-Total Score            :  434
+Solved / Total (All)   :  176 / 1939
+Total Score            :  440
 =====================================
 
 ```
