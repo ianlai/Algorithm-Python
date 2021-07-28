@@ -167,6 +167,7 @@ algo
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
 │   ├── __0572__Subtree\ of\ Another\ Tree.py
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
+│   ├── __0687__Longest\ Univalue\ Path.py
 │   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 ├── Two-Pointer
 │   ├── __0003__Longest\ Substring\ Without\ Repeating\ Characters.py
@@ -203,7 +204,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 182 files
+20 directories, 183 files
 
 =====================================
 ============= Local Repo ============
@@ -353,6 +354,7 @@ __0658__Find K Closest Elements.py
 __0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
 __0684__Redundant Connection.py
+__0687__Longest Univalue Path.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
 __0703__Kth Largest Element in a Stream.py
@@ -382,7 +384,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  173
+Num of Python Practice:  174
 
 
 =====================================
@@ -535,6 +537,7 @@ Num of Python Practice:  173
  0670 Maximum Swap
  0680 Valid Palindrome II
  0684 Redundant Connection
+ 0687 Longest Univalue Path
  0694 Number of Distinct Islands
  0695 Max Area of Island
  0703 Kth Largest Element in a Stream
@@ -565,11 +568,11 @@ Num of Python Practice:  173
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  507
-Solved / Total (Medium):  114 / 1021
-Solved / Total (Hard)  :    9 /  411
-Solved / Total (All)   :  176 / 1939
-Total Score            :  440
+Solved / Total (Easy)  :   53 /  508
+Solved / Total (Medium):  115 / 1028
+Solved / Total (Hard)  :    9 /  413
+Solved / Total (All)   :  177 / 1949
+Total Score            :  443
 =====================================
 
 ```
