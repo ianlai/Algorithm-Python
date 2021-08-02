@@ -162,6 +162,7 @@ algo
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
 │   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
+│   ├── __0513__Find\ Bottom\ Left\ Tree\ Value.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
 │   ├── __0559__Maximum\ Depth\ of\ N-ary\ Tree.py
@@ -204,7 +205,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-20 directories, 183 files
+20 directories, 184 files
 
 =====================================
 ============= Local Repo ============
@@ -340,6 +341,7 @@ __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
 __0437__Path Sum III.py
 __0459__Repeated Substring Pattern.py
+__0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
 __0538__Convert BST to Greater Tree.py
@@ -384,7 +386,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  174
+Num of Python Practice:  175
 
 
 =====================================
@@ -523,6 +525,7 @@ Num of Python Practice:  174
  0416 Partition Equal Subset Sum
  0437 Path Sum III
  0459 Repeated Substring Pattern
+ 0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
  0538 Convert BST to Greater Tree
@@ -568,11 +571,11 @@ Num of Python Practice:  174
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  508
-Solved / Total (Medium):  115 / 1028
-Solved / Total (Hard)  :    9 /  413
-Solved / Total (All)   :  177 / 1949
-Total Score            :  443
+Solved / Total (Easy)  :   53 /  509
+Solved / Total (Medium):  116 / 1032
+Solved / Total (Hard)  :    9 /  414
+Solved / Total (All)   :  178 / 1955
+Total Score            :  446
 =====================================
 
 ```
