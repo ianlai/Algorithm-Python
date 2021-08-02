@@ -5,7 +5,35 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    
+    # Recursive with global variable [O(n), 64%]
     def longestUnivaluePath(self, root: TreeNode) -> int:
+        print("Method-0")
+        self.longest = 0 
+        self.find(root)
+        return self.longest 
+    
+    def find(self, root):
+        if not root:
+            return 0
+        
+        consecutiveL = self.find(root.left)
+        consecutiveR = self.find(root.right)
+        
+        consecutiveL = consecutiveL + 1 if root.left and root.val == root.left.val else 0
+        consecutiveR = consecutiveR + 1 if root.right and root.val == root.right.val else 0
+            
+        self.longest = max(self.longest, consecutiveL + consecutiveR)
+        #print("root:", root.val)
+        #print("longest:", self.longest)
+        #print("longestConsecutive:", max(consecutiveL, consecutiveR) )
+        return max(consecutiveL, consecutiveR) 
+    
+    # =============================================
+        
+    # Recursive with two return values [O(n): 21%]
+    def longestUnivaluePath1(self, root: TreeNode) -> int:
+        print("Method-1")
         if not root: 
             return 0
         consecutiveCur, longestCur = self.findLongest(root)
