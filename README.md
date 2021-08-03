@@ -139,7 +139,8 @@ algo
 │   └── __0155__Min\ Stack.py
 ├── String
 │   ├── __0151__Reverse\ Words\ in\ a\ String.py
-│   └── __0459__Repeated\ Substring\ Pattern.py
+│   ├── __0459__Repeated\ Substring\ Pattern.py
+│   └── __0767__Reorganize\ String.py
 ├── Tree
 │   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
@@ -207,7 +208,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 185 files
+21 directories, 186 files
 
 =====================================
 ============= Local Repo ============
@@ -367,6 +368,7 @@ __0705__Design HashSet.py
 __0706__Design HashMap.py
 __0721__Accounts Merge.py
 __0743__Network Delay Time.py
+__0767__Reorganize String.py
 __0784__Letter Case Permutation.py
 __0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
@@ -389,7 +391,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  176
+Num of Python Practice:  177
 
 
 =====================================
@@ -552,6 +554,7 @@ Num of Python Practice:  176
  0706 Design HashMap
  0721 Accounts Merge
  0743 Network Delay Time
+ 0767 Reorganize String
  0784 Letter Case Permutation
  0787 Cheapest Flights Within K Stops
  0797 All Paths From Source to Target
@@ -575,11 +578,11 @@ Num of Python Practice:  176
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  509
-Solved / Total (Medium):  117 / 1032
+Solved / Total (Easy)  :   53 /  508
+Solved / Total (Medium):  118 / 1033
 Solved / Total (Hard)  :    9 /  414
-Solved / Total (All)   :  179 / 1955
-Total Score            :  449
+Solved / Total (All)   :  180 / 1955
+Total Score            :  452
 =====================================
 
 ```
