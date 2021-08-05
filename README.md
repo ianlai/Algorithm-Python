@@ -169,7 +169,8 @@ algo
 │   ├── __0572__Subtree\ of\ Another\ Tree.py
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   ├── __0687__Longest\ Univalue\ Path.py
-│   └── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
+│   ├── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
+│   └── __1382__Balance\ a\ Binary\ Search\ Tree.py
 ├── Trie
 │   ├── __0208__Implement\ Trie\ (Prefix\ Tree).py
 │   └── __1268__Search\ Suggestions\ System.py
@@ -208,7 +209,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 186 files
+21 directories, 187 files
 
 =====================================
 ============= Local Repo ============
@@ -385,13 +386,14 @@ __1143__Longest Common Subsequence.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
+__1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  177
+Num of Python Practice:  178
 
 
 =====================================
@@ -572,17 +574,18 @@ Num of Python Practice:  177
  1214 Two Sum BSTs
  1254 Number of Closed Islands
  1268 Search Suggestions System
+ 1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  508
-Solved / Total (Medium):  118 / 1033
-Solved / Total (Hard)  :    9 /  414
-Solved / Total (All)   :  180 / 1955
-Total Score            :  452
+Solved / Total (Easy)  :   53 /  507
+Solved / Total (Medium):  119 / 1034
+Solved / Total (Hard)  :    9 /  415
+Solved / Total (All)   :  181 / 1956
+Total Score            :  455
 =====================================
 
 ```
