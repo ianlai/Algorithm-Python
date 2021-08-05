@@ -32,6 +32,7 @@ algo
 │   ├── __0162__Find\ Peak\ Element.py
 │   ├── __0240__Search\ a\ 2D\ Matrix\ II.py
 │   ├── __0278__First\ Bad\ Version.py
+│   ├── __0540__Single\ Element\ in\ a\ Sorted\ Array.py
 │   ├── __0658__Find\ K\ Closest\ Elements.py
 │   └── __0704__Binary\ Search.py
 ├── BitOperation
@@ -162,6 +163,7 @@ algo
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
 │   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
+│   ├── __0450__Delete\ Node\ in\ a\ BST.py
 │   ├── __0513__Find\ Bottom\ Left\ Tree\ Value.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
@@ -209,7 +211,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 187 files
+21 directories, 189 files
 
 =====================================
 ============= Local Repo ============
@@ -344,11 +346,13 @@ __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
 __0437__Path Sum III.py
+__0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
 __0538__Convert BST to Greater Tree.py
+__0540__Single Element in a Sorted Array.py
 __0543__Diameter of Binary Tree.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
@@ -393,7 +397,7 @@ __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  178
+Num of Python Practice:  180
 
 
 =====================================
@@ -531,11 +535,13 @@ Num of Python Practice:  178
  0401 Binary Watch
  0416 Partition Equal Subset Sum
  0437 Path Sum III
+ 0450 Delete Node in a BST
  0459 Repeated Substring Pattern
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
  0538 Convert BST to Greater Tree
+ 0540 Single Element in a Sorted Array
  0543 Diameter of Binary Tree
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
@@ -582,10 +588,10 @@ Num of Python Practice:  178
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   53 /  507
-Solved / Total (Medium):  119 / 1034
+Solved / Total (Medium):  121 / 1034
 Solved / Total (Hard)  :    9 /  415
-Solved / Total (All)   :  181 / 1956
-Total Score            :  455
+Solved / Total (All)   :  183 / 1956
+Total Score            :  461
 =====================================
 
 ```
