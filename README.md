@@ -195,7 +195,8 @@ algo
 │   ├── __0922__Sort\ Array\ By\ Parity\ II.py
 │   ├── __0969__Pancake\ Sorting.py
 │   ├── __1099__Two\ Sum\ Less\ Than\ K.py
-│   └── __1214__Two\ Sum\ BSTs.py
+│   ├── __1214__Two\ Sum\ BSTs.py
+│   └── __1711__Count\ Good\ Meals.py
 ├── UnionFind
 │   ├── __0128__Longest\ Consecutive\ Sequence.py
 │   ├── __0684__Redundant\ Connection.py
@@ -211,7 +212,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 189 files
+21 directories, 190 files
 
 =====================================
 ============= Local Repo ============
@@ -395,9 +396,10 @@ __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
 __1429__First Unique Number.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
+__1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  180
+Num of Python Practice:  181
 
 
 =====================================
@@ -585,13 +587,14 @@ Num of Python Practice:  180
  1395 Count Number of Teams
  1429 First Unique Number
  1593 Split a String Into the Max Number of Unique Substrings
+ 1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  507
-Solved / Total (Medium):  121 / 1034
+Solved / Total (Easy)  :   53 /  506
+Solved / Total (Medium):  122 / 1035
 Solved / Total (Hard)  :    9 /  415
-Solved / Total (All)   :  183 / 1956
-Total Score            :  461
+Solved / Total (All)   :  184 / 1956
+Total Score            :  464
 =====================================
 
 ```
