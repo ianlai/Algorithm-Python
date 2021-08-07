@@ -85,6 +85,7 @@ algo
 │   ├── __0322__Coin\ Change.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
+│   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
 │   ├── __1143__Longest\ Common\ Subsequence.py
 │   └── __1395__Count\ Number\ of\ Teams.py
 ├── DataStructure
@@ -212,7 +213,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 190 files
+21 directories, 191 files
 
 =====================================
 ============= Local Repo ============
@@ -387,6 +388,7 @@ __0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
+__1130__Minimum Cost Tree From Leaf Values.py
 __1143__Longest Common Subsequence.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
@@ -399,7 +401,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  181
+Num of Python Practice:  182
 
 
 =====================================
@@ -556,6 +558,7 @@ Num of Python Practice:  181
  0680 Valid Palindrome II
  0684 Redundant Connection
  0687 Longest Univalue Path
+ 0690 Employee Importance
  0694 Number of Distinct Islands
  0695 Max Area of Island
  0703 Kth Largest Element in a Stream
@@ -578,6 +581,7 @@ Num of Python Practice:  181
  0973 K Closest Points to Origin
  0994 Rotting Oranges
  1099 Two Sum Less Than K
+ 1130 Minimum Cost Tree From Leaf Values
  1143 Longest Common Subsequence
  1214 Two Sum BSTs
  1254 Number of Closed Islands
@@ -590,11 +594,11 @@ Num of Python Practice:  181
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   53 /  506
-Solved / Total (Medium):  122 / 1035
-Solved / Total (Hard)  :    9 /  415
-Solved / Total (All)   :  184 / 1956
-Total Score            :  464
+Solved / Total (Easy)  :   54 /  507
+Solved / Total (Medium):  123 / 1037
+Solved / Total (Hard)  :    9 /  416
+Solved / Total (All)   :  186 / 1960
+Total Score            :  468
 =====================================
 
 ```
