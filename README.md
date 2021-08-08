@@ -144,7 +144,7 @@ algo
 │   ├── __0459__Repeated\ Substring\ Pattern.py
 │   └── __0767__Reorganize\ String.py
 ├── Tree
-│   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
+│   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
 │   ├── __0099__Recover\ Binary\ Search\ Tree.py
 │   ├── __0100__Same\ Tree.py
@@ -166,6 +166,7 @@ algo
 │   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0450__Delete\ Node\ in\ a\ BST.py
+│   ├── __0510__Inorder\ Successor\ in\ BST\ II.py
 │   ├── __0513__Find\ Bottom\ Left\ Tree\ Value.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
 │   ├── __0543__Diameter\ of\ Binary\ Tree.py
@@ -214,7 +215,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 192 files
+21 directories, 193 files
 
 =====================================
 ============= Local Repo ============
@@ -262,7 +263,7 @@ __0086__Partition List.py
 __0089__Gray Code.py
 __0090__Subsets II.py
 __0092__Reverse Linked List II.py
-__0094__Binary Tree Inorder Traversal.py 
+__0094__Binary Tree Inorder Traversal.py
 __0095__Unique Binary Search Trees II.py
 __0096__Unique Binary Search Trees.py
 __0098__Validate Binary Search Tree.py
@@ -352,6 +353,7 @@ __0416__Partition Equal Subset Sum.py
 __0437__Path Sum III.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
+__0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
 __0532__K-diff Pairs in an Array.py
@@ -403,7 +405,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  183
+Num of Python Practice:  184
 
 
 =====================================
@@ -544,6 +546,7 @@ Num of Python Practice:  183
  0437 Path Sum III
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
+ 0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
  0532 K-diff Pairs in an Array
@@ -598,10 +601,10 @@ Num of Python Practice:  183
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   54 /  509
-Solved / Total (Medium):  124 / 1039
+Solved / Total (Medium):  125 / 1039
 Solved / Total (Hard)  :    9 /  417
-Solved / Total (All)   :  187 / 1965
-Total Score            :  471
+Solved / Total (All)   :  188 / 1965
+Total Score            :  474
 =====================================
 
 ```
