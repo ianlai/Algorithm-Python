@@ -146,6 +146,7 @@ algo
 ├── Tree
 │   ├── __0094__Binary\ Tree\ Inorder\ Traversal.py\ 
 │   ├── __0098__Validate\ Binary\ Search\ Tree.py
+│   ├── __0099__Recover\ Binary\ Search\ Tree.py
 │   ├── __0100__Same\ Tree.py
 │   ├── __0101__Symmetric\ Tree.py
 │   ├── __0104__Maximum\ Depth\ of\ Binary\ Tree.py
@@ -213,7 +214,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 191 files
+21 directories, 192 files
 
 =====================================
 ============= Local Repo ============
@@ -265,6 +266,7 @@ __0094__Binary Tree Inorder Traversal.py
 __0095__Unique Binary Search Trees II.py
 __0096__Unique Binary Search Trees.py
 __0098__Validate Binary Search Tree.py
+__0099__Recover Binary Search Tree.py
 __0100__Same Tree.py
 __0101__Symmetric Tree.py
 __0102__Binary Tree Level Order Traversal.py
@@ -401,7 +403,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  182
+Num of Python Practice:  183
 
 
 =====================================
@@ -456,6 +458,7 @@ Num of Python Practice:  182
  0095 Unique Binary Search Trees II
  0096 Unique Binary Search Trees
  0098 Validate Binary Search Tree
+ 0099 Recover Binary Search Tree
  0100 Same Tree
  0101 Symmetric Tree
  0102 Binary Tree Level Order Traversal
@@ -594,11 +597,11 @@ Num of Python Practice:  182
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   54 /  507
-Solved / Total (Medium):  123 / 1037
-Solved / Total (Hard)  :    9 /  416
-Solved / Total (All)   :  186 / 1960
-Total Score            :  468
+Solved / Total (Easy)  :   54 /  509
+Solved / Total (Medium):  124 / 1039
+Solved / Total (Hard)  :    9 /  417
+Solved / Total (All)   :  187 / 1965
+Total Score            :  471
 =====================================
 
 ```
