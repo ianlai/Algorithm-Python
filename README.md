@@ -153,6 +153,7 @@ algo
 │   ├── __0108__Convert\ Sorted\ Array\ to\ Binary\ Search\ Tree.py
 │   ├── __0109__Convert\ Sorted\ List\ to\ Binary\ Search\ Tree.py
 │   ├── __0114__Flatten\ Binary\ Tree\ to\ Linked\ List.py
+│   ├── __0116__Populating\ Next\ Right\ Pointers\ in\ Each\ Node.py
 │   ├── __0144__Binary\ Tree\ Preorder\ Traversal.py
 │   ├── __0173__Binary\ Search\ Tree\ Iterator.py
 │   ├── __0226__Invert\ Binary\ Tree.py
@@ -162,6 +163,7 @@ algo
 │   ├── __0257__Binary\ Tree\ Paths.py
 │   ├── __0270__Closest\ Binary\ Search\ Tree\ Value.py
 │   ├── __0314__Binary\ Tree\ Vertical\ Order\ Traversal.py
+│   ├── __0341__Flatten\ Nested\ List\ Iterator.py
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
 │   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
@@ -186,6 +188,7 @@ algo
 │   ├── __0015__3Sum.py
 │   ├── __0016__3Sum\ Closest.py
 │   ├── __0018__4Sum.py
+│   ├── __0031__Next\ Permutation.py
 │   ├── __0075__Sort\ Colors.py
 │   ├── __0125__Valid\ Palindrome.py
 │   ├── __0152__Maximum\ Product\ Subarray.py
@@ -215,7 +218,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 193 files
+21 directories, 196 files
 
 =====================================
 ============= Local Repo ============
@@ -235,6 +238,7 @@ __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0022__Generate Parentheses.py
 __0023__Merge k Sorted Lists.py
+__0031__Next Permutation.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
 __0037__Sudoku Solver.py
@@ -280,6 +284,7 @@ __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
 __0114__Flatten Binary Tree to Linked List.py
+__0116__Populating Next Right Pointers in Each Node.py
 __0119__Pascal's Triangle II.py
 __0120__Triangle.py
 __0121__Best Time to Buy and Sell Stock.py
@@ -341,6 +346,7 @@ __0314__Binary Tree Vertical Order Traversal.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0332__Reconstruct Itinerary.py
+__0341__Flatten Nested List Iterator.py
 __0347__Top K Frequent Elements.py
 __0350__Intersection of Two Arrays II.py
 __0366__Find Leaves of Binary Tree.py
@@ -405,7 +411,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  184
+Num of Python Practice:  187
 
 
 =====================================
@@ -426,6 +432,7 @@ Num of Python Practice:  184
  0021 Merge Two Sorted Lists
  0022 Generate Parentheses
  0023 Merge k Sorted Lists
+ 0031 Next Permutation
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0036 Valid Sudoku
@@ -473,6 +480,7 @@ Num of Python Practice:  184
  0112 Path Sum
  0113 Path Sum II
  0114 Flatten Binary Tree to Linked List
+ 0116 Populating Next Right Pointers in Each Node
  0119 Pascal's Triangle II
  0120 Triangle
  0121 Best Time to Buy and Sell Stock
@@ -534,6 +542,7 @@ Num of Python Practice:  184
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
  0332 Reconstruct Itinerary
+ 0341 Flatten Nested List Iterator
  0347 Top K Frequent Elements
  0350 Intersection of Two Arrays II
  0366 Find Leaves of Binary Tree
@@ -601,10 +610,10 @@ Num of Python Practice:  184
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   54 /  509
-Solved / Total (Medium):  125 / 1039
+Solved / Total (Medium):  128 / 1039
 Solved / Total (Hard)  :    9 /  417
-Solved / Total (All)   :  188 / 1965
-Total Score            :  474
+Solved / Total (All)   :  191 / 1965
+Total Score            :  483
 =====================================
 
 ```
