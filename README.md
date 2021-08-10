@@ -177,6 +177,7 @@ algo
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   ├── __0687__Longest\ Univalue\ Path.py
 │   ├── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
+│   ├── __1110__Delete\ Nodes\ And\ Return\ Forest.py
 │   └── __1382__Balance\ a\ Binary\ Search\ Tree.py
 ├── Trie
 │   ├── __0208__Implement\ Trie\ (Prefix\ Tree).py
@@ -218,7 +219,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 196 files
+21 directories, 197 files
 
 =====================================
 ============= Local Repo ============
@@ -398,6 +399,7 @@ __0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
+__1110__Delete Nodes And Return Forest.py
 __1130__Minimum Cost Tree From Leaf Values.py
 __1143__Longest Common Subsequence.py
 __1214__Two Sum BSTs.py
@@ -411,7 +413,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  187
+Num of Python Practice:  188
 
 
 =====================================
@@ -596,6 +598,7 @@ Num of Python Practice:  187
  0973 K Closest Points to Origin
  0994 Rotting Oranges
  1099 Two Sum Less Than K
+ 1110 Delete Nodes And Return Forest
  1130 Minimum Cost Tree From Leaf Values
  1143 Longest Common Subsequence
  1214 Two Sum BSTs
@@ -610,10 +613,10 @@ Num of Python Practice:  187
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   54 /  509
-Solved / Total (Medium):  128 / 1039
+Solved / Total (Medium):  129 / 1039
 Solved / Total (Hard)  :    9 /  417
-Solved / Total (All)   :  191 / 1965
-Total Score            :  483
+Solved / Total (All)   :  192 / 1965
+Total Score            :  486
 =====================================
 
 ```
