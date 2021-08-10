@@ -20,40 +20,71 @@
 #        Return None if this NestedInteger holds a single integer
 #        """
 
-class Node:
-    def __init__(self, nlist):
-        self.arr = []        
-        for ni in nlist:
-            if ni.isInteger():
-                self.arr.append(ni.getInteger())
-            else:
-                self.arr.append(Node(ni.getList()))
-        
+
+# Use recursive to store the flattern result in an array
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
-        self.root = Node(nestedList)
-        self.res = []
-        self.dfs(self.root, self.res)
+        self.arr = self.initialize(nestedList)
         self.idx = 0
-        
-    def dfs(self, root, res):
-        if not root.arr:
-            return 
-        for a in root.arr:
-            if isinstance(a, int):
-                res.append(a)
+    
+    def initialize(self, nlist):
+        arr = []        
+        for e in nlist:
+            if e.isInteger():
+                arr.append(e.getInteger())  #append
             else:
-                self.dfs(a, res)
+                arr.extend(self.initialize(e.getList()))  #extend
+        return arr
         
     def next(self) -> int:
-        ans = self.res[self.idx]
+        res = self.arr[self.idx]
         self.idx += 1
-        return ans
+        return res
     
     def hasNext(self) -> bool:
-        if self.idx == len(self.res):
+        if self.idx == len(self.arr):
             return False
         return True
+    
+
+# Form a tree, run DFS in init to store the flattern result in a res arr
+# 轉換成樹多此一舉
+
+# class Node:
+#     def __init__(self, nlist):
+#         self.arr = []        
+#         for e in nlist:
+#             if e.isInteger():
+#                 self.arr.append(e.getInteger())
+#             else:
+#                 self.arr.append(Node(e.getList()))
+        
+# class NestedIterator:
+#     def __init__(self, nestedList: [NestedInteger]):
+#         self.root = Node(nestedList)
+#         self.res = []
+#         self.idx = 0
+        
+#         self.dfs(self.root)
+        
+#     def dfs(self, root):
+#         if not root.arr:
+#             return 
+#         for e in root.arr:
+#             if isinstance(e, int):
+#                 self.res.append(e)
+#             else:
+#                 self.dfs(e)
+        
+#     def next(self) -> int:
+#         ans = self.res[self.idx]
+#         self.idx += 1
+#         return ans
+    
+#     def hasNext(self) -> bool:
+#         if self.idx == len(self.res):
+#             return False
+#         return True
             
 
 # Your NestedIterator object will be instantiated and called as such:

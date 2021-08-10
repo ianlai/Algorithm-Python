@@ -1,4 +1,11 @@
 class Solution:
+    
+    # Pointer approach [O(n): 92%]
+    # (1) Find the 1st decreasing one from tail as target1
+    # (2) Find the smallest element which larger than target1 in arr[target1Idx+1:] as target2
+    # (3) Swap target1 and target2
+    # (4) Reverse arr[target1Idx+1:]
+    
     def nextPermutation(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
@@ -35,5 +42,5 @@ class Solution:
         t1, t2 = n-1-targetIdx, n-1-target2Idx 
         print("r1:", targetIdx," r2:", target2Idx)  #reverse index 
         print("t1:", t1, " t2:", t2)                #index
-        nums[n-1-targetIdx], nums[n-1-target2Idx] =  nums[n-1-target2Idx], nums[n-1-targetIdx] 
+        nums[t1], nums[t2] =  nums[t2], nums[t1] 
         reverseFromIdx(nums, t1+1)
