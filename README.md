@@ -168,6 +168,7 @@ algo
 │   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0450__Delete\ Node\ in\ a\ BST.py
+│   ├── __0494__Target\ Sum.py
 │   ├── __0510__Inorder\ Successor\ in\ BST\ II.py
 │   ├── __0513__Find\ Bottom\ Left\ Tree\ Value.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
@@ -219,7 +220,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 197 files
+21 directories, 198 files
 
 =====================================
 ============= Local Repo ============
@@ -360,6 +361,7 @@ __0416__Partition Equal Subset Sum.py
 __0437__Path Sum III.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
+__0494__Target Sum.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
@@ -413,7 +415,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  188
+Num of Python Practice:  189
 
 
 =====================================
@@ -557,6 +559,7 @@ Num of Python Practice:  188
  0437 Path Sum III
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
+ 0494 Target Sum
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
@@ -613,10 +616,10 @@ Num of Python Practice:  188
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   54 /  509
-Solved / Total (Medium):  129 / 1039
+Solved / Total (Medium):  130 / 1040
 Solved / Total (Hard)  :    9 /  417
-Solved / Total (All)   :  192 / 1965
-Total Score            :  486
+Solved / Total (All)   :  193 / 1966
+Total Score            :  489
 =====================================
 
 ```
