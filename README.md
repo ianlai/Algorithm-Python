@@ -83,6 +83,7 @@ algo
 │   ├── __0221__Maximal\ Square.py
 │   ├── __0300__Longest\ Increasing\ Subsequence.py
 │   ├── __0322__Coin\ Change.py
+│   ├── __0494__Target\ Sum.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
 │   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
@@ -168,7 +169,6 @@ algo
 │   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0450__Delete\ Node\ in\ a\ BST.py
-│   ├── __0494__Target\ Sum.py
 │   ├── __0510__Inorder\ Successor\ in\ BST\ II.py
 │   ├── __0513__Find\ Bottom\ Left\ Tree\ Value.py
 │   ├── __0538__Convert\ BST\ to\ Greater\ Tree.py
@@ -179,7 +179,8 @@ algo
 │   ├── __0687__Longest\ Univalue\ Path.py
 │   ├── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 │   ├── __1110__Delete\ Nodes\ And\ Return\ Forest.py
-│   └── __1382__Balance\ a\ Binary\ Search\ Tree.py
+│   ├── __1382__Balance\ a\ Binary\ Search\ Tree.py
+│   └── __1448__Count\ Good\ Nodes\ in\ Binary\ Tree.py
 ├── Trie
 │   ├── __0208__Implement\ Trie\ (Prefix\ Tree).py
 │   └── __1268__Search\ Suggestions\ System.py
@@ -220,7 +221,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 198 files
+21 directories, 199 files
 
 =====================================
 ============= Local Repo ============
@@ -411,11 +412,12 @@ __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
 __1429__First Unique Number.py
+__1448__Count Good Nodes in Binary Tree.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  189
+Num of Python Practice:  190
 
 
 =====================================
@@ -611,15 +613,16 @@ Num of Python Practice:  189
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
  1429 First Unique Number
+ 1448 Count Good Nodes in Binary Tree
  1593 Split a String Into the Max Number of Unique Substrings
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
 Solved / Total (Easy)  :   54 /  509
-Solved / Total (Medium):  130 / 1040
+Solved / Total (Medium):  131 / 1040
 Solved / Total (Hard)  :    9 /  417
-Solved / Total (All)   :  193 / 1966
-Total Score            :  489
+Solved / Total (All)   :  194 / 1966
+Total Score            :  492
 =====================================
 
 ```
