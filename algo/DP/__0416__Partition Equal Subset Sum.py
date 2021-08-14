@@ -1,7 +1,44 @@
 class Solution:
     
+    # Tabulation DP [O(n * sum/2)]
+    def canPartition(self, nums: List[int]) -> bool:
+        total = sum(nums)
+        if total % 2 == 1:
+            return False
+        target = total / 2
+
+        reachable_sum = {0}
+        for num in nums:
+            if target - num in reachable_sum:
+                return True
+            next_sum = {n + num for n in reachable_sum if n + num < target}
+            reachable_sum.update(next_sum)
+        return False
+    
+    # ==============================================
+    
     # Tabulation DP [O(n * sum/2) : 36%]
     def canPartition(self, nums: List[int]) -> bool:
+        print("TTT")
+        # find sum of array elements
+        total_sum = sum(nums)
+
+        # if total_sum is odd, it cannot be partitioned into equal sum subsets
+        if total_sum % 2 != 0:
+            return False
+        subset_sum = total_sum // 2
+
+        # construct a dp table of size (subset_sum + 1)
+        dp = [False] * (subset_sum + 1)
+        dp[0] = True
+        for curr in nums:
+            for j in range(subset_sum, curr - 1, -1):
+                dp[j] = dp[j] or dp[j - curr]
+
+        return dp[subset_sum]
+    # ==============================================
+    # Tabulation DP [O(n * sum/2) : 36%]
+    def canPartition2(self, nums: List[int]) -> bool:
         print("Tabulation")
         if not nums:
             return True
