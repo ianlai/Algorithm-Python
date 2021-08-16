@@ -83,7 +83,9 @@ algo
 │   ├── __0221__Maximal\ Square.py
 │   ├── __0300__Longest\ Increasing\ Subsequence.py
 │   ├── __0322__Coin\ Change.py
+│   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0494__Target\ Sum.py
+│   ├── __0518__Coin\ Change\ 2.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
 │   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
@@ -166,7 +168,6 @@ algo
 │   ├── __0314__Binary\ Tree\ Vertical\ Order\ Traversal.py
 │   ├── __0341__Flatten\ Nested\ List\ Iterator.py
 │   ├── __0366__Find\ Leaves\ of\ Binary\ Tree.py
-│   ├── __0416__Partition\ Equal\ Subset\ Sum.py
 │   ├── __0437__Path\ Sum\ III.py
 │   ├── __0450__Delete\ Node\ in\ a\ BST.py
 │   ├── __0510__Inorder\ Successor\ in\ BST\ II.py
@@ -221,7 +222,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 199 files
+21 directories, 200 files
 
 =====================================
 ============= Local Repo ============
@@ -366,6 +367,7 @@ __0494__Target Sum.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
+__0518__Coin Change 2.py
 __0532__K-diff Pairs in an Array.py
 __0538__Convert BST to Greater Tree.py
 __0540__Single Element in a Sorted Array.py
@@ -417,7 +419,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  190
+Num of Python Practice:  191
 
 
 =====================================
@@ -565,6 +567,7 @@ Num of Python Practice:  190
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
+ 0518 Coin Change 2
  0532 K-diff Pairs in an Array
  0538 Convert BST to Greater Tree
  0540 Single Element in a Sorted Array
@@ -618,11 +621,11 @@ Num of Python Practice:  190
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   54 /  509
-Solved / Total (Medium):  131 / 1040
-Solved / Total (Hard)  :    9 /  417
-Solved / Total (All)   :  194 / 1966
-Total Score            :  492
+Solved / Total (Easy)  :   54 /  511
+Solved / Total (Medium):  132 / 1042
+Solved / Total (Hard)  :    9 /  418
+Solved / Total (All)   :  195 / 1971
+Total Score            :  495
 =====================================
 
 ```
