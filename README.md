@@ -56,6 +56,7 @@ algo
 │   ├── __0112__Path\ Sum.py
 │   ├── __0113__Path\ Sum\ II.py
 │   ├── __0130__Surrounded\ Regions.py
+│   ├── __0131__Palindrome\ Partitioning.py
 │   ├── __0139__Word\ Break.py
 │   ├── __0200__Number\ of\ Islands.py
 │   ├── __0216__Combination\ Sum\ III.py
@@ -88,9 +89,11 @@ algo
 │   ├── __0474__Ones\ and\ Zeroes.py
 │   ├── __0494__Target\ Sum.py
 │   ├── __0518__Coin\ Change\ 2.py
+│   ├── __0542__01\ Matrix.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
 │   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
+│   ├── __1137__N-th\ Tribonacci\ Number.py
 │   ├── __1143__Longest\ Common\ Subsequence.py
 │   └── __1395__Count\ Number\ of\ Teams.py
 ├── DataStructure
@@ -224,7 +227,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 202 files
+21 directories, 205 files
 
 =====================================
 ============= Local Repo ============
@@ -299,6 +302,7 @@ __0125__Valid Palindrome.py
 __0127__Word Ladder.py
 __0128__Longest Consecutive Sequence.py
 __0130__Surrounded Regions.py
+__0131__Palindrome Partitioning.py
 __0133__Clone Graph.py
 __0136__Single Number.py
 __0138__Copy List with Random Pointer.py
@@ -375,6 +379,7 @@ __0518__Coin Change 2.py
 __0532__K-diff Pairs in an Array.py
 __0538__Convert BST to Greater Tree.py
 __0540__Single Element in a Sorted Array.py
+__0542__01 Matrix.py
 __0543__Diameter of Binary Tree.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
@@ -410,6 +415,7 @@ __0973__K Closest Points to Origin.py
 __1099__Two Sum Less Than K.py
 __1110__Delete Nodes And Return Forest.py
 __1130__Minimum Cost Tree From Leaf Values.py
+__1137__N-th Tribonacci Number.py
 __1143__Longest Common Subsequence.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
@@ -423,7 +429,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  193
+Num of Python Practice:  196
 
 
 =====================================
@@ -501,6 +507,7 @@ Num of Python Practice:  193
  0127 Word Ladder
  0128 Longest Consecutive Sequence
  0130 Surrounded Regions
+ 0131 Palindrome Partitioning
  0133 Clone Graph
  0136 Single Number
  0138 Copy List with Random Pointer
@@ -577,6 +584,7 @@ Num of Python Practice:  193
  0532 K-diff Pairs in an Array
  0538 Convert BST to Greater Tree
  0540 Single Element in a Sorted Array
+ 0542 01 Matrix
  0543 Diameter of Binary Tree
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
@@ -614,6 +622,7 @@ Num of Python Practice:  193
  1099 Two Sum Less Than K
  1110 Delete Nodes And Return Forest
  1130 Minimum Cost Tree From Leaf Values
+ 1137 N-th Tribonacci Number
  1143 Longest Common Subsequence
  1214 Two Sum BSTs
  1254 Number of Closed Islands
@@ -627,11 +636,11 @@ Num of Python Practice:  193
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   54 /  511
-Solved / Total (Medium):  134 / 1042
+Solved / Total (Easy)  :   55 /  511
+Solved / Total (Medium):  136 / 1042
 Solved / Total (Hard)  :    9 /  419
-Solved / Total (All)   :  197 / 1972
-Total Score            :  501
+Solved / Total (All)   :  200 / 1972
+Total Score            :  508
 =====================================
 
 ```
