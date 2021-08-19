@@ -1,4 +1,6 @@
 class Solution:
+    
+    #Top-Down DP [O(m*n*len): 49%]
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         if len(strs) == 0:
             return 0
@@ -6,8 +8,7 @@ class Solution:
         return self.dfs(strs, m, n, 0, memo)
     
     def dfs(self, strs, m, n, idx, memo):
-        #print(m, n, idx)
-        if m < 0 or n < 0:  #Should go first
+        if m < 0 or n < 0:  #Should check this first
             return -1
         if idx >= len(strs):
             return 0
@@ -15,7 +16,6 @@ class Solution:
             return memo[(m, n, idx)]
         
         zero, one = self.getZeroAndOne(strs[idx])
-        #print("  zero:", zero, " one:", one)
         
         countNoUse = self.dfs(strs, m, n, idx + 1, memo)
         countUse   = 1 + self.dfs(strs, m-zero, n-one, idx + 1, memo)
