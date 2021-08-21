@@ -1,4 +1,5 @@
-https://leetcode.com/problems/01-matrix/
+# https://leetcode.com/problems/01-matrix/submissions/
+    
 class Solution:
     
     # DP [O(mn): 65%]
@@ -30,7 +31,8 @@ class Solution:
         return dp
 
     # ===============================================================
-    # BFS-2 (slightly faster than BFS-1) [O(mn): 27%]
+    
+    # BFS-2 (slightly faster than BFS-1) [O(mn): 33%]
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         print("BFS-2")
         if len(mat) == 0 or len(mat[0]) == 0:
@@ -49,8 +51,6 @@ class Solution:
         #BFS 
         while deq:
             i, j, val = deq.popleft()
-            if val == float('inf'):
-                continue
             for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)] :
                 if not ((0 <= ni < m) and (0 <= nj < n)):
                     continue
@@ -60,6 +60,7 @@ class Solution:
         return res
     
     # ===============================================================
+    
     # BFS-1 [O(mn): 14%]
     def updateMatrix1(self, mat: List[List[int]]) -> List[List[int]]:
         print("BFS-1")
