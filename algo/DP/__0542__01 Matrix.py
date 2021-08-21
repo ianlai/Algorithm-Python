@@ -1,7 +1,7 @@
 class Solution:
     
     # DP [O(mn): 65%]
-    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+    def updateMatrix1(self, mat: List[List[int]]) -> List[List[int]]:
         print("DP")
         if len(mat) == 0 or len(mat[0]) == 0:
             return []
@@ -27,11 +27,41 @@ class Solution:
                 if j < n - 1:
                     dp[i][j] = min(dp[i][j], dp[i][j+1] + 1)
         return dp
+
+    # ===============================================================
+    # BFS-2 (slightly faster than BFS-1) [O(mn): 27%]
+    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+        print("BFS-2")
+        if len(mat) == 0 or len(mat[0]) == 0:
+            return []
+        
+        m, n = len(mat), len(mat[0])
+        res = [[float('inf') for _ in range(n)] for _ in range(m)] 
+        deq = collections.deque([])
+        
+        # Initialize 
+        for i in range(m):
+            for j in range(n):
+                if mat[i][j] == 0:
+                    res[i][j] = 0
+                    deq.append((i, j, 0)) #i, j, val
+        #BFS 
+        while deq:
+            i, j, val = deq.popleft()
+            if val == float('inf'):
+                continue
+            for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)] :
+                if not ((0 <= ni < m) and (0 <= nj < n)):
+                    continue
+                if res[ni][nj] == float('inf'):
+                    res[ni][nj] = val + 1 #not need to compare 
+                    deq.append((ni, nj, res[ni][nj]))
+        return res
     
     # ===============================================================
-    # BFS [O(mn): 14%]
+    # BFS-1 [O(mn): 14%]
     def updateMatrix1(self, mat: List[List[int]]) -> List[List[int]]:
-        print("BFS")
+        print("BFS-1")
         if len(mat) == 0 or len(mat[0]) == 0:
             return []
         
