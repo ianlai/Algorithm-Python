@@ -92,6 +92,7 @@ algo
 │   ├── __0542__01\ Matrix.py
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
+│   ├── __1048__Longest\ String\ Chain.py
 │   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
 │   ├── __1137__N-th\ Tribonacci\ Number.py
 │   ├── __1143__Longest\ Common\ Subsequence.py
@@ -227,7 +228,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 205 files
+21 directories, 206 files
 
 =====================================
 ============= Local Repo ============
@@ -412,6 +413,7 @@ __0922__Sort Array By Parity II.py
 __0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
+__1048__Longest String Chain.py
 __1099__Two Sum Less Than K.py
 __1110__Delete Nodes And Return Forest.py
 __1130__Minimum Cost Tree From Leaf Values.py
@@ -429,7 +431,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  196
+Num of Python Practice:  197
 
 
 =====================================
@@ -582,6 +584,7 @@ Num of Python Practice:  196
  0515 Find Largest Value in Each Tree Row
  0518 Coin Change 2
  0532 K-diff Pairs in an Array
+ 0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
  0540 Single Element in a Sorted Array
  0542 01 Matrix
@@ -619,6 +622,8 @@ Num of Python Practice:  196
  0969 Pancake Sorting
  0973 K Closest Points to Origin
  0994 Rotting Oranges
+ 1025 Divisor Game
+ 1048 Longest String Chain
  1099 Two Sum Less Than K
  1110 Delete Nodes And Return Forest
  1130 Minimum Cost Tree From Leaf Values
@@ -636,11 +641,11 @@ Num of Python Practice:  196
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  511
-Solved / Total (Medium):  136 / 1042
-Solved / Total (Hard)  :    9 /  419
-Solved / Total (All)   :  200 / 1972
-Total Score            :  508
+Solved / Total (Easy)  :   56 /  514
+Solved / Total (Medium):  138 / 1047
+Solved / Total (Hard)  :    9 /  421
+Solved / Total (All)   :  203 / 1982
+Total Score            :  515
 =====================================
 
 ```
