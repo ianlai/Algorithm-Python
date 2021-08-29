@@ -21,7 +21,8 @@ algo
 │   ├── __0207__Course\ Schedule.py
 │   ├── __0210__Course\ Schedule\ II.py
 │   ├── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
-│   └── __0515__Find\ Largest\ Value\ in\ Each\ Tree\ Row.py
+│   ├── __0515__Find\ Largest\ Value\ in\ Each\ Tree\ Row.py
+│   └── __0934__Shortest\ Bridge.py
 ├── BinarySearch
 │   ├── __0033__Search\ in\ Rotated\ Sorted\ Array.py
 │   ├── __0034__Find\ First\ and\ Last\ Position\ of\ Element\ in\ Sorted\ Array.py
@@ -228,7 +229,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 206 files
+21 directories, 207 files
 
 =====================================
 ============= Local Repo ============
@@ -410,6 +411,7 @@ __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
 __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
+__0934__Shortest Bridge.py
 __0935__Knight Dialer.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
@@ -431,7 +433,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  197
+Num of Python Practice:  198
 
 
 =====================================
@@ -618,6 +620,7 @@ Num of Python Practice:  197
  0905 Sort Array By Parity
  0912 Sort an Array
  0922 Sort Array By Parity II
+ 0934 Shortest Bridge
  0935 Knight Dialer
  0969 Pancake Sorting
  0973 K Closest Points to Origin
@@ -641,11 +644,11 @@ Num of Python Practice:  197
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   56 /  514
-Solved / Total (Medium):  138 / 1047
-Solved / Total (Hard)  :    9 /  421
-Solved / Total (All)   :  203 / 1982
-Total Score            :  515
+Solved / Total (Easy)  :   55 /  514
+Solved / Total (Medium):  140 / 1052
+Solved / Total (Hard)  :    9 /  422
+Solved / Total (All)   :  204 / 1988
+Total Score            :  520
 =====================================
 
 ```
