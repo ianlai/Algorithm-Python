@@ -22,6 +22,7 @@ algo
 │   ├── __0210__Course\ Schedule\ II.py
 │   ├── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
 │   ├── __0515__Find\ Largest\ Value\ in\ Each\ Tree\ Row.py
+│   ├── __0662__Maximum\ Width\ of\ Binary\ Tree.py
 │   └── __0934__Shortest\ Bridge.py
 ├── BinarySearch
 │   ├── __0033__Search\ in\ Rotated\ Sorted\ Array.py
@@ -230,7 +231,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 208 files
+21 directories, 209 files
 
 =====================================
 ============= Local Repo ============
@@ -392,6 +393,7 @@ __0572__Subtree of Another Tree.py
 __0576__Out of Boundary Paths.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
+__0662__Maximum Width of Binary Tree.py
 __0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
 __0684__Redundant Connection.py
@@ -435,7 +437,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  199
+Num of Python Practice:  200
 
 
 =====================================
@@ -601,6 +603,7 @@ Num of Python Practice:  199
  0576 Out of Boundary Paths
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
+ 0662 Maximum Width of Binary Tree
  0670 Maximum Swap
  0680 Valid Palindrome II
  0684 Redundant Connection
@@ -647,11 +650,11 @@ Num of Python Practice:  199
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  515
-Solved / Total (Medium):  141 / 1053
-Solved / Total (Hard)  :    9 /  422
-Solved / Total (All)   :  205 / 1990
-Total Score            :  523
+Solved / Total (Easy)  :   55 /  516
+Solved / Total (Medium):  142 / 1055
+Solved / Total (Hard)  :    9 /  423
+Solved / Total (All)   :  206 / 1994
+Total Score            :  526
 =====================================
 
 ```
