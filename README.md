@@ -63,6 +63,7 @@ algo
 │   ├── __0216__Combination\ Sum\ III.py
 │   ├── __0332__Reconstruct\ Itinerary.py
 │   ├── __0401__Binary\ Watch.py
+│   ├── __0417__Pacific\ Atlantic\ Water\ Flow.py
 │   ├── __0560__Subarray\ Sum\ Equals\ K.py
 │   ├── __0694__Number\ of\ Distinct\ Islands.py
 │   ├── __0695__Max\ Area\ of\ Island.py
@@ -229,7 +230,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 207 files
+21 directories, 208 files
 
 =====================================
 ============= Local Repo ============
@@ -369,6 +370,7 @@ __0387__First Unique Character in a String.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
+__0417__Pacific Atlantic Water Flow.py
 __0437__Path Sum III.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
@@ -433,7 +435,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  198
+Num of Python Practice:  199
 
 
 =====================================
@@ -576,6 +578,7 @@ Num of Python Practice:  198
  0399 Evaluate Division
  0401 Binary Watch
  0416 Partition Equal Subset Sum
+ 0417 Pacific Atlantic Water Flow
  0437 Path Sum III
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
@@ -644,11 +647,11 @@ Num of Python Practice:  198
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  514
-Solved / Total (Medium):  140 / 1052
+Solved / Total (Easy)  :   55 /  515
+Solved / Total (Medium):  141 / 1053
 Solved / Total (Hard)  :    9 /  422
-Solved / Total (All)   :  204 / 1988
-Total Score            :  520
+Solved / Total (All)   :  205 / 1990
+Total Score            :  523
 =====================================
 
 ```
