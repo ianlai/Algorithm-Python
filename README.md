@@ -188,6 +188,7 @@ algo
 │   ├── __0617__Merge\ Two\ Binary\ Trees.py
 │   ├── __0687__Longest\ Univalue\ Path.py
 │   ├── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
+│   ├── __0958__Check\ Completeness\ of\ a\ Binary\ Tree.py
 │   ├── __1110__Delete\ Nodes\ And\ Return\ Forest.py
 │   ├── __1382__Balance\ a\ Binary\ Search\ Tree.py
 │   └── __1448__Count\ Good\ Nodes\ in\ Binary\ Tree.py
@@ -231,7 +232,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 209 files
+21 directories, 210 files
 
 =====================================
 ============= Local Repo ============
@@ -417,6 +418,7 @@ __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
 __0934__Shortest Bridge.py
 __0935__Knight Dialer.py
+__0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1048__Longest String Chain.py
@@ -437,7 +439,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  200
+Num of Python Practice:  201
 
 
 =====================================
@@ -628,6 +630,7 @@ Num of Python Practice:  200
  0922 Sort Array By Parity II
  0934 Shortest Bridge
  0935 Knight Dialer
+ 0958 Check Completeness of a Binary Tree
  0969 Pancake Sorting
  0973 K Closest Points to Origin
  0994 Rotting Oranges
@@ -650,11 +653,11 @@ Num of Python Practice:  200
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  516
-Solved / Total (Medium):  142 / 1055
-Solved / Total (Hard)  :    9 /  423
-Solved / Total (All)   :  206 / 1994
-Total Score            :  526
+Solved / Total (Easy)  :   55 /  517
+Solved / Total (Medium):  143 / 1057
+Solved / Total (Hard)  :    9 /  424
+Solved / Total (All)   :  207 / 1998
+Total Score            :  529
 =====================================
 
 ```
