@@ -1,8 +1,13 @@
 DEBUG = True
+# 934. Shortest Bridge
+# https://leetcode.com/problems/shortest-bridge/
+
+DEBUG = True
 class Solution:
     
     # BFS starting with island2 [O(mn):62%] 
     def shortestBridge(self, grid: List[List[int]]) -> int:
+        print("DFS to find island2 ; BFS starting with the whole island2")
         if not grid or not grid[0]:
             return 0        
         m, n = len(grid), len(grid[0])
@@ -14,7 +19,8 @@ class Solution:
                 for j in range(n):
                     if grid[i][j] == 1:
                         _dfsChange(grid, island2, i, j)
-                        return island2
+                        return island2 
+            return None #no island 
                         
         def _dfsChange(grid, island2, i, j):
             if not (0 <= i < m and 0 <= j < n):
@@ -26,15 +32,15 @@ class Solution:
             for ni, nj in [(i+1, j),(i-1, j),(i, j+1),(i, j-1)]:
                 _dfsChange(grid, island2, ni, nj)
         
-        def findMinDistance(grid, island2):
+        def findMinDistanceByForLoop(grid, island2):
             visited = set(island2)
             deq = collections.deque(island2)
-            distance = -1
+            distance = 0
             while deq:
                 for _ in range(len(deq)):
                     i, j = deq.popleft()
                     if grid[i][j] == 1:  #found island1
-                        return distance
+                        return distance - 1
                     for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
                         if not (0 <= ni < m and 0 <= nj < n):
                             continue
@@ -43,9 +49,33 @@ class Solution:
                         deq.append((ni, nj))
                         visited.add((ni, nj))
                 distance += 1
+            return None  #only 1 island 
         
+        def findMinDistanceByDict(grid, island2):
+            deq = collections.deque(island2)
+            distance = {key:0 for key in island2}
+            
+            while deq:
+                i, j = deq.popleft()
+                if grid[i][j] == 1:  #found island1
+                    return distance[(i, j)] - 1
+                for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+                    if not (0 <= ni < m and 0 <= nj < n):
+                        continue
+                    if (ni, nj) in distance:
+                        continue
+                    deq.append((ni, nj))
+                    distance[(ni, nj)] = distance[(i, j)] + 1
+            return None  #only 1 island 
+        
+        #Main function 
         island2 = convertFirstIsland(grid)
-        distance = findMinDistance(grid, island2)
+        
+        assert island2, "no island is found" 
+        #distance = findMinDistanceByForLoop(grid, island2)
+        distance = findMinDistanceByDict(grid, island2)
+        
+        assert distance, "only 1 island is found"
         return distance
         
     # =============================================================
