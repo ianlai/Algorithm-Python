@@ -6,8 +6,7 @@
 #         self.right = right
 class Solution:
     
-    
-    # BFS without dummy node; times two [O(N): 69%]
+    # BFS with index; next is cur multiplies two [O(N): 69%]
     def widthOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
@@ -28,7 +27,7 @@ class Solution:
     
     # =====================================
 
-    # BFS [Incorrect]
+    # BFS with index [Incorrect]
     def widthOfBinaryTree2(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0

@@ -1,6 +1,6 @@
 class Solution:
     
-    # DFS from edge [O((2N+2M)*MN): 55%]
+    # DFS from edge [O(8MN)=O(MN): 55%]
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         m, n = len(heights), len(heights[0])
         pMat = [[0 for _ in range(n)] for _ in range(m)]
@@ -26,14 +26,10 @@ class Solution:
                     ans.append([i, j])
         return ans
             
-        
     def dfs(self, ht, mat, i, j):
         m, n = len(ht), len(ht[0])
-        if not (0 <= i < m and 0 <= j < n):
-            return 
         
         mat[i][j] = 1
-        
         for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
             if not (0 <= ni < m and 0 <= nj < n):
                 continue 
