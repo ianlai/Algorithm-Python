@@ -150,7 +150,8 @@ algo
 │   └── __0242__Valid\ Anagram.py
 ├── Stack
 │   ├── __0020__Valid\ Parentheses.py
-│   └── __0155__Min\ Stack.py
+│   ├── __0155__Min\ Stack.py
+│   └── __0394__Decode\ String.py
 ├── String
 │   ├── __0151__Reverse\ Words\ in\ a\ String.py
 │   ├── __0459__Repeated\ Substring\ Pattern.py
@@ -232,7 +233,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 210 files
+21 directories, 211 files
 
 =====================================
 ============= Local Repo ============
@@ -369,6 +370,7 @@ __0377__Combination Sum IV.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0380__Insert Delete GetRandom O(1).py
 __0387__First Unique Character in a String.py
+__0394__Decode String.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
@@ -439,7 +441,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  201
+Num of Python Practice:  202
 
 
 =====================================
@@ -579,6 +581,7 @@ Num of Python Practice:  201
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
  0387 First Unique Character in a String
+ 0394 Decode String
  0399 Evaluate Division
  0401 Binary Watch
  0416 Partition Equal Subset Sum
@@ -653,11 +656,11 @@ Num of Python Practice:  201
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  517
-Solved / Total (Medium):  143 / 1057
+Solved / Total (Easy)  :   55 /  516
+Solved / Total (Medium):  144 / 1059
 Solved / Total (Hard)  :    9 /  424
-Solved / Total (All)   :  207 / 1998
-Total Score            :  529
+Solved / Total (All)   :  208 / 1999
+Total Score            :  532
 =====================================
 
 ```

@@ -6,16 +6,15 @@
 #         self.right = right
 class Solution:
     
-    # BFS + it's complete tree if any not-none after a None [O(n): 95%]
+    # BFS; it's complete tree if any not-none after a None [O(n): 95%]
     def isCompleteTree(self, root: Optional[TreeNode]) -> bool:
         print("BFS + it's complete tree if any not-none after a None")
         deq = collections.deque([root])
         while deq:
             cur = deq.popleft()
-            if not cur:
-                if any(deq):
-                    return False
-                return True
+            if cur is None:
+                #return not any(deq)  #ok
+                return all([item is None for item in deq])  #ok
             deq.append(cur.left)
             deq.append(cur.right)
         return True #will not fall into this (must encounter a None before completing the BFS)
