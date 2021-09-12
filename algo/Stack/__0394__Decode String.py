@@ -3,12 +3,201 @@
 # Test: 
 # "a3[b2[cd]e2[f]]g12[h]ijk"
 # "100[leetcode]"
+    
 
+# BNF:
+#  literal := [A-Z][a-z]*
+#  number  := [0-9]+
+#  left    := "["
+#  right   := "]"
+#  exp     := <literal>? [<number><left><exp><right> <exp>?] 
+# class AST:
+#     def __init__(self, prefix, num=0, core=None, suffix=None):
+#         self.prefix = prefix
+#         self.num = num
+#         self.core = core
+#         self.suffix = suffix
+        
+#     @staticmethod 
+#     def tokenize(s):
+#         tokens = deque()
+#         str_token = ''
+#         num_token = ''
+#         def flush_num():
+#             nonlocal num_token
+#             nonlocal tokens
+#             if num_token:
+#                 tokens.append(int(num_token))
+#                 num_token = ''
+#         def flush_str():
+#             nonlocal str_token
+#             nonlocal tokens
+#             if str_token:
+#                 tokens.append(str_token)
+#                 str_token = ''
+
+#         for c in s:
+#             if c == '[':  # The number always follows '[', so skip the '[' token.
+#                 flush_num()
+#             elif c == ']':
+#                 flush_str()
+#                 tokens.append(c)
+#             elif c.isdigit():
+#                 flush_str()
+#                 num_token += c
+#             else:
+#                 str_token += c
+
+#         flush_str()
+#         return tokens
+        
+#     @staticmethod
+#     def parse(tokens): # return AST
+#         prefix = ''
+#         while tokens:
+#             token = tokens.popleft()
+#             if token == ']':
+#                 break
+#             elif isinstance(token, int):
+#                 num = token
+#                 core = AST.parse(tokens)
+#                 suffix = AST.parse(tokens)
+#                 return AST(prefix, num, core, suffix)
+#             else:
+#                 prefix = token
+#         return AST(prefix)
+    
+#     def decode(self):
+#         ans = self.prefix
+#         if self.core is not None:
+#             ans += self.core.decode() * self.num
+#         if self.suffix is not None:
+#             ans += self.suffix.decode()
+#         return ans
+    
+#     def __str__(self):
+#         return (" <" + "\n" 
+#                 + "Prefix:" + str(self.prefix) + "\n  " 
+#                 + "Num   :" + str(self.num)    + "\n  " 
+#                 + "Core  :" + str(self.core)   + "\n  " 
+#                 + "Suffix:" + str(self.suffix) + "\n >")
+
+# def decodeString(self, s: str) -> str:
+#     print("AST")
+#     token = AST.tokenize(s)
+#     print(token)
+#     ast = AST.parse(token)
+#     print(ast)
+#     return ast.decode()
+    
+class AST:
+    def __init__(self, prefix, num = None, core = None, suffix = None):
+        self.prefix = prefix
+        self.num = num
+        self.core = core
+        self.suffix = suffix
+        
+    @staticmethod 
+    def tokenize(s):
+        tokens = deque()
+        num_token = ""
+        str_token = ""
+        for c in s:
+            if c == "[":
+                tokens.append(num_token)
+                tokens.append(c)
+                num_token = ""
+            elif c == "]":
+                if str_token:
+                    tokens.append(str_token)
+                    str_token = ""
+                tokens.append(c)
+            elif c.isdigit():
+                num_token += c
+                if str_token:
+                    tokens.append(str_token)
+                    str_token = ""
+            else:
+                str_token += c 
+        if str_token:
+            tokens.append(str_token)
+        return tokens
+    
+    @staticmethod       
+    def parse(tokens):
+        print(tokens)
+        prefix = ""
+        while tokens:
+            token = tokens.popleft()
+            if token == "[":
+                continue
+            elif token == "]":
+                break
+            elif token.isdigit():
+                num = int(token)
+                tokens.popleft() #left
+                core = AST.parse(tokens)
+                suffix = AST.parse(tokens)
+                return AST(prefix, num, core, suffix)
+            else:
+                prefix = token
+        return AST(prefix)
+    
+    def decode(self):
+        decoded_str = self.prefix
+        if self.core:
+            decoded_str += self.num * self.core.decode()
+        if self.suffix:
+            decoded_str += self.suffix.decode()
+        return decoded_str
+    
+    def print(self, layer):
+        print("+ " * layer + "prefix:" + self.prefix)
+        print("+ " * layer + "num:" + str(self.num))
+        
+        print("+ " * layer + "core:")
+        if self.core:
+            self.core.print(layer + 1)
+            
+        print("+ " * layer + "suffix:")
+        if self.suffix:
+            self.suffix.print(layer + 1)
+    
 class Solution:
     
-    # Recursion [9%]
+    # Divide to steps: tokenize, parse to form AST, decode 
     def decodeString(self, s: str) -> str:
-        #print("----- Recursive -----")
+        print("Tokenize -> parse -> decode")
+        tokens = AST.tokenize(s)
+        ast = AST.parse(tokens)
+        #ast.print(1)
+        ast_decoded = ast.decode()
+        return ast_decoded 
+        
+    # ===============================================
+    def decodeString2(self, s: str) -> str:
+        print("2 stack")
+        res,num = "",0
+        st = []
+        for c in s:
+            if c.isdigit():
+                num = num*10+int(c)    
+            elif c=="[":
+                st.append(res)
+                st.append(num)
+                res=""
+                num=0
+            elif c=="]":
+                pnum = st.pop()
+                pstr = st.pop()
+                res = pstr + pnum*res
+            else:
+                res+=c    
+        return res
+  
+    # Recursion [9%]
+    def decodeString1(self, s: str) -> str:
+        print("Recursive")
         #print("  s:", s)
         
         numList = []
@@ -18,8 +207,7 @@ class Solution:
         left, right = 0, 0
         leftIdx, rightIdx, numIdx = -1, -1, -1 #left quote, right quote, first digit
         
-        for i in range(len(s)):
-            c = s[i]
+        for i, c in enumerate(s):
             if c.isdigit():
                 if leftIdx == -1 and numIdx == -1:
                     numIdx = i
@@ -31,7 +219,7 @@ class Solution:
                 right += 1                    
                 if left == right:
                     rightIdx = i
-                    numList.append(int("".join(s[numIdx:leftIdx])))
+                    numList.append(int(s[numIdx:leftIdx]))
                     numIdxList.append(numIdx)
                     quoteList.append((leftIdx, rightIdx))
                     
@@ -39,7 +227,6 @@ class Solution:
                     left, right = 0, 0
                     leftIdx, rightIdx = -1, -1
                     numIdx = -1
-                    
         res = []
         start, end = -1, 0 
         

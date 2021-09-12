@@ -656,10 +656,10 @@ Num of Python Practice:  202
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  516
-Solved / Total (Medium):  144 / 1059
-Solved / Total (Hard)  :    9 /  424
-Solved / Total (All)   :  208 / 1999
+Solved / Total (Easy)  :   55 /  517
+Solved / Total (Medium):  144 / 1061
+Solved / Total (Hard)  :    9 /  425
+Solved / Total (All)   :  208 / 2003
 Total Score            :  532
 =====================================
 
