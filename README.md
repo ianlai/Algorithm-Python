@@ -145,13 +145,14 @@ algo
 │   └── __0237__Delete\ Node\ in\ a\ Linked\ List.py
 ├── Recursion
 │   ├── __0095__Unique\ Binary\ Search\ Trees\ II.py
-│   └── __0241__Different\ Ways\ to\ Add\ Parentheses.py
+│   ├── __0241__Different\ Ways\ to\ Add\ Parentheses.py
+│   ├── __0394__Decode\ String.py
+│   └── __0726__Number\ of\ Atoms.py
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
 ├── Stack
 │   ├── __0020__Valid\ Parentheses.py
-│   ├── __0155__Min\ Stack.py
-│   └── __0394__Decode\ String.py
+│   └── __0155__Min\ Stack.py
 ├── String
 │   ├── __0151__Reverse\ Words\ in\ a\ String.py
 │   ├── __0459__Repeated\ Substring\ Pattern.py
@@ -233,7 +234,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 211 files
+21 directories, 212 files
 
 =====================================
 ============= Local Repo ============
@@ -408,6 +409,7 @@ __0704__Binary Search.py
 __0705__Design HashSet.py
 __0706__Design HashMap.py
 __0721__Accounts Merge.py
+__0726__Number of Atoms.py
 __0743__Network Delay Time.py
 __0767__Reorganize String.py
 __0784__Letter Case Permutation.py
@@ -441,7 +443,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  202
+Num of Python Practice:  203
 
 
 =====================================
@@ -621,6 +623,7 @@ Num of Python Practice:  202
  0705 Design HashSet
  0706 Design HashMap
  0721 Accounts Merge
+ 0726 Number of Atoms
  0743 Network Delay Time
  0767 Reorganize String
  0784 Letter Case Permutation
@@ -656,11 +659,11 @@ Num of Python Practice:  202
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  517
-Solved / Total (Medium):  144 / 1061
-Solved / Total (Hard)  :    9 /  425
-Solved / Total (All)   :  208 / 2003
-Total Score            :  532
+Solved / Total (Easy)  :   55 /  516
+Solved / Total (Medium):  144 / 1063
+Solved / Total (Hard)  :   10 /  426
+Solved / Total (All)   :  209 / 2005
+Total Score            :  537
 =====================================
 
 ```
