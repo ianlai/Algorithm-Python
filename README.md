@@ -147,7 +147,8 @@ algo
 │   ├── __0095__Unique\ Binary\ Search\ Trees\ II.py
 │   ├── __0241__Different\ Ways\ to\ Add\ Parentheses.py
 │   ├── __0394__Decode\ String.py
-│   └── __0726__Number\ of\ Atoms.py
+│   ├── __0726__Number\ of\ Atoms.py
+│   └── __1087__Brace\ Expansion.py
 ├── Sorting
 │   └── __0242__Valid\ Anagram.py
 ├── Stack
@@ -234,7 +235,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 212 files
+21 directories, 213 files
 
 =====================================
 ============= Local Repo ============
@@ -426,6 +427,7 @@ __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1048__Longest String Chain.py
+__1087__Brace Expansion.py
 __1099__Two Sum Less Than K.py
 __1110__Delete Nodes And Return Forest.py
 __1130__Minimum Cost Tree From Leaf Values.py
@@ -443,7 +445,7 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  203
+Num of Python Practice:  204
 
 
 =====================================
@@ -642,6 +644,7 @@ Num of Python Practice:  203
  0994 Rotting Oranges
  1025 Divisor Game
  1048 Longest String Chain
+ 1087 Brace Expansion
  1099 Two Sum Less Than K
  1110 Delete Nodes And Return Forest
  1130 Minimum Cost Tree From Leaf Values
@@ -659,11 +662,11 @@ Num of Python Practice:  203
  1711 Count Good Meals
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  516
-Solved / Total (Medium):  144 / 1063
-Solved / Total (Hard)  :   10 /  426
-Solved / Total (All)   :  209 / 2005
-Total Score            :  537
+Solved / Total (Easy)  :   55 /  518
+Solved / Total (Medium):  145 / 1067
+Solved / Total (Hard)  :   10 /  429
+Solved / Total (All)   :  210 / 2014
+Total Score            :  540
 =====================================
 
 ```
