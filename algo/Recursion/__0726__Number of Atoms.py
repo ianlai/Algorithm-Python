@@ -35,44 +35,43 @@ class AST:
                     tokens.append(c)
         if num:
             tokens.append(num)
+            
+        if tokens and tokens[-1].isalpha():
+            tokens.append('1')
+        if tokens and tokens[-1] == ")":
+            tokens.append('1')
                     
         return tokens
     
     @staticmethod
-    def parse(tokens):
-        #print(tokens)
+    def parse(tokens):        
         if not tokens:
             return None
+        
         token = tokens.popleft()
+        
         if token.isalpha():
             prefix = token
-            num = 1
-            if tokens:
-                num = int(tokens.popleft())
+            num = int(tokens.popleft())
             suffix = AST.parse(tokens)
             return AST(num, prefix, None, suffix)
+        
         elif token == "(":
-            right, left = 1, 0
-            core = ""
             core_deq = collections.deque([])
-            num = 0
-            #for i, t in enumerate(tokens):
+            left, right = 1, 0
+            
             i = 0
             while tokens:
                 t = tokens.popleft()   
                 core_deq.append(t)
                 if t == "(":
-                    right += 1
-                if t == ")":
                     left += 1
+                if t == ")":
+                    right += 1
                 if right == left:
                     core_deq.pop()
                     core = AST.parse(core_deq)  #remove last right bracket
-                    #core = AST.parse(tokens[:i])  #remove last right bracket
-                    #suffix = AST.parse(tokens[i+1:])
-                    num = 1
-                    if tokens:
-                        num = int(tokens.popleft())
+                    num = int(tokens.popleft())
                     suffix = AST.parse(tokens)
                 i += 1
             return AST(num, None, core, suffix)
@@ -80,21 +79,15 @@ class AST:
             return None            
             
     def decode(self):
-        if self is None:
-            return 
-        
-        if self.prefix:
-            self.atom_count[self.prefix] += 1
             
-        if self.core:
+        if self.prefix:
+            self.atom_count[self.prefix] += self.num
+            
+        elif self.core:
             self.core.decode()
             if self.core.atom_count:
                 for k, v in self.core.atom_count.items():
-                    self.atom_count[k] += v
-        
-        # Number only affects prefix and core, but not suffix
-        for k, v in self.atom_count.items():
-            self.atom_count[k] = v * self.num
+                    self.atom_count[k] += v * self.num
             
         if self.suffix:
             self.suffix.decode()
@@ -105,7 +98,7 @@ class AST:
         #print(self.num, self.prefix, self.atom_count)
         return 
     
-    def getCountString(self) -> str:
+    def generateCountString(self) -> str:
         res = ""
         for k in sorted(self.atom_count):
             v = self.atom_count[k] 
@@ -119,13 +112,13 @@ class Solution:
     def countOfAtoms(self, formula: str) -> str:
         
         tokens = AST.tokenize(formula)
-        #print("Tokens:", tokens)
+        print("Tokens:", tokens)
+        
         ast = AST.parse(tokens)
         ast.decode()
-        return ast.getCountString()
+        
+        return ast.generateCountString()
     
-    
-
 
 
 # Incorrect way to write parse function:
