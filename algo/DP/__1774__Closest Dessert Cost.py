@@ -1,11 +1,52 @@
 class Solution:
     
+    # Buttom-Up DP (Tabulation)
+    # Base  = N, Topping =  M
+    # Time  = O((target+N+M)*M)   //56%
+    # Space = O((target+N+M)*M)   //37%
+    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+        print("Buttom-Up DP (Tabulation)")
+
+        row = len(toppingCosts) + 1 
+        col = target + max(baseCosts) + max(toppingCosts)  
+        dp = [[0 for _ in range(col)] for _ in range(row)]
+        print("row:", row, " col:", col)
+        
+        for base in baseCosts:
+            if base < col:
+                dp[0][base] = 1
+            
+        for i in range(1, row):
+            for j in range(col):
+                if dp[i-1][j] == 1:
+                    dp[i][j] = 1
+                    if j + toppingCosts[i-1] < col:
+                        dp[i][j + toppingCosts[i-1]] = 1 
+                    if j + toppingCosts[i-1] * 2 < col:
+                        dp[i][j + toppingCosts[i-1] * 2] = 1 
+        
+        # Find a "1" closest to target 
+        for d in range(col): 
+            j = target - d
+            if j >= 0 and j < col and dp[-1][j] == 1:
+                return j
+            j = target + d  
+            if j >= 0 and j < col and dp[-1][j] == 1:
+                return j
+            
+        # Special case: "target - d" reaches 0 or "target + d" reaches col
+        # We should just get a "1" with the smallest col then 
+        for j in range(col):
+            if dp[-1][j] == 1:
+                return j
+    
+    # ==================================================================================
+    
     # Top-Down DP (Memoization)
     # Base  = N, Topping =  M
     # Time  = O(NM*Target)   //99%
     # Space = O( M*Target)   //49%
-    
-    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+    def closestCost1(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
         print("Top-Down DP (Memoization)")
     
         def dfs(toppingCosts, target, idx, cur, memo):
