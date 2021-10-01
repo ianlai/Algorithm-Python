@@ -99,7 +99,8 @@ algo
 │   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
 │   ├── __1137__N-th\ Tribonacci\ Number.py
 │   ├── __1143__Longest\ Common\ Subsequence.py
-│   └── __1395__Count\ Number\ of\ Teams.py
+│   ├── __1395__Count\ Number\ of\ Teams.py
+│   └── __1774__Closest\ Dessert\ Cost.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
 │   ├── __0380__Insert\ Delete\ GetRandom\ O(1).py
@@ -235,7 +236,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 213 files
+21 directories, 214 files
 
 =====================================
 ============= Local Repo ============
@@ -443,9 +444,10 @@ __1429__First Unique Number.py
 __1448__Count Good Nodes in Binary Tree.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
+__1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  204
+Num of Python Practice:  205
 
 
 =====================================
@@ -660,13 +662,14 @@ Num of Python Practice:  204
  1448 Count Good Nodes in Binary Tree
  1593 Split a String Into the Max Number of Unique Substrings
  1711 Count Good Meals
+ 1774 Closest Dessert Cost
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  518
-Solved / Total (Medium):  145 / 1067
-Solved / Total (Hard)  :   10 /  429
-Solved / Total (All)   :  210 / 2014
-Total Score            :  540
+Solved / Total (Easy)  :   55 /  515
+Solved / Total (Medium):  146 / 1076
+Solved / Total (Hard)  :   10 /  430
+Solved / Total (All)   :  211 / 2021
+Total Score            :  543
 =====================================
 
 ```
