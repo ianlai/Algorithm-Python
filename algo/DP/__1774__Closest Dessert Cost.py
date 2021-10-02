@@ -1,11 +1,39 @@
 class Solution:
     
-    # Buttom-Up DP (Tabulation)
+    # Buttom-Up DP (Filling in map with set)
+    # Base  = N, Topping =  M
+    # Time  = O((target+N+M)*M)   //61%
+    # Space = O((target+N+M)*M)   //14%
+    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+        print("Method4: Buttom-Up DP (map with set)")
+        dp = collections.defaultdict(set)
+        
+        for base in baseCosts:
+            dp[0].add(base)
+            
+        for idx, topping in enumerate(toppingCosts):
+            for last in dp[idx]:
+                dp[idx+1].add(last)
+                dp[idx+1].add(last+topping)
+                dp[idx+1].add(last+topping+topping)
+                
+        # Find answer in last row
+        res = float('inf')
+        for possibleSum in dp[len(toppingCosts)]:
+            if abs(possibleSum - target) < abs(res - target):
+                res = possibleSum
+            if abs(possibleSum - target) == abs(res - target) and possibleSum < res:
+                res = possibleSum
+        return res
+    
+    # ==================================================================================
+
+    # Buttom-Up DP (matrix)
     # Base  = N, Topping =  M
     # Time  = O((target+N+M)*M)   //56%
     # Space = O((target+N+M)*M)   //37%
-    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
-        print("Buttom-Up DP (Tabulation)")
+    def closestCost1(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+        print("Method3: Buttom-Up DP (matrix)")
 
         row = len(toppingCosts) + 1 
         col = target + max(baseCosts) + max(toppingCosts)  
@@ -47,7 +75,7 @@ class Solution:
     # Time  = O(NM*Target)   //99%
     # Space = O( M*Target)   //49%
     def closestCost1(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
-        print("Top-Down DP (Memoization)")
+        print("Method2: Top-Down DP (Memoization)")
     
         def dfs(toppingCosts, target, idx, cur, memo):
             if cur >= target or idx >= len(toppingCosts):
@@ -87,7 +115,7 @@ class Solution:
     # Time  = O(N * 3^M)   //59%
     # Space = O(M)         //57%
     def closestCost1(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
-        print("DFS")
+        print("Method1: DFS")
         def dfs(toppingCosts, target, idx, cur):
             if cur >= target or idx >= len(toppingCosts):
                 return cur
