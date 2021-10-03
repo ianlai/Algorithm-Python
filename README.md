@@ -96,6 +96,7 @@ algo
 │   ├── __0576__Out\ of\ Boundary\ Paths.py
 │   ├── __0935__Knight\ Dialer.py
 │   ├── __1048__Longest\ String\ Chain.py
+│   ├── __1049__Last\ Stone\ Weight\ II.py
 │   ├── __1130__Minimum\ Cost\ Tree\ From\ Leaf\ Values.py
 │   ├── __1137__N-th\ Tribonacci\ Number.py
 │   ├── __1143__Longest\ Common\ Subsequence.py
@@ -236,7 +237,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 214 files
+21 directories, 215 files
 
 =====================================
 ============= Local Repo ============
@@ -428,6 +429,7 @@ __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __1048__Longest String Chain.py
+__1049__Last Stone Weight II.py
 __1087__Brace Expansion.py
 __1099__Two Sum Less Than K.py
 __1110__Delete Nodes And Return Forest.py
@@ -447,7 +449,7 @@ __1711__Count Good Meals.py
 __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 =====================================
-Num of Python Practice:  205
+Num of Python Practice:  206
 
 
 =====================================
@@ -646,7 +648,9 @@ Num of Python Practice:  205
  0994 Rotting Oranges
  1025 Divisor Game
  1048 Longest String Chain
+ 1049 Last Stone Weight II
  1087 Brace Expansion
+ 1096 Brace Expansion II
  1099 Two Sum Less Than K
  1110 Delete Nodes And Return Forest
  1130 Minimum Cost Tree From Leaf Values
@@ -665,11 +669,11 @@ Num of Python Practice:  205
  1774 Closest Dessert Cost
  1905 Count Sub Islands
 =====================================
-Solved / Total (Easy)  :   55 /  515
-Solved / Total (Medium):  146 / 1076
-Solved / Total (Hard)  :   10 /  430
-Solved / Total (All)   :  211 / 2021
-Total Score            :  543
+Solved / Total (Easy)  :   55 /  518
+Solved / Total (Medium):  147 / 1080
+Solved / Total (Hard)  :   11 /  432
+Solved / Total (All)   :  213 / 2030
+Total Score            :  551
 =====================================
 
 ```
