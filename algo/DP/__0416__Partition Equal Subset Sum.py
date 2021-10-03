@@ -1,7 +1,29 @@
 class Solution:
     
-    # Buttom-Up DP [O(n * num of reachable sum) : 85%]  //大神
     def canPartition(self, nums: List[int]) -> bool:
+        print("Buttom-Up, iterate the map 2")
+        total = sum(nums)
+        if total % 2 == 1:
+            return False
+        target = total // 2
+        print("target:", target)
+        
+        possibleSums = set([0])
+        for num in nums:
+            nextSums = set([])
+            for n in possibleSums:
+                if num + n == target:
+                    return True
+                nextSums.add(n)
+                if n + num > target:
+                    continue
+                nextSums.add(n + num)
+            possibleSums = nextSums
+        return False
+    # ==============================================
+
+    # Buttom-Up DP [O(n * num of reachable sum) : 85%]  //大神
+    def canPartition2(self, nums: List[int]) -> bool:
         print("Buttom-Up, iterate the map")
         total = sum(nums)
         if total % 2 == 1:
