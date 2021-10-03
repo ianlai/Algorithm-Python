@@ -1,15 +1,76 @@
+# https://leetcode.com/problems/closest-dessert-cost/
 class Solution:
+    
+    # Buttom-Up DP (2 sets with pruning)
+    # Base  = N, Topping =  N
+    # Time  = O(M*target)   //99%
+    # Space = O(M*target)   //45%
+    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+        print("Method6: Buttom-Up DP (2 sets with pruning)")
+        set1 = set(baseCosts)
+        for idx, topping in enumerate(toppingCosts):
+            set2 = set()
+            for last in set1:
+                set2.add(last)
+                
+                if last > target:
+                    continue
+                set2.add(last+topping)
+                
+                if last+topping > target:
+                    continue
+                set2.add(last+topping+topping)
+            set1 = set2
+                
+        # Find answer in last row
+        return min(set1, key = lambda x: (abs(x-target), x))
+    
+    # ==================================================================================
+
+    # Buttom-Up DP (Filling in map with set)
+    # Base  = N, Topping =  M
+    # With pruning: 
+    # Time  = O(M*target)   //98%
+    # Space = O(M*target)   //50%
+    def closestCost1(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+        print("Method5: Buttom-Up DP (map with set)")
+        dp = collections.defaultdict(set)
+        
+        dp[0] = set(baseCosts)
+            
+        for idx, topping in enumerate(toppingCosts):
+            for last in dp[idx]:
+                dp[idx+1].add(last)
+                
+                if last > target:
+                    continue
+                dp[idx+1].add(last+topping)
+                
+                if last+topping > target:
+                    continue
+                dp[idx+1].add(last+topping+topping)
+                
+                # Incorrect bounds
+                # if last + topping <= target:
+                # if last + topping + topping <= target:
+                
+        # Find answer in last row
+        return min(dp[len(toppingCosts)], key = lambda x: (abs(x-target), x))
+    # ==================================================================================
     
     # Buttom-Up DP (Filling in map with set)
     # Base  = N, Topping =  M
-    # Time  = O((target+N+M)*M)   //61%
-    # Space = O((target+N+M)*M)   //14%
-    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+    
+    # Without pruning (only duplication prevention): 
+    # Time  = O(M*(sum_of_topping*2+max(base)))  //61%
+    #       = O(M*3^N)  
+    # Space = O(M*(sum_of_topping*2+max(base)))   //14%
+    
+    def closestCost1(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
         print("Method4: Buttom-Up DP (map with set)")
         dp = collections.defaultdict(set)
         
-        for base in baseCosts:
-            dp[0].add(base)
+        dp[0] = set(baseCosts)
             
         for idx, topping in enumerate(toppingCosts):
             for last in dp[idx]:
@@ -18,7 +79,7 @@ class Solution:
                 dp[idx+1].add(last+topping+topping)
                 
         # Find answer in last row
-        res = float('inf')
+        res = inf
         for possibleSum in dp[len(toppingCosts)]:
             if abs(possibleSum - target) < abs(res - target):
                 res = possibleSum
