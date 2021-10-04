@@ -1,7 +1,46 @@
 class Solution:
     
-    # Top-Down DP [38% ]
+    # Bottom-Up DP (array) [time: 74%]  
     def combinationSum4(self, nums: List[int], target: int) -> int:    
+        print("Bottom-Up DP (array)")
+        dp = [0 for _ in range(target + 1)]
+        dp[0] = 1
+
+        for i in range(target + 1):
+            for num in nums:
+                if i - num < 0:
+                    continue
+                dp[i] += dp[i - num]
+        return dp[-1]    
+    
+    #===============================================================
+
+    # Bottom-Up DP (matrix) [time: 5%]  
+    def combinationSum41(self, nums: List[int], target: int) -> int:    
+        print("Bottom-Up DP (matrix)")
+        dp = [[0 for _ in range(target + 1)] for _ in range(target + 1)]
+        for row in dp:
+            row[0] = 1
+            
+        for i in range(target + 1):
+            if i == 0: 
+                for num in nums:
+                    if i + num > target:
+                        continue
+                    dp[i][i + num] = dp[i][i]
+            else:
+                for j in range(target + 1):
+                    dp[i][j] = dp[i-1][j]
+                for num in nums:
+                    if i + num > target:
+                        continue
+                    dp[i][i + num] = dp[i][i] + dp[i-1][i + num]
+        return dp[-1][-1]
+        
+    #===============================================================
+    # Top-Down DP [38%]
+    def combinationSum41(self, nums: List[int], target: int) -> int:   
+        print("Top-Down DP")
         res = []
         memo = {}
         count = self.dfs(nums, target, memo)
@@ -21,6 +60,7 @@ class Solution:
         memo[target] = count
         return count 
             
+    #===============================================================
     
     #DFS [TLE]
     def combinationSum41(self, nums: List[int], target: int) -> int:    
