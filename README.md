@@ -101,7 +101,8 @@ algo
 │   ├── __1137__N-th\ Tribonacci\ Number.py
 │   ├── __1143__Longest\ Common\ Subsequence.py
 │   ├── __1395__Count\ Number\ of\ Teams.py
-│   └── __1774__Closest\ Dessert\ Cost.py
+│   ├── __1774__Closest\ Dessert\ Cost.py
+│   └── __1937__Maximum\ Number\ of\ Points\ with\ Cost.py
 ├── DataStructure
 │   ├── __0146__LRU\ Cache.py
 │   ├── __0380__Insert\ Delete\ GetRandom\ O(1).py
@@ -237,7 +238,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 215 files
+21 directories, 216 files
 
 =====================================
 ============= Local Repo ============
@@ -448,8 +449,9 @@ __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
+__1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  206
+Num of Python Practice:  207
 
 
 =====================================
@@ -668,12 +670,13 @@ Num of Python Practice:  206
  1711 Count Good Meals
  1774 Closest Dessert Cost
  1905 Count Sub Islands
+ 1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  518
-Solved / Total (Medium):  147 / 1080
+Solved / Total (Medium):  148 / 1080
 Solved / Total (Hard)  :   11 /  432
-Solved / Total (All)   :  213 / 2030
-Total Score            :  551
+Solved / Total (All)   :  214 / 2030
+Total Score            :  554
 =====================================
 
 ```
