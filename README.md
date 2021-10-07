@@ -195,6 +195,7 @@ algo
 │   ├── __0687__Longest\ Univalue\ Path.py
 │   ├── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 │   ├── __0958__Check\ Completeness\ of\ a\ Binary\ Tree.py
+│   ├── __1038__Binary\ Search\ Tree\ to\ Greater\ Sum\ Tree.py
 │   ├── __1110__Delete\ Nodes\ And\ Return\ Forest.py
 │   ├── __1382__Balance\ a\ Binary\ Search\ Tree.py
 │   └── __1448__Count\ Good\ Nodes\ in\ Binary\ Tree.py
@@ -238,7 +239,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 216 files
+21 directories, 217 files
 
 =====================================
 ============= Local Repo ============
@@ -429,6 +430,7 @@ __0935__Knight Dialer.py
 __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
+__1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
 __1087__Brace Expansion.py
@@ -451,7 +453,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  207
+Num of Python Practice:  208
 
 
 =====================================
@@ -649,6 +651,7 @@ Num of Python Practice:  207
  0973 K Closest Points to Origin
  0994 Rotting Oranges
  1025 Divisor Game
+ 1038 Binary Search Tree to Greater Sum Tree
  1048 Longest String Chain
  1049 Last Stone Weight II
  1087 Brace Expansion
@@ -672,11 +675,11 @@ Num of Python Practice:  207
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  518
-Solved / Total (Medium):  148 / 1080
+Solved / Total (Easy)  :   55 /  517
+Solved / Total (Medium):  149 / 1082
 Solved / Total (Hard)  :   11 /  432
-Solved / Total (All)   :  214 / 2030
-Total Score            :  554
+Solved / Total (All)   :  215 / 2031
+Total Score            :  557
 =====================================
 
 ```
