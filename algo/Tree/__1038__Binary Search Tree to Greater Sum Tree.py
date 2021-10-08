@@ -5,7 +5,26 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    
+    # Reverse pre-order traversal [O(n): 99%]
     def bstToGst(self, root: TreeNode) -> TreeNode:
+        print("Method 2")
+        def helper(root):
+            if root is None:
+                return None
+            helper(root.right)
+            root.val += self.sum 
+            self.sum = root.val
+            helper(root.left)
+            
+        self.sum = 0 
+        helper(root)
+        return root
+
+    # ===============================================
+    # Reverse pre-order traversal [O(n): 71%]
+    def bstToGst(self, root: TreeNode) -> TreeNode:
+        print("Method 1")
         if root is None:
             return root
         sumArr = [0]
