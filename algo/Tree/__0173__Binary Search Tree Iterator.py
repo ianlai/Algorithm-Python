@@ -5,7 +5,29 @@
 #         self.left = left
 #         self.right = right
 class BSTIterator:
-    
+
+    def __init__(self, root: TreeNode):
+        self.arr = []
+        self.idx = 0
+        self.inorder(root, self.arr)
+
+    def inorder(self, root, arr):
+        if not root:
+            return
+        self.inorder(root.left, arr)
+        arr.append(root.val)
+        self.inorder(root.right, arr)
+        
+    def next(self) -> int:
+        val = self.arr[self.idx]
+        self.idx += 1
+        return val
+
+    def hasNext(self) -> bool:
+        return self.idx < len(self.arr)
+
+#============================================
+class BSTIterator1:
     
     # Iterative inorder traversal [O(n), 90%]
     def __init__(self, root: TreeNode):
@@ -32,8 +54,6 @@ class BSTIterator:
 
     def hasNext(self) -> bool:
         return len(self.stack) != 0
-        
-
 # Your BSTIterator object will be instantiated and called as such:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
