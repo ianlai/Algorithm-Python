@@ -23,6 +23,7 @@ algo
 │   ├── __0297__Serialize\ and\ Deserialize\ Binary\ Tree.py
 │   ├── __0515__Find\ Largest\ Value\ in\ Each\ Tree\ Row.py
 │   ├── __0662__Maximum\ Width\ of\ Binary\ Tree.py
+│   ├── __0752__Open\ the\ Lock.py
 │   └── __0934__Shortest\ Bridge.py
 ├── BinarySearch
 │   ├── __0033__Search\ in\ Rotated\ Sorted\ Array.py
@@ -195,6 +196,7 @@ algo
 │   ├── __0687__Longest\ Univalue\ Path.py
 │   ├── __0863__All\ Nodes\ Distance\ K\ in\ Binary\ Tree.py
 │   ├── __0958__Check\ Completeness\ of\ a\ Binary\ Tree.py
+│   ├── __0979__Distribute\ Coins\ in\ Binary\ Tree.py
 │   ├── __1038__Binary\ Search\ Tree\ to\ Greater\ Sum\ Tree.py
 │   ├── __1110__Delete\ Nodes\ And\ Return\ Forest.py
 │   ├── __1382__Balance\ a\ Binary\ Search\ Tree.py
@@ -239,7 +241,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 217 files
+21 directories, 219 files
 
 =====================================
 ============= Local Repo ============
@@ -416,6 +418,7 @@ __0706__Design HashMap.py
 __0721__Accounts Merge.py
 __0726__Number of Atoms.py
 __0743__Network Delay Time.py
+__0752__Open the Lock.py
 __0767__Reorganize String.py
 __0784__Letter Case Permutation.py
 __0787__Cheapest Flights Within K Stops.py
@@ -430,6 +433,7 @@ __0935__Knight Dialer.py
 __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
+__0979__Distribute Coins in Binary Tree.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
@@ -453,7 +457,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  208
+Num of Python Practice:  210
 
 
 =====================================
@@ -635,6 +639,7 @@ Num of Python Practice:  208
  0721 Accounts Merge
  0726 Number of Atoms
  0743 Network Delay Time
+ 0752 Open the Lock
  0767 Reorganize String
  0784 Letter Case Permutation
  0787 Cheapest Flights Within K Stops
@@ -649,6 +654,7 @@ Num of Python Practice:  208
  0958 Check Completeness of a Binary Tree
  0969 Pancake Sorting
  0973 K Closest Points to Origin
+ 0979 Distribute Coins in Binary Tree
  0994 Rotting Oranges
  1025 Divisor Game
  1038 Binary Search Tree to Greater Sum Tree
@@ -675,11 +681,11 @@ Num of Python Practice:  208
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  517
-Solved / Total (Medium):  149 / 1082
-Solved / Total (Hard)  :   11 /  432
-Solved / Total (All)   :  215 / 2031
-Total Score            :  557
+Solved / Total (Easy)  :   55 /  518
+Solved / Total (Medium):  151 / 1084
+Solved / Total (Hard)  :   11 /  433
+Solved / Total (All)   :  217 / 2035
+Total Score            :  563
 =====================================
 
 ```
