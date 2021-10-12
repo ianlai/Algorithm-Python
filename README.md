@@ -71,6 +71,7 @@ algo
 │   ├── __0695__Max\ Area\ of\ Island.py
 │   ├── __0784__Letter\ Case\ Permutation.py
 │   ├── __0841__Keys\ and\ Rooms.py
+│   ├── __1020__Number\ of\ Enclaves.py
 │   ├── __1254__Number\ of\ Closed\ Islands.py
 │   ├── __1391__Check\ if\ There\ is\ a\ Valid\ Path\ in\ a\ Grid.py
 │   ├── __1593__Split\ a\ String\ Into\ the\ Max\ Number\ of\ Unique\ Substrings.py
@@ -241,7 +242,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 219 files
+21 directories, 220 files
 
 =====================================
 ============= Local Repo ============
@@ -434,6 +435,7 @@ __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __0979__Distribute Coins in Binary Tree.py
+__1020__Number of Enclaves.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
@@ -457,7 +459,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  210
+Num of Python Practice:  211
 
 
 =====================================
@@ -656,6 +658,7 @@ Num of Python Practice:  210
  0973 K Closest Points to Origin
  0979 Distribute Coins in Binary Tree
  0994 Rotting Oranges
+ 1020 Number of Enclaves
  1025 Divisor Game
  1038 Binary Search Tree to Greater Sum Tree
  1048 Longest String Chain
@@ -682,10 +685,10 @@ Num of Python Practice:  210
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  518
-Solved / Total (Medium):  151 / 1084
+Solved / Total (Medium):  152 / 1084
 Solved / Total (Hard)  :   11 /  433
-Solved / Total (All)   :  217 / 2035
-Total Score            :  563
+Solved / Total (All)   :  218 / 2035
+Total Score            :  566
 =====================================
 
 ```
