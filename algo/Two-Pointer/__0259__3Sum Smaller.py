@@ -1,16 +1,16 @@
 class Solution:
     
-    # Two Sum variation [O(n2): 22%]
+    # Based on Two-Sum variation [O(nlogn + n2) = O(n2): 67%]
     def threeSumSmaller(self, nums: List[int], target: int) -> int:
-        if nums is None:
-            return 0
+        print("Method-2")
         nums.sort()
         count = 0
-        for i in range(len(nums)):
-            curTarget = target - nums[i]
-            count += self.twoSumSmaller(nums, i + 1, len(nums) - 1, curTarget)
+        for idx, val in enumerate(nums):
+            curTarget = target - val
+            count += self.twoSumSmaller(nums, idx + 1, len(nums) - 1, curTarget)
         return count 
     
+    # Two-Sum variation: O(n2)
     def twoSumSmaller(self, nums, l, r, target):
         count = 0
         while l < r:
@@ -23,7 +23,7 @@ class Solution:
         return count
             
     # ==========================================    
-    # Brute force [O(n3)]
+    # Brute force [O(n3): TLE]
     def threeSumSmaller1(self, nums: List[int], target: int) -> int:
         print("Method-1")
         if nums is None:
