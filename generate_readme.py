@@ -3,7 +3,7 @@ import os
 
 # Use echo to print "```" because both the "```" will show after the result of scripts 
 os.system('echo "\`\`\`"')
-os.system('tree algo')
+os.system('tree algo -N')
 os.system('./algolist.py')
 os.system('./lcode.py')
 os.system('echo "\`\`\`"')
