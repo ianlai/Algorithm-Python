@@ -41,7 +41,6 @@ algo
 ├── BitOperation
 │   └── __0136__Single Number.py
 ├── DFS
-│   ├── _0212
 │   ├── __0017__Letter Combinations of a Phone Number.py
 │   ├── __0022__Generate Parentheses.py
 │   ├── __0037__Sudoku Solver.py
@@ -62,6 +61,7 @@ algo
 │   ├── __0131__Palindrome Partitioning.py
 │   ├── __0139__Word Break.py
 │   ├── __0200__Number of Islands.py
+│   ├── __0212__Word Search II.py
 │   ├── __0216__Combination Sum III.py
 │   ├── __0332__Reconstruct Itinerary.py
 │   ├── __0401__Binary Watch.py
@@ -213,6 +213,7 @@ algo
 │   ├── __0016__3Sum Closest.py
 │   ├── __0018__4Sum.py
 │   ├── __0031__Next Permutation.py
+│   ├── __0042__Trapping Rain Water.py
 │   ├── __0075__Sort Colors.py
 │   ├── __0125__Valid Palindrome.py
 │   ├── __0152__Maximum Product Subarray.py
@@ -244,7 +245,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 222 files
+21 directories, 223 files
 
 =====================================
 ============= Local Repo ============
@@ -270,6 +271,7 @@ __0034__Find First and Last Position of Element in Sorted Array.py
 __0037__Sudoku Solver.py
 __0039__Combination Sum.py
 __0040__Combination Sum II.py
+__0042__Trapping Rain Water.py
 __0044__Wildcard Matching.py
 __0046__Permutations.py
 __0047__Permutations II.py
@@ -344,6 +346,7 @@ __0206__Reverse Linked List.py
 __0207__Course Schedule.py
 __0208__Implement Trie (Prefix Tree).py
 __0210__Course Schedule II.py
+__0212__Word Search II.py
 __0215__Kth Largest Element in an Array.py
 __0216__Combination Sum III.py
 __0221__Maximal Square.py
@@ -463,7 +466,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  213
+Num of Python Practice:  215
 
 
 =====================================
@@ -491,6 +494,7 @@ Num of Python Practice:  213
  0037 Sudoku Solver
  0039 Combination Sum
  0040 Combination Sum II
+ 0042 Trapping Rain Water
  0044 Wildcard Matching
  0046 Permutations
  0047 Permutations II
@@ -566,6 +570,7 @@ Num of Python Practice:  213
  0207 Course Schedule
  0208 Implement Trie (Prefix Tree)
  0210 Course Schedule II
+ 0212 Word Search II
  0215 Kth Largest Element in an Array
  0216 Combination Sum III
  0221 Maximal Square
@@ -690,11 +695,11 @@ Num of Python Practice:  213
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  518
-Solved / Total (Medium):  154 / 1085
-Solved / Total (Hard)  :   11 /  433
-Solved / Total (All)   :  220 / 2036
-Total Score            :  572
+Solved / Total (Easy)  :   55 /  520
+Solved / Total (Medium):  154 / 1090
+Solved / Total (Hard)  :   13 /  435
+Solved / Total (All)   :  222 / 2045
+Total Score            :  582
 =====================================
 
 ```
