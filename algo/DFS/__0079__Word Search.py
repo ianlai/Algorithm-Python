@@ -2,14 +2,47 @@ DIR = [(0,1), (0,-1), (1,0), (-1,0)]
 
 class Solution:
     
+    # 2021/10/17
+    # DFS [O(MN*3^L): 53%]
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        print("Code3")
+        if len(board) == 0 or len(board[0]) == 0 or len(word) == 0:
+            return False
+        m, n = len(board), len(board[0])
+        visited = [[False for j in range(n)] for i in range(m)]
+        
+        def dfs(i, j, idx):
+            if idx == len(word):
+                return True
+            if not (0 <= i < m and 0 <= j < n):
+                return False
+            if visited[i][j]:
+                return False
+            if board[i][j] != word[idx]:
+                return False
+            visited[i][j] = True
+            for (ni, nj) in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+                if dfs(ni, nj, idx+1):
+                    return True
+            visited[i][j] = False
+            return False
+            
+        for i in range(m):
+            for j in range(n):
+                if dfs(i, j, 0):
+                    return True
+        return False
+                
+    # ==============================================
+    
     # DFS [O(n^2 * 3^L * 1), 5%]
     # - Compare one char by one char on the fly.
     # - Not need to store the PrefixSet 
     # - Not need to store the cur list. 
     # - i, j: the coordinates for board
     # - idx : the coordinates for word
-    def exist(self, board: List[List[str]], word: str) -> bool:
-        print("Compare on the fly")
+    def exist1(self, board: List[List[str]], word: str) -> bool:
+        print("Code2: Compare on the fly")
         if not board or len(board[0]) == 0:
             return False
         if not word:
@@ -64,6 +97,7 @@ class Solution:
     
     # DFS [O(n^2 * 3^L * L), TLE]
     def exist1(self, board: List[List[str]], word: str) -> bool:
+        print("Code1")
         if not board or len(board[0]) == 0:
             return False
         if not word:
