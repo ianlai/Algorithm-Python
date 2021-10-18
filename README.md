@@ -174,6 +174,7 @@ algo
 │   ├── __0109__Convert Sorted List to Binary Search Tree.py
 │   ├── __0114__Flatten Binary Tree to Linked List.py
 │   ├── __0116__Populating Next Right Pointers in Each Node.py
+│   ├── __0129__Sum Root to Leaf Numbers.py
 │   ├── __0144__Binary Tree Preorder Traversal.py
 │   ├── __0173__Binary Search Tree Iterator.py
 │   ├── __0226__Invert Binary Tree.py
@@ -245,7 +246,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 223 files
+21 directories, 224 files
 
 =====================================
 ============= Local Repo ============
@@ -320,6 +321,7 @@ __0122__Best Time to Buy and Sell Stock II.py
 __0125__Valid Palindrome.py
 __0127__Word Ladder.py
 __0128__Longest Consecutive Sequence.py
+__0129__Sum Root to Leaf Numbers.py
 __0130__Surrounded Regions.py
 __0131__Palindrome Partitioning.py
 __0133__Clone Graph.py
@@ -466,7 +468,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  215
+Num of Python Practice:  216
 
 
 =====================================
@@ -544,6 +546,7 @@ Num of Python Practice:  215
  0125 Valid Palindrome
  0127 Word Ladder
  0128 Longest Consecutive Sequence
+ 0129 Sum Root to Leaf Numbers
  0130 Surrounded Regions
  0131 Palindrome Partitioning
  0133 Clone Graph
@@ -696,10 +699,10 @@ Num of Python Practice:  215
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  520
-Solved / Total (Medium):  154 / 1090
+Solved / Total (Medium):  155 / 1090
 Solved / Total (Hard)  :   13 /  435
-Solved / Total (All)   :  222 / 2045
-Total Score            :  582
+Solved / Total (All)   :  223 / 2045
+Total Score            :  585
 =====================================
 
 ```
