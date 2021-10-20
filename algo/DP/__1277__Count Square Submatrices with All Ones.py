@@ -1,7 +1,34 @@
 class Solution:
     
-    #DP [O(M*N): 31%]
+    #DP [Time O(M*N):25% / Space: 34%]
     def countSquares(self, matrix: List[List[int]]) -> int:
+        print("Method-2")
+        m, n = len(matrix), len(matrix[0])
+        acu = [list(matrix[i]) for i in range(m)]
+        
+        count = 0
+        for i in range(len(acu)):
+            for j in range(len(acu[0])):
+                if matrix[i][j] == 0:
+                    continue
+                if i > 0 and j > 0:
+                    minLastSquareSize = min(acu[i-1][j], acu[i][j-1], acu[i-1][j-1])
+                    acu[i][j] = minLastSquareSize + 1
+                else:
+                    acu[i][j] = 1
+                count += acu[i][j]
+                
+#         print("---mat---")
+#         for row in matrix:
+#             print(row)
+#         print("---acu---")
+#         for row in acu:
+#             print(row)
+        return count
+    
+    #DP [Time O(M*N): 6% / Space: 8%]
+    def countSquares(self, matrix: List[List[int]]) -> int:
+        print("Method-1")
         
         m, n = len(matrix), len(matrix[0])
         row = [list(matrix[i]) for i in range(m)]
