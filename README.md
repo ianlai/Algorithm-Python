@@ -102,6 +102,7 @@ algo
 │   ├── __1130__Minimum Cost Tree From Leaf Values.py
 │   ├── __1137__N-th Tribonacci Number.py
 │   ├── __1143__Longest Common Subsequence.py
+│   ├── __1277__Count Square Submatrices with All Ones.py
 │   ├── __1395__Count Number of Teams.py
 │   ├── __1774__Closest Dessert Cost.py
 │   └── __1937__Maximum Number of Points with Cost.py
@@ -246,7 +247,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 224 files
+21 directories, 225 files
 
 =====================================
 ============= Local Repo ============
@@ -457,6 +458,7 @@ __1143__Longest Common Subsequence.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
+__1277__Count Square Submatrices with All Ones.py
 __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
@@ -468,7 +470,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  216
+Num of Python Practice:  217
 
 
 =====================================
@@ -687,6 +689,7 @@ Num of Python Practice:  216
  1214 Two Sum BSTs
  1254 Number of Closed Islands
  1268 Search Suggestions System
+ 1277 Count Square Submatrices with All Ones
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
@@ -699,10 +702,10 @@ Num of Python Practice:  216
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  520
-Solved / Total (Medium):  155 / 1090
+Solved / Total (Medium):  156 / 1090
 Solved / Total (Hard)  :   13 /  435
-Solved / Total (All)   :  223 / 2045
-Total Score            :  585
+Solved / Total (All)   :  224 / 2045
+Total Score            :  588
 =====================================
 
 ```
