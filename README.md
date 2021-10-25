@@ -15,6 +15,7 @@ algo
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
 │   ├── __0107__Binary Tree Level Order Traversal II.py
 │   ├── __0111__Minimum Depth of Binary Tree.py
+│   ├── __0126__Word Ladder II.py
 │   ├── __0127__Word Ladder.py
 │   ├── __0133__Clone Graph.py
 │   ├── __0199__Binary Tree Right Side View.py
@@ -247,7 +248,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 225 files
+21 directories, 226 files
 
 =====================================
 ============= Local Repo ============
@@ -320,6 +321,7 @@ __0120__Triangle.py
 __0121__Best Time to Buy and Sell Stock.py
 __0122__Best Time to Buy and Sell Stock II.py
 __0125__Valid Palindrome.py
+__0126__Word Ladder II.py
 __0127__Word Ladder.py
 __0128__Longest Consecutive Sequence.py
 __0129__Sum Root to Leaf Numbers.py
@@ -470,7 +472,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  217
+Num of Python Practice:  218
 
 
 =====================================
@@ -546,6 +548,7 @@ Num of Python Practice:  217
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
  0125 Valid Palindrome
+ 0126 Word Ladder II
  0127 Word Ladder
  0128 Longest Consecutive Sequence
  0129 Sum Root to Leaf Numbers
@@ -701,11 +704,11 @@ Num of Python Practice:  217
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  521
-Solved / Total (Medium):  156 / 1090
-Solved / Total (Hard)  :   13 /  435
-Solved / Total (All)   :  224 / 2046
-Total Score            :  588
+Solved / Total (Easy)  :   55 /  522
+Solved / Total (Medium):  156 / 1092
+Solved / Total (Hard)  :   14 /  436
+Solved / Total (All)   :  225 / 2050
+Total Score            :  593
 =====================================
 
 ```
