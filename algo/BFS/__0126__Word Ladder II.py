@@ -1,7 +1,102 @@
 class Solution:
     
-    # BFS with whole path; removing redanduncy on the fly [41%]
+    # BFS to form DAG + DFS backtracking [75%]
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+        print("BFS to form DAG + backtracking")
+        if endWord not in wordList:
+            return []
+        
+        wordSet = set(wordList + [beginWord])
+        nodeMap = collections.defaultdict(list)
+        
+        def findNextWords(cur, wordSet):
+            if cur in nodeMap:
+                return nodeMap[cur]
+            nextWords = []
+            for i in range(len(cur)):
+                for nc in "abcdefghijklmnopqrstuvwxyz":
+                    word = cur[:i] + nc + cur[i+1:]
+                    if word in wordSet:
+                           nextWords.append(word)
+            nodeMap[cur] = nextWords
+            return nextWords
+            
+        def bfsToGenerateDag(beginWord, endWord, wordSet):
+            dag = collections.defaultdict(set)
+            deq = collections.deque([beginWord])
+            layer = 1
+            while deq:
+                wordSet -= set(deq) 
+                for _ in range(len(deq)):
+                    cur = deq.popleft()
+                    #print(layer, cur, wordSet)
+                    #wordSet.remove(cur)
+                    nextWords = findNextWords(cur, wordSet)
+                    for nextWord in nextWords:
+                        deq.append(nextWord)
+                        dag[cur].add(nextWord)
+                layer += 1
+            return dag
+        
+        def dfsToFindShortestPaths(dag, cur, path, res):
+            for nextNodes in dag[cur]:
+                if nextNodes == endWord:
+                    res.append(list(path + [endWord]))
+                dfsToFindShortestPaths(dag, nextNodes, path + [nextNodes], res)
+            return 
+                 
+        dag = bfsToGenerateDag(beginWord, endWord, wordSet)  
+
+        res = []
+        dfsToFindShortestPaths(dag, beginWord, [beginWord], res)
+    
+        return res
+        
+    # =============================================================
+    def findLadders2(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+        print("大神版本")
+
+        wordLen = len(wordList[0])
+        wordList = set(wordList)
+        wordList.add(beginWord)
+        
+        wordGraph = {}
+        for word in wordList:
+            wordGraph[word] = set()
+            for idx in range(wordLen):
+                for offset in range(26):
+                    char = chr(ord('a') + offset)
+                    neighbor = word[:idx] + char + word[idx+1:]
+                    if neighbor != word and neighbor in wordList:
+                        wordGraph[word].add(neighbor)
+                        
+        pathMap = {word: [] for word in wordList}
+        pathMap[beginWord].append([beginWord])
+        
+        queue = collections.deque()
+        for word in wordGraph[beginWord]:
+            queue.append((word, beginWord))
+        while queue:
+            curWord, prevWord = queue.popleft()
+            prevDistance = len(pathMap[prevWord][0])
+            curDistance = len(pathMap[curWord][0]) if pathMap[curWord] else None
+            if curDistance is not None and curDistance < prevDistance + 1:
+                continue
+            
+            for path in pathMap[prevWord]:
+                pathMap[curWord].append(path + [curWord])
+                
+            # Contiue searching if first visit to this node.
+            if curDistance is None:
+                for nextWord in wordGraph[curWord]:
+                    queue.append((nextWord, curWord))
+                
+        return pathMap.get(endWord, [])
+    
+    # =============================================================
+    
+    # BFS with whole path; removing redanduncy on the fly [41%]
+    def findLadders1(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
         print("BFF with whole path")
         
         wordSet = set(wordList)
@@ -41,11 +136,11 @@ class Solution:
                     
                     # Remove duplicates on the fly
                     nextPaths = set()
-                    
+
                     # Compose new paths based on the curren paths (might be multiple)
                     if nextWord in distance: 
                         nextPaths = distance[nextWord][1]
-                    for idx, curPath in enumerate(curPaths):
+                    for curPath in curPaths:
                         nextPaths.add(curPath + tuple([nextWord]))
                         
                     distance[nextWord] = [nextDistance, nextPaths] 
