@@ -160,7 +160,8 @@ algo
 │   └── __0242__Valid Anagram.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
-│   └── __0155__Min Stack.py
+│   ├── __0155__Min Stack.py
+│   └── __0735__Asteroid Collision.py
 ├── String
 │   ├── __0151__Reverse Words in a String.py
 │   ├── __0459__Repeated Substring Pattern.py
@@ -248,7 +249,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 226 files
+21 directories, 227 files
 
 =====================================
 ============= Local Repo ============
@@ -430,6 +431,7 @@ __0705__Design HashSet.py
 __0706__Design HashMap.py
 __0721__Accounts Merge.py
 __0726__Number of Atoms.py
+__0735__Asteroid Collision.py
 __0743__Network Delay Time.py
 __0752__Open the Lock.py
 __0767__Reorganize String.py
@@ -472,7 +474,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  218
+Num of Python Practice:  219
 
 
 =====================================
@@ -659,6 +661,7 @@ Num of Python Practice:  218
  0706 Design HashMap
  0721 Accounts Merge
  0726 Number of Atoms
+ 0735 Asteroid Collision
  0743 Network Delay Time
  0752 Open the Lock
  0767 Reorganize String
@@ -705,10 +708,10 @@ Num of Python Practice:  218
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  522
-Solved / Total (Medium):  156 / 1092
+Solved / Total (Medium):  157 / 1093
 Solved / Total (Hard)  :   14 /  436
-Solved / Total (All)   :  225 / 2050
-Total Score            :  593
+Solved / Total (All)   :  226 / 2051
+Total Score            :  596
 =====================================
 
 ```
