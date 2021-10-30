@@ -1,4 +1,23 @@
+
+#Use queue to remove the old records which are pass 5 mins [76%]
 class HitCounter:
+
+    def __init__(self):
+        self.queue = collections.deque()
+
+    def hit(self, timestamp: int) -> None:
+        self.queue.append(timestamp)
+
+    def getHits(self, timestamp: int) -> int:
+        target = timestamp - 300 
+        while self.queue:
+            if self.queue[0] <= target:
+                self.queue.popleft()
+            else:
+                break 
+        return len(self.queue)
+        
+class HitCounter1:
 
     def __init__(self):
         """
@@ -13,25 +32,6 @@ class HitCounter:
         """
         self.arr.append(timestamp)
 
-    # Linear [O(n): 17%]
-    def getHits1(self, timestamp: int) -> int:
-        """
-        Return the number of hits in the past 5 minutes.
-        @param timestamp - The current timestamp (in seconds granularity).
-        """
-        target = timestamp - 300
-        if len(self.arr) == 0:
-            return 0
-
-        firstIdx = None
-        for i, e in enumerate(self.arr):
-            if e > target:
-                firstIdx = i
-                break
-        if firstIdx is None:
-            return 0
-        return len(self.arr) - firstIdx
-    
     # Binary Search [O(logn): 76%]
     def getHits(self, timestamp: int) -> int:
         target = timestamp - 300
@@ -63,7 +63,26 @@ class HitCounter:
             count = len(self.arr) - end    
         #print(" -> ", count)
         return count 
+    
+    # Linear [O(n): 17%]
+    def getHits1(self, timestamp: int) -> int:
+        """
+        Return the number of hits in the past 5 minutes.
+        @param timestamp - The current timestamp (in seconds granularity).
+        """
+        target = timestamp - 300
+        if len(self.arr) == 0:
+            return 0
 
+        firstIdx = None
+        for i, e in enumerate(self.arr):
+            if e > target:
+                firstIdx = i
+                break
+        if firstIdx is None:
+            return 0
+        return len(self.arr) - firstIdx
+    
 
 
 # Your HitCounter object will be instantiated and called as such:
