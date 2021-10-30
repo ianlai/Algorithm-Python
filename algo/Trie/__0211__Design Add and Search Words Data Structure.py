@@ -23,8 +23,35 @@ class WordDictionary:
         print("search:", word)
         root = self.root
         return self.searchFromNode(word, root, 0)
-        
+    
     def searchFromNode(self, word, node, idx) -> bool:
+        #print("  searchFN:", word, "node:", node.chmap.keys(), idx)
+
+        c = word[idx]  #won't let idx over word so we don't need to check
+        if c == ".":
+            if len(node.chmap) == 0:  #no more chars to match
+                return False
+            for _, n in node.chmap.items(): 
+                if idx == len(word) - 1:
+                    if n.isEnd:
+                        return True
+                else:
+                    if self.searchFromNode(word, n, idx+1):
+                        return True
+            return False
+        else:  #alphabet 
+            n = node.chmap.get(c, None)
+            if n:
+                if idx == len(word) - 1:
+                    return n.isEnd 
+                else:
+                    return self.searchFromNode(word, n, idx+1)
+            else:
+                return False
+            
+
+    # Works, but the code is messy 
+    def searchFromNode1(self, word, node, idx) -> bool:
         #print("  searchFN:", word, "node:", node.chmap.keys(), idx)
 
         if idx == len(word) - 1:
