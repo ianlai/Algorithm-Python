@@ -208,6 +208,7 @@ algo
 │   └── __1448__Count Good Nodes in Binary Tree.py
 ├── Trie
 │   ├── __0208__Implement Trie (Prefix Tree).py
+│   ├── __0211__Design Add and Search Words Data Structure.py
 │   └── __1268__Search Suggestions System.py
 ├── Two-Pointer
 │   ├── __0003__Longest Substring Without Repeating Characters.py
@@ -249,7 +250,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 227 files
+21 directories, 228 files
 
 =====================================
 ============= Local Repo ============
@@ -352,6 +353,7 @@ __0206__Reverse Linked List.py
 __0207__Course Schedule.py
 __0208__Implement Trie (Prefix Tree).py
 __0210__Course Schedule II.py
+__0211__Design Add and Search Words Data Structure.py
 __0212__Word Search II.py
 __0215__Kth Largest Element in an Array.py
 __0216__Combination Sum III.py
@@ -474,7 +476,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  219
+Num of Python Practice:  220
 
 
 =====================================
@@ -571,7 +573,7 @@ Num of Python Practice:  219
  0155 Min Stack
  0160 Intersection of Two Linked Lists
  0162 Find Peak Element
- 0167 Two Sum II - Input array is sorted
+ 0167 Two Sum II - Input Array Is Sorted
  0173 Binary Search Tree Iterator
  0189 Rotate Array
  0199 Binary Tree Right Side View
@@ -580,6 +582,7 @@ Num of Python Practice:  219
  0207 Course Schedule
  0208 Implement Trie (Prefix Tree)
  0210 Course Schedule II
+ 0211 Design Add and Search Words Data Structure
  0212 Word Search II
  0215 Kth Largest Element in an Array
  0216 Combination Sum III
@@ -709,9 +712,9 @@ Num of Python Practice:  219
 =====================================
 Solved / Total (Easy)  :   55 /  522
 Solved / Total (Medium):  157 / 1093
-Solved / Total (Hard)  :   14 /  436
-Solved / Total (All)   :  226 / 2051
-Total Score            :  596
+Solved / Total (Hard)  :   15 /  437
+Solved / Total (All)   :  227 / 2052
+Total Score            :  601
 =====================================
 
 ```
