@@ -55,7 +55,6 @@ mediumNumber =[]
 hardNumber = []
 leetscore = []  #leetcode score 
 
-
 latest_date = ""
 
 ###################### 
@@ -87,112 +86,62 @@ def writePrepare(today_date, today_value, today_lcode, score, today_review):
 ### Draw the graph   
 ######################
 def draw(dates, values):
-    fig, ax = plt.subplots(figsize=(14, 7))
 
-    # vertical dividers (week, day)
-    xfmt = mdates.DateFormatter("%m/%d")
-    xloc1 = mdates.WeekdayLocator(SUNDAY)
-    xloc2 = mdates.DayLocator()
-    ax.xaxis.set_major_formatter(xfmt)
-    ax.xaxis.set_minor_formatter(xfmt)
-    ax.xaxis.set_major_locator(xloc1) #major: week
-    ax.xaxis.set_minor_locator(xloc2) #minor: day
+    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 10))
 
-    ax.grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
-    ax.grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
-    ax.grid(which='major', color='#bbbbbb', axis ='y')
-    ax.set_ylim(50,100) 
-
-    plt.plot_date(dates, values,'-', marker='o')
-    plt.yticks(np.arange(50, 500, step=10))
-
-    # tilt the date in x-axis
-    plt.gcf().autofmt_xdate(which='both')
-
-    # add the annotation of the values 
-    for i,j in zip(dates, values):
-        ax.annotate(str(j),xy=(i, j - 3))
-
-    # #2019.10
-    # ax.set(xlabel="Date", ylabel="Number of Practices",
-    #     title="Accumulative Statistics (2019.10)")
-    # ax.set_xlim(datetime.datetime(2019,10,1), datetime.datetime(2019,10,31)) 
-    # ax.set_ylim(50,150) 
-    # plt.savefig(FILE_IMAGE201910)
-
-    # #2019.11
-    # ax.set(xlabel="Date", ylabel="Number of Practices",
-    #     title="Accumulative Statistics (2019.11)")
-    # ax.set_xlim(datetime.datetime(2019,11,1), datetime.datetime(2019,11,30)) 
-    # plt.savefig(FILE_IMAGE201911)
-
-    # #2019.12
-    # ax.set(xlabel="Date", ylabel="Number of Practices",
-    #     title="Accumulative Statistics (2019.12)")
-    # ax.set_xlim(datetime.datetime(2019,12,1), datetime.datetime(2019,12,31)) 
-    # plt.savefig(FILE_IMAGE201912)
-
-    # #2020.01
-    # ax.set(xlabel="Date", ylabel="Number of Practices",
-    #     title="Accumulative Statistics (2020.01)")
-    # ax.set_xlim(datetime.datetime(2020,1,1), datetime.datetime(2020,1,31)) 
-    # ax.set_ylim(100,200) 
-    # plt.savefig(FILE_IMAGE202001)
-
-    # #2020.02
-    # ax.set(xlabel="Date", ylabel="Number of Practices",
-    #     title="Accumulative Statistics (2020.02)")
-    # ax.set_xlim(datetime.datetime(2020,2,1), datetime.datetime(2020,2,29)) 
-    # plt.savefig(FILE_IMAGE202002)
-
-    # #2020.03
-    # ax.set(xlabel="Date", ylabel="Number of Practices",
-    #     title="Accumulative Statistics (2020.03)")
-    # ax.set_xlim(datetime.datetime(2020,3,1), datetime.datetime(2020,3,31)) 
-    # plt.savefig(FILE_IMAGE202003)
-
-    #=========================================================================
-
-    #2020.04
-    plt.close()
-    
     dates = dates[-len(leetscore):]
     values = values[-len(leetscore):]
-
     annotate_y_offset = 5
+    
+    # vertical dividers (week, day)
+    xfmt = mdates.DateFormatter("%m/%d")
 
-    fig, axs = plt.subplots(2, 1, sharex=True, figsize=(14, 14))
+    ### Set grid
+    axs[0].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
+    axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
+    axs[0].grid(which='major', color='#bbbbbb', axis ='y')
+    axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
+    axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
+    axs[1].grid(which='major', color='#bbbbbb', axis ='y')
 
     ### Draw number figure 
-    axs[0].set(xlabel="Date", ylabel="Number of Problems",
-        title="Number of Problems (2021.04)")
-    axs[0].set_title("Number of Problems (2021.04)", fontweight = 'bold')
+    y_stack = np.row_stack([easyNumber, mediumNumber, hardNumber])
+    axs[0].stackplot(dates, y_stack, colors=['#5cb85c', '#f0ad4e', '#d9534f'])                 #e,m,h number
+    #axs[0].plot_date(dates, values,'-', marker='o')
+    axs[0].plot_date(dates, leetnumber,'-', marker='', linewidth = 5, color='black')           #leet number
+    #axs[0].plot_date(dates[-len(reviewNumber):], reviewNumber,'-', marker='o', color='#555555')  #review number
 
-    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,4,30)) 
-    axs[0].set_ylim(0,300) #number of quiz
+    ### Draw score figure 
+    axs[1].set_ylim(0,700) #score of quiz
+    axs[1].plot_date(dates, leetscore,'-', marker='*', markersize=10, color='#cc3300')
+
+
+    # Year: 2021 Total 
+    axs[1].set(xlabel="Date", ylabel="Score",
+    title="Score of Quiz (2021.04 - 2021.12)")
+    axs[0].set_title("Number of Quiz", fontweight = 'bold')
+    axs[1].set_title("Score of Quiz", fontweight = 'bold')
+    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,12,31)) 
+
+    xloc1 = mdates.MonthLocator()
+    xloc2 = mdates.WeekdayLocator(SUNDAY)
+    axs[0].xaxis.set_major_formatter(xfmt)
+    axs[0].xaxis.set_major_locator(xloc1) #major: month
+    #axs[0].xaxis.set_minor_formatter(xfmt)
+    axs[0].xaxis.set_minor_locator(xloc2) #minor: week
+    plt.gcf().autofmt_xdate()
+    plt.savefig(FILE_IMAGE_SCORE2021_TOTAL)
+
+
+    # Month: 2021.04 ~ 
+    axs[0].clear()
+    axs[0].stackplot(dates, y_stack, colors=['#5cb85c', '#f0ad4e', '#d9534f'])                 #e,m,h number
+    axs[0].plot_date(dates, leetnumber,'-', linewidth = 1, marker='o', color='black')   
     axs[0].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
     axs[0].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
     axs[0].grid(which='major', color='#bbbbbb', axis ='y')
 
 
-    y_stack = np.row_stack([easyNumber, mediumNumber, hardNumber])
-    axs[0].stackplot(dates, y_stack, colors=['#5cb85c', '#f0ad4e', '#d9534f'])                 #e,m,h number
-    #axs[0].plot_date(dates, values,'-', marker='o')
-    axs[0].plot_date(dates, leetnumber,'-', marker='o', color='black')                         #leet number
-    axs[0].plot_date(dates[-len(reviewNumber):], reviewNumber,'-', marker='o', color='#555555')  #review number
-
-    ### Draw score figure 
-    axs[1].set(xlabel="Date", ylabel="Score",
-        title="Score (2020.04)")
-    #ax2.set_xlim(datetime.datetime(2020,4,1), datetime.datetime(2020,4,30)) 
-    axs[1].set_title("Score (2020.04)", fontweight = 'bold')
-    axs[1].set_ylim(0,700) #score of quiz
-    axs[1].grid(which='major', color='k', axis ='x', linestyle='-', linewidth=1.5)
-    axs[1].grid(which='minor', color='#bbbbbb', axis ='x', linestyle=':', linewidth=1)
-    axs[1].grid(which='major', color='#bbbbbb', axis ='y')
-    axs[1].plot_date(dates, leetscore,'-', marker='*', markersize=10, color='#cc3300')
-
-    xfmt = mdates.DateFormatter("%m/%d")
     xloc1 = mdates.WeekdayLocator(SUNDAY)
     xloc2 = mdates.DayLocator()
     axs[0].xaxis.set_major_formatter(xfmt)
@@ -221,113 +170,28 @@ def draw(dates, values):
     for i,j in zip(dates, leetscore):
         axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 1.5))
 
-    #plt.savefig(FILE_IMAGE_SCORE202004)
-
-    #=========================================================================
-
-    # axs[0].set(xlabel="Date", ylabel="Number of Problems",
-    #     title="Number of Quiz (2020.05)")
-    # axs[0].set_title("Number of Problems (2020.05)", fontweight = 'bold')
-
-    # axs[1].set(xlabel="Date", ylabel="Score",
-    #     title="Score of Quiz (2020.05)")
-    # axs[1].set_title("Score (2020.05)", fontweight = 'bold')
-    # axs[0].set_xlim(datetime.datetime(2020,5,1), datetime.datetime(2020,5,31)) 
-    # plt.savefig(FILE_IMAGE_SCORE202005)
-    
-    # axs[0].set(xlabel="Date", ylabel="Number of Problems",
-    #     title="Number of Quiz (2020.06)")
-    # axs[0].set_title("Number of Problems (2020.06)", fontweight = 'bold')
-
-    # axs[1].set(xlabel="Date", ylabel="Score",
-    #     title="Score of Quiz (2020.06)")
-    # axs[1].set_title("Score (2020.06)", fontweight = 'bold')
-    # axs[0].set_xlim(datetime.datetime(2020,6,1), datetime.datetime(2020,6,30)) 
-    # plt.savefig(FILE_IMAGE_SCORE202006)
-
-    # axs[0].set_ylim(0,350) #number of quiz
-    # axs[1].set_ylim(350,800) #score of quiz
-
-    # axs[0].set(xlabel="Date", ylabel="Number of Problems",
-    #     title="Number of Quiz (2020.07)")
-    # axs[0].set_title("Number of Problems (2020.07)", fontweight = 'bold')
-
-    # axs[1].set(xlabel="Date", ylabel="Score",
-    #     title="Score of Quiz (2020.07)")
-    # axs[1].set_title("Score (2020.07)", fontweight = 'bold')
-    # axs[0].set_xlim(datetime.datetime(2020,7,1), datetime.datetime(2020,7,31)) 
-    # plt.savefig(FILE_IMAGE_SCORE202007)
-
-
-    # axs[0].set_ylim(0,350) #number of quiz
-    # axs[1].set_ylim(350,800) #score of quiz
-
-    # axs[0].set(xlabel="Date", ylabel="Number of Problems",
-    #     title="Number of Quiz (2020.08)")
-    # axs[0].set_title("Number of Problems (2020.08)", fontweight = 'bold')
-    
-    # axs[1].set(xlabel="Date", ylabel="Score",
-    #     title="Score of Quiz (2020.08)")
-    # axs[1].set_title("Score (2020.08)", fontweight = 'bold')
-    # axs[0].set_xlim(datetime.datetime(2020,8,1), datetime.datetime(2020,8,31)) 
-    # plt.savefig(FILE_IMAGE_SCORE202008)
-
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-        title="Score of Quiz (2021.04)")
-    axs[1].set_title("Score (2021.04)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,4,30)) 
-    plt.savefig(FILE_IMAGE_SCORE202104)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-        title="Score of Quiz (2021.05)")
-    axs[0].set_title("Number of Problems (2021.05)", fontweight = 'bold')
-    axs[1].set_title("Score (2021.05)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,5,1), datetime.datetime(2021,5,31)) 
-    plt.savefig(FILE_IMAGE_SCORE202105)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-        title="Score of Quiz (2021.06)")
-    axs[0].set_title("Number of Problems (2021.06)", fontweight = 'bold')
-    axs[1].set_title("Score (2021.06)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,6,1), datetime.datetime(2021,6,30)) 
-    plt.savefig(FILE_IMAGE_SCORE202106)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.07)")
-    axs[0].set_title("Number of Problems (2021.07)", fontweight = 'bold')
-    axs[1].set_title("Score (2021.07)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,7,1), datetime.datetime(2021,7,31)) 
-    plt.savefig(FILE_IMAGE_SCORE202107)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.08)")
-    axs[0].set_title("Number of Problems (2021.08)", fontweight = 'bold')
-    axs[1].set_title("Score (2021.08)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,8,1), datetime.datetime(2021,8,31)) 
-    plt.savefig(FILE_IMAGE_SCORE202108)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.09)")
-    axs[0].set_title("Number of Problems (2021.09)", fontweight = 'bold')
-    axs[1].set_title("Score (2021.09)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,9,1), datetime.datetime(2021,9,30)) 
-    plt.savefig(FILE_IMAGE_SCORE202109)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.10)")
-    axs[0].set_title("Number of Problems (2021.10)", fontweight = 'bold')
-    axs[1].set_title("Score (2021.10)", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,10,1), datetime.datetime(2021,10,31)) 
-    plt.savefig(FILE_IMAGE_SCORE202110)
-
-    axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.04 - 2021.12)")
-    axs[0].set_title("Number of Problems", fontweight = 'bold')
-    axs[1].set_title("Score", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,12,31)) 
-    plt.savefig(FILE_IMAGE_SCORE2021_TOTAL)
-
+    lastDateMap = {
+        4: 30, 
+        5: 31, 
+        6: 30, 
+        7: 31, 
+        8: 31, 
+        9: 30, 
+        10: 31, 
+        11: 30, 
+        12: 31, 
+    }
+    for month in range(4, 13, 1):
+        monthStr = str(month).zfill(2)
+        dateStr = "2021." + monthStr 
+        numberTitle = "Number of Quiz (" + dateStr + ")"
+        scoreTitle = "Score of Quiz (" + dateStr + ")"
+        axs[1].set(xlabel="Date", ylabel="Score")
+        axs[0].set_title(numberTitle, fontweight = 'bold')
+        axs[1].set_title(scoreTitle, fontweight = 'bold')
+        axs[0].set_xlim(datetime.datetime(2021, month, 1), datetime.datetime(2021, month, lastDateMap[month])) 
+        fileName = "score_2021" + monthStr + ".png"
+        plt.savefig(fileName)
     # plt.show()
 
 ###################### 

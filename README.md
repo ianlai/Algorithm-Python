@@ -725,3 +725,6 @@ Total Score            :  601
 ![Alt text](score_202108.png)
 ![Alt text](score_202109.png)
 ![Alt text](score_202110.png)
+![Alt text](score_202111.png)
+![Alt text](score_202112.png)
+![Alt text](score_2021.png)
