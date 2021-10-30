@@ -36,6 +36,7 @@ algo
 │   ├── __0162__Find Peak Element.py
 │   ├── __0240__Search a 2D Matrix II.py
 │   ├── __0278__First Bad Version.py
+│   ├── __0362__Design Hit Counter.py
 │   ├── __0540__Single Element in a Sorted Array.py
 │   ├── __0658__Find K Closest Elements.py
 │   └── __0704__Binary Search.py
@@ -250,7 +251,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 228 files
+21 directories, 229 files
 
 =====================================
 ============= Local Repo ============
@@ -388,6 +389,7 @@ __0332__Reconstruct Itinerary.py
 __0341__Flatten Nested List Iterator.py
 __0347__Top K Frequent Elements.py
 __0350__Intersection of Two Arrays II.py
+__0362__Design Hit Counter.py
 __0366__Find Leaves of Binary Tree.py
 __0377__Combination Sum IV.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
@@ -476,7 +478,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  220
+Num of Python Practice:  221
 
 
 =====================================
@@ -617,6 +619,7 @@ Num of Python Practice:  220
  0341 Flatten Nested List Iterator
  0347 Top K Frequent Elements
  0350 Intersection of Two Arrays II
+ 0362 Design Hit Counter
  0366 Find Leaves of Binary Tree
  0377 Combination Sum IV
  0378 Kth Smallest Element in a Sorted Matrix
@@ -710,11 +713,11 @@ Num of Python Practice:  220
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  522
-Solved / Total (Medium):  157 / 1093
-Solved / Total (Hard)  :   15 /  437
-Solved / Total (All)   :  227 / 2052
-Total Score            :  601
+Solved / Total (Easy)  :   55 /  523
+Solved / Total (Medium):  158 / 1095
+Solved / Total (Hard)  :   15 /  438
+Solved / Total (All)   :  228 / 2056
+Total Score            :  604
 =====================================
 
 ```
