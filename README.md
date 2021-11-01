@@ -39,7 +39,8 @@ algo
 │   ├── __0362__Design Hit Counter.py
 │   ├── __0540__Single Element in a Sorted Array.py
 │   ├── __0658__Find K Closest Elements.py
-│   └── __0704__Binary Search.py
+│   ├── __0704__Binary Search.py
+│   └── __0981__Time Based Key-Value Store.py
 ├── BitOperation
 │   └── __0136__Single Number.py
 ├── DFS
@@ -251,7 +252,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 229 files
+21 directories, 230 files
 
 =====================================
 ============= Local Repo ============
@@ -453,6 +454,7 @@ __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __0979__Distribute Coins in Binary Tree.py
+__0981__Time Based Key-Value Store.py
 __1020__Number of Enclaves.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
@@ -478,7 +480,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  221
+Num of Python Practice:  222
 
 
 =====================================
@@ -685,6 +687,7 @@ Num of Python Practice:  221
  0969 Pancake Sorting
  0973 K Closest Points to Origin
  0979 Distribute Coins in Binary Tree
+ 0981 Time Based Key-Value Store
  0994 Rotting Oranges
  1020 Number of Enclaves
  1025 Divisor Game
@@ -713,11 +716,11 @@ Num of Python Practice:  221
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  523
-Solved / Total (Medium):  158 / 1095
-Solved / Total (Hard)  :   15 /  438
-Solved / Total (All)   :  228 / 2056
-Total Score            :  604
+Solved / Total (Easy)  :   55 /  524
+Solved / Total (Medium):  159 / 1097
+Solved / Total (Hard)  :   15 /  439
+Solved / Total (All)   :  229 / 2060
+Total Score            :  607
 =====================================
 
 ```
