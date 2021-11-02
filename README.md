@@ -90,6 +90,7 @@ algo
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best Time to Buy and Sell Stock.py
 │   ├── __0221__Maximal Square.py
+│   ├── __0279__Perfect Squares.py
 │   ├── __0300__Longest Increasing Subsequence.py
 │   ├── __0322__Coin Change.py
 │   ├── __0377__Combination Sum IV.py
@@ -252,7 +253,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 230 files
+21 directories, 231 files
 
 =====================================
 ============= Local Repo ============
@@ -378,6 +379,7 @@ __0263__Ugly Number.py
 __0264__Ugly Number II.py
 __0270__Closest Binary Search Tree Value.py
 __0278__First Bad Version.py
+__0279__Perfect Squares.py
 __0283__Move Zeroes.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
@@ -480,7 +482,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  222
+Num of Python Practice:  223
 
 
 =====================================
@@ -609,6 +611,7 @@ Num of Python Practice:  222
  0264 Ugly Number II
  0270 Closest Binary Search Tree Value
  0278 First Bad Version
+ 0279 Perfect Squares
  0283 Move Zeroes
  0287 Find the Duplicate Number
  0290 Word Pattern
@@ -717,10 +720,10 @@ Num of Python Practice:  222
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  524
-Solved / Total (Medium):  159 / 1097
+Solved / Total (Medium):  160 / 1097
 Solved / Total (Hard)  :   15 /  439
-Solved / Total (All)   :  229 / 2060
-Total Score            :  607
+Solved / Total (All)   :  230 / 2060
+Total Score            :  610
 =====================================
 
 ```
