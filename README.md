@@ -153,6 +153,8 @@ algo
 │   ├── __0206__Reverse Linked List.py
 │   ├── __0234__Palindrome Linked List.py
 │   └── __0237__Delete Node in a Linked List.py
+├── Math
+│   └── __0593__Valid Square.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -253,7 +255,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-21 directories, 231 files
+22 directories, 232 files
 
 =====================================
 ============= Local Repo ============
@@ -422,6 +424,7 @@ __0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
 __0572__Subtree of Another Tree.py
 __0576__Out of Boundary Paths.py
+__0593__Valid Square.py
 __0611__Valid Triangle Number.py
 __0617__Merge Two Binary Trees.py
 __0658__Find K Closest Elements.py
@@ -482,7 +485,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  223
+Num of Python Practice:  224
 
 
 =====================================
@@ -655,6 +658,7 @@ Num of Python Practice:  223
  0560 Subarray Sum Equals K
  0572 Subtree of Another Tree
  0576 Out of Boundary Paths
+ 0593 Valid Square
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
  0658 Find K Closest Elements
@@ -720,10 +724,10 @@ Num of Python Practice:  223
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   55 /  524
-Solved / Total (Medium):  160 / 1097
+Solved / Total (Medium):  161 / 1097
 Solved / Total (Hard)  :   15 /  439
-Solved / Total (All)   :  230 / 2060
-Total Score            :  610
+Solved / Total (All)   :  231 / 2060
+Total Score            :  613
 =====================================
 
 ```
