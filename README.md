@@ -40,7 +40,8 @@ algo
 │   ├── __0540__Single Element in a Sorted Array.py
 │   ├── __0658__Find K Closest Elements.py
 │   ├── __0704__Binary Search.py
-│   └── __0981__Time Based Key-Value Store.py
+│   ├── __0981__Time Based Key-Value Store.py
+│   └── __1146__Snapshot Array.py
 ├── BitOperation
 │   └── __0136__Single Number.py
 ├── DFS
@@ -255,7 +256,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 232 files
+22 directories, 233 files
 
 =====================================
 ============= Local Repo ============
@@ -470,6 +471,7 @@ __1110__Delete Nodes And Return Forest.py
 __1130__Minimum Cost Tree From Leaf Values.py
 __1137__N-th Tribonacci Number.py
 __1143__Longest Common Subsequence.py
+__1146__Snapshot Array.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
@@ -485,7 +487,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  224
+Num of Python Practice:  225
 
 
 =====================================
@@ -708,6 +710,7 @@ Num of Python Practice:  224
  1130 Minimum Cost Tree From Leaf Values
  1137 N-th Tribonacci Number
  1143 Longest Common Subsequence
+ 1146 Snapshot Array
  1214 Two Sum BSTs
  1254 Number of Closed Islands
  1268 Search Suggestions System
@@ -723,11 +726,11 @@ Num of Python Practice:  224
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  524
-Solved / Total (Medium):  161 / 1097
+Solved / Total (Easy)  :   54 /  523
+Solved / Total (Medium):  163 / 1099
 Solved / Total (Hard)  :   15 /  439
-Solved / Total (All)   :  231 / 2060
-Total Score            :  613
+Solved / Total (All)   :  232 / 2061
+Total Score            :  618
 =====================================
 
 ```
