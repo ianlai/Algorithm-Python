@@ -27,6 +27,7 @@ algo
 │   ├── __0752__Open the Lock.py
 │   └── __0934__Shortest Bridge.py
 ├── BinarySearch
+│   ├── __0004__Median of Two Sorted Arrays.py
 │   ├── __0033__Search in Rotated Sorted Array.py
 │   ├── __0034__Find First and Last Position of Element in Sorted Array.py
 │   ├── __0050__Pow(x, n).py
@@ -256,7 +257,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 233 files
+22 directories, 234 files
 
 =====================================
 ============= Local Repo ============
@@ -264,6 +265,7 @@ algo
 __0001__Two Sum.py
 __0002__Add Two Numbers.py
 __0003__Longest Substring Without Repeating Characters.py
+__0004__Median of Two Sorted Arrays.py
 __0005__Longest Palindromic Substring.py
 __0010__Regular Expression Matching.py
 __0011__Container With Most Water.py
@@ -487,7 +489,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  225
+Num of Python Practice:  226
 
 
 =====================================
@@ -496,6 +498,7 @@ Num of Python Practice:  225
  0001 Two Sum
  0002 Add Two Numbers
  0003 Longest Substring Without Repeating Characters
+ 0004 Median of Two Sorted Arrays
  0005 Longest Palindromic Substring
  0010 Regular Expression Matching
  0011 Container With Most Water
@@ -726,11 +729,11 @@ Num of Python Practice:  225
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   54 /  523
-Solved / Total (Medium):  163 / 1099
-Solved / Total (Hard)  :   15 /  439
-Solved / Total (All)   :  232 / 2061
-Total Score            :  618
+Solved / Total (Easy)  :   54 /  524
+Solved / Total (Medium):  163 / 1101
+Solved / Total (Hard)  :   16 /  440
+Solved / Total (All)   :  233 / 2065
+Total Score            :  623
 =====================================
 
 ```
