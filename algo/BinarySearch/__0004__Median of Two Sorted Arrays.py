@@ -8,6 +8,54 @@ class Solution:
     
     # Binary Search [O(log(m+n)): 88%]
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        print("Condition is <")
+        
+        # let nums1 be shorter
+        if len(nums2) < len(nums1):
+            nums1, nums2 = nums2, nums1 
+        
+        total = len(nums1) + len(nums2)
+        isEven = True if total % 2 == 0 else False
+        
+        start, end = 0, len(nums1)
+        while start < end:  #not allow equals
+            
+            mid1 = start + (end - start) // 2
+            mid2 = total // 2 - mid1 
+            #print("mid1, mid2: ", mid1, mid2)
+            
+            maxLeft1  = nums1[mid1-1] if mid1 != 0 else -inf
+            minRight1 = nums1[mid1] if mid1 != len(nums1) else inf
+            maxLeft2  = nums2[mid2-1] if mid2 != 0 else -inf
+            minRight2 = nums2[mid2] if mid2 != len(nums2) else inf
+            #print("left1, right1, left2, right2: ", maxLeft1, minRight1, maxLeft2, minRight2)
+            
+            if maxLeft1 <= minRight2 and maxLeft2 <= minRight1:    # done
+                if total % 2 == 1:
+                    return min(minRight1, minRight2)
+                else:
+                    return (max(maxLeft1, maxLeft2) + min(minRight1, minRight2)) / 2
+            elif maxLeft1 > minRight2:  #move mid1 to left
+                end = mid1  
+                print("move <-", start, end)
+            elif maxLeft2 > minRight1:  #move mid2 to right
+                start = mid1 + 1
+                print("move ->", start, end)
+                
+        maxLeft1  = nums1[start-1] if start != 0 else -inf
+        minRight1 = nums1[start] if start != len(nums1) else inf
+        mid2 = total // 2 - start 
+        maxLeft2  = nums2[mid2-1] if mid2 != 0 else -inf
+        minRight2 = nums2[mid2] if mid2 != len(nums2) else inf   
+        if total % 2 == 1:
+            return min(minRight1, minRight2)
+        else:
+            return (max(maxLeft1, maxLeft2) + min(minRight1, minRight2)) / 2
+    
+    # ===============================================
+    # Binary Search [O(log(m+n)): 88%]
+    def findMedianSortedArrays1(self, nums1: List[int], nums2: List[int]) -> float:
+        print("Condition is <= ")
         
         # let nums1 be shorter
         if len(nums2) < len(nums1):

@@ -1,6 +1,25 @@
 class Solution:
+    
+    # MUST find the answer inside the loop 
+    def search0(self, nums: List[int], target: int) -> int:
+        print("close-open, less than equal to")
+    
+        start, end = 0, len(nums)
+        while start <= end:
+            mid = start + (end - start) // 2
+            if target == nums[mid]:
+                return mid
+            elif target < nums[mid]:
+                end = mid
+            else:
+                start = mid + 1
+        return -1
+    
+    # ================================================
+    
+    # When start == end, it will jump out from loop, and start point at correct partition 
     def search(self, nums: List[int], target: int) -> int:
-        print("close-open")
+        print("close-open, less than")
     
         start, end = 0, len(nums)
         while start < end:
@@ -11,8 +30,6 @@ class Solution:
                 end = mid
             else:
                 start = mid + 1
-        if nums[mid] == target:
-            return mid
         return -1
     
     # ================================================
