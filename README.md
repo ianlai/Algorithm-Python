@@ -40,6 +40,7 @@ algo
 │   ├── __0362__Design Hit Counter.py
 │   ├── __0540__Single Element in a Sorted Array.py
 │   ├── __0658__Find K Closest Elements.py
+│   ├── __0702__Search in a Sorted Array of Unknown Size.py
 │   ├── __0704__Binary Search.py
 │   ├── __0981__Time Based Key-Value Store.py
 │   └── __1146__Snapshot Array.py
@@ -257,7 +258,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 234 files
+22 directories, 235 files
 
 =====================================
 ============= Local Repo ============
@@ -438,6 +439,7 @@ __0684__Redundant Connection.py
 __0687__Longest Univalue Path.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
+__0702__Search in a Sorted Array of Unknown Size.py
 __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
 __0705__Design HashSet.py
@@ -489,7 +491,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  226
+Num of Python Practice:  227
 
 
 =====================================
@@ -675,6 +677,7 @@ Num of Python Practice:  226
  0690 Employee Importance
  0694 Number of Distinct Islands
  0695 Max Area of Island
+ 0702 Search in a Sorted Array of Unknown Size
  0703 Kth Largest Element in a Stream
  0704 Binary Search
  0705 Design HashSet
@@ -730,10 +733,10 @@ Num of Python Practice:  226
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  524
-Solved / Total (Medium):  163 / 1101
+Solved / Total (Medium):  164 / 1102
 Solved / Total (Hard)  :   16 /  440
-Solved / Total (All)   :  233 / 2065
-Total Score            :  623
+Solved / Total (All)   :  234 / 2066
+Total Score            :  626
 =====================================
 
 ```
