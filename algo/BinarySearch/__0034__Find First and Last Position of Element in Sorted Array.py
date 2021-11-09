@@ -1,7 +1,49 @@
 class Solution:
-    
-    # Binary Search [O(logn), 68%]
+
+    # 2021/11/09
+    # Binary Search [O(logn), 92%] 
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        if not nums:
+            return [-1, -1] 
+        
+        start, end = 0, len(nums)
+        while start < end:
+            mid = start + (end - start) // 2
+            if nums[mid] == target:
+                end = mid 
+            elif nums[mid] < target:
+                start = mid + 1 
+            else:
+                end = mid 
+                
+        if start < len(nums) and nums[start] == target:
+            first = start
+        else:
+            first = -1
+        
+        start, end = 0, len(nums)
+        while start < end:
+            mid = start + (end - start) // 2
+            if nums[mid] == target:
+                start = mid + 1 
+            elif nums[mid] < target:
+                start = mid + 1 
+            else:
+                end = mid 
+                
+        start -= 1
+        if start < len(nums) and nums[start] == target:       
+            last = start
+        else:
+            last = -1
+        
+        return [first, last]
+
+    # ==================================================
+    
+    # 2021/05/09
+    # Binary Search [O(logn), 68%]  
+    def searchRange1(self, nums: List[int], target: int) -> List[int]:
         if not nums:
             return [-1, -1]
         
