@@ -38,6 +38,7 @@ algo
 │   ├── __0240__Search a 2D Matrix II.py
 │   ├── __0278__First Bad Version.py
 │   ├── __0362__Design Hit Counter.py
+│   ├── __0528__Random Pick with Weight.py
 │   ├── __0540__Single Element in a Sorted Array.py
 │   ├── __0658__Find K Closest Elements.py
 │   ├── __0702__Search in a Sorted Array of Unknown Size.py
@@ -258,7 +259,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 235 files
+22 directories, 236 files
 
 =====================================
 ============= Local Repo ============
@@ -418,6 +419,7 @@ __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
 __0518__Coin Change 2.py
+__0528__Random Pick with Weight.py
 __0532__K-diff Pairs in an Array.py
 __0538__Convert BST to Greater Tree.py
 __0540__Single Element in a Sorted Array.py
@@ -491,7 +493,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  227
+Num of Python Practice:  228
 
 
 =====================================
@@ -654,6 +656,7 @@ Num of Python Practice:  227
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
  0518 Coin Change 2
+ 0528 Random Pick with Weight
  0532 K-diff Pairs in an Array
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
@@ -733,10 +736,10 @@ Num of Python Practice:  227
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  524
-Solved / Total (Medium):  164 / 1102
+Solved / Total (Medium):  165 / 1102
 Solved / Total (Hard)  :   16 /  440
-Solved / Total (All)   :  234 / 2066
-Total Score            :  626
+Solved / Total (All)   :  235 / 2066
+Total Score            :  629
 =====================================
 
 ```
