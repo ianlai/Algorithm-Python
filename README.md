@@ -736,9 +736,9 @@ Num of Python Practice:  228
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  524
-Solved / Total (Medium):  165 / 1102
+Solved / Total (Medium):  165 / 1103
 Solved / Total (Hard)  :   16 /  440
-Solved / Total (All)   :  235 / 2066
+Solved / Total (All)   :  235 / 2067
 Total Score            :  629
 =====================================
 
