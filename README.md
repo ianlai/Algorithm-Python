@@ -104,6 +104,7 @@ algo
 │   ├── __0518__Coin Change 2.py
 │   ├── __0542__01 Matrix.py
 │   ├── __0576__Out of Boundary Paths.py
+│   ├── __0718__Maximum Length of Repeated Subarray.py
 │   ├── __0935__Knight Dialer.py
 │   ├── __1048__Longest String Chain.py
 │   ├── __1049__Last Stone Weight II.py
@@ -259,7 +260,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 236 files
+22 directories, 237 files
 
 =====================================
 ============= Local Repo ============
@@ -446,6 +447,7 @@ __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
 __0705__Design HashSet.py
 __0706__Design HashMap.py
+__0718__Maximum Length of Repeated Subarray.py
 __0721__Accounts Merge.py
 __0726__Number of Atoms.py
 __0735__Asteroid Collision.py
@@ -493,7 +495,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  228
+Num of Python Practice:  229
 
 
 =====================================
@@ -685,6 +687,7 @@ Num of Python Practice:  228
  0704 Binary Search
  0705 Design HashSet
  0706 Design HashMap
+ 0718 Maximum Length of Repeated Subarray
  0721 Accounts Merge
  0726 Number of Atoms
  0735 Asteroid Collision
@@ -736,10 +739,10 @@ Num of Python Practice:  228
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  524
-Solved / Total (Medium):  165 / 1103
+Solved / Total (Medium):  166 / 1103
 Solved / Total (Hard)  :   16 /  440
-Solved / Total (All)   :  235 / 2067
-Total Score            :  629
+Solved / Total (All)   :  236 / 2067
+Total Score            :  632
 =====================================
 
 ```
