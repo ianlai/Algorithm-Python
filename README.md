@@ -1,6 +1,7 @@
 ```
 algo
 ├── Array
+│   ├── __0036__Valid Sudoku.py
 │   ├── __0053__Maximum Subarray.py
 │   ├── __0056__Merge Intervals.py
 │   ├── __0122__Best Time to Buy and Sell Stock II.py
@@ -87,6 +88,7 @@ algo
 │   ├── __0010__Regular Expression Matching.py
 │   ├── __0044__Wildcard Matching.py
 │   ├── __0062__Unique Paths.py
+│   ├── __0063__Unique Paths II.py
 │   ├── __0064__Minimum Path Sum.py
 │   ├── __0070__Climbing Stairs.py
 │   ├── __0096__Unique Binary Search Trees.py
@@ -260,7 +262,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 237 files
+22 directories, 239 files
 
 =====================================
 ============= Local Repo ============
@@ -284,6 +286,7 @@ __0023__Merge k Sorted Lists.py
 __0031__Next Permutation.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
+__0036__Valid Sudoku.py
 __0037__Sudoku Solver.py
 __0039__Combination Sum.py
 __0040__Combination Sum II.py
@@ -298,6 +301,7 @@ __0052__N-Queens II.py
 __0053__Maximum Subarray.py
 __0056__Merge Intervals.py
 __0062__Unique Paths.py
+__0063__Unique Paths II.py
 __0064__Minimum Path Sum.py
 __0069__Sqrt(x).py
 __0070__Climbing Stairs.py
@@ -495,7 +499,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  229
+Num of Python Practice:  231
 
 
 =====================================
@@ -738,10 +742,10 @@ Num of Python Practice:  229
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   54 /  524
-Solved / Total (Medium):  166 / 1103
-Solved / Total (Hard)  :   16 /  440
-Solved / Total (All)   :  236 / 2067
+Solved / Total (Easy)  :   54 /  527
+Solved / Total (Medium):  166 / 1107
+Solved / Total (Hard)  :   16 /  442
+Solved / Total (All)   :  236 / 2076
 Total Score            :  632
 =====================================
 
