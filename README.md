@@ -110,6 +110,7 @@ algo
 │   ├── __0576__Out of Boundary Paths.py
 │   ├── __0718__Maximum Length of Repeated Subarray.py
 │   ├── __0935__Knight Dialer.py
+│   ├── __1025__Divisor Game.py
 │   ├── __1048__Longest String Chain.py
 │   ├── __1049__Last Stone Weight II.py
 │   ├── __1130__Minimum Cost Tree From Leaf Values.py
@@ -265,7 +266,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 242 files
+22 directories, 243 files
 
 =====================================
 ============= Local Repo ============
@@ -480,6 +481,7 @@ __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
 __0994__Rotting Oranges.py
 __1020__Number of Enclaves.py
+__1025__Divisor Game.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
@@ -505,7 +507,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  234
+Num of Python Practice:  235
 
 
 =====================================
