@@ -1,9 +1,46 @@
 class Solution:
+    
+    # 2021/11/14
+    # Topological sorting [O(n), 70%]
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        print("Code-3")
+        if not numCourses:
+            return []
+        
+        nToNext = self.buildMap(numCourses, prerequisites)
+        starts = [n for n in nToNext if nToNext[n][0] == 0]
+        res = []
+        #print("starts:", starts)
+        deq = collections.deque(starts)
+        while deq:
+            cur = deq.popleft()
+            res.append(cur)
+            for nxt in nToNext[cur][1]:
+                nToNext[nxt][0] -= 1 
+                if nToNext[nxt][0] == 0:
+                    deq.append(nxt)
+        #print(res)
+        if len(res) == numCourses:
+            return res
+        return []
+            
+    def buildMap(self, numCourses, prerequisites):
+        nToNext = collections.defaultdict(list)
+        for n in range(numCourses):
+            nToNext[n] = [0, []]
+        for nxt, cur in prerequisites:
+            nToNext[nxt][0] += 1        #indegree
+            nToNext[cur][1].append(nxt) #out course
+        return nToNext
+    
+    # =======================================================
+    
+    # 2021/06/21
     # Topological sorting [O(n), 64%]
     # nodeToIndegree: node -> indegree (int)
     # nodeToNextList: node -> nextList (list)  //faster if we have this since we can avoid scanning prerequisites again and again 
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        print("findOrder")
+    def findOrder2(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        print("Code-2")
         if not numCourses:
             return []
         
@@ -44,11 +81,12 @@ class Solution:
         
         return n2i, n2n
         
-    # =========================================
+    # =======================================================
+    # 2021/05/08
     # Topological sorting, slow [O(n), 5%]
     # nodeToIndegree: node -> indegree (int)
     def findOrder1(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        print("findOrder1")
+        print("Code-1")
         if not numCourses: 
             return []
         
