@@ -22,6 +22,7 @@ algo
 │   ├── __0199__Binary Tree Right Side View.py
 │   ├── __0207__Course Schedule.py
 │   ├── __0210__Course Schedule II.py
+│   ├── __0286__Walls and Gates.py
 │   ├── __0297__Serialize and Deserialize Binary Tree.py
 │   ├── __0515__Find Largest Value in Each Tree Row.py
 │   ├── __0662__Maximum Width of Binary Tree.py
@@ -267,7 +268,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 244 files
+22 directories, 245 files
 
 =====================================
 ============= Local Repo ============
@@ -398,6 +399,7 @@ __0270__Closest Binary Search Tree Value.py
 __0278__First Bad Version.py
 __0279__Perfect Squares.py
 __0283__Move Zeroes.py
+__0286__Walls and Gates.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
@@ -509,7 +511,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  236
+Num of Python Practice:  237
 
 
 =====================================
@@ -641,6 +643,7 @@ Num of Python Practice:  236
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
+ 0286 Walls and Gates
  0287 Find the Duplicate Number
  0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
@@ -753,10 +756,10 @@ Num of Python Practice:  236
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  527
-Solved / Total (Medium):  166 / 1107
+Solved / Total (Medium):  167 / 1107
 Solved / Total (Hard)  :   16 /  442
-Solved / Total (All)   :  236 / 2076
-Total Score            :  632
+Solved / Total (All)   :  237 / 2076
+Total Score            :  635
 =====================================
 
 ```
