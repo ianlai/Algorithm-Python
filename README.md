@@ -26,7 +26,8 @@ algo
 │   ├── __0515__Find Largest Value in Each Tree Row.py
 │   ├── __0662__Maximum Width of Binary Tree.py
 │   ├── __0752__Open the Lock.py
-│   └── __0934__Shortest Bridge.py
+│   ├── __0934__Shortest Bridge.py
+│   └── __0994__Rotting Oranges.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
 │   ├── __0033__Search in Rotated Sorted Array.py
@@ -75,6 +76,7 @@ algo
 │   ├── __0401__Binary Watch.py
 │   ├── __0417__Pacific Atlantic Water Flow.py
 │   ├── __0560__Subarray Sum Equals K.py
+│   ├── __0690__Employee Importance.py
 │   ├── __0694__Number of Distinct Islands.py
 │   ├── __0695__Max Area of Island.py
 │   ├── __0784__Letter Case Permutation.py
@@ -136,6 +138,7 @@ algo
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
 │   ├── __0347__Top K Frequent Elements.py
+│   ├── __0535__Encode and Decode TinyURL.py
 │   └── __0705__Design HashSet.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
@@ -262,7 +265,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 239 files
+22 directories, 242 files
 
 =====================================
 ============= Local Repo ============
@@ -426,6 +429,7 @@ __0515__Find Largest Value in Each Tree Row.py
 __0518__Coin Change 2.py
 __0528__Random Pick with Weight.py
 __0532__K-diff Pairs in an Array.py
+__0535__Encode and Decode TinyURL.py
 __0538__Convert BST to Greater Tree.py
 __0540__Single Element in a Sorted Array.py
 __0542__01 Matrix.py
@@ -444,6 +448,7 @@ __0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
 __0684__Redundant Connection.py
 __0687__Longest Univalue Path.py
+__0690__Employee Importance.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
 __0702__Search in a Sorted Array of Unknown Size.py
@@ -473,6 +478,7 @@ __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
+__0994__Rotting Oranges.py
 __1020__Number of Enclaves.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
@@ -499,7 +505,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  231
+Num of Python Practice:  234
 
 
 =====================================
