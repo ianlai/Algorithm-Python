@@ -171,7 +171,8 @@ algo
 │   ├── __0241__Different Ways to Add Parentheses.py
 │   ├── __0394__Decode String.py
 │   ├── __0726__Number of Atoms.py
-│   └── __1087__Brace Expansion.py
+│   ├── __1087__Brace Expansion.py
+│   └── __1096__Brace Expansion II.py
 ├── Sorting
 │   └── __0242__Valid Anagram.py
 ├── Stack
@@ -266,7 +267,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 243 files
+22 directories, 244 files
 
 =====================================
 ============= Local Repo ============
@@ -486,6 +487,7 @@ __1038__Binary Search Tree to Greater Sum Tree.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
 __1087__Brace Expansion.py
+__1096__Brace Expansion II.py
 __1099__Two Sum Less Than K.py
 __1110__Delete Nodes And Return Forest.py
 __1130__Minimum Cost Tree From Leaf Values.py
@@ -507,7 +509,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  235
+Num of Python Practice:  236
 
 
 =====================================
