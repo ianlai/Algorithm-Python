@@ -2,10 +2,61 @@ from collections import defaultdict
 
 class Solution:
     
-    # DFS [O(n):82%]
+    # Quiz-323
+    # DFS 
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
+        print("Method-3")
+        def countComponents(n: int, edges: List[List[int]]) -> int:
+            def buildGraph(edges):
+                graphMap = collections.defaultdict(list)
+                for n1, n2 in edges:
+                    graphMap[n1].append(n2)
+                    graphMap[n2].append(n1)
+                return graphMap
+
+            def countGraph(n, graphMap):
+                visited = set()
+                count = 0
+                for i in range(n):
+                    if i not in graphMap:  #node is not in edges 
+                        count += 1 
+                        continue
+                    if i in visited:
+                        continue
+                    count += 1
+                    visited.add(i)
+                    traverseDfs(i, graphMap, visited)
+                return count 
+
+            def traverseDfs(src, graphMap, visited):
+                for dest in graphMap[src]:
+                    if dest in visited:
+                        continue 
+                    visited.add(dest)
+                    traverseDfs(dest, graphMap, visited)
+
+            if n == 0:
+                return 0
+            graphMap = buildGraph(edges)
+            count = countGraph(n, graphMap)
+            return count 
+        
+        edges = []
+        for i in range(len(isConnected)):
+            for j in range(len(isConnected[0])):
+                if i >= j:
+                    continue
+                if isConnected[i][j] == 1:
+                    edges.append([i, j])
+        #print(edges)
+        res = countComponents(len(isConnected), edges)
+        return res
+    
+    # ====================================================
+    # DFS [O(n):82%]
+    def findCircleNum1(self, isConnected: List[List[int]]) -> int:
         print("DFS")
-        if not isConnected: 
+        if not isConnected:
             return 0
         
         nodeMap = self.parse(isConnected)
