@@ -27,7 +27,7 @@ algo
 │   ├── __0515__Find Largest Value in Each Tree Row.py
 │   ├── __0662__Maximum Width of Binary Tree.py
 │   ├── __0752__Open the Lock.py
-│   ├── __0934__Shortest Bridge.py
+│   ├── __0909__Snakes and Ladders.py
 │   └── __0994__Rotting Oranges.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
@@ -67,26 +67,17 @@ algo
 │   ├── __0090__Subsets II.py
 │   ├── __0112__Path Sum.py
 │   ├── __0113__Path Sum II.py
-│   ├── __0130__Surrounded Regions.py
 │   ├── __0131__Palindrome Partitioning.py
 │   ├── __0139__Word Break.py
-│   ├── __0200__Number of Islands.py
 │   ├── __0212__Word Search II.py
 │   ├── __0216__Combination Sum III.py
-│   ├── __0332__Reconstruct Itinerary.py
 │   ├── __0401__Binary Watch.py
-│   ├── __0417__Pacific Atlantic Water Flow.py
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0690__Employee Importance.py
-│   ├── __0694__Number of Distinct Islands.py
-│   ├── __0695__Max Area of Island.py
 │   ├── __0784__Letter Case Permutation.py
 │   ├── __0841__Keys and Rooms.py
-│   ├── __1020__Number of Enclaves.py
-│   ├── __1254__Number of Closed Islands.py
 │   ├── __1391__Check if There is a Valid Path in a Grid.py
-│   ├── __1593__Split a String Into the Max Number of Unique Substrings.py
-│   └── __1905__Count Sub Islands.py
+│   └── __1593__Split a String Into the Max Number of Unique Substrings.py
 ├── DP
 │   ├── __0010__Regular Expression Matching.py
 │   ├── __0044__Wildcard Matching.py
@@ -129,8 +120,10 @@ algo
 │   └── __1429__First Unique Number.py
 ├── Graph
 │   ├── __0323__Number of Connected Components in an Undirected Graph.py
+│   ├── __0332__Reconstruct Itinerary.py
 │   ├── __0399__Evaluate Division.py
 │   ├── __0547__Number of Provinces.py
+│   ├── __0684__Redundant Connection.py
 │   ├── __0743__Network Delay Time.py
 │   ├── __0787__Cheapest Flights Within K Stops.py
 │   └── __0797__All Paths From Source to Target.py
@@ -149,6 +142,16 @@ algo
 │   ├── __0378__Kth Smallest Element in a Sorted Matrix.py
 │   ├── __0703__Kth Largest Element in a Stream.py
 │   └── __0973__K Closest Points to Origin.py
+├── Island
+│   ├── __0130__Surrounded Regions.py
+│   ├── __0200__Number of Islands.py
+│   ├── __0417__Pacific Atlantic Water Flow.py
+│   ├── __0694__Number of Distinct Islands.py
+│   ├── __0695__Max Area of Island.py
+│   ├── __0934__Shortest Bridge.py
+│   ├── __1020__Number of Enclaves.py
+│   ├── __1254__Number of Closed Islands.py
+│   └── __1905__Count Sub Islands.py
 ├── LinkedList
 │   ├── __0002__Add Two Numbers.py
 │   ├── __0019__Remove Nth Node From End of List.py
@@ -255,7 +258,6 @@ algo
 │   └── __1711__Count Good Meals.py
 ├── UnionFind
 │   ├── __0128__Longest Consecutive Sequence.py
-│   ├── __0684__Redundant Connection.py
 │   └── __0721__Accounts Merge.py
 └── _Experiment
     ├── 20210616_currency_rate.py
@@ -268,7 +270,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-22 directories, 245 files
+23 directories, 246 files
 
 =====================================
 ============= Local Repo ============
@@ -473,6 +475,7 @@ __0797__All Paths From Source to Target.py
 __0841__Keys and Rooms.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
+__0909__Snakes and Ladders.py
 __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
 __0934__Shortest Bridge.py
@@ -511,7 +514,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  237
+Num of Python Practice:  238
 
 
 =====================================
@@ -717,6 +720,7 @@ Num of Python Practice:  237
  0841 Keys and Rooms
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
+ 0909 Snakes and Ladders
  0912 Sort an Array
  0922 Sort Array By Parity II
  0934 Shortest Bridge
@@ -756,10 +760,10 @@ Num of Python Practice:  237
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  527
-Solved / Total (Medium):  167 / 1107
+Solved / Total (Medium):  168 / 1107
 Solved / Total (Hard)  :   16 /  442
-Solved / Total (All)   :  237 / 2076
-Total Score            :  635
+Solved / Total (All)   :  238 / 2076
+Total Score            :  638
 =====================================
 
 ```
