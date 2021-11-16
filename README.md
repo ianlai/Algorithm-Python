@@ -246,6 +246,7 @@ algo
 │   ├── __0167__Two Sum II - Input array is sorted.py
 │   ├── __0189__Rotate Array.py
 │   ├── __0259__3Sum Smaller.py
+│   ├── __0277__Find the Celebrity.py
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
 │   ├── __0680__Valid Palindrome II.py
@@ -270,7 +271,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 246 files
+23 directories, 247 files
 
 =====================================
 ============= Local Repo ============
@@ -398,6 +399,7 @@ __0259__3Sum Smaller.py
 __0263__Ugly Number.py
 __0264__Ugly Number II.py
 __0270__Closest Binary Search Tree Value.py
+__0277__Find the Celebrity.py
 __0278__First Bad Version.py
 __0279__Perfect Squares.py
 __0283__Move Zeroes.py
@@ -514,7 +516,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  238
+Num of Python Practice:  239
 
 
 =====================================
@@ -643,6 +645,7 @@ Num of Python Practice:  238
  0263 Ugly Number
  0264 Ugly Number II
  0270 Closest Binary Search Tree Value
+ 0277 Find the Celebrity
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
@@ -760,10 +763,10 @@ Num of Python Practice:  238
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   54 /  527
-Solved / Total (Medium):  168 / 1107
+Solved / Total (Medium):  169 / 1107
 Solved / Total (Hard)  :   16 /  442
-Solved / Total (All)   :  238 / 2076
-Total Score            :  638
+Solved / Total (All)   :  239 / 2076
+Total Score            :  641
 =====================================
 
 ```
