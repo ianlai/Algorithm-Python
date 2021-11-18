@@ -48,6 +48,7 @@ def showQuizListFromLeetcode():
     count_hard   = 0
     q = []
     qMap = {}
+    qArr = []
     for i in range(len(my_result['stat_status_pairs'])):
         q.append(my_result['stat_status_pairs'][i])
         if q[i]['difficulty']['level'] == 1:
@@ -70,7 +71,10 @@ def showQuizListFromLeetcode():
             qSlug = e['stat']['question__title_slug']
             qLevel = e['difficulty']['level']
             print(qNumber, qTitle, qLevel)
-            qMap[qNumber] = [qTitle, URL_PROBLEM + qSlug, qLevel]
+            qUrl = URL_PROBLEM + qSlug
+            qLink = "<a href=\"" + qUrl + "\">" + qTitle + "</a>"
+            qMap[qNumber] = [qTitle, qUrl, qLevel]
+            qArr.append({"Number": qNumber, "Title" : qTitle, "URL" : qUrl, "Level" : qLevel})
     
     score = 5 * my_result['ac_hard'] + 3 * my_result['ac_medium'] + 1 * my_result['ac_easy']
     print("=====================================")
@@ -82,7 +86,8 @@ def showQuizListFromLeetcode():
     print("=====================================")
     print()
 
-    qJson = json.dumps(qMap)
+    #qJson = json.dumps(qMap)
+    qJson = json.dumps(qArr)
     f = open("lcode.json", "w")
     f.write(qJson)
     f.close()

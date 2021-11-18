@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to convert JSON data to a html table using JavaScript ?</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <
+  </head>
+
+  <body style="text-align: center" id="body">
+    <h1 style="color: green">GeeksForGeeks</h1>
+
+    <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
+
+    <button onclick="constructTable('#table')">click here</button>
+
+    <br /><br />
+
+    <table
+      align="center"
+      id="table"
+      border="1"
+      class="table table-bordered table-hover"
+    ></table>
+
+    <script>
+      //   function readImage(file) {
+      //     // Check if the file is an image.
+      //     if (file.type && !file.type.startsWith("image/")) {
+      //       console.log("File is not an image.", file.type, file);
+      //       return;
+      //     }
+
+      //     const reader = new FileReader();
+      //     reader.addEventListener("load", (event) => {
+      //       img.src = event.target.result;
+      //     });
+      //     reader.readAsDataURL(file);
+      //   }
+
+      var el_up = document.getElementById("GFG_UP");
+
+      var list = [
+        { col_1: "val_11", col_3: "val_13" },
+        { col_2: "val_22", col_3: "val_23" },
+        { col_1: "val_31", col_3: "val_33" },
+      ];
+
+      var list = [
+        {
+          Number: "0704",
+          Level: 1,
+          Title: "Binary Search",
+          Url: "https://leetcode.com/problems/binary-search",
+          Tags: ["Binary Search", "DFS"],
+          Memo: "Watch out the condition to jump out the loop."
+        },
+        {
+          Number: "0705",
+          Level: 1,
+          Title: "Design HashSet",
+          Url: "https://leetcode.com/problems/design-hashset",
+          Tags: ["Binary Search", "Hash Set"],
+          Memo: "Compare set and map."
+        },
+        {
+          Number: "0706",
+          Level: 1,
+          Title: "Design HashMap",
+          Url: "https://leetcode.com/problems/design-hashmap",
+          Tags: ["Data Structure", "Hash Map"],
+          Memo: "Implement the hashmap from linkedlist and array."
+        },
+        {
+          Number: "0718",
+          Level: 2,
+          Title: "Maximum Length of Repeated Subarray",
+          Url: "https://leetcode.com/problems/maximum-length-of-repeated-subarray",
+          Tags: ["Array", "String"],
+          Memo: "--"
+        },
+      ];
+
+      el_up.innerHTML =
+        "Click on the button to create " +
+        "the table from the JSON data.<br><br>" +
+        JSON.stringify(list[0]) +
+        "<br>" +
+        JSON.stringify(list[1]) +
+        "<br>" +
+        JSON.stringify(list[2]);
+
+      // el_up.innerHTML = "Click on the button to create "
+      // + "the table from the JSON data.<br><br>"
+      // + JSON.stringify(lcode) + "<br>";
+
+      function constructTable(selector) {
+        // Getting the all column names
+        var cols = Headers(list, selector);
+        console;
+
+        // Traversing the JSON data
+        for (var i = 0; i < list.length; i++) {
+          var row = $("<tr/>");
+          console.log(list[i]);
+
+          number = list[i]["Number"];
+          level = list[i]["Level"];
+          title = list[i]["Title"];
+          url = list[i]["Url"];
+          tags = list[i]["Tags"];
+          memo = list[i]["Memo"];
+          //   var level = list[i][1];
+          //   var title = list[i][2];
+          //   var url = list[i][3];
+          console.log(number, level, title, url);
+
+
+          //Number
+          var colorCode;
+          if (level == 1) {
+            colorCode = "green";
+          } else if (level == 2) {
+            colorCode = "brown";
+          } else {
+            colorCode = "red";
+          }
+          row.append(
+            $("<td/>").html(
+              '<p style="color:' + colorCode + '">' + number + "</p>"
+            )
+          );
+
+          //Title
+          row.append(
+            $("<td/>").html('<a href="' + url + '">' + title + "</a>")
+          );
+
+          //Tags
+          var tagsHtml = "<h4>";
+          for (var tag of tags){
+            tagsHtml = tagsHtml + '<span class="badge bg-light">' + tag + '</span>';
+          }
+          tagsHtml = tagsHtml + "</h4>";
+          row.append($("<td/>").html(tagsHtml));
+          row.append($("<td/>").html(memo));
+
+          //   for (var colIndex = 0; colIndex < cols.length; colIndex++) {
+          //     var col = cols[colIndex];
+          //     var val = list[i][cols[colIndex]];
+
+          //     // If there is any key, which is matching
+          //     // with the column name
+          //     if (val == null) val = "";
+
+          //     if (col == "Level") {
+          //       var colorCode;
+
+          //       if (val == 1) {
+          //         colorCode = "green";
+          //       } else if (val == 2) {
+          //         colorCode = "brown";
+          //       } else {
+          //         colorCode = "red";
+          //       }
+          //       row.append(
+          //         $("<td/>").html(
+          //           '<p style="color:' + colorCode + '">' + val + "</p>"
+          //         )
+          //       );
+          //     } else {
+          //       row.append($("<td/>").html(val));
+          //     }
+          //   }
+
+          // Adding each row to the table
+          $(selector).append(row);
+        }
+      }
+
+      function Headers(list, selector) {
+        var columns = ["Number", "Title", "Tag", "Memo"];
+        var header = $("<tr/>");
+
+        for (var k of columns) {
+          header.append($("<th/>").html(k));
+        }
+
+        // Appending the header to the table
+        $(selector).append(header);
+        return columns;
+      }
+    </script>
+  </body>
+</html>
