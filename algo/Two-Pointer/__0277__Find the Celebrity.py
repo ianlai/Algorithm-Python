@@ -7,8 +7,30 @@ class Solution:
     # [[1,0,1],[1,1,0],[0,1,1]]
     # [[1,1,1],[1,1,0],[0,0,1]]
     
-    # Two-Pointer [O(n): 78%]
+    # Loop in set [O(n): 64%] (Aka)
     def findCelebrity(self, n: int) -> int:
+        print("Method-5")
+        pool = set(range(n))
+        while len(pool) > 1:
+            a = pool.pop()
+            b = pool.pop()
+            if knows(a, b):
+                pool.add(b)
+            else:
+                pool.add(a)
+
+        ans = pool.pop()
+        for i in range(n):
+            if i == ans:
+                continue
+            if knows(ans, i) or not knows(i, ans):
+                return -1
+        return ans
+    
+    # ============================================    
+
+    # Two-Pointer [O(n): 78%]
+    def findCelebrity4(self, n: int) -> int:
         print("Method-4")
         
         # Find a celebrity candidate
