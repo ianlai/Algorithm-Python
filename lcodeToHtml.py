@@ -74,8 +74,15 @@ def showQuizListFromLeetcode():
             qUrl = URL_PROBLEM + qSlug
             qLink = "<a href=\"" + qUrl + "\">" + qTitle + "</a>"
             qMap[qNumber] = [qTitle, qUrl, qLevel]
-            qArr.append({"Number": qNumber, "Title" : qTitle, "URL" : qUrl, "Level" : qLevel})
-    
+            qArr.append(
+                {"Number": qNumber, 
+                "Level" : qLevel, 
+                "Title" : qTitle, 
+                "Url" : qUrl, 
+                "Tags" : [],
+                "Memo" : ""
+                })
+
     score = 5 * my_result['ac_hard'] + 3 * my_result['ac_medium'] + 1 * my_result['ac_easy']
     print("=====================================")
     print('Solved / Total (Easy)  :' , stringFormatter(my_result['ac_easy']   , 4), '/', stringFormatter(count_easy, 4))
@@ -89,7 +96,9 @@ def showQuizListFromLeetcode():
     #qJson = json.dumps(qMap)
     qJson = json.dumps(qArr)
     f = open("lcode.json", "w")
+    f.write("lcode_data = `")
     f.write(qJson)
+    f.write("`;")
     f.close()
 
     f = open("lcode.html", "w")

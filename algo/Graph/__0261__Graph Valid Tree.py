@@ -1,10 +1,52 @@
 class Solution:
     
-    # Run DFS once ; passing prev into DFS func [O(E+V): 52%] 
+    # 2021/11/20
+    # Advanced Graph thory + DFS [O(V): 88%]
+    # The graph is a tree if (1) all connected (2) v-1 edges
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        print("Advanced Graph theory")
+        
+        if len(edges) == 0:
+            if n == 1:
+                return True
+            return False
+        
+        #Condition-1
+        if len(edges) != n - 1:
+            return False
+        
+        graph = collections.defaultdict(set)
+        for v1, v2 in edges:
+            graph[v1].add(v2)
+            graph[v2].add(v1)
+        
+        visited = set([])
+        def dfs(v):
+            if len(visited) > n:   #Checking the number of visited on the fly: O(V+E) -> O(V)
+                return False 
+            for nxt in graph[v]:
+                if nxt in visited:
+                    continue
+                visited.add(nxt)
+                dfs(nxt)
+            
+        #DFS    
+        visited = set([edges[0][0]])
+        dfs(edges[0][0])
+        
+        #Condition-2 
+        if len(visited) != n:
+            return False
+        return True
+    
+    # ====================================================
+
+    # 2021/11/20
+    # Run DFS once ; passing prev into DFS func to avoid "trivial cycles" [O(E+V): 52%] 
     # O(E): contruct graph
     # O(V): DFS to traverse graph to find graph
     # Note: DFS takes O(V) because it will leave DFS if graph has circle, not reaching O(E)
-    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+    def validTree1(self, n: int, edges: List[List[int]]) -> bool:
         print("Run DFS once")
         if len(edges) == 0:
             if n == 1:
@@ -38,7 +80,7 @@ class Solution:
         return True
         
 
-    # ==================================
+    # ====================================================
     # DFS E times [O(EV): 5%]
     def validTree1(self, n: int, edges: List[List[int]]) -> bool:
         print("Run DFS for every edge")

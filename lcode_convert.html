@@ -12,13 +12,13 @@
     <script type="text/javascript" src="data.json"></script>
     <script type="text/javascript" src="lcode.json"></script>
 
-    <</head
-  ><!-- The `multiple` attribute lets users select multiple files. -->
-
+  </head>
+  
+  <!-- The `multiple` attribute lets users select multiple files. -->
   <body style="text-align: center" id="body">
-    <h1 style="color: green">Leetcode</h1>
+    <h1 style="color: green">Problem List</h1>
     <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
-    <button onclick="constructTable('#table')">click here</button>
+    <!-- <button onclick="constructTable('#table')">click here</button> -->
     <br /><br />
 
     <table
@@ -29,18 +29,10 @@
     ></table>
 
     <script>
-      var data = JSON.parse(data);
-      console.log("Data:");
       var lcodeData = JSON.parse(lcode_data);
-      console.log("Lcode:", lcodeData);
+    //   console.log("Lcode:", lcodeData);
 
       var el_up = document.getElementById("GFG_UP");
-
-      var list = [
-        { col_1: "val_11", col_3: "val_13" },
-        { col_2: "val_22", col_3: "val_23" },
-        { col_1: "val_31", col_3: "val_33" },
-      ];
 
       var list = [
         {
@@ -77,14 +69,14 @@
         },
       ];
         list = lcodeData;
-      el_up.innerHTML =
-        "Click on the button to create " +
-        "the table from the JSON data.<br><br>" +
-        JSON.stringify(list[0]) +
-        "<br>" +
-        JSON.stringify(list[1]) +
-        "<br>" +
-        JSON.stringify(list[2]);
+    //   el_up.innerHTML =
+    //     "Click on the button to create " +
+    //     "the table from the JSON data.<br><br>" +
+    //     JSON.stringify(list[0]) +
+    //     "<br>" +
+    //     JSON.stringify(list[1]) +
+    //     "<br>" +
+    //     JSON.stringify(list[2]);
 
       // el_up.innerHTML = "Click on the button to create "
       // + "the table from the JSON data.<br><br>"
@@ -98,7 +90,7 @@
         // Traversing the JSON data
         for (var i = 0; i < list.length; i++) {
           var row = $("<tr/>");
-          console.log(list[i]);
+        //   console.log(list[i]);
 
           number = list[i]["Number"];
           level = list[i]["Level"];
@@ -106,23 +98,21 @@
           url = list[i]["Url"];
           tags = list[i]["Tags"];
           memo = list[i]["Memo"];
-          //   var level = list[i][1];
-          //   var title = list[i][2];
-          //   var url = list[i][3];
-          console.log(number, level, title, url);
+
+        //   console.log(number, level, title, url);
 
           //Number
           var colorCode;
           if (level == 1) {
-            colorCode = "green";
+            colorCode = "#3e7d23";
           } else if (level == 2) {
-            colorCode = "brown";
+            colorCode = "#c9891a";
           } else {
-            colorCode = "red";
+            colorCode = "#b00e2c";
           }
           row.append(
-            $("<td/>").html(
-              '<p style="color:' + colorCode + '">' + number + "</p>"
+            $("<td/>").css("background-color", colorCode).html(
+              '<p>' + number + "</p>"
             )
           );
 
@@ -186,6 +176,7 @@
         $(selector).append(header);
         return columns;
       }
+      constructTable('#table');
     </script>
   </body>
 </html>
