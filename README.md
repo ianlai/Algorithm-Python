@@ -86,6 +86,7 @@ algo
 │   ├── __0064__Minimum Path Sum.py
 │   ├── __0070__Climbing Stairs.py
 │   ├── __0096__Unique Binary Search Trees.py
+│   ├── __0118__Pascal's Triangle.py
 │   ├── __0119__Pascal's Triangle II.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best Time to Buy and Sell Stock.py
@@ -119,6 +120,7 @@ algo
 │   ├── __0706__Design HashMap.py
 │   └── __1429__First Unique Number.py
 ├── Graph
+│   ├── __0261__Graph Valid Tree.py
 │   ├── __0323__Number of Connected Components in an Undirected Graph.py
 │   ├── __0332__Reconstruct Itinerary.py
 │   ├── __0399__Evaluate Division.py
@@ -271,7 +273,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 247 files
+23 directories, 249 files
 
 =====================================
 ============= Local Repo ============
@@ -342,6 +344,7 @@ __0112__Path Sum.py
 __0113__Path Sum II.py
 __0114__Flatten Binary Tree to Linked List.py
 __0116__Populating Next Right Pointers in Each Node.py
+__0118__Pascal's Triangle.py
 __0119__Pascal's Triangle II.py
 __0120__Triangle.py
 __0121__Best Time to Buy and Sell Stock.py
@@ -396,6 +399,7 @@ __0252__Meeting Rooms.py
 __0253__Meeting Rooms II.py
 __0257__Binary Tree Paths.py
 __0259__3Sum Smaller.py
+__0261__Graph Valid Tree.py
 __0263__Ugly Number.py
 __0264__Ugly Number II.py
 __0270__Closest Binary Search Tree Value.py
@@ -516,7 +520,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  239
+Num of Python Practice:  241
 
 
 =====================================
@@ -588,6 +592,7 @@ Num of Python Practice:  239
  0113 Path Sum II
  0114 Flatten Binary Tree to Linked List
  0116 Populating Next Right Pointers in Each Node
+ 0118 Pascal's Triangle
  0119 Pascal's Triangle II
  0120 Triangle
  0121 Best Time to Buy and Sell Stock
@@ -642,6 +647,7 @@ Num of Python Practice:  239
  0253 Meeting Rooms II
  0257 Binary Tree Paths
  0259 3Sum Smaller
+ 0261 Graph Valid Tree
  0263 Ugly Number
  0264 Ugly Number II
  0270 Closest Binary Search Tree Value
@@ -762,11 +768,11 @@ Num of Python Practice:  239
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   54 /  527
-Solved / Total (Medium):  169 / 1107
+Solved / Total (Easy)  :   55 /  527
+Solved / Total (Medium):  170 / 1108
 Solved / Total (Hard)  :   16 /  442
-Solved / Total (All)   :  239 / 2076
-Total Score            :  641
+Solved / Total (All)   :  241 / 2077
+Total Score            :  645
 =====================================
 
 ```
