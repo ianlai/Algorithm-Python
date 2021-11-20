@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>How to convert JSON data to a html table using JavaScript ?</title>
+    <title>Lcode List</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -9,13 +9,14 @@
       crossorigin="anonymous"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="lcode.json"></script>
+
     <</head
   ><!-- The `multiple` attribute lets users select multiple files. -->
 
-
   <body style="text-align: center" id="body">
     <h1 style="color: green">Leetcode</h1>
-    <input type="file" id="file-selector" multiple />
     <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
     <button onclick="constructTable('#table')">click here</button>
     <br /><br />
@@ -28,24 +29,10 @@
     ></table>
 
     <script>
-      const fileSelector = document.getElementById("file-selector");
-      fileSelector.addEventListener("change", (event) => {
-        const fileList = event.target.files;
-        console.log(fileList);
-      });
-      //   function readImage(file) {
-      //     // Check if the file is an image.
-      //     if (file.type && !file.type.startsWith("image/")) {
-      //       console.log("File is not an image.", file.type, file);
-      //       return;
-      //     }
-
-      //     const reader = new FileReader();
-      //     reader.addEventListener("load", (event) => {
-      //       img.src = event.target.result;
-      //     });
-      //     reader.readAsDataURL(file);
-      //   }
+      var data = JSON.parse(data);
+      console.log("Data:");
+      var lcodeData = JSON.parse(lcode_data);
+      console.log("Lcode:", lcodeData);
 
       var el_up = document.getElementById("GFG_UP");
 
@@ -89,7 +76,7 @@
           Memo: "--",
         },
       ];
-
+        list = lcodeData;
       el_up.innerHTML =
         "Click on the button to create " +
         "the table from the JSON data.<br><br>" +
