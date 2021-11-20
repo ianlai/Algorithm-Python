@@ -9,16 +9,15 @@
       crossorigin="anonymous"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <
-  </head>
+    <</head
+  ><!-- The `multiple` attribute lets users select multiple files. -->
+
 
   <body style="text-align: center" id="body">
-    <h1 style="color: green">GeeksForGeeks</h1>
-
+    <h1 style="color: green">Leetcode</h1>
+    <input type="file" id="file-selector" multiple />
     <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
-
     <button onclick="constructTable('#table')">click here</button>
-
     <br /><br />
 
     <table
@@ -29,6 +28,11 @@
     ></table>
 
     <script>
+      const fileSelector = document.getElementById("file-selector");
+      fileSelector.addEventListener("change", (event) => {
+        const fileList = event.target.files;
+        console.log(fileList);
+      });
       //   function readImage(file) {
       //     // Check if the file is an image.
       //     if (file.type && !file.type.startsWith("image/")) {
@@ -58,7 +62,7 @@
           Title: "Binary Search",
           Url: "https://leetcode.com/problems/binary-search",
           Tags: ["Binary Search", "DFS"],
-          Memo: "Watch out the condition to jump out the loop."
+          Memo: "Watch out the condition to jump out the loop.",
         },
         {
           Number: "0705",
@@ -66,7 +70,7 @@
           Title: "Design HashSet",
           Url: "https://leetcode.com/problems/design-hashset",
           Tags: ["Binary Search", "Hash Set"],
-          Memo: "Compare set and map."
+          Memo: "Compare set and map.",
         },
         {
           Number: "0706",
@@ -74,7 +78,7 @@
           Title: "Design HashMap",
           Url: "https://leetcode.com/problems/design-hashmap",
           Tags: ["Data Structure", "Hash Map"],
-          Memo: "Implement the hashmap from linkedlist and array."
+          Memo: "Implement the hashmap from linkedlist and array.",
         },
         {
           Number: "0718",
@@ -82,7 +86,7 @@
           Title: "Maximum Length of Repeated Subarray",
           Url: "https://leetcode.com/problems/maximum-length-of-repeated-subarray",
           Tags: ["Array", "String"],
-          Memo: "--"
+          Memo: "--",
         },
       ];
 
@@ -120,7 +124,6 @@
           //   var url = list[i][3];
           console.log(number, level, title, url);
 
-
           //Number
           var colorCode;
           if (level == 1) {
@@ -143,8 +146,9 @@
 
           //Tags
           var tagsHtml = "<h4>";
-          for (var tag of tags){
-            tagsHtml = tagsHtml + '<span class="badge bg-light">' + tag + '</span>';
+          for (var tag of tags) {
+            tagsHtml =
+              tagsHtml + '<span class="badge bg-light">' + tag + "</span>";
           }
           tagsHtml = tagsHtml + "</h4>";
           row.append($("<td/>").html(tagsHtml));
