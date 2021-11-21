@@ -147,6 +147,7 @@ algo
 ├── Island
 │   ├── __0130__Surrounded Regions.py
 │   ├── __0200__Number of Islands.py
+│   ├── __0305__Number of Islands II.py
 │   ├── __0417__Pacific Atlantic Water Flow.py
 │   ├── __0694__Number of Distinct Islands.py
 │   ├── __0695__Max Area of Island.py
@@ -273,7 +274,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 249 files
+23 directories, 250 files
 
 =====================================
 ============= Local Repo ============
@@ -412,6 +413,7 @@ __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0300__Longest Increasing Subsequence.py
+__0305__Number of Islands II.py
 __0314__Binary Tree Vertical Order Traversal.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
@@ -520,7 +522,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  241
+Num of Python Practice:  242
 
 
 =====================================
@@ -660,6 +662,7 @@ Num of Python Practice:  241
  0290 Word Pattern
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
+ 0305 Number of Islands II
  0314 Binary Tree Vertical Order Traversal
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
@@ -770,9 +773,9 @@ Num of Python Practice:  241
 =====================================
 Solved / Total (Easy)  :   55 /  528
 Solved / Total (Medium):  170 / 1110
-Solved / Total (Hard)  :   16 /  443
-Solved / Total (All)   :  241 / 2081
-Total Score            :  645
+Solved / Total (Hard)  :   17 /  443
+Solved / Total (All)   :  242 / 2081
+Total Score            :  650
 =====================================
 
 ```

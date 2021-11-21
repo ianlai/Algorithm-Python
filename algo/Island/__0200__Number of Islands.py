@@ -23,7 +23,7 @@ class Solution:
             #print("union:", t1, t2, " root:", root1, root2, end = "")
             if root1 != root2:
                 i, j = root2[0], root2[1]
-                parents[i][j] = find(root1)
+                parents[i][j] = root1
                 #print(" O")
                 return True #new
             #print(" X")
@@ -58,8 +58,6 @@ class Solution:
                     #incorrect, the connection status might change latter
                     if isNewIsland:
                         islands.append(cur) 
-                    
-
         
         islandSet = set()  
         for i in range(m):

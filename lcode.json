@@ -781,7 +781,13 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Islands", 
     "Url": "https://leetcode.com/problems/number-of-islands", 
-    "Tags": [], 
+    "Tags": [
+        "Graph", 
+        "Islands", 
+        "BFS", 
+        "DFS", 
+        "Union-Find"
+    ], 
     "Memo": ""
 },
 {
@@ -973,7 +979,10 @@ lcode_data = `
     "Level": 2, 
     "Title": "Graph Valid Tree", 
     "Url": "https://leetcode.com/problems/graph-valid-tree", 
-    "Tags": ["Graph", "DFS"], 
+    "Tags": [
+        "Graph", 
+        "DFS"
+    ], 
     "Memo": ""
 },
 {
@@ -1070,6 +1079,14 @@ lcode_data = `
     "Title": "Longest Increasing Subsequence", 
     "Url": "https://leetcode.com/problems/longest-increasing-subsequence", 
     "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0305", 
+    "Level": 3, 
+    "Title": "Number of Islands II", 
+    "Url": "https://leetcode.com/problems/number-of-islands-ii", 
+    "Tags": ["Union-Find", "Islands"], 
     "Memo": ""
 },
 {
@@ -1445,7 +1462,11 @@ lcode_data = `
     "Level": 2, 
     "Title": "Redundant Connection", 
     "Url": "https://leetcode.com/problems/redundant-connection", 
-    "Tags": ["Graph", "DFS", "Union-Find"], 
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "Union-Find"
+    ], 
     "Memo": ""
 },
 {
