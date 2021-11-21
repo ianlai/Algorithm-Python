@@ -973,7 +973,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Graph Valid Tree", 
     "Url": "https://leetcode.com/problems/graph-valid-tree", 
-    "Tags": [], 
+    "Tags": ["Graph", "DFS"], 
     "Memo": ""
 },
 {
@@ -1445,7 +1445,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Redundant Connection", 
     "Url": "https://leetcode.com/problems/redundant-connection", 
-    "Tags": [], 
+    "Tags": ["Graph", "DFS"], 
     "Memo": ""
 },
 {

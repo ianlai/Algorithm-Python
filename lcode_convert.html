@@ -11,16 +11,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="data.json"></script>
     <script type="text/javascript" src="lcode.json"></script>
-
   </head>
-  
+
   <!-- The `multiple` attribute lets users select multiple files. -->
   <body style="text-align: center" id="body">
     <h1 style="color: green">Problem List</h1>
+
     <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
     <!-- <button onclick="constructTable('#table')">click here</button> -->
     <br /><br />
-
+    <div id="lcode_count">AAA</div>
     <table
       align="center"
       id="table"
@@ -30,7 +30,7 @@
 
     <script>
       var lcodeData = JSON.parse(lcode_data);
-    //   console.log("Lcode:", lcodeData);
+      //   console.log("Lcode:", lcodeData);
 
       var el_up = document.getElementById("GFG_UP");
 
@@ -68,29 +68,24 @@
           Memo: "--",
         },
       ];
-        list = lcodeData;
-    //   el_up.innerHTML =
-    //     "Click on the button to create " +
-    //     "the table from the JSON data.<br><br>" +
-    //     JSON.stringify(list[0]) +
-    //     "<br>" +
-    //     JSON.stringify(list[1]) +
-    //     "<br>" +
-    //     JSON.stringify(list[2]);
-
+      list = lcodeData;
       // el_up.innerHTML = "Click on the button to create "
       // + "the table from the JSON data.<br><br>"
       // + JSON.stringify(lcode) + "<br>";
 
+      var count_easy = 0;
+      var count_medium = 0;
+      var count_hard = 0;
+      var count_total = 0;
+
       function constructTable(selector) {
         // Getting the all column names
         var cols = Headers(list, selector);
-        console;
 
         // Traversing the JSON data
         for (var i = 0; i < list.length; i++) {
           var row = $("<tr/>");
-        //   console.log(list[i]);
+          //   console.log(list[i]);
 
           number = list[i]["Number"];
           level = list[i]["Level"];
@@ -99,21 +94,24 @@
           tags = list[i]["Tags"];
           memo = list[i]["Memo"];
 
-        //   console.log(number, level, title, url);
+          //console.log(number, level, title, url);
 
           //Number
           var colorCode;
           if (level == 1) {
             colorCode = "#3e7d23";
+            count_easy += 1;
           } else if (level == 2) {
             colorCode = "#c9891a";
+            count_medium += 1;
           } else {
             colorCode = "#b00e2c";
+            count_hard += 1;
           }
           row.append(
-            $("<td/>").css("background-color", colorCode).html(
-              '<p>' + number + "</p>"
-            )
+            $("<td/>")
+              .css("background-color", colorCode)
+              .html("<p>" + number + "</p>")
           );
 
           //Title
@@ -130,34 +128,6 @@
           tagsHtml = tagsHtml + "</h4>";
           row.append($("<td/>").html(tagsHtml));
           row.append($("<td/>").html(memo));
-
-          //   for (var colIndex = 0; colIndex < cols.length; colIndex++) {
-          //     var col = cols[colIndex];
-          //     var val = list[i][cols[colIndex]];
-
-          //     // If there is any key, which is matching
-          //     // with the column name
-          //     if (val == null) val = "";
-
-          //     if (col == "Level") {
-          //       var colorCode;
-
-          //       if (val == 1) {
-          //         colorCode = "green";
-          //       } else if (val == 2) {
-          //         colorCode = "brown";
-          //       } else {
-          //         colorCode = "red";
-          //       }
-          //       row.append(
-          //         $("<td/>").html(
-          //           '<p style="color:' + colorCode + '">' + val + "</p>"
-          //         )
-          //       );
-          //     } else {
-          //       row.append($("<td/>").html(val));
-          //     }
-          //   }
 
           // Adding each row to the table
           $(selector).append(row);
@@ -176,7 +146,22 @@
         $(selector).append(header);
         return columns;
       }
-      constructTable('#table');
+      constructTable("#table");
+
+      count_total = count_easy + count_medium + count_hard;
+      $("#lcode_count").html(
+        "Easy:" +
+          count_easy +
+          "<br/>" +
+          "Medium:" +
+          count_medium +
+          "<br/>" +
+          "Hard:" +
+          count_hard +
+          "<br/>" +
+          "Total:" +
+          count_total
+      );
     </script>
   </body>
 </html>
