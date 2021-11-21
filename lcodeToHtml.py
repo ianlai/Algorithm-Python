@@ -11,6 +11,7 @@ from json2html import *
 PPRINT = pprint.PrettyPrinter(indent=4)
 
 DIFFICULTY_TYPES = ['Easy']
+RESET = False
 
 COOKIE_PATH = '/Users/01204086/Library/Application Support/Google/Chrome/Profile 1/Cookies'
 WEBSITE_URL = 'https://leetcode.com'
@@ -63,6 +64,24 @@ def showQuizListFromLeetcode():
     print("=====================================")
     print("============= Leetcode ==============")
     print("=====================================")
+    
+
+    data = []
+    with open("lcode.json", "r") as fr:
+        data = fr.read().splitlines(True)
+        data = data[1:len(data)-1]
+
+    dataArr = json.loads("".join(data))
+    existedData = {}
+    for data in dataArr:
+        existedData[data["Number"]] = {
+                    "Number": data["Number"], 
+                    "Level" : data["Level"], 
+                    "Title" : data["Title"],
+                    "Url" : data["Url"], 
+                    "Tags" : data["Tags"], 
+                    "Memo" : data["Memo"]
+                }
 
     for e in q:
         if e['status'] == "ac":
@@ -70,52 +89,70 @@ def showQuizListFromLeetcode():
             qTitle = e['stat']['question__title']
             qSlug = e['stat']['question__title_slug']
             qLevel = e['difficulty']['level']
-            print(qNumber, qTitle, qLevel)
+            #print(qNumber, qTitle, qLevel)
             qUrl = URL_PROBLEM + qSlug
             qLink = "<a href=\"" + qUrl + "\">" + qTitle + "</a>"
             qMap[qNumber] = [qTitle, qUrl, qLevel]
-            qArr.append(
-                {"Number": qNumber, 
-                "Level" : qLevel, 
-                "Title" : qTitle, 
-                "Url" : qUrl, 
-                "Tags" : [],
-                "Memo" : ""
-                })
+            
+            if not RESET:
+                if qNumber in existedData: #skip
+                    qArr.append(
+                        existedData[qNumber]
+                    )
+                else:
+                    qArr.append(
+                        {
+                            "Number": qNumber, 
+                            "Level" : qLevel, 
+                            "Title" : qTitle, 
+                            "Url" : qUrl, 
+                            "Tags" : [],
+                            "Memo" : ""
+                        })
+            else:
+                qArr.append(
+                        {
+                            "Number": qNumber, 
+                            "Level" : qLevel, 
+                            "Title" : qTitle, 
+                            "Url" : qUrl, 
+                            "Tags" : [],
+                            "Memo" : ""
+                        })
 
-    score = 5 * my_result['ac_hard'] + 3 * my_result['ac_medium'] + 1 * my_result['ac_easy']
-    print("=====================================")
-    print('Solved / Total (Easy)  :' , stringFormatter(my_result['ac_easy']   , 4), '/', stringFormatter(count_easy, 4))
-    print('Solved / Total (Medium):' , stringFormatter(my_result['ac_medium'] , 4), '/', stringFormatter(count_medium, 4))
-    print('Solved / Total (Hard)  :' , stringFormatter(my_result['ac_hard']   , 4), '/', stringFormatter(count_hard,4))
-    print('Solved / Total (All)   :' , stringFormatter(my_result['num_solved'], 4), '/', stringFormatter(my_result['num_total'],4))
-    print('Total Score            :' , stringFormatter(score, 4))
-    print("=====================================")
-    print()
+
+    with open("lcode.json", "w") as f:
+        f.write("lcode_data = `\n" + "[" + "\n")
+        for idx, item in enumerate(qArr):
+            json.dump(item, f)
+            if idx != len(qArr) - 1:
+                f.write(",\n")
+            else:
+                f.write("\n")
 
     #qJson = json.dumps(qMap)
-    qJson = json.dumps(qArr)
-    f = open("lcode.json", "w")
-    f.write("lcode_data = `")
-    f.write(qJson)
-    f.write("`;")
-    f.close()
+    #f.write(qJson)
+        f.write("]\n`;")
+        f.close()
 
-    f = open("lcode.html", "w")
-    f.write("""<!doctype html>
-        <html>
-        <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-        </head><body>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        """)
-    f.write(json2html.convert(json=qJson, table_attributes="class=\"table table-bordered table-hover\""))
-    f.write('</body></html>')
-    f.close()
+
+    # f = open("lcode.html", "w")
+    # f.write("""<!doctype html>
+    #     <html>
+    #     <head>
+    #     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    #     </head><body>
+    #     <!-- Latest compiled and minified JavaScript -->
+    #     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    #     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    #     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    #     """)
+    # f.write(json2html.convert(json=qJson, table_attributes="class=\"table table-bordered table-hover\""))
+    # f.write('</body></html>')
+    # f.close()
+
+
+
 
 def stringFormatter(s, num):
     s = str(s)
