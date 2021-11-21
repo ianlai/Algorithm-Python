@@ -67,22 +67,26 @@ def showQuizListFromLeetcode():
     
 
     data = []
-    with open("lcode.json", "r") as fr:
-        data = fr.read().splitlines(True)
-        data = data[1:len(data)-1]
-
-    dataArr = json.loads("".join(data))
     existedData = {}
-    for data in dataArr:
-        existedData[data["Number"]] = {
-                    "Number": data["Number"], 
-                    "Level" : data["Level"], 
-                    "Title" : data["Title"],
-                    "Url" : data["Url"], 
-                    "Tags" : data["Tags"], 
-                    "Memo" : data["Memo"]
-                }
+    if RESET:
+        print("RESET mode (wipe-out)")
+    else:
+        print("APPEND mode")
 
+    if not RESET:
+        with open("lcode.json", "r") as fr:
+            data = fr.read().splitlines(True)
+            data = data[1:len(data)-1]
+        dataArr = json.loads("".join(data))
+        for data in dataArr:
+            existedData[data["Number"]] = {
+                        "Number": data["Number"], 
+                        "Level" : data["Level"], 
+                        "Title" : data["Title"],
+                        "Url" : data["Url"], 
+                        "Tags" : data["Tags"], 
+                        "Memo" : data["Memo"]
+                    }
     for e in q:
         if e['status'] == "ac":
             qNumber = str(e['stat']['frontend_question_id']).zfill(4)
@@ -94,37 +98,47 @@ def showQuizListFromLeetcode():
             qLink = "<a href=\"" + qUrl + "\">" + qTitle + "</a>"
             qMap[qNumber] = [qTitle, qUrl, qLevel]
             
+            appendData = None
             if not RESET:
                 if qNumber in existedData: #skip
-                    qArr.append(
-                        existedData[qNumber]
-                    )
+                    appendData = existedData[qNumber]
                 else:
-                    qArr.append(
-                        {
+                    appendData = {
                             "Number": qNumber, 
                             "Level" : qLevel, 
                             "Title" : qTitle, 
                             "Url" : qUrl, 
                             "Tags" : [],
                             "Memo" : ""
-                        })
-            else:
-                qArr.append(
-                        {
+                        }
+            else: 
+                appendData = {
                             "Number": qNumber, 
                             "Level" : qLevel, 
                             "Title" : qTitle, 
                             "Url" : qUrl, 
                             "Tags" : [],
                             "Memo" : ""
-                        })
+                        }
+            qArr.append(appendData)
+            #print(appendData)
 
-
+    #Write file 
     with open("lcode.json", "w") as f:
         f.write("lcode_data = `\n" + "[" + "\n")
-        for idx, item in enumerate(qArr):
-            json.dump(item, f)
+        for idx, object in enumerate(qArr):
+            # Use json to write
+            json.dump(object, f, separators=(', ', ': '), indent = 4)
+
+            # Manually write
+            # print("{")
+            # for j, line in enumerate(object.items()):
+            #     if j != len(object.items()) - 1:
+            #         print("\"", line[0], "\"", ":", line[1], ",")
+            #     else:
+            #         print("\"", line[0], "\"", ":", line[1])
+            # print("}")
+            
             if idx != len(qArr) - 1:
                 f.write(",\n")
             else:
