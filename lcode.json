@@ -1445,7 +1445,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Redundant Connection", 
     "Url": "https://leetcode.com/problems/redundant-connection", 
-    "Tags": ["Graph", "DFS"], 
+    "Tags": ["Graph", "DFS", "Union-Find"], 
     "Memo": ""
 },
 {

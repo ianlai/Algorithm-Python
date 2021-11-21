@@ -768,10 +768,10 @@ Num of Python Practice:  241
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  527
-Solved / Total (Medium):  170 / 1108
-Solved / Total (Hard)  :   16 /  442
-Solved / Total (All)   :  241 / 2077
+Solved / Total (Easy)  :   55 /  528
+Solved / Total (Medium):  170 / 1110
+Solved / Total (Hard)  :   16 /  443
+Solved / Total (All)   :  241 / 2081
 Total Score            :  645
 =====================================
 
