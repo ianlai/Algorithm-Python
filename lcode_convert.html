@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Lcode List</title>
     <link
       rel="stylesheet"
@@ -9,21 +9,65 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="lcode_convert.css"
-    />
+    <link rel="stylesheet" href="lcode_convert.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="lcode.json"></script>
   </head>
-  
+
   <!-- The `multiple` attribute lets users select multiple files. -->
   <body style="text-align: center" id="body">
     <h1 style="color: rgb(20, 79, 146)">Lcode List</h1>
-    <span id="lcode_count_easy"  style="color: rgba(15, 172, 54, 0.795); font-size: 15px; font-weight: normal; margin:5px; font-family: sans-serif;">AAA</span>
-    <span id="lcode_count_medium" style="color: rgba(197, 149, 44, 0.795); font-size: 15px; font-weight: normal; margin:5px ">AAA</span>
-    <span id="lcode_count_hard" style="color: rgba(214, 68, 31, 0.795); font-size: 15px; font-weight: normal; margin:5px">AAA</span>
-    <div id="lcode_count" style="font-size: 15px; font-weight: bold; margin:10px">AAA</div>
+    <span
+      id="lcode_count_easy"
+      style="
+        color: rgba(15, 172, 54, 0.795);
+        font-size: 15px;
+        font-weight: 700;
+        margin: 5px;
+      "
+      >AAA</span
+    >
+    <span
+      id="lcode_count_medium"
+      style="
+        color: rgba(197, 149, 44, 0.795);
+        font-size: 15px;
+        font-weight: 700;
+        margin: 5px;
+      "
+      >AAA</span
+    >
+    <span
+      id="lcode_count_hard"
+      style="
+        color: rgba(214, 68, 31, 0.795);
+        font-size: 15px;
+        font-weight: 700;
+        margin: 5px;
+      "
+      >AAA</span
+    >
+    <div
+      id="lcode_count"
+      style="
+        color: rgb(71, 94, 95);
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+      "
+    >
+      AAA
+    </div>
+
+    <div
+      id="tagList"
+      style="
+        color: rgb(141, 118, 204);
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px;
+      "
+    ></div>
 
     <table
       align="center"
@@ -73,6 +117,10 @@
         },
       ];
       list = lcodeData;
+
+      var selectedTag = [];
+      var allTags = ["Graph", "BFS", "DFS", "Binary Search", "Island", "Union-Find", "Heap", "SSSP"];
+
       // el_up.innerHTML = "Click on the button to create "
       // + "the table from the JSON data.<br><br>"
       // + JSON.stringify(lcode) + "<br>";
@@ -98,6 +146,17 @@
           tags = list[i]["Tags"];
           memo = list[i]["Memo"];
 
+          var isFilterKept = false;
+          for (var tag of tags) {
+            if (selectedTag.includes(tag)) {
+              isFilterKept = true;
+            }
+          }
+          if (isFilterKept === false && selectedTag.length != 0) {
+            console.log(">>>>Skip:", number);
+            continue;
+          }
+          console.log(number);
           //console.log(number, level, title, url);
 
           //Number
@@ -115,25 +174,34 @@
           row.append(
             $("<td/>")
               .css("background-color", colorCode)
-              .html('<div>' + number + '</div>')
+              .html("<div>" + number + "</div>")
           );
 
           //Title
           row.append(
-            $("<td/>").html('<a href="' + url + '" class="large-font"> ' + title + "</a>")
+            $("<td/>").html(
+              '<a href="' + url + '" class="large-font"> ' + title + "</a>"
+            )
           );
 
           //Tags
           var tagsHtml = "";
           for (var tag of tags) {
             tagsHtml =
-              tagsHtml + '<button class="btn btn-primary" style="margin:5px">' + tag + "</button>";
+              tagsHtml +
+              '<button class="btn btn-primary tag" style="margin:5px" id="' +
+              tag +
+              '">' +
+              tag +
+              "</button>";
           }
           tagsHtml = tagsHtml + "";
           row.append($("<td/>").html(tagsHtml));
 
           //Memo
-          row.append($("<td/>").html( '<p style = "font-size:small">' + memo + "</p>" ));
+          row.append(
+            $("<td/>").html('<p style = "font-size:small">' + memo + "</p>")
+          );
 
           // Adding each row to the table
           $(selector).append(row);
@@ -159,6 +227,33 @@
       $("#lcode_count_medium").html("Medium:" + count_medium);
       $("#lcode_count_hard").html("Hard:" + count_hard);
       $("#lcode_count").html("Total:" + count_total);
+
+      document.querySelectorAll(".tag").forEach((item) => {
+        item.addEventListener("click", function () {
+          if (selectedTag.includes(item.id)) {
+            return;
+          }
+          selectedTag.push(item.id);
+          var tagsHtml = "";
+          for (var tag of selectedTag) {
+            tagsHtml =
+              tagsHtml +
+              '<button class="btn btn-secondary tag" style="margin:5px" id="' +
+              tag +
+              '">' +
+              tag +
+              "</button>";
+          }
+          tagsHtml = tagsHtml + "";
+          $("#tagList").html(tagsHtml);
+
+          $("#table").html("");
+          constructTable("#table");
+
+          console.log("click on:" + item.id);
+          console.log(selectedTag);
+        });
+      });
     </script>
   </body>
 </html>
