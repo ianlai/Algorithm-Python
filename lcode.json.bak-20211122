@@ -5,12 +5,8 @@ lcode_data = `
     "Level": 1, 
     "Title": "Two Sum", 
     "Url": "https://leetcode.com/problems/two-sum", 
-    "Tags": [
-        "Two-Sum", 
-        "Two-Pointer", 
-        "HashMap"
-    ], 
-    "Memo": "\u4f60\u597d"
+    "Tags": ["Two-Sum", "Two-Pointer", "HashMap"], 
+    "Memo": "你好"
 },
 {
     "Number": "0002", 
@@ -33,10 +29,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Median of Two Sorted Arrays", 
     "Url": "https://leetcode.com/problems/median-of-two-sorted-arrays", 
-    "Tags": [
-        "Binary Search"
-    ], 
-    "Memo": "\u5728\u7b2c\u4e00\u689d\u4e0a\u505aBS\uff0c\u627e\u5230\u7684\u9ede1\uff0c\u6703\u6c7a\u5b9a\u9ede2\uff08\u56e0\u70ba\u500b\u6578\uff09\uff0c\u518d\u6839\u64da\u5169\u908a\u5927\u5c0f\u7279\u6027\u5224\u65b7\u8981\u5f80\u5de6\u9084\u662f\u5f80\u53f3\u3002"
+    "Tags": ["Binary Search"], 
+    "Memo": "在第一條上做BS，找到的點1，會決定點2（因為個數），再根據兩邊大小特性判斷要往左還是往右。"
 },
 {
     "Number": "0005", 
@@ -63,25 +57,12 @@ lcode_data = `
     "Memo": ""
 },
 {
-    "Number": "0014", 
-    "Level": 1, 
-    "Title": "Longest Common Prefix", 
-    "Url": "https://leetcode.com/problems/longest-common-prefix", 
-    "Tags": [
-        "String"
-    ], 
-    "Memo": "\u83ef\u83ef\u6839\u672c\u6c92\u5728\u770b \u5616\u5616"
-},
-{
     "Number": "0015", 
     "Level": 2, 
     "Title": "3Sum", 
     "Url": "https://leetcode.com/problems/3sum", 
-    "Tags": [
-        "Two-Pointer", 
-        "Two-Sum"
-    ], 
-    "Memo": "\u8981\u6ce8\u610f\u91cd\u8907\u7684\u9ede\uff0c\u4e0d\u80fd\u5728\u7d50\u675f\u5f8c\u53bb\u91cd\uff0c\u5fc5\u9808\u8981\u5728\u4e2d\u9593\u968e\u6bb5\u5c31\u53bb\u91cd\u3002"
+    "Tags": ["Two-Pointer", "Two-Sum"], 
+    "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。"
 },
 {
     "Number": "0016", 
@@ -608,10 +589,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Word Ladder", 
     "Url": "https://leetcode.com/problems/word-ladder", 
-    "Tags": [
-        "BFS"
-    ], 
-    "Memo": "\u4f7f\u7528distance map\u3002\u6bcf\u6b21\u90fd\u5f9e\u53ef\u80fd\u7684\u7d44\u5408\u5b57\u88e1\u9762\u641c\u7d22\uff0c\u800c\u4e0d\u8981\u5f9e\u8a5e\u5eab\u641c\u7d22\u3002"
+    "Tags": ["BFS"], 
+    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。"
 },
 {
     "Number": "0128", 
@@ -809,7 +788,7 @@ lcode_data = `
         "DFS", 
         "Union-Find"
     ], 
-    "Memo": "\u4f7f\u7528Union-Find\u7684\u8a71\u9700\u8981\u7d00\u9304\u6210\u4e8c\u7dad\u7684\uff0c\u6216\u662f\u9700\u8981\u591a\u7d93\u904e\u4e00\u5c64\u8f49\u63db\u3002Number of Islands II\u5247\u5c31\u9700\u8981\u4f7f\u7528Union-Find\u3002"
+    "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。"
 },
 {
     "Number": "0206", 
@@ -1004,7 +983,7 @@ lcode_data = `
         "Graph", 
         "DFS"
     ], 
-    "Memo": "(1) \u548c0684\u4e0d\u540c\uff0c\u4e0d\u9700\u8981\u627e\u51fa\u591a\u7684\u90a3\u689d\u8def\u5f91\u3002\u56e0\u6b64\u53ea\u9700\u8981DFS\u4e00\u6b21\u5c31\u53ef\u4ee5\uff0c\u627e\u5230\u8d70\u5230\u5169\u6b21\u7684\u9ede\u3002<br> (2)\u6216\u662f\u4f7f\u7528\u6a39\u7684V\u6bd4E\u591a1\u9019\u500b\u7279\u6027\u4e5f\u53ef\u4ee5\u3002"
+    "Memo": "(1) 和0684不同，不需要找出多的那條路徑。因此只需要DFS一次就可以，找到走到兩次的點。<br> (2)或是使用樹的V比E多1這個特性也可以。"
 },
 {
     "Number": "0263", 
@@ -1107,11 +1086,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Number of Islands II", 
     "Url": "https://leetcode.com/problems/number-of-islands-ii", 
-    "Tags": [
-        "Union-Find", 
-        "Islands"
-    ], 
-    "Memo": "\u4f7f\u7528Union-Find\u53ef\u4ee5\u904e\u3002"
+    "Tags": ["Union-Find", "Islands"], 
+    "Memo": "使用Union-Find可以過。"
 },
 {
     "Number": "0314", 
@@ -1126,9 +1102,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Coin Change", 
     "Url": "https://leetcode.com/problems/coin-change", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": ["DP"], 
     "Memo": ""
 },
 {
@@ -1176,9 +1150,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Design Hit Counter", 
     "Url": "https://leetcode.com/problems/design-hit-counter", 
-    "Tags": [
-        "Binary Search"
-    ], 
+    "Tags": ["Binary Search"], 
     "Memo": ""
 },
 {
@@ -1606,13 +1578,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Network Delay Time", 
     "Url": "https://leetcode.com/problems/network-delay-time", 
-    "Tags": [
-        "Graph", 
-        "SSSP", 
-        "Dijkstra", 
-        "Bellman-Ford", 
-        "Heap"
-    ], 
+    "Tags": ["Graph", "SSSP", "Dijkstra", "Bellman-Ford", "Heap"], 
     "Memo": ""
 },
 {
@@ -1684,9 +1650,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Snakes and Ladders", 
     "Url": "https://leetcode.com/problems/snakes-and-ladders", 
-    "Tags": [
-        "BFS"
-    ], 
+    "Tags": ["BFS"], 
     "Memo": ""
 },
 {
@@ -1758,9 +1722,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Time Based Key-Value Store", 
     "Url": "https://leetcode.com/problems/time-based-key-value-store", 
-    "Tags": [
-        "Binary Search"
-    ], 
+    "Tags": ["Binary Search"], 
     "Memo": ""
 },
 {

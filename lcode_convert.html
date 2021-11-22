@@ -9,19 +9,22 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="lcode_convert.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="data.json"></script>
     <script type="text/javascript" src="lcode.json"></script>
   </head>
-
+  
   <!-- The `multiple` attribute lets users select multiple files. -->
   <body style="text-align: center" id="body">
-    <h1 style="color: green">Problem List</h1>
+    <h1 style="color: rgb(20, 79, 146)">Lcode List</h1>
+    <span id="lcode_count_easy"  style="color: rgba(15, 172, 54, 0.795); font-size: 15px; font-weight: normal; margin:5px; font-family: sans-serif;">AAA</span>
+    <span id="lcode_count_medium" style="color: rgba(197, 149, 44, 0.795); font-size: 15px; font-weight: normal; margin:5px ">AAA</span>
+    <span id="lcode_count_hard" style="color: rgba(214, 68, 31, 0.795); font-size: 15px; font-weight: normal; margin:5px">AAA</span>
+    <div id="lcode_count" style="font-size: 15px; font-weight: bold; margin:10px">AAA</div>
 
-    <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
-    <!-- <button onclick="constructTable('#table')">click here</button> -->
-    <br /><br />
-    <div id="lcode_count">AAA</div>
     <table
       align="center"
       id="table"
@@ -100,13 +103,13 @@
           //Number
           var colorCode;
           if (level == 1) {
-            colorCode = "#3e7d23";
+            colorCode = "rgba(15, 172, 54, 0.795)";
             count_easy += 1;
           } else if (level == 2) {
-            colorCode = "#c9891a";
+            colorCode = "rgba(230, 182, 80, 0.795)";
             count_medium += 1;
           } else {
-            colorCode = "#b00e2c";
+            colorCode = "rgba(214, 68, 31, 0.795)";
             count_hard += 1;
           }
           row.append(
@@ -117,7 +120,7 @@
 
           //Title
           row.append(
-            $("<td/>").html('<a href="' + url + '">' + title + "</a>")
+            $("<td/>").html('<a href="' + url + '" class="large-font"> ' + title + "</a>")
           );
 
           //Tags
@@ -130,7 +133,7 @@
           row.append($("<td/>").html(tagsHtml));
 
           //Memo
-          row.append($("<td/>").html(memo));
+          row.append($("<td/>").html( '<p style = "font-size:small">' + memo + "</p>" ));
 
           // Adding each row to the table
           $(selector).append(row);
@@ -152,19 +155,10 @@
       constructTable("#table");
 
       count_total = count_easy + count_medium + count_hard;
-      $("#lcode_count").html(
-        "Easy:" +
-          count_easy +
-          "<br/>" +
-          "Medium:" +
-          count_medium +
-          "<br/>" +
-          "Hard:" +
-          count_hard +
-          "<br/>" +
-          "Total:" +
-          count_total
-      );
+      $("#lcode_count_easy").html("Easy:" + count_easy);
+      $("#lcode_count_medium").html("Medium:" + count_medium);
+      $("#lcode_count_hard").html("Hard:" + count_hard);
+      $("#lcode_count").html("Total:" + count_total);
     </script>
   </body>
 </html>
