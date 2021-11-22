@@ -5,8 +5,8 @@ lcode_data = `
     "Level": 1, 
     "Title": "Two Sum", 
     "Url": "https://leetcode.com/problems/two-sum", 
-    "Tags": [], 
-    "Memo": "lalalala"
+    "Tags": ["Two-Sum", "Two-Pointer", "HashMap"], 
+    "Memo": "你好"
 },
 {
     "Number": "0002", 
@@ -1102,7 +1102,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Coin Change", 
     "Url": "https://leetcode.com/problems/coin-change", 
-    "Tags": [], 
+    "Tags": ["DP"], 
     "Memo": ""
 },
 {
@@ -1150,7 +1150,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Design Hit Counter", 
     "Url": "https://leetcode.com/problems/design-hit-counter", 
-    "Tags": [], 
+    "Tags": ["Binary Search"], 
     "Memo": ""
 },
 {
