@@ -128,7 +128,7 @@ def showQuizListFromLeetcode():
         f.write("lcode_data = `\n" + "[" + "\n")
         for idx, object in enumerate(qArr):
             # Use json to write
-            json.dump(object, f, separators=(', ', ': '), indent = 4)
+            json.dump(object, f, separators=(', ', ': '), indent = 4, ensure_ascii=False)
 
             # Manually write
             # print("{")
