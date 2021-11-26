@@ -188,8 +188,10 @@ algo
 │   └── __0735__Asteroid Collision.py
 ├── String
 │   ├── __0151__Reverse Words in a String.py
+│   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
-│   └── __0767__Reorganize String.py
+│   ├── __0767__Reorganize String.py
+│   └── __0811__Subdomain Visit Count.py
 ├── Tree
 │   ├── __0094__Binary Tree Inorder Traversal.py
 │   ├── __0098__Validate Binary Search Tree.py
@@ -274,7 +276,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 250 files
+23 directories, 252 files
 
 =====================================
 ============= Local Repo ============
@@ -432,6 +434,7 @@ __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
 __0417__Pacific Atlantic Water Flow.py
+__0423__Reconstruct Original Digits from English.py
 __0437__Path Sum III.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
@@ -480,6 +483,7 @@ __0767__Reorganize String.py
 __0784__Letter Case Permutation.py
 __0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
+__0811__Subdomain Visit Count.py
 __0841__Keys and Rooms.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0905__Sort Array By Parity.py
@@ -522,7 +526,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  242
+Num of Python Practice:  244
 
 
 =====================================
@@ -535,6 +539,7 @@ Num of Python Practice:  242
  0005 Longest Palindromic Substring
  0010 Regular Expression Matching
  0011 Container With Most Water
+ 0014 Longest Common Prefix
  0015 3Sum
  0016 3Sum Closest
  0017 Letter Combinations of a Phone Number
@@ -681,6 +686,7 @@ Num of Python Practice:  242
  0401 Binary Watch
  0416 Partition Equal Subset Sum
  0417 Pacific Atlantic Water Flow
+ 0423 Reconstruct Original Digits from English
  0437 Path Sum III
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
@@ -729,6 +735,7 @@ Num of Python Practice:  242
  0784 Letter Case Permutation
  0787 Cheapest Flights Within K Stops
  0797 All Paths From Source to Target
+ 0811 Subdomain Visit Count
  0841 Keys and Rooms
  0863 All Nodes Distance K in Binary Tree
  0905 Sort Array By Parity
@@ -771,11 +778,11 @@ Num of Python Practice:  242
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   55 /  528
-Solved / Total (Medium):  170 / 1110
+Solved / Total (Easy)  :   56 /  529
+Solved / Total (Medium):  172 / 1112
 Solved / Total (Hard)  :   17 /  443
-Solved / Total (All)   :  242 / 2081
-Total Score            :  650
+Solved / Total (All)   :  245 / 2084
+Total Score            :  657
 =====================================
 
 ```

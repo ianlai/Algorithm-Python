@@ -1293,6 +1293,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0423", 
+    "Level": 2, 
+    "Title": "Reconstruct Original Digits from English", 
+    "Url": "https://leetcode.com/problems/reconstruct-original-digits-from-english", 
+    "Tags": ["HashMap", "String"], 
+    "Memo": "仔細攤開來看，有五個英文字是指對應到單一數字，可以發現順序是決定的，所以不需要使用Backtracking(是唯一的答案）。"
+},
+{
     "Number": "0437", 
     "Level": 2, 
     "Title": "Path Sum III", 
@@ -1693,7 +1701,10 @@ lcode_data = `
     "Level": 2, 
     "Title": "Subdomain Visit Count", 
     "Url": "https://leetcode.com/problems/subdomain-visit-count", 
-    "Tags": ["String", "HashMap"], 
+    "Tags": [
+        "String", 
+        "HashMap"
+    ], 
     "Memo": ""
 },
 {
