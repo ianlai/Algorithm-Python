@@ -142,6 +142,7 @@ algo
 │   ├── __0263__Ugly Number.py
 │   ├── __0264__Ugly Number II.py
 │   ├── __0378__Kth Smallest Element in a Sorted Matrix.py
+│   ├── __0692__Top K Frequent Words.py
 │   ├── __0703__Kth Largest Element in a Stream.py
 │   └── __0973__K Closest Points to Origin.py
 ├── Island
@@ -276,7 +277,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 252 files
+23 directories, 253 files
 
 =====================================
 ============= Local Repo ============
@@ -466,6 +467,7 @@ __0680__Valid Palindrome II.py
 __0684__Redundant Connection.py
 __0687__Longest Univalue Path.py
 __0690__Employee Importance.py
+__0692__Top K Frequent Words.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
 __0702__Search in a Sorted Array of Unknown Size.py
@@ -526,7 +528,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  244
+Num of Python Practice:  245
 
 
 =====================================
@@ -718,6 +720,7 @@ Num of Python Practice:  244
  0684 Redundant Connection
  0687 Longest Univalue Path
  0690 Employee Importance
+ 0692 Top K Frequent Words
  0694 Number of Distinct Islands
  0695 Max Area of Island
  0702 Search in a Sorted Array of Unknown Size
@@ -779,10 +782,10 @@ Num of Python Practice:  244
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   56 /  529
-Solved / Total (Medium):  172 / 1112
+Solved / Total (Medium):  173 / 1112
 Solved / Total (Hard)  :   17 /  443
-Solved / Total (All)   :  245 / 2084
-Total Score            :  657
+Solved / Total (All)   :  246 / 2084
+Total Score            :  660
 =====================================
 
 ```
