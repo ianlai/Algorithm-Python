@@ -192,7 +192,8 @@ algo
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
 │   ├── __0767__Reorganize String.py
-│   └── __0811__Subdomain Visit Count.py
+│   ├── __0811__Subdomain Visit Count.py
+│   └── __1041__Robot Bounded In Circle.py
 ├── Tree
 │   ├── __0094__Binary Tree Inorder Traversal.py
 │   ├── __0098__Validate Binary Search Tree.py
@@ -277,7 +278,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 253 files
+23 directories, 254 files
 
 =====================================
 ============= Local Repo ============
@@ -503,6 +504,7 @@ __0994__Rotting Oranges.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
 __1038__Binary Search Tree to Greater Sum Tree.py
+__1041__Robot Bounded In Circle.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
 __1087__Brace Expansion.py
@@ -528,7 +530,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  245
+Num of Python Practice:  246
 
 
 =====================================
@@ -756,6 +758,7 @@ Num of Python Practice:  245
  1020 Number of Enclaves
  1025 Divisor Game
  1038 Binary Search Tree to Greater Sum Tree
+ 1041 Robot Bounded In Circle
  1048 Longest String Chain
  1049 Last Stone Weight II
  1087 Brace Expansion
@@ -781,11 +784,11 @@ Num of Python Practice:  245
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   56 /  529
-Solved / Total (Medium):  173 / 1112
-Solved / Total (Hard)  :   17 /  443
-Solved / Total (All)   :  246 / 2084
-Total Score            :  660
+Solved / Total (Easy)  :   56 /  531
+Solved / Total (Medium):  174 / 1116
+Solved / Total (Hard)  :   17 /  445
+Solved / Total (All)   :  247 / 2092
+Total Score            :  663
 =====================================
 
 ```

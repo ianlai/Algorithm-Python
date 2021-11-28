@@ -1859,6 +1859,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1041", 
+    "Level": 2, 
+    "Title": "Robot Bounded In Circle", 
+    "Url": "https://leetcode.com/problems/robot-bounded-in-circle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1048", 
     "Level": 2, 
     "Title": "Longest String Chain", 
