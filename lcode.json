@@ -1979,6 +1979,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1319", 
+    "Level": 2, 
+    "Title": "Number of Operations to Make Network Connected", 
+    "Url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected", 
+    "Tags": ["Graph", "DFS"], 
+    "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。"
+},
+{
     "Number": "1382", 
     "Level": 2, 
     "Title": "Balance a Binary Search Tree", 

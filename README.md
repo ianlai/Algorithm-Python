@@ -128,7 +128,8 @@ algo
 │   ├── __0684__Redundant Connection.py
 │   ├── __0743__Network Delay Time.py
 │   ├── __0787__Cheapest Flights Within K Stops.py
-│   └── __0797__All Paths From Source to Target.py
+│   ├── __0797__All Paths From Source to Target.py
+│   └── __1319__Number of Operations to Make Network Connected.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
@@ -278,7 +279,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 254 files
+23 directories, 255 files
 
 =====================================
 ============= Local Repo ============
@@ -519,6 +520,7 @@ __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
 __1277__Count Square Submatrices with All Ones.py
+__1319__Number of Operations to Make Network Connected.py
 __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
@@ -530,7 +532,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  246
+Num of Python Practice:  247
 
 
 =====================================
@@ -773,6 +775,7 @@ Num of Python Practice:  246
  1254 Number of Closed Islands
  1268 Search Suggestions System
  1277 Count Square Submatrices with All Ones
+ 1319 Number of Operations to Make Network Connected
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
@@ -785,10 +788,10 @@ Num of Python Practice:  246
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   56 /  531
-Solved / Total (Medium):  174 / 1116
+Solved / Total (Medium):  175 / 1116
 Solved / Total (Hard)  :   17 /  445
-Solved / Total (All)   :  247 / 2092
-Total Score            :  663
+Solved / Total (All)   :  248 / 2092
+Total Score            :  666
 =====================================
 
 ```
