@@ -607,11 +607,7 @@ lcode_data = `
     "Level": 3, 
     "Title": "Word Ladder II", 
     "Url": "https://leetcode.com/problems/word-ladder-ii", 
-    "Tags": [
-        "BFS", 
-        "DFS", 
-        "String"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -620,8 +616,7 @@ lcode_data = `
     "Title": "Word Ladder", 
     "Url": "https://leetcode.com/problems/word-ladder", 
     "Tags": [
-        "BFS", 
-        "String"
+        "BFS"
     ], 
     "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。"
 },
@@ -1474,9 +1469,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Out of Boundary Paths", 
     "Url": "https://leetcode.com/problems/out-of-boundary-paths", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1777,14 +1770,6 @@ lcode_data = `
     "Memo": ""
 },
 {
-    "Number": "0931", 
-    "Level": 2, 
-    "Title": "Minimum Falling Path Sum", 
-    "Url": "https://leetcode.com/problems/minimum-falling-path-sum", 
-    "Tags": ["DP"], 
-    "Memo": ""
-},
-{
     "Number": "0934", 
     "Level": 2, 
     "Title": "Shortest Bridge", 
@@ -1803,9 +1788,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Knight Dialer", 
     "Url": "https://leetcode.com/problems/knight-dialer", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1868,11 +1851,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Enclaves", 
     "Url": "https://leetcode.com/problems/number-of-enclaves", 
-    "Tags": [
-        "DFS", 
-        "Matrix", 
-        "Island"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1980,9 +1959,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Snapshot Array", 
     "Url": "https://leetcode.com/problems/snapshot-array", 
-    "Tags": [
-        "Binary Search"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2015,14 +1992,6 @@ lcode_data = `
     "Title": "Count Square Submatrices with All Ones", 
     "Url": "https://leetcode.com/problems/count-square-submatrices-with-all-ones", 
     "Tags": [], 
-    "Memo": ""
-},
-{
-    "Number": "1289", 
-    "Level": 3, 
-    "Title": "Minimum Falling Path Sum II", 
-    "Url": "https://leetcode.com/problems/minimum-falling-path-sum-ii", 
-    "Tags": ["DP"], 
     "Memo": ""
 },
 {
