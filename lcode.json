@@ -1781,7 +1781,9 @@ lcode_data = `
     "Level": 2, 
     "Title": "Minimum Falling Path Sum", 
     "Url": "https://leetcode.com/problems/minimum-falling-path-sum", 
-    "Tags": ["DP"], 
+    "Tags": [
+        "DP"
+    ], 
     "Memo": ""
 },
 {
@@ -2022,7 +2024,10 @@ lcode_data = `
     "Level": 3, 
     "Title": "Minimum Falling Path Sum II", 
     "Url": "https://leetcode.com/problems/minimum-falling-path-sum-ii", 
-    "Tags": ["DP", "Heap"], 
+    "Tags": [
+        "DP", 
+        "Heap"
+    ], 
     "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃，方法就是使用heap。但要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。"
 },
 {
