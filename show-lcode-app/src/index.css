@@ -36,9 +36,9 @@ code {
     border-bottom: 1px solid #dddddd;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
+/* .styled-table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
-}
+} */
 
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
@@ -47,4 +47,28 @@ code {
 .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #009879;
+}
+
+body{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+.large-font{
+    font-size:
+}
+
+a:link {
+  color: rgb(57, 79, 206);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+
+/* visited link
+a:visited {
+    color: rgb(43, 57, 139);
+} */
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
 }

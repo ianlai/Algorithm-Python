@@ -1,0 +1,2124 @@
+[
+{
+    "Number": "0001", 
+    "Level": 1, 
+    "Title": "Two Sum", 
+    "Url": "https://leetcode.com/problems/two-sum", 
+    "Tags": [
+        "Two-Sum", 
+        "Two-Pointer", 
+        "HashMap"
+    ], 
+    "Memo": "你好"
+},
+{
+    "Number": "0002", 
+    "Level": 2, 
+    "Title": "Add Two Numbers", 
+    "Url": "https://leetcode.com/problems/add-two-numbers", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0003", 
+    "Level": 2, 
+    "Title": "Longest Substring Without Repeating Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-without-repeating-characters", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0004", 
+    "Level": 3, 
+    "Title": "Median of Two Sorted Arrays", 
+    "Url": "https://leetcode.com/problems/median-of-two-sorted-arrays", 
+    "Tags": [
+        "Binary Search"
+    ], 
+    "Memo": "在第一條上做BS，找到的點1，會決定點2（因為個數），再根據兩邊大小特性判斷要往左還是往右。"
+},
+{
+    "Number": "0005", 
+    "Level": 2, 
+    "Title": "Longest Palindromic Substring", 
+    "Url": "https://leetcode.com/problems/longest-palindromic-substring", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0010", 
+    "Level": 3, 
+    "Title": "Regular Expression Matching", 
+    "Url": "https://leetcode.com/problems/regular-expression-matching", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0011", 
+    "Level": 2, 
+    "Title": "Container With Most Water", 
+    "Url": "https://leetcode.com/problems/container-with-most-water", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0014", 
+    "Level": 1, 
+    "Title": "Longest Common Prefix", 
+    "Url": "https://leetcode.com/problems/longest-common-prefix", 
+    "Tags": [
+        "String"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0015", 
+    "Level": 2, 
+    "Title": "3Sum", 
+    "Url": "https://leetcode.com/problems/3sum", 
+    "Tags": [
+        "Two-Pointer", 
+        "Two-Sum"
+    ], 
+    "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。"
+},
+{
+    "Number": "0016", 
+    "Level": 2, 
+    "Title": "3Sum Closest", 
+    "Url": "https://leetcode.com/problems/3sum-closest", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0017", 
+    "Level": 2, 
+    "Title": "Letter Combinations of a Phone Number", 
+    "Url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0018", 
+    "Level": 2, 
+    "Title": "4Sum", 
+    "Url": "https://leetcode.com/problems/4sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0019", 
+    "Level": 2, 
+    "Title": "Remove Nth Node From End of List", 
+    "Url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0020", 
+    "Level": 1, 
+    "Title": "Valid Parentheses", 
+    "Url": "https://leetcode.com/problems/valid-parentheses", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0021", 
+    "Level": 1, 
+    "Title": "Merge Two Sorted Lists", 
+    "Url": "https://leetcode.com/problems/merge-two-sorted-lists", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0022", 
+    "Level": 2, 
+    "Title": "Generate Parentheses", 
+    "Url": "https://leetcode.com/problems/generate-parentheses", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0023", 
+    "Level": 3, 
+    "Title": "Merge k Sorted Lists", 
+    "Url": "https://leetcode.com/problems/merge-k-sorted-lists", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0031", 
+    "Level": 2, 
+    "Title": "Next Permutation", 
+    "Url": "https://leetcode.com/problems/next-permutation", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0033", 
+    "Level": 2, 
+    "Title": "Search in Rotated Sorted Array", 
+    "Url": "https://leetcode.com/problems/search-in-rotated-sorted-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0034", 
+    "Level": 2, 
+    "Title": "Find First and Last Position of Element in Sorted Array", 
+    "Url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0036", 
+    "Level": 2, 
+    "Title": "Valid Sudoku", 
+    "Url": "https://leetcode.com/problems/valid-sudoku", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0037", 
+    "Level": 3, 
+    "Title": "Sudoku Solver", 
+    "Url": "https://leetcode.com/problems/sudoku-solver", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0039", 
+    "Level": 2, 
+    "Title": "Combination Sum", 
+    "Url": "https://leetcode.com/problems/combination-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0040", 
+    "Level": 2, 
+    "Title": "Combination Sum II", 
+    "Url": "https://leetcode.com/problems/combination-sum-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0042", 
+    "Level": 3, 
+    "Title": "Trapping Rain Water", 
+    "Url": "https://leetcode.com/problems/trapping-rain-water", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0044", 
+    "Level": 3, 
+    "Title": "Wildcard Matching", 
+    "Url": "https://leetcode.com/problems/wildcard-matching", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0046", 
+    "Level": 2, 
+    "Title": "Permutations", 
+    "Url": "https://leetcode.com/problems/permutations", 
+    "Tags": [
+        "DFS", 
+        "Backtracking"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0047", 
+    "Level": 2, 
+    "Title": "Permutations II", 
+    "Url": "https://leetcode.com/problems/permutations-ii", 
+    "Tags": [
+        "DFS", 
+        "Backtracking", 
+        "Redundant-Removal"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0049", 
+    "Level": 2, 
+    "Title": "Group Anagrams", 
+    "Url": "https://leetcode.com/problems/group-anagrams", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0050", 
+    "Level": 2, 
+    "Title": "Pow(x, n)", 
+    "Url": "https://leetcode.com/problems/powx-n", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0051", 
+    "Level": 3, 
+    "Title": "N-Queens", 
+    "Url": "https://leetcode.com/problems/n-queens", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0052", 
+    "Level": 3, 
+    "Title": "N-Queens II", 
+    "Url": "https://leetcode.com/problems/n-queens-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0053", 
+    "Level": 1, 
+    "Title": "Maximum Subarray", 
+    "Url": "https://leetcode.com/problems/maximum-subarray", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0056", 
+    "Level": 2, 
+    "Title": "Merge Intervals", 
+    "Url": "https://leetcode.com/problems/merge-intervals", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0062", 
+    "Level": 2, 
+    "Title": "Unique Paths", 
+    "Url": "https://leetcode.com/problems/unique-paths", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0063", 
+    "Level": 2, 
+    "Title": "Unique Paths II", 
+    "Url": "https://leetcode.com/problems/unique-paths-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0064", 
+    "Level": 2, 
+    "Title": "Minimum Path Sum", 
+    "Url": "https://leetcode.com/problems/minimum-path-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0069", 
+    "Level": 1, 
+    "Title": "Sqrt(x)", 
+    "Url": "https://leetcode.com/problems/sqrtx", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0070", 
+    "Level": 1, 
+    "Title": "Climbing Stairs", 
+    "Url": "https://leetcode.com/problems/climbing-stairs", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0074", 
+    "Level": 2, 
+    "Title": "Search a 2D Matrix", 
+    "Url": "https://leetcode.com/problems/search-a-2d-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0075", 
+    "Level": 2, 
+    "Title": "Sort Colors", 
+    "Url": "https://leetcode.com/problems/sort-colors", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0077", 
+    "Level": 2, 
+    "Title": "Combinations", 
+    "Url": "https://leetcode.com/problems/combinations", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0078", 
+    "Level": 2, 
+    "Title": "Subsets", 
+    "Url": "https://leetcode.com/problems/subsets", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0079", 
+    "Level": 2, 
+    "Title": "Word Search", 
+    "Url": "https://leetcode.com/problems/word-search", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0083", 
+    "Level": 1, 
+    "Title": "Remove Duplicates from Sorted List", 
+    "Url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0086", 
+    "Level": 2, 
+    "Title": "Partition List", 
+    "Url": "https://leetcode.com/problems/partition-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0089", 
+    "Level": 2, 
+    "Title": "Gray Code", 
+    "Url": "https://leetcode.com/problems/gray-code", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0090", 
+    "Level": 2, 
+    "Title": "Subsets II", 
+    "Url": "https://leetcode.com/problems/subsets-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0092", 
+    "Level": 2, 
+    "Title": "Reverse Linked List II", 
+    "Url": "https://leetcode.com/problems/reverse-linked-list-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0094", 
+    "Level": 1, 
+    "Title": "Binary Tree Inorder Traversal", 
+    "Url": "https://leetcode.com/problems/binary-tree-inorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0095", 
+    "Level": 2, 
+    "Title": "Unique Binary Search Trees II", 
+    "Url": "https://leetcode.com/problems/unique-binary-search-trees-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0096", 
+    "Level": 2, 
+    "Title": "Unique Binary Search Trees", 
+    "Url": "https://leetcode.com/problems/unique-binary-search-trees", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0098", 
+    "Level": 2, 
+    "Title": "Validate Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/validate-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0099", 
+    "Level": 2, 
+    "Title": "Recover Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/recover-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0100", 
+    "Level": 1, 
+    "Title": "Same Tree", 
+    "Url": "https://leetcode.com/problems/same-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0101", 
+    "Level": 1, 
+    "Title": "Symmetric Tree", 
+    "Url": "https://leetcode.com/problems/symmetric-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0102", 
+    "Level": 2, 
+    "Title": "Binary Tree Level Order Traversal", 
+    "Url": "https://leetcode.com/problems/binary-tree-level-order-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0103", 
+    "Level": 2, 
+    "Title": "Binary Tree Zigzag Level Order Traversal", 
+    "Url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0104", 
+    "Level": 1, 
+    "Title": "Maximum Depth of Binary Tree", 
+    "Url": "https://leetcode.com/problems/maximum-depth-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0107", 
+    "Level": 2, 
+    "Title": "Binary Tree Level Order Traversal II", 
+    "Url": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0108", 
+    "Level": 1, 
+    "Title": "Convert Sorted Array to Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0109", 
+    "Level": 2, 
+    "Title": "Convert Sorted List to Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0111", 
+    "Level": 1, 
+    "Title": "Minimum Depth of Binary Tree", 
+    "Url": "https://leetcode.com/problems/minimum-depth-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0112", 
+    "Level": 1, 
+    "Title": "Path Sum", 
+    "Url": "https://leetcode.com/problems/path-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0113", 
+    "Level": 2, 
+    "Title": "Path Sum II", 
+    "Url": "https://leetcode.com/problems/path-sum-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0114", 
+    "Level": 2, 
+    "Title": "Flatten Binary Tree to Linked List", 
+    "Url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0116", 
+    "Level": 2, 
+    "Title": "Populating Next Right Pointers in Each Node", 
+    "Url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0118", 
+    "Level": 1, 
+    "Title": "Pascal's Triangle", 
+    "Url": "https://leetcode.com/problems/pascals-triangle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0119", 
+    "Level": 1, 
+    "Title": "Pascal's Triangle II", 
+    "Url": "https://leetcode.com/problems/pascals-triangle-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0120", 
+    "Level": 2, 
+    "Title": "Triangle", 
+    "Url": "https://leetcode.com/problems/triangle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0121", 
+    "Level": 1, 
+    "Title": "Best Time to Buy and Sell Stock", 
+    "Url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0122", 
+    "Level": 2, 
+    "Title": "Best Time to Buy and Sell Stock II", 
+    "Url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0125", 
+    "Level": 1, 
+    "Title": "Valid Palindrome", 
+    "Url": "https://leetcode.com/problems/valid-palindrome", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0126", 
+    "Level": 3, 
+    "Title": "Word Ladder II", 
+    "Url": "https://leetcode.com/problems/word-ladder-ii", 
+    "Tags": [
+        "BFS", 
+        "DFS", 
+        "String"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0127", 
+    "Level": 3, 
+    "Title": "Word Ladder", 
+    "Url": "https://leetcode.com/problems/word-ladder", 
+    "Tags": [
+        "BFS", 
+        "String"
+    ], 
+    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。"
+},
+{
+    "Number": "0128", 
+    "Level": 2, 
+    "Title": "Longest Consecutive Sequence", 
+    "Url": "https://leetcode.com/problems/longest-consecutive-sequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0129", 
+    "Level": 2, 
+    "Title": "Sum Root to Leaf Numbers", 
+    "Url": "https://leetcode.com/problems/sum-root-to-leaf-numbers", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0130", 
+    "Level": 2, 
+    "Title": "Surrounded Regions", 
+    "Url": "https://leetcode.com/problems/surrounded-regions", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0131", 
+    "Level": 2, 
+    "Title": "Palindrome Partitioning", 
+    "Url": "https://leetcode.com/problems/palindrome-partitioning", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0133", 
+    "Level": 2, 
+    "Title": "Clone Graph", 
+    "Url": "https://leetcode.com/problems/clone-graph", 
+    "Tags": [
+        "Graph", 
+        "BFS", 
+        "DFS"
+    ], 
+    "Memo": "拷貝點，舊點與新點的關係，邊。"
+},
+{
+    "Number": "0136", 
+    "Level": 1, 
+    "Title": "Single Number", 
+    "Url": "https://leetcode.com/problems/single-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0138", 
+    "Level": 2, 
+    "Title": "Copy List with Random Pointer", 
+    "Url": "https://leetcode.com/problems/copy-list-with-random-pointer", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0139", 
+    "Level": 2, 
+    "Title": "Word Break", 
+    "Url": "https://leetcode.com/problems/word-break", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0141", 
+    "Level": 1, 
+    "Title": "Linked List Cycle", 
+    "Url": "https://leetcode.com/problems/linked-list-cycle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0142", 
+    "Level": 2, 
+    "Title": "Linked List Cycle II", 
+    "Url": "https://leetcode.com/problems/linked-list-cycle-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0144", 
+    "Level": 1, 
+    "Title": "Binary Tree Preorder Traversal", 
+    "Url": "https://leetcode.com/problems/binary-tree-preorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0146", 
+    "Level": 2, 
+    "Title": "LRU Cache", 
+    "Url": "https://leetcode.com/problems/lru-cache", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0148", 
+    "Level": 2, 
+    "Title": "Sort List", 
+    "Url": "https://leetcode.com/problems/sort-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0151", 
+    "Level": 2, 
+    "Title": "Reverse Words in a String", 
+    "Url": "https://leetcode.com/problems/reverse-words-in-a-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0152", 
+    "Level": 2, 
+    "Title": "Maximum Product Subarray", 
+    "Url": "https://leetcode.com/problems/maximum-product-subarray", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0153", 
+    "Level": 2, 
+    "Title": "Find Minimum in Rotated Sorted Array", 
+    "Url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0155", 
+    "Level": 1, 
+    "Title": "Min Stack", 
+    "Url": "https://leetcode.com/problems/min-stack", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0160", 
+    "Level": 1, 
+    "Title": "Intersection of Two Linked Lists", 
+    "Url": "https://leetcode.com/problems/intersection-of-two-linked-lists", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0162", 
+    "Level": 2, 
+    "Title": "Find Peak Element", 
+    "Url": "https://leetcode.com/problems/find-peak-element", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0167", 
+    "Level": 1, 
+    "Title": "Two Sum II - Input Array Is Sorted", 
+    "Url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0173", 
+    "Level": 2, 
+    "Title": "Binary Search Tree Iterator", 
+    "Url": "https://leetcode.com/problems/binary-search-tree-iterator", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0189", 
+    "Level": 2, 
+    "Title": "Rotate Array", 
+    "Url": "https://leetcode.com/problems/rotate-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0199", 
+    "Level": 2, 
+    "Title": "Binary Tree Right Side View", 
+    "Url": "https://leetcode.com/problems/binary-tree-right-side-view", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0200", 
+    "Level": 2, 
+    "Title": "Number of Islands", 
+    "Url": "https://leetcode.com/problems/number-of-islands", 
+    "Tags": [
+        "Graph", 
+        "Matrix", 
+        "Island", 
+        "BFS", 
+        "DFS", 
+        "Union-Find"
+    ], 
+    "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。"
+},
+{
+    "Number": "0206", 
+    "Level": 1, 
+    "Title": "Reverse Linked List", 
+    "Url": "https://leetcode.com/problems/reverse-linked-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0207", 
+    "Level": 2, 
+    "Title": "Course Schedule", 
+    "Url": "https://leetcode.com/problems/course-schedule", 
+    "Tags": [
+        "BFS", 
+        "Topological-Sorting"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0208", 
+    "Level": 2, 
+    "Title": "Implement Trie (Prefix Tree)", 
+    "Url": "https://leetcode.com/problems/implement-trie-prefix-tree", 
+    "Tags": [
+        "Trie"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0210", 
+    "Level": 2, 
+    "Title": "Course Schedule II", 
+    "Url": "https://leetcode.com/problems/course-schedule-ii", 
+    "Tags": [
+        "BFS", 
+        "Topological-Sorting"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0211", 
+    "Level": 2, 
+    "Title": "Design Add and Search Words Data Structure", 
+    "Url": "https://leetcode.com/problems/design-add-and-search-words-data-structure", 
+    "Tags": [
+        "Trie"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0212", 
+    "Level": 3, 
+    "Title": "Word Search II", 
+    "Url": "https://leetcode.com/problems/word-search-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0215", 
+    "Level": 2, 
+    "Title": "Kth Largest Element in an Array", 
+    "Url": "https://leetcode.com/problems/kth-largest-element-in-an-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0216", 
+    "Level": 2, 
+    "Title": "Combination Sum III", 
+    "Url": "https://leetcode.com/problems/combination-sum-iii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0221", 
+    "Level": 2, 
+    "Title": "Maximal Square", 
+    "Url": "https://leetcode.com/problems/maximal-square", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0226", 
+    "Level": 1, 
+    "Title": "Invert Binary Tree", 
+    "Url": "https://leetcode.com/problems/invert-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0230", 
+    "Level": 2, 
+    "Title": "Kth Smallest Element in a BST", 
+    "Url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0234", 
+    "Level": 1, 
+    "Title": "Palindrome Linked List", 
+    "Url": "https://leetcode.com/problems/palindrome-linked-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0235", 
+    "Level": 1, 
+    "Title": "Lowest Common Ancestor of a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0236", 
+    "Level": 2, 
+    "Title": "Lowest Common Ancestor of a Binary Tree", 
+    "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0237", 
+    "Level": 1, 
+    "Title": "Delete Node in a Linked List", 
+    "Url": "https://leetcode.com/problems/delete-node-in-a-linked-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0239", 
+    "Level": 3, 
+    "Title": "Sliding Window Maximum", 
+    "Url": "https://leetcode.com/problems/sliding-window-maximum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0240", 
+    "Level": 2, 
+    "Title": "Search a 2D Matrix II", 
+    "Url": "https://leetcode.com/problems/search-a-2d-matrix-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0241", 
+    "Level": 2, 
+    "Title": "Different Ways to Add Parentheses", 
+    "Url": "https://leetcode.com/problems/different-ways-to-add-parentheses", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0242", 
+    "Level": 1, 
+    "Title": "Valid Anagram", 
+    "Url": "https://leetcode.com/problems/valid-anagram", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0252", 
+    "Level": 1, 
+    "Title": "Meeting Rooms", 
+    "Url": "https://leetcode.com/problems/meeting-rooms", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0253", 
+    "Level": 2, 
+    "Title": "Meeting Rooms II", 
+    "Url": "https://leetcode.com/problems/meeting-rooms-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0257", 
+    "Level": 1, 
+    "Title": "Binary Tree Paths", 
+    "Url": "https://leetcode.com/problems/binary-tree-paths", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0259", 
+    "Level": 2, 
+    "Title": "3Sum Smaller", 
+    "Url": "https://leetcode.com/problems/3sum-smaller", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0261", 
+    "Level": 2, 
+    "Title": "Graph Valid Tree", 
+    "Url": "https://leetcode.com/problems/graph-valid-tree", 
+    "Tags": [
+        "Graph", 
+        "DFS"
+    ], 
+    "Memo": "(1) 和0684不同，不需要找出多的那條路徑。因此只需要DFS一次就可以，找到走到兩次的點。<br> (2)或是使用樹的V比E多1這個特性也可以。"
+},
+{
+    "Number": "0263", 
+    "Level": 1, 
+    "Title": "Ugly Number", 
+    "Url": "https://leetcode.com/problems/ugly-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0264", 
+    "Level": 2, 
+    "Title": "Ugly Number II", 
+    "Url": "https://leetcode.com/problems/ugly-number-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0270", 
+    "Level": 1, 
+    "Title": "Closest Binary Search Tree Value", 
+    "Url": "https://leetcode.com/problems/closest-binary-search-tree-value", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0277", 
+    "Level": 2, 
+    "Title": "Find the Celebrity", 
+    "Url": "https://leetcode.com/problems/find-the-celebrity", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0278", 
+    "Level": 1, 
+    "Title": "First Bad Version", 
+    "Url": "https://leetcode.com/problems/first-bad-version", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0279", 
+    "Level": 2, 
+    "Title": "Perfect Squares", 
+    "Url": "https://leetcode.com/problems/perfect-squares", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0283", 
+    "Level": 1, 
+    "Title": "Move Zeroes", 
+    "Url": "https://leetcode.com/problems/move-zeroes", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0286", 
+    "Level": 2, 
+    "Title": "Walls and Gates", 
+    "Url": "https://leetcode.com/problems/walls-and-gates", 
+    "Tags": [
+        "BFS"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0287", 
+    "Level": 2, 
+    "Title": "Find the Duplicate Number", 
+    "Url": "https://leetcode.com/problems/find-the-duplicate-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0290", 
+    "Level": 1, 
+    "Title": "Word Pattern", 
+    "Url": "https://leetcode.com/problems/word-pattern", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0297", 
+    "Level": 3, 
+    "Title": "Serialize and Deserialize Binary Tree", 
+    "Url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0300", 
+    "Level": 2, 
+    "Title": "Longest Increasing Subsequence", 
+    "Url": "https://leetcode.com/problems/longest-increasing-subsequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0305", 
+    "Level": 3, 
+    "Title": "Number of Islands II", 
+    "Url": "https://leetcode.com/problems/number-of-islands-ii", 
+    "Tags": [
+        "Union-Find", 
+        "Matrix"
+    ], 
+    "Memo": "使用Union-Find可以過。"
+},
+{
+    "Number": "0314", 
+    "Level": 2, 
+    "Title": "Binary Tree Vertical Order Traversal", 
+    "Url": "https://leetcode.com/problems/binary-tree-vertical-order-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0322", 
+    "Level": 2, 
+    "Title": "Coin Change", 
+    "Url": "https://leetcode.com/problems/coin-change", 
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0323", 
+    "Level": 2, 
+    "Title": "Number of Connected Components in an Undirected Graph", 
+    "Url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0332", 
+    "Level": 3, 
+    "Title": "Reconstruct Itinerary", 
+    "Url": "https://leetcode.com/problems/reconstruct-itinerary", 
+    "Tags": [
+        "Graph"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0341", 
+    "Level": 2, 
+    "Title": "Flatten Nested List Iterator", 
+    "Url": "https://leetcode.com/problems/flatten-nested-list-iterator", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0347", 
+    "Level": 2, 
+    "Title": "Top K Frequent Elements", 
+    "Url": "https://leetcode.com/problems/top-k-frequent-elements", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0350", 
+    "Level": 1, 
+    "Title": "Intersection of Two Arrays II", 
+    "Url": "https://leetcode.com/problems/intersection-of-two-arrays-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0362", 
+    "Level": 2, 
+    "Title": "Design Hit Counter", 
+    "Url": "https://leetcode.com/problems/design-hit-counter", 
+    "Tags": [
+        "Binary Search"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0366", 
+    "Level": 2, 
+    "Title": "Find Leaves of Binary Tree", 
+    "Url": "https://leetcode.com/problems/find-leaves-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0377", 
+    "Level": 2, 
+    "Title": "Combination Sum IV", 
+    "Url": "https://leetcode.com/problems/combination-sum-iv", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0378", 
+    "Level": 2, 
+    "Title": "Kth Smallest Element in a Sorted Matrix", 
+    "Url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0380", 
+    "Level": 2, 
+    "Title": "Insert Delete GetRandom O(1)", 
+    "Url": "https://leetcode.com/problems/insert-delete-getrandom-o1", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0387", 
+    "Level": 1, 
+    "Title": "First Unique Character in a String", 
+    "Url": "https://leetcode.com/problems/first-unique-character-in-a-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0394", 
+    "Level": 2, 
+    "Title": "Decode String", 
+    "Url": "https://leetcode.com/problems/decode-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0399", 
+    "Level": 2, 
+    "Title": "Evaluate Division", 
+    "Url": "https://leetcode.com/problems/evaluate-division", 
+    "Tags": [
+        "Graph", 
+        "DFS"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0401", 
+    "Level": 1, 
+    "Title": "Binary Watch", 
+    "Url": "https://leetcode.com/problems/binary-watch", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0416", 
+    "Level": 2, 
+    "Title": "Partition Equal Subset Sum", 
+    "Url": "https://leetcode.com/problems/partition-equal-subset-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0417", 
+    "Level": 2, 
+    "Title": "Pacific Atlantic Water Flow", 
+    "Url": "https://leetcode.com/problems/pacific-atlantic-water-flow", 
+    "Tags": [
+        "DFS", 
+        "Matrix"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0423", 
+    "Level": 2, 
+    "Title": "Reconstruct Original Digits from English", 
+    "Url": "https://leetcode.com/problems/reconstruct-original-digits-from-english", 
+    "Tags": [
+        "HashMap", 
+        "String"
+    ], 
+    "Memo": "仔細攤開來看，有五個英文字是指對應到單一數字，可以發現順序是決定的，所以不需要使用Backtracking(是唯一的答案）。"
+},
+{
+    "Number": "0437", 
+    "Level": 2, 
+    "Title": "Path Sum III", 
+    "Url": "https://leetcode.com/problems/path-sum-iii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0450", 
+    "Level": 2, 
+    "Title": "Delete Node in a BST", 
+    "Url": "https://leetcode.com/problems/delete-node-in-a-bst", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0459", 
+    "Level": 1, 
+    "Title": "Repeated Substring Pattern", 
+    "Url": "https://leetcode.com/problems/repeated-substring-pattern", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0474", 
+    "Level": 2, 
+    "Title": "Ones and Zeroes", 
+    "Url": "https://leetcode.com/problems/ones-and-zeroes", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0494", 
+    "Level": 2, 
+    "Title": "Target Sum", 
+    "Url": "https://leetcode.com/problems/target-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0510", 
+    "Level": 2, 
+    "Title": "Inorder Successor in BST II", 
+    "Url": "https://leetcode.com/problems/inorder-successor-in-bst-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0513", 
+    "Level": 2, 
+    "Title": "Find Bottom Left Tree Value", 
+    "Url": "https://leetcode.com/problems/find-bottom-left-tree-value", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0515", 
+    "Level": 2, 
+    "Title": "Find Largest Value in Each Tree Row", 
+    "Url": "https://leetcode.com/problems/find-largest-value-in-each-tree-row", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0518", 
+    "Level": 2, 
+    "Title": "Coin Change 2", 
+    "Url": "https://leetcode.com/problems/coin-change-2", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0528", 
+    "Level": 2, 
+    "Title": "Random Pick with Weight", 
+    "Url": "https://leetcode.com/problems/random-pick-with-weight", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0532", 
+    "Level": 2, 
+    "Title": "K-diff Pairs in an Array", 
+    "Url": "https://leetcode.com/problems/k-diff-pairs-in-an-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0535", 
+    "Level": 2, 
+    "Title": "Encode and Decode TinyURL", 
+    "Url": "https://leetcode.com/problems/encode-and-decode-tinyurl", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0538", 
+    "Level": 2, 
+    "Title": "Convert BST to Greater Tree", 
+    "Url": "https://leetcode.com/problems/convert-bst-to-greater-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0540", 
+    "Level": 2, 
+    "Title": "Single Element in a Sorted Array", 
+    "Url": "https://leetcode.com/problems/single-element-in-a-sorted-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0542", 
+    "Level": 2, 
+    "Title": "01 Matrix", 
+    "Url": "https://leetcode.com/problems/01-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0543", 
+    "Level": 1, 
+    "Title": "Diameter of Binary Tree", 
+    "Url": "https://leetcode.com/problems/diameter-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0547", 
+    "Level": 2, 
+    "Title": "Number of Provinces", 
+    "Url": "https://leetcode.com/problems/number-of-provinces", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0559", 
+    "Level": 1, 
+    "Title": "Maximum Depth of N-ary Tree", 
+    "Url": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0560", 
+    "Level": 2, 
+    "Title": "Subarray Sum Equals K", 
+    "Url": "https://leetcode.com/problems/subarray-sum-equals-k", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0572", 
+    "Level": 1, 
+    "Title": "Subtree of Another Tree", 
+    "Url": "https://leetcode.com/problems/subtree-of-another-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0576", 
+    "Level": 2, 
+    "Title": "Out of Boundary Paths", 
+    "Url": "https://leetcode.com/problems/out-of-boundary-paths", 
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0593", 
+    "Level": 2, 
+    "Title": "Valid Square", 
+    "Url": "https://leetcode.com/problems/valid-square", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0611", 
+    "Level": 2, 
+    "Title": "Valid Triangle Number", 
+    "Url": "https://leetcode.com/problems/valid-triangle-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0617", 
+    "Level": 1, 
+    "Title": "Merge Two Binary Trees", 
+    "Url": "https://leetcode.com/problems/merge-two-binary-trees", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0658", 
+    "Level": 2, 
+    "Title": "Find K Closest Elements", 
+    "Url": "https://leetcode.com/problems/find-k-closest-elements", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0662", 
+    "Level": 2, 
+    "Title": "Maximum Width of Binary Tree", 
+    "Url": "https://leetcode.com/problems/maximum-width-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0670", 
+    "Level": 2, 
+    "Title": "Maximum Swap", 
+    "Url": "https://leetcode.com/problems/maximum-swap", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0680", 
+    "Level": 1, 
+    "Title": "Valid Palindrome II", 
+    "Url": "https://leetcode.com/problems/valid-palindrome-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0684", 
+    "Level": 2, 
+    "Title": "Redundant Connection", 
+    "Url": "https://leetcode.com/problems/redundant-connection", 
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "Union-Find"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0687", 
+    "Level": 2, 
+    "Title": "Longest Univalue Path", 
+    "Url": "https://leetcode.com/problems/longest-univalue-path", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0690", 
+    "Level": 2, 
+    "Title": "Employee Importance", 
+    "Url": "https://leetcode.com/problems/employee-importance", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0692", 
+    "Level": 2, 
+    "Title": "Top K Frequent Words", 
+    "Url": "https://leetcode.com/problems/top-k-frequent-words", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0694", 
+    "Level": 2, 
+    "Title": "Number of Distinct Islands", 
+    "Url": "https://leetcode.com/problems/number-of-distinct-islands", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0695", 
+    "Level": 2, 
+    "Title": "Max Area of Island", 
+    "Url": "https://leetcode.com/problems/max-area-of-island", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0702", 
+    "Level": 2, 
+    "Title": "Search in a Sorted Array of Unknown Size", 
+    "Url": "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0703", 
+    "Level": 1, 
+    "Title": "Kth Largest Element in a Stream", 
+    "Url": "https://leetcode.com/problems/kth-largest-element-in-a-stream", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0704", 
+    "Level": 1, 
+    "Title": "Binary Search", 
+    "Url": "https://leetcode.com/problems/binary-search", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0705", 
+    "Level": 1, 
+    "Title": "Design HashSet", 
+    "Url": "https://leetcode.com/problems/design-hashset", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0706", 
+    "Level": 1, 
+    "Title": "Design HashMap", 
+    "Url": "https://leetcode.com/problems/design-hashmap", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0718", 
+    "Level": 2, 
+    "Title": "Maximum Length of Repeated Subarray", 
+    "Url": "https://leetcode.com/problems/maximum-length-of-repeated-subarray", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0721", 
+    "Level": 2, 
+    "Title": "Accounts Merge", 
+    "Url": "https://leetcode.com/problems/accounts-merge", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0726", 
+    "Level": 3, 
+    "Title": "Number of Atoms", 
+    "Url": "https://leetcode.com/problems/number-of-atoms", 
+    "Tags": [
+        "Recursion"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0735", 
+    "Level": 2, 
+    "Title": "Asteroid Collision", 
+    "Url": "https://leetcode.com/problems/asteroid-collision", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0743", 
+    "Level": 2, 
+    "Title": "Network Delay Time", 
+    "Url": "https://leetcode.com/problems/network-delay-time", 
+    "Tags": [
+        "Graph", 
+        "SSSP", 
+        "Dijkstra", 
+        "Bellman-Ford", 
+        "Heap"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0752", 
+    "Level": 2, 
+    "Title": "Open the Lock", 
+    "Url": "https://leetcode.com/problems/open-the-lock", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0767", 
+    "Level": 2, 
+    "Title": "Reorganize String", 
+    "Url": "https://leetcode.com/problems/reorganize-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0784", 
+    "Level": 2, 
+    "Title": "Letter Case Permutation", 
+    "Url": "https://leetcode.com/problems/letter-case-permutation", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0787", 
+    "Level": 2, 
+    "Title": "Cheapest Flights Within K Stops", 
+    "Url": "https://leetcode.com/problems/cheapest-flights-within-k-stops", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0797", 
+    "Level": 2, 
+    "Title": "All Paths From Source to Target", 
+    "Url": "https://leetcode.com/problems/all-paths-from-source-to-target", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0811", 
+    "Level": 2, 
+    "Title": "Subdomain Visit Count", 
+    "Url": "https://leetcode.com/problems/subdomain-visit-count", 
+    "Tags": [
+        "String", 
+        "HashMap"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0841", 
+    "Level": 2, 
+    "Title": "Keys and Rooms", 
+    "Url": "https://leetcode.com/problems/keys-and-rooms", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0863", 
+    "Level": 2, 
+    "Title": "All Nodes Distance K in Binary Tree", 
+    "Url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0905", 
+    "Level": 1, 
+    "Title": "Sort Array By Parity", 
+    "Url": "https://leetcode.com/problems/sort-array-by-parity", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0909", 
+    "Level": 2, 
+    "Title": "Snakes and Ladders", 
+    "Url": "https://leetcode.com/problems/snakes-and-ladders", 
+    "Tags": [
+        "BFS"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0912", 
+    "Level": 2, 
+    "Title": "Sort an Array", 
+    "Url": "https://leetcode.com/problems/sort-an-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0922", 
+    "Level": 1, 
+    "Title": "Sort Array By Parity II", 
+    "Url": "https://leetcode.com/problems/sort-array-by-parity-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0931", 
+    "Level": 2, 
+    "Title": "Minimum Falling Path Sum", 
+    "Url": "https://leetcode.com/problems/minimum-falling-path-sum", 
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0934", 
+    "Level": 2, 
+    "Title": "Shortest Bridge", 
+    "Url": "https://leetcode.com/problems/shortest-bridge", 
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "BFS", 
+        "Matrix", 
+        "Island"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0935", 
+    "Level": 2, 
+    "Title": "Knight Dialer", 
+    "Url": "https://leetcode.com/problems/knight-dialer", 
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0958", 
+    "Level": 2, 
+    "Title": "Check Completeness of a Binary Tree", 
+    "Url": "https://leetcode.com/problems/check-completeness-of-a-binary-tree", 
+    "Tags": [
+        "BFS", 
+        "Tree"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0969", 
+    "Level": 2, 
+    "Title": "Pancake Sorting", 
+    "Url": "https://leetcode.com/problems/pancake-sorting", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0973", 
+    "Level": 2, 
+    "Title": "K Closest Points to Origin", 
+    "Url": "https://leetcode.com/problems/k-closest-points-to-origin", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0979", 
+    "Level": 2, 
+    "Title": "Distribute Coins in Binary Tree", 
+    "Url": "https://leetcode.com/problems/distribute-coins-in-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0981", 
+    "Level": 2, 
+    "Title": "Time Based Key-Value Store", 
+    "Url": "https://leetcode.com/problems/time-based-key-value-store", 
+    "Tags": [
+        "Binary Search"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "0994", 
+    "Level": 2, 
+    "Title": "Rotting Oranges", 
+    "Url": "https://leetcode.com/problems/rotting-oranges", 
+    "Tags": [
+        "BFS"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "1020", 
+    "Level": 2, 
+    "Title": "Number of Enclaves", 
+    "Url": "https://leetcode.com/problems/number-of-enclaves", 
+    "Tags": [
+        "DFS", 
+        "Matrix", 
+        "Island"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "1025", 
+    "Level": 1, 
+    "Title": "Divisor Game", 
+    "Url": "https://leetcode.com/problems/divisor-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1038", 
+    "Level": 2, 
+    "Title": "Binary Search Tree to Greater Sum Tree", 
+    "Url": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree", 
+    "Tags": [
+        "BST", 
+        "Tree", 
+        "DFS"
+    ], 
+    "Memo": "從最右邊反著做Pre-order traverse，就可以從大取到小。"
+},
+{
+    "Number": "1041", 
+    "Level": 2, 
+    "Title": "Robot Bounded In Circle", 
+    "Url": "https://leetcode.com/problems/robot-bounded-in-circle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1048", 
+    "Level": 2, 
+    "Title": "Longest String Chain", 
+    "Url": "https://leetcode.com/problems/longest-string-chain", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1049", 
+    "Level": 2, 
+    "Title": "Last Stone Weight II", 
+    "Url": "https://leetcode.com/problems/last-stone-weight-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1087", 
+    "Level": 2, 
+    "Title": "Brace Expansion", 
+    "Url": "https://leetcode.com/problems/brace-expansion", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1096", 
+    "Level": 3, 
+    "Title": "Brace Expansion II", 
+    "Url": "https://leetcode.com/problems/brace-expansion-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1099", 
+    "Level": 1, 
+    "Title": "Two Sum Less Than K", 
+    "Url": "https://leetcode.com/problems/two-sum-less-than-k", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1110", 
+    "Level": 2, 
+    "Title": "Delete Nodes And Return Forest", 
+    "Url": "https://leetcode.com/problems/delete-nodes-and-return-forest", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1130", 
+    "Level": 2, 
+    "Title": "Minimum Cost Tree From Leaf Values", 
+    "Url": "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1137", 
+    "Level": 1, 
+    "Title": "N-th Tribonacci Number", 
+    "Url": "https://leetcode.com/problems/n-th-tribonacci-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1143", 
+    "Level": 2, 
+    "Title": "Longest Common Subsequence", 
+    "Url": "https://leetcode.com/problems/longest-common-subsequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1146", 
+    "Level": 2, 
+    "Title": "Snapshot Array", 
+    "Url": "https://leetcode.com/problems/snapshot-array", 
+    "Tags": [
+        "Binary Search"
+    ], 
+    "Memo": ""
+},
+{
+    "Number": "1214", 
+    "Level": 2, 
+    "Title": "Two Sum BSTs", 
+    "Url": "https://leetcode.com/problems/two-sum-bsts", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1254", 
+    "Level": 2, 
+    "Title": "Number of Closed Islands", 
+    "Url": "https://leetcode.com/problems/number-of-closed-islands", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1268", 
+    "Level": 2, 
+    "Title": "Search Suggestions System", 
+    "Url": "https://leetcode.com/problems/search-suggestions-system", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1277", 
+    "Level": 2, 
+    "Title": "Count Square Submatrices with All Ones", 
+    "Url": "https://leetcode.com/problems/count-square-submatrices-with-all-ones", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1289", 
+    "Level": 3, 
+    "Title": "Minimum Falling Path Sum II", 
+    "Url": "https://leetcode.com/problems/minimum-falling-path-sum-ii", 
+    "Tags": [
+        "DP", 
+        "Heap",
+        "Top-K"
+    ], 
+    "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃。可以使用heap，也可以使用Top-K的作法。要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。"
+},
+{
+    "Number": "1319", 
+    "Level": 2, 
+    "Title": "Number of Operations to Make Network Connected", 
+    "Url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected", 
+    "Tags": [
+        "Graph", 
+        "DFS"
+    ], 
+    "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。"
+},
+{
+    "Number": "1382", 
+    "Level": 2, 
+    "Title": "Balance a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/balance-a-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1391", 
+    "Level": 2, 
+    "Title": "Check if There is a Valid Path in a Grid", 
+    "Url": "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1395", 
+    "Level": 2, 
+    "Title": "Count Number of Teams", 
+    "Url": "https://leetcode.com/problems/count-number-of-teams", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1429", 
+    "Level": 2, 
+    "Title": "First Unique Number", 
+    "Url": "https://leetcode.com/problems/first-unique-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1448", 
+    "Level": 2, 
+    "Title": "Count Good Nodes in Binary Tree", 
+    "Url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1593", 
+    "Level": 2, 
+    "Title": "Split a String Into the Max Number of Unique Substrings", 
+    "Url": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1711", 
+    "Level": 2, 
+    "Title": "Count Good Meals", 
+    "Url": "https://leetcode.com/problems/count-good-meals", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1774", 
+    "Level": 2, 
+    "Title": "Closest Dessert Cost", 
+    "Url": "https://leetcode.com/problems/closest-dessert-cost", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1905", 
+    "Level": 2, 
+    "Title": "Count Sub Islands", 
+    "Url": "https://leetcode.com/problems/count-sub-islands", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1937", 
+    "Level": 2, 
+    "Title": "Maximum Number of Points with Cost", 
+    "Url": "https://leetcode.com/problems/maximum-number-of-points-with-cost", 
+    "Tags": [], 
+    "Memo": ""
+}
+]
