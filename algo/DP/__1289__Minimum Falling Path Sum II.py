@@ -1,13 +1,23 @@
 class Solution:
     
-    
     # DP + Two-size list with general Top-k func [O(n*kn), k=2: 37%]
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
         print("Code-5: DP + Two-size list with general top-k func")
         n = len(matrix)
         
-        # Find top-k 
-        def push(arr, k, val, less):
+        # Find top-k [20%]
+        def push2(arr, k, value, less): 
+            for idx in range(len(arr)):
+                if less(value[1], arr[idx][1]):
+                    arr.insert(idx, value)
+                    if len(arr) > k:
+                        arr = arr[:k]
+                    return
+            if len(arr) < k:
+                arr.append(value)
+        
+        # Find top-k [20%]
+        def push1(arr, k, val, less):
             if len(arr) == 0:
                 arr.append(val)
             else:
@@ -15,12 +25,13 @@ class Solution:
                     if less(val[1], arr[i][1]):
                         arr.insert(i, val)
                         if len(arr) > k:
-                            arr.pop()
+                            arr = arr[:k]
+                            #arr.pop()
                             return
                 arr.append(val)
                 if len(arr) > k:
                     arr.pop()
-                #arr = arr[:k]
+                arr = arr[:k]
         
         # Init 
         dp = [[0 for _ in range(n)] for _ in range(n)]
@@ -32,8 +43,8 @@ class Solution:
             # Find 1st and 2nd smallest in row i 
             arr = []
             for j in range(n): 
-                push(arr, 2, (j, dp[i-1][j]), lambda x, y: x < y)
-                
+                push1(arr, 2, (j, dp[i-1][j]), lambda x, y: x < y)
+            #print(arr)
             min1Idx, min1Val = arr[0]
             min2Idx, min2Val = arr[1]
 
