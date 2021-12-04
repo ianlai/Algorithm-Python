@@ -29,16 +29,17 @@ code {
     box-shadow: 0 0 20px rgba(104, 167, 218, 0.829);
 }
 
-.styled-table thead tr {
+.styled-table thead tr th{
     background-color: #009879;
     color: #ffffff;
     text-align: center;
+    padding: 16px 15px;
 }
 
-.styled-table th,
-.styled-table td {
-    padding: 10px 15px;
+.styled-table tbody tr th {
+    padding: 16px 15px;
     /* border: 0.1px solid #5e4545; */
+    height: 50px;
 }
 
 .styled-table tbody tr {

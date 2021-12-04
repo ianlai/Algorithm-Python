@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import LcodeRow from "./LcodeRow.js";
 import FilterButton from "./FilterButton.js";
-import lcodeData from "./lcodePure.json";
+import lcodeData from "./lcode-react.json";
 
 function LoadJson() {
   //lcodeData = JSON.parse(lcode_data);
@@ -66,9 +66,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
-          Lcode List
-        </h2>
+        <h3>
+          Lcode List reading from <code>lcode-react.json</code>
+        </h3>
 
         <div className="filterRow">
           {tagList.map((t) => (
