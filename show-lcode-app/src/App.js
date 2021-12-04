@@ -63,12 +63,25 @@ function App() {
 
   [memberTagList, changeTagList] = useState(tagList);
 
+  let countEasy = 0,
+    countMedium = 0,
+    countHard = 0;
+  for (let l of lcodeData) {
+    if (l.Level == 1) {
+      countEasy++;
+    } else if (l.Level == 2) {
+      countMedium++;
+    } else if (l.Level == 3) {
+      countHard++;
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <h3>
-          Lcode List reading from <code>lcode-react.json</code>
-        </h3>
+        <h2>
+          Lcode List parsed from <code>lcode-react.json</code>
+        </h2>
 
         <div className="filterRow">
           {tagList.map((t) => (
@@ -79,36 +92,41 @@ function App() {
           ))}
         </div>
 
-        <div className="numberRow">
-          {shownLcodeData.length + " / " + lcodeData.length}
+        <div className="numberRow" style={{ "font-weight": "bold" }}>
+          <span style={{ color: "#b1bee4b0" }}> {"Selected: " + shownLcodeData.length }</span>
+          <span> || </span>
+          <span style={{ color: "#aaaaaa" }}> {"Total: " + lcodeData.length } </span>
+          <span> || </span>
+          <span style={{ color: "#43e032" }}> Easy: {countEasy} </span>
+          <span style={{ color: "#eecb31" }}> Medium: {countMedium} </span>
+          <span style={{ color: "#e7391a" }}> Hard: {countHard} </span>
         </div>
       </header>
 
-
       <table class="styled-table" style={{ width: "100%" }}>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Title</th>
-              <th>Tags</th>
-              <th>Memo</th>
-            </tr>
-          </thead>
-          <tbody>
-            {shownLcodeData.map((l) => (
-              <LcodeRow
-                id={l.Number}
-                level={l.Level}
-                title={l.Title}
-                url={l.Url}
-                tags={l.Tags}
-                memo={l.Memo}
-                tagList={tagList}
-                onClickTagButton={onClickTagButton}
-              />
-            ))}
-          </tbody>
-        </table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Tags</th>
+            <th>Memo</th>
+          </tr>
+        </thead>
+        <tbody>
+          {shownLcodeData.map((l) => (
+            <LcodeRow
+              id={l.Number}
+              level={l.Level}
+              title={l.Title}
+              url={l.Url}
+              tags={l.Tags}
+              memo={l.Memo}
+              tagList={tagList}
+              onClickTagButton={onClickTagButton}
+            />
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
