@@ -191,7 +191,7 @@
     "Level": 2, 
     "Title": "Combination Sum", 
     "Url": "https://leetcode.com/problems/combination-sum", 
-    "Tags": [], 
+    "Tags": ["DFS", "Backtracking"], 
     "Memo": ""
 },
 {

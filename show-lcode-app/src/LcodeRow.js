@@ -22,9 +22,17 @@ function LcodeRow(props) {
         </a>
       </th>
       <th>
-        {props.tags.map((tag) => (
-          <TagButton tagName={tag} onClickTagButton={props.onClickTagButton} />
-        ))}
+        {props.tags.map(
+            (tag) => {
+                //console.log(tag + props.tagList);
+                if(props.tagList.includes(tag)){
+                    console.log(tag + "is contained in tagList: " + props.tagList)
+                    return (<TagButton isSelected tagName={tag} onClickTagButton={props.onClickTagButton} />)
+                }else{
+                    return (<TagButton tagName={tag} onClickTagButton={props.onClickTagButton} />)
+                }
+            }
+        )}
       </th>
       <th style={{width:"50%"}}> {props.memo} </th>
     </tr>

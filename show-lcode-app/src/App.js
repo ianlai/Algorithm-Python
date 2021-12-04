@@ -103,6 +103,7 @@ function App() {
                 url={l.Url}
                 tags={l.Tags}
                 memo={l.Memo}
+                tagList={tagList}
                 onClickTagButton={onClickTagButton}
               />
             ))}

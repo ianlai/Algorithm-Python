@@ -4,7 +4,7 @@ function test() {
 function TagButton(props) {
   return (
     <button
-      class="button-tag"
+      className = {(props.isSelected) ? "button-tag-clicked": "button-tag"}
       role="button"
       onClick={() => props.onClickTagButton(props.tagName)}
     >
