@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import LcodeRow from "./LcodeRow.js";
+import FilterButton from "./FilterButton.js";
 import lcodeData from "./lcodePure.json";
-
-// let tagList = []
-const tagSet = new Set();
-let tagList = [];
 
 function LoadJson() {
   //lcodeData = JSON.parse(lcode_data);
@@ -17,48 +14,54 @@ function onClickTagButton(tagName) {
   tagSet.add(tagName);
   tagList = Array.from(tagSet);
   filterByTags();
-  changePercent(tagName);
+  changeTagList(tagList);
 }
-// function componentDidMount() {
-//     this.setState({});
-// }
+
+function onClickFilterTagButton(tagName) {
+  tagSet.delete(tagName);
+  tagList = Array.from(tagSet);
+  filterByTags();
+  changeTagList(tagList);
+}
 
 let shownLcodeData = lcodeData;
 function filterByTags() {
-  shownLcodeData = [];
-  for (let l of lcodeData) {
-    let isIncluded = true;
-    if (l.Tags.length === 0) {
-      continue;
-    }
-    for (let filteredTag of tagSet) {
-      if (!l.Tags.includes(filteredTag)) {
-        isIncluded = false;
-        break;
+  if (tagList.length === 0) {
+    shownLcodeData = lcodeData;
+  } else {
+    shownLcodeData = [];
+    for (let l of lcodeData) {
+      let isIncluded = true;
+      if (l.Tags.length === 0) {
+        continue;
       }
-    }
-    // for(let tag of l.Tags){
-    //     if(!tagSet.has(tag)){
-    //         isIncluded = false;
-    //         continue;
-    //     }
-    // }
-    if (isIncluded === true) {
-      shownLcodeData.push(l);
+      for (let filteredTag of tagSet) {
+        if (!l.Tags.includes(filteredTag)) {
+          isIncluded = false;
+          break;
+        }
+      }
+      if (isIncluded === true) {
+        shownLcodeData.push(l);
+      }
     }
   }
   console.log(shownLcodeData);
 }
 
-let percent, changePercent;
+let memberTagList, changeTagList;
+let tagSet = new Set();
+let tagList = [];
 
 function App() {
   // 　const { lcodes } = this.state;
   //LoadJson();
   console.log("RERENDERING");
   console.log(tagSet);
+  console.log(tagList);
+  console.log("Show lcode data:", shownLcodeData.length);
 
-  [percent, changePercent] = useState("30%");
+  [memberTagList, changeTagList] = useState(tagList);
 
   return (
     <div className="App">
@@ -66,12 +69,14 @@ function App() {
         <p>
           Lcode list read from <code>lcode.json</code>. Happy coding :)
         </p>
-        <div>
-        {
-            tagList.map((t) => (
-                <button class="button-filter"> {t} </button>
-                ))
-        }
+        <div className="filter">
+          Filter:
+          {tagList.map((t) => (
+            <FilterButton
+              tagName={t}
+              onClickFilterTagButton={onClickFilterTagButton}
+            />
+          ))}
         </div>
 
         <table class="styled-table">

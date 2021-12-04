@@ -4,7 +4,7 @@ function test() {
 function TagButton(props) {
   return (
     <button
-      class="button-1"
+      class="button-tag"
       role="button"
       onClick={() => props.onClickTagButton(props.tagName)}
     >

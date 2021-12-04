@@ -76,7 +76,7 @@ a:hover {
 }
 
 /* CSS */
-.button-1 {
+.button-tag {
   background-color: #EA4C89;
   border-radius: 8px;
   border-style: none;
@@ -101,6 +101,10 @@ a:hover {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.button-tag:clicked{
+    background-color: #e43578;
 }
 
 .button-filter {
