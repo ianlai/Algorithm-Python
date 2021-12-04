@@ -55,9 +55,14 @@ body{
 }
 
 a:link {
-  color: rgb(57, 79, 206);
+  color: rgb(94, 200, 226);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: large;
+  text-decoration: none;
+}
+
+a:visited {
+    color: rgb(94, 200, 226);
 }
 
 /* visited link
@@ -97,6 +102,33 @@ a:hover {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
+.button-filter {
+    background-color: #5d79d6;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
 
 .button-1:hover,
 .button-1:focus {
