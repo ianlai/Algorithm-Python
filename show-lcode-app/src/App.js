@@ -82,8 +82,10 @@ function App() {
         <div className="numberRow">
           {shownLcodeData.length + " / " + lcodeData.length}
         </div>
+      </header>
 
-        <table class="styled-table" style={{ width: "100%" }}>
+      
+      <table class="styled-table" style={{ width: "100%" }}>
           <thead>
             <tr>
               <th>ID</th>
@@ -105,7 +107,6 @@ function App() {
             ))}
           </tbody>
         </table>
-      </header>
     </div>
   );
 }
