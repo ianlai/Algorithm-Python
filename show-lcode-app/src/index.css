@@ -66,6 +66,16 @@ code {
     background-color: #113864;
 }
 
+.styled-table th.table-block-easy{
+    color: #43e032;
+}
+.styled-table th.table-block-medium{
+    color: #eecb31;
+}
+.styled-table th.table-block-hard{
+    color: #e7391a;
+}
+
 /* .numberRow{
     margin: 20px;
 } */
@@ -125,10 +135,11 @@ a:hover {
 
 .button-filter {
     background-color: #5d79d6;
-    margin: 20px;
+    margin: 20px 5px;
   }
 
 .button-1:hover,
 .button-1:focus {
   background-color: #F082AC;
 }
+

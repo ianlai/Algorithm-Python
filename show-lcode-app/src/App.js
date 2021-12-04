@@ -66,9 +66,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Lcode list read from <code>lcode.json</code>. Happy coding :)
-        </p>
+        <h2>
+          Lcode List
+        </h2>
 
         <div className="filterRow">
           {tagList.map((t) => (
@@ -84,7 +84,7 @@ function App() {
         </div>
       </header>
 
-      
+
       <table class="styled-table" style={{ width: "100%" }}>
           <thead>
             <tr>
@@ -98,6 +98,7 @@ function App() {
             {shownLcodeData.map((l) => (
               <LcodeRow
                 id={l.Number}
+                level={l.Level}
                 title={l.Title}
                 url={l.Url}
                 tags={l.Tags}

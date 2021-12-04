@@ -1,9 +1,20 @@
 import TagButton from "./TagButton";
 
 function LcodeRow(props) {
+    let classNameLevel;
+    if(props.level == 1){
+        classNameLevel = "table-block-easy";
+    }else if(props.level == 2){
+        classNameLevel = "table-block-medium";
+    }else if(props.level == 3){
+        classNameLevel = "table-block-hard";
+    }
+
   return (
+    
     <tr class="active-row">
-      <th>{props.id}</th>
+      <th className = {classNameLevel}>
+          {props.id}</th>
       <th style={{width:"20%"}}>
         <a href={props.url} class="large-font">
           {" "}
