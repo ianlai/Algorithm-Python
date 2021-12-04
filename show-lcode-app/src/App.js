@@ -79,20 +79,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
+        <h3>
           Lcode List parsed from <code>lcode-react.json</code>
-        </h2>
+        </h3>
 
-        <div className="filterRow">
-          {tagList.map((t) => (
-            <FilterButton
-              tagName={t}
-              onClickFilterTagButton={onClickFilterTagButton}
-            />
-          ))}
-        </div>
-
-        <div className="numberRow" style={{ "font-weight": "bold" }}>
+        <div className="numberRow" style={{"font-weight": "bold", "font-size": "0.8em"}}>
           <span style={{ color: "#b1bee4b0" }}> {"Selected: " + shownLcodeData.length }</span>
           <span> || </span>
           <span style={{ color: "#aaaaaa" }}> {"Total: " + lcodeData.length } </span>
@@ -100,6 +91,15 @@ function App() {
           <span style={{ color: "#43e032" }}> Easy: {countEasy} </span>
           <span style={{ color: "#eecb31" }}> Medium: {countMedium} </span>
           <span style={{ color: "#e7391a" }}> Hard: {countHard} </span>
+        </div>
+        
+        <div className="filterRow">
+          {tagList.map((t) => (
+            <FilterButton
+              tagName={t}
+              onClickFilterTagButton={onClickFilterTagButton}
+            />
+          ))}
         </div>
       </header>
 

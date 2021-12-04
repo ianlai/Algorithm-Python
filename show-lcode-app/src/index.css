@@ -14,6 +14,10 @@ body {
   font-size: calc(8px + 2vmin);
 }
 
+h3{
+    margin: 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
