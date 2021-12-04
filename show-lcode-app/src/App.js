@@ -69,8 +69,8 @@ function App() {
         <p>
           Lcode list read from <code>lcode.json</code>. Happy coding :)
         </p>
-        <div className="filter">
-          Filter:
+
+        <div className="filterRow">
           {tagList.map((t) => (
             <FilterButton
               tagName={t}
@@ -79,7 +79,11 @@ function App() {
           ))}
         </div>
 
-        <table class="styled-table">
+        <div className="numberRow">
+          {shownLcodeData.length + " / " + lcodeData.length}
+        </div>
+
+        <table class="styled-table" style={{ width: "100%" }}>
           <thead>
             <tr>
               <th>ID</th>
