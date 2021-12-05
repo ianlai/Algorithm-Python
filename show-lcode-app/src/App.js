@@ -24,13 +24,27 @@ function onClickFilterTagButton(tagName) {
   changeTagList(tagList);
 }
 
+function onClickLevelButton(level) {
+  levelSet.clear();
+  levelSet.add(level);
+  levelList = Array.from(levelSet);
+  filterByTags();
+  changeLevelList(levelList);
+  console.log("Level:", level);
+}
+
 let shownLcodeData = lcodeData;
 function filterByTags() {
-  if (tagList.length === 0) {
+  if (tagList.length === 0 && levelSet.length === 0 ) {
     shownLcodeData = lcodeData;
   } else {
     shownLcodeData = [];
     for (let l of lcodeData) {
+      //Level
+      if (!levelSet.has(l.Level)) {
+        continue;
+      }
+      //Tags
       let isIncluded = true;
       if (l.Tags.length === 0) {
         continue;
@@ -46,12 +60,15 @@ function filterByTags() {
       }
     }
   }
-  console.log(shownLcodeData);
+//   console.log(shownLcodeData);
 }
 
 let memberTagList, changeTagList;
+let memberLevelList, changeLevelList;
 let tagSet = new Set();
 let tagList = [];
+let levelSet = new Set([1,2,3]);
+let levelList = [1,2,3];
 
 function App() {
   // 　const { lcodes } = this.state;
@@ -62,6 +79,7 @@ function App() {
   console.log("Show lcode data:", shownLcodeData.length);
 
   [memberTagList, changeTagList] = useState(tagList);
+  [memberLevelList, changeLevelList] = useState(levelList);
 
   let countEasy = 0,
     countMedium = 0,
@@ -83,16 +101,25 @@ function App() {
           Lcode List parsed from <code>lcode-react.json</code>
         </h3>
 
-        <div className="numberRow" style={{"font-weight": "bold", "font-size": "0.8em"}}>
-          <span style={{ color: "#b1bee4b0" }}> {"Selected: " + shownLcodeData.length }</span>
+        <div
+          className="numberRow"
+          style={{ "font-weight": "bold", "font-size": "0.8em" }}
+        >
+          <span style={{ color: "#b1bee4b0" }}>
+            {" "}
+            {"Selected: " + shownLcodeData.length}
+          </span>
           <span> || </span>
-          <span style={{ color: "#aaaaaa" }}> {"Total: " + lcodeData.length } </span>
+          <span style={{ color: "#aaaaaa" }}>
+            {" "}
+            {"Total: " + lcodeData.length}{" "}
+          </span>
           <span> || </span>
           <span style={{ color: "#43e032" }}> Easy: {countEasy} </span>
           <span style={{ color: "#eecb31" }}> Medium: {countMedium} </span>
           <span style={{ color: "#e7391a" }}> Hard: {countHard} </span>
         </div>
-        
+
         <div className="filterRow">
           {tagList.map((t) => (
             <FilterButton
@@ -123,6 +150,7 @@ function App() {
               memo={l.Memo}
               tagList={tagList}
               onClickTagButton={onClickTagButton}
+              onClickLevelButton={onClickLevelButton}
             />
           ))}
         </tbody>

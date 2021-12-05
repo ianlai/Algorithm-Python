@@ -1,6 +1,3 @@
-function test() {
-  alert("yo");
-}
 function TagButton(props) {
   return (
     <button
