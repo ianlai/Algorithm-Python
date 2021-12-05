@@ -191,7 +191,9 @@
     "Level": 2, 
     "Title": "Combination Sum", 
     "Url": "https://leetcode.com/problems/combination-sum", 
-    "Tags": ["Backtracking"], 
+    "Tags": [
+        "Backtracking"
+    ], 
     "Memo": "不重複的元素可被無限重複使用。"
 },
 {
@@ -199,7 +201,10 @@
     "Level": 2, 
     "Title": "Combination Sum II", 
     "Url": "https://leetcode.com/problems/combination-sum-ii", 
-    "Tags": ["Backtracking", "Redundant-Removal"], 
+    "Tags": [
+        "Backtracking", 
+        "Redundant-Removal"
+    ], 
     "Memo": "重複的元素但只能被使用一次。"
 },
 {
@@ -223,7 +228,7 @@
     "Level": 2, 
     "Title": "Permutations", 
     "Url": "https://leetcode.com/problems/permutations", 
-    "Tags": [ 
+    "Tags": [
         "Backtracking"
     ], 
     "Memo": ""
@@ -348,7 +353,9 @@
     "Level": 2, 
     "Title": "Combinations", 
     "Url": "https://leetcode.com/problems/combinations", 
-    "Tags": ["Backtracking"], 
+    "Tags": [
+        "Backtracking"
+    ], 
     "Memo": ""
 },
 {
@@ -356,7 +363,9 @@
     "Level": 2, 
     "Title": "Subsets", 
     "Url": "https://leetcode.com/problems/subsets", 
-    "Tags": ["Backtracking"], 
+    "Tags": [
+        "Backtracking"
+    ], 
     "Memo": ""
 },
 {
@@ -388,7 +397,9 @@
     "Level": 2, 
     "Title": "Gray Code", 
     "Url": "https://leetcode.com/problems/gray-code", 
-    "Tags": ["Backtracking"], 
+    "Tags": [
+        "Backtracking"
+    ], 
     "Memo": "只拿到5%，還要再看。"
 },
 {
@@ -396,8 +407,10 @@
     "Level": 2, 
     "Title": "Subsets II", 
     "Url": "https://leetcode.com/problems/subsets-ii", 
-    "Tags": ["Backtracking", 
-        "Redundant-Removal"], 
+    "Tags": [
+        "Backtracking", 
+        "Redundant-Removal"
+    ], 
     "Memo": ""
 },
 {
@@ -889,7 +902,12 @@
     "Level": 2, 
     "Title": "Kth Largest Element in an Array", 
     "Url": "https://leetcode.com/problems/kth-largest-element-in-an-array", 
-    "Tags": [], 
+    "Tags": [
+        "Top-K", 
+        "Heap", 
+        "QuickSelct", 
+        "Sorting"
+    ], 
     "Memo": ""
 },
 {
@@ -1189,7 +1207,12 @@
     "Level": 2, 
     "Title": "Top K Frequent Elements", 
     "Url": "https://leetcode.com/problems/top-k-frequent-elements", 
-    "Tags": ["Top-K", "Heap", "QuickSelct", "Sorting"], 
+    "Tags": [
+        "Top-K", 
+        "Heap", 
+        "QuickSelct", 
+        "Sorting"
+    ], 
     "Memo": ""
 },
 {
@@ -1231,7 +1254,12 @@
     "Level": 2, 
     "Title": "Kth Smallest Element in a Sorted Matrix", 
     "Url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix", 
-    "Tags": [], 
+    "Tags": [
+        "Top-K", 
+        "Heap", 
+        "Sorting", 
+        "Matrix"
+    ], 
     "Memo": ""
 },
 {
@@ -1566,7 +1594,12 @@
     "Level": 2, 
     "Title": "Top K Frequent Words", 
     "Url": "https://leetcode.com/problems/top-k-frequent-words", 
-    "Tags": ["Top-K", "Heap", "QuickSelct", "Sorting"], 
+    "Tags": [
+        "Top-K", 
+        "Heap", 
+        "QuickSelct", 
+        "Sorting"
+    ], 
     "Memo": ""
 },
 {
@@ -1983,6 +2016,14 @@
     "Tags": [
         "Binary Search"
     ], 
+    "Memo": ""
+},
+{
+    "Number": "1167", 
+    "Level": 2, 
+    "Title": "Minimum Cost to Connect Sticks", 
+    "Url": "https://leetcode.com/problems/minimum-cost-to-connect-sticks", 
+    "Tags": ["Heap"], 
     "Memo": ""
 },
 {

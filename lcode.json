@@ -1988,6 +1988,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1167", 
+    "Level": 2, 
+    "Title": "Minimum Cost to Connect Sticks", 
+    "Url": "https://leetcode.com/problems/minimum-cost-to-connect-sticks", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1214", 
     "Level": 2, 
     "Title": "Two Sum BSTs", 
@@ -2026,7 +2034,7 @@ lcode_data = `
     "Url": "https://leetcode.com/problems/minimum-falling-path-sum-ii", 
     "Tags": [
         "DP", 
-        "Heap",
+        "Heap", 
         "Top-K"
     ], 
     "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃。可以使用heap，也可以使用Top-K的作法。要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。"
