@@ -16,7 +16,9 @@
     "Level": 2, 
     "Title": "Add Two Numbers", 
     "Url": "https://leetcode.com/problems/add-two-numbers", 
-    "Tags": [], 
+    "Tags": [
+        "LinkedList"
+    ], 
     "Memo": ""
 },
 {
@@ -78,7 +80,8 @@
     "Url": "https://leetcode.com/problems/3sum", 
     "Tags": [
         "Two-Pointer", 
-        "Two-Sum"
+        "Two-Sum", 
+        "Redundant-Removal"
     ], 
     "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。"
 },
@@ -111,7 +114,9 @@
     "Level": 2, 
     "Title": "Remove Nth Node From End of List", 
     "Url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list", 
-    "Tags": [], 
+    "Tags": [
+        "LinkedList"
+    ], 
     "Memo": ""
 },
 {
@@ -159,7 +164,9 @@
     "Level": 2, 
     "Title": "Search in Rotated Sorted Array", 
     "Url": "https://leetcode.com/problems/search-in-rotated-sorted-array", 
-    "Tags": [], 
+    "Tags": [
+        "Binary Search"
+    ], 
     "Memo": ""
 },
 {
@@ -245,6 +252,14 @@
     "Memo": ""
 },
 {
+    "Number": "0048", 
+    "Level": 2, 
+    "Title": "Rotate Image", 
+    "Url": "https://leetcode.com/problems/rotate-image", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0049", 
     "Level": 2, 
     "Title": "Group Anagrams", 
@@ -297,7 +312,10 @@
     "Level": 2, 
     "Title": "Unique Paths", 
     "Url": "https://leetcode.com/problems/unique-paths", 
-    "Tags": [], 
+    "Tags": [
+        "DP", 
+        "Matrix"
+    ], 
     "Memo": ""
 },
 {
@@ -305,7 +323,10 @@
     "Level": 2, 
     "Title": "Unique Paths II", 
     "Url": "https://leetcode.com/problems/unique-paths-ii", 
-    "Tags": [], 
+    "Tags": [
+        "DP", 
+        "Matrix"
+    ], 
     "Memo": ""
 },
 {
@@ -337,16 +358,23 @@
     "Level": 2, 
     "Title": "Search a 2D Matrix", 
     "Url": "https://leetcode.com/problems/search-a-2d-matrix", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Binary Search", 
+        "Matrix"
+    ], 
+    "Memo": "下一個row是接著上一個row，所以就是一般的Binary Search。"
 },
 {
     "Number": "0075", 
     "Level": 2, 
     "Title": "Sort Colors", 
     "Url": "https://leetcode.com/problems/sort-colors", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Sorting", 
+        "Partition", 
+        "Two-Pointer"
+    ], 
+    "Memo": "可以使用一般的Sorting。而因為狀態有限，也可以使用CountingSort。因為只有三個狀態，所以也可以做兩次Partition。"
 },
 {
     "Number": "0077", 
@@ -987,8 +1015,11 @@
     "Level": 2, 
     "Title": "Search a 2D Matrix II", 
     "Url": "https://leetcode.com/problems/search-a-2d-matrix-ii", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Binary Search", 
+        "Matrix"
+    ], 
+    "Memo": "每一個row和col都有順序，但前後彼此不相關。"
 },
 {
     "Number": "0241", 
@@ -2023,7 +2054,9 @@
     "Level": 2, 
     "Title": "Minimum Cost to Connect Sticks", 
     "Url": "https://leetcode.com/problems/minimum-cost-to-connect-sticks", 
-    "Tags": ["Heap"], 
+    "Tags": [
+        "Heap"
+    ], 
     "Memo": ""
 },
 {
@@ -2039,7 +2072,12 @@
     "Level": 2, 
     "Title": "Number of Closed Islands", 
     "Url": "https://leetcode.com/problems/number-of-closed-islands", 
-    "Tags": [], 
+    "Tags": [
+        "DFS", 
+        "Island", 
+        "Matrix", 
+        "Graph"
+    ], 
     "Memo": ""
 },
 {

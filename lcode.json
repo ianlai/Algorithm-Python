@@ -243,6 +243,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0048", 
+    "Level": 2, 
+    "Title": "Rotate Image", 
+    "Url": "https://leetcode.com/problems/rotate-image", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0049", 
     "Level": 2, 
     "Title": "Group Anagrams", 
