@@ -1,4 +1,4 @@
-function LevelButton(props) {
+function FilterLevelButton(props) {
     let classNameLevel;
     if (props.level == 1) {
       classNameLevel = "button-easy";
@@ -9,11 +9,12 @@ function LevelButton(props) {
     }
   return (
     <button
+      class="button-filter"
       className={classNameLevel}
-      onClick={() => props.onClickLevelButton(props.level)}
+      onClick={() => props.onClickFilterLevelButton(props.level)}
     >
-      {props.id}
+      {props.name}
     </button>
   );
 }
-export default LevelButton;
+export default FilterLevelButton;

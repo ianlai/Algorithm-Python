@@ -3,7 +3,9 @@ import logo from "./logo.svg";
 import "./App.css";
 import LcodeRow from "./LcodeRow.js";
 import FilterButton from "./FilterButton.js";
+import FilterLevelButton from "./FilterLevelButton.js";
 import lcodeData from "./lcode-react.json";
+import LevelButton from "./LevelButton";
 
 function LoadJson() {
   //lcodeData = JSON.parse(lcode_data);
@@ -30,25 +32,33 @@ function onClickLevelButton(level) {
   levelList = Array.from(levelSet);
   filterByTags();
   changeLevelList(levelList);
-  console.log("Level:", level);
+}
+function onClickFilterLevelButton(level) {
+  levelSet.delete(level);
+  levelList = Array.from(levelSet);
+  filterByTags();
+  changeTagList(levelList);
 }
 
 let shownLcodeData = lcodeData;
 function filterByTags() {
-  if (tagList.length === 0 && levelSet.length === 0 ) {
+    console.log("filterByTags:",tagList, tagList.length, levelSet, levelSet.size);
+  if (tagList.length === 0 && levelSet.size === 3) {
+    console.log("Reset data");
     shownLcodeData = lcodeData;
-  } else {
+  } else{
     shownLcodeData = [];
     for (let l of lcodeData) {
       //Level
-      if (!levelSet.has(l.Level)) {
+      if (levelSet.size !== 3 && !levelSet.has(l.Level)) {
         continue;
       }
+
       //Tags
       let isIncluded = true;
-      if (l.Tags.length === 0) {
-        continue;
-      }
+    //   if (l.Tags.length === 0) {
+    //     continue;
+    //   }
       for (let filteredTag of tagSet) {
         if (!l.Tags.includes(filteredTag)) {
           isIncluded = false;
@@ -60,15 +70,15 @@ function filterByTags() {
       }
     }
   }
-//   console.log(shownLcodeData);
+  //   console.log(shownLcodeData);
 }
 
 let memberTagList, changeTagList;
 let memberLevelList, changeLevelList;
 let tagSet = new Set();
 let tagList = [];
-let levelSet = new Set([1,2,3]);
-let levelList = [1,2,3];
+let levelSet = new Set([1, 2, 3]);
+let levelList = [1, 2, 3];
 
 function App() {
   // 　const { lcodes } = this.state;
@@ -105,22 +115,52 @@ function App() {
           className="numberRow"
           style={{ "font-weight": "bold", "font-size": "0.8em" }}
         >
-          <span style={{ color: "#b1bee4b0" }}>
+          <span style={{ color: "rgb(138 166 229)" }}>
             {" "}
             {"Selected: " + shownLcodeData.length}
           </span>
           <span> || </span>
-          <span style={{ color: "#aaaaaa" }}>
+          <span style={{ color: "rgb(138 166 229)" }}>
             {" "}
             {"Total: " + lcodeData.length}{" "}
           </span>
-          <span> || </span>
+          {/* <span> || </span>
           <span style={{ color: "#43e032" }}> Easy: {countEasy} </span>
           <span style={{ color: "#eecb31" }}> Medium: {countMedium} </span>
-          <span style={{ color: "#e7391a" }}> Hard: {countHard} </span>
+          <span style={{ color: "#e7391a" }}> Hard: {countHard} </span> */}
         </div>
 
-        <div className="filterRow">
+        <div className="LevelFilterRow">
+          {levelList.map((t) => {
+            if (t === 1) {
+              return (
+                <FilterLevelButton
+                  name={`Easy (${countEasy})`}
+                  level={t}
+                  onClickFilterLevelButton={onClickFilterLevelButton}
+                />
+              );
+            } else if (t === 2) {
+              return (
+                <FilterLevelButton
+                  name={`Medium (${countMedium})`}
+                  level={t}
+                  onClickFilterLevelButton={onClickFilterLevelButton}
+                />
+              );
+            } else if (t === 3) {
+              return (
+                <FilterLevelButton
+                  name={`Hard (${countHard})`}
+                  level={t}
+                  onClickFilterLevelButton={onClickFilterLevelButton}
+                />
+              );
+            }
+          })}
+        </div>
+
+        <div className="TagFilterRow">
           {tagList.map((t) => (
             <FilterButton
               tagName={t}
