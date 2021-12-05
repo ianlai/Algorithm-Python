@@ -191,16 +191,16 @@
     "Level": 2, 
     "Title": "Combination Sum", 
     "Url": "https://leetcode.com/problems/combination-sum", 
-    "Tags": ["DFS", "Backtracking"], 
-    "Memo": ""
+    "Tags": ["Backtracking"], 
+    "Memo": "不重複的元素可被無限重複使用。"
 },
 {
     "Number": "0040", 
     "Level": 2, 
     "Title": "Combination Sum II", 
     "Url": "https://leetcode.com/problems/combination-sum-ii", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Backtracking", "Redundant-Removal"], 
+    "Memo": "重複的元素但只能被使用一次。"
 },
 {
     "Number": "0042", 
@@ -223,8 +223,7 @@
     "Level": 2, 
     "Title": "Permutations", 
     "Url": "https://leetcode.com/problems/permutations", 
-    "Tags": [
-        "DFS", 
+    "Tags": [ 
         "Backtracking"
     ], 
     "Memo": ""
@@ -235,7 +234,6 @@
     "Title": "Permutations II", 
     "Url": "https://leetcode.com/problems/permutations-ii", 
     "Tags": [
-        "DFS", 
         "Backtracking", 
         "Redundant-Removal"
     ], 
@@ -350,7 +348,7 @@
     "Level": 2, 
     "Title": "Combinations", 
     "Url": "https://leetcode.com/problems/combinations", 
-    "Tags": [], 
+    "Tags": ["Backtracking"], 
     "Memo": ""
 },
 {
@@ -358,7 +356,7 @@
     "Level": 2, 
     "Title": "Subsets", 
     "Url": "https://leetcode.com/problems/subsets", 
-    "Tags": [], 
+    "Tags": ["Backtracking"], 
     "Memo": ""
 },
 {
@@ -390,15 +388,16 @@
     "Level": 2, 
     "Title": "Gray Code", 
     "Url": "https://leetcode.com/problems/gray-code", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Backtracking"], 
+    "Memo": "只拿到5%，還要再看。"
 },
 {
     "Number": "0090", 
     "Level": 2, 
     "Title": "Subsets II", 
     "Url": "https://leetcode.com/problems/subsets-ii", 
-    "Tags": [], 
+    "Tags": ["Backtracking", 
+        "Redundant-Removal"], 
     "Memo": ""
 },
 {
@@ -1190,7 +1189,7 @@
     "Level": 2, 
     "Title": "Top K Frequent Elements", 
     "Url": "https://leetcode.com/problems/top-k-frequent-elements", 
-    "Tags": [], 
+    "Tags": ["Top-K", "Heap", "QuickSelct", "Sorting"], 
     "Memo": ""
 },
 {
@@ -1567,7 +1566,7 @@
     "Level": 2, 
     "Title": "Top K Frequent Words", 
     "Url": "https://leetcode.com/problems/top-k-frequent-words", 
-    "Tags": [], 
+    "Tags": ["Top-K", "Heap", "QuickSelct", "Sorting"], 
     "Memo": ""
 },
 {
