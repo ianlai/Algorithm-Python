@@ -5,11 +5,9 @@ import LcodeRow from "./LcodeRow.js";
 import FilterButton from "./FilterButton.js";
 import FilterLevelButton from "./FilterLevelButton.js";
 import lcodeData from "./lcode-react.json";
-import LevelButton from "./LevelButton";
 
 function LoadJson() {
   //lcodeData = JSON.parse(lcode_data);
-  //console.log(lcodeData);
   console.log(lcodeData);
 }
 function onClickTagButton(tagName) {
@@ -42,11 +40,17 @@ function onClickFilterLevelButton(level) {
 
 let shownLcodeData = lcodeData;
 function filterByTags() {
-    console.log("filterByTags:",tagList, tagList.length, levelSet, levelSet.size);
+  console.log(
+    "filterByTags:",
+    tagList,
+    tagList.length,
+    levelSet,
+    levelSet.size
+  );
   if (tagList.length === 0 && levelSet.size === 3) {
     console.log("Reset data");
     shownLcodeData = lcodeData;
-  } else{
+  } else {
     shownLcodeData = [];
     for (let l of lcodeData) {
       //Level
@@ -56,9 +60,9 @@ function filterByTags() {
 
       //Tags
       let isIncluded = true;
-    //   if (l.Tags.length === 0) {
-    //     continue;
-    //   }
+      //   if (l.Tags.length === 0) {
+      //     continue;
+      //   }
       for (let filteredTag of tagSet) {
         if (!l.Tags.includes(filteredTag)) {
           isIncluded = false;
@@ -81,8 +85,6 @@ let levelSet = new Set([1, 2, 3]);
 let levelList = [1, 2, 3];
 
 function App() {
-  // 　const { lcodes } = this.state;
-  //LoadJson();
   console.log("RERENDERING");
   console.log(tagSet);
   console.log(tagList);
@@ -91,17 +93,23 @@ function App() {
   [memberTagList, changeTagList] = useState(tagList);
   [memberLevelList, changeLevelList] = useState(levelList);
 
-  let countEasy = 0,
-    countMedium = 0,
-    countHard = 0;
+  let levelMap = {
+    1: {
+      "name": "Easy",
+      "count": 0,
+    },
+    2: {
+      "name": "Medium",
+      "count": 0,
+    },
+    3: {
+      "name": "Hard",
+      "count": 0,
+    },
+  };
+
   for (let l of lcodeData) {
-    if (l.Level == 1) {
-      countEasy++;
-    } else if (l.Level == 2) {
-      countMedium++;
-    } else if (l.Level == 3) {
-      countHard++;
-    }
+    levelMap[l.Level]["count"] += 1;
   }
 
   return (
@@ -131,33 +139,13 @@ function App() {
         </div>
 
         <div className="LevelFilterRow">
-          {levelList.map((t) => {
-            if (t === 1) {
-              return (
+          {levelList.map((t) => (
                 <FilterLevelButton
-                  name={`Easy (${countEasy})`}
+                  name={`${levelMap[t]["name"]} (${levelMap[t]["count"]})`}
                   level={t}
                   onClickFilterLevelButton={onClickFilterLevelButton}
                 />
-              );
-            } else if (t === 2) {
-              return (
-                <FilterLevelButton
-                  name={`Medium (${countMedium})`}
-                  level={t}
-                  onClickFilterLevelButton={onClickFilterLevelButton}
-                />
-              );
-            } else if (t === 3) {
-              return (
-                <FilterLevelButton
-                  name={`Hard (${countHard})`}
-                  level={t}
-                  onClickFilterLevelButton={onClickFilterLevelButton}
-                />
-              );
-            }
-          })}
+          ))}
         </div>
 
         <div className="TagFilterRow">
