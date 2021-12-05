@@ -14,8 +14,8 @@ body {
   font-size: calc(8px + 2vmin);
 }
 
-h3{
-    margin: 10px;
+h3 {
+  margin: 10px;
 }
 
 code {
@@ -67,7 +67,7 @@ code {
 }
 .styled-table tbody tr:hover {
   font-weight: bold;
-  background-color: #113864;
+  background-color: #052244;
 }
 
 .styled-table th.table-block-easy {
@@ -108,7 +108,10 @@ a:hover {
 /* CSS */
 .button-tag,
 .button-filter,
-.button-tag-clicked {
+.button-tag-clicked,
+.button-easy,
+.button-medium,
+.button-hard {
   background-color: #e75f93;
   border-radius: 8px;
   border-style: none;
@@ -135,6 +138,24 @@ a:hover {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+.button-easy {
+  background-color: #168609;
+}
+.button-medium {
+  background-color: #b37d09;
+}
+.button-hard {
+  background-color: #7e1604;
+}
+.button-easy:hover {
+    background-color: #27cc14;
+  }
+  .button-medium:hover {
+    background-color: #ebb237;
+  }
+  .button-hard:hover {
+    background-color: #ce4730;
+  }
 
 .button-tag-clicked {
   background-color: #6d83cab0;

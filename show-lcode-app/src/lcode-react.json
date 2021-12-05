@@ -26,7 +26,7 @@
     "Level": 2, 
     "Title": "Longest Substring Without Repeating Characters", 
     "Url": "https://leetcode.com/problems/longest-substring-without-repeating-characters", 
-    "Tags": [], 
+    "Tags": ["String", "Substring", "Sliding-Window"], 
     "Memo": ""
 },
 {
@@ -35,7 +35,7 @@
     "Title": "Median of Two Sorted Arrays", 
     "Url": "https://leetcode.com/problems/median-of-two-sorted-arrays", 
     "Tags": [
-        "Binary Search"
+        "Binary-Search"
     ], 
     "Memo": "在第一條上做BS，找到的點1，會決定點2（因為個數），再根據兩邊大小特性判斷要往左還是往右。"
 },
@@ -44,8 +44,8 @@
     "Level": 2, 
     "Title": "Longest Palindromic Substring", 
     "Url": "https://leetcode.com/problems/longest-palindromic-substring", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["String", "Palindrome", "Two-Pointer"], 
+    "Memo": "背向雙指針。"
 },
 {
     "Number": "0010", 
@@ -60,7 +60,7 @@
     "Level": 2, 
     "Title": "Container With Most Water", 
     "Url": "https://leetcode.com/problems/container-with-most-water", 
-    "Tags": [], 
+    "Tags": ["Two-Pointer"], 
     "Memo": ""
 },
 {
@@ -165,7 +165,7 @@
     "Title": "Search in Rotated Sorted Array", 
     "Url": "https://leetcode.com/problems/search-in-rotated-sorted-array", 
     "Tags": [
-        "Binary Search"
+        "Binary-Search"
     ], 
     "Memo": ""
 },
@@ -256,7 +256,7 @@
     "Level": 2, 
     "Title": "Rotate Image", 
     "Url": "https://leetcode.com/problems/rotate-image", 
-    "Tags": [], 
+    "Tags": ["Matrix"], 
     "Memo": ""
 },
 {
@@ -359,7 +359,7 @@
     "Title": "Search a 2D Matrix", 
     "Url": "https://leetcode.com/problems/search-a-2d-matrix", 
     "Tags": [
-        "Binary Search", 
+        "Binary-Search", 
         "Matrix"
     ], 
     "Memo": "下一個row是接著上一個row，所以就是一般的Binary Search。"
@@ -454,8 +454,8 @@
     "Level": 1, 
     "Title": "Binary Tree Inorder Traversal", 
     "Url": "https://leetcode.com/problems/binary-tree-inorder-traversal", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Tree", "DFS"], 
+    "Memo": "(1)Recursive (2)Iterative (3)Morris"
 },
 {
     "Number": "0095", 
@@ -478,7 +478,7 @@
     "Level": 2, 
     "Title": "Validate Binary Search Tree", 
     "Url": "https://leetcode.com/problems/validate-binary-search-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST"], 
     "Memo": ""
 },
 {
@@ -486,7 +486,7 @@
     "Level": 2, 
     "Title": "Recover Binary Search Tree", 
     "Url": "https://leetcode.com/problems/recover-binary-search-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST", "DFS"], 
     "Memo": ""
 },
 {
@@ -494,7 +494,7 @@
     "Level": 1, 
     "Title": "Same Tree", 
     "Url": "https://leetcode.com/problems/same-tree", 
-    "Tags": [], 
+    "Tags": ["Tree"], 
     "Memo": ""
 },
 {
@@ -502,15 +502,15 @@
     "Level": 1, 
     "Title": "Symmetric Tree", 
     "Url": "https://leetcode.com/problems/symmetric-tree", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Tree"], 
+    "Memo": "Recursive的helper function要一開始就分兩邊，才能比較兩邊。"
 },
 {
     "Number": "0102", 
     "Level": 2, 
     "Title": "Binary Tree Level Order Traversal", 
     "Url": "https://leetcode.com/problems/binary-tree-level-order-traversal", 
-    "Tags": [], 
+    "Tags": ["Tree", "BFS"], 
     "Memo": ""
 },
 {
@@ -526,7 +526,7 @@
     "Level": 1, 
     "Title": "Maximum Depth of Binary Tree", 
     "Url": "https://leetcode.com/problems/maximum-depth-of-binary-tree", 
-    "Tags": [], 
+    "Tags": ["Tree"], 
     "Memo": ""
 },
 {
@@ -534,7 +534,7 @@
     "Level": 2, 
     "Title": "Binary Tree Level Order Traversal II", 
     "Url": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii", 
-    "Tags": [], 
+    "Tags": ["Tree", "BFS"], 
     "Memo": ""
 },
 {
@@ -542,7 +542,7 @@
     "Level": 1, 
     "Title": "Convert Sorted Array to Binary Search Tree", 
     "Url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST"], 
     "Memo": ""
 },
 {
@@ -550,7 +550,7 @@
     "Level": 2, 
     "Title": "Convert Sorted List to Binary Search Tree", 
     "Url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST", "LinkedList"], 
     "Memo": ""
 },
 {
@@ -638,7 +638,7 @@
     "Level": 1, 
     "Title": "Valid Palindrome", 
     "Url": "https://leetcode.com/problems/valid-palindrome", 
-    "Tags": [], 
+    "Tags": ["Palindrome"], 
     "Memo": ""
 },
 {
@@ -693,7 +693,7 @@
     "Level": 2, 
     "Title": "Palindrome Partitioning", 
     "Url": "https://leetcode.com/problems/palindrome-partitioning", 
-    "Tags": [], 
+    "Tags": ["Palindrome"], 
     "Memo": ""
 },
 {
@@ -761,7 +761,7 @@
     "Level": 2, 
     "Title": "LRU Cache", 
     "Url": "https://leetcode.com/problems/lru-cache", 
-    "Tags": [], 
+    "Tags": ["HashMap", "LinkedList", "Cache", "Design"], 
     "Memo": ""
 },
 {
@@ -959,7 +959,7 @@
     "Level": 1, 
     "Title": "Invert Binary Tree", 
     "Url": "https://leetcode.com/problems/invert-binary-tree", 
-    "Tags": [], 
+    "Tags": ["Tree"], 
     "Memo": ""
 },
 {
@@ -967,7 +967,7 @@
     "Level": 2, 
     "Title": "Kth Smallest Element in a BST", 
     "Url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST", "DFS"], 
     "Memo": ""
 },
 {
@@ -975,7 +975,7 @@
     "Level": 1, 
     "Title": "Palindrome Linked List", 
     "Url": "https://leetcode.com/problems/palindrome-linked-list", 
-    "Tags": [], 
+    "Tags": ["Palindrome", "LinkedList"], 
     "Memo": ""
 },
 {
@@ -983,7 +983,7 @@
     "Level": 1, 
     "Title": "Lowest Common Ancestor of a Binary Search Tree", 
     "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST", "LCA"], 
     "Memo": ""
 },
 {
@@ -991,7 +991,7 @@
     "Level": 2, 
     "Title": "Lowest Common Ancestor of a Binary Tree", 
     "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "LCA"], 
     "Memo": ""
 },
 {
@@ -1007,7 +1007,7 @@
     "Level": 3, 
     "Title": "Sliding Window Maximum", 
     "Url": "https://leetcode.com/problems/sliding-window-maximum", 
-    "Tags": [], 
+    "Tags": ["Sliding-Window"], 
     "Memo": ""
 },
 {
@@ -1016,7 +1016,7 @@
     "Title": "Search a 2D Matrix II", 
     "Url": "https://leetcode.com/problems/search-a-2d-matrix-ii", 
     "Tags": [
-        "Binary Search", 
+        "Binary-Search", 
         "Matrix"
     ], 
     "Memo": "每一個row和col都有順序，但前後彼此不相關。"
@@ -1167,7 +1167,7 @@
     "Level": 3, 
     "Title": "Serialize and Deserialize Binary Tree", 
     "Url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "Design", "BFS"], 
     "Memo": ""
 },
 {
@@ -1175,7 +1175,7 @@
     "Level": 2, 
     "Title": "Longest Increasing Subsequence", 
     "Url": "https://leetcode.com/problems/longest-increasing-subsequence", 
-    "Tags": [], 
+    "Tags": ["DP", "Subsequence"], 
     "Memo": ""
 },
 {
@@ -1260,7 +1260,7 @@
     "Title": "Design Hit Counter", 
     "Url": "https://leetcode.com/problems/design-hit-counter", 
     "Tags": [
-        "Binary Search"
+        "Binary-Search"
     ], 
     "Memo": ""
 },
@@ -1467,7 +1467,7 @@
     "Level": 2, 
     "Title": "Convert BST to Greater Tree", 
     "Url": "https://leetcode.com/problems/convert-bst-to-greater-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST", "DFS"], 
     "Memo": ""
 },
 {
@@ -1491,8 +1491,8 @@
     "Level": 1, 
     "Title": "Diameter of Binary Tree", 
     "Url": "https://leetcode.com/problems/diameter-of-binary-tree", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Tree"], 
+    "Memo": "好題。遞迴的回傳值有兩個。"
 },
 {
     "Number": "0547", 
@@ -1573,7 +1573,7 @@
     "Level": 2, 
     "Title": "Maximum Width of Binary Tree", 
     "Url": "https://leetcode.com/problems/maximum-width-of-binary-tree", 
-    "Tags": [], 
+    "Tags": ["Tree", "BFS"], 
     "Memo": ""
 },
 {
@@ -1589,7 +1589,7 @@
     "Level": 1, 
     "Title": "Valid Palindrome II", 
     "Url": "https://leetcode.com/problems/valid-palindrome-ii", 
-    "Tags": [], 
+    "Tags": ["Palindrome"], 
     "Memo": ""
 },
 {
@@ -1670,7 +1670,7 @@
     "Level": 1, 
     "Title": "Binary Search", 
     "Url": "https://leetcode.com/problems/binary-search", 
-    "Tags": [], 
+    "Tags": ["Binary-Search"], 
     "Memo": ""
 },
 {
@@ -1766,8 +1766,14 @@
     "Level": 2, 
     "Title": "Cheapest Flights Within K Stops", 
     "Url": "https://leetcode.com/problems/cheapest-flights-within-k-stops", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Graph", 
+        "SSSP", 
+        "Dijkstra", 
+        "DP",
+        "Heap"
+    ], 
+    "Memo": "要看！"
 },
 {
     "Number": "0797", 
@@ -1913,7 +1919,7 @@
     "Title": "Time Based Key-Value Store", 
     "Url": "https://leetcode.com/problems/time-based-key-value-store", 
     "Tags": [
-        "Binary Search"
+        "Binary-Search"
     ], 
     "Memo": ""
 },
@@ -2012,7 +2018,7 @@
     "Level": 2, 
     "Title": "Delete Nodes And Return Forest", 
     "Url": "https://leetcode.com/problems/delete-nodes-and-return-forest", 
-    "Tags": [], 
+    "Tags": ["Tree"], 
     "Memo": ""
 },
 {
@@ -2036,7 +2042,7 @@
     "Level": 2, 
     "Title": "Longest Common Subsequence", 
     "Url": "https://leetcode.com/problems/longest-common-subsequence", 
-    "Tags": [], 
+    "Tags": ["String", "Palindrome", "Memoization", "DP"], 
     "Memo": ""
 },
 {
@@ -2045,7 +2051,7 @@
     "Title": "Snapshot Array", 
     "Url": "https://leetcode.com/problems/snapshot-array", 
     "Tags": [
-        "Binary Search"
+        "Binary-Search"
     ], 
     "Memo": ""
 },
