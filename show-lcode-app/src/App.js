@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import LcodeRow from "./LcodeRow.js";
-import FilterButton from "./FilterButton.js";
+import FilterTagButton from "./FilterTagButton.js";
 import FilterLevelButton from "./FilterLevelButton.js";
 import lcodeData from "./lcode-react.json";
 
@@ -95,16 +95,16 @@ function App() {
 
   let levelMap = {
     1: {
-      "name": "Easy",
-      "count": 0,
+      name: "Easy",
+      count: 0,
     },
     2: {
-      "name": "Medium",
-      "count": 0,
+      name: "Medium",
+      count: 0,
     },
     3: {
-      "name": "Hard",
-      "count": 0,
+      name: "Hard",
+      count: 0,
     },
   };
 
@@ -140,17 +140,17 @@ function App() {
 
         <div className="LevelFilterRow">
           {levelList.map((t) => (
-                <FilterLevelButton
-                  name={`${levelMap[t]["name"]} (${levelMap[t]["count"]})`}
-                  level={t}
-                  onClickFilterLevelButton={onClickFilterLevelButton}
-                />
+            <FilterLevelButton
+              name={`${levelMap[t]["name"]} (${levelMap[t]["count"]})`}
+              level={t}
+              onClickFilterLevelButton={onClickFilterLevelButton}
+            />
           ))}
         </div>
 
         <div className="TagFilterRow">
           {tagList.map((t) => (
-            <FilterButton
+            <FilterTagButton
               tagName={t}
               onClickFilterTagButton={onClickFilterTagButton}
             />

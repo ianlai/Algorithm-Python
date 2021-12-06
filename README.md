@@ -102,6 +102,7 @@ algo
 │   ├── __0542__01 Matrix.py
 │   ├── __0576__Out of Boundary Paths.py
 │   ├── __0718__Maximum Length of Repeated Subarray.py
+│   ├── __0931__Minimum Falling Path Sum.py
 │   ├── __0935__Knight Dialer.py
 │   ├── __1025__Divisor Game.py
 │   ├── __1048__Longest String Chain.py
@@ -110,6 +111,7 @@ algo
 │   ├── __1137__N-th Tribonacci Number.py
 │   ├── __1143__Longest Common Subsequence.py
 │   ├── __1277__Count Square Submatrices with All Ones.py
+│   ├── __1289__Minimum Falling Path Sum II.py
 │   ├── __1395__Count Number of Teams.py
 │   ├── __1774__Closest Dessert Cost.py
 │   └── __1937__Maximum Number of Points with Cost.py
@@ -135,17 +137,18 @@ algo
 │   ├── __0049__Group Anagrams.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
-│   ├── __0347__Top K Frequent Elements.py
 │   ├── __0535__Encode and Decode TinyURL.py
 │   └── __0705__Design HashSet.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
 │   ├── __0264__Ugly Number II.py
+│   ├── __0347__Top K Frequent Elements.py
 │   ├── __0378__Kth Smallest Element in a Sorted Matrix.py
 │   ├── __0692__Top K Frequent Words.py
 │   ├── __0703__Kth Largest Element in a Stream.py
-│   └── __0973__K Closest Points to Origin.py
+│   ├── __0973__K Closest Points to Origin.py
+│   └── __1167__Minimum Cost to Connect Sticks.py
 ├── Island
 │   ├── __0130__Surrounded Regions.py
 │   ├── __0200__Number of Islands.py
@@ -175,6 +178,8 @@ algo
 │   └── __0237__Delete Node in a Linked List.py
 ├── Math
 │   └── __0593__Valid Square.py
+├── Matrix
+│   └── __0048__Rotate Image.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -189,6 +194,7 @@ algo
 │   ├── __0155__Min Stack.py
 │   └── __0735__Asteroid Collision.py
 ├── String
+│   ├── __0009__Palindrome Number.py
 │   ├── __0151__Reverse Words in a String.py
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
@@ -202,6 +208,7 @@ algo
 │   ├── __0100__Same Tree.py
 │   ├── __0101__Symmetric Tree.py
 │   ├── __0104__Maximum Depth of Binary Tree.py
+│   ├── __0105__Construct Binary Tree from Preorder and Inorder Traversal.py
 │   ├── __0108__Convert Sorted Array to Binary Search Tree.py
 │   ├── __0109__Convert Sorted List to Binary Search Tree.py
 │   ├── __0114__Flatten Binary Tree to Linked List.py
@@ -279,7 +286,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-23 directories, 255 files
+24 directories, 261 files
 
 =====================================
 ============= Local Repo ============
@@ -289,6 +296,7 @@ __0002__Add Two Numbers.py
 __0003__Longest Substring Without Repeating Characters.py
 __0004__Median of Two Sorted Arrays.py
 __0005__Longest Palindromic Substring.py
+__0009__Palindrome Number.py
 __0010__Regular Expression Matching.py
 __0011__Container With Most Water.py
 __0015__3Sum.py
@@ -311,6 +319,7 @@ __0042__Trapping Rain Water.py
 __0044__Wildcard Matching.py
 __0046__Permutations.py
 __0047__Permutations II.py
+__0048__Rotate Image.py
 __0049__Group Anagrams.py
 __0050__Pow(x, n).py
 __0051__N-Queens.py
@@ -342,6 +351,7 @@ __0101__Symmetric Tree.py
 __0102__Binary Tree Level Order Traversal.py
 __0103__Binary Tree Zigzag Level Order Traversal.py
 __0104__Maximum Depth of Binary Tree.py
+__0105__Construct Binary Tree from Preorder and Inorder Traversal.py
 __0107__Binary Tree Level Order Traversal II.py
 __0108__Convert Sorted Array to Binary Search Tree.py
 __0109__Convert Sorted List to Binary Search Tree.py
@@ -494,6 +504,7 @@ __0905__Sort Array By Parity.py
 __0909__Snakes and Ladders.py
 __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
+__0931__Minimum Falling Path Sum.py
 __0934__Shortest Bridge.py
 __0935__Knight Dialer.py
 __0958__Check Completeness of a Binary Tree.py
@@ -516,10 +527,12 @@ __1130__Minimum Cost Tree From Leaf Values.py
 __1137__N-th Tribonacci Number.py
 __1143__Longest Common Subsequence.py
 __1146__Snapshot Array.py
+__1167__Minimum Cost to Connect Sticks.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
 __1277__Count Square Submatrices with All Ones.py
+__1289__Minimum Falling Path Sum II.py
 __1319__Number of Operations to Make Network Connected.py
 __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
@@ -532,7 +545,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  247
+Num of Python Practice:  253
 
 
 =====================================
@@ -543,6 +556,7 @@ Num of Python Practice:  247
  0003 Longest Substring Without Repeating Characters
  0004 Median of Two Sorted Arrays
  0005 Longest Palindromic Substring
+ 0009 Palindrome Number
  0010 Regular Expression Matching
  0011 Container With Most Water
  0014 Longest Common Prefix
@@ -566,6 +580,7 @@ Num of Python Practice:  247
  0044 Wildcard Matching
  0046 Permutations
  0047 Permutations II
+ 0048 Rotate Image
  0049 Group Anagrams
  0050 Pow(x, n)
  0051 N-Queens
@@ -597,6 +612,7 @@ Num of Python Practice:  247
  0102 Binary Tree Level Order Traversal
  0103 Binary Tree Zigzag Level Order Traversal
  0104 Maximum Depth of Binary Tree
+ 0105 Construct Binary Tree from Preorder and Inorder Traversal
  0107 Binary Tree Level Order Traversal II
  0108 Convert Sorted Array to Binary Search Tree
  0109 Convert Sorted List to Binary Search Tree
@@ -749,6 +765,7 @@ Num of Python Practice:  247
  0909 Snakes and Ladders
  0912 Sort an Array
  0922 Sort Array By Parity II
+ 0931 Minimum Falling Path Sum
  0934 Shortest Bridge
  0935 Knight Dialer
  0958 Check Completeness of a Binary Tree
@@ -771,10 +788,12 @@ Num of Python Practice:  247
  1137 N-th Tribonacci Number
  1143 Longest Common Subsequence
  1146 Snapshot Array
+ 1167 Minimum Cost to Connect Sticks
  1214 Two Sum BSTs
  1254 Number of Closed Islands
  1268 Search Suggestions System
  1277 Count Square Submatrices with All Ones
+ 1289 Minimum Falling Path Sum II
  1319 Number of Operations to Make Network Connected
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
@@ -787,11 +806,11 @@ Num of Python Practice:  247
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   56 /  531
-Solved / Total (Medium):  175 / 1116
-Solved / Total (Hard)  :   17 /  445
-Solved / Total (All)   :  248 / 2092
-Total Score            :  666
+Solved / Total (Easy)  :   57 /  532
+Solved / Total (Medium):  179 / 1119
+Solved / Total (Hard)  :   18 /  446
+Solved / Total (All)   :  254 / 2097
+Total Score            :  684
 =====================================
 
 ```

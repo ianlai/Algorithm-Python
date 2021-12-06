@@ -1,4 +1,4 @@
-function FilterButton(props) {
+function FilterTagButton(props) {
   return (
     <button
       class="button-filter"
@@ -8,4 +8,4 @@ function FilterButton(props) {
     </button>
   );
 }
-export default FilterButton;
+export default FilterTagButton;
