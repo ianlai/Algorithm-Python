@@ -1693,7 +1693,11 @@
     "Level": 2, 
     "Title": "Number of Provinces", 
     "Url": "https://leetcode.com/problems/number-of-provinces", 
-    "Tags": [], 
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "Union-Find"
+    ], 
     "Memo": ""
 },
 {
@@ -1851,7 +1855,11 @@
     "Level": 2, 
     "Title": "Max Area of Island", 
     "Url": "https://leetcode.com/problems/max-area-of-island", 
-    "Tags": [], 
+    "Tags": [
+        "Island", 
+        "BFS", 
+        "DFS"
+    ], 
     "Memo": ""
 },
 {
@@ -1909,7 +1917,9 @@
     "Level": 2, 
     "Title": "Accounts Merge", 
     "Url": "https://leetcode.com/problems/accounts-merge", 
-    "Tags": [], 
+    "Tags": [
+        "Union-Find"
+    ], 
     "Memo": ""
 },
 {
@@ -2206,6 +2216,14 @@
         "AST"
     ], 
     "Memo": ""
+},
+{
+    "Number": "1094", 
+    "Level": 2, 
+    "Title": "Car Pooling", 
+    "Url": "https://leetcode.com/problems/car-pooling", 
+    "Tags": ["Heap", "Interval"], 
+    "Memo": "把起點排序。找出結尾最早的可以放出資源的，取出，使用heap剛好，或是做sorting。"
 },
 {
     "Number": "1096", 
