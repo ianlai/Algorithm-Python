@@ -2,28 +2,28 @@ class Solution:
         
     # 2021/12/09 
     # Timestamp [O(nlogn + n): 92%]
-    def merge3(self, intervals: List[List[int]]) -> List[List[int]]:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         print("Code-3: timestamp")
-        timestamps = collections.defaultdict(list)
+        timeToIntervalCount = collections.defaultdict(int)
         for s, e in intervals:
-            timestamps[s].append(1)
-            timestamps[e].append(-1)       
+            timeToIntervalCount[s] += 1
+            timeToIntervalCount[e] -= 1     
         
         res = []
-        openCount = 0
-        start, end = -1, -1
-        for t, onlist in sorted(timestamps.items()): 
-            openCount += sum(onlist)
-            if openCount != 0:
-                if start == -1: #first
+        curIntervalCount = 0
+        start, end = None, None
+        for t, intervalCount in sorted(timeToIntervalCount.items()): 
+            curIntervalCount += intervalCount
+            if curIntervalCount != 0:
+                if start == None: #first
                     start = t 
             else:
                 end = t
-                if start == -1:  #special case: [end, end]
+                if start == None:  #special case: [end, end]
                     res.append([end, end])    
                 else:
                     res.append([start, end])
-                start, end = -1, -1
+                start, end = None, None
         return res
     
     # =====================================================
