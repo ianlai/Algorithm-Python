@@ -1888,6 +1888,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0986", 
+    "Level": 2, 
+    "Title": "Interval List Intersections", 
+    "Url": "https://leetcode.com/problems/interval-list-intersections", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0994", 
     "Level": 2, 
     "Title": "Rotting Oranges", 

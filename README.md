@@ -10,7 +10,8 @@ algo
 │   ├── __0253__Meeting Rooms II.py
 │   ├── __0283__Move Zeroes.py
 │   ├── __0350__Intersection of Two Arrays II.py
-│   └── __0670__Maximum Swap.py
+│   ├── __0670__Maximum Swap.py
+│   └── __0986__Interval List Intersections.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
@@ -148,6 +149,7 @@ algo
 │   ├── __0692__Top K Frequent Words.py
 │   ├── __0703__Kth Largest Element in a Stream.py
 │   ├── __0973__K Closest Points to Origin.py
+│   ├── __1094__Car Pooling.py
 │   └── __1167__Minimum Cost to Connect Sticks.py
 ├── Island
 │   ├── __0130__Surrounded Regions.py
@@ -256,6 +258,7 @@ algo
 │   ├── __0031__Next Permutation.py
 │   ├── __0042__Trapping Rain Water.py
 │   ├── __0075__Sort Colors.py
+│   ├── __0080__Remove Duplicates from Sorted Array II.py
 │   ├── __0125__Valid Palindrome.py
 │   ├── __0152__Maximum Product Subarray.py
 │   ├── __0167__Two Sum II - Input array is sorted.py
@@ -286,7 +289,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 261 files
+24 directories, 264 files
 
 =====================================
 ============= Local Repo ============
@@ -336,6 +339,7 @@ __0075__Sort Colors.py
 __0077__Combinations.py
 __0078__Subsets.py
 __0079__Word Search.py
+__0080__Remove Duplicates from Sorted Array II.py
 __0083__Remove Duplicates from Sorted List.py
 __0086__Partition List.py
 __0089__Gray Code.py
@@ -512,6 +516,7 @@ __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
 __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
+__0986__Interval List Intersections.py
 __0994__Rotting Oranges.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
@@ -520,6 +525,7 @@ __1041__Robot Bounded In Circle.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
 __1087__Brace Expansion.py
+__1094__Car Pooling.py
 __1096__Brace Expansion II.py
 __1099__Two Sum Less Than K.py
 __1110__Delete Nodes And Return Forest.py
@@ -545,7 +551,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  253
+Num of Python Practice:  256
 
 
 =====================================
@@ -597,6 +603,7 @@ Num of Python Practice:  253
  0077 Combinations
  0078 Subsets
  0079 Word Search
+ 0080 Remove Duplicates from Sorted Array II
  0083 Remove Duplicates from Sorted List
  0086 Partition List
  0089 Gray Code
@@ -773,6 +780,7 @@ Num of Python Practice:  253
  0973 K Closest Points to Origin
  0979 Distribute Coins in Binary Tree
  0981 Time Based Key-Value Store
+ 0986 Interval List Intersections
  0994 Rotting Oranges
  1020 Number of Enclaves
  1025 Divisor Game
@@ -781,6 +789,7 @@ Num of Python Practice:  253
  1048 Longest String Chain
  1049 Last Stone Weight II
  1087 Brace Expansion
+ 1094 Car Pooling
  1096 Brace Expansion II
  1099 Two Sum Less Than K
  1110 Delete Nodes And Return Forest
@@ -807,10 +816,10 @@ Num of Python Practice:  253
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   57 /  532
-Solved / Total (Medium):  179 / 1119
+Solved / Total (Medium):  182 / 1115
 Solved / Total (Hard)  :   18 /  446
-Solved / Total (All)   :  254 / 2097
-Total Score            :  684
+Solved / Total (All)   :  257 / 2093
+Total Score            :  693
 =====================================
 
 ```
