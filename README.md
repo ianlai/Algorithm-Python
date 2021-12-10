@@ -198,6 +198,7 @@ algo
 │   └── __0735__Asteroid Collision.py
 ├── String
 │   ├── __0009__Palindrome Number.py
+│   ├── __0014__Longest Common Prefix.py
 │   ├── __0151__Reverse Words in a String.py
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
@@ -290,7 +291,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 265 files
+24 directories, 266 files
 
 =====================================
 ============= Local Repo ============
@@ -303,6 +304,7 @@ __0005__Longest Palindromic Substring.py
 __0009__Palindrome Number.py
 __0010__Regular Expression Matching.py
 __0011__Container With Most Water.py
+__0014__Longest Common Prefix.py
 __0015__3Sum.py
 __0016__3Sum Closest.py
 __0017__Letter Combinations of a Phone Number.py
@@ -553,7 +555,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  257
+Num of Python Practice:  258
 
 
 =====================================

@@ -360,7 +360,9 @@
     "Level": 2, 
     "Title": "Insert Interval", 
     "Url": "https://leetcode.com/problems/insert-interval", 
-    "Tags": [], 
+    "Tags": [
+        "Interval"
+    ], 
     "Memo": ""
 },
 {
