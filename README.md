@@ -4,6 +4,7 @@ algo
 │   ├── __0036__Valid Sudoku.py
 │   ├── __0053__Maximum Subarray.py
 │   ├── __0056__Merge Intervals.py
+│   ├── __0057__Insert Interval.py
 │   ├── __0122__Best Time to Buy and Sell Stock II.py
 │   ├── __0239__Sliding Window Maximum.py
 │   ├── __0252__Meeting Rooms.py
@@ -289,7 +290,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 264 files
+24 directories, 265 files
 
 =====================================
 ============= Local Repo ============
@@ -329,6 +330,7 @@ __0051__N-Queens.py
 __0052__N-Queens II.py
 __0053__Maximum Subarray.py
 __0056__Merge Intervals.py
+__0057__Insert Interval.py
 __0062__Unique Paths.py
 __0063__Unique Paths II.py
 __0064__Minimum Path Sum.py
@@ -551,7 +553,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  256
+Num of Python Practice:  257
 
 
 =====================================
@@ -593,6 +595,7 @@ Num of Python Practice:  256
  0052 N-Queens II
  0053 Maximum Subarray
  0056 Merge Intervals
+ 0057 Insert Interval
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
@@ -816,10 +819,10 @@ Num of Python Practice:  256
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   57 /  532
-Solved / Total (Medium):  182 / 1115
+Solved / Total (Medium):  183 / 1116
 Solved / Total (Hard)  :   18 /  446
-Solved / Total (All)   :  257 / 2093
-Total Score            :  693
+Solved / Total (All)   :  258 / 2094
+Total Score            :  696
 =====================================
 
 ```
