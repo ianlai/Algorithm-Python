@@ -1390,6 +1390,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0498", 
+    "Level": 2, 
+    "Title": "Diagonal Traverse", 
+    "Url": "https://leetcode.com/problems/diagonal-traverse", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0510", 
     "Level": 2, 
     "Title": "Inorder Successor in BST II", 

@@ -182,7 +182,8 @@ algo
 ├── Math
 │   └── __0593__Valid Square.py
 ├── Matrix
-│   └── __0048__Rotate Image.py
+│   ├── __0048__Rotate Image.py
+│   └── __0498__Diagonal Traverse.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -291,7 +292,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 266 files
+24 directories, 267 files
 
 =====================================
 ============= Local Repo ============
@@ -461,6 +462,7 @@ __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
 __0494__Target Sum.py
+__0498__Diagonal Traverse.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
@@ -555,7 +557,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  258
+Num of Python Practice:  259
 
 
 =====================================
@@ -726,6 +728,7 @@ Num of Python Practice:  258
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
  0494 Target Sum
+ 0498 Diagonal Traverse
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
@@ -821,10 +824,10 @@ Num of Python Practice:  258
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   57 /  532
-Solved / Total (Medium):  183 / 1116
+Solved / Total (Medium):  184 / 1116
 Solved / Total (Hard)  :   18 /  446
-Solved / Total (All)   :  258 / 2094
-Total Score            :  696
+Solved / Total (All)   :  259 / 2094
+Total Score            :  699
 =====================================
 
 ```
