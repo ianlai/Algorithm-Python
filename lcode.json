@@ -1791,6 +1791,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0875", 
+    "Level": 2, 
+    "Title": "Koko Eating Bananas", 
+    "Url": "https://leetcode.com/problems/koko-eating-bananas", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0905", 
     "Level": 1, 
     "Title": "Sort Array By Parity", 

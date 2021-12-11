@@ -982,7 +982,10 @@
     "Level": 2, 
     "Title": "Maximum Product Subarray", 
     "Url": "https://leetcode.com/problems/maximum-product-subarray", 
-    "Tags": [], 
+    "Tags": [
+        "Two-Pointer", 
+        "**SLOW"
+    ], 
     "Memo": ""
 },
 {
@@ -1041,8 +1044,12 @@
     "Level": 2, 
     "Title": "Rotate Array", 
     "Url": "https://leetcode.com/problems/rotate-array", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Array", 
+        "Rotation", 
+        "Two-Pointer"
+    ], 
+    "Memo": "可使用三步翻轉法。"
 },
 {
     "Number": "0199", 
@@ -1254,7 +1261,7 @@
     "Tags": [
         "Parentheses", 
         "Memoization", 
-        "*"
+        "**CHECK"
     ], 
     "Memo": ""
 },
@@ -2107,6 +2114,14 @@
     "Level": 2, 
     "Title": "All Nodes Distance K in Binary Tree", 
     "Url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0875", 
+    "Level": 2, 
+    "Title": "Koko Eating Bananas", 
+    "Url": "https://leetcode.com/problems/koko-eating-bananas", 
     "Tags": [], 
     "Memo": ""
 },

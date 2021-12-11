@@ -48,6 +48,7 @@ algo
 │   ├── __0658__Find K Closest Elements.py
 │   ├── __0702__Search in a Sorted Array of Unknown Size.py
 │   ├── __0704__Binary Search.py
+│   ├── __0875__Koko Eating Bananas.py
 │   ├── __0981__Time Based Key-Value Store.py
 │   └── __1146__Snapshot Array.py
 ├── BitOperation
@@ -292,7 +293,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 267 files
+24 directories, 268 files
 
 =====================================
 ============= Local Repo ============
@@ -510,6 +511,7 @@ __0797__All Paths From Source to Target.py
 __0811__Subdomain Visit Count.py
 __0841__Keys and Rooms.py
 __0863__All Nodes Distance K in Binary Tree.py
+__0875__Koko Eating Bananas.py
 __0905__Sort Array By Parity.py
 __0909__Snakes and Ladders.py
 __0912__Sort an Array.py
@@ -557,7 +559,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  259
+Num of Python Practice:  260
 
 
 =====================================
@@ -776,6 +778,7 @@ Num of Python Practice:  259
  0811 Subdomain Visit Count
  0841 Keys and Rooms
  0863 All Nodes Distance K in Binary Tree
+ 0875 Koko Eating Bananas
  0905 Sort Array By Parity
  0909 Snakes and Ladders
  0912 Sort an Array
@@ -824,10 +827,10 @@ Num of Python Practice:  259
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   57 /  532
-Solved / Total (Medium):  184 / 1116
+Solved / Total (Medium):  185 / 1116
 Solved / Total (Hard)  :   18 /  446
-Solved / Total (All)   :  259 / 2094
-Total Score            :  699
+Solved / Total (All)   :  260 / 2094
+Total Score            :  702
 =====================================
 
 ```
