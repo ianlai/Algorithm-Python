@@ -1,8 +1,33 @@
 class Solution:
-
-    # 2021/11/09
-    # Binary Search [O(logn), 92%] 
+    
+    # 2021/12/11 
+    # Binary Search [O(logn): 29%]
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        print("Code-2")
+        start, end = 0, len(nums)
+        while start < end:
+            mid = start + (end - start) // 2
+            if nums[mid] <= target: #left part: <=, right part: >, find last left 
+                start = mid + 1
+            elif nums[mid] > target: 
+                end = mid
+        ans1 = start - 1 if start != 0 and nums[start - 1] == target else -1 
+
+        start, end = 0, len(nums)
+        while start < end:
+            mid = start + (end - start) // 2
+            if nums[mid] < target: #left part: <, right part: >=, find first right 
+                start = mid + 1
+            elif nums[mid] >= target: 
+                end = mid
+        ans2 = start if start != len(nums) and nums[start] == target else -1
+        
+        return [ans2, ans1]
+        
+    # ====================================================
+    # 2021/11/09
+    def searchRange1(self, nums: List[int], target: int) -> List[int]:
+        print("Code-1")
         if not nums:
             return [-1, -1] 
         
@@ -38,49 +63,3 @@ class Solution:
             last = -1
         
         return [first, last]
-
-    # ==================================================
-    
-    # 2021/05/09
-    # Binary Search [O(logn), 68%]  
-    def searchRange1(self, nums: List[int], target: int) -> List[int]:
-        if not nums:
-            return [-1, -1]
-        
-        firstIdx, lastIdx = -1, -1 
-        
-        # Find first position 
-        start, end = 0, len(nums) - 1 
-        while start + 1 < end:
-            mid = start + (end - start) // 2
-            if nums[mid] == target:  #not done yet, continue
-                end = mid 
-            if nums[mid] < target:
-                start = mid
-            if nums[mid] > target:
-                end = mid 
-                
-        print("firstIdx:", start, end)
-        if nums[start] == target:  #start (left) should check first
-            firstIdx = start
-        elif nums[end] == target:
-            firstIdx = end 
-    
-        # Find last position
-        start, end = 0, len(nums) - 1 
-        while start + 1 < end:
-            mid = start + (end - start) // 2
-            if nums[mid] == target:  #not done yet, continue
-                start = mid 
-            if nums[mid] < target:
-                start = mid
-            if nums[mid] > target:
-                end = mid 
-                
-        print("lastIdx:", start, end)
-        if nums[end] == target:  #end (right) should check first
-            lastIdx = end
-        elif nums[start] == target:
-            lastIdx = start 
-            
-        return [firstIdx, lastIdx]
