@@ -1,11 +1,36 @@
 class Solution:
-
     
+    # 2021/12/12
+    # Binary Search (loop invariant considered) [O(logn): 6%]
     def singleNonDuplicate(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+        print("Code4")
+        start, end = 0, len(nums)
+        while start < end:
+            mid = start + (end - start) // 2
+            if mid == 0:
+                return nums[mid]
+            if mid == len(nums) - 1:
+                return nums[mid]
+                
+            if nums[mid-1] != nums[mid] != nums[mid+1]:
+                return nums[mid]
+            if mid % 2 == 0:
+                if nums[mid] == nums[mid+1]:
+                    start = mid + 2
+                elif nums[mid-1] == nums[mid]:
+                    end = mid - 1 
+            else:
+                if nums[mid-1] == nums[mid]:
+                    start = mid + 1
+                elif nums[mid] == nums[mid+1]:
+                    end = mid 
+        return start 
+                
+    # ==================================
+    # 2021/08/06
+    # Binary Search [7%]
+    def singleNonDuplicate3(self, nums):
+        print("Code3")
         left, right = 0, len(nums) - 1
         while left + 1 < right:
             mid = (left + right) // 2
@@ -24,9 +49,10 @@ class Solution:
             return nums[left]
         return nums[right]
 
-
-    # Binary Search [O(logn): 53%]
-    def singleNonDuplicate1(self, nums: List[int]) -> int:
+    # ==================================
+    # Binary Search [O(logn): 10%]
+    def singleNonDuplicate2(self, nums: List[int]) -> int:
+        print("Code2")
         #Special case
         if len(nums) == 1:
             return nums[0]
@@ -59,8 +85,10 @@ class Solution:
                 return nums[end]
         return -1
     
-    # XOR [O(n): 77%]
-    def singleNonDuplicate2(self, nums: List[int]) -> int:
+    # ==================================
+    # XOR [O(n): 6%]
+    def singleNonDuplicate1(self, nums: List[int]) -> int:
+        print("Code1")
         x = 0
         for i in nums:
             x ^= i
