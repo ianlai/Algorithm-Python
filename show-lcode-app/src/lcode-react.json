@@ -1645,7 +1645,7 @@
     "Level": 1, 
     "Title": "Arranging Coins", 
     "Url": "https://leetcode.com/problems/arranging-coins", 
-    "Tags": [], 
+    "Tags": ["Binary-Search", "Math"], 
     "Memo": ""
 },
 {
@@ -2451,7 +2451,7 @@
     "Level": 2, 
     "Title": "Find Smallest Common Element in All Rows", 
     "Url": "https://leetcode.com/problems/find-smallest-common-element-in-all-rows", 
-    "Tags": [], 
+    "Tags": ["Binary-Search"], 
     "Memo": ""
 },
 {

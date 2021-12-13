@@ -51,7 +51,8 @@ algo
 │   ├── __0704__Binary Search.py
 │   ├── __0875__Koko Eating Bananas.py
 │   ├── __0981__Time Based Key-Value Store.py
-│   └── __1146__Snapshot Array.py
+│   ├── __1146__Snapshot Array.py
+│   └── __1198__Find Smallest Common Element in All Rows.py
 ├── BitOperation
 │   └── __0136__Single Number.py
 ├── DFS
@@ -294,7 +295,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 269 files
+24 directories, 270 files
 
 =====================================
 ============= Local Repo ============
@@ -544,6 +545,7 @@ __1137__N-th Tribonacci Number.py
 __1143__Longest Common Subsequence.py
 __1146__Snapshot Array.py
 __1167__Minimum Cost to Connect Sticks.py
+__1198__Find Smallest Common Element in All Rows.py
 __1214__Two Sum BSTs.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
@@ -561,7 +563,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  261
+Num of Python Practice:  262
 
 
 =====================================
