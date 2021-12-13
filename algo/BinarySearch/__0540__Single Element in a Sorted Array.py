@@ -1,19 +1,50 @@
 class Solution:
     
+    # 2021/12/13 (OK)
+    # Binary Search even list (loop invariant considered) [O(logn): 9%]
+    def singleNonDuplicate(self, nums):
+        print("Code6")
+        start, end = 0, len(nums) // 2
+        while start < end:
+            mid = start + (end - start) // 2
+            if nums[mid * 2] == nums[mid * 2 + 1]:
+                start = mid + 1
+            else:
+                end = mid
+        return nums[start * 2]
+    
+    # ==================================
+
+    # 2021/12/13
+    # Binary Search even list (loop invariant considered) [O(logn): 9%]
+    def singleNonDuplicate5(self, nums):
+        print("Code5")
+        nums.append(None)
+        start, end = 0, len(nums) // 2
+        while start < end:
+            mid = start + (end - start) // 2
+            midOrigin = mid * 2
+            if nums[midOrigin] == nums[midOrigin+1]:
+                start = mid + 1
+            else:
+                end = mid
+        startOrigin = start * 2
+        return nums[startOrigin] if startOrigin != len(nums) - 2 else nums[-2]
+    
+    # ==================================
+
     # 2021/12/12
     # Binary Search (loop invariant considered) [O(logn): 6%]
-    def singleNonDuplicate(self, nums):
+    def singleNonDuplicate4(self, nums):
         print("Code4")
         start, end = 0, len(nums)
         while start < end:
             mid = start + (end - start) // 2
-            if mid == 0:
+            if mid == 0 or mid == len(nums) - 1:
                 return nums[mid]
-            if mid == len(nums) - 1:
-                return nums[mid]
-                
             if nums[mid-1] != nums[mid] != nums[mid+1]:
                 return nums[mid]
+            
             if mid % 2 == 0:
                 if nums[mid] == nums[mid+1]:
                     start = mid + 2
@@ -86,6 +117,7 @@ class Solution:
         return -1
     
     # ==================================
+    
     # XOR [O(n): 6%]
     def singleNonDuplicate1(self, nums: List[int]) -> int:
         print("Code1")
@@ -93,3 +125,13 @@ class Solution:
         for i in nums:
             x ^= i
         return x
+    
+    # ==================================
+    
+    # Linear Search [O(n): 5%]
+    def singleNonDuplicate0(self, nums: List[int]) -> int:
+        print("Code0")
+        for i in range(1, len(nums), 2):
+            if nums[i-1] != nums[i]:
+                return nums[i-1]
+        return nums[-1] 

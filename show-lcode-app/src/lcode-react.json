@@ -1749,8 +1749,8 @@
     "Level": 2, 
     "Title": "Single Element in a Sorted Array", 
     "Url": "https://leetcode.com/problems/single-element-in-a-sorted-array", 
-    "Tags": ["Binary-Search"], 
-    "Memo": ""
+    "Tags": ["Binary-Search", "大神"], 
+    "Memo": "掃過一次前後比較或是使用XOR，都必須只能拿到O(n)的速度。因為兩兩相同的擺在一起，所以可以使用BinarySearch，只是目標左標和目標右邊的條件不同（因為index是奇數或偶數，需要分開處理）。"
 },
 {
     "Number": "0542", 
