@@ -43,6 +43,7 @@ algo
 │   ├── __0240__Search a 2D Matrix II.py
 │   ├── __0278__First Bad Version.py
 │   ├── __0362__Design Hit Counter.py
+│   ├── __0441__Arranging Coins.py
 │   ├── __0528__Random Pick with Weight.py
 │   ├── __0540__Single Element in a Sorted Array.py
 │   ├── __0658__Find K Closest Elements.py
@@ -293,7 +294,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 268 files
+24 directories, 269 files
 
 =====================================
 ============= Local Repo ============
@@ -459,6 +460,7 @@ __0416__Partition Equal Subset Sum.py
 __0417__Pacific Atlantic Water Flow.py
 __0423__Reconstruct Original Digits from English.py
 __0437__Path Sum III.py
+__0441__Arranging Coins.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
@@ -559,7 +561,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  260
+Num of Python Practice:  261
 
 
 =====================================
@@ -726,6 +728,7 @@ Num of Python Practice:  260
  0417 Pacific Atlantic Water Flow
  0423 Reconstruct Original Digits from English
  0437 Path Sum III
+ 0441 Arranging Coins
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
@@ -809,6 +812,7 @@ Num of Python Practice:  260
  1143 Longest Common Subsequence
  1146 Snapshot Array
  1167 Minimum Cost to Connect Sticks
+ 1198 Find Smallest Common Element in All Rows
  1214 Two Sum BSTs
  1254 Number of Closed Islands
  1268 Search Suggestions System
@@ -826,11 +830,11 @@ Num of Python Practice:  260
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   57 /  532
-Solved / Total (Medium):  185 / 1116
-Solved / Total (Hard)  :   18 /  446
-Solved / Total (All)   :  260 / 2094
-Total Score            :  702
+Solved / Total (Easy)  :   58 /  534
+Solved / Total (Medium):  186 / 1120
+Solved / Total (Hard)  :   18 /  448
+Solved / Total (All)   :  262 / 2102
+Total Score            :  706
 =====================================
 
 ```

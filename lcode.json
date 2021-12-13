@@ -1358,6 +1358,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0441", 
+    "Level": 1, 
+    "Title": "Arranging Coins", 
+    "Url": "https://leetcode.com/problems/arranging-coins", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0450", 
     "Level": 2, 
     "Title": "Delete Node in a BST", 
@@ -2064,6 +2072,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Minimum Cost to Connect Sticks", 
     "Url": "https://leetcode.com/problems/minimum-cost-to-connect-sticks", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1198", 
+    "Level": 2, 
+    "Title": "Find Smallest Common Element in All Rows", 
+    "Url": "https://leetcode.com/problems/find-smallest-common-element-in-all-rows", 
     "Tags": [], 
     "Memo": ""
 },
