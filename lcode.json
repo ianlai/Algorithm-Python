@@ -403,6 +403,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0081", 
+    "Level": 2, 
+    "Title": "Search in Rotated Sorted Array II", 
+    "Url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0083", 
     "Level": 1, 
     "Title": "Remove Duplicates from Sorted List", 

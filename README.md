@@ -38,6 +38,7 @@ algo
 │   ├── __0050__Pow(x, n).py
 │   ├── __0069__Sqrt(x).py
 │   ├── __0074__Search a 2D Matrix.py
+│   ├── __0081__Search in Rotated Sorted Array II.py
 │   ├── __0153__Find Minimum in Rotated Sorted Array.py
 │   ├── __0162__Find Peak Element.py
 │   ├── __0240__Search a 2D Matrix II.py
@@ -295,7 +296,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 270 files
+24 directories, 271 files
 
 =====================================
 ============= Local Repo ============
@@ -348,6 +349,7 @@ __0077__Combinations.py
 __0078__Subsets.py
 __0079__Word Search.py
 __0080__Remove Duplicates from Sorted Array II.py
+__0081__Search in Rotated Sorted Array II.py
 __0083__Remove Duplicates from Sorted List.py
 __0086__Partition List.py
 __0089__Gray Code.py
@@ -563,7 +565,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  262
+Num of Python Practice:  263
 
 
 =====================================
@@ -617,6 +619,7 @@ Num of Python Practice:  262
  0078 Subsets
  0079 Word Search
  0080 Remove Duplicates from Sorted Array II
+ 0081 Search in Rotated Sorted Array II
  0083 Remove Duplicates from Sorted List
  0086 Partition List
  0089 Gray Code
@@ -833,10 +836,10 @@ Num of Python Practice:  262
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  534
-Solved / Total (Medium):  186 / 1120
+Solved / Total (Medium):  187 / 1120
 Solved / Total (Hard)  :   18 /  448
-Solved / Total (All)   :  262 / 2102
-Total Score            :  706
+Solved / Total (All)   :  263 / 2102
+Total Score            :  709
 =====================================
 
 ```
