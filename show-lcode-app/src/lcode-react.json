@@ -390,6 +390,14 @@
     "Memo": ""
 },
 {
+    "Number": "0061", 
+    "Level": 2, 
+    "Title": "Rotate List", 
+    "Url": "https://leetcode.com/problems/rotate-list", 
+    "Tags": ["LinkedList"], 
+    "Memo": "找到新的頭，可以使用同向雙指標或是計數節點。因為k可能大過節點，所以乾脆就直接計數。"
+},
+{
     "Number": "0062", 
     "Level": 2, 
     "Title": "Unique Paths", 
@@ -506,7 +514,9 @@
     "Level": 2, 
     "Title": "Search in Rotated Sorted Array II", 
     "Url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii", 
-    "Tags": ["Binary-Search"], 
+    "Tags": [
+        "Binary-Search"
+    ], 
     "Memo": ""
 },
 {
@@ -536,7 +546,8 @@
     "Title": "Gray Code", 
     "Url": "https://leetcode.com/problems/gray-code", 
     "Tags": [
-        "Backtracking" , "**SLOW"
+        "Backtracking", 
+        "**SLOW"
     ], 
     "Memo": "只拿到5%，還要再看。"
 },

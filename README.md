@@ -172,6 +172,7 @@ algo
 │   ├── __0019__Remove Nth Node From End of List.py
 │   ├── __0021__Merge Two Sorted Lists.py
 │   ├── __0023__Merge k Sorted Lists.py
+│   ├── __0061__Rotate List.py
 │   ├── __0083__Remove Duplicates from Sorted List.py
 │   ├── __0086__Partition List.py
 │   ├── __0092__Reverse Linked List II.py
@@ -296,7 +297,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 271 files
+24 directories, 272 files
 
 =====================================
 ============= Local Repo ============
@@ -338,6 +339,7 @@ __0052__N-Queens II.py
 __0053__Maximum Subarray.py
 __0056__Merge Intervals.py
 __0057__Insert Interval.py
+__0061__Rotate List.py
 __0062__Unique Paths.py
 __0063__Unique Paths II.py
 __0064__Minimum Path Sum.py
@@ -565,7 +567,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  263
+Num of Python Practice:  264
 
 
 =====================================
@@ -608,6 +610,7 @@ Num of Python Practice:  263
  0053 Maximum Subarray
  0056 Merge Intervals
  0057 Insert Interval
+ 0061 Rotate List
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
@@ -836,10 +839,10 @@ Num of Python Practice:  263
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  534
-Solved / Total (Medium):  187 / 1120
+Solved / Total (Medium):  188 / 1120
 Solved / Total (Hard)  :   18 /  448
-Solved / Total (All)   :  263 / 2102
-Total Score            :  709
+Solved / Total (All)   :  264 / 2102
+Total Score            :  712
 =====================================
 
 ```

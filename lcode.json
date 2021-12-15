@@ -315,6 +315,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0061", 
+    "Level": 2, 
+    "Title": "Rotate List", 
+    "Url": "https://leetcode.com/problems/rotate-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0062", 
     "Level": 2, 
     "Title": "Unique Paths", 
