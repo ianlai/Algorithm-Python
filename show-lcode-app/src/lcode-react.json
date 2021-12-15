@@ -536,7 +536,7 @@
     "Title": "Gray Code", 
     "Url": "https://leetcode.com/problems/gray-code", 
     "Tags": [
-        "Backtracking"
+        "Backtracking" , "**SLOW"
     ], 
     "Memo": "只拿到5%，還要再看。"
 },
