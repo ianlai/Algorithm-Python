@@ -394,7 +394,9 @@
     "Level": 2, 
     "Title": "Rotate List", 
     "Url": "https://leetcode.com/problems/rotate-list", 
-    "Tags": ["LinkedList"], 
+    "Tags": [
+        "LinkedList"
+    ], 
     "Memo": "找到新的頭，可以使用同向雙指標或是計數節點。因為k可能大過節點，所以乾脆就直接計數。"
 },
 {
@@ -1026,6 +1028,14 @@
     "Memo": ""
 },
 {
+    "Number": "0159", 
+    "Level": 2, 
+    "Title": "Longest Substring with At Most Two Distinct Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters", 
+    "Tags": ["Two-Pointer", "Sliding-Window"], 
+    "Memo": "類似0003，找最長不重複Substring。"
+},
+{
     "Number": "0160", 
     "Level": 1, 
     "Title": "Intersection of Two Linked Lists", 
@@ -1470,6 +1480,19 @@
         "Island"
     ], 
     "Memo": "使用Union-Find可以過。"
+},
+{
+    "Number": "0310", 
+    "Level": 2, 
+    "Title": "Minimum Height Trees", 
+    "Url": "https://leetcode.com/problems/minimum-height-trees", 
+    "Tags": [
+        "Graph", 
+        "BFS", 
+        "Topological-Sorting", 
+        "**HARD"
+    ], 
+    "Memo": ""
 },
 {
     "Number": "0314", 

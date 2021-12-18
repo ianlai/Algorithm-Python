@@ -822,6 +822,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0159", 
+    "Level": 2, 
+    "Title": "Longest Substring with At Most Two Distinct Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0160", 
     "Level": 1, 
     "Title": "Intersection of Two Linked Lists", 
@@ -1197,6 +1205,14 @@ lcode_data = `
         "Matrix"
     ], 
     "Memo": "使用Union-Find可以過。"
+},
+{
+    "Number": "0310", 
+    "Level": 2, 
+    "Title": "Minimum Height Trees", 
+    "Url": "https://leetcode.com/problems/minimum-height-trees", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0314", 

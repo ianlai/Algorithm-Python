@@ -1,0 +1,17 @@
+
+(0) mid不被包入搜索
+(1a) 搜尋範圍是[start, end) 
+    => while start<end: if not f(mid) start = mid + 1; else end = mid  
+    => f(start - 1) -> F, end -> T
+
+(1b) 搜尋範圍是[start, end]
+    => while start<=end: start = mid+1, end = mid -1
+    => start - 1 -> F, end + 1 -> T
+
+(2) 0->F, maxBanana->T 
+(3a) start = 1, end = maxBanana
+(3b) start = 1, end = maxBanana - 1
+
+======================
+不知道的範圍  1 ~ maxBanana-1
+start = 1 ; end = maxBanana 

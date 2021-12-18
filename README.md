@@ -26,6 +26,7 @@ algo
 │   ├── __0210__Course Schedule II.py
 │   ├── __0286__Walls and Gates.py
 │   ├── __0297__Serialize and Deserialize Binary Tree.py
+│   ├── __0310__Minimum Height Trees.py
 │   ├── __0515__Find Largest Value in Each Tree Row.py
 │   ├── __0662__Maximum Width of Binary Tree.py
 │   ├── __0752__Open the Lock.py
@@ -50,6 +51,7 @@ algo
 │   ├── __0658__Find K Closest Elements.py
 │   ├── __0702__Search in a Sorted Array of Unknown Size.py
 │   ├── __0704__Binary Search.py
+│   ├── __0875_Note
 │   ├── __0875__Koko Eating Bananas.py
 │   ├── __0981__Time Based Key-Value Store.py
 │   ├── __1146__Snapshot Array.py
@@ -269,6 +271,7 @@ algo
 │   ├── __0080__Remove Duplicates from Sorted Array II.py
 │   ├── __0125__Valid Palindrome.py
 │   ├── __0152__Maximum Product Subarray.py
+│   ├── __0159__Longest Substring with At Most Two Distinct Characters.py
 │   ├── __0167__Two Sum II - Input array is sorted.py
 │   ├── __0189__Rotate Array.py
 │   ├── __0259__3Sum Smaller.py
@@ -297,7 +300,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 272 files
+24 directories, 275 files
 
 =====================================
 ============= Local Repo ============
@@ -401,6 +404,7 @@ __0151__Reverse Words in a String.py
 __0152__Maximum Product Subarray.py
 __0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
+__0159__Longest Substring with At Most Two Distinct Characters.py
 __0160__Intersection of Two Linked Lists.py
 __0162__Find Peak Element.py
 __0167__Two Sum II - Input array is sorted.py
@@ -445,6 +449,7 @@ __0290__Word Pattern.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0300__Longest Increasing Subsequence.py
 __0305__Number of Islands II.py
+__0310__Minimum Height Trees.py
 __0314__Binary Tree Vertical Order Traversal.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
@@ -567,7 +572,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  264
+Num of Python Practice:  266
 
 
 =====================================
@@ -672,6 +677,7 @@ Num of Python Practice:  264
  0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
  0155 Min Stack
+ 0159 Longest Substring with At Most Two Distinct Characters
  0160 Intersection of Two Linked Lists
  0162 Find Peak Element
  0167 Two Sum II - Input Array Is Sorted
@@ -716,6 +722,7 @@ Num of Python Practice:  264
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
  0305 Number of Islands II
+ 0310 Minimum Height Trees
  0314 Binary Tree Vertical Order Traversal
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
@@ -839,10 +846,10 @@ Num of Python Practice:  264
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  534
-Solved / Total (Medium):  188 / 1120
+Solved / Total (Medium):  190 / 1125
 Solved / Total (Hard)  :   18 /  448
-Solved / Total (All)   :  264 / 2102
-Total Score            :  712
+Solved / Total (All)   :  266 / 2107
+Total Score            :  718
 =====================================
 
 ```
