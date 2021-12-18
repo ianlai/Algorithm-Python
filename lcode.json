@@ -1251,6 +1251,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0340", 
+    "Level": 2, 
+    "Title": "Longest Substring with At Most K Distinct Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0341", 
     "Level": 2, 
     "Title": "Flatten Nested List Iterator", 

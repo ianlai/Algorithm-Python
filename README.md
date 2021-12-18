@@ -276,6 +276,7 @@ algo
 │   ├── __0189__Rotate Array.py
 │   ├── __0259__3Sum Smaller.py
 │   ├── __0277__Find the Celebrity.py
+│   ├── __0340__Longest Substring with At Most K Distinct Characters.py
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
 │   ├── __0680__Valid Palindrome II.py
@@ -300,7 +301,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 275 files
+24 directories, 276 files
 
 =====================================
 ============= Local Repo ============
@@ -454,6 +455,7 @@ __0314__Binary Tree Vertical Order Traversal.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0332__Reconstruct Itinerary.py
+__0340__Longest Substring with At Most K Distinct Characters.py
 __0341__Flatten Nested List Iterator.py
 __0347__Top K Frequent Elements.py
 __0350__Intersection of Two Arrays II.py
@@ -572,7 +574,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  266
+Num of Python Practice:  267
 
 
 =====================================
@@ -727,6 +729,7 @@ Num of Python Practice:  266
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
  0332 Reconstruct Itinerary
+ 0340 Longest Substring with At Most K Distinct Characters
  0341 Flatten Nested List Iterator
  0347 Top K Frequent Elements
  0350 Intersection of Two Arrays II
@@ -846,10 +849,10 @@ Num of Python Practice:  266
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  534
-Solved / Total (Medium):  190 / 1125
+Solved / Total (Medium):  191 / 1125
 Solved / Total (Hard)  :   18 /  448
-Solved / Total (All)   :  266 / 2107
-Total Score            :  718
+Solved / Total (All)   :  267 / 2107
+Total Score            :  721
 =====================================
 
 ```

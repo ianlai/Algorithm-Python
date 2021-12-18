@@ -1032,7 +1032,10 @@
     "Level": 2, 
     "Title": "Longest Substring with At Most Two Distinct Characters", 
     "Url": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters", 
-    "Tags": ["Two-Pointer", "Sliding-Window"], 
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window"
+    ], 
     "Memo": "類似0003，找最長不重複Substring。"
 },
 {
@@ -1532,6 +1535,15 @@
         "Graph"
     ], 
     "Memo": ""
+},
+{
+    "Number": "0340", 
+    "Level": 2, 
+    "Title": "Longest Substring with At Most K Distinct Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters", 
+    "Tags": ["Two-Pointer", 
+        "Sliding-Window"], 
+    "Memo": "類似0003, 0159。"
 },
 {
     "Number": "0341", 
