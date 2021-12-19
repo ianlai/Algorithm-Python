@@ -247,6 +247,7 @@ algo
 │   ├── __0572__Subtree of Another Tree.py
 │   ├── __0617__Merge Two Binary Trees.py
 │   ├── __0687__Longest Univalue Path.py
+│   ├── __0776__Split BST.py
 │   ├── __0863__All Nodes Distance K in Binary Tree.py
 │   ├── __0958__Check Completeness of a Binary Tree.py
 │   ├── __0979__Distribute Coins in Binary Tree.py
@@ -288,6 +289,7 @@ algo
 │   ├── __1214__Two Sum BSTs.py
 │   └── __1711__Count Good Meals.py
 ├── UnionFind
+│   ├── DisjointSet.py
 │   ├── __0128__Longest Consecutive Sequence.py
 │   └── __0721__Accounts Merge.py
 └── _Experiment
@@ -301,7 +303,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 276 files
+24 directories, 278 files
 
 =====================================
 ============= Local Repo ============
@@ -519,6 +521,7 @@ __0735__Asteroid Collision.py
 __0743__Network Delay Time.py
 __0752__Open the Lock.py
 __0767__Reorganize String.py
+__0776__Split BST.py
 __0784__Letter Case Permutation.py
 __0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
@@ -574,7 +577,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  267
+Num of Python Practice:  268
 
 
 =====================================
@@ -793,6 +796,7 @@ Num of Python Practice:  267
  0743 Network Delay Time
  0752 Open the Lock
  0767 Reorganize String
+ 0776 Split BST
  0784 Letter Case Permutation
  0787 Cheapest Flights Within K Stops
  0797 All Paths From Source to Target
@@ -848,11 +852,11 @@ Num of Python Practice:  267
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   58 /  534
-Solved / Total (Medium):  191 / 1125
-Solved / Total (Hard)  :   18 /  448
-Solved / Total (All)   :  267 / 2107
-Total Score            :  721
+Solved / Total (Easy)  :   58 /  535
+Solved / Total (Medium):  192 / 1127
+Solved / Total (Hard)  :   18 /  449
+Solved / Total (All)   :  268 / 2111
+Total Score            :  724
 =====================================
 
 ```

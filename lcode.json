@@ -1788,6 +1788,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0776", 
+    "Level": 2, 
+    "Title": "Split BST", 
+    "Url": "https://leetcode.com/problems/split-bst", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0784", 
     "Level": 2, 
     "Title": "Letter Case Permutation", 

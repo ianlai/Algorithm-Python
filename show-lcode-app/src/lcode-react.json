@@ -1541,8 +1541,10 @@
     "Level": 2, 
     "Title": "Longest Substring with At Most K Distinct Characters", 
     "Url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters", 
-    "Tags": ["Two-Pointer", 
-        "Sliding-Window"], 
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window"
+    ], 
     "Memo": "類似0003, 0159。"
 },
 {
@@ -2135,6 +2137,14 @@
     "Title": "Reorganize String", 
     "Url": "https://leetcode.com/problems/reorganize-string", 
     "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0776", 
+    "Level": 2, 
+    "Title": "Split BST", 
+    "Url": "https://leetcode.com/problems/split-bst", 
+    "Tags": ["Tree", "BST", "**HARD"], 
     "Memo": ""
 },
 {
