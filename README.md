@@ -238,6 +238,7 @@ algo
 │   ├── __0341__Flatten Nested List Iterator.py
 │   ├── __0366__Find Leaves of Binary Tree.py
 │   ├── __0437__Path Sum III.py
+│   ├── __0449__Serialize and Deserialize BST.py
 │   ├── __0450__Delete Node in a BST.py
 │   ├── __0510__Inorder Successor in BST II.py
 │   ├── __0513__Find Bottom Left Tree Value.py
@@ -303,7 +304,7 @@ algo
         ├── LinkedList.cpython-37.pyc
         └── UnrolledLinkedList.cpython-37.pyc
 
-24 directories, 278 files
+24 directories, 279 files
 
 =====================================
 ============= Local Repo ============
@@ -475,6 +476,7 @@ __0417__Pacific Atlantic Water Flow.py
 __0423__Reconstruct Original Digits from English.py
 __0437__Path Sum III.py
 __0441__Arranging Coins.py
+__0449__Serialize and Deserialize BST.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
@@ -577,7 +579,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  268
+Num of Python Practice:  269
 
 
 =====================================
@@ -750,6 +752,7 @@ Num of Python Practice:  268
  0423 Reconstruct Original Digits from English
  0437 Path Sum III
  0441 Arranging Coins
+ 0449 Serialize and Deserialize BST
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
@@ -853,10 +856,10 @@ Num of Python Practice:  268
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  535
-Solved / Total (Medium):  192 / 1127
+Solved / Total (Medium):  193 / 1128
 Solved / Total (Hard)  :   18 /  449
-Solved / Total (All)   :  268 / 2111
-Total Score            :  724
+Solved / Total (All)   :  269 / 2112
+Total Score            :  727
 =====================================
 
 ```
