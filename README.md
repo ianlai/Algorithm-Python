@@ -234,6 +234,7 @@ algo
 │   ├── __0236__Lowest Common Ancestor of a Binary Tree.py
 │   ├── __0257__Binary Tree Paths.py
 │   ├── __0270__Closest Binary Search Tree Value.py
+│   ├── __0285__Inorder Successor in BST.py
 │   ├── __0314__Binary Tree Vertical Order Traversal.py
 │   ├── __0341__Flatten Nested List Iterator.py
 │   ├── __0366__Find Leaves of Binary Tree.py
@@ -293,18 +294,21 @@ algo
 │   ├── DisjointSet.py
 │   ├── __0128__Longest Consecutive Sequence.py
 │   └── __0721__Accounts Merge.py
-└── _Experiment
-    ├── 20210616_currency_rate.py
-    ├── ArrayList.py
-    ├── LinkedList.py
-    ├── UnrolledLinkedList.py
-    ├── UnrolledLinkedList_Benchmark.py
-    └── __pycache__
-        ├── ArrayList.cpython-37.pyc
-        ├── LinkedList.cpython-37.pyc
-        └── UnrolledLinkedList.cpython-37.pyc
+├── _Experiment
+│   ├── 20210616_currency_rate.py
+│   ├── ArrayList.py
+│   ├── LinkedList.py
+│   ├── UnrolledLinkedList.py
+│   ├── UnrolledLinkedList_Benchmark.py
+│   └── __pycache__
+│       ├── ArrayList.cpython-37.pyc
+│       ├── LinkedList.cpython-37.pyc
+│       └── UnrolledLinkedList.cpython-37.pyc
+└── _Interviews
+    ├── Countries.py
+    └── SwitchingArray.py
 
-24 directories, 279 files
+25 directories, 282 files
 
 =====================================
 ============= Local Repo ============
@@ -447,6 +451,7 @@ __0277__Find the Celebrity.py
 __0278__First Bad Version.py
 __0279__Perfect Squares.py
 __0283__Move Zeroes.py
+__0285__Inorder Successor in BST.py
 __0286__Walls and Gates.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
@@ -579,7 +584,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  269
+Num of Python Practice:  270
 
 
 =====================================
@@ -723,6 +728,7 @@ Num of Python Practice:  269
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
+ 0285 Inorder Successor in BST
  0286 Walls and Gates
  0287 Find the Duplicate Number
  0290 Word Pattern
@@ -856,10 +862,10 @@ Num of Python Practice:  269
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  535
-Solved / Total (Medium):  193 / 1128
+Solved / Total (Medium):  194 / 1128
 Solved / Total (Hard)  :   18 /  449
-Solved / Total (All)   :  269 / 2112
-Total Score            :  727
+Solved / Total (All)   :  270 / 2112
+Total Score            :  730
 =====================================
 
 ```

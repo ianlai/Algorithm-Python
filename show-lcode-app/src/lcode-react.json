@@ -1420,6 +1420,14 @@
     "Memo": ""
 },
 {
+    "Number": "0285", 
+    "Level": 2, 
+    "Title": "Inorder Successor in BST", 
+    "Url": "https://leetcode.com/problems/inorder-successor-in-bst", 
+    "Tags": ["Tree", "BST"], 
+    "Memo": ""
+},
+{
     "Number": "0286", 
     "Level": 2, 
     "Title": "Walls and Gates", 
@@ -1712,7 +1720,12 @@
     "Level": 2, 
     "Title": "Serialize and Deserialize BST", 
     "Url": "https://leetcode.com/problems/serialize-and-deserialize-bst", 
-    "Tags": ["Tree", "BST", "Design", "Serialize"], 
+    "Tags": [
+        "Tree", 
+        "BST", 
+        "Design", 
+        "Serialize"
+    ], 
     "Memo": ""
 },
 {
