@@ -29,7 +29,8 @@
     "Tags": [
         "String", 
         "Substring", 
-        "Sliding-Window"
+        "Sliding-Window",
+        "Two-Pointer"
     ], 
     "Memo": ""
 },
@@ -1035,7 +1036,8 @@
     "Url": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters", 
     "Tags": [
         "Two-Pointer", 
-        "Sliding-Window"
+        "Sliding-Window", 
+        "Substring"
     ], 
     "Memo": "類似0003，找最長不重複Substring。"
 },
@@ -1555,7 +1557,8 @@
     "Url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters", 
     "Tags": [
         "Two-Pointer", 
-        "Sliding-Window"
+        "Sliding-Window",
+        "Substring"
     ], 
     "Memo": "類似0003, 0159。"
 },
@@ -1753,7 +1756,7 @@
     "Level": 1, 
     "Title": "Repeated Substring Pattern", 
     "Url": "https://leetcode.com/problems/repeated-substring-pattern", 
-    "Tags": [], 
+    "Tags": ["String", "Substring"], 
     "Memo": ""
 },
 {
