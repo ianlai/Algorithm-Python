@@ -1349,6 +1349,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0395", 
+    "Level": 2, 
+    "Title": "Longest Substring with At Least K Repeating Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0399", 
     "Level": 2, 
     "Title": "Evaluate Division", 

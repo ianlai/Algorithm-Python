@@ -280,6 +280,7 @@ algo
 │   ├── __0259__3Sum Smaller.py
 │   ├── __0277__Find the Celebrity.py
 │   ├── __0340__Longest Substring with At Most K Distinct Characters.py
+│   ├── __0395__Longest Substring with At Least K Repeating Characters.py
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
 │   ├── __0680__Valid Palindrome II.py
@@ -308,7 +309,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 282 files
+25 directories, 283 files
 
 =====================================
 ============= Local Repo ============
@@ -474,6 +475,7 @@ __0378__Kth Smallest Element in a Sorted Matrix.py
 __0380__Insert Delete GetRandom O(1).py
 __0387__First Unique Character in a String.py
 __0394__Decode String.py
+__0395__Longest Substring with At Least K Repeating Characters.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
@@ -584,7 +586,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  270
+Num of Python Practice:  271
 
 
 =====================================
@@ -751,6 +753,7 @@ Num of Python Practice:  270
  0380 Insert Delete GetRandom O(1)
  0387 First Unique Character in a String
  0394 Decode String
+ 0395 Longest Substring with At Least K Repeating Characters
  0399 Evaluate Division
  0401 Binary Watch
  0416 Partition Equal Subset Sum
@@ -862,10 +865,10 @@ Num of Python Practice:  270
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  535
-Solved / Total (Medium):  194 / 1128
+Solved / Total (Medium):  195 / 1129
 Solved / Total (Hard)  :   18 /  449
-Solved / Total (All)   :  270 / 2112
-Total Score            :  730
+Solved / Total (All)   :  271 / 2113
+Total Score            :  733
 =====================================
 
 ```

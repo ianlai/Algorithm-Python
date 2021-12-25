@@ -1424,7 +1424,10 @@
     "Level": 2, 
     "Title": "Inorder Successor in BST", 
     "Url": "https://leetcode.com/problems/inorder-successor-in-bst", 
-    "Tags": ["Tree", "BST"], 
+    "Tags": [
+        "Tree", 
+        "BST"
+    ], 
     "Memo": ""
 },
 {
@@ -1644,6 +1647,14 @@
     "Level": 2, 
     "Title": "Decode String", 
     "Url": "https://leetcode.com/problems/decode-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0395", 
+    "Level": 2, 
+    "Title": "Longest Substring with At Least K Repeating Characters", 
+    "Url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters", 
     "Tags": [], 
     "Memo": ""
 },
