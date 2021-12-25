@@ -1,7 +1,19 @@
 class Solution:
+    # Divide and Conquer [O(n2): 5%]
+    def longestSubstring(self, s: str, k: int) -> int:
+        print("Code3")
+        countMap = collections.defaultdict(int)
+        for c in s:
+            countMap[c] += 1
+        for i, c in enumerate(s):
+            if countMap[c] < k:
+                return max(self.longestSubstring(s[:i], k), self.longestSubstring(s[i+1:], k))
+        return len(s)
+            
+    #=================================
     
     # Two-Pointer with differenct char set size [O(26*n): 41%]
-    def longestSubstring(self, s: str, k: int) -> int:
+    def longestSubstring2(self, s: str, k: int) -> int:
         print("Code2")
         
         def isValidOverK(countMap):
