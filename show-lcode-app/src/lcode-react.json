@@ -29,7 +29,7 @@
     "Tags": [
         "String", 
         "Substring", 
-        "Sliding-Window",
+        "Sliding-Window", 
         "Two-Pointer"
     ], 
     "Memo": ""
@@ -52,7 +52,7 @@
     "Tags": [
         "String", 
         "Palindrome", 
-        "Two-Pointer",
+        "Two-Pointer", 
         "Substring"
     ], 
     "Memo": "背向雙指針。"
@@ -1075,7 +1075,7 @@
     "Level": 2, 
     "Title": "Binary Search Tree Iterator", 
     "Url": "https://leetcode.com/problems/binary-search-tree-iterator", 
-    "Tags": [], 
+    "Tags": ["Tree", "BST", "Design"], 
     "Memo": ""
 },
 {
@@ -1551,13 +1551,21 @@
     "Memo": ""
 },
 {
+    "Number": "0333", 
+    "Level": 2, 
+    "Title": "Largest BST Subtree", 
+    "Url": "https://leetcode.com/problems/largest-bst-subtree", 
+    "Tags": ["Tree", "BST"], 
+    "Memo": "我是用recursion，每次回傳四個回傳值：此點以下的最多BST，包含此點的最多BST，此點以下最大值，此點以下最小值，以此來花費O(n)traverse一次求答案。"
+},
+{
     "Number": "0340", 
     "Level": 2, 
     "Title": "Longest Substring with At Most K Distinct Characters", 
     "Url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters", 
     "Tags": [
         "Two-Pointer", 
-        "Sliding-Window",
+        "Sliding-Window", 
         "Substring"
     ], 
     "Memo": "類似0003, 0159。"
@@ -1659,7 +1667,12 @@
     "Level": 2, 
     "Title": "Longest Substring with At Least K Repeating Characters", 
     "Url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters", 
-    "Tags": ["Two-Pointer", "Sliding-Window", "Substring", "D&C"],
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window", 
+        "Substring", 
+        "D&C"
+    ], 
     "Memo": "用Two-Pointer的方式不是很好想。一般作法是R往前走，當不符合條件時，開始讓L往前走，直到符合條件，又再繼續讓R往前走。這題麻煩的是不符合條件時，是必須讓R繼續往前走，但往前走又不一定能夠讓條件符合，因為不會控制到L，所以這就是一般的n2迴圈。如果第一層迴圈是L，第二層迴圈是R，每次可以不用重新計算內部，但也就需要O(n2)，也就是Code1的暴力解。Code2利用元素種類固定是26的特性，外迴圈定為1~獨立元素個數，內部再一個Two-Pointer雙迴圈，可以控制到L所以是O(n)。因此時間複雜度是O(26*N)，更正確是O(出現的獨立元素數*N)。"
 },
 {
@@ -1756,7 +1769,10 @@
     "Level": 1, 
     "Title": "Repeated Substring Pattern", 
     "Url": "https://leetcode.com/problems/repeated-substring-pattern", 
-    "Tags": ["String", "Substring"], 
+    "Tags": [
+        "String", 
+        "Substring"
+    ], 
     "Memo": ""
 },
 {

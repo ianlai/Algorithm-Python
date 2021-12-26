@@ -1,6 +1,51 @@
+def getCharIdx(c):
+    return ord(c) - ord('a')
+
 class Solution:
-    # Divide and Conquer [O(n2): 5%]
     def longestSubstring(self, s: str, k: int) -> int:
+        print("Code 大神")
+        n = len(s)
+        
+        # sumTable[idx][chr] := count of chr from s [0:idx)
+        self.sumTable = [[0 for i in range(26)] for j in range(n+1)]
+        # charIdxList[charIdx] := all index of s that getCharIdx(s[idx]) == charIdx
+        self.charIdxList = [list() for i in range(26)]
+        for idx, c in enumerate(s):
+            for charIdx in range(26):
+                self.sumTable[idx+1][charIdx] = self.sumTable[idx][charIdx]
+            self.sumTable[idx+1][getCharIdx(c)] += 1
+            self.charIdxList[getCharIdx(c)].append(idx)
+        
+        print(self.sumTable)
+        print(self.charIdxList)
+        self.k = k
+        return self.findLongestSubstring(0, n)
+    
+    # [start, end)
+    def findLongestSubstring(self, start, end):
+        if all(self.sumTable[end][charIdx] - self.sumTable[start][charIdx] < self.k for charIdx in range(26)):
+            return 0
+            
+        for charIdx in range(26):
+            count = self.sumTable[end][charIdx] - self.sumTable[start][charIdx]
+            # split by charIdx
+            if count != 0 and count < self.k:
+                ans = 0
+                for idx in self.charIdxList[charIdx]:
+                    if idx >= end:
+                        break
+                    if idx < start:
+                        continue
+                    ans = max(ans, self.findLongestSubstring(start, idx))
+                    start = idx + 1
+                ans = max(ans, self.findLongestSubstring(start, end))
+                return ans
+    
+        return end - start
+    
+    #=================================
+    # Divide and Conquer [O(n2): 5%]
+    def longestSubstring3(self, s: str, k: int) -> int:
         print("Code3")
         countMap = collections.defaultdict(int)
         for c in s:
