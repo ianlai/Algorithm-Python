@@ -252,6 +252,7 @@ algo
 │   ├── __0687__Longest Univalue Path.py
 │   ├── __0776__Split BST.py
 │   ├── __0863__All Nodes Distance K in Binary Tree.py
+│   ├── __0938__Range Sum of BST.py
 │   ├── __0958__Check Completeness of a Binary Tree.py
 │   ├── __0979__Distribute Coins in Binary Tree.py
 │   ├── __1008__Construct Binary Search Tree from Preorder Traversal.py
@@ -311,7 +312,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 285 files
+25 directories, 286 files
 
 =====================================
 ============= Local Repo ============
@@ -548,6 +549,7 @@ __0922__Sort Array By Parity II.py
 __0931__Minimum Falling Path Sum.py
 __0934__Shortest Bridge.py
 __0935__Knight Dialer.py
+__0938__Range Sum of BST.py
 __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
@@ -590,7 +592,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  273
+Num of Python Practice:  274
 
 
 =====================================
@@ -828,6 +830,7 @@ Num of Python Practice:  273
  0931 Minimum Falling Path Sum
  0934 Shortest Bridge
  0935 Knight Dialer
+ 0938 Range Sum of BST
  0958 Check Completeness of a Binary Tree
  0969 Pancake Sorting
  0973 K Closest Points to Origin
@@ -870,11 +873,11 @@ Num of Python Practice:  273
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   58 /  537
+Solved / Total (Easy)  :   59 /  537
 Solved / Total (Medium):  197 / 1133
 Solved / Total (Hard)  :   18 /  452
-Solved / Total (All)   :  273 / 2122
-Total Score            :  739
+Solved / Total (All)   :  274 / 2122
+Total Score            :  740
 =====================================
 
 ```
