@@ -2018,6 +2018,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1008", 
+    "Level": 2, 
+    "Title": "Construct Binary Search Tree from Preorder Traversal", 
+    "Url": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1020", 
     "Level": 2, 
     "Title": "Number of Enclaves", 

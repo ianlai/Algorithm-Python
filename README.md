@@ -254,6 +254,7 @@ algo
 │   ├── __0863__All Nodes Distance K in Binary Tree.py
 │   ├── __0958__Check Completeness of a Binary Tree.py
 │   ├── __0979__Distribute Coins in Binary Tree.py
+│   ├── __1008__Construct Binary Search Tree from Preorder Traversal.py
 │   ├── __1038__Binary Search Tree to Greater Sum Tree.py
 │   ├── __1110__Delete Nodes And Return Forest.py
 │   ├── __1382__Balance a Binary Search Tree.py
@@ -310,7 +311,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 284 files
+25 directories, 285 files
 
 =====================================
 ============= Local Repo ============
@@ -554,6 +555,7 @@ __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
 __0986__Interval List Intersections.py
 __0994__Rotting Oranges.py
+__1008__Construct Binary Search Tree from Preorder Traversal.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
 __1038__Binary Search Tree to Greater Sum Tree.py
@@ -588,7 +590,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  272
+Num of Python Practice:  273
 
 
 =====================================
@@ -833,6 +835,7 @@ Num of Python Practice:  272
  0981 Time Based Key-Value Store
  0986 Interval List Intersections
  0994 Rotting Oranges
+ 1008 Construct Binary Search Tree from Preorder Traversal
  1020 Number of Enclaves
  1025 Divisor Game
  1038 Binary Search Tree to Greater Sum Tree
@@ -868,10 +871,10 @@ Num of Python Practice:  272
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   58 /  537
-Solved / Total (Medium):  196 / 1133
+Solved / Total (Medium):  197 / 1133
 Solved / Total (Hard)  :   18 /  452
-Solved / Total (All)   :  272 / 2122
-Total Score            :  736
+Solved / Total (All)   :  273 / 2122
+Total Score            :  739
 =====================================
 
 ```
