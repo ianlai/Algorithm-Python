@@ -156,6 +156,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0024", 
+    "Level": 2, 
+    "Title": "Swap Nodes in Pairs", 
+    "Url": "https://leetcode.com/problems/swap-nodes-in-pairs", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0031", 
     "Level": 2, 
     "Title": "Next Permutation", 

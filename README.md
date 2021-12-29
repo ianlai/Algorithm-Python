@@ -174,6 +174,7 @@ algo
 │   ├── __0019__Remove Nth Node From End of List.py
 │   ├── __0021__Merge Two Sorted Lists.py
 │   ├── __0023__Merge k Sorted Lists.py
+│   ├── __0024__Swap Nodes in Pairs.py
 │   ├── __0061__Rotate List.py
 │   ├── __0083__Remove Duplicates from Sorted List.py
 │   ├── __0086__Partition List.py
@@ -312,7 +313,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 286 files
+25 directories, 287 files
 
 =====================================
 ============= Local Repo ============
@@ -335,6 +336,7 @@ __0020__Valid Parentheses.py
 __0021__Merge Two Sorted Lists.py
 __0022__Generate Parentheses.py
 __0023__Merge k Sorted Lists.py
+__0024__Swap Nodes in Pairs.py
 __0031__Next Permutation.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
@@ -592,7 +594,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  274
+Num of Python Practice:  275
 
 
 =====================================
@@ -616,6 +618,7 @@ Num of Python Practice:  274
  0021 Merge Two Sorted Lists
  0022 Generate Parentheses
  0023 Merge k Sorted Lists
+ 0024 Swap Nodes in Pairs
  0031 Next Permutation
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
@@ -874,10 +877,10 @@ Num of Python Practice:  274
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   59 /  537
-Solved / Total (Medium):  197 / 1133
+Solved / Total (Medium):  198 / 1133
 Solved / Total (Hard)  :   18 /  452
-Solved / Total (All)   :  274 / 2122
-Total Score            :  740
+Solved / Total (All)   :  275 / 2122
+Total Score            :  743
 =====================================
 
 ```
