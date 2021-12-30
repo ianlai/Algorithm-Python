@@ -1508,7 +1508,7 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "使用Union-Find可以過。"
+    "Memo": "使用DisjointSet可以過，不用每次都全部重跑。實作時把DisjointSet獨立成一個General class，並且已經加入Path Compression和Union By Rank兩種優化。要注意的是地圖上任意兩個點並不一定可以Union，但又不是因為兩者為同一棵樹，所以狀況分三種：(1)在內部，不可union，相同root (2)在隔壁，可union (3)分開，不可union。使用find(A)!=find(B)只能判斷前兩種，因此必須要每個新增點都跟四周點去做union測試，這樣會自然排除第三種case（因為是四周點，自然不會是分開的）。"
 },
 {
     "Number": "0310", 
@@ -2285,7 +2285,7 @@
     "Url": "https://leetcode.com/problems/koko-eating-bananas", 
     "Tags": [
         "Binary-Search", 
-        "大神"
+        "**大神"
     ], 
     "Memo": "搞清楚loop invarient。FFFFTTTTTT，要找第一個T，且搜尋範圍內一定要有T。邏輯順序："
 },
