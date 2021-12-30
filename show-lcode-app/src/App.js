@@ -6,10 +6,10 @@ import FilterTagButton from "./FilterTagButton.js";
 import FilterLevelButton from "./FilterLevelButton.js";
 import lcodeData from "./lcode-react.json";
 
-function LoadJson() {
-  //lcodeData = JSON.parse(lcode_data);
-  console.log(lcodeData);
-}
+// function LoadJson() {
+//   //lcodeData = JSON.parse(lcode_data);
+//   console.log(lcodeData);
+// }
 function onClickTagButton(tagName) {
   tagSet.add(tagName);
   tagList = Array.from(tagSet);
@@ -79,6 +79,8 @@ function filterByTags() {
 
 let memberTagList, changeTagList;
 let memberLevelList, changeLevelList;
+let allTagSet = new Set();
+let allTagList = [];
 let tagSet = new Set();
 let tagList = [];
 let levelSet = new Set([1, 2, 3]);
@@ -110,7 +112,13 @@ function App() {
 
   for (let l of lcodeData) {
     levelMap[l.Level]["count"] += 1;
+    for (let tag of l.Tags){
+        allTagSet.add(tag);
+    }
   }
+  allTagList = Array.from(allTagSet);
+  allTagList.sort();
+  //console.log("AllTagSet:", allTagSet);
 
   return (
     <div className="App">
@@ -145,6 +153,12 @@ function App() {
               level={t}
               onClickFilterLevelButton={onClickFilterLevelButton}
             />
+          ))}
+        </div>
+
+        <div className="TagFilterRowAll">
+          {allTagList.map((t) => (
+            <span className="button-unclickable"> {t} </span>
           ))}
         </div>
 

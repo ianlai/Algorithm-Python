@@ -2561,7 +2561,7 @@
     "Url": "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values", 
     "Tags": [
         "DP", 
-        "*"
+        "**CHECK"
     ], 
     "Memo": ""
 },
