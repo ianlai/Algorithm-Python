@@ -2004,8 +2004,8 @@
     "Level": 2, 
     "Title": "Replace Words", 
     "Url": "https://leetcode.com/problems/replace-words", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Trie", "**BASIC"], 
+    "Memo": "搜尋到底就置換（儘管目標字還沒走完）。search函數回傳值不一定是True/False，這題就可以回傳搜尋到底的字。"
 },
 {
     "Number": "0658", 
