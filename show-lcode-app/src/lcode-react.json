@@ -561,7 +561,7 @@
         "Backtracking", 
         "**SLOW"
     ], 
-    "Memo": "只拿到5%，還要再看。"
+    "Memo": "只拿到5%，還要再看。再看一次似乎還是一樣慢，已經從tuple改成用string來做，避免tuple<->list轉型轉來轉去（但相對的就不能使用list的設定某位置的值）。同時這題雖然是backtracking分類，但其實不會backtrack，一直往前一定有路。"
 },
 {
     "Number": "0090", 
@@ -913,6 +913,16 @@
         "DFS"
     ], 
     "Memo": "拷貝點，舊點與新點的關係，邊。"
+},
+{
+    "Number": "0134", 
+    "Level": 2, 
+    "Title": "Gas Station", 
+    "Url": "https://leetcode.com/problems/gas-station", 
+    "Tags": [
+        "Greedy"
+    ], 
+    "Memo": "找出累加的gas-cost為最小值，此值的下一個位置就是候選人，檢驗候選人。"
 },
 {
     "Number": "0136", 
@@ -1986,6 +1996,14 @@
     "Level": 1, 
     "Title": "Merge Two Binary Trees", 
     "Url": "https://leetcode.com/problems/merge-two-binary-trees", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0648", 
+    "Level": 2, 
+    "Title": "Replace Words", 
+    "Url": "https://leetcode.com/problems/replace-words", 
     "Tags": [], 
     "Memo": ""
 },

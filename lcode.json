@@ -734,6 +734,14 @@ lcode_data = `
     "Memo": "拷貝點，舊點與新點的關係，邊。"
 },
 {
+    "Number": "0134", 
+    "Level": 2, 
+    "Title": "Gas Station", 
+    "Url": "https://leetcode.com/problems/gas-station", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0136", 
     "Level": 1, 
     "Title": "Single Number", 
@@ -1636,6 +1644,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Merge Two Binary Trees", 
     "Url": "https://leetcode.com/problems/merge-two-binary-trees", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0648", 
+    "Level": 2, 
+    "Title": "Replace Words", 
+    "Url": "https://leetcode.com/problems/replace-words", 
     "Tags": [], 
     "Memo": ""
 },

@@ -1,8 +1,45 @@
 class Solution:
     
+    # 2021/12/30
+    # Backtracking (actually it doesn't need to backtrack, only one way) [O(n*2^n), 5%]
+    def grayCode(self, n: int) -> List[int]:
+        print("Code-3")
+        
+        N = 2 ** n
+        resBin = []     #need the order 
+        usedBin = set() #need the fast existance check
+        start = "0" * n
+        self.dfs(n, N, start, resBin, usedBin)
+
+        res = []
+        for numBin in resBin:
+            res.append(int(numBin, 2))
+        return res
+        
+    def dfs(self, n, N, cur, res, used):
+        used.add(cur)
+        res.append(cur)
+        if len(used) == N:  #exit
+            return True
+        for nex in self.getNeighborList(n, cur):
+            if nex in used:
+                continue
+            self.dfs(n, N, nex, res, used)
+
+    def getNeighborList(self, n, cur):        
+        neighborList = []
+        for i in range(n):
+            if cur[i] == "0":
+                neighborList.append(cur[:i] + "1" + cur[i+1:]) 
+            else:
+                neighborList.append(cur[:i] + "0" + cur[i+1:]) 
+        return neighborList
+            
+    # ==========================================================   
+    
     # 2021/12/05
     # Backtracking [O(n*2^n), 5%]
-    def grayCode(self, n: int) -> List[int]:
+    def grayCode2(self, n: int) -> List[int]:
         print("Code-2")
         if n == 0:
             return 0
@@ -13,7 +50,7 @@ class Solution:
         used = set()
         zeroBin = tuple([0] * n)
         
-        self.dfs(n, N, zeroBin, resBin, used)
+        self.dfs2(n, N, zeroBin, resBin, used)
         for num in resBin:
             numBin = ""
             for n in num:
@@ -21,15 +58,15 @@ class Solution:
             res.append(int(numBin, 2))
         return res
         
-    def dfs(self, n, N, cur, res, used):
+    def dfs2(self, n, N, cur, res, used):
         res.append(cur)
         used.add(cur)
         if len(res) == N:  #exit
             return True
-        for nex in self.getNeighborList(n, cur):
+        for nex in self.getNeighborList2(n, cur):
             if nex in used:
                 continue
-            if self.dfs(n, N, nex, res, used):
+            if self.dfs2(n, N, nex, res, used):
                 return True
             else:
                 return False
@@ -37,7 +74,7 @@ class Solution:
         used.add(cur)
         return False
 
-    def getNeighborList(self, n, cur):        
+    def getNeighborList2(self, n, cur):        
         neighborList = []
         for i in range(n):
             neighbor = list(cur)
