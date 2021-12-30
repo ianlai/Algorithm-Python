@@ -1,33 +1,3 @@
-class DSU():
-    def __init__(self):
-        self.par = list(range(1001))
-        self.rnk = [0] * 1001
-
-    def find(self, x):
-        if self.par[x] != x:
-            self.par[x] = self.find(self.par[x])
-        return self.par[x]
-
-    def union(self, x, y):
-        xr, yr = self.find(x), self.find(y)
-        if xr == yr:
-            return False
-        elif self.rnk[xr] < self.rnk[yr]:
-            self.par[xr] = yr
-        elif self.rnk[xr] > self.rnk[yr]:
-            self.par[yr] = xr
-        else:
-            self.par[yr] = xr
-            self.rnk[xr] += 1
-        return True
-
-class Solution1():
-    def findRedundantConnection(self, edges):
-        dsu = DSU()
-        for edge in edges:
-            if not dsu.union(*edge):
-                return edge
-
 class UnionFind4:
     def __init__(self, n):
         self.parents = [-1] * (n + 1)  # 0 ~ n
@@ -50,7 +20,7 @@ class UnionFind4:
             
 class UnionFind5:
     def __init__(self, n):
-        self.parents = [-1] * (n + 1)  # 0 ~ n
+        self.parents = [-1] * (n)  # 0 ~ n
 
     #Improvement1: Path compression
     def find(self, i):
@@ -78,12 +48,58 @@ class UnionFind5:
                 self.parents[head1] = head2
                 self.parents[head2] = -rank 
             return True
-            
-class Solution:
+
+
+class DisjointSet:
+    def __init__(self):
+        self.parent = {}
+        self.rank = {}
     
+    def union(self, x, y):
+        if x not in self.parent:
+            self._add_node(x)
+        if y not in self.parent:
+            self._add_node(y)
+
+        rootX = self.find(x)
+        rootY = self.find(y)
+        if rootX != rootY:
+            if self.rank[rootX] < self.rank[rootY]:  #union-by-rank
+                self._union_root(rootX, rootY)
+            else:
+                self._union_root(rootY, rootX)
+            return True #different set (union)
+        return False #same set
+        
+    def find(self, node):
+        if self.parent[node] != node:
+            self.parent[node] = self.find(self.parent[node]) #path compression
+        return self.parent[node]
+
+    def _add_node(self, node):
+        assert node not in self.parent
+        self.parent[node] = node
+        self.rank[node] = 0
+
+    def _union_root(self, root, node):
+        self.parent[node] = root
+        self.rank[root] = max(self.rank[root], self.rank[node] + 1)
+
+        
+class Solution:
+    # 2021/12/30
+    # Union-Find, general class [O(): 16%]
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+        print("Code6: UnionFind Class + General implementation (大神)")
+        disjointSet = DisjointSet()
+        for v1, v2 in edges:
+            if not disjointSet.union(v1, v2):
+                return [v1, v2]
+
+    # =============================================       
     # 2021/12/07 
     # Union-Find [O(n2): 32%]
-    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+    def findRedundantConnection5(self, edges: List[List[int]]) -> List[int]:
         print("Code5: UnionFind Class + Improvement")
         if not edges:
             return []
