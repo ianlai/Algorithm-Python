@@ -79,7 +79,7 @@ function filterByTags() {
 
 let memberTagList, changeTagList;
 let memberLevelList, changeLevelList;
-let allTagSet = new Set();
+let allTagMap = new Map();
 let allTagList = [];
 let tagSet = new Set();
 let tagList = [];
@@ -110,15 +110,23 @@ function App() {
     },
   };
 
+  allTagMap = new Map();
   for (let l of lcodeData) {
     levelMap[l.Level]["count"] += 1;
     for (let tag of l.Tags){
-        allTagSet.add(tag);
+        if(allTagMap.has(tag)){
+            //can't do allTagMap[key] = value, otherwise the map size won't change
+            //then the array can't be created
+            allTagMap.set(tag, allTagMap.get(tag) + 1); 
+        } else{
+            allTagMap.set(tag, 1);
+        }
     }
   }
-  allTagList = Array.from(allTagSet);
+  allTagList = Array.from(allTagMap.keys());
   allTagList.sort();
-  //console.log("AllTagSet:", allTagSet);
+  console.log("allTagMap:", allTagMap);
+  console.log("allTagList:", allTagList);
 
   return (
     <div className="App">
@@ -158,7 +166,7 @@ function App() {
 
         <div className="TagFilterRowAll">
           {allTagList.map((t) => (
-            <span className="button-unclickable"> {t} </span>
+            <span className="button-unclickable"> {t} ({allTagMap.get(t)})</span>
           ))}
         </div>
 
