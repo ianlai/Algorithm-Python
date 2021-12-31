@@ -1811,6 +1811,14 @@
     "Memo": ""
 },
 {
+    "Number": "0490", 
+    "Level": 2, 
+    "Title": "The Maze", 
+    "Url": "https://leetcode.com/problems/the-maze", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0494", 
     "Level": 2, 
     "Title": "Target Sum", 
@@ -2207,16 +2215,19 @@
         "SSSP", 
         "Dijkstra", 
         "Bellman-Ford", 
-        "Heap"
+        "Heap", 
+        "**BASIC"
     ], 
-    "Memo": ""
+    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。"
 },
 {
     "Number": "0752", 
     "Level": 2, 
     "Title": "Open the Lock", 
     "Url": "https://leetcode.com/problems/open-the-lock", 
-    "Tags": [], 
+    "Tags": [
+        "BFS"
+    ], 
     "Memo": ""
 },
 {
@@ -2730,7 +2741,7 @@
     "Url": "https://leetcode.com/problems/first-unique-number", 
     "Tags": [
         "Design", 
-        "LinkedList",
+        "LinkedList", 
         "**OLD"
     ], 
     "Memo": ""

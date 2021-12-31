@@ -1478,6 +1478,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0490", 
+    "Level": 2, 
+    "Title": "The Maze", 
+    "Url": "https://leetcode.com/problems/the-maze", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0494", 
     "Level": 2, 
     "Title": "Target Sum", 

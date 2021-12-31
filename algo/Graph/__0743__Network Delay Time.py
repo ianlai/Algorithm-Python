@@ -17,10 +17,8 @@ class Solution:
             if not isChanged:  #optimization (if no change then break)  
                 break
         
-        if any(time == inf for time in distance[1:]):
-            return -1 
-        else:
-            return max(distance[1:])
+        maxTime = max(distance[1:])
+        return maxTime if maxTime != inf else -1
     
     # =========================================================
     # 2021/12/31 

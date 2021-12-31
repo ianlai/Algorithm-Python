@@ -135,6 +135,7 @@ algo
 │   ├── __0323__Number of Connected Components in an Undirected Graph.py
 │   ├── __0332__Reconstruct Itinerary.py
 │   ├── __0399__Evaluate Division.py
+│   ├── __0490__The Maze.py
 │   ├── __0547__Number of Provinces.py
 │   ├── __0684__Redundant Connection.py
 │   ├── __0743__Network Delay Time.py
@@ -315,7 +316,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 289 files
+25 directories, 290 files
 
 =====================================
 ============= Local Repo ============
@@ -496,6 +497,7 @@ __0449__Serialize and Deserialize BST.py
 __0450__Delete Node in a BST.py
 __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
+__0490__The Maze.py
 __0494__Target Sum.py
 __0498__Diagonal Traverse.py
 __0510__Inorder Successor in BST II.py
@@ -598,7 +600,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  277
+Num of Python Practice:  278
 
 
 =====================================
@@ -780,6 +782,7 @@ Num of Python Practice:  277
  0450 Delete Node in a BST
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
+ 0490 The Maze
  0494 Target Sum
  0498 Diagonal Traverse
  0510 Inorder Successor in BST II
@@ -883,10 +886,10 @@ Num of Python Practice:  277
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   59 /  537
-Solved / Total (Medium):  200 / 1133
+Solved / Total (Medium):  201 / 1133
 Solved / Total (Hard)  :   18 /  453
-Solved / Total (All)   :  277 / 2123
-Total Score            :  749
+Solved / Total (All)   :  278 / 2123
+Total Score            :  752
 =====================================
 
 ```
