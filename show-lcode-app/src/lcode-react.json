@@ -2730,6 +2730,7 @@
     "Url": "https://leetcode.com/problems/first-unique-number", 
     "Tags": [
         "Design", 
+        "LinkedList",
         "**OLD"
     ], 
     "Memo": ""
