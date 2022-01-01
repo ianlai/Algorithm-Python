@@ -136,6 +136,7 @@ algo
 │   ├── __0332__Reconstruct Itinerary.py
 │   ├── __0399__Evaluate Division.py
 │   ├── __0490__The Maze.py
+│   ├── __0505__The Maze II.py
 │   ├── __0547__Number of Provinces.py
 │   ├── __0684__Redundant Connection.py
 │   ├── __0743__Network Delay Time.py
@@ -316,7 +317,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 290 files
+25 directories, 291 files
 
 =====================================
 ============= Local Repo ============
@@ -500,6 +501,7 @@ __0474__Ones and Zeroes.py
 __0490__The Maze.py
 __0494__Target Sum.py
 __0498__Diagonal Traverse.py
+__0505__The Maze II.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
@@ -600,7 +602,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  278
+Num of Python Practice:  279
 
 
 =====================================
@@ -785,6 +787,7 @@ Num of Python Practice:  278
  0490 The Maze
  0494 Target Sum
  0498 Diagonal Traverse
+ 0505 The Maze II
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
@@ -886,10 +889,10 @@ Num of Python Practice:  278
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   59 /  537
-Solved / Total (Medium):  201 / 1133
+Solved / Total (Medium):  202 / 1133
 Solved / Total (Hard)  :   18 /  453
-Solved / Total (All)   :  278 / 2123
-Total Score            :  752
+Solved / Total (All)   :  279 / 2123
+Total Score            :  755
 =====================================
 
 ```

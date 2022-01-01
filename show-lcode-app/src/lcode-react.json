@@ -1815,8 +1815,8 @@
     "Level": 2, 
     "Title": "The Maze", 
     "Url": "https://leetcode.com/problems/the-maze", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["BFS"], 
+    "Memo": "和505是同一個系列的，490只需要判斷是否能抵達，所以可以把每一個點都走過即可。"
 },
 {
     "Number": "0494", 
@@ -1833,6 +1833,14 @@
     "Url": "https://leetcode.com/problems/diagonal-traverse", 
     "Tags": [], 
     "Memo": ""
+},
+{
+    "Number": "0505", 
+    "Level": 2, 
+    "Title": "The Maze II", 
+    "Url": "https://leetcode.com/problems/the-maze-ii", 
+    "Tags": ["SSSP", "Dijkstra"], 
+    "Memo": "和490同一系列，但這題不只是要找到是否有解，還要找到最短路徑。"
 },
 {
     "Number": "0510", 

@@ -1502,6 +1502,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0505", 
+    "Level": 2, 
+    "Title": "The Maze II", 
+    "Url": "https://leetcode.com/problems/the-maze-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0510", 
     "Level": 2, 
     "Title": "Inorder Successor in BST II", 
