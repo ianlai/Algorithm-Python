@@ -1502,6 +1502,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0499", 
+    "Level": 3, 
+    "Title": "The Maze III", 
+    "Url": "https://leetcode.com/problems/the-maze-iii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0505", 
     "Level": 2, 
     "Title": "The Maze II", 
