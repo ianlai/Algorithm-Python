@@ -26,6 +26,7 @@ function LcodeRow(props) {
               <TagButton
                 isSelected
                 tagName={tag}
+                showName={tag}
                 onClickTagButton={props.onClickTagButton}
               />
             );
@@ -33,6 +34,7 @@ function LcodeRow(props) {
             return (
               <TagButton
                 tagName={tag}
+                showName={tag}
                 onClickTagButton={props.onClickTagButton}
               />
             );

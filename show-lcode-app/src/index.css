@@ -107,13 +107,13 @@ a:hover {
 
 /* CSS */
 
-.button-unclickable {
+.button-tag-all {
     background-color: #7a7074;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
     color: #ffffff;
-    /* cursor: pointer; */
+    cursor: pointer;
     display: inline-block;
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
       sans-serif;

@@ -4,6 +4,7 @@ import "./App.css";
 import LcodeRow from "./LcodeRow.js";
 import FilterTagButton from "./FilterTagButton.js";
 import FilterLevelButton from "./FilterLevelButton.js";
+import TagButton from "./TagButton";
 import lcodeData from "./lcode-react.json";
 
 // function LoadJson() {
@@ -113,14 +114,14 @@ function App() {
   allTagMap = new Map();
   for (let l of lcodeData) {
     levelMap[l.Level]["count"] += 1;
-    for (let tag of l.Tags){
-        if(allTagMap.has(tag)){
-            //can't do allTagMap[key] = value, otherwise the map size won't change
-            //then the array can't be created
-            allTagMap.set(tag, allTagMap.get(tag) + 1); 
-        } else{
-            allTagMap.set(tag, 1);
-        }
+    for (let tag of l.Tags) {
+      if (allTagMap.has(tag)) {
+        //can't do allTagMap[key] = value, otherwise the map size won't change
+        //then the array can't be created
+        allTagMap.set(tag, allTagMap.get(tag) + 1);
+      } else {
+        allTagMap.set(tag, 1);
+      }
     }
   }
   allTagList = Array.from(allTagMap.keys());
@@ -166,7 +167,13 @@ function App() {
 
         <div className="TagFilterRowAll">
           {allTagList.map((t) => (
-            <span className="button-unclickable"> {t} ({allTagMap.get(t)})</span>
+            <TagButton
+              isSelected={false}
+              isAllTag={true}
+              tagName={t}
+              showName={t + "(" + allTagMap.get(t) + ")"}
+              onClickTagButton={onClickTagButton}
+            />
           ))}
         </div>
 
