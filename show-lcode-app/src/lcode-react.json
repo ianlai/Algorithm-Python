@@ -1841,7 +1841,11 @@
     "Level": 3, 
     "Title": "The Maze III", 
     "Url": "https://leetcode.com/problems/the-maze-iii", 
-    "Tags": ["SSSP", "Dijkstra", "**HARD"], 
+    "Tags": [
+        "SSSP", 
+        "Dijkstra", 
+        "**HARD"
+    ], 
     "Memo": "類似0787，不是一般的SSSP，而是有兩個條件要排序（distance, direction)。"
 },
 {
@@ -2249,6 +2253,14 @@
     "Tags": [
         "BFS"
     ], 
+    "Memo": ""
+},
+{
+    "Number": "0760", 
+    "Level": 1, 
+    "Title": "Find Anagram Mappings", 
+    "Url": "https://leetcode.com/problems/find-anagram-mappings", 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2717,6 +2729,14 @@
         "Top-K"
     ], 
     "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃。可以使用heap，也可以使用Top-K的作法。要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。"
+},
+{
+    "Number": "1302", 
+    "Level": 2, 
+    "Title": "Deepest Leaves Sum", 
+    "Url": "https://leetcode.com/problems/deepest-leaves-sum", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1319", 
