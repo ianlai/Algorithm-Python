@@ -197,6 +197,8 @@ algo
 ├── Matrix
 │   ├── __0048__Rotate Image.py
 │   └── __0498__Diagonal Traverse.py
+├── Monotonic
+│   └── __0496__Next Greater Element I.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -322,7 +324,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 296 files
+26 directories, 297 files
 
 =====================================
 ============= Local Repo ============
@@ -505,6 +507,7 @@ __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
 __0490__The Maze.py
 __0494__Target Sum.py
+__0496__Next Greater Element I.py
 __0498__Diagonal Traverse.py
 __0499__The Maze III.py
 __0505__The Maze II.py
@@ -612,7 +615,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  284
+Num of Python Practice:  285
 
 
 =====================================
@@ -796,6 +799,7 @@ Num of Python Practice:  284
  0474 Ones and Zeroes
  0490 The Maze
  0494 Target Sum
+ 0496 Next Greater Element I
  0498 Diagonal Traverse
  0499 The Maze III
  0505 The Maze II
@@ -903,11 +907,11 @@ Num of Python Practice:  284
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   61 /  538
+Solved / Total (Easy)  :   62 /  538
 Solved / Total (Medium):  204 / 1135
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  284 / 2127
-Total Score            :  768
+Solved / Total (All)   :  285 / 2127
+Total Score            :  769
 =====================================
 
 ```

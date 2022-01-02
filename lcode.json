@@ -1494,6 +1494,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0496", 
+    "Level": 1, 
+    "Title": "Next Greater Element I", 
+    "Url": "https://leetcode.com/problems/next-greater-element-i", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0498", 
     "Level": 2, 
     "Title": "Diagonal Traverse", 
