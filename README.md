@@ -218,7 +218,8 @@ algo
 │   ├── __0459__Repeated Substring Pattern.py
 │   ├── __0767__Reorganize String.py
 │   ├── __0811__Subdomain Visit Count.py
-│   └── __1041__Robot Bounded In Circle.py
+│   ├── __1041__Robot Bounded In Circle.py
+│   └── __1165__Single-Row Keyboard.py
 ├── Tree
 │   ├── __0094__Binary Tree Inorder Traversal.py
 │   ├── __0098__Validate Binary Search Tree.py
@@ -264,6 +265,7 @@ algo
 │   ├── __1008__Construct Binary Search Tree from Preorder Traversal.py
 │   ├── __1038__Binary Search Tree to Greater Sum Tree.py
 │   ├── __1110__Delete Nodes And Return Forest.py
+│   ├── __1161__Maximum Level Sum of a Binary Tree.py
 │   ├── __1302__Deepest Leaves Sum.py
 │   ├── __1382__Balance a Binary Search Tree.py
 │   └── __1448__Count Good Nodes in Binary Tree.py
@@ -320,7 +322,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-25 directories, 294 files
+25 directories, 296 files
 
 =====================================
 ============= Local Repo ============
@@ -588,6 +590,8 @@ __1130__Minimum Cost Tree From Leaf Values.py
 __1137__N-th Tribonacci Number.py
 __1143__Longest Common Subsequence.py
 __1146__Snapshot Array.py
+__1161__Maximum Level Sum of a Binary Tree.py
+__1165__Single-Row Keyboard.py
 __1167__Minimum Cost to Connect Sticks.py
 __1198__Find Smallest Common Element in All Rows.py
 __1214__Two Sum BSTs.py
@@ -608,7 +612,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  282
+Num of Python Practice:  284
 
 
 =====================================
@@ -877,6 +881,8 @@ Num of Python Practice:  282
  1137 N-th Tribonacci Number
  1143 Longest Common Subsequence
  1146 Snapshot Array
+ 1161 Maximum Level Sum of a Binary Tree
+ 1165 Single-Row Keyboard
  1167 Minimum Cost to Connect Sticks
  1198 Find Smallest Common Element in All Rows
  1214 Two Sum BSTs
@@ -897,11 +903,11 @@ Num of Python Practice:  282
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   60 /  537
-Solved / Total (Medium):  203 / 1133
-Solved / Total (Hard)  :   19 /  453
-Solved / Total (All)   :  282 / 2123
-Total Score            :  764
+Solved / Total (Easy)  :   61 /  538
+Solved / Total (Medium):  204 / 1135
+Solved / Total (Hard)  :   19 /  454
+Solved / Total (All)   :  284 / 2127
+Total Score            :  768
 =====================================
 
 ```

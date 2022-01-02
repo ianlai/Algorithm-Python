@@ -2662,6 +2662,22 @@
     "Memo": ""
 },
 {
+    "Number": "1161", 
+    "Level": 2, 
+    "Title": "Maximum Level Sum of a Binary Tree", 
+    "Url": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1165", 
+    "Level": 1, 
+    "Title": "Single-Row Keyboard", 
+    "Url": "https://leetcode.com/problems/single-row-keyboard", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1167", 
     "Level": 2, 
     "Title": "Minimum Cost to Connect Sticks", 
