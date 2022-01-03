@@ -991,6 +991,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0222", 
+    "Level": 2, 
+    "Title": "Count Complete Tree Nodes", 
+    "Url": "https://leetcode.com/problems/count-complete-tree-nodes", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0226", 
     "Level": 1, 
     "Title": "Invert Binary Tree", 

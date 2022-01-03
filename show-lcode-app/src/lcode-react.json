@@ -1230,6 +1230,14 @@
     "Memo": ""
 },
 {
+    "Number": "0222", 
+    "Level": 2, 
+    "Title": "Count Complete Tree Nodes", 
+    "Url": "https://leetcode.com/problems/count-complete-tree-nodes", 
+    "Tags": ["Tree", "Binary-Search"], 
+    "Memo": "log^2(n)的時間複雜度，蠻特別的題目。"
+},
+{
     "Number": "0226", 
     "Level": 1, 
     "Title": "Invert Binary Tree", 
@@ -1864,8 +1872,10 @@
     "Level": 2, 
     "Title": "Next Greater Element II", 
     "Url": "https://leetcode.com/problems/next-greater-element-ii", 
-    "Tags": ["Stack", 
-        "Monotonic-Stack"], 
+    "Tags": [
+        "Stack", 
+        "Monotonic-Stack"
+    ], 
     "Memo": "繞一次是Normal array，繞兩次可處理Circular array。stack內存index比存值好，因為這樣可以做res[stack[-1]=x來設值，基本上存index就會有位置和值兩種資訊，比較泛用。"
 },
 {

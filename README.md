@@ -238,6 +238,7 @@ algo
 │   ├── __0129__Sum Root to Leaf Numbers.py
 │   ├── __0144__Binary Tree Preorder Traversal.py
 │   ├── __0173__Binary Search Tree Iterator.py
+│   ├── __0222__Count Complete Tree Nodes.py
 │   ├── __0226__Invert Binary Tree.py
 │   ├── __0230__Kth Smallest Element in a BST.py
 │   ├── __0235__Lowest Common Ancestor of a Binary Search Tree.py
@@ -325,7 +326,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 298 files
+26 directories, 299 files
 
 =====================================
 ============= Local Repo ============
@@ -448,6 +449,7 @@ __0212__Word Search II.py
 __0215__Kth Largest Element in an Array.py
 __0216__Combination Sum III.py
 __0221__Maximal Square.py
+__0222__Count Complete Tree Nodes.py
 __0226__Invert Binary Tree.py
 __0230__Kth Smallest Element in a BST.py
 __0234__Palindrome Linked List.py
@@ -617,7 +619,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  286
+Num of Python Practice:  287
 
 
 =====================================
@@ -741,6 +743,7 @@ Num of Python Practice:  286
  0215 Kth Largest Element in an Array
  0216 Combination Sum III
  0221 Maximal Square
+ 0222 Count Complete Tree Nodes
  0226 Invert Binary Tree
  0230 Kth Smallest Element in a BST
  0234 Palindrome Linked List
@@ -911,10 +914,10 @@ Num of Python Practice:  286
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   62 /  538
-Solved / Total (Medium):  205 / 1135
+Solved / Total (Medium):  206 / 1135
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  286 / 2127
-Total Score            :  772
+Solved / Total (All)   :  287 / 2127
+Total Score            :  775
 =====================================
 
 ```
@@ -927,4 +930,4 @@ Total Score            :  772
 ![Alt text](score_202110.png)
 ![Alt text](score_202111.png)
 ![Alt text](score_202112.png)
-![Alt text](score_2021.png)
+![Alt text](score_total.png)
