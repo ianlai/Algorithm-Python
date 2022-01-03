@@ -42,6 +42,8 @@ FILE_IMAGE_SCORE202109 = FILE_PREFIX_SCORE + "_202109" + ".png"
 FILE_IMAGE_SCORE202110 = FILE_PREFIX_SCORE + "_202110" + ".png"
 FILE_IMAGE_SCORE202111 = FILE_PREFIX_SCORE + "_202111" + ".png"
 FILE_IMAGE_SCORE2021_TOTAL = FILE_PREFIX_SCORE + "_2021" + ".png"
+FILE_IMAGE_SCORE_TOTAL = FILE_PREFIX_SCORE + "_total" + ".png"
+
 
 
 DATE_FORMATTER = "%Y-%m-%d"
@@ -112,16 +114,16 @@ def draw(dates, values):
     #axs[0].plot_date(dates[-len(reviewNumber):], reviewNumber,'-', marker='o', color='#555555')  #review number
 
     ### Draw score figure 
-    axs[1].set_ylim(0,700) #score of quiz
-    axs[1].plot_date(dates, leetscore,'-', marker='*', markersize=10, color='#cc3300')
+    axs[1].set_ylim(0,900) #score of quiz
+    axs[1].plot_date(dates, leetscore,'-', marker='.', markersize=10, color='#cc3300')
 
 
-    # Year: 2021 Total 
+    # Year: Total 
     axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.04 - 2021.12)")
+    title="Score of Quiz (2021.04 - 2022.02)")
     axs[0].set_title("Number of Quiz", fontweight = 'bold')
     axs[1].set_title("Score of Quiz", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2021,12,31)) 
+    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2022,2,28)) 
 
     xloc1 = mdates.MonthLocator()
     xloc2 = mdates.WeekdayLocator(SUNDAY)
@@ -130,7 +132,7 @@ def draw(dates, values):
     #axs[0].xaxis.set_minor_formatter(xfmt)
     axs[0].xaxis.set_minor_locator(xloc2) #minor: week
     plt.gcf().autofmt_xdate()
-    plt.savefig(FILE_IMAGE_SCORE2021_TOTAL)
+    plt.savefig(FILE_IMAGE_SCORE_TOTAL)
 
 
     # Month: 2021.04 ~ 
