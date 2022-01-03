@@ -198,7 +198,8 @@ algo
 │   ├── __0048__Rotate Image.py
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
-│   └── __0496__Next Greater Element I.py
+│   ├── __0496__Next Greater Element I.py
+│   └── __0503__Next Greater Element II.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -324,7 +325,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 297 files
+26 directories, 298 files
 
 =====================================
 ============= Local Repo ============
@@ -510,6 +511,7 @@ __0494__Target Sum.py
 __0496__Next Greater Element I.py
 __0498__Diagonal Traverse.py
 __0499__The Maze III.py
+__0503__Next Greater Element II.py
 __0505__The Maze II.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
@@ -615,7 +617,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  285
+Num of Python Practice:  286
 
 
 =====================================
@@ -802,6 +804,7 @@ Num of Python Practice:  285
  0496 Next Greater Element I
  0498 Diagonal Traverse
  0499 The Maze III
+ 0503 Next Greater Element II
  0505 The Maze II
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
@@ -908,10 +911,10 @@ Num of Python Practice:  285
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   62 /  538
-Solved / Total (Medium):  204 / 1135
+Solved / Total (Medium):  205 / 1135
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  285 / 2127
-Total Score            :  769
+Solved / Total (All)   :  286 / 2127
+Total Score            :  772
 =====================================
 
 ```

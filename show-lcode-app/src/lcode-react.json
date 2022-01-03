@@ -1833,7 +1833,10 @@
     "Level": 1, 
     "Title": "Next Greater Element I", 
     "Url": "https://leetcode.com/problems/next-greater-element-i", 
-    "Tags": [], 
+    "Tags": [
+        "Stack", 
+        "Monotonic-Stack"
+    ], 
     "Memo": ""
 },
 {
@@ -1855,6 +1858,15 @@
         "**HARD"
     ], 
     "Memo": "類似0787，不是一般的SSSP，而是有兩個條件要排序（distance, direction)。"
+},
+{
+    "Number": "0503", 
+    "Level": 2, 
+    "Title": "Next Greater Element II", 
+    "Url": "https://leetcode.com/problems/next-greater-element-ii", 
+    "Tags": ["Stack", 
+        "Monotonic-Stack"], 
+    "Memo": "繞一次是Normal array，繞兩次可處理Circular array。stack內存index比存值好，因為這樣可以做res[stack[-1]=x來設值，基本上存index就會有位置和值兩種資訊，比較泛用。"
 },
 {
     "Number": "0505", 

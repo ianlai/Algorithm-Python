@@ -1518,6 +1518,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0503", 
+    "Level": 2, 
+    "Title": "Next Greater Element II", 
+    "Url": "https://leetcode.com/problems/next-greater-element-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0505", 
     "Level": 2, 
     "Title": "The Maze II", 
