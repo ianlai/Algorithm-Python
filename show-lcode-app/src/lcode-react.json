@@ -1234,7 +1234,10 @@
     "Level": 2, 
     "Title": "Count Complete Tree Nodes", 
     "Url": "https://leetcode.com/problems/count-complete-tree-nodes", 
-    "Tags": ["Tree", "Binary-Search"], 
+    "Tags": [
+        "Tree", 
+        "Binary-Search"
+    ], 
     "Memo": "log^2(n)的時間複雜度，蠻特別的題目。"
 },
 {
@@ -2859,6 +2862,22 @@
         "DFS"
     ], 
     "Memo": ""
+},
+{
+    "Number": "1475", 
+    "Level": 1, 
+    "Title": "Final Prices With a Special Discount in a Shop", 
+    "Url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop", 
+    "Tags": ["Monotonic-Stack", "**BASIC"], 
+    "Memo": ""
+},
+{
+    "Number": "1557", 
+    "Level": 2, 
+    "Title": "Minimum Number of Vertices to Reach All Nodes", 
+    "Url": "https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes", 
+    "Tags": ["Graph"], 
+    "Memo": "找到所有indegree為0的點就可以，不需要使用Topological sorting。"
 },
 {
     "Number": "1593", 

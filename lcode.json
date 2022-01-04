@@ -2379,6 +2379,22 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1475", 
+    "Level": 1, 
+    "Title": "Final Prices With a Special Discount in a Shop", 
+    "Url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1557", 
+    "Level": 2, 
+    "Title": "Minimum Number of Vertices to Reach All Nodes", 
+    "Url": "https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1593", 
     "Level": 2, 
     "Title": "Split a String Into the Max Number of Unique Substrings", 

@@ -144,7 +144,8 @@ algo
 │   ├── __0743__Network Delay Time.py
 │   ├── __0787__Cheapest Flights Within K Stops.py
 │   ├── __0797__All Paths From Source to Target.py
-│   └── __1319__Number of Operations to Make Network Connected.py
+│   ├── __1319__Number of Operations to Make Network Connected.py
+│   └── __1557__Minimum Number of Vertices to Reach All Nodes.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
@@ -199,7 +200,8 @@ algo
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
 │   ├── __0496__Next Greater Element I.py
-│   └── __0503__Next Greater Element II.py
+│   ├── __0503__Next Greater Element II.py
+│   └── __1475__Final Prices With a Special Discount in a Shop.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -326,7 +328,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 299 files
+26 directories, 301 files
 
 =====================================
 ============= Local Repo ============
@@ -613,13 +615,15 @@ __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
 __1429__First Unique Number.py
 __1448__Count Good Nodes in Binary Tree.py
+__1475__Final Prices With a Special Discount in a Shop.py
+__1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
 __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  287
+Num of Python Practice:  289
 
 
 =====================================
@@ -907,17 +911,19 @@ Num of Python Practice:  287
  1395 Count Number of Teams
  1429 First Unique Number
  1448 Count Good Nodes in Binary Tree
+ 1475 Final Prices With a Special Discount in a Shop
+ 1557 Minimum Number of Vertices to Reach All Nodes
  1593 Split a String Into the Max Number of Unique Substrings
  1711 Count Good Meals
  1774 Closest Dessert Cost
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   62 /  538
-Solved / Total (Medium):  206 / 1135
+Solved / Total (Easy)  :   63 /  538
+Solved / Total (Medium):  207 / 1135
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  287 / 2127
-Total Score            :  775
+Solved / Total (All)   :  289 / 2127
+Total Score            :  779
 =====================================
 
 ```
