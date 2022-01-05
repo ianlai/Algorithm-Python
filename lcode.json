@@ -1756,6 +1756,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0688", 
+    "Level": 2, 
+    "Title": "Knight Probability in Chessboard", 
+    "Url": "https://leetcode.com/problems/knight-probability-in-chessboard", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0690", 
     "Level": 2, 
     "Title": "Employee Importance", 

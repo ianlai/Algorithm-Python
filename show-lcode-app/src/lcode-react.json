@@ -2136,6 +2136,14 @@
     "Memo": ""
 },
 {
+    "Number": "0688", 
+    "Level": 2, 
+    "Title": "Knight Probability in Chessboard", 
+    "Url": "https://leetcode.com/problems/knight-probability-in-chessboard", 
+    "Tags": ["DP", "Memoization"], 
+    "Memo": "要注意計算機率的方式，必須把出界後面的路徑也都展開來算，才是真的總方法數。"
+},
+{
     "Number": "0690", 
     "Level": 2, 
     "Title": "Employee Importance", 
@@ -2868,7 +2876,10 @@
     "Level": 1, 
     "Title": "Final Prices With a Special Discount in a Shop", 
     "Url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop", 
-    "Tags": ["Monotonic-Stack", "**BASIC"], 
+    "Tags": [
+        "Monotonic-Stack", 
+        "**BASIC"
+    ], 
     "Memo": ""
 },
 {
@@ -2876,7 +2887,9 @@
     "Level": 2, 
     "Title": "Minimum Number of Vertices to Reach All Nodes", 
     "Url": "https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes", 
-    "Tags": ["Graph"], 
+    "Tags": [
+        "Graph"
+    ], 
     "Memo": "找到所有indegree為0的點就可以，不需要使用Topological sorting。"
 },
 {

@@ -111,6 +111,7 @@ algo
 │   ├── __0518__Coin Change 2.py
 │   ├── __0542__01 Matrix.py
 │   ├── __0576__Out of Boundary Paths.py
+│   ├── __0688__Knight Probability in Chessboard.py
 │   ├── __0718__Maximum Length of Repeated Subarray.py
 │   ├── __0931__Minimum Falling Path Sum.py
 │   ├── __0935__Knight Dialer.py
@@ -328,7 +329,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 301 files
+26 directories, 302 files
 
 =====================================
 ============= Local Repo ============
@@ -543,6 +544,7 @@ __0670__Maximum Swap.py
 __0680__Valid Palindrome II.py
 __0684__Redundant Connection.py
 __0687__Longest Univalue Path.py
+__0688__Knight Probability in Chessboard.py
 __0690__Employee Importance.py
 __0692__Top K Frequent Words.py
 __0694__Number of Distinct Islands.py
@@ -623,7 +625,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  289
+Num of Python Practice:  290
 
 
 =====================================
@@ -839,6 +841,7 @@ Num of Python Practice:  289
  0680 Valid Palindrome II
  0684 Redundant Connection
  0687 Longest Univalue Path
+ 0688 Knight Probability in Chessboard
  0690 Employee Importance
  0692 Top K Frequent Words
  0694 Number of Distinct Islands
@@ -920,10 +923,10 @@ Num of Python Practice:  289
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   63 /  538
-Solved / Total (Medium):  207 / 1135
+Solved / Total (Medium):  208 / 1135
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  289 / 2127
-Total Score            :  779
+Solved / Total (All)   :  290 / 2127
+Total Score            :  782
 =====================================
 
 ```
