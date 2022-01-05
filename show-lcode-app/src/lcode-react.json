@@ -1683,6 +1683,14 @@
     "Memo": ""
 },
 {
+    "Number": "0384", 
+    "Level": 2, 
+    "Title": "Shuffle an Array", 
+    "Url": "https://leetcode.com/problems/shuffle-an-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0387", 
     "Level": 1, 
     "Title": "First Unique Character in a String", 
@@ -2140,7 +2148,10 @@
     "Level": 2, 
     "Title": "Knight Probability in Chessboard", 
     "Url": "https://leetcode.com/problems/knight-probability-in-chessboard", 
-    "Tags": ["DP", "Memoization"], 
+    "Tags": [
+        "DP", 
+        "Memoization"
+    ], 
     "Memo": "要注意計算機率的方式，必須把出界後面的路徑也都展開來算，才是真的總方法數。"
 },
 {

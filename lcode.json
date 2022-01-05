@@ -1365,6 +1365,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0384", 
+    "Level": 2, 
+    "Title": "Shuffle an Array", 
+    "Url": "https://leetcode.com/problems/shuffle-an-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0387", 
     "Level": 1, 
     "Title": "First Unique Character in a String", 

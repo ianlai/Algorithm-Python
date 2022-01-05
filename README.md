@@ -12,6 +12,7 @@ algo
 │   ├── __0253__Meeting Rooms II.py
 │   ├── __0283__Move Zeroes.py
 │   ├── __0350__Intersection of Two Arrays II.py
+│   ├── __0384__Shuffle an Array.py
 │   ├── __0670__Maximum Swap.py
 │   ├── __0760__Find Anagram Mappings.py
 │   └── __0986__Interval List Intersections.py
@@ -329,7 +330,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 302 files
+26 directories, 303 files
 
 =====================================
 ============= Local Repo ============
@@ -497,6 +498,7 @@ __0366__Find Leaves of Binary Tree.py
 __0377__Combination Sum IV.py
 __0378__Kth Smallest Element in a Sorted Matrix.py
 __0380__Insert Delete GetRandom O(1).py
+__0384__Shuffle an Array.py
 __0387__First Unique Character in a String.py
 __0394__Decode String.py
 __0395__Longest Substring with At Least K Repeating Characters.py
@@ -625,7 +627,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  290
+Num of Python Practice:  291
 
 
 =====================================
@@ -794,6 +796,7 @@ Num of Python Practice:  290
  0377 Combination Sum IV
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
+ 0384 Shuffle an Array
  0387 First Unique Character in a String
  0394 Decode String
  0395 Longest Substring with At Least K Repeating Characters
@@ -923,10 +926,10 @@ Num of Python Practice:  290
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   63 /  538
-Solved / Total (Medium):  208 / 1135
+Solved / Total (Medium):  209 / 1135
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  290 / 2127
-Total Score            :  782
+Solved / Total (All)   :  291 / 2127
+Total Score            :  785
 =====================================
 
 ```
