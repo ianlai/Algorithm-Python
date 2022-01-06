@@ -42,6 +42,7 @@ function LcodeRow(props) {
         })}
       </th>
       <th style={{ width: "50%" }}> {props.memo} </th>
+      <th style={{ width: "8%" }}> {props.date} </th>
     </tr>
   );
 }

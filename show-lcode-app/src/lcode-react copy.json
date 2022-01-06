@@ -9,8 +9,7 @@
         "Two-Pointer", 
         "HashMap"
     ], 
-    "Memo": "試試看新的lcode-react.json", 
-    "Date": "2021-04-20"
+    "Memo": "試試看新的lcode-react.json"
 },
 {
     "Number": "0002", 
@@ -20,8 +19,7 @@
     "Tags": [
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-07"
+    "Memo": ""
 },
 {
     "Number": "0003", 
@@ -34,8 +32,7 @@
         "Sliding-Window", 
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-20"
+    "Memo": ""
 },
 {
     "Number": "0004", 
@@ -45,8 +42,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "在第一條上做BS，找到的點1，會決定點2（因為個數），再根據兩邊大小特性判斷要往左還是往右。", 
-    "Date": "2021-11-08"
+    "Memo": "在第一條上做BS，找到的點1，會決定點2（因為個數），再根據兩邊大小特性判斷要往左還是往右。"
 },
 {
     "Number": "0005", 
@@ -59,8 +55,7 @@
         "Two-Pointer", 
         "Substring"
     ], 
-    "Memo": "背向雙指針。", 
-    "Date": "2021-12-26"
+    "Memo": "背向雙指針。"
 },
 {
     "Number": "0009", 
@@ -68,8 +63,7 @@
     "Title": "Palindrome Number", 
     "Url": "https://leetcode.com/problems/palindrome-number", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-12-06"
+    "Memo": ""
 },
 {
     "Number": "0010", 
@@ -82,8 +76,7 @@
         "Memoization", 
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-06"
+    "Memo": ""
 },
 {
     "Number": "0011", 
@@ -93,8 +86,7 @@
     "Tags": [
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-15"
+    "Memo": ""
 },
 {
     "Number": "0014", 
@@ -104,8 +96,7 @@
     "Tags": [
         "String"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-10"
+    "Memo": ""
 },
 {
     "Number": "0015", 
@@ -117,8 +108,7 @@
         "Two-Sum", 
         "Redundant-Removal"
     ], 
-    "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。", 
-    "Date": "2021-10-13"
+    "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。"
 },
 {
     "Number": "0016", 
@@ -130,8 +120,7 @@
         "Two-Pointer", 
         "Sorting"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-21"
+    "Memo": ""
 },
 {
     "Number": "0017", 
@@ -141,8 +130,7 @@
     "Tags": [
         "Backtracking"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-03"
+    "Memo": ""
 },
 {
     "Number": "0018", 
@@ -154,8 +142,7 @@
         "Two-Pointer", 
         "Sorting"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-21"
+    "Memo": ""
 },
 {
     "Number": "0019", 
@@ -165,8 +152,7 @@
     "Tags": [
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-18"
+    "Memo": ""
 },
 {
     "Number": "0020", 
@@ -174,8 +160,7 @@
     "Title": "Valid Parentheses", 
     "Url": "https://leetcode.com/problems/valid-parentheses", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-17"
+    "Memo": ""
 },
 {
     "Number": "0021", 
@@ -183,8 +168,7 @@
     "Title": "Merge Two Sorted Lists", 
     "Url": "https://leetcode.com/problems/merge-two-sorted-lists", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-04"
+    "Memo": ""
 },
 {
     "Number": "0022", 
@@ -195,8 +179,7 @@
         "Parentheses", 
         "Backtracking"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-02"
+    "Memo": ""
 },
 {
     "Number": "0023", 
@@ -207,8 +190,7 @@
         "LinkedList", 
         "Heap"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-18"
+    "Memo": ""
 },
 {
     "Number": "0024", 
@@ -216,8 +198,7 @@
     "Title": "Swap Nodes in Pairs", 
     "Url": "https://leetcode.com/problems/swap-nodes-in-pairs", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-12-30"
+    "Memo": ""
 },
 {
     "Number": "0031", 
@@ -227,8 +208,7 @@
     "Tags": [
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-10"
+    "Memo": ""
 },
 {
     "Number": "0033", 
@@ -238,8 +218,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-06"
+    "Memo": ""
 },
 {
     "Number": "0034", 
@@ -249,8 +228,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-11"
+    "Memo": ""
 },
 {
     "Number": "0036", 
@@ -260,8 +238,7 @@
     "Tags": [
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0037", 
@@ -272,8 +249,7 @@
         "Backtracking", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-02"
+    "Memo": ""
 },
 {
     "Number": "0039", 
@@ -283,8 +259,7 @@
     "Tags": [
         "Backtracking"
     ], 
-    "Memo": "不重複的元素可被無限重複使用。", 
-    "Date": "2021-08-03"
+    "Memo": "不重複的元素可被無限重複使用。"
 },
 {
     "Number": "0040", 
@@ -295,8 +270,7 @@
         "Backtracking", 
         "Redundant-Removal"
     ], 
-    "Memo": "重複的元素但只能被使用一次。", 
-    "Date": "2021-05-27"
+    "Memo": "重複的元素但只能被使用一次。"
 },
 {
     "Number": "0042", 
@@ -307,8 +281,7 @@
         "Two-Pointer", 
         "Accumulated"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-16"
+    "Memo": ""
 },
 {
     "Number": "0044", 
@@ -321,8 +294,7 @@
         "Memoization", 
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-06"
+    "Memo": ""
 },
 {
     "Number": "0046", 
@@ -332,8 +304,7 @@
     "Tags": [
         "Backtracking"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-30"
+    "Memo": ""
 },
 {
     "Number": "0047", 
@@ -344,8 +315,7 @@
         "Backtracking", 
         "Redundant-Removal"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-27"
+    "Memo": ""
 },
 {
     "Number": "0048", 
@@ -355,8 +325,7 @@
     "Tags": [
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-05"
+    "Memo": ""
 },
 {
     "Number": "0049", 
@@ -366,8 +335,7 @@
     "Tags": [
         "Sorting"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-20"
+    "Memo": ""
 },
 {
     "Number": "0050", 
@@ -378,8 +346,7 @@
         "Math", 
         "Recursion"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-09"
+    "Memo": ""
 },
 {
     "Number": "0051", 
@@ -390,8 +357,7 @@
         "Backtracking", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-01"
+    "Memo": ""
 },
 {
     "Number": "0052", 
@@ -402,8 +368,7 @@
         "Backtracking", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-01"
+    "Memo": ""
 },
 {
     "Number": "0053", 
@@ -411,8 +376,7 @@
     "Title": "Maximum Subarray", 
     "Url": "https://leetcode.com/problems/maximum-subarray", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": ""
 },
 {
     "Number": "0056", 
@@ -423,8 +387,7 @@
         "Interval", 
         "Sorting"
     ], 
-    "Memo": "(1)res空的時候丟入第一格，之後拿res[-1]和interval比較，可以merge就修改res[-1]，否則就append (2)掃描時間軸，把每個時間點標記打開或關閉，當有任何一個打開的時候便要打開，當全部都關閉的時候才關閉。", 
-    "Date": "2021-12-10"
+    "Memo": "(1)res空的時候丟入第一格，之後拿res[-1]和interval比較，可以merge就修改res[-1]，否則就append (2)掃描時間軸，把每個時間點標記打開或關閉，當有任何一個打開的時候便要打開，當全部都關閉的時候才關閉。"
 },
 {
     "Number": "0057", 
@@ -434,8 +397,7 @@
     "Tags": [
         "Interval"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-10"
+    "Memo": ""
 },
 {
     "Number": "0061", 
@@ -445,8 +407,7 @@
     "Tags": [
         "LinkedList"
     ], 
-    "Memo": "找到新的頭，可以使用同向雙指標或是計數節點。因為k可能大過節點，所以乾脆就直接計數。", 
-    "Date": "2021-12-15"
+    "Memo": "找到新的頭，可以使用同向雙指標或是計數節點。因為k可能大過節點，所以乾脆就直接計數。"
 },
 {
     "Number": "0062", 
@@ -457,8 +418,7 @@
         "DP", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-09"
+    "Memo": ""
 },
 {
     "Number": "0063", 
@@ -469,8 +429,7 @@
         "DP", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0064", 
@@ -481,8 +440,7 @@
         "DP", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-09"
+    "Memo": ""
 },
 {
     "Number": "0069", 
@@ -490,8 +448,7 @@
     "Title": "Sqrt(x)", 
     "Url": "https://leetcode.com/problems/sqrtx", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-09"
+    "Memo": ""
 },
 {
     "Number": "0070", 
@@ -499,8 +456,7 @@
     "Title": "Climbing Stairs", 
     "Url": "https://leetcode.com/problems/climbing-stairs", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-17"
+    "Memo": ""
 },
 {
     "Number": "0074", 
@@ -511,8 +467,7 @@
         "Binary-Search", 
         "Matrix"
     ], 
-    "Memo": "下一個row是接著上一個row，所以就是一般的Binary Search。", 
-    "Date": "2021-05-11"
+    "Memo": "下一個row是接著上一個row，所以就是一般的Binary Search。"
 },
 {
     "Number": "0075", 
@@ -524,8 +479,7 @@
         "Partition", 
         "Two-Pointer"
     ], 
-    "Memo": "可以使用一般的Sorting。而因為狀態有限，也可以使用CountingSort。因為只有三個狀態，所以也可以做兩次Partition。", 
-    "Date": "2021-05-23"
+    "Memo": "可以使用一般的Sorting。而因為狀態有限，也可以使用CountingSort。因為只有三個狀態，所以也可以做兩次Partition。"
 },
 {
     "Number": "0077", 
@@ -535,8 +489,7 @@
     "Tags": [
         "Backtracking"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-03"
+    "Memo": ""
 },
 {
     "Number": "0078", 
@@ -546,8 +499,7 @@
     "Tags": [
         "Backtracking"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-30"
+    "Memo": ""
 },
 {
     "Number": "0079", 
@@ -559,8 +511,7 @@
         "Matrix", 
         "Word"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-17"
+    "Memo": ""
 },
 {
     "Number": "0080", 
@@ -568,8 +519,7 @@
     "Title": "Remove Duplicates from Sorted Array II", 
     "Url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-12-08"
+    "Memo": ""
 },
 {
     "Number": "0081", 
@@ -579,8 +529,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-14"
+    "Memo": ""
 },
 {
     "Number": "0083", 
@@ -590,8 +539,7 @@
     "Tags": [
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-27"
+    "Memo": ""
 },
 {
     "Number": "0086", 
@@ -602,8 +550,7 @@
         "LinkedList", 
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-04"
+    "Memo": ""
 },
 {
     "Number": "0089", 
@@ -614,8 +561,7 @@
         "Backtracking", 
         "**SLOW"
     ], 
-    "Memo": "只拿到5%，還要再看。再看一次似乎還是一樣慢，已經從tuple改成用string來做，避免tuple<->list轉型轉來轉去（但相對的就不能使用list的設定某位置的值）。同時這題雖然是backtracking分類，但其實不會backtrack，一直往前一定有路。", 
-    "Date": "2021-12-30"
+    "Memo": "只拿到5%，還要再看。再看一次似乎還是一樣慢，已經從tuple改成用string來做，避免tuple<->list轉型轉來轉去（但相對的就不能使用list的設定某位置的值）。同時這題雖然是backtracking分類，但其實不會backtrack，一直往前一定有路。"
 },
 {
     "Number": "0090", 
@@ -626,8 +572,7 @@
         "Backtracking", 
         "Redundant-Removal"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-05"
+    "Memo": ""
 },
 {
     "Number": "0092", 
@@ -637,8 +582,7 @@
     "Tags": [
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-04"
+    "Memo": ""
 },
 {
     "Number": "0094", 
@@ -649,8 +593,7 @@
         "Tree", 
         "DFS"
     ], 
-    "Memo": "(1)Recursive (2)Iterative (3)Morris", 
-    "Date": "2021-08-09"
+    "Memo": "(1)Recursive (2)Iterative (3)Morris"
 },
 {
     "Number": "0095", 
@@ -662,8 +605,7 @@
         "BST", 
         "Memoization"
     ], 
-    "Memo": "這題要再看。", 
-    "Date": "2021-07-16"
+    "Memo": "這題要再看。"
 },
 {
     "Number": "0096", 
@@ -675,8 +617,7 @@
         "BST", 
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-16"
+    "Memo": ""
 },
 {
     "Number": "0098", 
@@ -687,8 +628,7 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-22"
+    "Memo": ""
 },
 {
     "Number": "0099", 
@@ -700,8 +640,7 @@
         "BST", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-08"
+    "Memo": ""
 },
 {
     "Number": "0100", 
@@ -711,8 +650,7 @@
     "Tags": [
         "Tree"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-20"
+    "Memo": ""
 },
 {
     "Number": "0101", 
@@ -722,8 +660,7 @@
     "Tags": [
         "Tree"
     ], 
-    "Memo": "Recursive的helper function要一開始就分兩邊，才能比較兩邊。", 
-    "Date": "2021-04-20"
+    "Memo": "Recursive的helper function要一開始就分兩邊，才能比較兩邊。"
 },
 {
     "Number": "0102", 
@@ -734,8 +671,7 @@
         "Tree", 
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-04"
+    "Memo": ""
 },
 {
     "Number": "0103", 
@@ -746,8 +682,7 @@
         "Tree", 
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-06"
+    "Memo": ""
 },
 {
     "Number": "0104", 
@@ -757,8 +692,7 @@
     "Tags": [
         "Tree"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-01"
+    "Memo": ""
 },
 {
     "Number": "0105", 
@@ -769,8 +703,7 @@
         "Tree", 
         "D&C"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-06"
+    "Memo": ""
 },
 {
     "Number": "0107", 
@@ -781,8 +714,7 @@
         "Tree", 
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-22"
+    "Memo": ""
 },
 {
     "Number": "0108", 
@@ -793,8 +725,7 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": ""
 },
 {
     "Number": "0109", 
@@ -806,8 +737,7 @@
         "BST", 
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-18"
+    "Memo": ""
 },
 {
     "Number": "0111", 
@@ -815,8 +745,7 @@
     "Title": "Minimum Depth of Binary Tree", 
     "Url": "https://leetcode.com/problems/minimum-depth-of-binary-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-22"
+    "Memo": ""
 },
 {
     "Number": "0112", 
@@ -824,8 +753,7 @@
     "Title": "Path Sum", 
     "Url": "https://leetcode.com/problems/path-sum", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-03"
+    "Memo": ""
 },
 {
     "Number": "0113", 
@@ -833,8 +761,7 @@
     "Title": "Path Sum II", 
     "Url": "https://leetcode.com/problems/path-sum-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-03"
+    "Memo": ""
 },
 {
     "Number": "0114", 
@@ -842,8 +769,7 @@
     "Title": "Flatten Binary Tree to Linked List", 
     "Url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-18"
+    "Memo": ""
 },
 {
     "Number": "0116", 
@@ -851,8 +777,7 @@
     "Title": "Populating Next Right Pointers in Each Node", 
     "Url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-09"
+    "Memo": ""
 },
 {
     "Number": "0118", 
@@ -860,8 +785,7 @@
     "Title": "Pascal's Triangle", 
     "Url": "https://leetcode.com/problems/pascals-triangle", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-21"
+    "Memo": ""
 },
 {
     "Number": "0119", 
@@ -869,8 +793,7 @@
     "Title": "Pascal's Triangle II", 
     "Url": "https://leetcode.com/problems/pascals-triangle-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-02"
+    "Memo": ""
 },
 {
     "Number": "0120", 
@@ -878,8 +801,7 @@
     "Title": "Triangle", 
     "Url": "https://leetcode.com/problems/triangle", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-09"
+    "Memo": ""
 },
 {
     "Number": "0121", 
@@ -887,8 +809,7 @@
     "Title": "Best Time to Buy and Sell Stock", 
     "Url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-06"
+    "Memo": ""
 },
 {
     "Number": "0122", 
@@ -896,8 +817,7 @@
     "Title": "Best Time to Buy and Sell Stock II", 
     "Url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-06"
+    "Memo": ""
 },
 {
     "Number": "0125", 
@@ -907,8 +827,7 @@
     "Tags": [
         "Palindrome"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-20"
+    "Memo": ""
 },
 {
     "Number": "0126", 
@@ -922,8 +841,7 @@
         "Word", 
         "Graph"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-26"
+    "Memo": ""
 },
 {
     "Number": "0127", 
@@ -936,8 +854,7 @@
         "Word", 
         "Graph"
     ], 
-    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。", 
-    "Date": "2021-10-19"
+    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。"
 },
 {
     "Number": "0128", 
@@ -948,8 +865,7 @@
         "Sorting", 
         "Union-Find"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-26"
+    "Memo": ""
 },
 {
     "Number": "0129", 
@@ -961,8 +877,7 @@
         "Tree", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-19"
+    "Memo": ""
 },
 {
     "Number": "0130", 
@@ -975,8 +890,7 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "0131", 
@@ -986,8 +900,7 @@
     "Tags": [
         "Palindrome"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-22"
+    "Memo": ""
 },
 {
     "Number": "0133", 
@@ -999,8 +912,7 @@
         "BFS", 
         "DFS"
     ], 
-    "Memo": "拷貝點，舊點與新點的關係，邊。", 
-    "Date": "2021-11-24"
+    "Memo": "拷貝點，舊點與新點的關係，邊。"
 },
 {
     "Number": "0134", 
@@ -1010,8 +922,7 @@
     "Tags": [
         "Greedy"
     ], 
-    "Memo": "找出累加的gas-cost為最小值，此值的下一個位置就是候選人，檢驗候選人。", 
-    "Date": "2021-12-30"
+    "Memo": "找出累加的gas-cost為最小值，此值的下一個位置就是候選人，檢驗候選人。"
 },
 {
     "Number": "0136", 
@@ -1019,8 +930,7 @@
     "Title": "Single Number", 
     "Url": "https://leetcode.com/problems/single-number", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-21"
+    "Memo": ""
 },
 {
     "Number": "0138", 
@@ -1030,8 +940,7 @@
     "Tags": [
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-19"
+    "Memo": ""
 },
 {
     "Number": "0139", 
@@ -1044,8 +953,7 @@
         "DP", 
         "Pattern"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-24"
+    "Memo": ""
 },
 {
     "Number": "0141", 
@@ -1056,8 +964,7 @@
         "LinkedList", 
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-06"
+    "Memo": ""
 },
 {
     "Number": "0142", 
@@ -1068,8 +975,7 @@
         "LinkedList", 
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-06"
+    "Memo": ""
 },
 {
     "Number": "0144", 
@@ -1077,8 +983,7 @@
     "Title": "Binary Tree Preorder Traversal", 
     "Url": "https://leetcode.com/problems/binary-tree-preorder-traversal", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-24"
+    "Memo": ""
 },
 {
     "Number": "0146", 
@@ -1091,8 +996,7 @@
         "Cache", 
         "Design"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-07"
+    "Memo": ""
 },
 {
     "Number": "0148", 
@@ -1104,8 +1008,7 @@
         "Sorting", 
         "D&C"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-03"
+    "Memo": ""
 },
 {
     "Number": "0151", 
@@ -1113,8 +1016,7 @@
     "Title": "Reverse Words in a String", 
     "Url": "https://leetcode.com/problems/reverse-words-in-a-string", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-09"
+    "Memo": ""
 },
 {
     "Number": "0152", 
@@ -1125,8 +1027,7 @@
         "Two-Pointer", 
         "**SLOW"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-07"
+    "Memo": ""
 },
 {
     "Number": "0153", 
@@ -1136,8 +1037,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-06"
+    "Memo": ""
 },
 {
     "Number": "0155", 
@@ -1145,8 +1045,7 @@
     "Title": "Min Stack", 
     "Url": "https://leetcode.com/problems/min-stack", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-29"
+    "Memo": ""
 },
 {
     "Number": "0159", 
@@ -1158,8 +1057,7 @@
         "Sliding-Window", 
         "Substring"
     ], 
-    "Memo": "類似0003，找最長不重複Substring。", 
-    "Date": "2021-12-19"
+    "Memo": "類似0003，找最長不重複Substring。"
 },
 {
     "Number": "0160", 
@@ -1170,8 +1068,7 @@
         "LinkedList", 
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-30"
+    "Memo": ""
 },
 {
     "Number": "0162", 
@@ -1181,8 +1078,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-13"
+    "Memo": ""
 },
 {
     "Number": "0167", 
@@ -1190,8 +1086,7 @@
     "Title": "Two Sum II - Input Array Is Sorted", 
     "Url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-20"
+    "Memo": ""
 },
 {
     "Number": "0173", 
@@ -1203,8 +1098,7 @@
         "BST", 
         "Design"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-09"
+    "Memo": ""
 },
 {
     "Number": "0189", 
@@ -1216,8 +1110,7 @@
         "Rotation", 
         "Two-Pointer"
     ], 
-    "Memo": "可使用三步翻轉法。", 
-    "Date": "2021-05-19"
+    "Memo": "可使用三步翻轉法。"
 },
 {
     "Number": "0199", 
@@ -1225,8 +1118,7 @@
     "Title": "Binary Tree Right Side View", 
     "Url": "https://leetcode.com/problems/binary-tree-right-side-view", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-27"
+    "Memo": ""
 },
 {
     "Number": "0200", 
@@ -1241,8 +1133,7 @@
         "DFS", 
         "Union-Find"
     ], 
-    "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。", 
-    "Date": "2021-11-21"
+    "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。"
 },
 {
     "Number": "0206", 
@@ -1250,8 +1141,7 @@
     "Title": "Reverse Linked List", 
     "Url": "https://leetcode.com/problems/reverse-linked-list", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-10"
+    "Memo": ""
 },
 {
     "Number": "0207", 
@@ -1263,8 +1153,7 @@
         "Topological-Sorting", 
         "Schedule"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0208", 
@@ -1274,8 +1163,7 @@
     "Tags": [
         "Trie"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-25"
+    "Memo": ""
 },
 {
     "Number": "0210", 
@@ -1287,8 +1175,7 @@
         "Topological-Sorting", 
         "Schedule"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0211", 
@@ -1298,8 +1185,7 @@
     "Tags": [
         "Trie"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-30"
+    "Memo": ""
 },
 {
     "Number": "0212", 
@@ -1312,8 +1198,7 @@
         "Backtracking", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-22"
+    "Memo": ""
 },
 {
     "Number": "0215", 
@@ -1326,8 +1211,7 @@
         "QuickSelct", 
         "Sorting"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-22"
+    "Memo": ""
 },
 {
     "Number": "0216", 
@@ -1335,8 +1219,7 @@
     "Title": "Combination Sum III", 
     "Url": "https://leetcode.com/problems/combination-sum-iii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-30"
+    "Memo": ""
 },
 {
     "Number": "0221", 
@@ -1344,8 +1227,7 @@
     "Title": "Maximal Square", 
     "Url": "https://leetcode.com/problems/maximal-square", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-22"
+    "Memo": ""
 },
 {
     "Number": "0222", 
@@ -1356,8 +1238,7 @@
         "Tree", 
         "Binary-Search"
     ], 
-    "Memo": "log^2(n)的時間複雜度，蠻特別的題目。", 
-    "Date": "2022-01-04"
+    "Memo": "log^2(n)的時間複雜度，蠻特別的題目。"
 },
 {
     "Number": "0226", 
@@ -1367,8 +1248,7 @@
     "Tags": [
         "Tree"
     ], 
-    "Memo": "", 
-    "Date": "2021-04-20"
+    "Memo": ""
 },
 {
     "Number": "0230", 
@@ -1380,8 +1260,7 @@
         "BST", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-17"
+    "Memo": ""
 },
 {
     "Number": "0234", 
@@ -1392,8 +1271,7 @@
         "Palindrome", 
         "LinkedList"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-06"
+    "Memo": ""
 },
 {
     "Number": "0235", 
@@ -1405,8 +1283,7 @@
         "BST", 
         "LCA"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": ""
 },
 {
     "Number": "0236", 
@@ -1417,8 +1294,7 @@
         "Tree", 
         "LCA"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": ""
 },
 {
     "Number": "0237", 
@@ -1426,8 +1302,7 @@
     "Title": "Delete Node in a Linked List", 
     "Url": "https://leetcode.com/problems/delete-node-in-a-linked-list", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-09"
+    "Memo": ""
 },
 {
     "Number": "0239", 
@@ -1437,8 +1312,7 @@
     "Tags": [
         "Sliding-Window"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-13"
+    "Memo": ""
 },
 {
     "Number": "0240", 
@@ -1449,8 +1323,7 @@
         "Binary-Search", 
         "Matrix"
     ], 
-    "Memo": "每一個row和col都有順序，但前後彼此不相關。", 
-    "Date": "2021-05-12"
+    "Memo": "每一個row和col都有順序，但前後彼此不相關。"
 },
 {
     "Number": "0241", 
@@ -1462,8 +1335,7 @@
         "Memoization", 
         "**CHECK"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-15"
+    "Memo": ""
 },
 {
     "Number": "0242", 
@@ -1471,8 +1343,7 @@
     "Title": "Valid Anagram", 
     "Url": "https://leetcode.com/problems/valid-anagram", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-20"
+    "Memo": ""
 },
 {
     "Number": "0252", 
@@ -1484,8 +1355,7 @@
         "Sorting", 
         "Interval"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-19"
+    "Memo": ""
 },
 {
     "Number": "0253", 
@@ -1498,8 +1368,7 @@
         "Sorting", 
         "Interval"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-19"
+    "Memo": ""
 },
 {
     "Number": "0257", 
@@ -1507,8 +1376,7 @@
     "Title": "Binary Tree Paths", 
     "Url": "https://leetcode.com/problems/binary-tree-paths", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": ""
 },
 {
     "Number": "0259", 
@@ -1516,8 +1384,7 @@
     "Title": "3Sum Smaller", 
     "Url": "https://leetcode.com/problems/3sum-smaller", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-13"
+    "Memo": ""
 },
 {
     "Number": "0261", 
@@ -1528,8 +1395,7 @@
         "Graph", 
         "DFS"
     ], 
-    "Memo": "(1) 和0684不同，不需要找出多的那條路徑。因此只需要DFS一次就可以，找到走到兩次的點。<br> (2)或是使用樹的V比E多1這個特性也可以。", 
-    "Date": "2021-11-20"
+    "Memo": "(1) 和0684不同，不需要找出多的那條路徑。因此只需要DFS一次就可以，找到走到兩次的點。<br> (2)或是使用樹的V比E多1這個特性也可以。"
 },
 {
     "Number": "0263", 
@@ -1537,8 +1403,7 @@
     "Title": "Ugly Number", 
     "Url": "https://leetcode.com/problems/ugly-number", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-05"
+    "Memo": ""
 },
 {
     "Number": "0264", 
@@ -1546,8 +1411,7 @@
     "Title": "Ugly Number II", 
     "Url": "https://leetcode.com/problems/ugly-number-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-05"
+    "Memo": ""
 },
 {
     "Number": "0270", 
@@ -1555,8 +1419,7 @@
     "Title": "Closest Binary Search Tree Value", 
     "Url": "https://leetcode.com/problems/closest-binary-search-tree-value", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-18"
+    "Memo": ""
 },
 {
     "Number": "0277", 
@@ -1564,8 +1427,7 @@
     "Title": "Find the Celebrity", 
     "Url": "https://leetcode.com/problems/find-the-celebrity", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-17"
+    "Memo": ""
 },
 {
     "Number": "0278", 
@@ -1575,8 +1437,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-03"
+    "Memo": ""
 },
 {
     "Number": "0279", 
@@ -1584,8 +1445,7 @@
     "Title": "Perfect Squares", 
     "Url": "https://leetcode.com/problems/perfect-squares", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-03"
+    "Memo": ""
 },
 {
     "Number": "0283", 
@@ -1593,8 +1453,7 @@
     "Title": "Move Zeroes", 
     "Url": "https://leetcode.com/problems/move-zeroes", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-07"
+    "Memo": ""
 },
 {
     "Number": "0285", 
@@ -1605,8 +1464,7 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-22"
+    "Memo": ""
 },
 {
     "Number": "0286", 
@@ -1616,8 +1474,7 @@
     "Tags": [
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0287", 
@@ -1625,8 +1482,7 @@
     "Title": "Find the Duplicate Number", 
     "Url": "https://leetcode.com/problems/find-the-duplicate-number", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": ""
 },
 {
     "Number": "0290", 
@@ -1638,8 +1494,7 @@
         "String", 
         "HashMap"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-11"
+    "Memo": ""
 },
 {
     "Number": "0297", 
@@ -1651,8 +1506,7 @@
         "Design", 
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-04"
+    "Memo": ""
 },
 {
     "Number": "0300", 
@@ -1663,8 +1517,7 @@
         "DP", 
         "Subsequence"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-08"
+    "Memo": ""
 },
 {
     "Number": "0305", 
@@ -1676,8 +1529,7 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "使用DisjointSet可以過，不用每次都全部重跑。實作時把DisjointSet獨立成一個General class，並且已經加入Path Compression和Union By Rank兩種優化。要注意的是地圖上任意兩個點並不一定可以Union，但又不是因為兩者為同一棵樹，所以狀況分三種：(1)在內部，不可union，相同root (2)在隔壁，可union (3)分開，不可union。使用find(A)!=find(B)只能判斷前兩種，因此必須要每個新增點都跟四周點去做union測試，這樣會自然排除第三種case（因為是四周點，自然不會是分開的）。", 
-    "Date": "2021-12-30"
+    "Memo": "使用DisjointSet可以過，不用每次都全部重跑。實作時把DisjointSet獨立成一個General class，並且已經加入Path Compression和Union By Rank兩種優化。要注意的是地圖上任意兩個點並不一定可以Union，但又不是因為兩者為同一棵樹，所以狀況分三種：(1)在內部，不可union，相同root (2)在隔壁，可union (3)分開，不可union。使用find(A)!=find(B)只能判斷前兩種，因此必須要每個新增點都跟四周點去做union測試，這樣會自然排除第三種case（因為是四周點，自然不會是分開的）。"
 },
 {
     "Number": "0310", 
@@ -1690,8 +1542,7 @@
         "Topological-Sorting", 
         "**HARD"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-18"
+    "Memo": ""
 },
 {
     "Number": "0314", 
@@ -1699,8 +1550,7 @@
     "Title": "Binary Tree Vertical Order Traversal", 
     "Url": "https://leetcode.com/problems/binary-tree-vertical-order-traversal", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-20"
+    "Memo": ""
 },
 {
     "Number": "0322", 
@@ -1710,8 +1560,7 @@
     "Tags": [
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-04"
+    "Memo": ""
 },
 {
     "Number": "0323", 
@@ -1722,8 +1571,7 @@
         "Graph", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-09"
+    "Memo": ""
 },
 {
     "Number": "0332", 
@@ -1733,8 +1581,7 @@
     "Tags": [
         "Graph"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-16"
+    "Memo": ""
 },
 {
     "Number": "0333", 
@@ -1745,8 +1592,7 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "我是用recursion，每次回傳四個回傳值：此點以下的最多BST，包含此點的最多BST，此點以下最大值，此點以下最小值，以此來花費O(n)traverse一次求答案。", 
-    "Date": "2021-12-27"
+    "Memo": "我是用recursion，每次回傳四個回傳值：此點以下的最多BST，包含此點的最多BST，此點以下最大值，此點以下最小值，以此來花費O(n)traverse一次求答案。"
 },
 {
     "Number": "0340", 
@@ -1758,8 +1604,7 @@
         "Sliding-Window", 
         "Substring"
     ], 
-    "Memo": "類似0003, 0159。", 
-    "Date": "2021-12-19"
+    "Memo": "類似0003, 0159。"
 },
 {
     "Number": "0341", 
@@ -1767,8 +1612,7 @@
     "Title": "Flatten Nested List Iterator", 
     "Url": "https://leetcode.com/problems/flatten-nested-list-iterator", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-10"
+    "Memo": ""
 },
 {
     "Number": "0347", 
@@ -1781,8 +1625,7 @@
         "QuickSelct", 
         "Sorting"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-05"
+    "Memo": ""
 },
 {
     "Number": "0350", 
@@ -1790,8 +1633,7 @@
     "Title": "Intersection of Two Arrays II", 
     "Url": "https://leetcode.com/problems/intersection-of-two-arrays-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-26"
+    "Memo": ""
 },
 {
     "Number": "0362", 
@@ -1801,8 +1643,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-31"
+    "Memo": ""
 },
 {
     "Number": "0366", 
@@ -1810,8 +1651,7 @@
     "Title": "Find Leaves of Binary Tree", 
     "Url": "https://leetcode.com/problems/find-leaves-of-binary-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-01"
+    "Memo": ""
 },
 {
     "Number": "0377", 
@@ -1819,8 +1659,7 @@
     "Title": "Combination Sum IV", 
     "Url": "https://leetcode.com/problems/combination-sum-iv", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-04"
+    "Memo": ""
 },
 {
     "Number": "0378", 
@@ -1833,8 +1672,7 @@
         "Sorting", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-09"
+    "Memo": ""
 },
 {
     "Number": "0380", 
@@ -1842,8 +1680,7 @@
     "Title": "Insert Delete GetRandom O(1)", 
     "Url": "https://leetcode.com/problems/insert-delete-getrandom-o1", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-19"
+    "Memo": ""
 },
 {
     "Number": "0384", 
@@ -1851,8 +1688,7 @@
     "Title": "Shuffle an Array", 
     "Url": "https://leetcode.com/problems/shuffle-an-array", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2022-01-05"
+    "Memo": ""
 },
 {
     "Number": "0387", 
@@ -1860,8 +1696,7 @@
     "Title": "First Unique Character in a String", 
     "Url": "https://leetcode.com/problems/first-unique-character-in-a-string", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-05"
+    "Memo": ""
 },
 {
     "Number": "0394", 
@@ -1869,8 +1704,7 @@
     "Title": "Decode String", 
     "Url": "https://leetcode.com/problems/decode-string", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-09-19"
+    "Memo": ""
 },
 {
     "Number": "0395", 
@@ -1883,8 +1717,7 @@
         "Substring", 
         "D&C"
     ], 
-    "Memo": "用Two-Pointer的方式不是很好想。一般作法是R往前走，當不符合條件時，開始讓L往前走，直到符合條件，又再繼續讓R往前走。這題麻煩的是不符合條件時，是必須讓R繼續往前走，但往前走又不一定能夠讓條件符合，因為不會控制到L，所以這就是一般的n2迴圈。如果第一層迴圈是L，第二層迴圈是R，每次可以不用重新計算內部，但也就需要O(n2)，也就是Code1的暴力解。Code2利用元素種類固定是26的特性，外迴圈定為1~獨立元素個數，內部再一個Two-Pointer雙迴圈，可以控制到L所以是O(n)。因此時間複雜度是O(26*N)，更正確是O(出現的獨立元素數*N)。", 
-    "Date": "2021-12-27"
+    "Memo": "用Two-Pointer的方式不是很好想。一般作法是R往前走，當不符合條件時，開始讓L往前走，直到符合條件，又再繼續讓R往前走。這題麻煩的是不符合條件時，是必須讓R繼續往前走，但往前走又不一定能夠讓條件符合，因為不會控制到L，所以這就是一般的n2迴圈。如果第一層迴圈是L，第二層迴圈是R，每次可以不用重新計算內部，但也就需要O(n2)，也就是Code1的暴力解。Code2利用元素種類固定是26的特性，外迴圈定為1~獨立元素個數，內部再一個Two-Pointer雙迴圈，可以控制到L所以是O(n)。因此時間複雜度是O(26*N)，更正確是O(出現的獨立元素數*N)。"
 },
 {
     "Number": "0399", 
@@ -1895,8 +1728,7 @@
         "Graph", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-18"
+    "Memo": ""
 },
 {
     "Number": "0401", 
@@ -1904,8 +1736,7 @@
     "Title": "Binary Watch", 
     "Url": "https://leetcode.com/problems/binary-watch", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-28"
+    "Memo": ""
 },
 {
     "Number": "0416", 
@@ -1913,8 +1744,7 @@
     "Title": "Partition Equal Subset Sum", 
     "Url": "https://leetcode.com/problems/partition-equal-subset-sum", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-04"
+    "Memo": ""
 },
 {
     "Number": "0417", 
@@ -1925,8 +1755,7 @@
         "DFS", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "0423", 
@@ -1937,8 +1766,7 @@
         "HashMap", 
         "String"
     ], 
-    "Memo": "仔細攤開來看，有五個英文字是指對應到單一數字，可以發現順序是決定的，所以不需要使用Backtracking(是唯一的答案）。", 
-    "Date": "2021-11-26"
+    "Memo": "仔細攤開來看，有五個英文字是指對應到單一數字，可以發現順序是決定的，所以不需要使用Backtracking(是唯一的答案）。"
 },
 {
     "Number": "0437", 
@@ -1946,8 +1774,7 @@
     "Title": "Path Sum III", 
     "Url": "https://leetcode.com/problems/path-sum-iii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-17"
+    "Memo": ""
 },
 {
     "Number": "0441", 
@@ -1958,8 +1785,7 @@
         "Binary-Search", 
         "Math"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-13"
+    "Memo": ""
 },
 {
     "Number": "0449", 
@@ -1972,8 +1798,7 @@
         "Design", 
         "Serialize"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-21"
+    "Memo": ""
 },
 {
     "Number": "0450", 
@@ -1981,8 +1806,7 @@
     "Title": "Delete Node in a BST", 
     "Url": "https://leetcode.com/problems/delete-node-in-a-bst", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-06"
+    "Memo": ""
 },
 {
     "Number": "0459", 
@@ -1993,8 +1817,7 @@
         "String", 
         "Substring"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-26"
+    "Memo": ""
 },
 {
     "Number": "0474", 
@@ -2004,8 +1827,7 @@
     "Tags": [
         "Memoization"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-22"
+    "Memo": ""
 },
 {
     "Number": "0490", 
@@ -2015,8 +1837,7 @@
     "Tags": [
         "BFS"
     ], 
-    "Memo": "和505是同一個系列的，490只需要判斷是否能抵達，所以可以把每一個點都走過即可。", 
-    "Date": "2021-12-31"
+    "Memo": "和505是同一個系列的，490只需要判斷是否能抵達，所以可以把每一個點都走過即可。"
 },
 {
     "Number": "0494", 
@@ -2024,8 +1845,7 @@
     "Title": "Target Sum", 
     "Url": "https://leetcode.com/problems/target-sum", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-12"
+    "Memo": ""
 },
 {
     "Number": "0496", 
@@ -2036,8 +1856,7 @@
         "Stack", 
         "Monotonic-Stack"
     ], 
-    "Memo": "", 
-    "Date": "2022-01-02"
+    "Memo": ""
 },
 {
     "Number": "0498", 
@@ -2045,8 +1864,7 @@
     "Title": "Diagonal Traverse", 
     "Url": "https://leetcode.com/problems/diagonal-traverse", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-12-11"
+    "Memo": ""
 },
 {
     "Number": "0499", 
@@ -2058,8 +1876,7 @@
         "Dijkstra", 
         "**HARD"
     ], 
-    "Memo": "類似0787，不是一般的SSSP，而是有兩個條件要排序（distance, direction)。", 
-    "Date": "2022-01-01"
+    "Memo": "類似0787，不是一般的SSSP，而是有兩個條件要排序（distance, direction)。"
 },
 {
     "Number": "0503", 
@@ -2070,8 +1887,7 @@
         "Stack", 
         "Monotonic-Stack"
     ], 
-    "Memo": "繞一次是Normal array，繞兩次可處理Circular array。stack內存index比存值好，因為這樣可以做res[stack[-1]=x來設值，基本上存index就會有位置和值兩種資訊，比較泛用。", 
-    "Date": "2022-01-03"
+    "Memo": "繞一次是Normal array，繞兩次可處理Circular array。stack內存index比存值好，因為這樣可以做res[stack[-1]=x來設值，基本上存index就會有位置和值兩種資訊，比較泛用。"
 },
 {
     "Number": "0505", 
@@ -2082,8 +1898,7 @@
         "SSSP", 
         "Dijkstra"
     ], 
-    "Memo": "和490同一系列，但這題不只是要找到是否有解，還要找到最短路徑。", 
-    "Date": "2022-01-01"
+    "Memo": "和490同一系列，但這題不只是要找到是否有解，還要找到最短路徑。"
 },
 {
     "Number": "0510", 
@@ -2091,8 +1906,7 @@
     "Title": "Inorder Successor in BST II", 
     "Url": "https://leetcode.com/problems/inorder-successor-in-bst-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-09"
+    "Memo": ""
 },
 {
     "Number": "0513", 
@@ -2100,8 +1914,7 @@
     "Title": "Find Bottom Left Tree Value", 
     "Url": "https://leetcode.com/problems/find-bottom-left-tree-value", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-02"
+    "Memo": ""
 },
 {
     "Number": "0515", 
@@ -2109,8 +1922,7 @@
     "Title": "Find Largest Value in Each Tree Row", 
     "Url": "https://leetcode.com/problems/find-largest-value-in-each-tree-row", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-23"
+    "Memo": ""
 },
 {
     "Number": "0518", 
@@ -2118,8 +1930,7 @@
     "Title": "Coin Change 2", 
     "Url": "https://leetcode.com/problems/coin-change-2", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-17"
+    "Memo": ""
 },
 {
     "Number": "0528", 
@@ -2129,8 +1940,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-10"
+    "Memo": ""
 },
 {
     "Number": "0532", 
@@ -2138,8 +1948,7 @@
     "Title": "K-diff Pairs in an Array", 
     "Url": "https://leetcode.com/problems/k-diff-pairs-in-an-array", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-23"
+    "Memo": ""
 },
 {
     "Number": "0535", 
@@ -2147,8 +1956,7 @@
     "Title": "Encode and Decode TinyURL", 
     "Url": "https://leetcode.com/problems/encode-and-decode-tinyurl", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0538", 
@@ -2160,8 +1968,7 @@
         "BST", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-30"
+    "Memo": ""
 },
 {
     "Number": "0540", 
@@ -2172,8 +1979,7 @@
         "Binary-Search", 
         "**大神"
     ], 
-    "Memo": "掃過一次前後比較或是使用XOR，都必須只能拿到O(n)的速度。因為兩兩相同的擺在一起，所以可以使用BinarySearch，只是目標左標和目標右邊的條件不同（因為index是奇數或偶數，需要分開處理）。", 
-    "Date": "2021-12-13"
+    "Memo": "掃過一次前後比較或是使用XOR，都必須只能拿到O(n)的速度。因為兩兩相同的擺在一起，所以可以使用BinarySearch，只是目標左標和目標右邊的條件不同（因為index是奇數或偶數，需要分開處理）。"
 },
 {
     "Number": "0542", 
@@ -2185,8 +1991,7 @@
         "DP", 
         "**CHECK"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-21"
+    "Memo": ""
 },
 {
     "Number": "0543", 
@@ -2196,8 +2001,7 @@
     "Tags": [
         "Tree"
     ], 
-    "Memo": "好題。遞迴的回傳值有兩個。", 
-    "Date": "2021-06-29"
+    "Memo": "好題。遞迴的回傳值有兩個。"
 },
 {
     "Number": "0547", 
@@ -2209,8 +2013,7 @@
         "DFS", 
         "Union-Find"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "0559", 
@@ -2218,8 +2021,7 @@
     "Title": "Maximum Depth of N-ary Tree", 
     "Url": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-02"
+    "Memo": ""
 },
 {
     "Number": "0560", 
@@ -2227,8 +2029,7 @@
     "Title": "Subarray Sum Equals K", 
     "Url": "https://leetcode.com/problems/subarray-sum-equals-k", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-27"
+    "Memo": ""
 },
 {
     "Number": "0572", 
@@ -2236,8 +2037,7 @@
     "Title": "Subtree of Another Tree", 
     "Url": "https://leetcode.com/problems/subtree-of-another-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-02"
+    "Memo": ""
 },
 {
     "Number": "0576", 
@@ -2247,8 +2047,7 @@
     "Tags": [
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-11"
+    "Memo": ""
 },
 {
     "Number": "0593", 
@@ -2256,8 +2055,7 @@
     "Title": "Valid Square", 
     "Url": "https://leetcode.com/problems/valid-square", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-03"
+    "Memo": ""
 },
 {
     "Number": "0611", 
@@ -2265,8 +2063,7 @@
     "Title": "Valid Triangle Number", 
     "Url": "https://leetcode.com/problems/valid-triangle-number", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-13"
+    "Memo": ""
 },
 {
     "Number": "0617", 
@@ -2274,8 +2071,7 @@
     "Title": "Merge Two Binary Trees", 
     "Url": "https://leetcode.com/problems/merge-two-binary-trees", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-04-23"
+    "Memo": ""
 },
 {
     "Number": "0648", 
@@ -2286,8 +2082,7 @@
         "Trie", 
         "**BASIC"
     ], 
-    "Memo": "搜尋到底就置換（儘管目標字還沒走完）。search函數回傳值不一定是True/False，這題就可以回傳搜尋到底的字。", 
-    "Date": "2021-12-31"
+    "Memo": "搜尋到底就置換（儘管目標字還沒走完）。search函數回傳值不一定是True/False，這題就可以回傳搜尋到底的字。"
 },
 {
     "Number": "0658", 
@@ -2297,8 +2092,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-15"
+    "Memo": ""
 },
 {
     "Number": "0662", 
@@ -2309,8 +2103,7 @@
         "Tree", 
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-09-06"
+    "Memo": ""
 },
 {
     "Number": "0670", 
@@ -2318,8 +2111,7 @@
     "Title": "Maximum Swap", 
     "Url": "https://leetcode.com/problems/maximum-swap", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-02"
+    "Memo": ""
 },
 {
     "Number": "0680", 
@@ -2329,8 +2121,7 @@
     "Tags": [
         "Palindrome"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-20"
+    "Memo": ""
 },
 {
     "Number": "0684", 
@@ -2342,8 +2133,7 @@
         "DFS", 
         "Union-Find"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-30"
+    "Memo": ""
 },
 {
     "Number": "0687", 
@@ -2351,8 +2141,7 @@
     "Title": "Longest Univalue Path", 
     "Url": "https://leetcode.com/problems/longest-univalue-path", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-01"
+    "Memo": ""
 },
 {
     "Number": "0688", 
@@ -2363,8 +2152,7 @@
         "DP", 
         "Memoization"
     ], 
-    "Memo": "要注意計算機率的方式，必須把出界後面的路徑也都展開來算，才是真的總方法數。", 
-    "Date": "2022-01-05"
+    "Memo": "要注意計算機率的方式，必須把出界後面的路徑也都展開來算，才是真的總方法數。"
 },
 {
     "Number": "0690", 
@@ -2372,8 +2160,7 @@
     "Title": "Employee Importance", 
     "Url": "https://leetcode.com/problems/employee-importance", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0692", 
@@ -2386,8 +2173,7 @@
         "QuickSelct", 
         "Sorting"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-27"
+    "Memo": ""
 },
 {
     "Number": "0694", 
@@ -2401,8 +2187,7 @@
         "Island", 
         "HashMap"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "0695", 
@@ -2414,8 +2199,7 @@
         "BFS", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "0702", 
@@ -2425,8 +2209,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-08"
+    "Memo": ""
 },
 {
     "Number": "0703", 
@@ -2434,8 +2217,7 @@
     "Title": "Kth Largest Element in a Stream", 
     "Url": "https://leetcode.com/problems/kth-largest-element-in-a-stream", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-14"
+    "Memo": ""
 },
 {
     "Number": "0704", 
@@ -2445,8 +2227,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-13"
+    "Memo": ""
 },
 {
     "Number": "0705", 
@@ -2454,8 +2235,7 @@
     "Title": "Design HashSet", 
     "Url": "https://leetcode.com/problems/design-hashset", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-09"
+    "Memo": ""
 },
 {
     "Number": "0706", 
@@ -2463,8 +2243,7 @@
     "Title": "Design HashMap", 
     "Url": "https://leetcode.com/problems/design-hashmap", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-08"
+    "Memo": ""
 },
 {
     "Number": "0718", 
@@ -2472,8 +2251,7 @@
     "Title": "Maximum Length of Repeated Subarray", 
     "Url": "https://leetcode.com/problems/maximum-length-of-repeated-subarray", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "0721", 
@@ -2483,8 +2261,7 @@
     "Tags": [
         "Union-Find"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-07"
+    "Memo": ""
 },
 {
     "Number": "0726", 
@@ -2495,8 +2272,7 @@
         "AST", 
         "Recursion"
     ], 
-    "Memo": "", 
-    "Date": "2021-09-19"
+    "Memo": ""
 },
 {
     "Number": "0735", 
@@ -2504,8 +2280,7 @@
     "Title": "Asteroid Collision", 
     "Url": "https://leetcode.com/problems/asteroid-collision", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-27"
+    "Memo": ""
 },
 {
     "Number": "0743", 
@@ -2520,8 +2295,7 @@
         "Heap", 
         "**BASIC"
     ], 
-    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。", 
-    "Date": "2021-12-31"
+    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。"
 },
 {
     "Number": "0752", 
@@ -2531,8 +2305,7 @@
     "Tags": [
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-11"
+    "Memo": ""
 },
 {
     "Number": "0760", 
@@ -2543,8 +2316,7 @@
         "HashMap", 
         "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2022-01-01"
+    "Memo": ""
 },
 {
     "Number": "0767", 
@@ -2552,8 +2324,7 @@
     "Title": "Reorganize String", 
     "Url": "https://leetcode.com/problems/reorganize-string", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-03"
+    "Memo": ""
 },
 {
     "Number": "0776", 
@@ -2565,8 +2336,7 @@
         "BST", 
         "**HARD"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-19"
+    "Memo": ""
 },
 {
     "Number": "0784", 
@@ -2574,8 +2344,7 @@
     "Title": "Letter Case Permutation", 
     "Url": "https://leetcode.com/problems/letter-case-permutation", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-27"
+    "Memo": ""
 },
 {
     "Number": "0787", 
@@ -2590,8 +2359,7 @@
         "Heap", 
         "**HARD"
     ], 
-    "Memo": "有兩個條件要排序(distance, stopNumber)，所以是Dijkstra的變形題。", 
-    "Date": "2021-12-31"
+    "Memo": "有兩個條件要排序(distance, stopNumber)，所以是Dijkstra的變形題。"
 },
 {
     "Number": "0797", 
@@ -2599,8 +2367,7 @@
     "Title": "All Paths From Source to Target", 
     "Url": "https://leetcode.com/problems/all-paths-from-source-to-target", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-18"
+    "Memo": ""
 },
 {
     "Number": "0811", 
@@ -2611,8 +2378,7 @@
         "String", 
         "HashMap"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-26"
+    "Memo": ""
 },
 {
     "Number": "0841", 
@@ -2622,8 +2388,7 @@
     "Tags": [
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-08"
+    "Memo": ""
 },
 {
     "Number": "0863", 
@@ -2631,8 +2396,7 @@
     "Title": "All Nodes Distance K in Binary Tree", 
     "Url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-17"
+    "Memo": ""
 },
 {
     "Number": "0875", 
@@ -2643,8 +2407,7 @@
         "Binary-Search", 
         "**大神"
     ], 
-    "Memo": "搞清楚loop invarient。FFFFTTTTTT，要找第一個T，且搜尋範圍內一定要有T。邏輯順序：", 
-    "Date": "2021-12-11"
+    "Memo": "搞清楚loop invarient。FFFFTTTTTT，要找第一個T，且搜尋範圍內一定要有T。邏輯順序："
 },
 {
     "Number": "0905", 
@@ -2652,8 +2415,7 @@
     "Title": "Sort Array By Parity", 
     "Url": "https://leetcode.com/problems/sort-array-by-parity", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-07"
+    "Memo": ""
 },
 {
     "Number": "0909", 
@@ -2663,8 +2425,7 @@
     "Tags": [
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-16"
+    "Memo": ""
 },
 {
     "Number": "0912", 
@@ -2672,8 +2433,7 @@
     "Title": "Sort an Array", 
     "Url": "https://leetcode.com/problems/sort-an-array", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-23"
+    "Memo": ""
 },
 {
     "Number": "0922", 
@@ -2681,8 +2441,7 @@
     "Title": "Sort Array By Parity II", 
     "Url": "https://leetcode.com/problems/sort-array-by-parity-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-23"
+    "Memo": ""
 },
 {
     "Number": "0931", 
@@ -2692,8 +2451,7 @@
     "Tags": [
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-30"
+    "Memo": ""
 },
 {
     "Number": "0934", 
@@ -2707,8 +2465,7 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "0935", 
@@ -2718,8 +2475,7 @@
     "Tags": [
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-09"
+    "Memo": ""
 },
 {
     "Number": "0938", 
@@ -2730,8 +2486,7 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "不需要先做in-order，那需要另外開空間。", 
-    "Date": "2021-12-27"
+    "Memo": "不需要先做in-order，那需要另外開空間。"
 },
 {
     "Number": "0958", 
@@ -2742,8 +2497,7 @@
         "BFS", 
         "Tree"
     ], 
-    "Memo": "", 
-    "Date": "2021-09-06"
+    "Memo": ""
 },
 {
     "Number": "0969", 
@@ -2751,8 +2505,7 @@
     "Title": "Pancake Sorting", 
     "Url": "https://leetcode.com/problems/pancake-sorting", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-23"
+    "Memo": ""
 },
 {
     "Number": "0973", 
@@ -2760,8 +2513,7 @@
     "Title": "K Closest Points to Origin", 
     "Url": "https://leetcode.com/problems/k-closest-points-to-origin", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-05"
+    "Memo": ""
 },
 {
     "Number": "0979", 
@@ -2769,8 +2521,7 @@
     "Title": "Distribute Coins in Binary Tree", 
     "Url": "https://leetcode.com/problems/distribute-coins-in-binary-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-08"
+    "Memo": ""
 },
 {
     "Number": "0981", 
@@ -2781,8 +2532,7 @@
         "Binary-Search", 
         "**大神"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-11"
+    "Memo": ""
 },
 {
     "Number": "0986", 
@@ -2793,8 +2543,7 @@
         "Two-Pointer", 
         "Interval"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-09"
+    "Memo": ""
 },
 {
     "Number": "0994", 
@@ -2804,8 +2553,7 @@
     "Tags": [
         "BFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "1008", 
@@ -2816,8 +2564,7 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-27"
+    "Memo": ""
 },
 {
     "Number": "1020", 
@@ -2829,8 +2576,7 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "1025", 
@@ -2838,8 +2584,7 @@
     "Title": "Divisor Game", 
     "Url": "https://leetcode.com/problems/divisor-game", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-14"
+    "Memo": ""
 },
 {
     "Number": "1038", 
@@ -2851,8 +2596,7 @@
         "Tree", 
         "DFS"
     ], 
-    "Memo": "從最右邊反著做Pre-order traverse，就可以從大取到小。", 
-    "Date": "2021-10-08"
+    "Memo": "從最右邊反著做Pre-order traverse，就可以從大取到小。"
 },
 {
     "Number": "1041", 
@@ -2860,8 +2604,7 @@
     "Title": "Robot Bounded In Circle", 
     "Url": "https://leetcode.com/problems/robot-bounded-in-circle", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-11-28"
+    "Memo": ""
 },
 {
     "Number": "1048", 
@@ -2869,8 +2612,7 @@
     "Title": "Longest String Chain", 
     "Url": "https://leetcode.com/problems/longest-string-chain", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-24"
+    "Memo": ""
 },
 {
     "Number": "1049", 
@@ -2878,8 +2620,7 @@
     "Title": "Last Stone Weight II", 
     "Url": "https://leetcode.com/problems/last-stone-weight-ii", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-04"
+    "Memo": ""
 },
 {
     "Number": "1087", 
@@ -2889,8 +2630,7 @@
     "Tags": [
         "AST"
     ], 
-    "Memo": "", 
-    "Date": "2021-09-19"
+    "Memo": ""
 },
 {
     "Number": "1094", 
@@ -2903,8 +2643,7 @@
         "Sorting", 
         "Interval"
     ], 
-    "Memo": "把起點排序。找出結尾最早的可以放出資源的，取出，使用heap剛好，或是做sorting。", 
-    "Date": "2021-12-09"
+    "Memo": "把起點排序。找出結尾最早的可以放出資源的，取出，使用heap剛好，或是做sorting。"
 },
 {
     "Number": "1096", 
@@ -2915,8 +2654,7 @@
         "AST", 
         "Recursion"
     ], 
-    "Memo": "大神題，很難。", 
-    "Date": "2021-11-14"
+    "Memo": "大神題，很難。"
 },
 {
     "Number": "1099", 
@@ -2924,8 +2662,7 @@
     "Title": "Two Sum Less Than K", 
     "Url": "https://leetcode.com/problems/two-sum-less-than-k", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-19"
+    "Memo": ""
 },
 {
     "Number": "1110", 
@@ -2935,8 +2672,7 @@
     "Tags": [
         "Tree"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-10"
+    "Memo": ""
 },
 {
     "Number": "1130", 
@@ -2947,8 +2683,7 @@
         "DP", 
         "**CHECK"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-10"
+    "Memo": ""
 },
 {
     "Number": "1137", 
@@ -2956,8 +2691,7 @@
     "Title": "N-th Tribonacci Number", 
     "Url": "https://leetcode.com/problems/n-th-tribonacci-number", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-18"
+    "Memo": ""
 },
 {
     "Number": "1143", 
@@ -2970,8 +2704,7 @@
         "Memoization", 
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-20"
+    "Memo": ""
 },
 {
     "Number": "1146", 
@@ -2981,8 +2714,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-06"
+    "Memo": ""
 },
 {
     "Number": "1161", 
@@ -2995,8 +2727,7 @@
         "DFS", 
         "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2022-01-02"
+    "Memo": ""
 },
 {
     "Number": "1165", 
@@ -3007,8 +2738,7 @@
         "HashMap", 
         "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2022-01-02"
+    "Memo": ""
 },
 {
     "Number": "1167", 
@@ -3018,8 +2748,7 @@
     "Tags": [
         "Heap"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-05"
+    "Memo": ""
 },
 {
     "Number": "1198", 
@@ -3029,8 +2758,7 @@
     "Tags": [
         "Binary-Search"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-13"
+    "Memo": ""
 },
 {
     "Number": "1214", 
@@ -3038,8 +2766,7 @@
     "Title": "Two Sum BSTs", 
     "Url": "https://leetcode.com/problems/two-sum-bsts", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-07-19"
+    "Memo": ""
 },
 {
     "Number": "1254", 
@@ -3052,8 +2779,7 @@
         "Matrix", 
         "Graph"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "1268", 
@@ -3061,8 +2787,7 @@
     "Title": "Search Suggestions System", 
     "Url": "https://leetcode.com/problems/search-suggestions-system", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-02"
+    "Memo": ""
 },
 {
     "Number": "1277", 
@@ -3070,8 +2795,7 @@
     "Title": "Count Square Submatrices with All Ones", 
     "Url": "https://leetcode.com/problems/count-square-submatrices-with-all-ones", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-10-20"
+    "Memo": ""
 },
 {
     "Number": "1289", 
@@ -3083,8 +2807,7 @@
         "Heap", 
         "Top-K"
     ], 
-    "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃。可以使用heap，也可以使用Top-K的作法。要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。", 
-    "Date": "2021-12-02"
+    "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃。可以使用heap，也可以使用Top-K的作法。要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。"
 },
 {
     "Number": "1302", 
@@ -3097,8 +2820,7 @@
         "DFS", 
         "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2022-01-01"
+    "Memo": ""
 },
 {
     "Number": "1319", 
@@ -3109,8 +2831,7 @@
         "Graph", 
         "DFS"
     ], 
-    "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。", 
-    "Date": "2021-11-29"
+    "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。"
 },
 {
     "Number": "1382", 
@@ -3118,8 +2839,7 @@
     "Title": "Balance a Binary Search Tree", 
     "Url": "https://leetcode.com/problems/balance-a-binary-search-tree", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-08-05"
+    "Memo": ""
 },
 {
     "Number": "1391", 
@@ -3127,8 +2847,7 @@
     "Title": "Check if There is a Valid Path in a Grid", 
     "Url": "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-28"
+    "Memo": ""
 },
 {
     "Number": "1395", 
@@ -3138,8 +2857,7 @@
     "Tags": [
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-08"
+    "Memo": ""
 },
 {
     "Number": "1429", 
@@ -3151,8 +2869,7 @@
         "LinkedList", 
         "**OLD"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-05"
+    "Memo": ""
 },
 {
     "Number": "1448", 
@@ -3163,8 +2880,7 @@
         "Tree", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-13"
+    "Memo": ""
 },
 {
     "Number": "1475", 
@@ -3175,8 +2891,7 @@
         "Monotonic-Stack", 
         "**BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2022-01-04"
+    "Memo": ""
 },
 {
     "Number": "1557", 
@@ -3186,8 +2901,7 @@
     "Tags": [
         "Graph"
     ], 
-    "Memo": "找到所有indegree為0的點就可以，不需要使用Topological sorting。", 
-    "Date": "2022-01-04"
+    "Memo": "找到所有indegree為0的點就可以，不需要使用Topological sorting。"
 },
 {
     "Number": "1593", 
@@ -3195,8 +2909,7 @@
     "Title": "Split a String Into the Max Number of Unique Substrings", 
     "Url": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings", 
     "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-06-16"
+    "Memo": ""
 },
 {
     "Number": "1711", 
@@ -3206,8 +2919,7 @@
     "Tags": [
         "**OLD"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-06"
+    "Memo": ""
 },
 {
     "Number": "1774", 
@@ -3219,8 +2931,7 @@
         "DP", 
         "Memoization"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-03"
+    "Memo": ""
 },
 {
     "Number": "1905", 
@@ -3234,8 +2945,7 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": ""
 },
 {
     "Number": "1937", 
@@ -3246,7 +2956,6 @@
         "DP", 
         "Matrix"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-06"
+    "Memo": ""
 }
 ]

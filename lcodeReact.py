@@ -19,6 +19,10 @@ URL_PROBLEM = 'https://leetcode.com/problems/'
 API_URL = 'https://leetcode.com/api/problems/all/'
 LCODE_JSON_PATH = 'show-lcode-app/src/lcode-react.json'
 
+from lcodeFile import fetchFileDate
+idToDate = fetchFileDate()
+
+
 def getCookie(website_url, cookie_path):
     myNeedDomainDict = {}
     targetDomain = website_url.split('/')[-1]
@@ -86,7 +90,8 @@ def showQuizListFromLeetcode():
                         "Title" : data["Title"],
                         "Url" : data["Url"], 
                         "Tags" : data["Tags"], 
-                        "Memo" : data["Memo"]
+                        "Memo" : data["Memo"],
+                        "Date" : idToDate[data["Number"]]
                     }
     for e in q:
         if e['status'] == "ac":
@@ -94,13 +99,14 @@ def showQuizListFromLeetcode():
             qTitle = e['stat']['question__title']
             qSlug = e['stat']['question__title_slug']
             qLevel = e['difficulty']['level']
+
             #print(qNumber, qTitle, qLevel)
             qUrl = URL_PROBLEM + qSlug
             qLink = "<a href=\"" + qUrl + "\">" + qTitle + "</a>"
             qMap[qNumber] = [qTitle, qUrl, qLevel]
             
             appendData = None
-            if not RESET:
+            if not RESET:  #Append
                 if qNumber in existedData: #skip
                     appendData = existedData[qNumber]
                 else:
@@ -112,7 +118,7 @@ def showQuizListFromLeetcode():
                             "Tags" : [],
                             "Memo" : ""
                         }
-            else: 
+            else:          #
                 appendData = {
                             "Number": qNumber, 
                             "Level" : qLevel, 
@@ -122,7 +128,7 @@ def showQuizListFromLeetcode():
                             "Memo" : ""
                         }
             qArr.append(appendData)
-            print(appendData)
+            # print(appendData)
 
     #Write file 
     with open(LCODE_JSON_PATH, "w") as f:
@@ -130,15 +136,6 @@ def showQuizListFromLeetcode():
         for idx, object in enumerate(qArr):
             # Use json to write
             json.dump(object, f, separators=(', ', ': '), indent = 4, ensure_ascii=False)
-
-            # Manually write
-            # print("{")
-            # for j, line in enumerate(object.items()):
-            #     if j != len(object.items()) - 1:
-            #         print("\"", line[0], "\"", ":", line[1], ",")
-            #     else:
-            #         print("\"", line[0], "\"", ":", line[1])
-            # print("}")
             
             if idx != len(qArr) - 1:
                 f.write(",\n")
@@ -151,23 +148,6 @@ def showQuizListFromLeetcode():
         f.close()
 
 
-    # f = open("lcode.html", "w")
-    # f.write("""<!doctype html>
-    #     <html>
-    #     <head>
-    #     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    #     </head><body>
-    #     <!-- Latest compiled and minified JavaScript -->
-    #     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    #     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    #     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    #     """)
-    # f.write(json2html.convert(json=qJson, table_attributes="class=\"table table-bordered table-hover\""))
-    # f.write('</body></html>')
-    # f.close()
-
-
-
 
 def stringFormatter(s, num):
     s = str(s)
@@ -175,4 +155,4 @@ def stringFormatter(s, num):
 
 # run as a script (not module)
 if __name__ == '__main__':
-    showQuizListFromLeetcode()  
+    showQuizListFromLeetcode()

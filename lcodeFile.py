@@ -169,6 +169,7 @@ def fetchFileDate():
     # files = listdir(mypath)
     # print(files)
     fileList = []
+    fileMap = {}
     for root, _, files in walk(mypath):
         for file in files:
             filePath = root + "/" + file
@@ -176,15 +177,17 @@ def fetchFileDate():
             fileNum = file.split("__")
             if len(fileNum) != 3:
                 continue
+            fileId = fileNum[1]
             fileTime = time.localtime(int(os.path.getmtime(filePath)))
             fileMonth = time.strftime("%Y-%m", fileTime)
             fileDate = time.strftime("%Y-%m-%d", fileTime)
             #print(ts)
             fileList.append((fileDate, fileNum[1], fileNum[2], filePath))
+            fileMap[fileId] = fileDate
     fileList.sort(key = lambda x: x[0])
-    for row in fileList:
-        print(row)
-    return fileList
+    # for row in fileList:
+    #     print(row)
+    return fileMap
     # for i in range(len(fileList)) :
     #     if i and fileList[i-1][0] != fileList[i][0]:
     #         print()

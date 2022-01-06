@@ -194,6 +194,7 @@ function App() {
             <th>Title</th>
             <th>Tags</th>
             <th>Memo</th>
+            <th>Date</th>
           </tr>
         </thead>
         <tbody>
@@ -205,6 +206,7 @@ function App() {
               url={l.Url}
               tags={l.Tags}
               memo={l.Memo}
+              date={l.Date}
               tagList={tagList}
               onClickTagButton={onClickTagButton}
               onClickLevelButton={onClickLevelButton}
