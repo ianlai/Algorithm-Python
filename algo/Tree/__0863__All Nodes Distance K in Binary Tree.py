@@ -7,11 +7,46 @@
 
 class Solution:
     
-    # Test Case:
-    # [3,5,1,6,2,0,8,null,null,7,4,9,10, null,null,11,null,12,13,null,null,null,null,null,null,14,15,16,17]
-    # 4 
-    # 3
+    # 2022/01/06
+    def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
+        
+        def generateGraph(graph, node, parent):
+            if node.left:
+                graph[node].add(node.left)
+                generateGraph(graph, node.left, node)
+            if node.right:
+                graph[node].add(node.right)
+                generateGraph(graph, node.right, node)
+            if parent:
+                graph[node].add(parent)
+                
+        def findDistanceNodes(graph, target, k):
+            deq = collections.deque([target])
+            distanceNodes = []
+            visited = set()
+            while deq:
+                for _ in range(len(deq)):
+                    cur = deq.popleft()
+                    if cur in visited:
+                        continue
+                    visited.add(cur)
+                    for nxt in graph[cur]:
+                        deq.append(nxt)
+                    if k == 0:
+                        distanceNodes.append(cur.val)
+                if k == 0:     
+                    break
+                k -= 1
+            return distanceNodes
+        
+        graph = collections.defaultdict(set)
+        generateGraph(graph, root, None) #DFS
+        res = findDistanceNodes(graph, target, k) #BFS
+        return res 
     
+    # =========================================================
+    
+    # 2021/05/17
     # Transform to graph ; BFS in graph [O(n), 42%]
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
         if not root:
