@@ -134,7 +134,36 @@ a:hover {
     -webkit-user-select: none;
     touch-action: manipulation;
   }
-
+  .button-sorting {
+    background-color: #276858;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0px;
+    outline: none;
+    padding: 0px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .button-sorting:hover {
+    background-color: #3acfaa;
+  }
 .button-tag,
 .button-filter,
 .button-tag-clicked,

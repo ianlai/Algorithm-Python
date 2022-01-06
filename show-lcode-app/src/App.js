@@ -80,12 +80,38 @@ function filterByTags() {
 
 let memberTagList, changeTagList;
 let memberLevelList, changeLevelList;
+let sortedBy = 0,
+  changeSortedBy;
 let allTagMap = new Map();
 let allTagList = [];
 let tagSet = new Set();
 let tagList = [];
 let levelSet = new Set([1, 2, 3]);
 let levelList = [1, 2, 3];
+
+function sortList() {
+  if (sortedBy == 0) {
+    shownLcodeData.sort((a, b) => {
+      if (a.Number > b.Number) return 1;
+      else if (a.Number == b.Number) return 0;
+      else return -1;
+    });
+  } else if (sortedBy == 1) {
+    shownLcodeData.sort((a, b) => {
+      if (a.Date > b.Date) return 1;
+      else if (a.Date == b.Date) return 0;
+      else return -1;
+    });
+  } else if (sortedBy == 2) {
+    shownLcodeData.sort((a, b) => {
+      if (a.Date > b.Date) return -1;
+      else if (a.Date == b.Date) return 0;
+      else return 1;
+    });
+  }
+  //console.log(shownLcodeData);
+  changeSortedBy(sortedBy);
+}
 
 function App() {
   console.log("RERENDERING");
@@ -95,6 +121,7 @@ function App() {
 
   [memberTagList, changeTagList] = useState(tagList);
   [memberLevelList, changeLevelList] = useState(levelList);
+  [memberLevelList, changeSortedBy] = useState(sortedBy);
 
   let levelMap = {
     1: {
@@ -190,11 +217,37 @@ function App() {
       <table class="styled-table" style={{ width: "100%" }}>
         <thead>
           <tr>
-            <th>ID</th>
+            <th>
+              <button
+                class="button-sorting"
+                onClick={() => {
+                  sortedBy = 0;
+                  sortList();
+                }}
+              >
+                ID
+              </button>
+            </th>
             <th>Title</th>
             <th>Tags</th>
             <th>Memo</th>
-            <th>Date</th>
+            <th>
+              <button
+                class="button-sorting"
+                onClick={() => {
+                  if (sortedBy == 0) {
+                    sortedBy = 1;
+                  } else if (sortedBy == 1) {
+                    sortedBy = 2;
+                  } else if (sortedBy == 2) {
+                    sortedBy = 1;
+                  }
+                  sortList();
+                }}
+              >
+                Date
+              </button>
+            </th>
           </tr>
         </thead>
         <tbody>
