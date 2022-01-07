@@ -293,6 +293,7 @@ algo
 │   ├── __0042__Trapping Rain Water.py
 │   ├── __0075__Sort Colors.py
 │   ├── __0080__Remove Duplicates from Sorted Array II.py
+│   ├── __0088__Merge Sorted Array.py
 │   ├── __0125__Valid Palindrome.py
 │   ├── __0152__Maximum Product Subarray.py
 │   ├── __0159__Longest Substring with At Most Two Distinct Characters.py
@@ -330,7 +331,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 303 files
+26 directories, 304 files
 
 =====================================
 ============= Local Repo ============
@@ -388,6 +389,7 @@ __0080__Remove Duplicates from Sorted Array II.py
 __0081__Search in Rotated Sorted Array II.py
 __0083__Remove Duplicates from Sorted List.py
 __0086__Partition List.py
+__0088__Merge Sorted Array.py
 __0089__Gray Code.py
 __0090__Subsets II.py
 __0092__Reverse Linked List II.py
@@ -627,7 +629,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  291
+Num of Python Practice:  292
 
 
 =====================================
@@ -686,6 +688,7 @@ Num of Python Practice:  291
  0081 Search in Rotated Sorted Array II
  0083 Remove Duplicates from Sorted List
  0086 Partition List
+ 0088 Merge Sorted Array
  0089 Gray Code
  0090 Subsets II
  0092 Reverse Linked List II
@@ -925,11 +928,11 @@ Num of Python Practice:  291
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
 =====================================
-Solved / Total (Easy)  :   63 /  538
+Solved / Total (Easy)  :   64 /  538
 Solved / Total (Medium):  209 / 1136
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  291 / 2128
-Total Score            :  785
+Solved / Total (All)   :  292 / 2128
+Total Score            :  786
 =====================================
 
 ```

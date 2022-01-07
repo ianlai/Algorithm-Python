@@ -443,6 +443,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0088", 
+    "Level": 1, 
+    "Title": "Merge Sorted Array", 
+    "Url": "https://leetcode.com/problems/merge-sorted-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0089", 
     "Level": 2, 
     "Title": "Gray Code", 
