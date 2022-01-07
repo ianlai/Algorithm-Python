@@ -615,7 +615,8 @@
     "Title": "Merge Sorted Array", 
     "Url": "https://leetcode.com/problems/merge-sorted-array", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-01-07"
 },
 {
     "Number": "0089", 
@@ -2634,6 +2635,18 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-05-27"
+},
+{
+    "Number": "0785", 
+    "Level": 2, 
+    "Title": "Is Graph Bipartite?", 
+    "Url": "https://leetcode.com/problems/is-graph-bipartite", 
+    "Tags": [
+        "Graph", 
+        "BFS"
+    ], 
+    "Memo": "", 
+    "Date": "2022-01-08"
 },
 {
     "Number": "0787", 

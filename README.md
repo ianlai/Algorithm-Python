@@ -144,6 +144,7 @@ algo
 │   ├── __0547__Number of Provinces.py
 │   ├── __0684__Redundant Connection.py
 │   ├── __0743__Network Delay Time.py
+│   ├── __0785__Is Graph Bipartite?.py
 │   ├── __0787__Cheapest Flights Within K Stops.py
 │   ├── __0797__All Paths From Source to Target.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
@@ -331,7 +332,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 304 files
+26 directories, 305 files
 
 =====================================
 ============= Local Repo ============
@@ -568,6 +569,7 @@ __0760__Find Anagram Mappings.py
 __0767__Reorganize String.py
 __0776__Split BST.py
 __0784__Letter Case Permutation.py
+__0785__Is Graph Bipartite?.py
 __0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
 __0811__Subdomain Visit Count.py
@@ -629,7 +631,7 @@ __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 =====================================
-Num of Python Practice:  292
+Num of Python Practice:  293
 
 
 =====================================
@@ -867,6 +869,7 @@ Num of Python Practice:  292
  0767 Reorganize String
  0776 Split BST
  0784 Letter Case Permutation
+ 0785 Is Graph Bipartite?
  0787 Cheapest Flights Within K Stops
  0797 All Paths From Source to Target
  0811 Subdomain Visit Count
@@ -929,10 +932,10 @@ Num of Python Practice:  292
  1937 Maximum Number of Points with Cost
 =====================================
 Solved / Total (Easy)  :   64 /  538
-Solved / Total (Medium):  209 / 1136
+Solved / Total (Medium):  210 / 1136
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  292 / 2128
-Total Score            :  786
+Solved / Total (All)   :  293 / 2128
+Total Score            :  789
 =====================================
 
 ```

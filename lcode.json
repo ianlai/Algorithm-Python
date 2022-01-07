@@ -1940,6 +1940,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0785", 
+    "Level": 2, 
+    "Title": "Is Graph Bipartite?", 
+    "Url": "https://leetcode.com/problems/is-graph-bipartite", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0787", 
     "Level": 2, 
     "Title": "Cheapest Flights Within K Stops", 
