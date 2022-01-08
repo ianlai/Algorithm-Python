@@ -2465,6 +2465,14 @@ lcode_data = `
     "Url": "https://leetcode.com/problems/maximum-number-of-points-with-cost", 
     "Tags": [], 
     "Memo": ""
+},
+{
+    "Number": "2093", 
+    "Level": 2, 
+    "Title": "Minimum Cost to Reach City With Discounts", 
+    "Url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]
 `;

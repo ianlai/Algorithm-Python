@@ -148,7 +148,8 @@ algo
 │   ├── __0787__Cheapest Flights Within K Stops.py
 │   ├── __0797__All Paths From Source to Target.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
-│   └── __1557__Minimum Number of Vertices to Reach All Nodes.py
+│   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
+│   └── __2093__Minimum Cost to Reach City With Discounts.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
@@ -332,7 +333,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 305 files
+26 directories, 306 files
 
 =====================================
 ============= Local Repo ============
@@ -630,8 +631,9 @@ __1711__Count Good Meals.py
 __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
+__2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  293
+Num of Python Practice:  294
 
 
 =====================================
@@ -930,12 +932,13 @@ Num of Python Practice:  293
  1774 Closest Dessert Cost
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
+ 2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  538
-Solved / Total (Medium):  210 / 1136
+Solved / Total (Medium):  211 / 1136
 Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  293 / 2128
-Total Score            :  789
+Solved / Total (All)   :  294 / 2128
+Total Score            :  792
 =====================================
 
 ```

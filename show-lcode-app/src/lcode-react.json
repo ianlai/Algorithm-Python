@@ -2643,7 +2643,7 @@
     "Url": "https://leetcode.com/problems/is-graph-bipartite", 
     "Tags": [
         "Graph", 
-        "BFS",
+        "BFS", 
         "Bipartite"
     ], 
     "Memo": "有好幾種不同的解法，可以遍歷node或edge。目前理解比較好做的是，使用DFS遍歷點，還沒塗色的就塗另一個顏色，已經有顏色的就和上一個顏色比較，相同就回False。", 
@@ -3327,5 +3327,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-10-06"
+},
+{
+    "Number": "2093", 
+    "Level": 2, 
+    "Title": "Minimum Cost to Reach City With Discounts", 
+    "Url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts", 
+    "Tags": ["Graph", "Dijkstra", "DP"], 
+    "Memo": "很類似0787，也就是雙條件的SSSP。從這題發現Dijkstra其實也是一種DP，所以用DP(memoization)來思考就沒有這麼難了。要注意的是這題需要剪枝（經歷過的點，並且discount數比較少，就可以直接跳過，而不是要完全一樣才能跳過），否則單純的DP是會TLE的。", 
+    "Date": "2022-01-08"
 }
 ]
