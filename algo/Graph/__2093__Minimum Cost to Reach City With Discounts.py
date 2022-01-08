@@ -1,39 +1,35 @@
 class Solution:
     
-    # Dijstra (DP, multiple condition) + prune: O(ElogV): 18% (TLE if no prune)
+    # Dijstra (DP, multiple condition) + prune: O(ElogV): 18% (TLE if no pruning)
     def minimumCost(self, n: int, highways: List[List[int]], discounts: int) -> int:
         
         graph = collections.defaultdict(lambda: collections.defaultdict(int))
         for v1, v2, toll in highways:
             graph[v1][v2] = toll
             graph[v2][v1] = toll
-        #distances = collections.defaultdict(int) #node, discounts -> distance
-        distances = collections.defaultdict(lambda: collections.defaultdict(int)) 
-        #print(graph)
-        
-        maxDiscounts = {} 
+            
+        #distances = collections.defaultdict(int) #(node, discounts) -> distance  
+        distances = collections.defaultdict(lambda: collections.defaultdict(int))  #node -> discounts -> distance
         
         res = inf
+        maxDiscounts = {}
         heap = [(0, discounts, 0)]  #cost, discounts, node
         while heap:
             cost, discounts, cur = heapq.heappop(heap)
-            if discounts < 0:
-                continue
                 
-            # No prune
+            # Without pruning [TLE]
             # if cur in distances and discounts in distances[cur]:
             #     if cost < distances[cur][discounts]:
             #         distances[cur][discounts] = cost
             #     continue
 
-            if cur in distances:
-                if discounts <= maxDiscounts[cur]:
-                    continue
-                if cost < distances[cur][discounts]:
-                    distances[cur][discounts] = cost
+            # With pruning 
+            if cur in distances and discounts <= maxDiscounts[cur]: 
+                continue
                 
             distances[cur][discounts] = cost
             maxDiscounts[cur] = discounts
+            
             if cur == n - 1 :
                 res = min(res, cost)
             

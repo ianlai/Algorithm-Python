@@ -3333,7 +3333,7 @@
     "Level": 2, 
     "Title": "Minimum Cost to Reach City With Discounts", 
     "Url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts", 
-    "Tags": ["Graph", "Dijkstra", "DP"], 
+    "Tags": ["Graph", "Dijkstra", "DP", "SSSP", "**GOOD"], 
     "Memo": "很類似0787，也就是雙條件的SSSP。從這題發現Dijkstra其實也是一種DP，所以用DP(memoization)來思考就沒有這麼難了。要注意的是這題需要剪枝（經歷過的點，並且discount數比較少，就可以直接跳過，而不是要完全一樣才能跳過），否則單純的DP是會TLE的。", 
     "Date": "2022-01-08"
 }
