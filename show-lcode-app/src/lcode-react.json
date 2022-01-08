@@ -2643,9 +2643,10 @@
     "Url": "https://leetcode.com/problems/is-graph-bipartite", 
     "Tags": [
         "Graph", 
-        "BFS"
+        "BFS",
+        "Bipartite"
     ], 
-    "Memo": "", 
+    "Memo": "有好幾種不同的解法，可以遍歷node或edge。目前理解比較好做的是，使用DFS遍歷點，還沒塗色的就塗另一個顏色，已經有顏色的就和上一個顏色比較，相同就回False。", 
     "Date": "2022-01-08"
 },
 {
