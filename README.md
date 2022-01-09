@@ -204,8 +204,10 @@ algo
 │   ├── __0048__Rotate Image.py
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
+│   ├── __0456__132 Pattern.py
 │   ├── __0496__Next Greater Element I.py
 │   ├── __0503__Next Greater Element II.py
+│   ├── __0739__Daily Temperatures.py
 │   └── __1475__Final Prices With a Special Discount in a Shop.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
@@ -334,7 +336,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 307 files
+26 directories, 309 files
 
 =====================================
 ============= Local Repo ============
@@ -517,6 +519,7 @@ __0437__Path Sum III.py
 __0441__Arranging Coins.py
 __0449__Serialize and Deserialize BST.py
 __0450__Delete Node in a BST.py
+__0456__132 Pattern.py
 __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
 __0490__The Maze.py
@@ -566,6 +569,7 @@ __0718__Maximum Length of Repeated Subarray.py
 __0721__Accounts Merge.py
 __0726__Number of Atoms.py
 __0735__Asteroid Collision.py
+__0739__Daily Temperatures.py
 __0743__Network Delay Time.py
 __0752__Open the Lock.py
 __0760__Find Anagram Mappings.py
@@ -635,7 +639,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  295
+Num of Python Practice:  297
 
 
 =====================================
@@ -819,6 +823,7 @@ Num of Python Practice:  295
  0441 Arranging Coins
  0449 Serialize and Deserialize BST
  0450 Delete Node in a BST
+ 0456 132 Pattern
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
  0490 The Maze
@@ -868,6 +873,7 @@ Num of Python Practice:  295
  0721 Accounts Merge
  0726 Number of Atoms
  0735 Asteroid Collision
+ 0739 Daily Temperatures
  0743 Network Delay Time
  0752 Open the Lock
  0760 Find Anagram Mappings
@@ -938,10 +944,10 @@ Num of Python Practice:  295
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  540
-Solved / Total (Medium):  212 / 1140
+Solved / Total (Medium):  214 / 1140
 Solved / Total (Hard)  :   19 /  456
-Solved / Total (All)   :  295 / 2136
-Total Score            :  795
+Solved / Total (All)   :  297 / 2136
+Total Score            :  801
 =====================================
 
 ```

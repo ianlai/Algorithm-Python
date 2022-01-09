@@ -1494,6 +1494,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0456", 
+    "Level": 2, 
+    "Title": "132 Pattern", 
+    "Url": "https://leetcode.com/problems/132-pattern", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0459", 
     "Level": 1, 
     "Title": "Repeated Substring Pattern", 
@@ -1890,6 +1898,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Asteroid Collision", 
     "Url": "https://leetcode.com/problems/asteroid-collision", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0739", 
+    "Level": 2, 
+    "Title": "Daily Temperatures", 
+    "Url": "https://leetcode.com/problems/daily-temperatures", 
     "Tags": [], 
     "Memo": ""
 },

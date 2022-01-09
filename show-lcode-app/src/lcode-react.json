@@ -2050,6 +2050,14 @@
     "Date": "2021-08-06"
 },
 {
+    "Number": "0456", 
+    "Level": 2, 
+    "Title": "132 Pattern", 
+    "Url": "https://leetcode.com/problems/132-pattern", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0459", 
     "Level": 1, 
     "Title": "Repeated Substring Pattern", 
@@ -2574,6 +2582,14 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-10-27"
+},
+{
+    "Number": "0739", 
+    "Level": 2, 
+    "Title": "Daily Temperatures", 
+    "Url": "https://leetcode.com/problems/daily-temperatures", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0743", 
