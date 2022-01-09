@@ -417,6 +417,15 @@
     "Date": "2021-05-15"
 },
 {
+    "Number": "0055", 
+    "Level": 2, 
+    "Title": "Jump Game", 
+    "Url": "https://leetcode.com/problems/jump-game", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-01-09"
+},
+{
     "Number": "0056", 
     "Level": 2, 
     "Title": "Merge Intervals", 
@@ -2660,10 +2669,10 @@
         "Dijkstra", 
         "DP", 
         "Heap", 
-        "**HARD"
+        "**GOOD"
     ], 
-    "Memo": "有兩個條件要排序(distance, stopNumber)，所以是Dijkstra的變形題。", 
-    "Date": "2021-12-31"
+    "Memo": "有兩個條件要排序(distance, stopNumber)，所以是Dijkstra的變形題。這題再次用DP(Memoization)的概念來做，並且把兩個條件當成兩維的點，事情就變得自然很多。可以再進一步優化，把同一個點但是剩餘站數少的丟掉，是一種Pruning，速度會快很多（沒剪枝約5%，剪枝變49%)。再進一步看，發現relaxation竟然不用做，因為通過heap的保證，順序已經決定，所以不需要做relaxation，而且碰到dst的第一個點，就直接是答案。", 
+    "Date": "2022-01-09"
 },
 {
     "Number": "0797", 
@@ -3333,7 +3342,13 @@
     "Level": 2, 
     "Title": "Minimum Cost to Reach City With Discounts", 
     "Url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts", 
-    "Tags": ["Graph", "Dijkstra", "DP", "SSSP", "**GOOD"], 
+    "Tags": [
+        "Graph", 
+        "Dijkstra", 
+        "DP", 
+        "SSSP", 
+        "**GOOD"
+    ], 
     "Memo": "很類似0787，也就是雙條件的SSSP。從這題發現Dijkstra其實也是一種DP，所以用DP(memoization)來思考就沒有這麼難了。要注意的是這題需要剪枝（經歷過的點，並且discount數比較少，就可以直接跳過，而不是要完全一樣才能跳過），否則單純的DP是會TLE的。", 
     "Date": "2022-01-08"
 }

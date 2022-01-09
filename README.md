@@ -92,6 +92,7 @@ algo
 ├── DP
 │   ├── __0010__Regular Expression Matching.py
 │   ├── __0044__Wildcard Matching.py
+│   ├── __0055__Jump Game.py
 │   ├── __0062__Unique Paths.py
 │   ├── __0063__Unique Paths II.py
 │   ├── __0064__Minimum Path Sum.py
@@ -333,7 +334,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 306 files
+26 directories, 307 files
 
 =====================================
 ============= Local Repo ============
@@ -374,6 +375,7 @@ __0050__Pow(x, n).py
 __0051__N-Queens.py
 __0052__N-Queens II.py
 __0053__Maximum Subarray.py
+__0055__Jump Game.py
 __0056__Merge Intervals.py
 __0057__Insert Interval.py
 __0061__Rotate List.py
@@ -633,7 +635,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  294
+Num of Python Practice:  295
 
 
 =====================================
@@ -675,6 +677,7 @@ Num of Python Practice:  294
  0051 N-Queens
  0052 N-Queens II
  0053 Maximum Subarray
+ 0055 Jump Game
  0056 Merge Intervals
  0057 Insert Interval
  0061 Rotate List
@@ -934,11 +937,11 @@ Num of Python Practice:  294
  1937 Maximum Number of Points with Cost
  2093 Minimum Cost to Reach City With Discounts
 =====================================
-Solved / Total (Easy)  :   64 /  538
-Solved / Total (Medium):  211 / 1136
-Solved / Total (Hard)  :   19 /  454
-Solved / Total (All)   :  294 / 2128
-Total Score            :  792
+Solved / Total (Easy)  :   64 /  540
+Solved / Total (Medium):  212 / 1140
+Solved / Total (Hard)  :   19 /  456
+Solved / Total (All)   :  295 / 2136
+Total Score            :  795
 =====================================
 
 ```

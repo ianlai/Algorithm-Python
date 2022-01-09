@@ -21,8 +21,43 @@ class Solution:
     # 13
     
     # 2022/01/09 
-    # Dijkstra's variant (DP, with pruning) [5%]
+    # Dijkstra's variant (DP, with pruning) [49%]
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        print("Code6: Dijkstra (DP, with pruning, removed comments from Code5)")
+        
+        # Generate graph 
+        graph = collections.defaultdict(dict)
+        for u, v, w in flights:
+            graph[u][v] = w
+        
+        maxStopMap = collections.defaultdict(lambda: float(-inf))  # node -> maxStop
+        heap = [(0, k + 1, src)]
+        res = inf
+        while heap:
+            cost, stop, node = heapq.heappop(heap)
+            
+            if stop < 0:
+                continue
+                
+            ### Pruning on maxStopMap (including the L48 memoization part, thus costMap is not needed anymore)
+            if node in maxStopMap and stop <= maxStopMap[node]:
+                continue
+                
+            ### Relaxation on maxStopMap
+            maxStopMap[node] = max(maxStopMap[node], stop)
+            
+            if node == dst:
+                return cost  #The first one is the min because using heap 
+                
+            for nxt in graph[node].keys():
+                heapq.heappush(heap, (cost + graph[node][nxt], stop - 1, nxt))
+        return res if res != inf else -1
+    
+    #========================================================================
+
+    # 2022/01/09 
+    # Dijkstra's variant (DP, with pruning) [5%]
+    def findCheapestPrice5(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         print("Code5: Dijkstra (DP, with pruning)")
         
         # Generate graph 
@@ -59,7 +94,8 @@ class Solution:
             #costMap[(node, stop)] = cost
             
             if node == dst:
-                res = min(res, cost)
+                #res = min(res, cost)  
+                return cost  #The first one is the min because using heap 
                 
             for nxt in graph[node].keys():
                 heapq.heappush(heap, (cost + graph[node][nxt], stop - 1, nxt))
@@ -86,7 +122,7 @@ class Solution:
             if stop < 0:
                 continue
             if (node, stop) in costMap:
-                #if cost < costMap[(node, stop)]:
+                #if cost < costMap[(node, stop)]:  #Relaxation can be removed because the heap guarentee the order
                 #    costMap[(node, stop)] = cost
                 continue
             else:

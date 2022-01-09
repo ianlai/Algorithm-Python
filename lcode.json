@@ -307,6 +307,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0055", 
+    "Level": 2, 
+    "Title": "Jump Game", 
+    "Url": "https://leetcode.com/problems/jump-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0056", 
     "Level": 2, 
     "Title": "Merge Intervals", 
