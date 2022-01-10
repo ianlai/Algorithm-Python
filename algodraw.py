@@ -173,6 +173,9 @@ def draw(dates, values):
         axs[1].annotate(str(j), xy=(i, j - annotate_y_offset * 1.5))
 
     lastDateMap = {
+        1: 31, 
+        2: 28, 
+        3: 31, 
         4: 30, 
         5: 31, 
         6: 30, 
@@ -183,17 +186,33 @@ def draw(dates, values):
         11: 30, 
         12: 31, 
     }
-    for month in range(4, 13, 1):
+
+    #2021
+    # for month in range(4, 13, 1):
+    #     monthStr = str(month).zfill(2)
+    #     dateStr = "2021." + monthStr 
+    #     numberTitle = "Number of Quiz (" + dateStr + ")"
+    #     scoreTitle = "Score of Quiz (" + dateStr + ")"
+    #     axs[1].set(xlabel="Date", ylabel="Score")
+    #     axs[0].set_title(numberTitle, fontweight = 'bold')
+    #     axs[1].set_title(scoreTitle, fontweight = 'bold')
+    #     axs[0].set_xlim(datetime.datetime(2021, month, 1), datetime.datetime(2021, month, lastDateMap[month])) 
+    #     fileName = "score_2021" + monthStr + ".png"
+    #     plt.savefig(fileName)
+
+    #2022
+    for month in range(1, 3, 1):
         monthStr = str(month).zfill(2)
-        dateStr = "2021." + monthStr 
+        dateStr = "2022." + monthStr 
         numberTitle = "Number of Quiz (" + dateStr + ")"
         scoreTitle = "Score of Quiz (" + dateStr + ")"
         axs[1].set(xlabel="Date", ylabel="Score")
         axs[0].set_title(numberTitle, fontweight = 'bold')
         axs[1].set_title(scoreTitle, fontweight = 'bold')
-        axs[0].set_xlim(datetime.datetime(2021, month, 1), datetime.datetime(2021, month, lastDateMap[month])) 
-        fileName = "score_2021" + monthStr + ".png"
+        axs[0].set_xlim(datetime.datetime(2022, month, 1), datetime.datetime(2022, month, lastDateMap[month])) 
+        fileName = "score_2022" + monthStr + ".png"
         plt.savefig(fileName)
+
     # plt.show()
 
 ###################### 

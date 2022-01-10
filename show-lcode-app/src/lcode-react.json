@@ -2054,8 +2054,12 @@
     "Level": 2, 
     "Title": "132 Pattern", 
     "Url": "https://leetcode.com/problems/132-pattern", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Monotonic-Stack", 
+        "**CHECK"
+    ], 
+    "Memo": "", 
+    "Date": "2022-01-10"
 },
 {
     "Number": "0459", 
@@ -2588,8 +2592,11 @@
     "Level": 2, 
     "Title": "Daily Temperatures", 
     "Url": "https://leetcode.com/problems/daily-temperatures", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Monotonic-Stack"
+    ], 
+    "Memo": "", 
+    "Date": "2022-01-10"
 },
 {
     "Number": "0743", 
