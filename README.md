@@ -117,6 +117,7 @@ algo
 │   ├── __0718__Maximum Length of Repeated Subarray.py
 │   ├── __0931__Minimum Falling Path Sum.py
 │   ├── __0935__Knight Dialer.py
+│   ├── __1014__Best Sightseeing Pair.py
 │   ├── __1025__Divisor Game.py
 │   ├── __1048__Longest String Chain.py
 │   ├── __1049__Last Stone Weight II.py
@@ -337,7 +338,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 310 files
+26 directories, 311 files
 
 =====================================
 ============= Local Repo ============
@@ -600,6 +601,7 @@ __0981__Time Based Key-Value Store.py
 __0986__Interval List Intersections.py
 __0994__Rotting Oranges.py
 __1008__Construct Binary Search Tree from Preorder Traversal.py
+__1014__Best Sightseeing Pair.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
 __1038__Binary Search Tree to Greater Sum Tree.py
@@ -641,7 +643,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  298
+Num of Python Practice:  299
 
 
 =====================================
@@ -905,6 +907,7 @@ Num of Python Practice:  298
  0986 Interval List Intersections
  0994 Rotting Oranges
  1008 Construct Binary Search Tree from Preorder Traversal
+ 1014 Best Sightseeing Pair
  1020 Number of Enclaves
  1025 Divisor Game
  1038 Binary Search Tree to Greater Sum Tree
@@ -947,10 +950,10 @@ Num of Python Practice:  298
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  540
-Solved / Total (Medium):  215 / 1140
+Solved / Total (Medium):  216 / 1140
 Solved / Total (Hard)  :   19 /  456
-Solved / Total (All)   :  298 / 2136
-Total Score            :  804
+Solved / Total (All)   :  299 / 2136
+Total Score            :  807
 =====================================
 
 ```

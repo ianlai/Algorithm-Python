@@ -3052,6 +3052,15 @@
     "Date": "2021-12-27"
 },
 {
+    "Number": "1014", 
+    "Level": 2, 
+    "Title": "Best Sightseeing Pair", 
+    "Url": "https://leetcode.com/problems/best-sightseeing-pair", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-01-11"
+},
+{
     "Number": "1020", 
     "Level": 2, 
     "Title": "Number of Enclaves", 
@@ -3440,7 +3449,8 @@
     "Title": "Number of Good Ways to Split a String", 
     "Url": "https://leetcode.com/problems/number-of-good-ways-to-split-a-string", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-01-11"
 },
 {
     "Number": "1557", 

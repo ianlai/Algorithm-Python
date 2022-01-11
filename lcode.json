@@ -2170,6 +2170,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1014", 
+    "Level": 2, 
+    "Title": "Best Sightseeing Pair", 
+    "Url": "https://leetcode.com/problems/best-sightseeing-pair", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1020", 
     "Level": 2, 
     "Title": "Number of Enclaves", 
