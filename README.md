@@ -157,7 +157,8 @@ algo
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
 │   ├── __0535__Encode and Decode TinyURL.py
-│   └── __0705__Design HashSet.py
+│   ├── __0705__Design HashSet.py
+│   └── __1525__Number of Good Ways to Split a String.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
@@ -336,7 +337,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 309 files
+26 directories, 310 files
 
 =====================================
 ============= Local Repo ============
@@ -631,6 +632,7 @@ __1395__Count Number of Teams.py
 __1429__First Unique Number.py
 __1448__Count Good Nodes in Binary Tree.py
 __1475__Final Prices With a Special Discount in a Shop.py
+__1525__Number of Good Ways to Split a String.py
 __1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
@@ -639,7 +641,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  297
+Num of Python Practice:  298
 
 
 =====================================
@@ -935,6 +937,7 @@ Num of Python Practice:  297
  1429 First Unique Number
  1448 Count Good Nodes in Binary Tree
  1475 Final Prices With a Special Discount in a Shop
+ 1525 Number of Good Ways to Split a String
  1557 Minimum Number of Vertices to Reach All Nodes
  1593 Split a String Into the Max Number of Unique Substrings
  1711 Count Good Meals
@@ -944,10 +947,10 @@ Num of Python Practice:  297
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  540
-Solved / Total (Medium):  214 / 1140
+Solved / Total (Medium):  215 / 1140
 Solved / Total (Hard)  :   19 /  456
-Solved / Total (All)   :  297 / 2136
-Total Score            :  801
+Solved / Total (All)   :  298 / 2136
+Total Score            :  804
 =====================================
 
 ```

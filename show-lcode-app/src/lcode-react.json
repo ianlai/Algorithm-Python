@@ -3435,6 +3435,14 @@
     "Date": "2022-01-04"
 },
 {
+    "Number": "1525", 
+    "Level": 2, 
+    "Title": "Number of Good Ways to Split a String", 
+    "Url": "https://leetcode.com/problems/number-of-good-ways-to-split-a-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1557", 
     "Level": 2, 
     "Title": "Minimum Number of Vertices to Reach All Nodes", 
