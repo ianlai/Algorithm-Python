@@ -1720,6 +1720,14 @@
     "Date": "2021-06-11"
 },
 {
+    "Number": "0291", 
+    "Level": 2, 
+    "Title": "Word Pattern II", 
+    "Url": "https://leetcode.com/problems/word-pattern-ii", 
+    "Tags": ["DFS", "String", "Backtracking", "Word"], 
+    "Memo": "雙向Mapping，所以除了正向Map以外，還需要一個Set來存哪些已經被Map過了。剩下的就是終止條件了。"
+},
+{
     "Number": "0297", 
     "Level": 3, 
     "Title": "Serialize and Deserialize Binary Tree", 
@@ -3056,8 +3064,12 @@
     "Level": 2, 
     "Title": "Best Sightseeing Pair", 
     "Url": "https://leetcode.com/problems/best-sightseeing-pair", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Array", 
+        "DP", 
+        "Two-Pointer"
+    ], 
+    "Memo": "分類是寫DP，但我覺得有點像Two-Pointer，只是這兩隻指針是綁在一起的i-1和i，來代表左邊和右邊。這題的暴力解是O(N2)，快速解是O(N)，通常DP都是拿來處理NP到多項式時間的，實在不是很確定這題的分類。", 
     "Date": "2022-01-11"
 },
 {
@@ -3448,7 +3460,10 @@
     "Level": 2, 
     "Title": "Number of Good Ways to Split a String", 
     "Url": "https://leetcode.com/problems/number-of-good-ways-to-split-a-string", 
-    "Tags": [], 
+    "Tags": [
+        "String", 
+        "Counting"
+    ], 
     "Memo": "", 
     "Date": "2022-01-11"
 },

@@ -82,6 +82,7 @@ algo
 │   ├── __0139__Word Break.py
 │   ├── __0212__Word Search II.py
 │   ├── __0216__Combination Sum III.py
+│   ├── __0291__Word Pattern II.py
 │   ├── __0401__Binary Watch.py
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0690__Employee Importance.py
@@ -338,7 +339,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 311 files
+26 directories, 312 files
 
 =====================================
 ============= Local Repo ============
@@ -490,6 +491,7 @@ __0285__Inorder Successor in BST.py
 __0286__Walls and Gates.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
+__0291__Word Pattern II.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0300__Longest Increasing Subsequence.py
 __0305__Number of Islands II.py
@@ -643,7 +645,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  299
+Num of Python Practice:  300
 
 
 =====================================
@@ -796,6 +798,7 @@ Num of Python Practice:  299
  0286 Walls and Gates
  0287 Find the Duplicate Number
  0290 Word Pattern
+ 0291 Word Pattern II
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
  0305 Number of Islands II
@@ -950,10 +953,10 @@ Num of Python Practice:  299
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  540
-Solved / Total (Medium):  216 / 1140
+Solved / Total (Medium):  217 / 1140
 Solved / Total (Hard)  :   19 /  456
-Solved / Total (All)   :  299 / 2136
-Total Score            :  807
+Solved / Total (All)   :  300 / 2136
+Total Score            :  810
 =====================================
 
 ```
