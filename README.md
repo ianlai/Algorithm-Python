@@ -13,6 +13,7 @@ algo
 │   ├── __0283__Move Zeroes.py
 │   ├── __0350__Intersection of Two Arrays II.py
 │   ├── __0384__Shuffle an Array.py
+│   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
 │   ├── __0760__Find Anagram Mappings.py
 │   └── __0986__Interval List Intersections.py
@@ -84,7 +85,6 @@ algo
 │   ├── __0216__Combination Sum III.py
 │   ├── __0291__Word Pattern II.py
 │   ├── __0401__Binary Watch.py
-│   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0690__Employee Importance.py
 │   ├── __0784__Letter Case Permutation.py
 │   ├── __0841__Keys and Rooms.py
@@ -953,9 +953,9 @@ Num of Python Practice:  300
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  540
-Solved / Total (Medium):  217 / 1140
+Solved / Total (Medium):  217 / 1141
 Solved / Total (Hard)  :   19 /  456
-Solved / Total (All)   :  300 / 2136
+Solved / Total (All)   :  300 / 2137
 Total Score            :  810
 =====================================
 

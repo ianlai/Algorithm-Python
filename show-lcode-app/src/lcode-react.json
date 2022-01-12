@@ -9,7 +9,7 @@
         "Two-Pointer", 
         "HashMap"
     ], 
-    "Memo": "試試看新的lcode-react.json", 
+    "Memo": "", 
     "Date": "2021-04-20"
 },
 {
@@ -1724,8 +1724,14 @@
     "Level": 2, 
     "Title": "Word Pattern II", 
     "Url": "https://leetcode.com/problems/word-pattern-ii", 
-    "Tags": ["DFS", "String", "Backtracking", "Word"], 
-    "Memo": "雙向Mapping，所以除了正向Map以外，還需要一個Set來存哪些已經被Map過了。剩下的就是終止條件了。"
+    "Tags": [
+        "DFS", 
+        "String", 
+        "Backtracking", 
+        "Word"
+    ], 
+    "Memo": "雙向Mapping，所以除了正向Map以外，還需要一個Set來存哪些已經被Map過了。剩下的就是終止條件了。", 
+    "Date": "2022-01-12"
 },
 {
     "Number": "0297", 
@@ -2386,11 +2392,14 @@
     "Title": "Subarray Sum Equals K", 
     "Url": "https://leetcode.com/problems/subarray-sum-equals-k", 
     "Tags": [
-        "Substring", 
-        "**CHECK"
+        "Subarray", 
+        "Two-Sum", 
+        "HashMap", 
+        "Cumulative-Sum", 
+        "**GOOD"
     ], 
     "Memo": "", 
-    "Date": "2021-05-27"
+    "Date": "2022-01-13"
 },
 {
     "Number": "0572", 
@@ -3526,7 +3535,8 @@
         "BFS", 
         "Graph", 
         "Matrix", 
-        "Island"
+        "Island", 
+        "**大波"
     ], 
     "Memo": "", 
     "Date": "2021-11-15"

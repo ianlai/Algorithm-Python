@@ -160,7 +160,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h3>
-          Lcode List parsed from <code>lcode-react.json</code>
+          Lcode visualization parsed from <code>lcode-react.json</code>
         </h3>
 
         <div
@@ -176,10 +176,6 @@ function App() {
             {" "}
             {"Total: " + lcodeData.length}{" "}
           </span>
-          {/* <span> || </span>
-          <span style={{ color: "#43e032" }}> Easy: {countEasy} </span>
-          <span style={{ color: "#eecb31" }}> Medium: {countMedium} </span>
-          <span style={{ color: "#e7391a" }}> Hard: {countHard} </span> */}
         </div>
 
         <div className="LevelFilterRow">

@@ -108,62 +108,62 @@ a:hover {
 /* CSS */
 
 .button-tag-all {
-    background-color: #7a7074;
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
-      sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    height: 20px;
-    line-height: 20px;
-    list-style: none;
-    margin: 3px;
-    outline: none;
-    padding: 0px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  .button-sorting {
-    background-color: #276858;
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
-      sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    height: 25px;
-    line-height: 20px;
-    list-style: none;
-    margin: 0px;
-    outline: none;
-    padding: 0px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  .button-sorting:hover {
-    background-color: #3acfaa;
-  }
+  background-color: #7a7074;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  list-style: none;
+  margin: 3px;
+  outline: none;
+  padding: 0px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-sorting {
+  background-color: #276858;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0px;
+  outline: none;
+  padding: 0px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-sorting:hover {
+  background-color: #3acfaa;
+}
 .button-tag,
 .button-filter,
 .button-tag-clicked,
@@ -197,22 +197,6 @@ a:hover {
   touch-action: manipulation;
 }
 
-.button-easy,
-.button-medium,
-.button-hard {
-    height: 40px;
-}
-
-.button-easy:hover {
-  background-color: #27cc14;
-}
-.button-medium:hover {
-  background-color: #ebb237;
-}
-.button-hard:hover {
-  background-color: #ce4730;
-}
-
 .button-tag-clicked {
   background-color: #6d83cab0;
   cursor: auto;
@@ -221,11 +205,16 @@ a:hover {
   background-color: #f1afc8;
 }
 
+.button-filter:hover {
+  background-color: #a2a9c0b0;
+}
+
 .button-easy,
 .button-medium,
 .button-hard {
+  height: 35px;
   background-color: #6d83cab0;
-  margin: 0
+  margin: 0;
 }
 .button-easy {
   background-color: #168609;
@@ -236,6 +225,15 @@ a:hover {
 .button-hard {
   background-color: #7e1604;
 }
-.button-filter:hover {
-  background-color: #a2a9c0b0;
+.button-easy:hover {
+  background-color: #27cc14;
+}
+.button-medium:hover {
+  background-color: #ebb237;
+}
+.button-hard:hover {
+  background-color: #ce4730;
+}
+.LevelFilterRow{
+  margin: 8px;
 }
