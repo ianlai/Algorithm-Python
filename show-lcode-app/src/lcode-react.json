@@ -945,10 +945,10 @@
     "Tags": [
         "Array", 
         "DP", 
-        "**CHECK"
+        "Greedy"
     ], 
     "Memo": "", 
-    "Date": "2021-05-06"
+    "Date": "2022-01-13"
 },
 {
     "Number": "0125", 
@@ -1164,11 +1164,10 @@
     "Title": "Reverse Words in a String", 
     "Url": "https://leetcode.com/problems/reverse-words-in-a-string", 
     "Tags": [
-        "String", 
-        "**CHECK"
+        "String"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-09"
+    "Memo": "immutable(Python, Java)和mutable(C++)作法會不同。基本上就是去掉空格，翻轉word，再接起來就可。也可以翻轉整個字串，再一個一個翻轉字。", 
+    "Date": "2022-01-13"
 },
 {
     "Number": "0152", 
