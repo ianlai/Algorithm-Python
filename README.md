@@ -207,6 +207,7 @@ algo
 │   ├── __0048__Rotate Image.py
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
+│   ├── __0084__Largest Rectangle in Histogram.py
 │   ├── __0456__132 Pattern.py
 │   ├── __0496__Next Greater Element I.py
 │   ├── __0503__Next Greater Element II.py
@@ -339,7 +340,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 312 files
+26 directories, 313 files
 
 =====================================
 ============= Local Repo ============
@@ -397,6 +398,7 @@ __0079__Word Search.py
 __0080__Remove Duplicates from Sorted Array II.py
 __0081__Search in Rotated Sorted Array II.py
 __0083__Remove Duplicates from Sorted List.py
+__0084__Largest Rectangle in Histogram.py
 __0086__Partition List.py
 __0088__Merge Sorted Array.py
 __0089__Gray Code.py
@@ -645,7 +647,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  300
+Num of Python Practice:  301
 
 
 =====================================
@@ -704,6 +706,7 @@ Num of Python Practice:  300
  0080 Remove Duplicates from Sorted Array II
  0081 Search in Rotated Sorted Array II
  0083 Remove Duplicates from Sorted List
+ 0084 Largest Rectangle in Histogram
  0086 Partition List
  0088 Merge Sorted Array
  0089 Gray Code
@@ -954,9 +957,9 @@ Num of Python Practice:  300
 =====================================
 Solved / Total (Easy)  :   64 /  540
 Solved / Total (Medium):  217 / 1141
-Solved / Total (Hard)  :   19 /  456
-Solved / Total (All)   :  300 / 2137
-Total Score            :  810
+Solved / Total (Hard)  :   20 /  456
+Solved / Total (All)   :  301 / 2137
+Total Score            :  815
 =====================================
 
 ```

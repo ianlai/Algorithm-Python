@@ -611,6 +611,14 @@
     "Date": "2021-06-27"
 },
 {
+    "Number": "0084", 
+    "Level": 3, 
+    "Title": "Largest Rectangle in Histogram", 
+    "Url": "https://leetcode.com/problems/largest-rectangle-in-histogram", 
+    "Tags": ["Monotonic-Stack", "D&C", "**HARD"], 
+    "Memo": "D&C遇到特例就會降成O(n2)，必須用Monotonic-Stack才行。方法真的不好想，簡單說就是找到上升點就記入stack，遇到下降點就往回比較找到最大長方形，並且同時取出剛剛存入的值。"
+},
+{
     "Number": "0086", 
     "Level": 2, 
     "Title": "Partition List", 
@@ -1140,7 +1148,8 @@
         "HashMap", 
         "LinkedList", 
         "Cache", 
-        "Design"
+        "Design", 
+        "**CHECK"
     ], 
     "Memo": "", 
     "Date": "2021-06-07"

@@ -443,6 +443,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0084", 
+    "Level": 3, 
+    "Title": "Largest Rectangle in Histogram", 
+    "Url": "https://leetcode.com/problems/largest-rectangle-in-histogram", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0086", 
     "Level": 2, 
     "Title": "Partition List", 
