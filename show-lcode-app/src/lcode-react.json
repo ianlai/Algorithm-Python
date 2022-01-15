@@ -3040,11 +3040,12 @@
     "Title": "Odd Even Jump", 
     "Url": "https://leetcode.com/problems/odd-even-jump", 
     "Tags": [
-        "Monotonic-Stack",
-        "Sorting",
+        "Monotonic-Stack", 
+        "Sorting", 
         "**HARD"
     ], 
-    "Memo": "純用DP每次都scan找下一個符合的會超時。下一個符合的需要用Monotonic-Stack(asc, desc)先找好，但因為條件不是下一個大於/小於，而是下一個大於中的最小/小於中的最大，所以需要做排序。很不好想，要再看。"
+    "Memo": "純用DP每次都scan找下一個符合的會超時。下一個符合的需要用Monotonic-Stack(asc, desc)先找好，但因為條件不是下一個大於/小於，而是下一個大於中的最小/小於中的最大，所以需要做排序。很不好想，要再看。", 
+    "Date": "2022-01-16"
 },
 {
     "Number": "0979", 
@@ -3548,6 +3549,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-08-06"
+},
+{
+    "Number": "1762", 
+    "Level": 2, 
+    "Title": "Buildings With an Ocean View", 
+    "Url": "https://leetcode.com/problems/buildings-with-an-ocean-view", 
+    "Tags": ["Monotonic-Stack", "**BASIC"],  
+    "Memo": "最基本的單調棧題目，記得要存index比較好用。"
 },
 {
     "Number": "1774", 

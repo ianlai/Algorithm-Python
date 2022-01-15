@@ -214,7 +214,8 @@ algo
 │   ├── __0503__Next Greater Element II.py
 │   ├── __0739__Daily Temperatures.py
 │   ├── __0975__Odd Even Jump.py
-│   └── __1475__Final Prices With a Special Discount in a Shop.py
+│   ├── __1475__Final Prices With a Special Discount in a Shop.py
+│   └── __1762__Buildings With an Ocean View.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -342,7 +343,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 315 files
+26 directories, 316 files
 
 =====================================
 ============= Local Repo ============
@@ -646,12 +647,13 @@ __1525__Number of Good Ways to Split a String.py
 __1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1711__Count Good Meals.py
+__1762__Buildings With an Ocean View.py
 __1774__Closest Dessert Cost.py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  303
+Num of Python Practice:  304
 
 
 =====================================
@@ -956,16 +958,17 @@ Num of Python Practice:  303
  1557 Minimum Number of Vertices to Reach All Nodes
  1593 Split a String Into the Max Number of Unique Substrings
  1711 Count Good Meals
+ 1762 Buildings With an Ocean View
  1774 Closest Dessert Cost
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  540
-Solved / Total (Medium):  218 / 1141
+Solved / Total (Medium):  219 / 1141
 Solved / Total (Hard)  :   21 /  456
-Solved / Total (All)   :  303 / 2137
-Total Score            :  823
+Solved / Total (All)   :  304 / 2137
+Total Score            :  826
 =====================================
 
 ```
