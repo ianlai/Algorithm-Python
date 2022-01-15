@@ -615,8 +615,13 @@
     "Level": 3, 
     "Title": "Largest Rectangle in Histogram", 
     "Url": "https://leetcode.com/problems/largest-rectangle-in-histogram", 
-    "Tags": ["Monotonic-Stack", "D&C", "**HARD"], 
-    "Memo": "D&C遇到特例就會降成O(n2)，必須用Monotonic-Stack才行。方法真的不好想，簡單說就是找到上升點就記入stack，遇到下降點就往回比較找到最大長方形，並且同時取出剛剛存入的值。"
+    "Tags": [
+        "Monotonic-Stack", 
+        "D&C", 
+        "**HARD"
+    ], 
+    "Memo": "D&C遇到特例就會降成O(n2)，必須用Monotonic-Stack才行。方法真的不好想，簡單說就是找到上升點就記入stack，遇到下降點就往回比較找到最大長方形，並且同時取出剛剛存入的值。", 
+    "Date": "2022-01-15"
 },
 {
     "Number": "0086", 
@@ -2286,6 +2291,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-08-17"
+},
+{
+    "Number": "0523", 
+    "Level": 2, 
+    "Title": "Continuous Subarray Sum", 
+    "Url": "https://leetcode.com/problems/continuous-subarray-sum", 
+    "Tags": ["Subarray", "Cumulative-Sum"], 
+    "Memo": "不少邊界條件要注意。", 
+    "Date": "2022-01-15"
 },
 {
     "Number": "0528", 

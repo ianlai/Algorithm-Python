@@ -1622,6 +1622,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0523", 
+    "Level": 2, 
+    "Title": "Continuous Subarray Sum", 
+    "Url": "https://leetcode.com/problems/continuous-subarray-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0528", 
     "Level": 2, 
     "Title": "Random Pick with Weight", 
