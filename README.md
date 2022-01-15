@@ -213,6 +213,7 @@ algo
 │   ├── __0496__Next Greater Element I.py
 │   ├── __0503__Next Greater Element II.py
 │   ├── __0739__Daily Temperatures.py
+│   ├── __0975__Odd Even Jump.py
 │   └── __1475__Final Prices With a Special Discount in a Shop.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
@@ -341,7 +342,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 314 files
+26 directories, 315 files
 
 =====================================
 ============= Local Repo ============
@@ -602,6 +603,7 @@ __0938__Range Sum of BST.py
 __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
+__0975__Odd Even Jump.py
 __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
 __0986__Interval List Intersections.py
@@ -649,7 +651,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  302
+Num of Python Practice:  303
 
 
 =====================================
@@ -911,6 +913,7 @@ Num of Python Practice:  302
  0958 Check Completeness of a Binary Tree
  0969 Pancake Sorting
  0973 K Closest Points to Origin
+ 0975 Odd Even Jump
  0979 Distribute Coins in Binary Tree
  0981 Time Based Key-Value Store
  0986 Interval List Intersections
@@ -960,9 +963,9 @@ Num of Python Practice:  302
 =====================================
 Solved / Total (Easy)  :   64 /  540
 Solved / Total (Medium):  218 / 1141
-Solved / Total (Hard)  :   20 /  456
-Solved / Total (All)   :  302 / 2137
-Total Score            :  818
+Solved / Total (Hard)  :   21 /  456
+Solved / Total (All)   :  303 / 2137
+Total Score            :  823
 =====================================
 
 ```

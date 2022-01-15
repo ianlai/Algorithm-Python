@@ -2150,6 +2150,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0975", 
+    "Level": 3, 
+    "Title": "Odd Even Jump", 
+    "Url": "https://leetcode.com/problems/odd-even-jump", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0979", 
     "Level": 2, 
     "Title": "Distribute Coins in Binary Tree", 

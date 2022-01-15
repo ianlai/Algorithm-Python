@@ -2297,7 +2297,10 @@
     "Level": 2, 
     "Title": "Continuous Subarray Sum", 
     "Url": "https://leetcode.com/problems/continuous-subarray-sum", 
-    "Tags": ["Subarray", "Cumulative-Sum"], 
+    "Tags": [
+        "Subarray", 
+        "Cumulative-Sum"
+    ], 
     "Memo": "不少邊界條件要注意。", 
     "Date": "2022-01-15"
 },
@@ -3030,6 +3033,18 @@
     ], 
     "Memo": "", 
     "Date": "2021-06-05"
+},
+{
+    "Number": "0975", 
+    "Level": 3, 
+    "Title": "Odd Even Jump", 
+    "Url": "https://leetcode.com/problems/odd-even-jump", 
+    "Tags": [
+        "Monotonic-Stack",
+        "Sorting",
+        "**HARD"
+    ], 
+    "Memo": "純用DP每次都scan找下一個符合的會超時。下一個符合的需要用Monotonic-Stack(asc, desc)先找好，但因為條件不是下一個大於/小於，而是下一個大於中的最小/小於中的最大，所以需要做排序。很不好想，要再看。"
 },
 {
     "Number": "0979", 
