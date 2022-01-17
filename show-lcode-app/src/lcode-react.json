@@ -3555,8 +3555,12 @@
     "Level": 2, 
     "Title": "Buildings With an Ocean View", 
     "Url": "https://leetcode.com/problems/buildings-with-an-ocean-view", 
-    "Tags": ["Monotonic-Stack", "**BASIC"],  
-    "Memo": "最基本的單調棧題目，記得要存index比較好用。"
+    "Tags": [
+        "Monotonic-Stack", 
+        "**BASIC"
+    ], 
+    "Memo": "最基本的單調棧題目，記得要存index比較好用。", 
+    "Date": "2022-01-16"
 },
 {
     "Number": "1774", 
@@ -3570,6 +3574,17 @@
     ], 
     "Memo": "", 
     "Date": "2021-10-03"
+},
+{
+    "Number": "1804", 
+    "Level": 2, 
+    "Title": "Implement Trie II (Prefix Tree)", 
+    "Url": "https://leetcode.com/problems/implement-trie-ii-prefix-tree", 
+    "Tags": [
+        "Trie"
+    ], 
+    "Memo": "使用兩個counter來計數node的通過數和結束數，以此來計算prefix數量和word數量。刪除字的時候就減一即可，還沒做把已經歸零的node刪除的部分。", 
+    "Date": "2022-01-17"
 },
 {
     "Number": "1905", 

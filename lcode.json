@@ -2531,6 +2531,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1804", 
+    "Level": 2, 
+    "Title": "Implement Trie II (Prefix Tree)", 
+    "Url": "https://leetcode.com/problems/implement-trie-ii-prefix-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1905", 
     "Level": 2, 
     "Title": "Count Sub Islands", 
