@@ -3545,10 +3545,10 @@
     "Url": "https://leetcode.com/problems/count-good-meals", 
     "Tags": [
         "HashMap", 
-        "**CHECK"
+        "Two-Sum"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-06"
+    "Memo": "HashMap的Two-Sum變形。", 
+    "Date": "2022-01-19"
 },
 {
     "Number": "1762", 

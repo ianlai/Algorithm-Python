@@ -1,8 +1,58 @@
 import math
-MODULO = pow(10, 9
-            ) + 7
+MODULO = pow(10, 9) + 7
+
 class Solution:
+
+    #2022/01/18 
+    # Hashmap Two-Sum extended [O(K+P): 33%]
     def countPairs(self, deliciousness: List[int]) -> int:
+        print("Code2")
+        def combination(n, a):
+            assert n >= a
+            #return int(math.factorial(n) / math.factorial(a) / math.factorial(n-a)) #incorrect!
+            return int(math.factorial(n) / math.factorial(n-a) / math.factorial(a))  #correct!
+        powerList = list()
+        
+        maxVal = max(deliciousness)
+        for i in range(22): 
+            powerList.append(2**i)
+        #print(powerList)
+        
+        countMap = collections.defaultdict(int)
+        for d in deliciousness:
+            countMap[d] += 1
+        #print(countMap)
+        
+        used = set()
+        totalCount = 0
+        for d1 in countMap.keys():
+            for p in powerList:
+                d2 = p - d1
+                if d2 < 0:
+                    continue
+                if (min(d1, d2), max(d1, d2)) in used:
+                    continue
+                count = 0
+                if d1 == d2:
+                    val = countMap[d1]
+                    if val < 2:
+                        continue
+                    else:
+                        count = combination(val, 2) % MODULO
+                else:
+                    if d2 in countMap:
+                        count = countMap[d1] * countMap[d2] % MODULO
+                used.add((min(d1,d2),max(d1,d2)))
+                #print(d1, d2, count)
+                totalCount += count 
+        return totalCount
+            
+            
+    # ===============================================
+    
+    # 2021/08/06 [33%]
+    def countPairs1(self, deliciousness: List[int]) -> int:
+        print("Code1")
         maxVal = max(deliciousness)
         powerValSet = set()
         upper = math.floor(math.log(maxVal*2, 2)) +1
@@ -16,6 +66,7 @@ class Solution:
         count = collections.defaultdict(int)
         for d in deliciousness:
             count[d] += 1
+            
         # print(count)
         
         used = set()
@@ -23,7 +74,7 @@ class Solution:
         for d1 in count.keys():
             for p in powerValSet:
                 d2 = p - d1
-                if (min(d1,d2),max(d1,d2)) in used:
+                if (min(d1,d2), max(d1,d2)) in used:
                     continue
                 if d1 == d2:
                     # print("ddddddd")
@@ -45,4 +96,5 @@ class Solution:
                     # print("added:", count[d1], "res:", res)
                     # print()
                     used.add((min(d1,d2),max(d1,d2)))
+                    
         return res
