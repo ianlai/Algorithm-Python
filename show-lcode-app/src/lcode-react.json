@@ -3353,6 +3353,14 @@
     "Date": "2021-07-19"
 },
 {
+    "Number": "1248", 
+    "Level": 2, 
+    "Title": "Count Number of Nice Subarrays", 
+    "Url": "https://leetcode.com/problems/count-number-of-nice-subarrays", 
+    "Tags": ["Two-Pointer", "Sliding-Window", "**GOOD"]
+    "Memo": "想到Sliding-Window不難，但難在要找到exact k的組合數。基礎的Sliding-Window是要找最長，那就R盡量往右，不得已才把L往右，但找方法數就必須把中間的狀況也要算進去，所以方法數每一輪是res+=R-L+1。又我們比較好找小於等於的方法數，所以必須利用atMost(n)-atMost(n-1)特性來找exact(n)。"
+},
+{
     "Number": "1254", 
     "Level": 2, 
     "Title": "Number of Closed Islands", 

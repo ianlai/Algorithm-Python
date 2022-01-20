@@ -325,6 +325,7 @@ algo
 │   ├── __0969__Pancake Sorting.py
 │   ├── __1099__Two Sum Less Than K.py
 │   ├── __1214__Two Sum BSTs.py
+│   ├── __1248__Count Number of Nice Subarrays.py
 │   └── __1711__Count Good Meals.py
 ├── UnionFind
 │   ├── DisjointSet.py
@@ -344,7 +345,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 317 files
+26 directories, 318 files
 
 =====================================
 ============= Local Repo ============
@@ -632,6 +633,7 @@ __1165__Single-Row Keyboard.py
 __1167__Minimum Cost to Connect Sticks.py
 __1198__Find Smallest Common Element in All Rows.py
 __1214__Two Sum BSTs.py
+__1248__Count Number of Nice Subarrays.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
 __1277__Count Square Submatrices with All Ones.py
@@ -655,7 +657,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  305
+Num of Python Practice:  306
 
 
 =====================================
@@ -944,6 +946,7 @@ Num of Python Practice:  305
  1167 Minimum Cost to Connect Sticks
  1198 Find Smallest Common Element in All Rows
  1214 Two Sum BSTs
+ 1248 Count Number of Nice Subarrays
  1254 Number of Closed Islands
  1268 Search Suggestions System
  1277 Count Square Submatrices with All Ones
@@ -968,10 +971,10 @@ Num of Python Practice:  305
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  541
-Solved / Total (Medium):  220 / 1144
-Solved / Total (Hard)  :   21 /  457
-Solved / Total (All)   :  305 / 2142
-Total Score            :  829
+Solved / Total (Medium):  221 / 1144
+Solved / Total (Hard)  :   21 /  458
+Solved / Total (All)   :  306 / 2143
+Total Score            :  832
 =====================================
 
 ```
