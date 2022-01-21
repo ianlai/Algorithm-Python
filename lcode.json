@@ -962,6 +962,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0209", 
+    "Level": 2, 
+    "Title": "Minimum Size Subarray Sum", 
+    "Url": "https://leetcode.com/problems/minimum-size-subarray-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0210", 
     "Level": 2, 
     "Title": "Course Schedule II", 

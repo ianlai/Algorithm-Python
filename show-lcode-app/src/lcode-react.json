@@ -1349,6 +1349,18 @@
     "Date": "2021-10-25"
 },
 {
+    "Number": "0209", 
+    "Level": 2, 
+    "Title": "Minimum Size Subarray Sum", 
+    "Url": "https://leetcode.com/problems/minimum-size-subarray-sum", 
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window"
+    ], 
+    "Memo": "0862是相同的題目，但題目變成可以負數，就變難了。", 
+    "Date": "2022-01-21"
+},
+{
     "Number": "0210", 
     "Level": 2, 
     "Title": "Course Schedule II", 
@@ -2094,7 +2106,8 @@
     "Title": "Find All Anagrams in a String", 
     "Url": "https://leetcode.com/problems/find-all-anagrams-in-a-string", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-01-21"
 },
 {
     "Number": "0441", 

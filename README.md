@@ -312,6 +312,7 @@ algo
 │   ├── __0159__Longest Substring with At Most Two Distinct Characters.py
 │   ├── __0167__Two Sum II - Input array is sorted.py
 │   ├── __0189__Rotate Array.py
+│   ├── __0209__Minimum Size Subarray Sum.py
 │   ├── __0259__3Sum Smaller.py
 │   ├── __0277__Find the Celebrity.py
 │   ├── __0340__Longest Substring with At Most K Distinct Characters.py
@@ -346,7 +347,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 319 files
+26 directories, 320 files
 
 =====================================
 ============= Local Repo ============
@@ -466,6 +467,7 @@ __0200__Number of Islands.py
 __0206__Reverse Linked List.py
 __0207__Course Schedule.py
 __0208__Implement Trie (Prefix Tree).py
+__0209__Minimum Size Subarray Sum.py
 __0210__Course Schedule II.py
 __0211__Design Add and Search Words Data Structure.py
 __0212__Word Search II.py
@@ -659,7 +661,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  307
+Num of Python Practice:  308
 
 
 =====================================
@@ -780,6 +782,7 @@ Num of Python Practice:  307
  0206 Reverse Linked List
  0207 Course Schedule
  0208 Implement Trie (Prefix Tree)
+ 0209 Minimum Size Subarray Sum
  0210 Course Schedule II
  0211 Design Add and Search Words Data Structure
  0212 Word Search II
@@ -974,10 +977,10 @@ Num of Python Practice:  307
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  541
-Solved / Total (Medium):  222 / 1144
+Solved / Total (Medium):  223 / 1144
 Solved / Total (Hard)  :   21 /  458
-Solved / Total (All)   :  307 / 2143
-Total Score            :  835
+Solved / Total (All)   :  308 / 2143
+Total Score            :  838
 =====================================
 
 ```
