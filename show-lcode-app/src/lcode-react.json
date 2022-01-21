@@ -2969,6 +2969,14 @@
     "Date": "2021-05-23"
 },
 {
+    "Number": "0930", 
+    "Level": 2, 
+    "Title": "Binary Subarrays With Sum", 
+    "Url": "https://leetcode.com/problems/binary-subarrays-with-sum", 
+    "Tags": ["Accumulated", "HashMap", "**CHECK"], 
+    "Memo": "Lcode上是寫這題有Sliding-Window，但解答裡面沒有。我一開始用Sliding-Window纏鬥了很久解不開。使用Prefix Sum倒是比較容易想，就是要找差k值的個數。"
+},
+{
     "Number": "0931", 
     "Level": 2, 
     "Title": "Minimum Falling Path Sum", 

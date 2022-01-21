@@ -2097,6 +2097,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0930", 
+    "Level": 2, 
+    "Title": "Binary Subarrays With Sum", 
+    "Url": "https://leetcode.com/problems/binary-subarrays-with-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0931", 
     "Level": 2, 
     "Title": "Minimum Falling Path Sum", 

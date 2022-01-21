@@ -17,6 +17,7 @@ algo
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
 │   ├── __0760__Find Anagram Mappings.py
+│   ├── __0930__Binary Subarrays With Sum.py
 │   └── __0986__Interval List Intersections.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
@@ -347,7 +348,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 320 files
+26 directories, 321 files
 
 =====================================
 ============= Local Repo ============
@@ -603,6 +604,7 @@ __0905__Sort Array By Parity.py
 __0909__Snakes and Ladders.py
 __0912__Sort an Array.py
 __0922__Sort Array By Parity II.py
+__0930__Binary Subarrays With Sum.py
 __0931__Minimum Falling Path Sum.py
 __0934__Shortest Bridge.py
 __0935__Knight Dialer.py
@@ -661,7 +663,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  308
+Num of Python Practice:  309
 
 
 =====================================
@@ -918,6 +920,7 @@ Num of Python Practice:  308
  0909 Snakes and Ladders
  0912 Sort an Array
  0922 Sort Array By Parity II
+ 0930 Binary Subarrays With Sum
  0931 Minimum Falling Path Sum
  0934 Shortest Bridge
  0935 Knight Dialer
@@ -977,10 +980,10 @@ Num of Python Practice:  308
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  541
-Solved / Total (Medium):  223 / 1144
+Solved / Total (Medium):  224 / 1144
 Solved / Total (Hard)  :   21 /  458
-Solved / Total (All)   :  308 / 2143
-Total Score            :  838
+Solved / Total (All)   :  309 / 2143
+Total Score            :  841
 =====================================
 
 ```
