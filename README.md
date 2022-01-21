@@ -316,6 +316,7 @@ algo
 │   ├── __0277__Find the Celebrity.py
 │   ├── __0340__Longest Substring with At Most K Distinct Characters.py
 │   ├── __0395__Longest Substring with At Least K Repeating Characters.py
+│   ├── __0438__Find All Anagrams in a String.py
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
 │   ├── __0680__Valid Palindrome II.py
@@ -345,7 +346,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 318 files
+26 directories, 319 files
 
 =====================================
 ============= Local Repo ============
@@ -527,6 +528,7 @@ __0416__Partition Equal Subset Sum.py
 __0417__Pacific Atlantic Water Flow.py
 __0423__Reconstruct Original Digits from English.py
 __0437__Path Sum III.py
+__0438__Find All Anagrams in a String.py
 __0441__Arranging Coins.py
 __0449__Serialize and Deserialize BST.py
 __0450__Delete Node in a BST.py
@@ -657,7 +659,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  306
+Num of Python Practice:  307
 
 
 =====================================
@@ -840,6 +842,7 @@ Num of Python Practice:  306
  0417 Pacific Atlantic Water Flow
  0423 Reconstruct Original Digits from English
  0437 Path Sum III
+ 0438 Find All Anagrams in a String
  0441 Arranging Coins
  0449 Serialize and Deserialize BST
  0450 Delete Node in a BST
@@ -971,10 +974,10 @@ Num of Python Practice:  306
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  541
-Solved / Total (Medium):  221 / 1144
+Solved / Total (Medium):  222 / 1144
 Solved / Total (Hard)  :   21 /  458
-Solved / Total (All)   :  306 / 2143
-Total Score            :  832
+Solved / Total (All)   :  307 / 2143
+Total Score            :  835
 =====================================
 
 ```

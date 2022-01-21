@@ -1486,6 +1486,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0438", 
+    "Level": 2, 
+    "Title": "Find All Anagrams in a String", 
+    "Url": "https://leetcode.com/problems/find-all-anagrams-in-a-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0441", 
     "Level": 1, 
     "Title": "Arranging Coins", 
