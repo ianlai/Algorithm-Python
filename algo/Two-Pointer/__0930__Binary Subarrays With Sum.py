@@ -1,7 +1,37 @@
 class Solution:
     
+    # Sliding-Window [O(n): 37%]
+    def numSubarraysWithSum(self, nums: List[int], k: int) -> int:
+        print("Code3")
+        if not nums:
+            return 0
+        
+        def atMost(nums, k):
+            left, right = 0, 0
+            curSum = 0
+            res = 0
+            while right < len(nums):
+                curSum += nums[right]
+                # move left
+                while left <= right and curSum > k:
+                    curSum -= nums[left]
+                    left += 1
+                
+                assert curSum <= k
+                res += right - left + 1
+                right += 1
+            return res
+        
+        if k != 0:
+            #print("at most k:", k, atMost(nums, k))
+            #print("at most k-1:", k-1, atMost(nums, k-1))
+            return atMost(nums, k) - atMost(nums, k-1)
+        else:
+            return atMost(nums, 0)
+        
+        
     # Prefix Sum [O(n): 20%]
-    def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
+    def numSubarraysWithSum2(self, nums: List[int], goal: int) -> int:
         print("Code2")
         # prefixSum = [0] * len(nums)
         # prefixSum[0] = nums[0]

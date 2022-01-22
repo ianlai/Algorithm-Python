@@ -121,7 +121,7 @@ def showQuizListFromLeetcode():
                             "Memo" : ""
                         }
             qArr.append(appendData)
-            print(appendData)
+            #print(appendData)
 
     #Write file 
     with open("lcode.json", "w") as f:

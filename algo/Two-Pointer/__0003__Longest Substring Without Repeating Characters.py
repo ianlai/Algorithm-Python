@@ -1,5 +1,31 @@
 class Solution:
-    
+
+    # 2022/01/22
+    # Sliding window [O(n): 68%]
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        if not s:
+            return 0
+        
+        charSet = set()
+        left = 0 
+        res = 0
+        for right in range(len(s)):
+            if s[right] not in charSet:
+                charSet.add(s[right])
+                res = max(res, right - left + 1)
+                continue
+                
+            while s[right] in charSet:
+                charSet.remove(s[left])
+                left += 1
+                
+            charSet.add(s[right])
+                
+        return res
+
+    #===================================================
+
+    # 2021/04/17
     # Two-pointer, O(n), 38%
     def lengthOfLongestSubstring(self, s: str) -> int:
         if s is None or len(s) == 0:

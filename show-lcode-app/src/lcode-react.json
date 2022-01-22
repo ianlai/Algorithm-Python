@@ -2973,8 +2973,15 @@
     "Level": 2, 
     "Title": "Binary Subarrays With Sum", 
     "Url": "https://leetcode.com/problems/binary-subarrays-with-sum", 
-    "Tags": ["Accumulated", "HashMap", "**CHECK"], 
-    "Memo": "Lcode上是寫這題有Sliding-Window，但解答裡面沒有。我一開始用Sliding-Window纏鬥了很久解不開。使用Prefix Sum倒是比較容易想，就是要找差k值的個數。"
+    "Tags": [
+        "Accumulated", 
+        "HashMap", 
+        "Sliding-Window", 
+        "Two-Pointer", 
+        "**CHECK"
+    ], 
+    "Memo": "這題可用Sliding-Window，類似1248。使用Prefix Sum倒是比較容易想，就是要找差k值的個數。", 
+    "Date": "2022-01-22"
 },
 {
     "Number": "0931", 
