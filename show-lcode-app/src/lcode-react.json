@@ -32,10 +32,11 @@
         "String", 
         "Substring", 
         "Sliding-Window", 
-        "Two-Pointer"
+        "Two-Pointer",
+        "**BASIC"
     ], 
     "Memo": "", 
-    "Date": "2021-04-20"
+    "Date": "2022-01-22"
 },
 {
     "Number": "0004", 

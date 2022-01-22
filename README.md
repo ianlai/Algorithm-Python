@@ -17,7 +17,6 @@ algo
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
 │   ├── __0760__Find Anagram Mappings.py
-│   ├── __0930__Binary Subarrays With Sum.py
 │   └── __0986__Interval List Intersections.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
@@ -325,6 +324,7 @@ algo
 │   ├── __0905__Sort Array By Parity.py
 │   ├── __0912__Sort an Array.py
 │   ├── __0922__Sort Array By Parity II.py
+│   ├── __0930__Binary Subarrays With Sum.py
 │   ├── __0969__Pancake Sorting.py
 │   ├── __1099__Two Sum Less Than K.py
 │   ├── __1214__Two Sum BSTs.py

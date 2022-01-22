@@ -1,8 +1,30 @@
 class Solution:
-
+    
     # 2022/01/22
-    # Sliding window [O(n): 68%]
+    # Sliding window (list map) [O(1n): 69%]
     def lengthOfLongestSubstring(self, s: str) -> int:
+        print("Code4")
+        if not s:
+            return 0
+        
+        res = 0
+        charIdxMap = [None] * 128 #ASCII code
+        left = 0 
+        for right in range(len(s)):
+            idx = charIdxMap[ord(s[right])]
+            if idx is not None and idx < right and idx >= left:
+                left = idx + 1
+                charIdxMap[ord(s[right])] = left
+            charIdxMap[ord(s[right])] = right
+            res = max(res, right - left + 1)
+        return res
+    
+    #===================================================
+        
+    # 2022/01/22
+    # Sliding window [O(2n): 68%]
+    def lengthOfLongestSubstring3(self, s: str) -> int:
+        print("Code3")
         if not s:
             return 0
         
@@ -27,7 +49,9 @@ class Solution:
 
     # 2021/04/17
     # Two-pointer, O(n), 38%
-    def lengthOfLongestSubstring(self, s: str) -> int:
+    def lengthOfLongestSubstring2(self, s: str) -> int:
+        print("Code2")
+        
         if s is None or len(s) == 0:
             return 0
         charToCount = {}
