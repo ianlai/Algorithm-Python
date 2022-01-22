@@ -2,8 +2,8 @@ class Solution:
     
     # 2022/01/22
     # Sliding window (list map) [O(1n): 69%]
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        print("Code4")
+    def lengthOfLongestSubstring5(self, s: str) -> int:
+        print("Code5")
         if not s:
             return 0
         
@@ -21,6 +21,32 @@ class Solution:
     
     #===================================================
         
+    # 2022/01/22
+    # Sliding window [O(2n): 68%]
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        print("Code4")
+        if not s:
+            return 0
+        
+        charSet = set()
+        left = 0 
+        res = 0
+        for right in range(len(s)):
+            
+            #Move left
+            while s[right] in charSet:
+                charSet.remove(s[left])
+                left += 1
+                
+            #Move right 
+            if s[right] not in charSet:
+                res = max(res, right - left + 1)
+                charSet.add(s[right])
+                
+        return res
+    
+    #===================================================
+    
     # 2022/01/22
     # Sliding window [O(2n): 68%]
     def lengthOfLongestSubstring3(self, s: str) -> int:
