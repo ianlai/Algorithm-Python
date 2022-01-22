@@ -2047,6 +2047,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0862", 
+    "Level": 3, 
+    "Title": "Shortest Subarray with Sum at Least K", 
+    "Url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0863", 
     "Level": 2, 
     "Title": "All Nodes Distance K in Binary Tree", 

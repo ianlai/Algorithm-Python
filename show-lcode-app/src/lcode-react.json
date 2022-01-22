@@ -36,7 +36,7 @@
         "**BASIC"
     ], 
     "Memo": "", 
-    "Date": "2022-01-22"
+    "Date": "2022-01-23"
 },
 {
     "Number": "0004", 
@@ -1879,7 +1879,7 @@
     "Tags": [
         "Two-Pointer", 
         "Sliding-Window", 
-        "Substring",
+        "Substring", 
         "**BASIC"
     ], 
     "Memo": "類似0003, 0159。", 
@@ -2899,6 +2899,20 @@
     "Date": "2021-07-08"
 },
 {
+    "Number": "0862", 
+    "Level": 3, 
+    "Title": "Shortest Subarray with Sum at Least K", 
+    "Url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k", 
+    "Tags": [
+        "Accumulated", 
+        "Monotonic-Queue", 
+        "Sliding-Window", 
+        "**HARD"
+    ], 
+    "Memo": "這題是0209的進化，包含負數。使用PrefixSum，要找到最短的j-i使得P[j]-P[i]>=k。使用暴力解的速度是O(n3)。如果純粹使用PrefixSum，因為要繞i,j，速度是O(n2)。要更進一步縮短時間，就要把大過目前P的P[i]都丟掉（因爲他們的index都比較小，如果P[i]還比較大，只會得到更小的P[j]-P[i]，留著沒意義。特別的是，這題把小值從Monotonic結構裡面取出來有兩個方向，所以需要使用Monotonic Queue (Deque型態)，而不是只有Monotonic Stack。", 
+    "Date": "2022-01-23"
+},
+{
     "Number": "0863", 
     "Level": 2, 
     "Title": "All Nodes Distance K in Binary Tree", 
@@ -2983,7 +2997,7 @@
         "**CHECK"
     ], 
     "Memo": "這題可用Sliding-Window，類似1248。使用Prefix Sum倒是比較容易想，就是要找差k值的個數。", 
-    "Date": "2022-01-22"
+    "Date": "2022-01-23"
 },
 {
     "Number": "0931", 

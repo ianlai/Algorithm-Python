@@ -213,6 +213,7 @@ algo
 │   ├── __0496__Next Greater Element I.py
 │   ├── __0503__Next Greater Element II.py
 │   ├── __0739__Daily Temperatures.py
+│   ├── __0862__Shortest Subarray with Sum at Least K.py
 │   ├── __0975__Odd Even Jump.py
 │   ├── __1475__Final Prices With a Special Discount in a Shop.py
 │   └── __1762__Buildings With an Ocean View.py
@@ -348,7 +349,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 321 files
+26 directories, 322 files
 
 =====================================
 ============= Local Repo ============
@@ -598,6 +599,7 @@ __0787__Cheapest Flights Within K Stops.py
 __0797__All Paths From Source to Target.py
 __0811__Subdomain Visit Count.py
 __0841__Keys and Rooms.py
+__0862__Shortest Subarray with Sum at Least K.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0875__Koko Eating Bananas.py
 __0905__Sort Array By Parity.py
@@ -663,7 +665,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  309
+Num of Python Practice:  310
 
 
 =====================================
@@ -914,6 +916,7 @@ Num of Python Practice:  309
  0797 All Paths From Source to Target
  0811 Subdomain Visit Count
  0841 Keys and Rooms
+ 0862 Shortest Subarray with Sum at Least K
  0863 All Nodes Distance K in Binary Tree
  0875 Koko Eating Bananas
  0905 Sort Array By Parity
@@ -979,11 +982,11 @@ Num of Python Practice:  309
  1937 Maximum Number of Points with Cost
  2093 Minimum Cost to Reach City With Discounts
 =====================================
-Solved / Total (Easy)  :   64 /  541
-Solved / Total (Medium):  224 / 1144
-Solved / Total (Hard)  :   21 /  458
-Solved / Total (All)   :  309 / 2143
-Total Score            :  841
+Solved / Total (Easy)  :   64 /  542
+Solved / Total (Medium):  224 / 1146
+Solved / Total (Hard)  :   22 /  459
+Solved / Total (All)   :  310 / 2147
+Total Score            :  846
 =====================================
 
 ```
