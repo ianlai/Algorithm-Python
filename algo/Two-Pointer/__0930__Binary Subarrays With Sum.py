@@ -1,8 +1,36 @@
 class Solution:
     
+    # 2022/01/22
     # Sliding-Window [O(n): 37%]
     def numSubarraysWithSum(self, nums: List[int], k: int) -> int:
         print("Code3")
+        if not nums:
+            return 0
+        
+        #calculate num of method of "<= k" 
+        def atMost(nums, k):
+            left, curSum, res = 0, 0, 0
+            for right in range(len(nums)):
+                curSum += nums[right]
+                # move left
+                while curSum > k:
+                    curSum -= nums[left]
+                    left += 1
+                # move right
+                assert curSum <= k
+                res += right - left + 1
+            return res
+        
+        if k != 0:
+            return atMost(nums, k) - atMost(nums, k-1)
+        else:
+            return atMost(nums, 0)
+    
+    # ============================================
+    # 2022/01/21
+    # Sliding-Window [O(n): 37%]
+    def numSubarraysWithSum2(self, nums: List[int], k: int) -> int:
+        print("Code2")
         if not nums:
             return 0
         
@@ -28,11 +56,12 @@ class Solution:
             return atMost(nums, k) - atMost(nums, k-1)
         else:
             return atMost(nums, 0)
-        
-        
+    
+    # ============================================
+    # 2022/01/21
     # Prefix Sum [O(n): 20%]
-    def numSubarraysWithSum2(self, nums: List[int], goal: int) -> int:
-        print("Code2")
+    def numSubarraysWithSum1(self, nums: List[int], goal: int) -> int:
+        print("Code1")
         # prefixSum = [0] * len(nums)
         # prefixSum[0] = nums[0]
         # for i, v in enumerate(nums):
@@ -73,36 +102,4 @@ class Solution:
         #         else:
         #             res += (count - 1) * count // 2
         #     return res
-            
-    
-    # Sliding window [Incorrect]
-    def numSubarraysWithSum1(self, nums: List[int], goal: int) -> int:
-        print("Code1")
-        if not nums:
-            return 0
-
-        def atMost(nums, goal):
-            i = 0
-            totalSum = 0
-            res = 0
-            for j in range(len(nums)):
-                totalSum += nums[j]
-                print(i, j, "->", totalSum)
-                
-                if totalSum <= goal:
-                    continue
-                firstI = i    
-                while i <= j and totalSum >= goal:
-                    print(i, j, totalSum)
-                    totalSum -= nums[i]
-                    i += 1
-                print("i, fi:", i, firstI)
-                res += i - firstI - 1
-            return res
-        k1 = atMost(nums, goal) 
-        #k2 = atMost(nums, goal-1)
-        print("goal:", goal, k1)
-        #print("goal-1:", goal-1, k2)
-        return k1 
-
                 
