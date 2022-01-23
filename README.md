@@ -322,6 +322,7 @@ algo
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
 │   ├── __0680__Valid Palindrome II.py
+│   ├── __0904__Fruit Into Baskets.py
 │   ├── __0905__Sort Array By Parity.py
 │   ├── __0912__Sort an Array.py
 │   ├── __0922__Sort Array By Parity II.py
@@ -349,7 +350,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 322 files
+26 directories, 323 files
 
 =====================================
 ============= Local Repo ============
@@ -602,6 +603,7 @@ __0841__Keys and Rooms.py
 __0862__Shortest Subarray with Sum at Least K.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0875__Koko Eating Bananas.py
+__0904__Fruit Into Baskets.py
 __0905__Sort Array By Parity.py
 __0909__Snakes and Ladders.py
 __0912__Sort an Array.py
@@ -665,7 +667,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  310
+Num of Python Practice:  311
 
 
 =====================================
@@ -919,6 +921,7 @@ Num of Python Practice:  310
  0862 Shortest Subarray with Sum at Least K
  0863 All Nodes Distance K in Binary Tree
  0875 Koko Eating Bananas
+ 0904 Fruit Into Baskets
  0905 Sort Array By Parity
  0909 Snakes and Ladders
  0912 Sort an Array
@@ -982,11 +985,11 @@ Num of Python Practice:  310
  1937 Maximum Number of Points with Cost
  2093 Minimum Cost to Reach City With Discounts
 =====================================
-Solved / Total (Easy)  :   64 /  542
-Solved / Total (Medium):  224 / 1146
-Solved / Total (Hard)  :   22 /  459
-Solved / Total (All)   :  310 / 2147
-Total Score            :  846
+Solved / Total (Easy)  :   64 /  543
+Solved / Total (Medium):  225 / 1148
+Solved / Total (Hard)  :   22 /  460
+Solved / Total (All)   :  311 / 2151
+Total Score            :  849
 =====================================
 
 ```

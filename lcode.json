@@ -2071,6 +2071,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0904", 
+    "Level": 2, 
+    "Title": "Fruit Into Baskets", 
+    "Url": "https://leetcode.com/problems/fruit-into-baskets", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0905", 
     "Level": 1, 
     "Title": "Sort Array By Parity", 
