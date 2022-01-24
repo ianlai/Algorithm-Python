@@ -284,7 +284,7 @@
     "Title": "Combination Sum", 
     "Url": "https://leetcode.com/problems/combination-sum", 
     "Tags": [
-        "Backtracking"
+        "Backtracking", "**BASIC"
     ], 
     "Memo": "不重複的元素可被無限重複使用。", 
     "Date": "2021-08-03"
@@ -333,7 +333,7 @@
     "Title": "Permutations", 
     "Url": "https://leetcode.com/problems/permutations", 
     "Tags": [
-        "Backtracking"
+        "Backtracking", "**BASIC"
     ], 
     "Memo": "", 
     "Date": "2021-04-30"
@@ -549,7 +549,7 @@
     "Title": "Combinations", 
     "Url": "https://leetcode.com/problems/combinations", 
     "Tags": [
-        "Backtracking"
+        "Backtracking", "**BASIC"
     ], 
     "Memo": "", 
     "Date": "2021-08-03"
@@ -560,7 +560,7 @@
     "Title": "Subsets", 
     "Url": "https://leetcode.com/problems/subsets", 
     "Tags": [
-        "Backtracking"
+        "Backtracking", "**BASIC"
     ], 
     "Memo": "", 
     "Date": "2021-04-30"
@@ -1049,7 +1049,7 @@
     "Title": "Palindrome Partitioning", 
     "Url": "https://leetcode.com/problems/palindrome-partitioning", 
     "Tags": [
-        "Palindrome"
+        "Palindrome", "Memoization", "Substring"
     ], 
     "Memo": "", 
     "Date": "2021-08-22"
@@ -1205,7 +1205,7 @@
         "Binary-Search"
     ], 
     "Memo": "", 
-    "Date": "2021-11-06"
+    "Date": "2022-01-24"
 },
 {
     "Number": "0155", 
@@ -2519,10 +2519,11 @@
     "Title": "Find K Closest Elements", 
     "Url": "https://leetcode.com/problems/find-k-closest-elements", 
     "Tags": [
-        "Binary-Search", "Sorting"
+        "Binary-Search", 
+        "Sorting"
     ], 
     "Memo": "(1)自訂搜索 (2)使用BinarySearch再背向雙指針，也練習使用bisect.bisect_left()函數。", 
-    "Date": "2021-12-15"
+    "Date": "2022-01-24"
 },
 {
     "Number": "0662", 
@@ -2675,10 +2676,11 @@
     "Title": "Binary Search", 
     "Url": "https://leetcode.com/problems/binary-search", 
     "Tags": [
-        "Binary-Search", "**BASIC"
+        "Binary-Search", 
+        "**BASIC"
     ], 
     "Memo": "可以用三元條件，中間找到就跳離，也可以用二元條件，直到搜索範圍為空。", 
-    "Date": "2021-11-13"
+    "Date": "2022-01-24"
 },
 {
     "Number": "0705", 
@@ -2944,8 +2946,12 @@
     "Level": 2, 
     "Title": "Fruit Into Baskets", 
     "Url": "https://leetcode.com/problems/fruit-into-baskets", 
-    "Tags": ["Sliding-Window", "Two-Pointer"], 
-    "Memo": "和0159一模一樣，就是找最長Subarray裡面不包含超過兩個以上的元素。"
+    "Tags": [
+        "Sliding-Window", 
+        "Two-Pointer"
+    ], 
+    "Memo": "和0159一模一樣，就是找最長Subarray裡面不包含超過兩個以上的元素。", 
+    "Date": "2022-01-23"
 },
 {
     "Number": "0905", 
