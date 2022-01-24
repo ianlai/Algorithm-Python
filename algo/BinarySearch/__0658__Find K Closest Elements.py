@@ -1,8 +1,81 @@
 class Solution:
+    
+    # 2022/01/24 
+    # Binary Search (bisect_left) + 背向雙指針 [O(logn + klogk): 66%]
+    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+        print("Code6")
+        targetIdx = bisect.bisect_left(arr, x)
+        left, right = targetIdx - 1, targetIdx
+        res = []
+        for _ in range(k):
+            if left < 0:
+                res.append(arr[right])
+                right += 1
+                continue
+            if right >= len(arr):
+                res.append(arr[left])
+                left -= 1
+                continue
+                
+            if abs(arr[left] - x) <= abs(arr[right] - x):
+                res.append(arr[left])
+                left -= 1
+            else:
+                res.append(arr[right])
+                right += 1
+        return sorted(res)
+     
+    # ==========================================
+
+    # 2022/01/24 
+    # Binary Search + 背向雙指針 [O(logn + klogk): 二元 21% -> 三元 70%]
+    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+        print("Code5")
+        start, end = 0, len(arr)
+        while start < end:
+            mid = start + (end - start) // 2
+            if x == arr[mid]:
+                start = mid 
+                break
+            elif x < arr[mid]:
+                end = mid
+            else:
+                start = mid + 1
+                
+        left, right = start - 1, start
+        res = []
+        for _ in range(k):
+            if left < 0:
+                res.append(arr[right])
+                right += 1
+                continue
+            if right >= len(arr):
+                res.append(arr[left])
+                left -= 1
+                continue
+                
+            if abs(arr[left] - x) <= abs(arr[right] - x):
+                res.append(arr[left])
+                left -= 1
+            else:
+                res.append(arr[right])
+                right += 1
+        return sorted(res)
+    
+    # ==========================================
+
+    # 2022/01/24 
+    # Sorted by (1) distance then (2) index [O(nlogn + klogk): 5%]
+    def findClosestElements4(self, arr: List[int], k: int, x: int) -> List[int]:
+        print("Code4")
+        sortedArr = sorted(arr, key = lambda num: abs(x - num))
+        return sorted(sortedArr[:k])
+    
+    # ==========================================
 
     # 2021/12/15 
-    # Binary Search [O(logn + k): 41%]
-    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+    # Binary Search + 背向雙指針 [O(logn + klogk): 41%]
+    def findClosestElements3(self, arr: List[int], k: int, x: int) -> List[int]:
         print("Code3")
         start, end = 0, len(arr)
         while start < end:
@@ -98,6 +171,8 @@ class Solution:
         return idx
 
     # ==========================================
+    
+    # 2021/05/11
     # Binary Search [O(logn + klogk), 35%]
     def findClosestElements1(self, arr: List[int], k: int, x: int) -> List[int]:
         print("Code1")
@@ -136,3 +211,5 @@ class Solution:
             return arr[start], start - 1, end
         else:
             return arr[end], start, end + 1
+            
+        

@@ -2519,9 +2519,9 @@
     "Title": "Find K Closest Elements", 
     "Url": "https://leetcode.com/problems/find-k-closest-elements", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", "Sorting"
     ], 
-    "Memo": "", 
+    "Memo": "(1)自訂搜索 (2)使用BinarySearch再背向雙指針，也練習使用bisect.bisect_left()函數。", 
     "Date": "2021-12-15"
 },
 {
@@ -2675,9 +2675,9 @@
     "Title": "Binary Search", 
     "Url": "https://leetcode.com/problems/binary-search", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", "**BASIC"
     ], 
-    "Memo": "", 
+    "Memo": "可以用三元條件，中間找到就跳離，也可以用二元條件，直到搜索範圍為空。", 
     "Date": "2021-11-13"
 },
 {

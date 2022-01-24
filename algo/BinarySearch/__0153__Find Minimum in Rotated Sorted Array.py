@@ -1,5 +1,5 @@
 class Solution:
-    
+    # 2021/11/06
     # Close-open interval
     def findMin(self, nums: List[int]) -> int:
         print("Version-3")
@@ -10,13 +10,14 @@ class Solution:
         target = nums[-1]
         while start < end:
             mid = start + (end - start) // 2
-            if nums[mid] <= target:
+            if target >= nums[mid]:
                 end = mid
             else:
                 start = mid + 1
         return nums[start]
     
     # =========================================
+    # 2021/07/15
     # Close-close interval (Jiuzhang)
     def findMin2(self, nums: List[int]) -> int:
         print("Version-2")
@@ -35,6 +36,7 @@ class Solution:
         return min(nums[start], nums[end]) #no special case judgement
     
     # =========================================
+    # 2021/05/10
     # Binary Search [O(logn), 96%]
     def findMin1(self, nums: List[int]) -> int:
         if not nums:
