@@ -1,4 +1,5 @@
 class Solution:
+    
     # 2021/12/05
     # Quick Select [Avg case O(n) -- Worst case O(n2): 99% / 15%]
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -13,9 +14,9 @@ class Solution:
         countList = list(numToCount.values())
     
         # Find (len-k)-th from small; k-th from largest
-        print(k, "-th max", numToCount, countList)
+        print(numToCount, countList)
         targetCount = self.findKth(countList, len(countList) - k)
-        print(k, "-th max:", targetCount)
+        print(k, "-th max val:", targetCount)
         
         # Generate the results
         results = []
@@ -41,18 +42,19 @@ class Solution:
                 arr[left], arr[right] = arr[right], arr[left]
                 left += 1
                 right -= 1
-        #print("  L-R:", left, right)     
+        print("start, end:", start, end, arr, "  L-R:", left, right)     
         if k <= right:
             return self.partition(arr, k, start, right)
         if k >= left:
             return self.partition(arr, k, left, end)
+
         #print("  arr[k]:", k)
-        return arr[k]
+        return arr[k] # ..., right, k, left, ...
     
     # ============================================
     
     # 2021/12/05
-    # MinHeap [O(k + (n-k)logk): 76%]
+    # Min-Heap [O(k + (n-k)logk): 76%]
     def topKFrequent6(self, nums: List[int], k: int) -> List[int]:
         print("Code6: K-size Min Heap")
         if not nums:
@@ -63,15 +65,13 @@ class Solution:
         for e in nums:
             numToCount[e] += 1 
         
-        minhp = []
+        minhp = []      
         numToCountArr = list(numToCount.items())
-        
-        for i, v in enumerate(numToCountArr):
-            if i == k:
-                break
-            num, count = v[0], v[1]
+        #Iterate 0 ~ k-1
+        for i in range(k):
+            num, count = numToCountArr[i][0], numToCountArr[i][1]
             heapq.heappush(minhp, (count, num))
-        
+        #Iterate from k
         for i, v in enumerate(numToCountArr[k:]):
             num, count = v[0], v[1]
             minVal = minhp[0][0]
@@ -121,14 +121,17 @@ class Solution:
         numToCount = collections.defaultdict(int)
         for e in nums:
             numToCount[e] += 1
-                
+        
+        ### Clear
         #Store to tuples into list to sort
         countToNum = [(v, k) for k, v in numToCount.items()]
 
         #Sort the list in descending 
-        countToNum.sort(reverse=True)
-        
+        countToNum.sort(reverse=True)    
         return [n[1] for n in countToNum[:k]]
+    
+        ### Shorter 
+        return [t[0] for t in sorted(numToCount.items(), key = lambda x: -x[1])][:k]
     
     # ============================================
     # 2021/06/25 
