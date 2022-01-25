@@ -2603,6 +2603,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "2008", 
+    "Level": 2, 
+    "Title": "Maximum Earnings From Taxi", 
+    "Url": "https://leetcode.com/problems/maximum-earnings-from-taxi", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "2093", 
     "Level": 2, 
     "Title": "Minimum Cost to Reach City With Discounts", 

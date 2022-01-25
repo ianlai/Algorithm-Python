@@ -3703,6 +3703,15 @@
     "Date": "2021-10-06"
 },
 {
+    "Number": "2008", 
+    "Level": 2, 
+    "Title": "Maximum Earnings From Taxi", 
+    "Url": "https://leetcode.com/problems/maximum-earnings-from-taxi", 
+    "Tags": ["DP"], 
+    "Memo": "先做出Map存入某點可以跳到哪些點，之後就雙迴圈取最大值填表。",
+    "Date": "2022-01-25"
+},
+{
     "Number": "2093", 
     "Level": 2, 
     "Title": "Minimum Cost to Reach City With Discounts", 

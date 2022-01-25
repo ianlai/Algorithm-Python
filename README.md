@@ -130,7 +130,8 @@ algo
 │   ├── __1289__Minimum Falling Path Sum II.py
 │   ├── __1395__Count Number of Teams.py
 │   ├── __1774__Closest Dessert Cost.py
-│   └── __1937__Maximum Number of Points with Cost.py
+│   ├── __1937__Maximum Number of Points with Cost.py
+│   └── __2008__Maximum Earnings From Taxi.py
 ├── DataStructure
 │   ├── __0146__LRU Cache.py
 │   ├── __0380__Insert Delete GetRandom O(1).py
@@ -350,7 +351,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 323 files
+26 directories, 324 files
 
 =====================================
 ============= Local Repo ============
@@ -665,9 +666,10 @@ __1774__Closest Dessert Cost.py
 __1804__Implement Trie II (Prefix Tree).py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
+__2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  311
+Num of Python Practice:  312
 
 
 =====================================
@@ -983,13 +985,14 @@ Num of Python Practice:  311
  1804 Implement Trie II (Prefix Tree)
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
+ 2008 Maximum Earnings From Taxi
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  225 / 1148
+Solved / Total (Medium):  226 / 1148
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  311 / 2151
-Total Score            :  849
+Solved / Total (All)   :  312 / 2151
+Total Score            :  852
 =====================================
 
 ```
