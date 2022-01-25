@@ -2323,7 +2323,10 @@
     "Level": 2, 
     "Title": "Longest Palindromic Subsequence", 
     "Url": "https://leetcode.com/problems/longest-palindromic-subsequence", 
-    "Tags": ["DP", "Memoization"], 
+    "Tags": [
+        "DP", 
+        "Memoization"
+    ], 
     "Memo": "往下找子字串，兩邊相同就兩邊都往內縮，否則就單邊往內，但兩邊都要考慮。", 
     "Date": "2022-01-25"
 },
@@ -3641,6 +3644,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-06-16"
+},
+{
+    "Number": "1696", 
+    "Level": 2, 
+    "Title": "Jump Game VI", 
+    "Url": "https://leetcode.com/problems/jump-game-vi", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1711", 

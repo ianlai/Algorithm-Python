@@ -130,6 +130,7 @@ algo
 │   ├── __1277__Count Square Submatrices with All Ones.py
 │   ├── __1289__Minimum Falling Path Sum II.py
 │   ├── __1395__Count Number of Teams.py
+│   ├── __1696__Jump Game VI.py
 │   ├── __1774__Closest Dessert Cost.py
 │   ├── __1937__Maximum Number of Points with Cost.py
 │   └── __2008__Maximum Earnings From Taxi.py
@@ -352,7 +353,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 325 files
+26 directories, 326 files
 
 =====================================
 ============= Local Repo ============
@@ -662,6 +663,7 @@ __1475__Final Prices With a Special Discount in a Shop.py
 __1525__Number of Good Ways to Split a String.py
 __1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
+__1696__Jump Game VI.py
 __1711__Count Good Meals.py
 __1762__Buildings With an Ocean View.py
 __1774__Closest Dessert Cost.py
@@ -671,7 +673,7 @@ __1937__Maximum Number of Points with Cost.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  313
+Num of Python Practice:  314
 
 
 =====================================
@@ -982,6 +984,7 @@ Num of Python Practice:  313
  1525 Number of Good Ways to Split a String
  1557 Minimum Number of Vertices to Reach All Nodes
  1593 Split a String Into the Max Number of Unique Substrings
+ 1696 Jump Game VI
  1711 Count Good Meals
  1762 Buildings With an Ocean View
  1774 Closest Dessert Cost
@@ -992,10 +995,10 @@ Num of Python Practice:  313
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  227 / 1148
+Solved / Total (Medium):  228 / 1148
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  313 / 2151
-Total Score            :  855
+Solved / Total (All)   :  314 / 2151
+Total Score            :  858
 =====================================
 
 ```

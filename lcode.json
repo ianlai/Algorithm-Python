@@ -2563,6 +2563,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1696", 
+    "Level": 2, 
+    "Title": "Jump Game VI", 
+    "Url": "https://leetcode.com/problems/jump-game-vi", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1711", 
     "Level": 2, 
     "Title": "Count Good Meals", 
