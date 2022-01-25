@@ -95,7 +95,7 @@
         "Two-Pointer"
     ], 
     "Memo": "", 
-    "Date": "2021-10-15"
+    "Date": "2022-01-25"
 },
 {
     "Number": "0014", 
@@ -284,7 +284,8 @@
     "Title": "Combination Sum", 
     "Url": "https://leetcode.com/problems/combination-sum", 
     "Tags": [
-        "Backtracking", "**BASIC"
+        "Backtracking", 
+        "**BASIC"
     ], 
     "Memo": "不重複的元素可被無限重複使用。", 
     "Date": "2021-08-03"
@@ -333,7 +334,8 @@
     "Title": "Permutations", 
     "Url": "https://leetcode.com/problems/permutations", 
     "Tags": [
-        "Backtracking", "**BASIC"
+        "Backtracking", 
+        "**BASIC"
     ], 
     "Memo": "", 
     "Date": "2021-04-30"
@@ -549,10 +551,11 @@
     "Title": "Combinations", 
     "Url": "https://leetcode.com/problems/combinations", 
     "Tags": [
-        "Backtracking", "**BASIC"
+        "Backtracking", 
+        "**BASIC"
     ], 
     "Memo": "", 
-    "Date": "2021-08-03"
+    "Date": "2022-01-24"
 },
 {
     "Number": "0078", 
@@ -560,10 +563,11 @@
     "Title": "Subsets", 
     "Url": "https://leetcode.com/problems/subsets", 
     "Tags": [
-        "Backtracking", "**BASIC"
+        "Backtracking", 
+        "**BASIC"
     ], 
     "Memo": "", 
-    "Date": "2021-04-30"
+    "Date": "2022-01-24"
 },
 {
     "Number": "0079", 
@@ -1049,10 +1053,14 @@
     "Title": "Palindrome Partitioning", 
     "Url": "https://leetcode.com/problems/palindrome-partitioning", 
     "Tags": [
-        "Palindrome", "Memoization", "Substring"
+        "Palindrome", 
+        "Memoization", 
+        "DP", 
+        "Substring", 
+        "**GOOD"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-22"
+    "Memo": "基本概念是(1)列舉所有切割(2)判斷一塊是否是Palindrome，是的話加入cur，所以cur內的是已經切割好並且都是Palindrome的Substring(3)剩下部分繼續Substring切割判斷，直到如果整段都是Palindrome的話，就加入res。優化1:Palindrome可以一行判斷。Palindrome可以相向或背向雙指針，但相向的話不用判斷邊界，比較容易，而且可以Substring愈做愈小。優化2:使用DP來做表，存入[i][j]是否為Palindrome。", 
+    "Date": "2022-01-25"
 },
 {
     "Number": "0133", 
@@ -1908,10 +1916,11 @@
         "Top-K", 
         "Heap", 
         "QuickSelct", 
-        "Sorting"
+        "Sorting", 
+        "**BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2021-12-05"
+    "Memo": "(1)Sorting->O(nlogn) \\n (2)MaxHeap->O(n+klogn) (3)MinHeap->O(k+(n-k)logk) (4)QuickSelect->Avg:O(n) Worst:O(n2)", 
+    "Date": "2022-01-25"
 },
 {
     "Number": "0350", 

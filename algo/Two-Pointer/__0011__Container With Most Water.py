@@ -1,7 +1,25 @@
 class Solution:
     
-    # Two-pointer [O(n): 73%]
+    # 2022/01/25 
+    # Two-Pointer 
     def maxArea(self, height: List[int]) -> int:
+        print("Code-3")
+        left, right = 0, len(height) - 1
+        res = 0
+        while left < right:
+            area = min(height[left], height[right]) * (right - left)
+            res = max(res, area)
+            if height[left] <= height[right]:
+                left += 1
+            else:
+                right -= 1
+        return res
+    
+    # ===========================================
+
+    # 2021/10/15
+    # Two-pointer [O(n): 73%]
+    def maxArea2(self, height: List[int]) -> int:
         print("Code-2")
         l, r = 0, len(height) - 1
         area = 0
@@ -20,6 +38,7 @@ class Solution:
 
     # ===========================================
     
+    # 2021/05/21
     # Two-pointer [O(n), 78%]
     def maxArea1(self, height: List[int]) -> int:
         print("Code-1")
