@@ -2319,6 +2319,15 @@
     "Date": "2021-06-23"
 },
 {
+    "Number": "0516", 
+    "Level": 2, 
+    "Title": "Longest Palindromic Subsequence", 
+    "Url": "https://leetcode.com/problems/longest-palindromic-subsequence", 
+    "Tags": ["DP", "Memoization"], 
+    "Memo": "往下找子字串，兩邊相同就兩邊都往內縮，否則就單邊往內，但兩邊都要考慮。", 
+    "Date": "2022-01-25"
+},
+{
     "Number": "0518", 
     "Level": 2, 
     "Title": "Coin Change 2", 

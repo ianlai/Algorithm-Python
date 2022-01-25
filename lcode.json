@@ -1630,6 +1630,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0516", 
+    "Level": 2, 
+    "Title": "Longest Palindromic Subsequence", 
+    "Url": "https://leetcode.com/problems/longest-palindromic-subsequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0518", 
     "Level": 2, 
     "Title": "Coin Change 2", 

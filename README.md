@@ -112,6 +112,7 @@ algo
 │   ├── __0416__Partition Equal Subset Sum.py
 │   ├── __0474__Ones and Zeroes.py
 │   ├── __0494__Target Sum.py
+│   ├── __0516__Longest Palindromic Subsequence.py
 │   ├── __0518__Coin Change 2.py
 │   ├── __0542__01 Matrix.py
 │   ├── __0576__Out of Boundary Paths.py
@@ -351,7 +352,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 324 files
+26 directories, 325 files
 
 =====================================
 ============= Local Repo ============
@@ -551,6 +552,7 @@ __0505__The Maze II.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
+__0516__Longest Palindromic Subsequence.py
 __0518__Coin Change 2.py
 __0523__Continuous Subarray Sum.py
 __0528__Random Pick with Weight.py
@@ -669,7 +671,7 @@ __1937__Maximum Number of Points with Cost.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  312
+Num of Python Practice:  313
 
 
 =====================================
@@ -870,6 +872,7 @@ Num of Python Practice:  312
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
+ 0516 Longest Palindromic Subsequence
  0518 Coin Change 2
  0523 Continuous Subarray Sum
  0528 Random Pick with Weight
@@ -989,10 +992,10 @@ Num of Python Practice:  312
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  226 / 1148
+Solved / Total (Medium):  227 / 1148
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  312 / 2151
-Total Score            :  852
+Solved / Total (All)   :  313 / 2151
+Total Score            :  855
 =====================================
 
 ```
