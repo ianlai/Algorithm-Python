@@ -1839,7 +1839,8 @@
     "Title": "Coin Change", 
     "Url": "https://leetcode.com/problems/coin-change", 
     "Tags": [
-        "DP"
+        "DP", 
+        "DP背包"
     ], 
     "Memo": "", 
     "Date": "2021-10-04"
@@ -2069,7 +2070,8 @@
     "Title": "Partition Equal Subset Sum", 
     "Url": "https://leetcode.com/problems/partition-equal-subset-sum", 
     "Tags": [
-        "DP"
+        "DP", 
+        "DP背包"
     ], 
     "Memo": "", 
     "Date": "2021-10-04"
@@ -2188,7 +2190,9 @@
     "Title": "Ones and Zeroes", 
     "Url": "https://leetcode.com/problems/ones-and-zeroes", 
     "Tags": [
-        "Memoization"
+        "DP", 
+        "Memoization", 
+        "DP背包"
     ], 
     "Memo": "", 
     "Date": "2021-08-22"
@@ -2210,7 +2214,8 @@
     "Title": "Target Sum", 
     "Url": "https://leetcode.com/problems/target-sum", 
     "Tags": [
-        "DP"
+        "DP", 
+        "DP背包"
     ], 
     "Memo": "", 
     "Date": "2021-08-12"
@@ -2319,7 +2324,8 @@
     "Title": "Coin Change 2", 
     "Url": "https://leetcode.com/problems/coin-change-2", 
     "Tags": [
-        "DP"
+        "DP", 
+        "DP背包"
     ], 
     "Memo": "", 
     "Date": "2021-08-17"
@@ -2473,10 +2479,11 @@
     "Title": "Out of Boundary Paths", 
     "Url": "https://leetcode.com/problems/out-of-boundary-paths", 
     "Tags": [
-        "DP"
+        "DP", 
+        "Memoization"
     ], 
     "Memo": "", 
-    "Date": "2021-06-11"
+    "Date": "2022-01-25"
 },
 {
     "Number": "0593", 
@@ -3707,8 +3714,10 @@
     "Level": 2, 
     "Title": "Maximum Earnings From Taxi", 
     "Url": "https://leetcode.com/problems/maximum-earnings-from-taxi", 
-    "Tags": ["DP"], 
-    "Memo": "先做出Map存入某點可以跳到哪些點，之後就雙迴圈取最大值填表。",
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": "先做出Map存入某點可以跳到哪些點，之後就雙迴圈取最大值填表。", 
     "Date": "2022-01-25"
 },
 {

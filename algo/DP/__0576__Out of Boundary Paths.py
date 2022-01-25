@@ -1,5 +1,33 @@
+MOD = 10 ** 9 + 7
 class Solution:
+    
+    # 2022/01/25
+    # Memoization DP [O(mnM): 71%]
     def findPaths(self, m: int, n: int, maxMove: int, startRow: int, startColumn: int) -> int:
+        print("Code2")
+        def dfs(m, n, row, col, leftMove, memo):
+            if not (0 <= row < m and 0 <= col < n):
+                return 1
+            if leftMove == 0:
+                return 0
+            if (row, col, leftMove) in memo:
+                return memo[(row, col, leftMove)]
+            
+            count = 0 
+            for n_row, n_col in ((row + 1, col), (row - 1, col), (row, col + 1), (row, col - 1)):
+                count += dfs(m, n, n_row, n_col, leftMove - 1, memo)
+            memo[(row, col, leftMove)] = count % MOD
+            return memo[(row, col, leftMove)] 
+        
+        memo = {}
+        return dfs(m, n, startRow, startColumn, maxMove, memo)
+    
+    # ===================================================
+    
+    # 2021/06/25 
+    # Memoization DP 
+    def findPaths1(self, m: int, n: int, maxMove: int, startRow: int, startColumn: int) -> int:
+        print("Code1")
         if m <= 0 or n <= 0:
             return 0
         memo = {}
