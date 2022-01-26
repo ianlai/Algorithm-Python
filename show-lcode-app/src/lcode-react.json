@@ -1199,10 +1199,10 @@
     "Url": "https://leetcode.com/problems/maximum-product-subarray", 
     "Tags": [
         "Two-Pointer", 
-        "**CHECK"
+        "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-07"
+    "Memo": "雖然是Subarray，好像可以用SlidingWindow。但因為是Subarray Product，前後有關聯的，所以自然可以找subproblem，因此用DP就很自然。", 
+    "Date": "2022-01-26"
 },
 {
     "Number": "0153", 
