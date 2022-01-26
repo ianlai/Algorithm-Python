@@ -165,7 +165,8 @@ algo
 │   ├── __0290__Word Pattern.py
 │   ├── __0535__Encode and Decode TinyURL.py
 │   ├── __0705__Design HashSet.py
-│   └── __1525__Number of Good Ways to Split a String.py
+│   ├── __1525__Number of Good Ways to Split a String.py
+│   └── __2007__Find Original Array From Doubled Array.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
@@ -353,7 +354,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 326 files
+26 directories, 327 files
 
 =====================================
 ============= Local Repo ============
@@ -670,10 +671,11 @@ __1774__Closest Dessert Cost.py
 __1804__Implement Trie II (Prefix Tree).py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
+__2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  314
+Num of Python Practice:  315
 
 
 =====================================
@@ -991,14 +993,15 @@ Num of Python Practice:  314
  1804 Implement Trie II (Prefix Tree)
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
+ 2007 Find Original Array From Doubled Array
  2008 Maximum Earnings From Taxi
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  228 / 1148
+Solved / Total (Medium):  229 / 1148
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  314 / 2151
-Total Score            :  858
+Solved / Total (All)   :  315 / 2151
+Total Score            :  861
 =====================================
 
 ```
