@@ -118,8 +118,8 @@
         "Two-Sum", 
         "Redundant-Removal"
     ], 
-    "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。", 
-    "Date": "2021-10-13"
+    "Memo": "要注意重複的點，必須要去重。去重的時間點(1)一開始：這是不行的，因為可能我們的解答就是需要重複的元素例如[-1,-1,2] (2)在最後的res去重：可以，但是這樣會比較慢，代表做了很多重複的答案才去掉。 (3)中間挑選的時候就去重：這是最好的作法，會最快。", 
+    "Date": "2022-01-26"
 },
 {
     "Number": "0016", 
@@ -1199,7 +1199,7 @@
     "Url": "https://leetcode.com/problems/maximum-product-subarray", 
     "Tags": [
         "Two-Pointer", 
-        "**SLOW"
+        "**CHECK"
     ], 
     "Memo": "", 
     "Date": "2021-06-07"
@@ -3651,7 +3651,8 @@
     "Title": "Jump Game VI", 
     "Url": "https://leetcode.com/problems/jump-game-vi", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-01-25"
 },
 {
     "Number": "1711", 
