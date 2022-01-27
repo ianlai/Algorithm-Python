@@ -3735,8 +3735,13 @@
     "Level": 2, 
     "Title": "Find Original Array From Doubled Array", 
     "Url": "https://leetcode.com/problems/find-original-array-from-doubled-array", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "HashMap", 
+        "**Test", 
+        "##Google"
+    ], 
+    "Memo": "先Sorting就不用兩邊測。這題寫了UnitTest。", 
+    "Date": "2022-01-27"
 },
 {
     "Number": "2008", 

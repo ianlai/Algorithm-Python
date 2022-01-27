@@ -998,9 +998,9 @@ Num of Python Practice:  315
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  229 / 1148
+Solved / Total (Medium):  229 / 1149
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  315 / 2151
+Solved / Total (All)   :  315 / 2152
 Total Score            :  861
 =====================================
 

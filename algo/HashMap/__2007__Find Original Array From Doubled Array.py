@@ -1,3 +1,6 @@
+from typing import List
+import collections
+import unittest
 class Solution:
     
     # Count Map + Sorting [O(n + klogk): 54%]  (數字數:n ; 不同數個數:k)
@@ -24,7 +27,29 @@ class Solution:
                     changedCount[v * 2] -= count
                     original.extend([v] * count)
         return original
+
+class UnitTest(unittest.TestCase):
+    def test_empty(self):
+        self.assertEqual(Solution().findOriginalArray([]), [])
+
+    def test_invalid_changed1(self):
+        self.assertEqual(Solution().findOriginalArray([2,4,3,1]), [])
     
+    def test_invalid_changed2(self):
+        self.assertEqual(Solution().findOriginalArray([0,16,8,2,0,0,4,16,0,8,8]), [])
+
+    def test_valid_changed1(self):
+        self.assertEqual(Solution().findOriginalArray([4,2,1,2]), [1,2])
+
+    def test_valid_changed2(self):
+        self.assertEqual(Solution().findOriginalArray([0,16,8,2,0,0,4,16,0,8,4,8]), [0,0,2,4,8,8])
+
+
+if __name__ == "__main__":
+    unittest.main()
+    #print(Solution().findOriginalArray([2,4,3,1]))
+    #print(Solution().findOriginalArray([2,4,2,1]))
+
     # ============================================================
         
     # Array [TLE]
