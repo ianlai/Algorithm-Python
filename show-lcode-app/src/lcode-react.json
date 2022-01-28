@@ -2101,6 +2101,18 @@
     "Date": "2021-11-26"
 },
 {
+    "Number": "0435", 
+    "Level": 2, 
+    "Title": "Non-overlapping Intervals", 
+    "Url": "https://leetcode.com/problems/non-overlapping-intervals", 
+    "Tags": [
+        "Interval", 
+        "Greedy"
+    ], 
+    "Memo": "和0253MeetingRoomII有點像，但做法卻不同。在0253是要滿足全部的interval需求，使用Heap。這題卻是要求允許不滿足的最大值，用Greedy盡量使用最早結束的區間就可達成（使用DP也行但會超時）。", 
+    "Date": "2022-01-29"
+},
+{
     "Number": "0437", 
     "Level": 2, 
     "Title": "Path Sum III", 

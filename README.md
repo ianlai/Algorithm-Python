@@ -13,6 +13,7 @@ algo
 │   ├── __0283__Move Zeroes.py
 │   ├── __0350__Intersection of Two Arrays II.py
 │   ├── __0384__Shuffle an Array.py
+│   ├── __0435__Non-overlapping Intervals.py
 │   ├── __0523__Continuous Subarray Sum.py
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
@@ -354,7 +355,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 327 files
+26 directories, 328 files
 
 =====================================
 ============= Local Repo ============
@@ -536,6 +537,7 @@ __0401__Binary Watch.py
 __0416__Partition Equal Subset Sum.py
 __0417__Pacific Atlantic Water Flow.py
 __0423__Reconstruct Original Digits from English.py
+__0435__Non-overlapping Intervals.py
 __0437__Path Sum III.py
 __0438__Find All Anagrams in a String.py
 __0441__Arranging Coins.py
@@ -675,7 +677,7 @@ __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  315
+Num of Python Practice:  316
 
 
 =====================================
@@ -858,6 +860,7 @@ Num of Python Practice:  315
  0416 Partition Equal Subset Sum
  0417 Pacific Atlantic Water Flow
  0423 Reconstruct Original Digits from English
+ 0435 Non-overlapping Intervals
  0437 Path Sum III
  0438 Find All Anagrams in a String
  0441 Arranging Coins
@@ -998,10 +1001,10 @@ Num of Python Practice:  315
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  229 / 1149
+Solved / Total (Medium):  230 / 1149
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  315 / 2152
-Total Score            :  861
+Solved / Total (All)   :  316 / 2152
+Total Score            :  864
 =====================================
 
 ```

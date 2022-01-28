@@ -1486,6 +1486,14 @@ lcode_data = `
     "Memo": "仔細攤開來看，有五個英文字是指對應到單一數字，可以發現順序是決定的，所以不需要使用Backtracking(是唯一的答案）。"
 },
 {
+    "Number": "0435", 
+    "Level": 2, 
+    "Title": "Non-overlapping Intervals", 
+    "Url": "https://leetcode.com/problems/non-overlapping-intervals", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0437", 
     "Level": 2, 
     "Title": "Path Sum III", 
