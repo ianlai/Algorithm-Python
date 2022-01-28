@@ -878,6 +878,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0161", 
+    "Level": 2, 
+    "Title": "One Edit Distance", 
+    "Url": "https://leetcode.com/problems/one-edit-distance", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0162", 
     "Level": 2, 
     "Title": "Find Peak Element", 
@@ -1107,6 +1115,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Valid Anagram", 
     "Url": "https://leetcode.com/problems/valid-anagram", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0249", 
+    "Level": 2, 
+    "Title": "Group Shifted Strings", 
+    "Url": "https://leetcode.com/problems/group-shifted-strings", 
     "Tags": [], 
     "Memo": ""
 },

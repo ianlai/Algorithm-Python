@@ -369,10 +369,10 @@
     "Title": "Group Anagrams", 
     "Url": "https://leetcode.com/problems/group-anagrams", 
     "Tags": [
-        "Sorting"
+        "Sorting", "String"
     ], 
     "Memo": "", 
-    "Date": "2021-04-20"
+    "Date": "2022-01-29"
 },
 {
     "Number": "0050", 
@@ -1250,6 +1250,17 @@
     "Date": "2021-06-30"
 },
 {
+    "Number": "0161", 
+    "Level": 2, 
+    "Title": "One Edit Distance", 
+    "Url": "https://leetcode.com/problems/one-edit-distance", 
+    "Tags": [
+        "String"
+    ], 
+    "Memo": "分成(1)add/remove以及(2)edit兩種狀況，找出相異點剩下來的就比較是否一樣。", 
+    "Date": "2022-01-29"
+},
+{
     "Number": "0162", 
     "Level": 2, 
     "Title": "Find Peak Element", 
@@ -1570,6 +1581,15 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-04-20"
+},
+{
+    "Number": "0249", 
+    "Level": 2, 
+    "Title": "Group Shifted Strings", 
+    "Url": "https://leetcode.com/problems/group-shifted-strings", 
+    "Tags": ["String"], 
+    "Memo": "計算到'a'的距離，把string改成'a'開頭來當key。", 
+    "Date": "2022-01-29"
 },
 {
     "Number": "0252", 

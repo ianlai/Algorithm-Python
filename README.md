@@ -162,6 +162,7 @@ algo
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
+│   ├── __0249__Group Shifted Strings.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
 │   ├── __0535__Encode and Decode TinyURL.py
@@ -240,6 +241,7 @@ algo
 │   ├── __0009__Palindrome Number.py
 │   ├── __0014__Longest Common Prefix.py
 │   ├── __0151__Reverse Words in a String.py
+│   ├── __0161__One Edit Distance.py
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
 │   ├── __0767__Reorganize String.py
@@ -355,7 +357,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 328 files
+26 directories, 330 files
 
 =====================================
 ============= Local Repo ============
@@ -466,6 +468,7 @@ __0153__Find Minimum in Rotated Sorted Array.py
 __0155__Min Stack.py
 __0159__Longest Substring with At Most Two Distinct Characters.py
 __0160__Intersection of Two Linked Lists.py
+__0161__One Edit Distance.py
 __0162__Find Peak Element.py
 __0167__Two Sum II - Input array is sorted.py
 __0173__Binary Search Tree Iterator.py
@@ -493,6 +496,7 @@ __0239__Sliding Window Maximum.py
 __0240__Search a 2D Matrix II.py
 __0241__Different Ways to Add Parentheses.py
 __0242__Valid Anagram.py
+__0249__Group Shifted Strings.py
 __0252__Meeting Rooms.py
 __0253__Meeting Rooms II.py
 __0257__Binary Tree Paths.py
@@ -677,7 +681,7 @@ __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  316
+Num of Python Practice:  318
 
 
 =====================================
@@ -789,6 +793,7 @@ Num of Python Practice:  316
  0155 Min Stack
  0159 Longest Substring with At Most Two Distinct Characters
  0160 Intersection of Two Linked Lists
+ 0161 One Edit Distance
  0162 Find Peak Element
  0167 Two Sum II - Input Array Is Sorted
  0173 Binary Search Tree Iterator
@@ -816,6 +821,7 @@ Num of Python Practice:  316
  0240 Search a 2D Matrix II
  0241 Different Ways to Add Parentheses
  0242 Valid Anagram
+ 0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
  0257 Binary Tree Paths
@@ -1001,10 +1007,10 @@ Num of Python Practice:  316
  2093 Minimum Cost to Reach City With Discounts
 =====================================
 Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  230 / 1149
+Solved / Total (Medium):  232 / 1149
 Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  316 / 2152
-Total Score            :  864
+Solved / Total (All)   :  318 / 2152
+Total Score            :  870
 =====================================
 
 ```
