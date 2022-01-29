@@ -216,6 +216,7 @@ algo
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
+│   ├── __0085__Maximal Rectangle.py
 │   ├── __0456__132 Pattern.py
 │   ├── __0496__Next Greater Element I.py
 │   ├── __0503__Next Greater Element II.py
@@ -357,7 +358,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 330 files
+26 directories, 331 files
 
 =====================================
 ============= Local Repo ============
@@ -416,6 +417,7 @@ __0080__Remove Duplicates from Sorted Array II.py
 __0081__Search in Rotated Sorted Array II.py
 __0083__Remove Duplicates from Sorted List.py
 __0084__Largest Rectangle in Histogram.py
+__0085__Maximal Rectangle.py
 __0086__Partition List.py
 __0088__Merge Sorted Array.py
 __0089__Gray Code.py
@@ -681,7 +683,7 @@ __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  318
+Num of Python Practice:  319
 
 
 =====================================
@@ -741,6 +743,7 @@ Num of Python Practice:  318
  0081 Search in Rotated Sorted Array II
  0083 Remove Duplicates from Sorted List
  0084 Largest Rectangle in Histogram
+ 0085 Maximal Rectangle
  0086 Partition List
  0088 Merge Sorted Array
  0089 Gray Code
@@ -1008,9 +1011,9 @@ Num of Python Practice:  318
 =====================================
 Solved / Total (Easy)  :   64 /  543
 Solved / Total (Medium):  232 / 1149
-Solved / Total (Hard)  :   22 /  460
-Solved / Total (All)   :  318 / 2152
-Total Score            :  870
+Solved / Total (Hard)  :   23 /  461
+Solved / Total (All)   :  319 / 2153
+Total Score            :  875
 =====================================
 
 ```

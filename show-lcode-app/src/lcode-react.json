@@ -369,7 +369,8 @@
     "Title": "Group Anagrams", 
     "Url": "https://leetcode.com/problems/group-anagrams", 
     "Tags": [
-        "Sorting", "String"
+        "Sorting", 
+        "String"
     ], 
     "Memo": "", 
     "Date": "2022-01-29"
@@ -627,6 +628,14 @@
     ], 
     "Memo": "D&C遇到特例就會降成O(n2)，必須用Monotonic-Stack才行。方法真的不好想，簡單說就是找到上升點就記入stack，遇到下降點就往回比較找到最大長方形，並且同時取出剛剛存入的值。", 
     "Date": "2022-01-15"
+},
+{
+    "Number": "0085", 
+    "Level": 3, 
+    "Title": "Maximal Rectangle", 
+    "Url": "https://leetcode.com/problems/maximal-rectangle", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0086", 
@@ -1587,7 +1596,9 @@
     "Level": 2, 
     "Title": "Group Shifted Strings", 
     "Url": "https://leetcode.com/problems/group-shifted-strings", 
-    "Tags": ["String"], 
+    "Tags": [
+        "String"
+    ], 
     "Memo": "計算到'a'的距離，把string改成'a'開頭來當key。", 
     "Date": "2022-01-29"
 },

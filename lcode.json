@@ -451,6 +451,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0085", 
+    "Level": 3, 
+    "Title": "Maximal Rectangle", 
+    "Url": "https://leetcode.com/problems/maximal-rectangle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0086", 
     "Level": 2, 
     "Title": "Partition List", 
