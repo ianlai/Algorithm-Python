@@ -60,6 +60,7 @@ algo
 │   ├── __0875_Note
 │   ├── __0875__Koko Eating Bananas.py
 │   ├── __0981__Time Based Key-Value Store.py
+│   ├── __1011__Capacity To Ship Packages Within D Days.py
 │   ├── __1146__Snapshot Array.py
 │   └── __1198__Find Smallest Common Element in All Rows.py
 ├── BitOperation
@@ -165,6 +166,7 @@ algo
 │   ├── __0249__Group Shifted Strings.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
+│   ├── __0349__Intersection of Two Arrays.py
 │   ├── __0535__Encode and Decode TinyURL.py
 │   ├── __0705__Design HashSet.py
 │   ├── __1525__Number of Good Ways to Split a String.py
@@ -358,7 +360,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 331 files
+26 directories, 333 files
 
 =====================================
 ============= Local Repo ============
@@ -528,6 +530,7 @@ __0333__Largest BST Subtree.py
 __0340__Longest Substring with At Most K Distinct Characters.py
 __0341__Flatten Nested List Iterator.py
 __0347__Top K Frequent Elements.py
+__0349__Intersection of Two Arrays.py
 __0350__Intersection of Two Arrays II.py
 __0362__Design Hit Counter.py
 __0366__Find Leaves of Binary Tree.py
@@ -635,6 +638,7 @@ __0981__Time Based Key-Value Store.py
 __0986__Interval List Intersections.py
 __0994__Rotting Oranges.py
 __1008__Construct Binary Search Tree from Preorder Traversal.py
+__1011__Capacity To Ship Packages Within D Days.py
 __1014__Best Sightseeing Pair.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
@@ -683,7 +687,7 @@ __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 =====================================
-Num of Python Practice:  319
+Num of Python Practice:  321
 
 
 =====================================
@@ -854,6 +858,7 @@ Num of Python Practice:  319
  0340 Longest Substring with At Most K Distinct Characters
  0341 Flatten Nested List Iterator
  0347 Top K Frequent Elements
+ 0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
  0362 Design Hit Counter
  0366 Find Leaves of Binary Tree
@@ -961,6 +966,7 @@ Num of Python Practice:  319
  0986 Interval List Intersections
  0994 Rotting Oranges
  1008 Construct Binary Search Tree from Preorder Traversal
+ 1011 Capacity To Ship Packages Within D Days
  1014 Best Sightseeing Pair
  1020 Number of Enclaves
  1025 Divisor Game
@@ -1009,11 +1015,11 @@ Num of Python Practice:  319
  2008 Maximum Earnings From Taxi
  2093 Minimum Cost to Reach City With Discounts
 =====================================
-Solved / Total (Easy)  :   64 /  543
-Solved / Total (Medium):  232 / 1149
+Solved / Total (Easy)  :   65 /  543
+Solved / Total (Medium):  233 / 1149
 Solved / Total (Hard)  :   23 /  461
-Solved / Total (All)   :  319 / 2153
-Total Score            :  875
+Solved / Total (All)   :  321 / 2153
+Total Score            :  879
 =====================================
 
 ```

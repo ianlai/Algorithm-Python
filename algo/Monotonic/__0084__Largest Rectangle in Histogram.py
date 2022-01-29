@@ -1,28 +1,37 @@
 class Solution:
     
-    # Monotonic stack [O(n: 5%)]
+    # Monotonic stack [O(n: 73%)]
     # =============================
     def largestRectangleArea(self, heights: List[int]) -> int:
         print("Code2 - Monotonic Stack")
         mstack = [-1]
         maxArea = 0
+        
+        #ascending monotonic stack
+        #calculate the area when poping out
+        #right wall is the new number 
         for i, v in enumerate(heights):
-            curIdx = 0
+            popIdx = 0
             while mstack[-1] != -1  and heights[mstack[-1]] >= v:
-                curIdx = mstack.pop()
-                area = (i - mstack[-1] - 1) * heights[curIdx]
+                popIdx = mstack.pop()
+                area = (i - mstack[-1] - 1) * heights[popIdx]
                 maxArea = max(maxArea, area)
-                print("(1) ", curIdx - 1, i, heights[curIdx], "->", maxArea)
+                #print("(1) ", i, heights[popIdx], "->", area)
             mstack.append(i)
         
-        #print(mstack)
+        print(mstack)
+        #remaining indices
+        #they haven't been popped out because no smaller number came in 
+        #right wall is the len(arr)
         while mstack[-1] != -1:
-            rightIdx = mstack.pop()
-            rightHeight = heights[rightIdx]
+            popIdx = mstack.pop()
+            popHeight = heights[popIdx]
             leftIdx = mstack[-1]
-            area = (len(heights) - leftIdx - 1) * rightHeight
+            area = (len(heights) - leftIdx - 1) * popHeight
             maxArea = max(maxArea, area)    
+            #print("(2) ", rightIdx, "->", area)
         return maxArea
+    
     # =============================
     # Divide and conquer [O(nlogn: TLE)]
     def largestRectangleArea1(self, heights: List[int]) -> int:

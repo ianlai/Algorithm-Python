@@ -1379,6 +1379,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0349", 
+    "Level": 1, 
+    "Title": "Intersection of Two Arrays", 
+    "Url": "https://leetcode.com/problems/intersection-of-two-arrays", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0350", 
     "Level": 1, 
     "Title": "Intersection of Two Arrays II", 
@@ -2278,6 +2286,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Construct Binary Search Tree from Preorder Traversal", 
     "Url": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1011", 
+    "Level": 2, 
+    "Title": "Capacity To Ship Packages Within D Days", 
+    "Url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days", 
     "Tags": [], 
     "Memo": ""
 },

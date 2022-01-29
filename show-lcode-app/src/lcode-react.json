@@ -624,18 +624,24 @@
     "Tags": [
         "Monotonic-Stack", 
         "D&C", 
+        "0084", 
         "**HARD"
     ], 
     "Memo": "D&C遇到特例就會降成O(n2)，必須用Monotonic-Stack才行。方法真的不好想，簡單說就是找到上升點就記入stack，遇到下降點就往回比較找到最大長方形，並且同時取出剛剛存入的值。", 
-    "Date": "2022-01-15"
+    "Date": "2022-01-29"
 },
 {
     "Number": "0085", 
     "Level": 3, 
     "Title": "Maximal Rectangle", 
     "Url": "https://leetcode.com/problems/maximal-rectangle", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "0084", 
+        "Monotonic-Stack", 
+        "Matrix"
+    ], 
+    "Memo": "需要有0084的解，就可以套用在PrefixSum的matrix上。", 
+    "Date": "2022-01-29"
 },
 {
     "Number": "0086", 
@@ -1459,7 +1465,8 @@
     "Url": "https://leetcode.com/problems/maximal-square", 
     "Tags": [
         "DP", 
-        "Matrix"
+        "Matrix", 
+        "0084"
     ], 
     "Memo": "", 
     "Date": "2021-06-22"
@@ -1953,6 +1960,15 @@
     ], 
     "Memo": "(1)Sorting->O(nlogn) \\n (2)MaxHeap->O(n+klogn) (3)MinHeap->O(k+(n-k)logk) (4)QuickSelect->Avg:O(n) Worst:O(n2)", 
     "Date": "2022-01-25"
+},
+{
+    "Number": "0349", 
+    "Level": 1, 
+    "Title": "Intersection of Two Arrays", 
+    "Url": "https://leetcode.com/problems/intersection-of-two-arrays", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-01-30"
 },
 {
     "Number": "0350", 
@@ -3242,6 +3258,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-12-27"
+},
+{
+    "Number": "1011", 
+    "Level": 2, 
+    "Title": "Capacity To Ship Packages Within D Days", 
+    "Url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-01-30"
 },
 {
     "Number": "1014", 
