@@ -18,7 +18,8 @@ algo
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
 │   ├── __0760__Find Anagram Mappings.py
-│   └── __0986__Interval List Intersections.py
+│   ├── __0986__Interval List Intersections.py
+│   └── __2154__Keep Multiplying Found Values by Two.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
@@ -163,6 +164,7 @@ algo
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
+│   ├── __0187__Repeated DNA Sequences.py
 │   ├── __0249__Group Shifted Strings.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
@@ -341,7 +343,8 @@ algo
 │   ├── __1099__Two Sum Less Than K.py
 │   ├── __1214__Two Sum BSTs.py
 │   ├── __1248__Count Number of Nice Subarrays.py
-│   └── __1711__Count Good Meals.py
+│   ├── __1711__Count Good Meals.py
+│   └── __2155__All Divisions With the Highest Score of a Binary Array.py
 ├── UnionFind
 │   ├── DisjointSet.py
 │   ├── __0128__Longest Consecutive Sequence.py
@@ -360,7 +363,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 333 files
+26 directories, 336 files
 
 =====================================
 ============= Local Repo ============
@@ -476,6 +479,7 @@ __0161__One Edit Distance.py
 __0162__Find Peak Element.py
 __0167__Two Sum II - Input array is sorted.py
 __0173__Binary Search Tree Iterator.py
+__0187__Repeated DNA Sequences.py
 __0189__Rotate Array.py
 __0199__Binary Tree Right Side View.py
 __0200__Number of Islands.py
@@ -686,8 +690,10 @@ __1937__Maximum Number of Points with Cost.py
 __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
+__2154__Keep Multiplying Found Values by Two.py
+__2155__All Divisions With the Highest Score of a Binary Array.py
 =====================================
-Num of Python Practice:  321
+Num of Python Practice:  324
 
 
 =====================================
@@ -804,6 +810,7 @@ Num of Python Practice:  321
  0162 Find Peak Element
  0167 Two Sum II - Input Array Is Sorted
  0173 Binary Search Tree Iterator
+ 0187 Repeated DNA Sequences
  0189 Rotate Array
  0199 Binary Tree Right Side View
  0200 Number of Islands
@@ -1014,12 +1021,14 @@ Num of Python Practice:  321
  2007 Find Original Array From Doubled Array
  2008 Maximum Earnings From Taxi
  2093 Minimum Cost to Reach City With Discounts
+ 2154 Keep Multiplying Found Values by Two
+ 2155 All Divisions With the Highest Score of a Binary Array
 =====================================
-Solved / Total (Easy)  :   65 /  543
-Solved / Total (Medium):  233 / 1149
-Solved / Total (Hard)  :   23 /  461
-Solved / Total (All)   :  321 / 2153
-Total Score            :  879
+Solved / Total (Easy)  :   66 /  544
+Solved / Total (Medium):  235 / 1151
+Solved / Total (Hard)  :   23 /  462
+Solved / Total (All)   :  324 / 2157
+Total Score            :  886
 =====================================
 
 ```

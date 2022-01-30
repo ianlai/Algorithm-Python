@@ -918,6 +918,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0187", 
+    "Level": 2, 
+    "Title": "Repeated DNA Sequences", 
+    "Url": "https://leetcode.com/problems/repeated-dna-sequences", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0189", 
     "Level": 2, 
     "Title": "Rotate Array", 
@@ -2687,6 +2695,22 @@ lcode_data = `
     "Level": 2, 
     "Title": "Minimum Cost to Reach City With Discounts", 
     "Url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2154", 
+    "Level": 1, 
+    "Title": "Keep Multiplying Found Values by Two", 
+    "Url": "https://leetcode.com/problems/keep-multiplying-found-values-by-two", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2155", 
+    "Level": 2, 
+    "Title": "All Divisions With the Highest Score of a Binary Array", 
+    "Url": "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array", 
     "Tags": [], 
     "Memo": ""
 }
