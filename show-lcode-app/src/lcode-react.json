@@ -1314,7 +1314,10 @@
     "Level": 2, 
     "Title": "Repeated DNA Sequences", 
     "Url": "https://leetcode.com/problems/repeated-dna-sequences", 
-    "Tags": ["HashMap", "**CHECK"], 
+    "Tags": [
+        "HashMap", 
+        "**CHECK"
+    ], 
     "Memo": "好像還可以用RollingHash，要看。", 
     "Date": "2022-01-30"
 },
@@ -1606,6 +1609,14 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-04-20"
+},
+{
+    "Number": "0243", 
+    "Level": 1, 
+    "Title": "Shortest Word Distance", 
+    "Url": "https://leetcode.com/problems/shortest-word-distance", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0249", 
@@ -3855,7 +3866,10 @@
     "Level": 1, 
     "Title": "Keep Multiplying Found Values by Two", 
     "Url": "https://leetcode.com/problems/keep-multiplying-found-values-by-two", 
-    "Tags": ["Array", "**CONTEST"], 
+    "Tags": [
+        "Array", 
+        "**CONTEST"
+    ], 
     "Memo": "", 
     "Date": "2022-01-30"
 },
@@ -3864,7 +3878,11 @@
     "Level": 2, 
     "Title": "All Divisions With the Highest Score of a Binary Array", 
     "Url": "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array", 
-    "Tags": ["Two-Pointer", "Sliding-Window", "**CONTEST"], 
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window", 
+        "**CONTEST"
+    ], 
     "Memo": "", 
     "Date": "2022-01-30"
 }

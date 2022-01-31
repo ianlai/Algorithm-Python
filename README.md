@@ -8,6 +8,7 @@ algo
 │   ├── __0122__Best Time to Buy and Sell Stock II.py
 │   ├── __0134__Gas Station.py
 │   ├── __0239__Sliding Window Maximum.py
+│   ├── __0243__Shortest Word Distance.py
 │   ├── __0252__Meeting Rooms.py
 │   ├── __0253__Meeting Rooms II.py
 │   ├── __0283__Move Zeroes.py
@@ -363,7 +364,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 336 files
+26 directories, 337 files
 
 =====================================
 ============= Local Repo ============
@@ -504,6 +505,7 @@ __0239__Sliding Window Maximum.py
 __0240__Search a 2D Matrix II.py
 __0241__Different Ways to Add Parentheses.py
 __0242__Valid Anagram.py
+__0243__Shortest Word Distance.py
 __0249__Group Shifted Strings.py
 __0252__Meeting Rooms.py
 __0253__Meeting Rooms II.py
@@ -693,7 +695,7 @@ __2093__Minimum Cost to Reach City With Discounts.py
 __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 =====================================
-Num of Python Practice:  324
+Num of Python Practice:  325
 
 
 =====================================
@@ -835,6 +837,7 @@ Num of Python Practice:  324
  0240 Search a 2D Matrix II
  0241 Different Ways to Add Parentheses
  0242 Valid Anagram
+ 0243 Shortest Word Distance
  0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
@@ -1024,11 +1027,11 @@ Num of Python Practice:  324
  2154 Keep Multiplying Found Values by Two
  2155 All Divisions With the Highest Score of a Binary Array
 =====================================
-Solved / Total (Easy)  :   66 /  544
+Solved / Total (Easy)  :   67 /  544
 Solved / Total (Medium):  235 / 1151
 Solved / Total (Hard)  :   23 /  462
-Solved / Total (All)   :  324 / 2157
-Total Score            :  886
+Solved / Total (All)   :  325 / 2157
+Total Score            :  887
 =====================================
 
 ```
