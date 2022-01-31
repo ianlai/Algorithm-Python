@@ -1143,6 +1143,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0244", 
+    "Level": 2, 
+    "Title": "Shortest Word Distance II", 
+    "Url": "https://leetcode.com/problems/shortest-word-distance-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0249", 
     "Level": 2, 
     "Title": "Group Shifted Strings", 

@@ -1616,6 +1616,15 @@
     "Title": "Shortest Word Distance", 
     "Url": "https://leetcode.com/problems/shortest-word-distance", 
     "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-01-31"
+},
+{
+    "Number": "0244", 
+    "Level": 2, 
+    "Title": "Shortest Word Distance II", 
+    "Url": "https://leetcode.com/problems/shortest-word-distance-ii", 
+    "Tags": [], 
     "Memo": ""
 },
 {

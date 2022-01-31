@@ -166,6 +166,7 @@ algo
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
 │   ├── __0187__Repeated DNA Sequences.py
+│   ├── __0244__Shortest Word Distance II.py
 │   ├── __0249__Group Shifted Strings.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
@@ -364,7 +365,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 337 files
+26 directories, 338 files
 
 =====================================
 ============= Local Repo ============
@@ -506,6 +507,7 @@ __0240__Search a 2D Matrix II.py
 __0241__Different Ways to Add Parentheses.py
 __0242__Valid Anagram.py
 __0243__Shortest Word Distance.py
+__0244__Shortest Word Distance II.py
 __0249__Group Shifted Strings.py
 __0252__Meeting Rooms.py
 __0253__Meeting Rooms II.py
@@ -695,7 +697,7 @@ __2093__Minimum Cost to Reach City With Discounts.py
 __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 =====================================
-Num of Python Practice:  325
+Num of Python Practice:  326
 
 
 =====================================
@@ -838,6 +840,7 @@ Num of Python Practice:  325
  0241 Different Ways to Add Parentheses
  0242 Valid Anagram
  0243 Shortest Word Distance
+ 0244 Shortest Word Distance II
  0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
@@ -1028,10 +1031,10 @@ Num of Python Practice:  325
  2155 All Divisions With the Highest Score of a Binary Array
 =====================================
 Solved / Total (Easy)  :   67 /  544
-Solved / Total (Medium):  235 / 1151
+Solved / Total (Medium):  236 / 1151
 Solved / Total (Hard)  :   23 /  462
-Solved / Total (All)   :  325 / 2157
-Total Score            :  887
+Solved / Total (All)   :  326 / 2157
+Total Score            :  890
 =====================================
 
 ```
