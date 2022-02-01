@@ -1,24 +1,50 @@
 class Solution:
-    
 
-    def maxSubArray(self, nums: List[int]) -> int:
-        print("Two pointer O(n); no extra array")
-        if not nums:
-            return 0
-        maxVal = 0 
-        max
-        left, right = 0, 0
-        while left < right and right < len(nums): 
-            if nums[right] > 0:
-                right += 1
-                maxVal += e
-            else:
-                left += 1 
-                
+    # ==========================================
+    # 2021/02/01
+    # Kadane algorithm [O(n): 14%]
+    # 如果新的v加進來之後反而變小，那就直接從該點開始 
+    def maxSubArray(self, nums: List[int]) -> int: 
+        print("Code5: Kadane algorithm")
+        curSum = 0
+        maxSum = -inf
+        for v in nums:
+            curSum = max(v, curSum + v)
+            maxSum = max(maxSum, curSum)
+        return maxSum
     
+    # ==========================================
+    # 2021/02/01
+    # Kadane algorithm [O(n): 12%]
+    # subarray變成0就不要了 
+    def maxSubArray4(self, nums: List[int]) -> int: 
+        print("Code4: Kadane algorithm")
+        curSum = 0
+        maxSum = -inf
+        for v in nums:
+            curSum += v
+            maxSum = max(maxSum, curSum)
+            if curSum <= 0:
+                curSum = 0
+        return maxSum
+    
+    # ==========================================
+    # 2021/02/01
+    # Optimized brute force [O(n2): TLE]
+    def maxSubArray3(self, nums: List[int]) -> int: 
+        print("Code3: Optimized brute force")
+        maxSum = -inf
+        for i in range(len(nums)):
+            curSum = 0
+            for j in range(i, len(nums)):
+                curSum += nums[j]
+                maxSum = max(maxSum, curSum)
+        return maxSum
+                
+    # ==========================================
     # Enumerate; create preSum array first [O(n), 9%] 
-    def maxSubArray(self, nums: List[int]) -> int:
-        print("Enumerate O(n); create preSum")
+    def maxSubArray2(self, nums: List[int]) -> int:
+        print("Code2: Enumerate O(n); create preSum")
         if not nums:
             return 0
         if len(nums) == 1:
@@ -39,6 +65,7 @@ class Solution:
             #print(i, minSum, maxSum)
         return max(maxSum, preSum[1])
     
+    # ==========================================
     def maxSubArray1(self, nums: List[int]) -> int:
         print("Divide and Conquer")
         def findBestSubarray(nums, left, right):
