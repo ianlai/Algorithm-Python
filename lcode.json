@@ -2595,6 +2595,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1438", 
+    "Level": 2, 
+    "Title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit", 
+    "Url": "https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1448", 
     "Level": 2, 
     "Title": "Count Good Nodes in Binary Tree", 
@@ -2727,6 +2735,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "All Divisions With the Highest Score of a Binary Array", 
     "Url": "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2156", 
+    "Level": 2, 
+    "Title": "Find Substring With Given Hash Value", 
+    "Url": "https://leetcode.com/problems/find-substring-with-given-hash-value", 
     "Tags": [], 
     "Memo": ""
 }

@@ -968,7 +968,7 @@
         "DP"
     ], 
     "Memo": "", 
-    "Date": "2021-05-06"
+    "Date": "2022-02-02"
 },
 {
     "Number": "0122", 
@@ -3688,6 +3688,19 @@
     "Date": "2021-06-05"
 },
 {
+    "Number": "1438", 
+    "Level": 2, 
+    "Title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit", 
+    "Url": "https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit", 
+    "Tags": [
+        "Sliding-Window", 
+        "Monotonic-Queue", 
+        "**CHECK"
+    ], 
+    "Memo": "Sliding Window是基本，但要一邊滑動一邊找最大和最小值來相減，所以使用兩個Monotonic Queue（也可以使用Heap或Java-TreeMap來做到，但時間就變成O(nlogn)。)在更新左指標的時候，使用了if來替代while，那個lazy update的部分還沒有完全了解。", 
+    "Date": "2022-02-03"
+},
+{
     "Number": "1448", 
     "Level": 2, 
     "Title": "Count Good Nodes in Binary Tree", 
@@ -3895,5 +3908,19 @@
     ], 
     "Memo": "", 
     "Date": "2022-01-30"
+},
+{
+    "Number": "2156", 
+    "Level": 2, 
+    "Title": "Find Substring With Given Hash Value", 
+    "Url": "https://leetcode.com/problems/find-substring-with-given-hash-value", 
+    "Tags": [
+        "Rolling-Hash", 
+        "Sliding-Window", 
+        "Two-Pointer", 
+        "**CONTEST"
+    ], 
+    "Memo": "要在mod世界內計算，否則會變成大數然後超時。在mod世界除法的反向要用同餘的做法，比較難（可用輾轉相除法取到使得ab mod = 1的b）。另一個作法是直接從尾巴開始做，這樣在SlidingWindow往前移動的時候，就不是除法而是乘法了，就可以每次運算都加mod。", 
+    "Date": "2022-02-02"
 }
 ]

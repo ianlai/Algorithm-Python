@@ -174,7 +174,8 @@ algo
 │   ├── __0535__Encode and Decode TinyURL.py
 │   ├── __0705__Design HashSet.py
 │   ├── __1525__Number of Good Ways to Split a String.py
-│   └── __2007__Find Original Array From Doubled Array.py
+│   ├── __2007__Find Original Array From Doubled Array.py
+│   └── __2156__Find Substring With Given Hash Value.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
@@ -229,6 +230,7 @@ algo
 │   ├── __0739__Daily Temperatures.py
 │   ├── __0862__Shortest Subarray with Sum at Least K.py
 │   ├── __0975__Odd Even Jump.py
+│   ├── __1438__Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py
 │   ├── __1475__Final Prices With a Special Discount in a Shop.py
 │   └── __1762__Buildings With an Ocean View.py
 ├── Recursion
@@ -365,7 +367,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 338 files
+26 directories, 340 files
 
 =====================================
 ============= Local Repo ============
@@ -679,6 +681,7 @@ __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
 __1429__First Unique Number.py
+__1438__Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py
 __1448__Count Good Nodes in Binary Tree.py
 __1475__Final Prices With a Special Discount in a Shop.py
 __1525__Number of Good Ways to Split a String.py
@@ -696,8 +699,9 @@ __2008__Maximum Earnings From Taxi.py
 __2093__Minimum Cost to Reach City With Discounts.py
 __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
+__2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  326
+Num of Python Practice:  328
 
 
 =====================================
@@ -1012,6 +1016,7 @@ Num of Python Practice:  326
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
  1429 First Unique Number
+ 1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
  1448 Count Good Nodes in Binary Tree
  1475 Final Prices With a Special Discount in a Shop
  1525 Number of Good Ways to Split a String
@@ -1029,12 +1034,13 @@ Num of Python Practice:  326
  2093 Minimum Cost to Reach City With Discounts
  2154 Keep Multiplying Found Values by Two
  2155 All Divisions With the Highest Score of a Binary Array
+ 2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   67 /  544
-Solved / Total (Medium):  236 / 1151
-Solved / Total (Hard)  :   23 /  462
-Solved / Total (All)   :  326 / 2157
-Total Score            :  890
+Solved / Total (Medium):  238 / 1151
+Solved / Total (Hard)  :   23 /  463
+Solved / Total (All)   :  328 / 2158
+Total Score            :  896
 =====================================
 
 ```
