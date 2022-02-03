@@ -3639,6 +3639,14 @@
     "Date": "2021-11-29"
 },
 {
+    "Number": "1358", 
+    "Level": 2, 
+    "Title": "Number of Substrings Containing All Three Characters", 
+    "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters", 
+    "Tags": ["Two-Pointer", "Sliding-Window"], 
+    "Memo": "計算方法數的而不是找最長。右指標移到可以之後的全部都可以，此時再移動左指標，檢查是否這次還可以，如果可以又是整批相加。"
+},
+{
     "Number": "1382", 
     "Level": 2, 
     "Title": "Balance a Binary Search Tree", 

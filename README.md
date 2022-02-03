@@ -347,6 +347,7 @@ algo
 │   ├── __1099__Two Sum Less Than K.py
 │   ├── __1214__Two Sum BSTs.py
 │   ├── __1248__Count Number of Nice Subarrays.py
+│   ├── __1358__Number of Substrings Containing All Three Characters.py
 │   ├── __1711__Count Good Meals.py
 │   └── __2155__All Divisions With the Highest Score of a Binary Array.py
 ├── UnionFind
@@ -367,7 +368,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 340 files
+26 directories, 341 files
 
 =====================================
 ============= Local Repo ============
@@ -677,6 +678,7 @@ __1277__Count Square Submatrices with All Ones.py
 __1289__Minimum Falling Path Sum II.py
 __1302__Deepest Leaves Sum.py
 __1319__Number of Operations to Make Network Connected.py
+__1358__Number of Substrings Containing All Three Characters.py
 __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
@@ -701,7 +703,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  328
+Num of Python Practice:  329
 
 
 =====================================
@@ -1012,6 +1014,7 @@ Num of Python Practice:  328
  1289 Minimum Falling Path Sum II
  1302 Deepest Leaves Sum
  1319 Number of Operations to Make Network Connected
+ 1358 Number of Substrings Containing All Three Characters
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
@@ -1037,10 +1040,10 @@ Num of Python Practice:  328
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   67 /  544
-Solved / Total (Medium):  238 / 1151
+Solved / Total (Medium):  239 / 1151
 Solved / Total (Hard)  :   23 /  463
-Solved / Total (All)   :  328 / 2158
-Total Score            :  896
+Solved / Total (All)   :  329 / 2158
+Total Score            :  899
 =====================================
 
 ```

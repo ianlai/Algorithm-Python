@@ -2563,6 +2563,14 @@ lcode_data = `
     "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。"
 },
 {
+    "Number": "1358", 
+    "Level": 2, 
+    "Title": "Number of Substrings Containing All Three Characters", 
+    "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1382", 
     "Level": 2, 
     "Title": "Balance a Binary Search Tree", 
