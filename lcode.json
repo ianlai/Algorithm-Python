@@ -2484,6 +2484,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1197", 
+    "Level": 2, 
+    "Title": "Minimum Knight Moves", 
+    "Url": "https://leetcode.com/problems/minimum-knight-moves", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1198", 
     "Level": 2, 
     "Title": "Find Smallest Common Element in All Rows", 

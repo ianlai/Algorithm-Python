@@ -32,10 +32,39 @@ class Heap:
 
 class Solution:
     
+    # 2022/02/04
+    # Sliding window + Monotonic queue descending [O(n): 44%]
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+        print("Code4")
+        
+        maxqueue = collections.deque()
+        left = 0
+        res = []
+        for right in range(len(nums)):
+            
+            #Keep monotonic queue
+            while maxqueue and nums[right] >= nums[maxqueue[-1]]:
+                maxqueue.pop()
+            maxqueue.append(right)
+            
+            #Sliding left pointer
+            if right - left + 1 >= k:
+                res.append(nums[maxqueue[0]])
+                
+                #Popleft max queue if left pointer pointed to the max
+                if maxqueue and maxqueue[0] == left:
+                    maxqueue.popleft()
+                left += 1 
+        return res
+                
+    # ===========================================
+
+    # 2021/06/13
     # Deque [O(n) 87%, O(k), 85%]
     # (1) popright the useless values to keep window small
     # (2) store index to popleft the value when the window sliding out 
-    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+    def maxSlidingWindow3(self, nums: List[int], k: int) -> List[int]:
+        print("Code3")
         if not nums:
             return None
         
@@ -65,9 +94,10 @@ class Solution:
                 
         return results
                 
-    
+    # ===========================================
     # Deque [ERROR]
     def maxSlidingWindow2(self, nums: List[int], k: int) -> List[int]:
+        print("Code2")
         if not nums:
             return None
         dq = collections.deque([])
@@ -92,9 +122,10 @@ class Solution:
         results.append(dq[0])
         return results
             
-    
+    # ===========================================   
     # Heap + Deque [O(n2) TLE]
     def maxSlidingWindow1(self, nums: List[int], k: int) -> List[int]:
+        print("Code1")
         if not nums:
             return None
         

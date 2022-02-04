@@ -1571,10 +1571,11 @@
     "Title": "Sliding Window Maximum", 
     "Url": "https://leetcode.com/problems/sliding-window-maximum", 
     "Tags": [
-        "Sliding-Window"
+        "Sliding-Window", 
+        "Monotonic-Queue"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-13"
+    "Memo": "過了半年，這題總算變簡單了。使用Sliding Window配上Monotonic Queue就不會很難做，記得存入Queue的值要是index，會比較好判斷是否要popleft()。", 
+    "Date": "2022-02-04"
 },
 {
     "Number": "0240", 
@@ -3526,6 +3527,15 @@
     "Date": "2021-12-05"
 },
 {
+    "Number": "1197", 
+    "Level": 2, 
+    "Title": "Minimum Knight Moves", 
+    "Url": "https://leetcode.com/problems/minimum-knight-moves", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-02-04"
+},
+{
     "Number": "1198", 
     "Level": 2, 
     "Title": "Find Smallest Common Element in All Rows", 
@@ -3643,8 +3653,12 @@
     "Level": 2, 
     "Title": "Number of Substrings Containing All Three Characters", 
     "Url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters", 
-    "Tags": ["Two-Pointer", "Sliding-Window"], 
-    "Memo": "計算方法數的而不是找最長。右指標移到可以之後的全部都可以，此時再移動左指標，檢查是否這次還可以，如果可以又是整批相加。"
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window"
+    ], 
+    "Memo": "計算方法數的而不是找最長。右指標移到可以之後的全部都可以，此時再移動左指標，檢查是否這次還可以，如果可以又是整批相加。", 
+    "Date": "2022-02-04"
 },
 {
     "Number": "1382", 

@@ -7,7 +7,6 @@ algo
 │   ├── __0057__Insert Interval.py
 │   ├── __0122__Best Time to Buy and Sell Stock II.py
 │   ├── __0134__Gas Station.py
-│   ├── __0239__Sliding Window Maximum.py
 │   ├── __0243__Shortest Word Distance.py
 │   ├── __0252__Meeting Rooms.py
 │   ├── __0253__Meeting Rooms II.py
@@ -39,7 +38,8 @@ algo
 │   ├── __0662__Maximum Width of Binary Tree.py
 │   ├── __0752__Open the Lock.py
 │   ├── __0909__Snakes and Ladders.py
-│   └── __0994__Rotting Oranges.py
+│   ├── __0994__Rotting Oranges.py
+│   └── __1197__Minimum Knight Moves.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
 │   ├── __0033__Search in Rotated Sorted Array.py
@@ -224,6 +224,7 @@ algo
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
 │   ├── __0085__Maximal Rectangle.py
+│   ├── __0239__Sliding Window Maximum.py
 │   ├── __0456__132 Pattern.py
 │   ├── __0496__Next Greater Element I.py
 │   ├── __0503__Next Greater Element II.py
@@ -368,7 +369,7 @@ algo
     ├── Countries.py
     └── SwitchingArray.py
 
-26 directories, 341 files
+26 directories, 342 files
 
 =====================================
 ============= Local Repo ============
@@ -669,6 +670,7 @@ __1146__Snapshot Array.py
 __1161__Maximum Level Sum of a Binary Tree.py
 __1165__Single-Row Keyboard.py
 __1167__Minimum Cost to Connect Sticks.py
+__1197__Minimum Knight Moves.py
 __1198__Find Smallest Common Element in All Rows.py
 __1214__Two Sum BSTs.py
 __1248__Count Number of Nice Subarrays.py
@@ -703,7 +705,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  329
+Num of Python Practice:  330
 
 
 =====================================
@@ -1005,6 +1007,7 @@ Num of Python Practice:  329
  1161 Maximum Level Sum of a Binary Tree
  1165 Single-Row Keyboard
  1167 Minimum Cost to Connect Sticks
+ 1197 Minimum Knight Moves
  1198 Find Smallest Common Element in All Rows
  1214 Two Sum BSTs
  1248 Count Number of Nice Subarrays
@@ -1039,11 +1042,11 @@ Num of Python Practice:  329
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   67 /  544
-Solved / Total (Medium):  239 / 1151
+Solved / Total (Easy)  :   66 /  543
+Solved / Total (Medium):  241 / 1152
 Solved / Total (Hard)  :   23 /  463
-Solved / Total (All)   :  329 / 2158
-Total Score            :  899
+Solved / Total (All)   :  330 / 2158
+Total Score            :  904
 =====================================
 
 ```
