@@ -1,9 +1,25 @@
 import heapq
 class Solution:
     
+    # 2022/02/06
+    # Sweep line [O(nlogn): 21%]
+    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        print("Code3")
+        times = collections.defaultdict(int)
+        for start, end in intervals:
+            times[start] += 1
+            times[end] -= 1
+        res = cur = 0 
+        for time in sorted(times.keys()):
+            cur += times[time] 
+            res = max(cur, res)
+        return res
+    
+    # ========================================
+    
     # 2022/01/28
     # Multiple heaps [O(nlogn): 31%]
-    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+    def minMeetingRooms2(self, intervals: List[List[int]]) -> int:
         print("Code2")
         if not intervals:
             return 0
