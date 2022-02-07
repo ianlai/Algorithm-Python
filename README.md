@@ -122,6 +122,7 @@ algo
 │   ├── __0518__Coin Change 2.py
 │   ├── __0542__01 Matrix.py
 │   ├── __0576__Out of Boundary Paths.py
+│   ├── __0646__Maximum Length of Pair Chain.py
 │   ├── __0688__Knight Probability in Chessboard.py
 │   ├── __0718__Maximum Length of Repeated Subarray.py
 │   ├── __0931__Minimum Falling Path Sum.py
@@ -373,7 +374,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 344 files
+28 directories, 345 files
 
 =====================================
 ============= Local Repo ============
@@ -599,6 +600,7 @@ __0576__Out of Boundary Paths.py
 __0593__Valid Square.py
 __0611__Valid Triangle Number.py
 __0617__Merge Two Binary Trees.py
+__0646__Maximum Length of Pair Chain.py
 __0648__Replace Words.py
 __0658__Find K Closest Elements.py
 __0662__Maximum Width of Binary Tree.py
@@ -710,7 +712,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  331
+Num of Python Practice:  332
 
 
 =====================================
@@ -937,6 +939,7 @@ Num of Python Practice:  331
  0593 Valid Square
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
+ 0646 Maximum Length of Pair Chain
  0648 Replace Words
  0658 Find K Closest Elements
  0662 Maximum Width of Binary Tree
@@ -1049,10 +1052,10 @@ Num of Python Practice:  331
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   66 /  545
-Solved / Total (Medium):  241 / 1156
+Solved / Total (Medium):  242 / 1156
 Solved / Total (Hard)  :   24 /  466
-Solved / Total (All)   :  331 / 2167
-Total Score            :  909
+Solved / Total (All)   :  332 / 2167
+Total Score            :  912
 =====================================
 
 ```
