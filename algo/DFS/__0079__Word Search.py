@@ -2,9 +2,36 @@ DIR = [(0,1), (0,-1), (1,0), (-1,0)]
 
 class Solution:
     
+    # 2022/02/07 
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        print("Code4")
+        m, n = len(board), len(board[0])
+        def dfs(word, i, j, idx, visited):
+            if idx == len(word):
+                return True
+            if not (0 <= i < m and 0 <= j < n):
+                return False
+            if word[idx] != board[i][j]:
+                return False
+            if (i, j) in visited:
+                return False
+            visited.add((i, j))
+            for ni, nj in ((i+1, j), (i-1, j), (i, j+1), (i, j-1)):
+                if dfs(word, ni, nj, idx + 1, visited):
+                    return True
+            visited.remove((i, j))
+            return False
+        for i in range(m):
+            for j in range(n):
+                if dfs(word, i, j, 0, set()):
+                    return True
+        return False
+    
+    # ==============================================
+        
     # 2021/10/17
     # DFS [O(MN*3^L): 53%]
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def exist3(self, board: List[List[str]], word: str) -> bool:
         print("Code3")
         if len(board) == 0 or len(board[0]) == 0 or len(word) == 0:
             return False

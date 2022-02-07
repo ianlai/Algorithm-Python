@@ -581,7 +581,7 @@
         "Word"
     ], 
     "Memo": "", 
-    "Date": "2021-10-17"
+    "Date": "2022-02-07"
 },
 {
     "Number": "0080", 
@@ -3257,6 +3257,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-12-11"
+},
+{
+    "Number": "0985", 
+    "Level": 2, 
+    "Title": "Sum of Even Numbers After Queries", 
+    "Url": "https://leetcode.com/problems/sum-of-even-numbers-after-queries", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0986", 

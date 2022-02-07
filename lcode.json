@@ -2288,6 +2288,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0985", 
+    "Level": 2, 
+    "Title": "Sum of Even Numbers After Queries", 
+    "Url": "https://leetcode.com/problems/sum-of-even-numbers-after-queries", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0986", 
     "Level": 2, 
     "Title": "Interval List Intersections", 

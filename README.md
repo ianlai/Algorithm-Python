@@ -18,6 +18,7 @@ algo
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
 │   ├── __0760__Find Anagram Mappings.py
+│   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
 │   └── __2154__Keep Multiplying Found Values by Two.py
 ├── BFS
@@ -365,11 +366,14 @@ algo
 │       ├── ArrayList.cpython-37.pyc
 │       ├── LinkedList.cpython-37.pyc
 │       └── UnrolledLinkedList.cpython-37.pyc
-└── _Interviews
-    ├── Countries.py
-    └── SwitchingArray.py
+├── _Interviews
+│   └── SmartNews-0
+│       ├── Countries.py
+│       └── SwitchingArray.py
+└── _Template
+    └── BinarySearch.py
 
-26 directories, 342 files
+28 directories, 344 files
 
 =====================================
 ============= Local Repo ============
@@ -647,6 +651,7 @@ __0973__K Closest Points to Origin.py
 __0975__Odd Even Jump.py
 __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
+__0985__Sum of Even Numbers After Queries.py
 __0986__Interval List Intersections.py
 __0994__Rotting Oranges.py
 __1008__Construct Binary Search Tree from Preorder Traversal.py
@@ -705,7 +710,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  330
+Num of Python Practice:  331
 
 
 =====================================
@@ -984,6 +989,7 @@ Num of Python Practice:  330
  0975 Odd Even Jump
  0979 Distribute Coins in Binary Tree
  0981 Time Based Key-Value Store
+ 0985 Sum of Even Numbers After Queries
  0986 Interval List Intersections
  0994 Rotting Oranges
  1008 Construct Binary Search Tree from Preorder Traversal
@@ -1043,10 +1049,10 @@ Num of Python Practice:  330
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   66 /  545
-Solved / Total (Medium):  241 / 1157
-Solved / Total (Hard)  :   23 /  465
-Solved / Total (All)   :  330 / 2167
-Total Score            :  904
+Solved / Total (Medium):  241 / 1156
+Solved / Total (Hard)  :   24 /  466
+Solved / Total (All)   :  331 / 2167
+Total Score            :  909
 =====================================
 
 ```
