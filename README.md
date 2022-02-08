@@ -17,6 +17,7 @@ algo
 │   ├── __0523__Continuous Subarray Sum.py
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
+│   ├── __0724__Find Pivot Index.py
 │   ├── __0760__Find Anagram Mappings.py
 │   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
@@ -45,6 +46,7 @@ algo
 │   ├── __0004__Median of Two Sorted Arrays.py
 │   ├── __0033__Search in Rotated Sorted Array.py
 │   ├── __0034__Find First and Last Position of Element in Sorted Array.py
+│   ├── __0035__Search Insert Position.py
 │   ├── __0050__Pow(x, n).py
 │   ├── __0069__Sqrt(x).py
 │   ├── __0074__Search a 2D Matrix.py
@@ -222,6 +224,7 @@ algo
 │   └── __0593__Valid Square.py
 ├── Matrix
 │   ├── __0048__Rotate Image.py
+│   ├── __0073__Set Matrix Zeroes.py
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
@@ -247,6 +250,7 @@ algo
 │   └── __0242__Valid Anagram.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
+│   ├── __0150__Evaluate Reverse Polish Notation.py
 │   ├── __0155__Min Stack.py
 │   └── __0735__Asteroid Collision.py
 ├── String
@@ -295,6 +299,7 @@ algo
 │   ├── __0538__Convert BST to Greater Tree.py
 │   ├── __0543__Diameter of Binary Tree.py
 │   ├── __0559__Maximum Depth of N-ary Tree.py
+│   ├── __0563__Binary Tree Tilt.py
 │   ├── __0572__Subtree of Another Tree.py
 │   ├── __0617__Merge Two Binary Trees.py
 │   ├── __0687__Longest Univalue Path.py
@@ -374,7 +379,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 345 files
+28 directories, 350 files
 
 =====================================
 ============= Local Repo ============
@@ -401,6 +406,7 @@ __0024__Swap Nodes in Pairs.py
 __0031__Next Permutation.py
 __0033__Search in Rotated Sorted Array.py
 __0034__Find First and Last Position of Element in Sorted Array.py
+__0035__Search Insert Position.py
 __0036__Valid Sudoku.py
 __0037__Sudoku Solver.py
 __0039__Combination Sum.py
@@ -424,6 +430,7 @@ __0063__Unique Paths II.py
 __0064__Minimum Path Sum.py
 __0069__Sqrt(x).py
 __0070__Climbing Stairs.py
+__0073__Set Matrix Zeroes.py
 __0074__Search a 2D Matrix.py
 __0075__Sort Colors.py
 __0077__Combinations.py
@@ -480,6 +487,7 @@ __0142__Linked List Cycle II.py
 __0144__Binary Tree Preorder Traversal.py
 __0146__LRU Cache.py
 __0148__Sort List.py
+__0150__Evaluate Reverse Polish Notation.py
 __0151__Reverse Words in a String.py
 __0152__Maximum Product Subarray.py
 __0153__Find Minimum in Rotated Sorted Array.py
@@ -595,6 +603,7 @@ __0543__Diameter of Binary Tree.py
 __0547__Number of Provinces.py
 __0559__Maximum Depth of N-ary Tree.py
 __0560__Subarray Sum Equals K.py
+__0563__Binary Tree Tilt.py
 __0572__Subtree of Another Tree.py
 __0576__Out of Boundary Paths.py
 __0593__Valid Square.py
@@ -620,6 +629,7 @@ __0705__Design HashSet.py
 __0706__Design HashMap.py
 __0718__Maximum Length of Repeated Subarray.py
 __0721__Accounts Merge.py
+__0724__Find Pivot Index.py
 __0726__Number of Atoms.py
 __0735__Asteroid Collision.py
 __0739__Daily Temperatures.py
@@ -712,7 +722,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  332
+Num of Python Practice:  337
 
 
 =====================================
@@ -740,6 +750,7 @@ Num of Python Practice:  332
  0031 Next Permutation
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
+ 0035 Search Insert Position
  0036 Valid Sudoku
  0037 Sudoku Solver
  0039 Combination Sum
@@ -763,6 +774,7 @@ Num of Python Practice:  332
  0064 Minimum Path Sum
  0069 Sqrt(x)
  0070 Climbing Stairs
+ 0073 Set Matrix Zeroes
  0074 Search a 2D Matrix
  0075 Sort Colors
  0077 Combinations
@@ -819,6 +831,7 @@ Num of Python Practice:  332
  0144 Binary Tree Preorder Traversal
  0146 LRU Cache
  0148 Sort List
+ 0150 Evaluate Reverse Polish Notation
  0151 Reverse Words in a String
  0152 Maximum Product Subarray
  0153 Find Minimum in Rotated Sorted Array
@@ -934,6 +947,7 @@ Num of Python Practice:  332
  0547 Number of Provinces
  0559 Maximum Depth of N-ary Tree
  0560 Subarray Sum Equals K
+ 0563 Binary Tree Tilt
  0572 Subtree of Another Tree
  0576 Out of Boundary Paths
  0593 Valid Square
@@ -959,6 +973,7 @@ Num of Python Practice:  332
  0706 Design HashMap
  0718 Maximum Length of Repeated Subarray
  0721 Accounts Merge
+ 0724 Find Pivot Index
  0726 Number of Atoms
  0735 Asteroid Collision
  0739 Daily Temperatures
@@ -1051,11 +1066,11 @@ Num of Python Practice:  332
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   66 /  545
-Solved / Total (Medium):  242 / 1156
+Solved / Total (Easy)  :   69 /  545
+Solved / Total (Medium):  244 / 1156
 Solved / Total (Hard)  :   24 /  466
-Solved / Total (All)   :  332 / 2167
-Total Score            :  912
+Solved / Total (All)   :  337 / 2167
+Total Score            :  921
 =====================================
 
 ```

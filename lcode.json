@@ -188,6 +188,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0035", 
+    "Level": 1, 
+    "Title": "Search Insert Position", 
+    "Url": "https://leetcode.com/problems/search-insert-position", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0036", 
     "Level": 2, 
     "Title": "Valid Sudoku", 
@@ -375,6 +383,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Climbing Stairs", 
     "Url": "https://leetcode.com/problems/climbing-stairs", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0073", 
+    "Level": 2, 
+    "Title": "Set Matrix Zeroes", 
+    "Url": "https://leetcode.com/problems/set-matrix-zeroes", 
     "Tags": [], 
     "Memo": ""
 },
@@ -834,6 +850,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Sort List", 
     "Url": "https://leetcode.com/problems/sort-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0150", 
+    "Level": 2, 
+    "Title": "Evaluate Reverse Polish Notation", 
+    "Url": "https://leetcode.com/problems/evaluate-reverse-polish-notation", 
     "Tags": [], 
     "Memo": ""
 },
@@ -1798,6 +1822,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0563", 
+    "Level": 1, 
+    "Title": "Binary Tree Tilt", 
+    "Url": "https://leetcode.com/problems/binary-tree-tilt", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0572", 
     "Level": 1, 
     "Title": "Subtree of Another Tree", 
@@ -2000,6 +2032,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Accounts Merge", 
     "Url": "https://leetcode.com/problems/accounts-merge", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0724", 
+    "Level": 1, 
+    "Title": "Find Pivot Index", 
+    "Url": "https://leetcode.com/problems/find-pivot-index", 
     "Tags": [], 
     "Memo": ""
 },

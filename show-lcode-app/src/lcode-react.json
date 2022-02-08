@@ -256,6 +256,15 @@
     "Date": "2021-12-11"
 },
 {
+    "Number": "0035", 
+    "Level": 1, 
+    "Title": "Search Insert Position", 
+    "Url": "https://leetcode.com/problems/search-insert-position", 
+    "Tags": ["Binary-Search"], 
+    "Memo": "", 
+    "Date": "2022-02-08"
+},
+{
     "Number": "0036", 
     "Level": 2, 
     "Title": "Valid Sudoku", 
@@ -520,6 +529,15 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-05-17"
+},
+{
+    "Number": "0073", 
+    "Level": 2, 
+    "Title": "Set Matrix Zeroes", 
+    "Url": "https://leetcode.com/problems/set-matrix-zeroes", 
+    "Tags": ["HashMap"], 
+    "Memo": "", 
+    "Date": "2022-02-08"
 },
 {
     "Number": "0074", 
@@ -1195,6 +1213,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-07-03"
+},
+{
+    "Number": "0150", 
+    "Level": 2, 
+    "Title": "Evaluate Reverse Polish Notation", 
+    "Url": "https://leetcode.com/problems/evaluate-reverse-polish-notation", 
+    "Tags": ["Stack"], 
+    "Memo": "", 
+    "Date": "2022-02-08"
 },
 {
     "Number": "0151", 
@@ -2570,6 +2597,15 @@
     "Date": "2022-01-13"
 },
 {
+    "Number": "0563", 
+    "Level": 1, 
+    "Title": "Binary Tree Tilt", 
+    "Url": "https://leetcode.com/problems/binary-tree-tilt", 
+    "Tags": ["Tree", "Recursion"], 
+    "Memo": "比easy難，用recursion往上回傳tilt和sum。", 
+    "Date": "2022-02-08"
+},
+{
     "Number": "0572", 
     "Level": 1, 
     "Title": "Subtree of Another Tree", 
@@ -2627,8 +2663,8 @@
     "Level": 2, 
     "Title": "Maximum Length of Pair Chain", 
     "Url": "https://leetcode.com/problems/maximum-length-of-pair-chain", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": ["Greedy", "DP"], 
+    "Memo": "和1235(Maximum Profit in Job Scheduling)有點類似，但1235有加上權重，勢必要用DP+BinarySearch。這題則可以用Greedy。", 
     "Date": "2022-02-07"
 },
 {
@@ -2653,7 +2689,7 @@
         "Sorting"
     ], 
     "Memo": "(1)自訂搜索 (2)使用BinarySearch再背向雙指針，也練習使用bisect.bisect_left()函數。", 
-    "Date": "2022-01-24"
+    "Date": "2022-02-08"
 },
 {
     "Number": "0662", 
@@ -2852,6 +2888,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-07-07"
+},
+{
+    "Number": "0724", 
+    "Level": 1, 
+    "Title": "Find Pivot Index", 
+    "Url": "https://leetcode.com/problems/find-pivot-index", 
+    "Tags": ["Array"], 
+    "Memo": "", 
+    "Date": "2022-02-08"
 },
 {
     "Number": "0726", 
@@ -3272,7 +3317,7 @@
     "Level": 2, 
     "Title": "Sum of Even Numbers After Queries", 
     "Url": "https://leetcode.com/problems/sum-of-even-numbers-after-queries", 
-    "Tags": [], 
+    "Tags": ["Array"], 
     "Memo": "", 
     "Date": "2022-02-07"
 },
@@ -3550,8 +3595,8 @@
     "Level": 2, 
     "Title": "Minimum Knight Moves", 
     "Url": "https://leetcode.com/problems/minimum-knight-moves", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": ["BFS", "**CHECK"], 
+    "Memo": "可以再優化。", 
     "Date": "2022-02-04"
 },
 {
