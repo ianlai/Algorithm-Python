@@ -7,6 +7,7 @@ algo
 │   ├── __0057__Insert Interval.py
 │   ├── __0122__Best Time to Buy and Sell Stock II.py
 │   ├── __0134__Gas Station.py
+│   ├── __0238__Product of Array Except Self.py
 │   ├── __0243__Shortest Word Distance.py
 │   ├── __0252__Meeting Rooms.py
 │   ├── __0253__Meeting Rooms II.py
@@ -379,7 +380,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 350 files
+28 directories, 351 files
 
 =====================================
 ============= Local Repo ============
@@ -519,6 +520,7 @@ __0234__Palindrome Linked List.py
 __0235__Lowest Common Ancestor of a Binary Search Tree.py
 __0236__Lowest Common Ancestor of a Binary Tree.py
 __0237__Delete Node in a Linked List.py
+__0238__Product of Array Except Self.py
 __0239__Sliding Window Maximum.py
 __0240__Search a 2D Matrix II.py
 __0241__Different Ways to Add Parentheses.py
@@ -722,7 +724,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  337
+Num of Python Practice:  338
 
 
 =====================================
@@ -863,6 +865,7 @@ Num of Python Practice:  337
  0235 Lowest Common Ancestor of a Binary Search Tree
  0236 Lowest Common Ancestor of a Binary Tree
  0237 Delete Node in a Linked List
+ 0238 Product of Array Except Self
  0239 Sliding Window Maximum
  0240 Search a 2D Matrix II
  0241 Different Ways to Add Parentheses
@@ -1067,10 +1070,10 @@ Num of Python Practice:  337
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   69 /  545
-Solved / Total (Medium):  244 / 1156
+Solved / Total (Medium):  245 / 1156
 Solved / Total (Hard)  :   24 /  466
-Solved / Total (All)   :  337 / 2167
-Total Score            :  921
+Solved / Total (All)   :  338 / 2167
+Total Score            :  924
 =====================================
 
 ```

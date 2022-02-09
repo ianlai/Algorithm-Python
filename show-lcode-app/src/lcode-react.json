@@ -260,7 +260,9 @@
     "Level": 1, 
     "Title": "Search Insert Position", 
     "Url": "https://leetcode.com/problems/search-insert-position", 
-    "Tags": ["Binary-Search"], 
+    "Tags": [
+        "Binary-Search"
+    ], 
     "Memo": "", 
     "Date": "2022-02-08"
 },
@@ -535,7 +537,9 @@
     "Level": 2, 
     "Title": "Set Matrix Zeroes", 
     "Url": "https://leetcode.com/problems/set-matrix-zeroes", 
-    "Tags": ["HashMap"], 
+    "Tags": [
+        "HashMap"
+    ], 
     "Memo": "", 
     "Date": "2022-02-08"
 },
@@ -1219,7 +1223,9 @@
     "Level": 2, 
     "Title": "Evaluate Reverse Polish Notation", 
     "Url": "https://leetcode.com/problems/evaluate-reverse-polish-notation", 
-    "Tags": ["Stack"], 
+    "Tags": [
+        "Stack"
+    ], 
     "Memo": "", 
     "Date": "2022-02-08"
 },
@@ -1591,6 +1597,14 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-07-09"
+},
+{
+    "Number": "0238", 
+    "Level": 2, 
+    "Title": "Product of Array Except Self", 
+    "Url": "https://leetcode.com/problems/product-of-array-except-self", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0239", 
@@ -2601,7 +2615,10 @@
     "Level": 1, 
     "Title": "Binary Tree Tilt", 
     "Url": "https://leetcode.com/problems/binary-tree-tilt", 
-    "Tags": ["Tree", "Recursion"], 
+    "Tags": [
+        "Tree", 
+        "Recursion"
+    ], 
     "Memo": "比easy難，用recursion往上回傳tilt和sum。", 
     "Date": "2022-02-08"
 },
@@ -2663,7 +2680,10 @@
     "Level": 2, 
     "Title": "Maximum Length of Pair Chain", 
     "Url": "https://leetcode.com/problems/maximum-length-of-pair-chain", 
-    "Tags": ["Greedy", "DP"], 
+    "Tags": [
+        "Greedy", 
+        "DP"
+    ], 
     "Memo": "和1235(Maximum Profit in Job Scheduling)有點類似，但1235有加上權重，勢必要用DP+BinarySearch。這題則可以用Greedy。", 
     "Date": "2022-02-07"
 },
@@ -2894,7 +2914,9 @@
     "Level": 1, 
     "Title": "Find Pivot Index", 
     "Url": "https://leetcode.com/problems/find-pivot-index", 
-    "Tags": ["Array"], 
+    "Tags": [
+        "Array"
+    ], 
     "Memo": "", 
     "Date": "2022-02-08"
 },
@@ -3317,7 +3339,9 @@
     "Level": 2, 
     "Title": "Sum of Even Numbers After Queries", 
     "Url": "https://leetcode.com/problems/sum-of-even-numbers-after-queries", 
-    "Tags": ["Array"], 
+    "Tags": [
+        "Array"
+    ], 
     "Memo": "", 
     "Date": "2022-02-07"
 },
@@ -3595,9 +3619,12 @@
     "Level": 2, 
     "Title": "Minimum Knight Moves", 
     "Url": "https://leetcode.com/problems/minimum-knight-moves", 
-    "Tags": ["BFS", "**CHECK"], 
+    "Tags": [
+        "BFS", 
+        "**CHECK"
+    ], 
     "Memo": "可以再優化。", 
-    "Date": "2022-02-04"
+    "Date": "2022-02-09"
 },
 {
     "Number": "1198", 
