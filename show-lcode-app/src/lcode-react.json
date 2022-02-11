@@ -1604,7 +1604,8 @@
     "Title": "Product of Array Except Self", 
     "Url": "https://leetcode.com/problems/product-of-array-except-self", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-09"
 },
 {
     "Number": "0239", 
@@ -3062,6 +3063,14 @@
     "Date": "2022-01-09"
 },
 {
+    "Number": "0792", 
+    "Level": 2, 
+    "Title": "Number of Matching Subsequences", 
+    "Url": "https://leetcode.com/problems/number-of-matching-subsequences", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0797", 
     "Level": 2, 
     "Title": "All Paths From Source to Target", 
@@ -3258,6 +3267,14 @@
     ], 
     "Memo": "不需要先做in-order，那需要另外開空間。", 
     "Date": "2021-12-27"
+},
+{
+    "Number": "0954", 
+    "Level": 2, 
+    "Title": "Array of Doubled Pairs", 
+    "Url": "https://leetcode.com/problems/array-of-doubled-pairs", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0958", 

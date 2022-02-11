@@ -20,6 +20,7 @@ algo
 │   ├── __0670__Maximum Swap.py
 │   ├── __0724__Find Pivot Index.py
 │   ├── __0760__Find Anagram Mappings.py
+│   ├── __0954__Array of Doubled Pairs.py
 │   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
 │   └── __2154__Keep Multiplying Found Values by Two.py
@@ -262,6 +263,7 @@ algo
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
 │   ├── __0767__Reorganize String.py
+│   ├── __0792__Number of Matching Subsequences.py
 │   ├── __0811__Subdomain Visit Count.py
 │   ├── __1041__Robot Bounded In Circle.py
 │   └── __1165__Single-Row Keyboard.py
@@ -380,7 +382,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 351 files
+28 directories, 353 files
 
 =====================================
 ============= Local Repo ============
@@ -643,6 +645,7 @@ __0776__Split BST.py
 __0784__Letter Case Permutation.py
 __0785__Is Graph Bipartite?.py
 __0787__Cheapest Flights Within K Stops.py
+__0792__Number of Matching Subsequences.py
 __0797__All Paths From Source to Target.py
 __0811__Subdomain Visit Count.py
 __0841__Keys and Rooms.py
@@ -659,6 +662,7 @@ __0931__Minimum Falling Path Sum.py
 __0934__Shortest Bridge.py
 __0935__Knight Dialer.py
 __0938__Range Sum of BST.py
+__0954__Array of Doubled Pairs.py
 __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
 __0973__K Closest Points to Origin.py
@@ -724,7 +728,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  338
+Num of Python Practice:  340
 
 
 =====================================
@@ -988,6 +992,7 @@ Num of Python Practice:  338
  0784 Letter Case Permutation
  0785 Is Graph Bipartite?
  0787 Cheapest Flights Within K Stops
+ 0792 Number of Matching Subsequences
  0797 All Paths From Source to Target
  0811 Subdomain Visit Count
  0841 Keys and Rooms
@@ -1004,6 +1009,7 @@ Num of Python Practice:  338
  0934 Shortest Bridge
  0935 Knight Dialer
  0938 Range Sum of BST
+ 0954 Array of Doubled Pairs
  0958 Check Completeness of a Binary Tree
  0969 Pancake Sorting
  0973 K Closest Points to Origin
@@ -1070,10 +1076,10 @@ Num of Python Practice:  338
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   69 /  545
-Solved / Total (Medium):  245 / 1156
+Solved / Total (Medium):  247 / 1157
 Solved / Total (Hard)  :   24 /  466
-Solved / Total (All)   :  338 / 2167
-Total Score            :  924
+Solved / Total (All)   :  340 / 2168
+Total Score            :  930
 =====================================
 
 ```

@@ -2148,6 +2148,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0792", 
+    "Level": 2, 
+    "Title": "Number of Matching Subsequences", 
+    "Url": "https://leetcode.com/problems/number-of-matching-subsequences", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0797", 
     "Level": 2, 
     "Title": "All Paths From Source to Target", 
@@ -2287,6 +2295,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Range Sum of BST", 
     "Url": "https://leetcode.com/problems/range-sum-of-bst", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0954", 
+    "Level": 2, 
+    "Title": "Array of Doubled Pairs", 
+    "Url": "https://leetcode.com/problems/array-of-doubled-pairs", 
     "Tags": [], 
     "Memo": ""
 },
