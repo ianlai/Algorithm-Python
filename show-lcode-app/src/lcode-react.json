@@ -2139,6 +2139,14 @@
     "Date": "2021-06-05"
 },
 {
+    "Number": "0392", 
+    "Level": 1, 
+    "Title": "Is Subsequence", 
+    "Url": "https://leetcode.com/problems/is-subsequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0394", 
     "Level": 2, 
     "Title": "Decode String", 
@@ -3068,7 +3076,8 @@
     "Title": "Number of Matching Subsequences", 
     "Url": "https://leetcode.com/problems/number-of-matching-subsequences", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-11"
 },
 {
     "Number": "0797", 
@@ -3274,7 +3283,8 @@
     "Title": "Array of Doubled Pairs", 
     "Url": "https://leetcode.com/problems/array-of-doubled-pairs", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-10"
 },
 {
     "Number": "0958", 

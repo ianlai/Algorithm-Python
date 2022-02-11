@@ -1509,6 +1509,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0392", 
+    "Level": 1, 
+    "Title": "Is Subsequence", 
+    "Url": "https://leetcode.com/problems/is-subsequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0394", 
     "Level": 2, 
     "Title": "Decode String", 

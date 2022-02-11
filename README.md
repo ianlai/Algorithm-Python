@@ -260,6 +260,7 @@ algo
 │   ├── __0014__Longest Common Prefix.py
 │   ├── __0151__Reverse Words in a String.py
 │   ├── __0161__One Edit Distance.py
+│   ├── __0392__Is Subsequence.py
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
 │   ├── __0767__Reorganize String.py
@@ -382,7 +383,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 353 files
+28 directories, 354 files
 
 =====================================
 ============= Local Repo ============
@@ -568,6 +569,7 @@ __0378__Kth Smallest Element in a Sorted Matrix.py
 __0380__Insert Delete GetRandom O(1).py
 __0384__Shuffle an Array.py
 __0387__First Unique Character in a String.py
+__0392__Is Subsequence.py
 __0394__Decode String.py
 __0395__Longest Substring with At Least K Repeating Characters.py
 __0399__Evaluate Division.py
@@ -728,7 +730,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  340
+Num of Python Practice:  341
 
 
 =====================================
@@ -915,6 +917,7 @@ Num of Python Practice:  340
  0380 Insert Delete GetRandom O(1)
  0384 Shuffle an Array
  0387 First Unique Character in a String
+ 0392 Is Subsequence
  0394 Decode String
  0395 Longest Substring with At Least K Repeating Characters
  0399 Evaluate Division
@@ -1075,11 +1078,11 @@ Num of Python Practice:  340
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   69 /  545
+Solved / Total (Easy)  :   70 /  545
 Solved / Total (Medium):  247 / 1157
 Solved / Total (Hard)  :   24 /  466
-Solved / Total (All)   :  340 / 2168
-Total Score            :  930
+Solved / Total (All)   :  341 / 2168
+Total Score            :  931
 =====================================
 
 ```
