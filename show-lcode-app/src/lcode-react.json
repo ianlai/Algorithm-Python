@@ -2144,7 +2144,8 @@
     "Title": "Is Subsequence", 
     "Url": "https://leetcode.com/problems/is-subsequence", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-11"
 },
 {
     "Number": "0394", 
@@ -3077,7 +3078,7 @@
     "Url": "https://leetcode.com/problems/number-of-matching-subsequences", 
     "Tags": [], 
     "Memo": "", 
-    "Date": "2022-02-11"
+    "Date": "2022-02-12"
 },
 {
     "Number": "0797", 

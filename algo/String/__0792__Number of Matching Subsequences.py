@@ -1,8 +1,36 @@
 class Solution:
     
-    #2022/02/11
-    # Aggregate the strings to 26 char buckets; copy bucket beforehand [O(S+L*N): 39%]
+    # 2022/02/12
+    # Aggregate the strings to 26 char buckets
+    # copy bucket beforehand + string index [O(S+L*N): 58%]
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
+        print("Code6")
+        buckets = [[] for _ in range(26)]
+        for word in words:
+            idx = ord(word[0]) - ord('a')
+            buckets[idx].append((word, 0))
+
+        res = 0
+        for sch in s:
+            idx = ord(sch) - ord('a')
+            oldBucket = buckets[idx]
+            buckets[idx] = []
+            
+            for word, position in oldBucket:
+                next_position = position + 1
+                if next_position == len(word):
+                    res += 1
+                else:
+                    idx = ord(word[next_position]) - ord('a')
+                    buckets[idx].append((word, next_position))
+        return res
+    
+    # ==============================================================
+
+    #2022/02/11
+    # Aggregate the strings to 26 char buckets
+    # copy bucket beforehand + string slicing [O(S+L2*N): 39%]
+    def numMatchingSubseq5(self, s: str, words: List[str]) -> int:
         print("Code5")
         buckets = [[] for _ in range(26)]
         for word in words:
