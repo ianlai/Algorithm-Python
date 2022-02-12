@@ -138,6 +138,7 @@ algo
 │   ├── __1130__Minimum Cost Tree From Leaf Values.py
 │   ├── __1137__N-th Tribonacci Number.py
 │   ├── __1143__Longest Common Subsequence.py
+│   ├── __1235__Maximum Profit in Job Scheduling.py
 │   ├── __1277__Count Square Submatrices with All Ones.py
 │   ├── __1289__Minimum Falling Path Sum II.py
 │   ├── __1395__Count Number of Teams.py
@@ -383,7 +384,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 354 files
+28 directories, 355 files
 
 =====================================
 ============= Local Repo ============
@@ -698,6 +699,7 @@ __1167__Minimum Cost to Connect Sticks.py
 __1197__Minimum Knight Moves.py
 __1198__Find Smallest Common Element in All Rows.py
 __1214__Two Sum BSTs.py
+__1235__Maximum Profit in Job Scheduling.py
 __1248__Count Number of Nice Subarrays.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
@@ -730,7 +732,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  341
+Num of Python Practice:  342
 
 
 =====================================
@@ -1046,6 +1048,7 @@ Num of Python Practice:  341
  1197 Minimum Knight Moves
  1198 Find Smallest Common Element in All Rows
  1214 Two Sum BSTs
+ 1235 Maximum Profit in Job Scheduling
  1248 Count Number of Nice Subarrays
  1254 Number of Closed Islands
  1268 Search Suggestions System
@@ -1080,9 +1083,9 @@ Num of Python Practice:  341
 =====================================
 Solved / Total (Easy)  :   70 /  545
 Solved / Total (Medium):  247 / 1157
-Solved / Total (Hard)  :   24 /  466
-Solved / Total (All)   :  341 / 2168
-Total Score            :  931
+Solved / Total (Hard)  :   25 /  466
+Solved / Total (All)   :  342 / 2168
+Total Score            :  936
 =====================================
 
 ```
