@@ -113,6 +113,7 @@ algo
 │   ├── __0119__Pascal's Triangle II.py
 │   ├── __0120__Triangle.py
 │   ├── __0121__Best Time to Buy and Sell Stock.py
+│   ├── __0123__Best Time to Buy and Sell Stock III.py
 │   ├── __0152__Maximum Product Subarray.py
 │   ├── __0221__Maximal Square.py
 │   ├── __0279__Perfect Squares.py
@@ -384,7 +385,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 355 files
+28 directories, 356 files
 
 =====================================
 ============= Local Repo ============
@@ -475,6 +476,7 @@ __0119__Pascal's Triangle II.py
 __0120__Triangle.py
 __0121__Best Time to Buy and Sell Stock.py
 __0122__Best Time to Buy and Sell Stock II.py
+__0123__Best Time to Buy and Sell Stock III.py
 __0125__Valid Palindrome.py
 __0126__Word Ladder II.py
 __0127__Word Ladder.py
@@ -732,7 +734,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  342
+Num of Python Practice:  343
 
 
 =====================================
@@ -824,6 +826,7 @@ Num of Python Practice:  342
  0120 Triangle
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
+ 0123 Best Time to Buy and Sell Stock III
  0125 Valid Palindrome
  0126 Word Ladder II
  0127 Word Ladder
@@ -1081,11 +1084,11 @@ Num of Python Practice:  342
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   70 /  545
-Solved / Total (Medium):  247 / 1157
-Solved / Total (Hard)  :   25 /  466
-Solved / Total (All)   :  342 / 2168
-Total Score            :  936
+Solved / Total (Easy)  :   70 /  546
+Solved / Total (Medium):  247 / 1159
+Solved / Total (Hard)  :   26 /  467
+Solved / Total (All)   :  343 / 2172
+Total Score            :  941
 =====================================
 
 ```

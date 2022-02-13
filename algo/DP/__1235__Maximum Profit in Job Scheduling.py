@@ -1,6 +1,6 @@
 class Solution:
     
-    # Sorting + DP (n1) + Binary Search 
+    # Sorting + DP (n1) + Binary Search [O(nlogn): 50%]
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
         print("Code4")
         p = []
@@ -21,11 +21,9 @@ class Solution:
                 else:
                     end = mid
             return start - 1
-                    
             
         for i in range(len(dp)):
-            pstart = p[i][0]
-            lastIdx = findLast(p, i,)
+            lastIdx = findLast(p, i)
             dp[i] = max(dp[lastIdx] + p[i][2], dp[i-1])
         return dp[n-1]
     
