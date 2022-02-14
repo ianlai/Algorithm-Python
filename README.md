@@ -134,6 +134,7 @@ algo
 │   ├── __0935__Knight Dialer.py
 │   ├── __1014__Best Sightseeing Pair.py
 │   ├── __1025__Divisor Game.py
+│   ├── __1029__Two City Scheduling.py
 │   ├── __1048__Longest String Chain.py
 │   ├── __1049__Last Stone Weight II.py
 │   ├── __1130__Minimum Cost Tree From Leaf Values.py
@@ -385,7 +386,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 356 files
+28 directories, 357 files
 
 =====================================
 ============= Local Repo ============
@@ -682,6 +683,7 @@ __1011__Capacity To Ship Packages Within D Days.py
 __1014__Best Sightseeing Pair.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
+__1029__Two City Scheduling.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1041__Robot Bounded In Circle.py
 __1048__Longest String Chain.py
@@ -734,7 +736,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  343
+Num of Python Practice:  344
 
 
 =====================================
@@ -1032,6 +1034,7 @@ Num of Python Practice:  343
  1014 Best Sightseeing Pair
  1020 Number of Enclaves
  1025 Divisor Game
+ 1029 Two City Scheduling
  1038 Binary Search Tree to Greater Sum Tree
  1041 Robot Bounded In Circle
  1048 Longest String Chain
@@ -1085,10 +1088,10 @@ Num of Python Practice:  343
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   70 /  546
-Solved / Total (Medium):  247 / 1159
+Solved / Total (Medium):  248 / 1160
 Solved / Total (Hard)  :   26 /  467
-Solved / Total (All)   :  343 / 2172
-Total Score            :  941
+Solved / Total (All)   :  344 / 2173
+Total Score            :  944
 =====================================
 
 ```

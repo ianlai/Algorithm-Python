@@ -2446,6 +2446,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1029", 
+    "Level": 2, 
+    "Title": "Two City Scheduling", 
+    "Url": "https://leetcode.com/problems/two-city-scheduling", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1038", 
     "Level": 2, 
     "Title": "Binary Search Tree to Greater Sum Tree", 
