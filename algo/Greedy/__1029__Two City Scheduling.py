@@ -1,8 +1,21 @@
 class Solution:
+    # ===============================================
+    # 2022/02/14
+    # Greedy [O(nlogn): 56%]
+    def twoCitySchedCost(self, costs: List[List[int]]) -> int:
+        print("Code3")
+        costs.sort(key = lambda x: x[0] - x[1])
+        res = 0
+        n = len(costs) // 2
+        for i in range(n):
+            res += costs[i][0] + costs[i+n][1]
+        return res
+        
 
     # ===============================================
-    # Greedy [O(n): 57%]
-    def twoCitySchedCost(self, costs: List[List[int]]) -> int:
+    # 2022/02/14
+    # Greedy [O(nlogn): 57%]
+    def twoCitySchedCost2(self, costs: List[List[int]]) -> int:
         print("Code2")
         diffCosts = []
         for i, cost in enumerate(costs):
@@ -32,6 +45,7 @@ class Solution:
         return res
             
     # ===============================================
+    # 2022/02/14
     # DP [O(n2): 5%]
     def twoCitySchedCost1(self, costs: List[List[int]]) -> int:
         print("Code1")

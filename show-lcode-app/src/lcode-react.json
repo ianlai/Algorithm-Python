@@ -3468,7 +3468,7 @@
     "Level": 2, 
     "Title": "Two City Scheduling", 
     "Url": "https://leetcode.com/problems/two-city-scheduling", 
-    "Tags": [], 
+    "Tags": ["Greedy", "DP"], 
     "Memo": "", 
     "Date": "2022-02-14"
 },
