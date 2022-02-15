@@ -12,6 +12,7 @@ algo
 │   ├── __0252__Meeting Rooms.py
 │   ├── __0253__Meeting Rooms II.py
 │   ├── __0283__Move Zeroes.py
+│   ├── __0303__Range Sum Query - Immutable.py
 │   ├── __0350__Intersection of Two Arrays II.py
 │   ├── __0384__Shuffle an Array.py
 │   ├── __0435__Non-overlapping Intervals.py
@@ -233,6 +234,7 @@ algo
 │   ├── __0048__Rotate Image.py
 │   ├── __0054__Spiral Matrix.py
 │   ├── __0073__Set Matrix Zeroes.py
+│   ├── __0304__Range Sum Query 2D - Immutable.py
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
@@ -389,7 +391,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-29 directories, 359 files
+29 directories, 361 files
 
 =====================================
 ============= Local Repo ============
@@ -559,6 +561,8 @@ __0290__Word Pattern.py
 __0291__Word Pattern II.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0300__Longest Increasing Subsequence.py
+__0303__Range Sum Query - Immutable.py
+__0304__Range Sum Query 2D - Immutable.py
 __0305__Number of Islands II.py
 __0310__Minimum Height Trees.py
 __0314__Binary Tree Vertical Order Traversal.py
@@ -741,7 +745,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  346
+Num of Python Practice:  348
 
 
 =====================================
@@ -912,6 +916,8 @@ Num of Python Practice:  346
  0291 Word Pattern II
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
+ 0303 Range Sum Query - Immutable
+ 0304 Range Sum Query 2D - Immutable
  0305 Number of Islands II
  0310 Minimum Height Trees
  0314 Binary Tree Vertical Order Traversal
@@ -1094,11 +1100,11 @@ Num of Python Practice:  346
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   70 /  546
-Solved / Total (Medium):  250 / 1159
+Solved / Total (Easy)  :   71 /  546
+Solved / Total (Medium):  251 / 1159
 Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  346 / 2173
-Total Score            :  950
+Solved / Total (All)   :  348 / 2173
+Total Score            :  954
 =====================================
 
 ```

@@ -1372,6 +1372,22 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0303", 
+    "Level": 1, 
+    "Title": "Range Sum Query - Immutable", 
+    "Url": "https://leetcode.com/problems/range-sum-query-immutable", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0304", 
+    "Level": 2, 
+    "Title": "Range Sum Query 2D - Immutable", 
+    "Url": "https://leetcode.com/problems/range-sum-query-2d-immutable", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0305", 
     "Level": 3, 
     "Title": "Number of Islands II", 
