@@ -344,8 +344,12 @@
     "Level": 2, 
     "Title": "Jump Game II", 
     "Url": "https://leetcode.com/problems/jump-game-ii", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "DP", 
+        "Greedy", 
+        "**CHECK"
+    ], 
+    "Memo": "目前只做出DP(5%)。", 
     "Date": "2022-02-15"
 },
 {
@@ -445,8 +449,10 @@
     "Level": 2, 
     "Title": "Spiral Matrix", 
     "Url": "https://leetcode.com/problems/spiral-matrix", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Matrix"
+    ], 
+    "Memo": "應該還可以簡化。", 
     "Date": "2022-02-15"
 },
 {
@@ -1028,8 +1034,10 @@
     "Level": 3, 
     "Title": "Best Time to Buy and Sell Stock III", 
     "Url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": "雙向DP，找出切割點。", 
     "Date": "2022-02-14"
 },
 {
@@ -1630,8 +1638,12 @@
     "Level": 2, 
     "Title": "Product of Array Except Self", 
     "Url": "https://leetcode.com/problems/product-of-array-except-self", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Array", 
+        "Cumulative-Sum", 
+        "**GOOD"
+    ], 
+    "Memo": "雙向的Cumulative-Sum(乘積)。練習雙向Traverse的題目。", 
     "Date": "2022-02-09"
 },
 {
@@ -1696,7 +1708,7 @@
     "Url": "https://leetcode.com/problems/shortest-word-distance-ii", 
     "Tags": [], 
     "Memo": "", 
-    "Date": "2022-01-31"
+    "Date": "2022-02-16"
 },
 {
     "Number": "0249", 
@@ -1936,16 +1948,24 @@
     "Level": 1, 
     "Title": "Range Sum Query - Immutable", 
     "Url": "https://leetcode.com/problems/range-sum-query-immutable", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Array", 
+        "Cumulative-Sum"
+    ], 
+    "Memo": "", 
+    "Date": "2022-02-15"
 },
 {
     "Number": "0304", 
     "Level": 2, 
     "Title": "Range Sum Query 2D - Immutable", 
     "Url": "https://leetcode.com/problems/range-sum-query-2d-immutable", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Matrix", 
+        "Cumulative-Sum"
+    ], 
+    "Memo": "做出二維的Prefix-sum，A-B-C+D就可以用O(1)找出區塊和。", 
+    "Date": "2022-02-15"
 },
 {
     "Number": "0305", 
@@ -2186,7 +2206,12 @@
     "Level": 1, 
     "Title": "Is Subsequence", 
     "Url": "https://leetcode.com/problems/is-subsequence", 
-    "Tags": [], 
+    "Tags": [
+        "Subsequence", 
+        "D&C", 
+        "Two-Pointer", 
+        "**BASIC"
+    ], 
     "Memo": "", 
     "Date": "2022-02-11"
 },
@@ -3119,8 +3144,14 @@
     "Level": 2, 
     "Title": "Number of Matching Subsequences", 
     "Url": "https://leetcode.com/problems/number-of-matching-subsequences", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Sequence", 
+        "String", 
+        "HashMap", 
+        "**GOOD", 
+        "**大神"
+    ], 
+    "Memo": "使用HashMap把字分組，使sequence往前走的時候只會碰到相關的字。有點類似Trie，但比較簡單，算是有點特別的作法。", 
     "Date": "2022-02-12"
 },
 {
@@ -3326,7 +3357,10 @@
     "Level": 2, 
     "Title": "Array of Doubled Pairs", 
     "Url": "https://leetcode.com/problems/array-of-doubled-pairs", 
-    "Tags": [], 
+    "Tags": [
+        "Sorting", 
+        "Greedy"
+    ], 
     "Memo": "", 
     "Date": "2022-02-10"
 },
@@ -3737,8 +3771,14 @@
     "Level": 3, 
     "Title": "Maximum Profit in Job Scheduling", 
     "Url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "DP", 
+        "Binary-Search", 
+        "Sorting", 
+        "Interval", 
+        "**大神"
+    ], 
+    "Memo": "原本做出的DP太慢，需要O(n2)。正確作法是DP O(n)。找出一個f(t）可以求出Maxiimum Profit at t的DP關聯式。", 
     "Date": "2022-02-13"
 },
 {
