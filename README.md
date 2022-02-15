@@ -231,6 +231,7 @@ algo
 │   └── __0593__Valid Square.py
 ├── Matrix
 │   ├── __0048__Rotate Image.py
+│   ├── __0054__Spiral Matrix.py
 │   ├── __0073__Set Matrix Zeroes.py
 │   └── __0498__Diagonal Traverse.py
 ├── Monotonic
@@ -388,7 +389,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-29 directories, 358 files
+29 directories, 359 files
 
 =====================================
 ============= Local Repo ============
@@ -431,6 +432,7 @@ __0050__Pow(x, n).py
 __0051__N-Queens.py
 __0052__N-Queens II.py
 __0053__Maximum Subarray.py
+__0054__Spiral Matrix.py
 __0055__Jump Game.py
 __0056__Merge Intervals.py
 __0057__Insert Interval.py
@@ -739,7 +741,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  345
+Num of Python Practice:  346
 
 
 =====================================
@@ -783,6 +785,7 @@ Num of Python Practice:  345
  0051 N-Queens
  0052 N-Queens II
  0053 Maximum Subarray
+ 0054 Spiral Matrix
  0055 Jump Game
  0056 Merge Intervals
  0057 Insert Interval
@@ -1092,10 +1095,10 @@ Num of Python Practice:  345
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   70 /  546
-Solved / Total (Medium):  249 / 1159
+Solved / Total (Medium):  250 / 1159
 Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  345 / 2173
-Total Score            :  947
+Solved / Total (All)   :  346 / 2173
+Total Score            :  950
 =====================================
 
 ```

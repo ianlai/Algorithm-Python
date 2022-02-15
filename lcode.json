@@ -323,6 +323,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0054", 
+    "Level": 2, 
+    "Title": "Spiral Matrix", 
+    "Url": "https://leetcode.com/problems/spiral-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0055", 
     "Level": 2, 
     "Title": "Jump Game", 
