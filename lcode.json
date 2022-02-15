@@ -244,6 +244,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0045", 
+    "Level": 2, 
+    "Title": "Jump Game II", 
+    "Url": "https://leetcode.com/problems/jump-game-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0046", 
     "Level": 2, 
     "Title": "Permutations", 

@@ -340,6 +340,14 @@
     "Date": "2021-06-06"
 },
 {
+    "Number": "0045", 
+    "Level": 2, 
+    "Title": "Jump Game II", 
+    "Url": "https://leetcode.com/problems/jump-game-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0046", 
     "Level": 2, 
     "Title": "Permutations", 
@@ -3468,9 +3476,12 @@
     "Level": 2, 
     "Title": "Two City Scheduling", 
     "Url": "https://leetcode.com/problems/two-city-scheduling", 
-    "Tags": ["Greedy", "DP"], 
+    "Tags": [
+        "Greedy", 
+        "DP"
+    ], 
     "Memo": "", 
-    "Date": "2022-02-14"
+    "Date": "2022-02-15"
 },
 {
     "Number": "1038", 

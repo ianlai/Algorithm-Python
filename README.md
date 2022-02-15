@@ -103,6 +103,7 @@ algo
 ├── DP
 │   ├── __0010__Regular Expression Matching.py
 │   ├── __0044__Wildcard Matching.py
+│   ├── __0045__Jump Game II.py
 │   ├── __0055__Jump Game.py
 │   ├── __0062__Unique Paths.py
 │   ├── __0063__Unique Paths II.py
@@ -134,7 +135,6 @@ algo
 │   ├── __0935__Knight Dialer.py
 │   ├── __1014__Best Sightseeing Pair.py
 │   ├── __1025__Divisor Game.py
-│   ├── __1029__Two City Scheduling.py
 │   ├── __1048__Longest String Chain.py
 │   ├── __1049__Last Stone Weight II.py
 │   ├── __1130__Minimum Cost Tree From Leaf Values.py
@@ -171,6 +171,8 @@ algo
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   └── __2093__Minimum Cost to Reach City With Discounts.py
+├── Greedy
+│   └── __1029__Two City Scheduling.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
@@ -386,7 +388,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-28 directories, 357 files
+29 directories, 358 files
 
 =====================================
 ============= Local Repo ============
@@ -420,6 +422,7 @@ __0039__Combination Sum.py
 __0040__Combination Sum II.py
 __0042__Trapping Rain Water.py
 __0044__Wildcard Matching.py
+__0045__Jump Game II.py
 __0046__Permutations.py
 __0047__Permutations II.py
 __0048__Rotate Image.py
@@ -736,7 +739,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  344
+Num of Python Practice:  345
 
 
 =====================================
@@ -771,6 +774,7 @@ Num of Python Practice:  344
  0040 Combination Sum II
  0042 Trapping Rain Water
  0044 Wildcard Matching
+ 0045 Jump Game II
  0046 Permutations
  0047 Permutations II
  0048 Rotate Image
@@ -1088,10 +1092,10 @@ Num of Python Practice:  344
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   70 /  546
-Solved / Total (Medium):  248 / 1160
-Solved / Total (Hard)  :   26 /  467
-Solved / Total (All)   :  344 / 2173
-Total Score            :  944
+Solved / Total (Medium):  249 / 1159
+Solved / Total (Hard)  :   26 /  468
+Solved / Total (All)   :  345 / 2173
+Total Score            :  947
 =====================================
 
 ```
