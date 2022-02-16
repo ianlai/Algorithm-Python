@@ -2546,6 +2546,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1091", 
+    "Level": 2, 
+    "Title": "Shortest Path in Binary Matrix", 
+    "Url": "https://leetcode.com/problems/shortest-path-in-binary-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1094", 
     "Level": 2, 
     "Title": "Car Pooling", 
@@ -2716,6 +2724,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Deepest Leaves Sum", 
     "Url": "https://leetcode.com/problems/deepest-leaves-sum", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1306", 
+    "Level": 2, 
+    "Title": "Jump Game III", 
+    "Url": "https://leetcode.com/problems/jump-game-iii", 
     "Tags": [], 
     "Memo": ""
 },

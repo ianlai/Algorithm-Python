@@ -44,7 +44,9 @@ algo
 │   ├── __0752__Open the Lock.py
 │   ├── __0909__Snakes and Ladders.py
 │   ├── __0994__Rotting Oranges.py
-│   └── __1197__Minimum Knight Moves.py
+│   ├── __1091__Shortest Path in Binary Matrix.py
+│   ├── __1197__Minimum Knight Moves.py
+│   └── __1306__Jump Game III.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
 │   ├── __0033__Search in Rotated Sorted Array.py
@@ -394,7 +396,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-30 directories, 363 files
+30 directories, 365 files
 
 =====================================
 ============= Local Repo ============
@@ -703,6 +705,7 @@ __1041__Robot Bounded In Circle.py
 __1048__Longest String Chain.py
 __1049__Last Stone Weight II.py
 __1087__Brace Expansion.py
+__1091__Shortest Path in Binary Matrix.py
 __1094__Car Pooling.py
 __1096__Brace Expansion II.py
 __1099__Two Sum Less Than K.py
@@ -724,6 +727,7 @@ __1268__Search Suggestions System.py
 __1277__Count Square Submatrices with All Ones.py
 __1289__Minimum Falling Path Sum II.py
 __1302__Deepest Leaves Sum.py
+__1306__Jump Game III.py
 __1319__Number of Operations to Make Network Connected.py
 __1358__Number of Substrings Containing All Three Characters.py
 __1382__Balance a Binary Search Tree.py
@@ -750,7 +754,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  350
+Num of Python Practice:  352
 
 
 =====================================
@@ -1060,6 +1064,7 @@ Num of Python Practice:  350
  1048 Longest String Chain
  1049 Last Stone Weight II
  1087 Brace Expansion
+ 1091 Shortest Path in Binary Matrix
  1094 Car Pooling
  1096 Brace Expansion II
  1099 Two Sum Less Than K
@@ -1081,6 +1086,7 @@ Num of Python Practice:  350
  1277 Count Square Submatrices with All Ones
  1289 Minimum Falling Path Sum II
  1302 Deepest Leaves Sum
+ 1306 Jump Game III
  1319 Number of Operations to Make Network Connected
  1358 Number of Substrings Containing All Three Characters
  1382 Balance a Binary Search Tree
@@ -1108,10 +1114,10 @@ Num of Python Practice:  350
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  546
-Solved / Total (Medium):  252 / 1159
+Solved / Total (Medium):  254 / 1159
 Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  350 / 2173
-Total Score            :  958
+Solved / Total (All)   :  352 / 2173
+Total Score            :  964
 =====================================
 
 ```
