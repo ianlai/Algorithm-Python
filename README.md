@@ -117,6 +117,7 @@ algo
 │   ├── __0121__Best Time to Buy and Sell Stock.py
 │   ├── __0123__Best Time to Buy and Sell Stock III.py
 │   ├── __0152__Maximum Product Subarray.py
+│   ├── __0198__House Robber.py
 │   ├── __0221__Maximal Square.py
 │   ├── __0279__Perfect Squares.py
 │   ├── __0300__Longest Increasing Subsequence.py
@@ -249,6 +250,8 @@ algo
 │   ├── __1438__Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py
 │   ├── __1475__Final Prices With a Special Discount in a Shop.py
 │   └── __1762__Buildings With an Ocean View.py
+├── Queue
+│   └── __0346__Moving Average from Data Stream.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
 │   ├── __0241__Different Ways to Add Parentheses.py
@@ -391,7 +394,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-29 directories, 361 files
+30 directories, 363 files
 
 =====================================
 ============= Local Repo ============
@@ -515,6 +518,7 @@ __0167__Two Sum II - Input array is sorted.py
 __0173__Binary Search Tree Iterator.py
 __0187__Repeated DNA Sequences.py
 __0189__Rotate Array.py
+__0198__House Robber.py
 __0199__Binary Tree Right Side View.py
 __0200__Number of Islands.py
 __0206__Reverse Linked List.py
@@ -572,6 +576,7 @@ __0332__Reconstruct Itinerary.py
 __0333__Largest BST Subtree.py
 __0340__Longest Substring with At Most K Distinct Characters.py
 __0341__Flatten Nested List Iterator.py
+__0346__Moving Average from Data Stream.py
 __0347__Top K Frequent Elements.py
 __0349__Intersection of Two Arrays.py
 __0350__Intersection of Two Arrays II.py
@@ -745,7 +750,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  348
+Num of Python Practice:  350
 
 
 =====================================
@@ -870,6 +875,7 @@ Num of Python Practice:  348
  0173 Binary Search Tree Iterator
  0187 Repeated DNA Sequences
  0189 Rotate Array
+ 0198 House Robber
  0199 Binary Tree Right Side View
  0200 Number of Islands
  0206 Reverse Linked List
@@ -927,6 +933,7 @@ Num of Python Practice:  348
  0333 Largest BST Subtree
  0340 Longest Substring with At Most K Distinct Characters
  0341 Flatten Nested List Iterator
+ 0346 Moving Average from Data Stream
  0347 Top K Frequent Elements
  0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
@@ -1100,11 +1107,11 @@ Num of Python Practice:  348
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   71 /  546
-Solved / Total (Medium):  251 / 1159
+Solved / Total (Easy)  :   72 /  546
+Solved / Total (Medium):  252 / 1159
 Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  348 / 2173
-Total Score            :  954
+Solved / Total (All)   :  350 / 2173
+Total Score            :  958
 =====================================
 
 ```
