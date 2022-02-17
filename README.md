@@ -262,6 +262,7 @@ algo
 │   ├── __1087__Brace Expansion.py
 │   └── __1096__Brace Expansion II.py
 ├── Sorting
+│   ├── __0179__Largest Number.py
 │   └── __0242__Valid Anagram.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
@@ -362,6 +363,7 @@ algo
 │   ├── __0438__Find All Anagrams in a String.py
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
+│   ├── __0647__Palindromic Substrings.py
 │   ├── __0680__Valid Palindrome II.py
 │   ├── __0904__Fruit Into Baskets.py
 │   ├── __0905__Sort Array By Parity.py
@@ -396,7 +398,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-30 directories, 365 files
+30 directories, 367 files
 
 =====================================
 ============= Local Repo ============
@@ -518,6 +520,7 @@ __0161__One Edit Distance.py
 __0162__Find Peak Element.py
 __0167__Two Sum II - Input array is sorted.py
 __0173__Binary Search Tree Iterator.py
+__0179__Largest Number.py
 __0187__Repeated DNA Sequences.py
 __0189__Rotate Array.py
 __0198__House Robber.py
@@ -636,6 +639,7 @@ __0593__Valid Square.py
 __0611__Valid Triangle Number.py
 __0617__Merge Two Binary Trees.py
 __0646__Maximum Length of Pair Chain.py
+__0647__Palindromic Substrings.py
 __0648__Replace Words.py
 __0658__Find K Closest Elements.py
 __0662__Maximum Width of Binary Tree.py
@@ -754,7 +758,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  352
+Num of Python Practice:  354
 
 
 =====================================
@@ -877,6 +881,7 @@ Num of Python Practice:  352
  0162 Find Peak Element
  0167 Two Sum II - Input Array Is Sorted
  0173 Binary Search Tree Iterator
+ 0179 Largest Number
  0187 Repeated DNA Sequences
  0189 Rotate Array
  0198 House Robber
@@ -995,6 +1000,7 @@ Num of Python Practice:  352
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
  0646 Maximum Length of Pair Chain
+ 0647 Palindromic Substrings
  0648 Replace Words
  0658 Find K Closest Elements
  0662 Maximum Width of Binary Tree
@@ -1114,10 +1120,10 @@ Num of Python Practice:  352
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  546
-Solved / Total (Medium):  254 / 1159
+Solved / Total (Medium):  256 / 1160
 Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  352 / 2173
-Total Score            :  964
+Solved / Total (All)   :  354 / 2174
+Total Score            :  970
 =====================================
 
 ```

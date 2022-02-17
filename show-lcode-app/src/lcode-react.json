@@ -1378,6 +1378,14 @@
     "Date": "2021-10-09"
 },
 {
+    "Number": "0179", 
+    "Level": 2, 
+    "Title": "Largest Number", 
+    "Url": "https://leetcode.com/problems/largest-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0187", 
     "Level": 2, 
     "Title": "Repeated DNA Sequences", 
@@ -2782,6 +2790,14 @@
     ], 
     "Memo": "和1235(Maximum Profit in Job Scheduling)有點類似，但1235有加上權重，勢必要用DP+BinarySearch。這題則可以用Greedy。", 
     "Date": "2022-02-07"
+},
+{
+    "Number": "0647", 
+    "Level": 2, 
+    "Title": "Palindromic Substrings", 
+    "Url": "https://leetcode.com/problems/palindromic-substrings", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0648", 

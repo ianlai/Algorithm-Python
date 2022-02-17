@@ -966,6 +966,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0179", 
+    "Level": 2, 
+    "Title": "Largest Number", 
+    "Url": "https://leetcode.com/problems/largest-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0187", 
     "Level": 2, 
     "Title": "Repeated DNA Sequences", 
@@ -1948,6 +1956,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Maximum Length of Pair Chain", 
     "Url": "https://leetcode.com/problems/maximum-length-of-pair-chain", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0647", 
+    "Level": 2, 
+    "Title": "Palindromic Substrings", 
+    "Url": "https://leetcode.com/problems/palindromic-substrings", 
     "Tags": [], 
     "Memo": ""
 },
