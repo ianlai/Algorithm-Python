@@ -135,6 +135,7 @@ algo
 │   ├── __0646__Maximum Length of Pair Chain.py
 │   ├── __0688__Knight Probability in Chessboard.py
 │   ├── __0718__Maximum Length of Repeated Subarray.py
+│   ├── __0740__Delete and Earn.py
 │   ├── __0931__Minimum Falling Path Sum.py
 │   ├── __0935__Knight Dialer.py
 │   ├── __1014__Best Sightseeing Pair.py
@@ -392,13 +393,15 @@ algo
 │       ├── LinkedList.cpython-37.pyc
 │       └── UnrolledLinkedList.cpython-37.pyc
 ├── _Interviews
+│   ├── Mock
+│   │   └── NumOfPathsToDest.py
 │   └── SmartNews-0
 │       ├── Countries.py
 │       └── SwitchingArray.py
 └── _Template
     └── BinarySearch.py
 
-30 directories, 367 files
+31 directories, 369 files
 
 =====================================
 ============= Local Repo ============
@@ -663,6 +666,7 @@ __0724__Find Pivot Index.py
 __0726__Number of Atoms.py
 __0735__Asteroid Collision.py
 __0739__Daily Temperatures.py
+__0740__Delete and Earn.py
 __0743__Network Delay Time.py
 __0752__Open the Lock.py
 __0760__Find Anagram Mappings.py
@@ -758,7 +762,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  354
+Num of Python Practice:  355
 
 
 =====================================
@@ -1024,6 +1028,7 @@ Num of Python Practice:  354
  0726 Number of Atoms
  0735 Asteroid Collision
  0739 Daily Temperatures
+ 0740 Delete and Earn
  0743 Network Delay Time
  0752 Open the Lock
  0760 Find Anagram Mappings
@@ -1120,10 +1125,10 @@ Num of Python Practice:  354
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  546
-Solved / Total (Medium):  256 / 1160
+Solved / Total (Medium):  257 / 1161
 Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  354 / 2174
-Total Score            :  970
+Solved / Total (All)   :  355 / 2175
+Total Score            :  973
 =====================================
 
 ```

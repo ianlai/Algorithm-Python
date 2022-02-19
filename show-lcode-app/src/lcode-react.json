@@ -1383,7 +1383,8 @@
     "Title": "Largest Number", 
     "Url": "https://leetcode.com/problems/largest-number", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-17"
 },
 {
     "Number": "0187", 
@@ -2797,7 +2798,8 @@
     "Title": "Palindromic Substrings", 
     "Url": "https://leetcode.com/problems/palindromic-substrings", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-17"
 },
 {
     "Number": "0648", 
@@ -3066,6 +3068,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-01-10"
+},
+{
+    "Number": "0740", 
+    "Level": 2, 
+    "Title": "Delete and Earn", 
+    "Url": "https://leetcode.com/problems/delete-and-earn", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0743", 

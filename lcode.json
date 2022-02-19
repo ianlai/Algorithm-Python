@@ -2158,6 +2158,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0740", 
+    "Level": 2, 
+    "Title": "Delete and Earn", 
+    "Url": "https://leetcode.com/problems/delete-and-earn", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0743", 
     "Level": 2, 
     "Title": "Network Delay Time", 
