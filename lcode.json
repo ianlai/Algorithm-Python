@@ -2448,6 +2448,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0983", 
+    "Level": 2, 
+    "Title": "Minimum Cost For Tickets", 
+    "Url": "https://leetcode.com/problems/minimum-cost-for-tickets", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0985", 
     "Level": 2, 
     "Title": "Sum of Even Numbers After Queries", 
@@ -2514,6 +2522,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Divisor Game", 
     "Url": "https://leetcode.com/problems/divisor-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1027", 
+    "Level": 2, 
+    "Title": "Longest Arithmetic Subsequence", 
+    "Url": "https://leetcode.com/problems/longest-arithmetic-subsequence", 
     "Tags": [], 
     "Memo": ""
 },

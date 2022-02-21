@@ -138,8 +138,10 @@ algo
 │   ├── __0740__Delete and Earn.py
 │   ├── __0931__Minimum Falling Path Sum.py
 │   ├── __0935__Knight Dialer.py
+│   ├── __0983__Minimum Cost For Tickets.py
 │   ├── __1014__Best Sightseeing Pair.py
 │   ├── __1025__Divisor Game.py
+│   ├── __1027__Longest Arithmetic Subsequence.py
 │   ├── __1048__Longest String Chain.py
 │   ├── __1049__Last Stone Weight II.py
 │   ├── __1130__Minimum Cost Tree From Leaf Values.py
@@ -401,7 +403,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-31 directories, 369 files
+31 directories, 371 files
 
 =====================================
 ============= Local Repo ============
@@ -699,6 +701,7 @@ __0973__K Closest Points to Origin.py
 __0975__Odd Even Jump.py
 __0979__Distribute Coins in Binary Tree.py
 __0981__Time Based Key-Value Store.py
+__0983__Minimum Cost For Tickets.py
 __0985__Sum of Even Numbers After Queries.py
 __0986__Interval List Intersections.py
 __0994__Rotting Oranges.py
@@ -707,6 +710,7 @@ __1011__Capacity To Ship Packages Within D Days.py
 __1014__Best Sightseeing Pair.py
 __1020__Number of Enclaves.py
 __1025__Divisor Game.py
+__1027__Longest Arithmetic Subsequence.py
 __1029__Two City Scheduling.py
 __1038__Binary Search Tree to Greater Sum Tree.py
 __1041__Robot Bounded In Circle.py
@@ -762,7 +766,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  355
+Num of Python Practice:  357
 
 
 =====================================
@@ -1061,6 +1065,7 @@ Num of Python Practice:  355
  0975 Odd Even Jump
  0979 Distribute Coins in Binary Tree
  0981 Time Based Key-Value Store
+ 0983 Minimum Cost For Tickets
  0985 Sum of Even Numbers After Queries
  0986 Interval List Intersections
  0994 Rotting Oranges
@@ -1069,6 +1074,7 @@ Num of Python Practice:  355
  1014 Best Sightseeing Pair
  1020 Number of Enclaves
  1025 Divisor Game
+ 1027 Longest Arithmetic Subsequence
  1029 Two City Scheduling
  1038 Binary Search Tree to Greater Sum Tree
  1041 Robot Bounded In Circle
@@ -1124,11 +1130,11 @@ Num of Python Practice:  355
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   72 /  546
-Solved / Total (Medium):  257 / 1161
-Solved / Total (Hard)  :   26 /  468
-Solved / Total (All)   :  355 / 2175
-Total Score            :  973
+Solved / Total (Easy)  :   72 /  548
+Solved / Total (Medium):  259 / 1165
+Solved / Total (Hard)  :   26 /  470
+Solved / Total (All)   :  357 / 2183
+Total Score            :  979
 =====================================
 
 ```

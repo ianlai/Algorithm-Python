@@ -350,7 +350,7 @@
         "**CHECK"
     ], 
     "Memo": "目前只做出DP(5%)。", 
-    "Date": "2022-02-15"
+    "Date": "2022-02-20"
 },
 {
     "Number": "0046", 
@@ -1382,8 +1382,10 @@
     "Level": 2, 
     "Title": "Largest Number", 
     "Url": "https://leetcode.com/problems/largest-number", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Sorting"
+    ], 
+    "Memo": "自訂Sorting，但不用去想規則，就是組起來比比看。由於比較複雜的判斷式，不使用lambda而是另外定義函數。但要使用cmp_to_key來轉換function成key。", 
     "Date": "2022-02-17"
 },
 {
@@ -1416,8 +1418,10 @@
     "Level": 2, 
     "Title": "House Robber", 
     "Url": "https://leetcode.com/problems/house-robber", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "DP"
+    ], 
+    "Memo": "相鄰不能取，所以必須從dp[i-1]或dp[i-2]+num[i]取一個為最大。", 
     "Date": "2022-02-16"
 },
 {
@@ -2797,8 +2801,10 @@
     "Level": 2, 
     "Title": "Palindromic Substrings", 
     "Url": "https://leetcode.com/problems/palindromic-substrings", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Two-Pointer"
+    ], 
+    "Memo": "做出一個接收start,end的函數，函數內使用背向雙指針檢查。", 
     "Date": "2022-02-17"
 },
 {
@@ -3074,8 +3080,12 @@
     "Level": 2, 
     "Title": "Delete and Earn", 
     "Url": "https://leetcode.com/problems/delete-and-earn", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "DP", 
+        "**CHECK"
+    ], 
+    "Memo": "有點類似0198 House Robber，沒有很好想。", 
+    "Date": "2022-02-19"
 },
 {
     "Number": "0743", 
@@ -3484,6 +3494,18 @@
     "Date": "2021-12-11"
 },
 {
+    "Number": "0983", 
+    "Level": 2, 
+    "Title": "Minimum Cost For Tickets", 
+    "Url": "https://leetcode.com/problems/minimum-cost-for-tickets", 
+    "Tags": [
+        "DP", 
+        "**CHECK"
+    ], 
+    "Memo": "苦戰了很久的題目。感覺有很多角度可以做DP，所以搞得很複雜。要再仔細看過。", 
+    "Date": "2022-02-20"
+},
+{
     "Number": "0985", 
     "Level": 2, 
     "Title": "Sum of Even Numbers After Queries", 
@@ -3576,6 +3598,14 @@
     "Date": "2021-11-14"
 },
 {
+    "Number": "1027", 
+    "Level": 2, 
+    "Title": "Longest Arithmetic Subsequence", 
+    "Url": "https://leetcode.com/problems/longest-arithmetic-subsequence", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1029", 
     "Level": 2, 
     "Title": "Two City Scheduling", 
@@ -3650,7 +3680,9 @@
     "Level": 2, 
     "Title": "Shortest Path in Binary Matrix", 
     "Url": "https://leetcode.com/problems/shortest-path-in-binary-matrix", 
-    "Tags": [], 
+    "Tags": [
+        "BFS"
+    ], 
     "Memo": "", 
     "Date": "2022-02-16"
 },
@@ -3917,7 +3949,10 @@
     "Level": 2, 
     "Title": "Jump Game III", 
     "Url": "https://leetcode.com/problems/jump-game-iii", 
-    "Tags": [], 
+    "Tags": [
+        "BFS", 
+        "DFS"
+    ], 
     "Memo": "", 
     "Date": "2022-02-16"
 },
