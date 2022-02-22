@@ -33,10 +33,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Median of Two Sorted Arrays", 
     "Url": "https://leetcode.com/problems/median-of-two-sorted-arrays", 
-    "Tags": [
-        "Binary Search"
-    ], 
-    "Memo": "在第一條上做BS，找到的點1，會決定點2（因為個數），再根據兩邊大小特性判斷要往左還是往右。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0005", 
@@ -85,11 +83,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "3Sum", 
     "Url": "https://leetcode.com/problems/3sum", 
-    "Tags": [
-        "Two-Pointer", 
-        "Two-Sum"
-    ], 
-    "Memo": "要注意重複的點，不能在結束後去重，必須要在中間階段就去重。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0016", 
@@ -256,10 +251,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Permutations", 
     "Url": "https://leetcode.com/problems/permutations", 
-    "Tags": [
-        "DFS", 
-        "Backtracking"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -267,11 +259,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Permutations II", 
     "Url": "https://leetcode.com/problems/permutations-ii", 
-    "Tags": [
-        "DFS", 
-        "Backtracking", 
-        "Redundant-Removal"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -743,11 +731,7 @@ lcode_data = `
     "Level": 3, 
     "Title": "Word Ladder II", 
     "Url": "https://leetcode.com/problems/word-ladder-ii", 
-    "Tags": [
-        "BFS", 
-        "DFS", 
-        "String"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -755,11 +739,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Word Ladder", 
     "Url": "https://leetcode.com/problems/word-ladder", 
-    "Tags": [
-        "BFS", 
-        "String"
-    ], 
-    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0128", 
@@ -798,12 +779,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "Clone Graph", 
     "Url": "https://leetcode.com/problems/clone-graph", 
-    "Tags": [
-        "Graph", 
-        "BFS", 
-        "DFS"
-    ], 
-    "Memo": "拷貝點，舊點與新點的關係，邊。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0134", 
@@ -951,7 +928,7 @@ lcode_data = `
 },
 {
     "Number": "0167", 
-    "Level": 1, 
+    "Level": 2, 
     "Title": "Two Sum II - Input Array Is Sorted", 
     "Url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted", 
     "Tags": [], 
@@ -1010,15 +987,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Islands", 
     "Url": "https://leetcode.com/problems/number-of-islands", 
-    "Tags": [
-        "Graph", 
-        "Matrix", 
-        "Island", 
-        "BFS", 
-        "DFS", 
-        "Union-Find"
-    ], 
-    "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0206", 
@@ -1033,10 +1003,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Course Schedule", 
     "Url": "https://leetcode.com/problems/course-schedule", 
-    "Tags": [
-        "BFS", 
-        "Topological-Sorting"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1044,9 +1011,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Implement Trie (Prefix Tree)", 
     "Url": "https://leetcode.com/problems/implement-trie-prefix-tree", 
-    "Tags": [
-        "Trie"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1062,10 +1027,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Course Schedule II", 
     "Url": "https://leetcode.com/problems/course-schedule-ii", 
-    "Tags": [
-        "BFS", 
-        "Topological-Sorting"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1073,9 +1035,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Design Add and Search Words Data Structure", 
     "Url": "https://leetcode.com/problems/design-add-and-search-words-data-structure", 
-    "Tags": [
-        "Trie"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1247,6 +1207,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0256", 
+    "Level": 2, 
+    "Title": "Paint House", 
+    "Url": "https://leetcode.com/problems/paint-house", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0257", 
     "Level": 1, 
     "Title": "Binary Tree Paths", 
@@ -1267,11 +1235,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "Graph Valid Tree", 
     "Url": "https://leetcode.com/problems/graph-valid-tree", 
-    "Tags": [
-        "Graph", 
-        "DFS"
-    ], 
-    "Memo": "(1) 和0684不同，不需要找出多的那條路徑。因此只需要DFS一次就可以，找到走到兩次的點。<br> (2)或是使用樹的V比E多1這個特性也可以。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0263", 
@@ -1342,9 +1307,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Walls and Gates", 
     "Url": "https://leetcode.com/problems/walls-and-gates", 
-    "Tags": [
-        "BFS"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1408,11 +1371,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Number of Islands II", 
     "Url": "https://leetcode.com/problems/number-of-islands-ii", 
-    "Tags": [
-        "Union-Find", 
-        "Matrix"
-    ], 
-    "Memo": "使用Union-Find可以過。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0310", 
@@ -1435,9 +1395,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Coin Change", 
     "Url": "https://leetcode.com/problems/coin-change", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1453,9 +1411,7 @@ lcode_data = `
     "Level": 3, 
     "Title": "Reconstruct Itinerary", 
     "Url": "https://leetcode.com/problems/reconstruct-itinerary", 
-    "Tags": [
-        "Graph"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1519,9 +1475,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Design Hit Counter", 
     "Url": "https://leetcode.com/problems/design-hit-counter", 
-    "Tags": [
-        "Binary Search"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1601,10 +1555,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Evaluate Division", 
     "Url": "https://leetcode.com/problems/evaluate-division", 
-    "Tags": [
-        "Graph", 
-        "DFS"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1628,10 +1579,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Pacific Atlantic Water Flow", 
     "Url": "https://leetcode.com/problems/pacific-atlantic-water-flow", 
-    "Tags": [
-        "DFS", 
-        "Matrix"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -1639,11 +1587,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "Reconstruct Original Digits from English", 
     "Url": "https://leetcode.com/problems/reconstruct-original-digits-from-english", 
-    "Tags": [
-        "HashMap", 
-        "String"
-    ], 
-    "Memo": "仔細攤開來看，有五個英文字是指對應到單一數字，可以發現順序是決定的，所以不需要使用Backtracking(是唯一的答案）。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0435", 
@@ -1922,9 +1867,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Out of Boundary Paths", 
     "Url": "https://leetcode.com/problems/out-of-boundary-paths", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2012,11 +1955,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Redundant Connection", 
     "Url": "https://leetcode.com/problems/redundant-connection", 
-    "Tags": [
-        "Graph", 
-        "DFS", 
-        "Union-Find"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2136,9 +2075,7 @@ lcode_data = `
     "Level": 3, 
     "Title": "Number of Atoms", 
     "Url": "https://leetcode.com/problems/number-of-atoms", 
-    "Tags": [
-        "Recursion"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2170,13 +2107,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Network Delay Time", 
     "Url": "https://leetcode.com/problems/network-delay-time", 
-    "Tags": [
-        "Graph", 
-        "SSSP", 
-        "Dijkstra", 
-        "Bellman-Ford", 
-        "Heap"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2256,10 +2187,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Subdomain Visit Count", 
     "Url": "https://leetcode.com/problems/subdomain-visit-count", 
-    "Tags": [
-        "String", 
-        "HashMap"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2315,9 +2243,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Snakes and Ladders", 
     "Url": "https://leetcode.com/problems/snakes-and-ladders", 
-    "Tags": [
-        "BFS"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2349,9 +2275,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Minimum Falling Path Sum", 
     "Url": "https://leetcode.com/problems/minimum-falling-path-sum", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2359,13 +2283,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Shortest Bridge", 
     "Url": "https://leetcode.com/problems/shortest-bridge", 
-    "Tags": [
-        "Graph", 
-        "DFS", 
-        "BFS", 
-        "Matrix", 
-        "Island"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2373,9 +2291,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Knight Dialer", 
     "Url": "https://leetcode.com/problems/knight-dialer", 
-    "Tags": [
-        "DP"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2399,10 +2315,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Check Completeness of a Binary Tree", 
     "Url": "https://leetcode.com/problems/check-completeness-of-a-binary-tree", 
-    "Tags": [
-        "BFS", 
-        "Tree"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2442,9 +2355,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Time Based Key-Value Store", 
     "Url": "https://leetcode.com/problems/time-based-key-value-store", 
-    "Tags": [
-        "Binary Search"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2476,9 +2387,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Rotting Oranges", 
     "Url": "https://leetcode.com/problems/rotting-oranges", 
-    "Tags": [
-        "BFS"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2510,11 +2419,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Enclaves", 
     "Url": "https://leetcode.com/problems/number-of-enclaves", 
-    "Tags": [
-        "DFS", 
-        "Matrix", 
-        "Island"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2546,12 +2451,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "Binary Search Tree to Greater Sum Tree", 
     "Url": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree", 
-    "Tags": [
-        "BST", 
-        "Tree", 
-        "DFS"
-    ], 
-    "Memo": "從最右邊反著做Pre-order traverse，就可以從大取到小。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1041", 
@@ -2654,9 +2555,7 @@ lcode_data = `
     "Level": 2, 
     "Title": "Snapshot Array", 
     "Url": "https://leetcode.com/problems/snapshot-array", 
-    "Tags": [
-        "Binary Search"
-    ], 
+    "Tags": [], 
     "Memo": ""
 },
 {
@@ -2752,12 +2651,8 @@ lcode_data = `
     "Level": 3, 
     "Title": "Minimum Falling Path Sum II", 
     "Url": "https://leetcode.com/problems/minimum-falling-path-sum-ii", 
-    "Tags": [
-        "DP", 
-        "Heap", 
-        "Top-K"
-    ], 
-    "Memo": "要找出上一個row跟自己不同col的最小值，但又不要每次從頭掃。可以使用heap，也可以使用Top-K的作法。要去掉跟之前重疊到相同col的情況，所以存進去的值要包含val和idx兩部份才能比較。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1302", 
@@ -2780,11 +2675,8 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Operations to Make Network Connected", 
     "Url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected", 
-    "Tags": [
-        "Graph", 
-        "DFS"
-    ], 
-    "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。"
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1358", 
@@ -2972,7 +2864,7 @@ lcode_data = `
 },
 {
     "Number": "2156", 
-    "Level": 2, 
+    "Level": 3, 
     "Title": "Find Substring With Given Hash Value", 
     "Url": "https://leetcode.com/problems/find-substring-with-given-hash-value", 
     "Tags": [], 

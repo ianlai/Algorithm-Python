@@ -121,6 +121,7 @@ algo
 │   ├── __0152__Maximum Product Subarray.py
 │   ├── __0198__House Robber.py
 │   ├── __0221__Maximal Square.py
+│   ├── __0256__Paint House.py
 │   ├── __0279__Perfect Squares.py
 │   ├── __0300__Longest Increasing Subsequence.py
 │   ├── __0322__Coin Change.py
@@ -403,7 +404,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-31 directories, 371 files
+31 directories, 372 files
 
 =====================================
 ============= Local Repo ============
@@ -558,6 +559,7 @@ __0244__Shortest Word Distance II.py
 __0249__Group Shifted Strings.py
 __0252__Meeting Rooms.py
 __0253__Meeting Rooms II.py
+__0256__Paint House.py
 __0257__Binary Tree Paths.py
 __0259__3Sum Smaller.py
 __0261__Graph Valid Tree.py
@@ -766,7 +768,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  357
+Num of Python Practice:  358
 
 
 =====================================
@@ -922,6 +924,7 @@ Num of Python Practice:  357
  0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
+ 0256 Paint House
  0257 Binary Tree Paths
  0259 3Sum Smaller
  0261 Graph Valid Tree
@@ -1131,10 +1134,10 @@ Num of Python Practice:  357
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  548
-Solved / Total (Medium):  259 / 1165
+Solved / Total (Medium):  260 / 1165
 Solved / Total (Hard)  :   26 /  470
-Solved / Total (All)   :  357 / 2183
-Total Score            :  979
+Solved / Total (All)   :  358 / 2183
+Total Score            :  982
 =====================================
 
 ```

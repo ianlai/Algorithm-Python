@@ -1772,6 +1772,15 @@
     "Date": "2022-02-06"
 },
 {
+    "Number": "0256", 
+    "Level": 2, 
+    "Title": "Paint House", 
+    "Url": "https://leetcode.com/problems/paint-house", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-02-22"
+},
+{
     "Number": "0257", 
     "Level": 1, 
     "Title": "Binary Tree Paths", 
@@ -3603,7 +3612,8 @@
     "Title": "Longest Arithmetic Subsequence", 
     "Url": "https://leetcode.com/problems/longest-arithmetic-subsequence", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-21"
 },
 {
     "Number": "1029", 
