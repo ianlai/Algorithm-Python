@@ -799,6 +799,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0137", 
+    "Level": 2, 
+    "Title": "Single Number II", 
+    "Url": "https://leetcode.com/problems/single-number-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0138", 
     "Level": 2, 
     "Title": "Copy List with Random Pointer", 
@@ -1227,6 +1235,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "3Sum Smaller", 
     "Url": "https://leetcode.com/problems/3sum-smaller", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0260", 
+    "Level": 2, 
+    "Title": "Single Number III", 
+    "Url": "https://leetcode.com/problems/single-number-iii", 
     "Tags": [], 
     "Memo": ""
 },

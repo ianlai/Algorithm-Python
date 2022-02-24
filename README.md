@@ -184,9 +184,11 @@ algo
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
+│   ├── __0137__Single Number II.py
 │   ├── __0187__Repeated DNA Sequences.py
 │   ├── __0244__Shortest Word Distance II.py
 │   ├── __0249__Group Shifted Strings.py
+│   ├── __0260__Single Number III.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
 │   ├── __0349__Intersection of Two Arrays.py
@@ -404,7 +406,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-31 directories, 372 files
+31 directories, 374 files
 
 =====================================
 ============= Local Repo ============
@@ -508,6 +510,7 @@ __0131__Palindrome Partitioning.py
 __0133__Clone Graph.py
 __0134__Gas Station.py
 __0136__Single Number.py
+__0137__Single Number II.py
 __0138__Copy List with Random Pointer.py
 __0139__Word Break.py
 __0141__Linked List Cycle.py
@@ -562,6 +565,7 @@ __0253__Meeting Rooms II.py
 __0256__Paint House.py
 __0257__Binary Tree Paths.py
 __0259__3Sum Smaller.py
+__0260__Single Number III.py
 __0261__Graph Valid Tree.py
 __0263__Ugly Number.py
 __0264__Ugly Number II.py
@@ -768,7 +772,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  358
+Num of Python Practice:  360
 
 
 =====================================
@@ -873,6 +877,7 @@ Num of Python Practice:  358
  0133 Clone Graph
  0134 Gas Station
  0136 Single Number
+ 0137 Single Number II
  0138 Copy List with Random Pointer
  0139 Word Break
  0141 Linked List Cycle
@@ -927,6 +932,7 @@ Num of Python Practice:  358
  0256 Paint House
  0257 Binary Tree Paths
  0259 3Sum Smaller
+ 0260 Single Number III
  0261 Graph Valid Tree
  0263 Ugly Number
  0264 Ugly Number II
@@ -1134,10 +1140,10 @@ Num of Python Practice:  358
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  548
-Solved / Total (Medium):  260 / 1165
+Solved / Total (Medium):  262 / 1166
 Solved / Total (Hard)  :   26 /  470
-Solved / Total (All)   :  358 / 2183
-Total Score            :  982
+Solved / Total (All)   :  360 / 2184
+Total Score            :  988
 =====================================
 
 ```
