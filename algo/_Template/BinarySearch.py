@@ -1,19 +1,25 @@
-def binarySearch(arr, target):
+import bisect
+def binarySearchLeft(arr, target):
   start, end = 0, len(arr)
   while start < end:
     mid = start + (end - start) // 2
-    if target <= arr[mid]:  # "<=" needs to be end part  
+    if target <= arr[mid]: # even when found the target, end still goes left 
       end = mid
-    else:
-      start = mid + 1
-    # else:
-    #   return mid
-  return start, end
+    else:                  
+      start = mid + 1 
+  return start
 
-print(-3, "->", binarySearch([2,5,8], -3))
-print(2, "->", binarySearch([2,5,8], 2))
-print(3, "->", binarySearch([2,5,8], 3))
-print(5, "->", binarySearch([2,5,8], 5))
-print(7, "->", binarySearch([2,5,8], 7))
-print(8, "->", binarySearch([2,5,8], 8))
-print(9, "->", binarySearch([2,5,8], 9))
+def binarySearchRight(arr, target):
+  start, end = 0, len(arr)
+  while start < end:
+    mid = start + (end - start) // 2
+    if target < arr[mid]:  
+      end = mid
+    else:                 # even when found the target, start still goes right 
+      start = mid + 1
+  return start
+
+targets = [2, 3, 4, 5, 6, 7, 8]
+arr = [3, 5, 5, 5, 7]  #search array
+for t in targets:
+  print(t, "=> ", binarySearchLeft(arr, t), bisect.bisect_left(arr,t), "--", binarySearchRight(arr, t), bisect.bisect(arr, t))

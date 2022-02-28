@@ -14,7 +14,7 @@ class Trie:
                 cur.chmap[c] = Node()
             cur = cur.chmap[c]
         cur.isEnd = True
-        
+    
     def search(self, word) -> str: 
         cur = self.root
         for i, c in enumerate(word):
@@ -22,9 +22,21 @@ class Trie:
                 return None
             cur = cur.chmap[c]
             if cur.isEnd:
-                return word[:i+1]
+                return word[:i+1] #found a prefix 
         
 class Solution:
+    
+    # dictionary: N (words)
+    # length    : L 
+    # sentence  : S (words)
+
+    # Prefix Set
+    #   time : O(L^2 * N + S * L)  (build, find)
+    #   space: O(L^2 * N)
+
+    # Prefix Tree
+    #   time: O(L * N + S * L)     (build, find)
+    #   space: O(L * N)
     
     # 2021/12/30 
     # Trie [30%]
