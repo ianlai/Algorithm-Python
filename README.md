@@ -72,7 +72,8 @@ algo
 │   ├── __0981__Time Based Key-Value Store.py
 │   ├── __1011__Capacity To Ship Packages Within D Days.py
 │   ├── __1146__Snapshot Array.py
-│   └── __1198__Find Smallest Common Element in All Rows.py
+│   ├── __1198__Find Smallest Common Element in All Rows.py
+│   └── __1283__Find the Smallest Divisor Given a Threshold.py
 ├── BitOperation
 │   └── __0136__Single Number.py
 ├── DFS
@@ -238,7 +239,9 @@ algo
 │   ├── __0234__Palindrome Linked List.py
 │   └── __0237__Delete Node in a Linked List.py
 ├── Math
-│   └── __0593__Valid Square.py
+│   ├── __0593__Valid Square.py
+│   ├── __0754__Reach a Number.py
+│   └── __1344__Angle Between Hands of a Clock.py
 ├── Matrix
 │   ├── __0048__Rotate Image.py
 │   ├── __0054__Spiral Matrix.py
@@ -406,7 +409,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-31 directories, 374 files
+31 directories, 377 files
 
 =====================================
 ============= Local Repo ============
@@ -677,6 +680,7 @@ __0739__Daily Temperatures.py
 __0740__Delete and Earn.py
 __0743__Network Delay Time.py
 __0752__Open the Lock.py
+__0754__Reach a Number.py
 __0760__Find Anagram Mappings.py
 __0767__Reorganize String.py
 __0776__Split BST.py
@@ -743,10 +747,12 @@ __1248__Count Number of Nice Subarrays.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
 __1277__Count Square Submatrices with All Ones.py
+__1283__Find the Smallest Divisor Given a Threshold.py
 __1289__Minimum Falling Path Sum II.py
 __1302__Deepest Leaves Sum.py
 __1306__Jump Game III.py
 __1319__Number of Operations to Make Network Connected.py
+__1344__Angle Between Hands of a Clock.py
 __1358__Number of Substrings Containing All Three Characters.py
 __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
@@ -772,7 +778,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  360
+Num of Python Practice:  363
 
 
 =====================================
@@ -1044,6 +1050,7 @@ Num of Python Practice:  360
  0740 Delete and Earn
  0743 Network Delay Time
  0752 Open the Lock
+ 0754 Reach a Number
  0760 Find Anagram Mappings
  0767 Reorganize String
  0776 Split BST
@@ -1110,10 +1117,12 @@ Num of Python Practice:  360
  1254 Number of Closed Islands
  1268 Search Suggestions System
  1277 Count Square Submatrices with All Ones
+ 1283 Find the Smallest Divisor Given a Threshold
  1289 Minimum Falling Path Sum II
  1302 Deepest Leaves Sum
  1306 Jump Game III
  1319 Number of Operations to Make Network Connected
+ 1344 Angle Between Hands of a Clock
  1358 Number of Substrings Containing All Three Characters
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
@@ -1139,11 +1148,11 @@ Num of Python Practice:  360
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   72 /  548
-Solved / Total (Medium):  262 / 1166
-Solved / Total (Hard)  :   26 /  470
-Solved / Total (All)   :  360 / 2184
-Total Score            :  988
+Solved / Total (Easy)  :   72 /  549
+Solved / Total (Medium):  265 / 1168
+Solved / Total (Hard)  :   26 /  471
+Solved / Total (All)   :  363 / 2188
+Total Score            :  997
 =====================================
 
 ```

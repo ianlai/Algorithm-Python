@@ -253,7 +253,7 @@
         "Binary-Search"
     ], 
     "Memo": "", 
-    "Date": "2021-12-11"
+    "Date": "2022-02-28"
 },
 {
     "Number": "0035", 
@@ -1173,7 +1173,8 @@
     "Title": "Single Number II", 
     "Url": "https://leetcode.com/problems/single-number-ii", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-24"
 },
 {
     "Number": "0138", 
@@ -1815,7 +1816,8 @@
     "Title": "Single Number III", 
     "Url": "https://leetcode.com/problems/single-number-iii", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-02-24"
 },
 {
     "Number": "0261", 
@@ -2842,7 +2844,7 @@
         "**BASIC"
     ], 
     "Memo": "搜尋到底就置換（儘管目標字還沒走完）。search函數回傳值不一定是True/False，這題就可以回傳搜尋到底的字。", 
-    "Date": "2021-12-31"
+    "Date": "2022-02-28"
 },
 {
     "Number": "0658", 
@@ -3029,7 +3031,7 @@
     "Url": "https://leetcode.com/problems/design-hashmap", 
     "Tags": [], 
     "Memo": "", 
-    "Date": "2021-05-08"
+    "Date": "2022-03-01"
 },
 {
     "Number": "0718", 
@@ -3138,6 +3140,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-10-11"
+},
+{
+    "Number": "0754", 
+    "Level": 2, 
+    "Title": "Reach a Number", 
+    "Url": "https://leetcode.com/problems/reach-a-number", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-03-02"
 },
 {
     "Number": "0760", 
@@ -3944,6 +3955,15 @@
     "Date": "2021-10-20"
 },
 {
+    "Number": "1283", 
+    "Level": 2, 
+    "Title": "Find the Smallest Divisor Given a Threshold", 
+    "Url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-02-28"
+},
+{
     "Number": "1289", 
     "Level": 3, 
     "Title": "Minimum Falling Path Sum II", 
@@ -3993,6 +4013,15 @@
     ], 
     "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。", 
     "Date": "2021-11-29"
+},
+{
+    "Number": "1344", 
+    "Level": 2, 
+    "Title": "Angle Between Hands of a Clock", 
+    "Url": "https://leetcode.com/problems/angle-between-hands-of-a-clock", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-03-01"
 },
 {
     "Number": "1358", 

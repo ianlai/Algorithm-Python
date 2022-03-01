@@ -2135,6 +2135,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0754", 
+    "Level": 2, 
+    "Title": "Reach a Number", 
+    "Url": "https://leetcode.com/problems/reach-a-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0760", 
     "Level": 1, 
     "Title": "Find Anagram Mappings", 
@@ -2663,6 +2671,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1283", 
+    "Level": 2, 
+    "Title": "Find the Smallest Divisor Given a Threshold", 
+    "Url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1289", 
     "Level": 3, 
     "Title": "Minimum Falling Path Sum II", 
@@ -2691,6 +2707,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Operations to Make Network Connected", 
     "Url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1344", 
+    "Level": 2, 
+    "Title": "Angle Between Hands of a Clock", 
+    "Url": "https://leetcode.com/problems/angle-between-hands-of-a-clock", 
     "Tags": [], 
     "Memo": ""
 },
