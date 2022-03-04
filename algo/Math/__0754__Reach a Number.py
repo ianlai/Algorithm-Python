@@ -14,3 +14,6 @@ class Solution:
             if target < 0:
                 if target % 2 == 0:
                     return i
+
+s = Solution()
+print("5 -> ", s.reachNumber(5))

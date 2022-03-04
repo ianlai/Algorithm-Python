@@ -3148,7 +3148,7 @@
     "Url": "https://leetcode.com/problems/reach-a-number", 
     "Tags": [], 
     "Memo": "", 
-    "Date": "2022-03-02"
+    "Date": "2022-03-03"
 },
 {
     "Number": "0760", 
@@ -3441,6 +3441,14 @@
     ], 
     "Memo": "不需要先做in-order，那需要另外開空間。", 
     "Date": "2021-12-27"
+},
+{
+    "Number": "0947", 
+    "Level": 2, 
+    "Title": "Most Stones Removed with Same Row or Column", 
+    "Url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0954", 

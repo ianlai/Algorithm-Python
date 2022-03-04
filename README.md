@@ -177,6 +177,7 @@ algo
 │   ├── __0785__Is Graph Bipartite?.py
 │   ├── __0787__Cheapest Flights Within K Stops.py
 │   ├── __0797__All Paths From Source to Target.py
+│   ├── __0947__Most Stones Removed with Same Row or Column.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   └── __2093__Minimum Cost to Reach City With Discounts.py
@@ -409,7 +410,7 @@ algo
 └── _Template
     └── BinarySearch.py
 
-31 directories, 377 files
+31 directories, 378 files
 
 =====================================
 ============= Local Repo ============
@@ -704,6 +705,7 @@ __0931__Minimum Falling Path Sum.py
 __0934__Shortest Bridge.py
 __0935__Knight Dialer.py
 __0938__Range Sum of BST.py
+__0947__Most Stones Removed with Same Row or Column.py
 __0954__Array of Doubled Pairs.py
 __0958__Check Completeness of a Binary Tree.py
 __0969__Pancake Sorting.py
@@ -778,7 +780,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  363
+Num of Python Practice:  364
 
 
 =====================================
@@ -1074,6 +1076,7 @@ Num of Python Practice:  363
  0934 Shortest Bridge
  0935 Knight Dialer
  0938 Range Sum of BST
+ 0947 Most Stones Removed with Same Row or Column
  0954 Array of Doubled Pairs
  0958 Check Completeness of a Binary Tree
  0969 Pancake Sorting
@@ -1149,10 +1152,10 @@ Num of Python Practice:  363
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  549
-Solved / Total (Medium):  265 / 1168
+Solved / Total (Medium):  266 / 1169
 Solved / Total (Hard)  :   26 /  471
-Solved / Total (All)   :  363 / 2188
-Total Score            :  997
+Solved / Total (All)   :  364 / 2189
+Total Score            : 1000
 =====================================
 
 ```

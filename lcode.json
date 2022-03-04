@@ -2327,6 +2327,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0947", 
+    "Level": 2, 
+    "Title": "Most Stones Removed with Same Row or Column", 
+    "Url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0954", 
     "Level": 2, 
     "Title": "Array of Doubled Pairs", 
