@@ -1882,10 +1882,11 @@
     "Title": "First Bad Version", 
     "Url": "https://leetcode.com/problems/first-bad-version", 
     "Tags": [
-        "Binary-Search", "Binary-Search值域"
+        "Binary-Search", 
+        "Binary-Search值域"
     ], 
     "Memo": "找值域的基本題，直接把求值域的函數給我們了。找值域的題目只要找到xxxxoooo的最後一個x或是第一個o，反而不用在意重複的元素或找不到元素的狀況。", 
-    "Date": "2021-06-03"
+    "Date": "2022-03-05"
 },
 {
     "Number": "0279", 
@@ -2184,10 +2185,11 @@
     "Title": "Design Hit Counter", 
     "Url": "https://leetcode.com/problems/design-hit-counter", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", 
+        "Queue"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-31"
+    "Memo": "(1)使用BS，找到t-300的位置，計算len(arr)-idx (2)使用Queue，只要讓arr一直只存300秒內的，就只要len(arr)", 
+    "Date": "2022-03-05"
 },
 {
     "Number": "0366", 
@@ -3320,10 +3322,11 @@
     "Url": "https://leetcode.com/problems/koko-eating-bananas", 
     "Tags": [
         "Binary-Search", 
+        "Binary-Search值域", 
         "**大神"
     ], 
     "Memo": "搞清楚loop invarient。FFFFTTTTTT，要找第一個T，且搜尋範圍內一定要有T。邏輯順序：", 
-    "Date": "2022-02-08"
+    "Date": "2022-03-05"
 },
 {
     "Number": "0904", 
@@ -3874,6 +3877,15 @@
     "Date": "2021-12-05"
 },
 {
+    "Number": "1182", 
+    "Level": 2, 
+    "Title": "Shortest Distance to Target Color", 
+    "Url": "https://leetcode.com/problems/shortest-distance-to-target-color", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-03-05"
+},
+{
     "Number": "1197", 
     "Level": 2, 
     "Title": "Minimum Knight Moves", 
@@ -3980,7 +3992,8 @@
     "Title": "Find the Smallest Divisor Given a Threshold", 
     "Url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", 
+        "Binary-Search值域"
     ], 
     "Memo": "類似0875吃香蕉題，使用BS搜索值域。", 
     "Date": "2022-02-28"

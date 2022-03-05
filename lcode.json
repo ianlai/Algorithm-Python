@@ -2615,6 +2615,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1182", 
+    "Level": 2, 
+    "Title": "Shortest Distance to Target Color", 
+    "Url": "https://leetcode.com/problems/shortest-distance-to-target-color", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1197", 
     "Level": 2, 
     "Title": "Minimum Knight Moves", 

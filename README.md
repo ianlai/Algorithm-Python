@@ -72,6 +72,7 @@ algo
 │   ├── __0981__Time Based Key-Value Store.py
 │   ├── __1011__Capacity To Ship Packages Within D Days.py
 │   ├── __1146__Snapshot Array.py
+│   ├── __1182__Shortest Distance to Target Color.py
 │   ├── __1198__Find Smallest Common Element in All Rows.py
 │   └── __1283__Find the Smallest Divisor Given a Threshold.py
 ├── BitOperation
@@ -408,9 +409,10 @@ algo
 │       ├── Countries.py
 │       └── SwitchingArray.py
 └── _Template
-    └── BinarySearch.py
+    ├── BinarySearch.py
+    └── BinarySearchRange.py
 
-31 directories, 378 files
+31 directories, 380 files
 
 =====================================
 ============= Local Repo ============
@@ -741,6 +743,7 @@ __1146__Snapshot Array.py
 __1161__Maximum Level Sum of a Binary Tree.py
 __1165__Single-Row Keyboard.py
 __1167__Minimum Cost to Connect Sticks.py
+__1182__Shortest Distance to Target Color.py
 __1197__Minimum Knight Moves.py
 __1198__Find Smallest Common Element in All Rows.py
 __1214__Two Sum BSTs.py
@@ -780,7 +783,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  364
+Num of Python Practice:  365
 
 
 =====================================
@@ -1112,6 +1115,7 @@ Num of Python Practice:  364
  1161 Maximum Level Sum of a Binary Tree
  1165 Single-Row Keyboard
  1167 Minimum Cost to Connect Sticks
+ 1182 Shortest Distance to Target Color
  1197 Minimum Knight Moves
  1198 Find Smallest Common Element in All Rows
  1214 Two Sum BSTs
@@ -1152,10 +1156,10 @@ Num of Python Practice:  364
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  549
-Solved / Total (Medium):  266 / 1169
+Solved / Total (Medium):  267 / 1169
 Solved / Total (Hard)  :   26 /  471
-Solved / Total (All)   :  364 / 2189
-Total Score            : 1000
+Solved / Total (All)   :  365 / 2189
+Total Score            : 1003
 =====================================
 
 ```

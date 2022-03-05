@@ -11,12 +11,12 @@ class Solution:
                 return False
             return True
             
-        start, end = 1, max(piles) + 1
+        start, end = 1, max(piles)  #搜索範圍[1:max-1] 但結果是區間，所以end有包到O就可以
         while start < end:
             mid = start + (end - start) // 2
-            if canFinish(mid, h):
+            if canFinish(mid, h):  # > t
                 end = mid 
-            else:
+            else:  # <= t
                 start = mid + 1
         return start 
         

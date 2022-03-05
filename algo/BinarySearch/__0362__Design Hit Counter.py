@@ -1,13 +1,16 @@
-
-#Use queue to remove the old records which are pass 5 mins [76%]
+#2021/10/31 
+# Queue: Use queue to remove the old records which are pass 5 mins [76%]
+# Queue better than BS
 class HitCounter:
-
     def __init__(self):
+        print("Code2")
         self.queue = collections.deque()
 
+    #O(1)
     def hit(self, timestamp: int) -> None:
         self.queue.append(timestamp)
 
+    #O(300 * avg_hit_per_sec) => Amortized O(1)
     def getHits(self, timestamp: int) -> int:
         target = timestamp - 300 
         while self.queue:
@@ -16,20 +19,36 @@ class HitCounter:
             else:
                 break 
         return len(self.queue)
-        
-class HitCounter1:
-
+    
+#======================================
+#2021/10/31 
+#Queue: Use queue to remove the old records which are pass 5 mins [76%]
+class HitCounter:
     def __init__(self):
-        """
-        Initialize your data structure here.
-        """
+        print("Code2")
+        self.queue = collections.deque()
+
+    #O(1)
+    def hit(self, timestamp: int) -> None:
+        self.queue.append(timestamp)
+
+    #O(300 * avg_hit_per_sec) => Amortized O(1)
+    def getHits(self, timestamp: int) -> int:
+        target = timestamp - 300 
+        while self.queue:
+            if self.queue[0] <= target:
+                self.queue.popleft()
+            else:
+                break 
+        return len(self.queue)
+#======================================
+#2021/07/19 
+class HitCounter1:
+    def __init__(self):
+        print("Code1")
         self.arr = []
 
     def hit(self, timestamp: int) -> None:
-        """
-        Record a hit.
-        @param timestamp - The current timestamp (in seconds granularity).
-        """
         self.arr.append(timestamp)
 
     # Binary Search [O(logn): 76%]
@@ -66,10 +85,6 @@ class HitCounter1:
     
     # Linear [O(n): 17%]
     def getHits1(self, timestamp: int) -> int:
-        """
-        Return the number of hits in the past 5 minutes.
-        @param timestamp - The current timestamp (in seconds granularity).
-        """
         target = timestamp - 300
         if len(self.arr) == 0:
             return 0
