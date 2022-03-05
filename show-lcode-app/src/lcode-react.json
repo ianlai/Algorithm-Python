@@ -261,9 +261,10 @@
     "Title": "Search Insert Position", 
     "Url": "https://leetcode.com/problems/search-insert-position", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", 
+        "**BASIC"
     ], 
-    "Memo": "", 
+    "Memo": "一定要可以5分鐘寫出來。一個Binary-Search-Left就可以找到答案了。", 
     "Date": "2022-02-08"
 },
 {
@@ -3881,9 +3882,12 @@
     "Level": 2, 
     "Title": "Shortest Distance to Target Color", 
     "Url": "https://leetcode.com/problems/shortest-distance-to-target-color", 
-    "Tags": [], 
+    "Tags": [
+        "Binary-Search", 
+        "DP"
+    ], 
     "Memo": "", 
-    "Date": "2022-03-05"
+    "Date": "2022-03-06"
 },
 {
     "Number": "1197", 
