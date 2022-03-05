@@ -1,4 +1,6 @@
 class Solution:
+    
+    #DFS [O(V+E): 71%]
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         
         if not rooms:

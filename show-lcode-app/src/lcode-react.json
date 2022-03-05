@@ -346,10 +346,9 @@
     "Url": "https://leetcode.com/problems/jump-game-ii", 
     "Tags": [
         "DP", 
-        "Greedy", 
-        "**CHECK"
+        "Greedy"
     ], 
-    "Memo": "目前只做出DP(5%)。", 
+    "Memo": "DP的作法比較好想，Greedy則是下一步想辦法跳到下下步可以跳最遠的格子。", 
     "Date": "2022-02-20"
 },
 {
@@ -1785,8 +1784,11 @@
     "Level": 2, 
     "Title": "Paint House", 
     "Url": "https://leetcode.com/problems/paint-house", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "DP", 
+        "**GOOD"
+    ], 
+    "Memo": "一維陣列DP，但一個格子內有三個值代表使用三個顏色的最小cost。", 
     "Date": "2022-02-22"
 },
 {
@@ -1880,9 +1882,9 @@
     "Title": "First Bad Version", 
     "Url": "https://leetcode.com/problems/first-bad-version", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", "Binary-Search值域"
     ], 
-    "Memo": "", 
+    "Memo": "找值域的基本題，直接把求值域的函數給我們了。找值域的題目只要找到xxxxoooo的最後一個x或是第一個o，反而不用在意重複的元素或找不到元素的狀況。", 
     "Date": "2021-06-03"
 },
 {
@@ -3146,8 +3148,10 @@
     "Level": 2, 
     "Title": "Reach a Number", 
     "Url": "https://leetcode.com/problems/reach-a-number", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Math"
+    ], 
+    "Memo": "不好想，總之一直往前跳，所以是等差級數，直到超越。超越之後的差如果是偶數，代表前面在i步可以利用往左邊跳達到-2i的效果，可以做出任意偶數，因此答案就是目前步。超越之後的差如果是奇數，代表需要再繼續往前直到變成偶數，再利用上述方法回到目標，因此答案就是抵達第一個偶數步。", 
     "Date": "2022-03-03"
 },
 {
@@ -3275,10 +3279,10 @@
     "Title": "Keys and Rooms", 
     "Url": "https://leetcode.com/problems/keys-and-rooms", 
     "Tags": [
-        "BFS"
+        "DFS"
     ], 
     "Memo": "", 
-    "Date": "2021-07-08"
+    "Date": "2022-03-05"
 },
 {
     "Number": "0862", 
@@ -3447,8 +3451,14 @@
     "Level": 2, 
     "Title": "Most Stones Removed with Same Row or Column", 
     "Url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "##Google", 
+        "##Amazon"
+    ], 
+    "Memo": "input是list，這list代表一個matrix，得從matrix做出graph，需要使用3個map。做出graph之後用DFS來找出有幾個連通塊，每一個連通塊的元素個數-1的加總就是答案。", 
+    "Date": "2022-03-04"
 },
 {
     "Number": "0954", 
@@ -3646,7 +3656,9 @@
     "Level": 2, 
     "Title": "Longest Arithmetic Subsequence", 
     "Url": "https://leetcode.com/problems/longest-arithmetic-subsequence", 
-    "Tags": [], 
+    "Tags": [
+        "DP"
+    ], 
     "Memo": "", 
     "Date": "2022-02-21"
 },
@@ -3967,8 +3979,10 @@
     "Level": 2, 
     "Title": "Find the Smallest Divisor Given a Threshold", 
     "Url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Binary-Search"
+    ], 
+    "Memo": "類似0875吃香蕉題，使用BS搜索值域。", 
     "Date": "2022-02-28"
 },
 {
@@ -4027,7 +4041,12 @@
     "Level": 2, 
     "Title": "Angle Between Hands of a Clock", 
     "Url": "https://leetcode.com/problems/angle-between-hands-of-a-clock", 
-    "Tags": [], 
+    "Tags": [
+        "Math", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Microsoft"
+    ], 
     "Memo": "", 
     "Date": "2022-03-01"
 },
