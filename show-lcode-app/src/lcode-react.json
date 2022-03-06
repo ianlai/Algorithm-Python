@@ -1460,7 +1460,7 @@
         "Union-Find"
     ], 
     "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。", 
-    "Date": "2021-11-21"
+    "Date": "2022-03-07"
 },
 {
     "Number": "0206", 

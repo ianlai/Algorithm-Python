@@ -13,9 +13,9 @@ class DisjointSet:
     rootY = self.find(y)
     if rootX != rootY:
       if self.rank[rootX] < self.rank[rootY]:
-        self._union_root(rootX, rootY)
+        self._union_root(rootY, rootX) #big Y to be root
       else:
-        self._union_root(rootY, rootX)
+        self._union_root(rootX, rootY) #big X to be root
         
   def find(self, node):
     if self.parent[node] != node:
