@@ -1,8 +1,35 @@
 class Solution:
-
+    
+    # 2022/03/05 
+    # Binary Search [O(logn):93%]
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        print("Code-4")
+        left = bisect.bisect_left(nums, target) 
+        right = bisect.bisect_right(nums, target)
+        res = []
+        
+        if left == len(nums):
+            res.append(-1)
+        else:
+            if nums[left] == target:
+                res.append(left)
+            else:
+                res.append(-1)
+        
+        if right == 0:
+            res.append(-1)
+        else:
+            if nums[right-1] == target:
+                res.append(right-1)
+            else:
+                res.append(-1)
+        return res
+    
+    # ============================================    
+        
     # 2022/02/28 
     # Binary Search [O(logn): 29%]
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
+    def searchRange3(self, nums: List[int], target: int) -> List[int]:
         print("Code-3")
         import bisect 
         left = bisect.bisect_left(nums, target)

@@ -250,10 +250,11 @@
     "Title": "Find First and Last Position of Element in Sorted Array", 
     "Url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array", 
     "Tags": [
-        "Binary-Search"
+        "Binary-Search", 
+        "**BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2022-02-28"
+    "Memo": "可以用build-in的bisect_left/bisect_right，或自己實作（自己實作只差在等號放在大於或小於，就能做出兩種search)。注意left search的時候，如果找到len()位置，代表沒有值；相反的，right search的時候，如果找到0，代表沒有值。", 
+    "Date": "2022-03-06"
 },
 {
     "Number": "0035", 
@@ -1939,10 +1940,13 @@
     "Url": "https://leetcode.com/problems/find-the-duplicate-number", 
     "Tags": [
         "HashMap", 
-        "**CHECK"
+        "Binary-Search", 
+        "Binary-Search值域", 
+        "Sorting", 
+        "Cycle-Detection"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": "有很多方法可以做到這題的效果，但可以在O(n)做完且constant space的只有Cycle-Detection那個。Binary-Search的作法很有趣，想法是xxxxoooo，x的時候比v小於等於的數目剛好會是v，o的時候比v小於等於的數目就會大於v了，所以要找第一個o。", 
+    "Date": "2022-03-06"
 },
 {
     "Number": "0290", 
