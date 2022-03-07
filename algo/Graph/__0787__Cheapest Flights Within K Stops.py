@@ -20,8 +20,9 @@ class Solution:
     # 4
     # 13
     
+    # 2022/03/07
     # 2022/01/09 
-    # Dijkstra's variant (DP, with pruning) [49%]
+    # Dijkstra's variant (DP, with pruning) [69%]
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         print("Code6: Dijkstra (DP, with pruning, removed comments from Code5)")
         
@@ -40,11 +41,11 @@ class Solution:
                 continue
                 
             ### Pruning on maxStopMap (including the L48 memoization part, thus costMap is not needed anymore)
-            if node in maxStopMap and stop <= maxStopMap[node]:
+            if stop <= maxStopMap[node]:
                 continue
                 
             ### Relaxation on maxStopMap
-            maxStopMap[node] = max(maxStopMap[node], stop)
+            maxStopMap[node] = stop
             
             if node == dst:
                 return cost  #The first one is the min because using heap 

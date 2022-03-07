@@ -1,11 +1,13 @@
-DEBUG = True
 # 934. Shortest Bridge
 # https://leetcode.com/problems/shortest-bridge/
 
 DEBUG = True
 class Solution:
     
+    
+    # 2021/09/06
     # BFS starting with island2 [O(mn):62%] 
+    # BFS一開始就把一整個島放進去開始，而不是一個一個點
     def shortestBridge(self, grid: List[List[int]]) -> int:
         print("DFS to find island2 ; BFS starting with the whole island2")
         if not grid or not grid[0]:

@@ -43,7 +43,7 @@ class Solution:
             # Redanduncy removal 
             if i > 0 and nums[i-1] == nums[i]:
                 continue
-            twoSumList = twoSum(nums, i + 1, len(nums) - 1, -nums[i])
+            twoSumList = twoSum(nums, i + 1, len(nums) - 1, -nums[i]) #nums, start, end, target
             for twoSumPair in twoSumList:
                 twoSumPair.append(nums[i])
                 res.append(twoSumPair)
@@ -54,7 +54,7 @@ class Solution:
     # 2021/10/13
     # Two-Sum, manaully remove the redundancies of each item BEFORE adding to result [O(n2): 80%]
     # 結束後才去重
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum2(self, nums: List[int]) -> List[List[int]]:
         print("Code-2")
         nums.sort()
         res = []
@@ -81,7 +81,7 @@ class Solution:
     # =======================================
 
     # Two-Sum, use set to remove the redundancies AFTER adding to result [O(n2): 19%]
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum1(self, nums: List[int]) -> List[List[int]]:
         print("Code-1")
         nums.sort()
         res = set()

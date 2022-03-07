@@ -116,10 +116,11 @@
     "Tags": [
         "Two-Pointer", 
         "Two-Sum", 
-        "Redundant-Removal"
+        "Redundant-Removal", 
+        "**BASIC"
     ], 
-    "Memo": "要注意重複的點，必須要去重。去重的時間點(1)一開始：這是不行的，因為可能我們的解答就是需要重複的元素例如[-1,-1,2] (2)在最後的res去重：可以，但是這樣會比較慢，代表做了很多重複的答案才去掉。 (3)中間挑選的時候就去重：這是最好的作法，會最快。", 
-    "Date": "2022-01-26"
+    "Memo": "要注意重複的點，必須要去重。去重的時間點(1)一開始：這是不行的，因為可能我們的解答就是需要重複的元素例如[-1,-1,2] (2)在最後的res去重：可以，但是這樣會比較慢，代表做了很多重複的答案才去掉。 (3)中間挑選的時候就去重：這是最好的作法，會最快。模組化TwoSum函數好像比較清楚。", 
+    "Date": "2022-03-07"
 },
 {
     "Number": "0016", 
@@ -419,9 +420,10 @@
     "Url": "https://leetcode.com/problems/n-queens", 
     "Tags": [
         "Backtracking", 
-        "Matrix"
+        "Matrix", 
+        "DFS"
     ], 
-    "Memo": "", 
+    "Memo": "從第一row的每一個點開始出發做DFS，把檢查函數獨立出來，使用backtracking加入再loop再取出，最後把解答畫出來。", 
     "Date": "2021-06-01"
 },
 {
@@ -431,7 +433,8 @@
     "Url": "https://leetcode.com/problems/n-queens-ii", 
     "Tags": [
         "Backtracking", 
-        "Matrix"
+        "Matrix", 
+        "DFS"
     ], 
     "Memo": "", 
     "Date": "2021-06-01"
@@ -2162,8 +2165,8 @@
         "Sorting", 
         "**BASIC"
     ], 
-    "Memo": "(1)Sorting->O(nlogn) \\n (2)MaxHeap->O(n+klogn) (3)MinHeap->O(k+(n-k)logk) (4)QuickSelect->Avg:O(n) Worst:O(n2)", 
-    "Date": "2022-01-25"
+    "Memo": "(1)Sorting->O(nlogn) (2)MaxHeap->O(n+klogn) (3)MinHeap->O(k+(n-k)logk) (4)QuickSelect->Avg:O(n) Worst:O(n2)", 
+    "Date": "2022-03-07"
 },
 {
     "Number": "0349", 
@@ -3239,7 +3242,7 @@
         "**GOOD"
     ], 
     "Memo": "有兩個條件要排序(distance, stopNumber)，所以是Dijkstra的變形題。這題再次用DP(Memoization)的概念來做，並且把兩個條件當成兩維的點，事情就變得自然很多。可以再進一步優化，把同一個點但是剩餘站數少的丟掉，是一種Pruning，速度會快很多（沒剪枝約5%，剪枝變49%)。再進一步看，發現relaxation竟然不用做，因為通過heap的保證，順序已經決定，所以不需要做relaxation，而且碰到dst的第一個點，就直接是答案。", 
-    "Date": "2022-01-09"
+    "Date": "2022-03-07"
 },
 {
     "Number": "0792", 
@@ -3429,8 +3432,8 @@
         "Matrix", 
         "Island"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": "先用DFS把一個島轉成島2，再從島2用BFS找到離島1的最短距離。記得BFS的起始不是用一個一個的點，而是把整個島2傳入使用。", 
+    "Date": "2022-03-07"
 },
 {
     "Number": "0935", 

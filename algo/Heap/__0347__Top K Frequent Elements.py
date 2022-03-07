@@ -1,5 +1,6 @@
 class Solution:
     
+    # 2022/03/07
     # 2021/12/05
     # Quick Select [Avg case O(n) -- Worst case O(n2): 99% / 15%]
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -45,11 +46,10 @@ class Solution:
         print("start, end:", start, end, arr, "  L-R:", left, right)     
         if k <= right:
             return self.partition(arr, k, start, right)
-        if k >= left:
+        elif k >= left:
             return self.partition(arr, k, left, end)
-
-        #print("  arr[k]:", k)
-        return arr[k] # ..., right, k, left, ...
+        else:
+            return arr[k] # ..., right, k, left, ...
     
     # ============================================
     
