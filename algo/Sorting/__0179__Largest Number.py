@@ -1,5 +1,8 @@
+import functools
 class Solution:
     
+    # 2022/03/08
+    # 2022/02/17
     # Customized sorting [O(nlogn):54%]
     def largestNumber(self, nums: List[int]) -> str:
         numsString = [str(x) for x in nums]
@@ -7,7 +10,7 @@ class Solution:
             if x + y < y + x:
                 return 1
             return -1
-        numsString.sort(key = cmp_to_key(comp))
+        numsString.sort(key = functools.cmp_to_key(comp))
         
         res = ""
         for num in numsString:
