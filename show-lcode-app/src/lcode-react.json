@@ -4210,6 +4210,14 @@
     "Date": "2021-06-16"
 },
 {
+    "Number": "1641", 
+    "Level": 2, 
+    "Title": "Count Sorted Vowel Strings", 
+    "Url": "https://leetcode.com/problems/count-sorted-vowel-strings", 
+    "Tags": ["DP", "##Google"], 
+    "Memo": "要用兩個DP陣列，關係式要想清楚，要多列幾層，否則可能會誤以為找到了。"
+},
+{
     "Number": "1696", 
     "Level": 2, 
     "Title": "Jump Game VI", 

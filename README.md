@@ -154,6 +154,7 @@ algo
 │   ├── __1277__Count Square Submatrices with All Ones.py
 │   ├── __1289__Minimum Falling Path Sum II.py
 │   ├── __1395__Count Number of Teams.py
+│   ├── __1641__Count Sorted Vowel Strings.py
 │   ├── __1696__Jump Game VI.py
 │   ├── __1774__Closest Dessert Cost.py
 │   ├── __1937__Maximum Number of Points with Cost.py
@@ -402,17 +403,19 @@ algo
 │       ├── ArrayList.cpython-37.pyc
 │       ├── LinkedList.cpython-37.pyc
 │       └── UnrolledLinkedList.cpython-37.pyc
-├── _Interviews
+├── _Practice
 │   ├── Mock
 │   │   └── NumOfPathsToDest.py
-│   └── SmartNews-0
-│       ├── Countries.py
-│       └── SwitchingArray.py
+│   ├── SN
+│   │   ├── Countries.py
+│   │   └── SwitchingArray.py
+│   └── WP.py
+│       └── BiggestNumber.py
 └── _Template
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-31 directories, 380 files
+32 directories, 382 files
 
 =====================================
 ============= Local Repo ============
@@ -769,6 +772,7 @@ __1475__Final Prices With a Special Discount in a Shop.py
 __1525__Number of Good Ways to Split a String.py
 __1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
+__1641__Count Sorted Vowel Strings.py
 __1696__Jump Game VI.py
 __1711__Count Good Meals.py
 __1762__Buildings With an Ocean View.py
@@ -783,7 +787,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  365
+Num of Python Practice:  366
 
 
 =====================================
@@ -1141,6 +1145,7 @@ Num of Python Practice:  365
  1525 Number of Good Ways to Split a String
  1557 Minimum Number of Vertices to Reach All Nodes
  1593 Split a String Into the Max Number of Unique Substrings
+ 1641 Count Sorted Vowel Strings
  1696 Jump Game VI
  1711 Count Good Meals
  1762 Buildings With an Ocean View
@@ -1156,10 +1161,10 @@ Num of Python Practice:  365
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   72 /  551
-Solved / Total (Medium):  267 / 1173
+Solved / Total (Medium):  268 / 1173
 Solved / Total (Hard)  :   26 /  473
-Solved / Total (All)   :  365 / 2197
-Total Score            : 1003
+Solved / Total (All)   :  366 / 2197
+Total Score            : 1006
 =====================================
 
 ```

@@ -2823,6 +2823,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1641", 
+    "Level": 2, 
+    "Title": "Count Sorted Vowel Strings", 
+    "Url": "https://leetcode.com/problems/count-sorted-vowel-strings", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1696", 
     "Level": 2, 
     "Title": "Jump Game VI", 
