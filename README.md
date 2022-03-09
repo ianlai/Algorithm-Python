@@ -131,6 +131,7 @@ algo
 │   ├── __0416__Partition Equal Subset Sum.py
 │   ├── __0474__Ones and Zeroes.py
 │   ├── __0494__Target Sum.py
+│   ├── __0509__Fibonacci Number.py
 │   ├── __0516__Longest Palindromic Subsequence.py
 │   ├── __0518__Coin Change 2.py
 │   ├── __0542__01 Matrix.py
@@ -184,7 +185,8 @@ algo
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   └── __2093__Minimum Cost to Reach City With Discounts.py
 ├── Greedy
-│   └── __1029__Two City Scheduling.py
+│   ├── __1029__Two City Scheduling.py
+│   └── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
@@ -415,7 +417,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 382 files
+32 directories, 384 files
 
 =====================================
 ============= Local Repo ============
@@ -636,6 +638,7 @@ __0498__Diagonal Traverse.py
 __0499__The Maze III.py
 __0503__Next Greater Element II.py
 __0505__The Maze II.py
+__0509__Fibonacci Number.py
 __0510__Inorder Successor in BST II.py
 __0513__Find Bottom Left Tree Value.py
 __0515__Find Largest Value in Each Tree Row.py
@@ -765,6 +768,7 @@ __1358__Number of Substrings Containing All Three Characters.py
 __1382__Balance a Binary Search Tree.py
 __1391__Check if There is a Valid Path in a Grid.py
 __1395__Count Number of Teams.py
+__1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
 __1429__First Unique Number.py
 __1438__Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py
 __1448__Count Good Nodes in Binary Tree.py
@@ -787,7 +791,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  366
+Num of Python Practice:  368
 
 
 =====================================
@@ -1009,6 +1013,7 @@ Num of Python Practice:  366
  0499 The Maze III
  0503 Next Greater Element II
  0505 The Maze II
+ 0509 Fibonacci Number
  0510 Inorder Successor in BST II
  0513 Find Bottom Left Tree Value
  0515 Find Largest Value in Each Tree Row
@@ -1138,6 +1143,7 @@ Num of Python Practice:  366
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
+ 1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
  1429 First Unique Number
  1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
  1448 Count Good Nodes in Binary Tree
@@ -1160,11 +1166,11 @@ Num of Python Practice:  366
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   72 /  551
-Solved / Total (Medium):  268 / 1173
+Solved / Total (Easy)  :   73 /  551
+Solved / Total (Medium):  269 / 1173
 Solved / Total (Hard)  :   26 /  473
-Solved / Total (All)   :  366 / 2197
-Total Score            : 1006
+Solved / Total (All)   :  368 / 2197
+Total Score            : 1010
 =====================================
 
 ```

@@ -2564,6 +2564,15 @@
     "Date": "2022-01-01"
 },
 {
+    "Number": "0509", 
+    "Level": 1, 
+    "Title": "Fibonacci Number", 
+    "Url": "https://leetcode.com/problems/fibonacci-number", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-03-09"
+},
+{
     "Number": "0510", 
     "Level": 2, 
     "Title": "Inorder Successor in BST II", 
@@ -3835,7 +3844,7 @@
         "DP"
     ], 
     "Memo": "", 
-    "Date": "2021-07-20"
+    "Date": "2022-03-09"
 },
 {
     "Number": "1146", 
@@ -4124,6 +4133,15 @@
     "Date": "2021-07-08"
 },
 {
+    "Number": "1414", 
+    "Level": 2, 
+    "Title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K", 
+    "Url": "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-03-09"
+},
+{
     "Number": "1429", 
     "Level": 2, 
     "Title": "First Unique Number", 
@@ -4214,8 +4232,12 @@
     "Level": 2, 
     "Title": "Count Sorted Vowel Strings", 
     "Url": "https://leetcode.com/problems/count-sorted-vowel-strings", 
-    "Tags": ["DP", "##Google"], 
-    "Memo": "要用兩個DP陣列，關係式要想清楚，要多列幾層，否則可能會誤以為找到了。"
+    "Tags": [
+        "DP", 
+        "##Google"
+    ], 
+    "Memo": "要用兩個DP陣列，關係式要想清楚，要多列幾層，否則可能會誤以為找到了。", 
+    "Date": "2022-03-09"
 },
 {
     "Number": "1696", 

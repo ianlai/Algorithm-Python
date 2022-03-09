@@ -1735,6 +1735,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0509", 
+    "Level": 1, 
+    "Title": "Fibonacci Number", 
+    "Url": "https://leetcode.com/problems/fibonacci-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0510", 
     "Level": 2, 
     "Title": "Inorder Successor in BST II", 
@@ -2763,6 +2771,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Count Number of Teams", 
     "Url": "https://leetcode.com/problems/count-number-of-teams", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1414", 
+    "Level": 2, 
+    "Title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K", 
+    "Url": "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k", 
     "Tags": [], 
     "Memo": ""
 },
