@@ -1439,6 +1439,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0338", 
+    "Level": 1, 
+    "Title": "Counting Bits", 
+    "Url": "https://leetcode.com/problems/counting-bits", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0340", 
     "Level": 2, 
     "Title": "Longest Substring with At Most K Distinct Characters", 

@@ -127,6 +127,7 @@ algo
 │   ├── __0279__Perfect Squares.py
 │   ├── __0300__Longest Increasing Subsequence.py
 │   ├── __0322__Coin Change.py
+│   ├── __0338__Counting Bits.py
 │   ├── __0377__Combination Sum IV.py
 │   ├── __0416__Partition Equal Subset Sum.py
 │   ├── __0474__Ones and Zeroes.py
@@ -417,7 +418,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 384 files
+32 directories, 385 files
 
 =====================================
 ============= Local Repo ============
@@ -601,6 +602,7 @@ __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0332__Reconstruct Itinerary.py
 __0333__Largest BST Subtree.py
+__0338__Counting Bits.py
 __0340__Longest Substring with At Most K Distinct Characters.py
 __0341__Flatten Nested List Iterator.py
 __0346__Moving Average from Data Stream.py
@@ -791,7 +793,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  368
+Num of Python Practice:  369
 
 
 =====================================
@@ -976,6 +978,7 @@ Num of Python Practice:  368
  0323 Number of Connected Components in an Undirected Graph
  0332 Reconstruct Itinerary
  0333 Largest BST Subtree
+ 0338 Counting Bits
  0340 Longest Substring with At Most K Distinct Characters
  0341 Flatten Nested List Iterator
  0346 Moving Average from Data Stream
@@ -1166,11 +1169,11 @@ Num of Python Practice:  368
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   73 /  551
-Solved / Total (Medium):  269 / 1173
+Solved / Total (Easy)  :   74 /  551
+Solved / Total (Medium):  269 / 1174
 Solved / Total (Hard)  :   26 /  473
-Solved / Total (All)   :  368 / 2197
-Total Score            : 1010
+Solved / Total (All)   :  369 / 2198
+Total Score            : 1011
 =====================================
 
 ```
