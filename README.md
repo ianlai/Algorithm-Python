@@ -29,7 +29,6 @@ algo
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
 │   ├── __0107__Binary Tree Level Order Traversal II.py
-│   ├── __0111__Minimum Depth of Binary Tree.py
 │   ├── __0126__Word Ladder II.py
 │   ├── __0127__Word Ladder.py
 │   ├── __0133__Clone Graph.py
@@ -307,6 +306,7 @@ algo
 │   ├── __0105__Construct Binary Tree from Preorder and Inorder Traversal.py
 │   ├── __0108__Convert Sorted Array to Binary Search Tree.py
 │   ├── __0109__Convert Sorted List to Binary Search Tree.py
+│   ├── __0111__Minimum Depth of Binary Tree.py
 │   ├── __0114__Flatten Binary Tree to Linked List.py
 │   ├── __0116__Populating Next Right Pointers in Each Node.py
 │   ├── __0129__Sum Root to Leaf Numbers.py
