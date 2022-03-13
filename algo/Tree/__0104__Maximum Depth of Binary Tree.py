@@ -5,7 +5,20 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    
+    # 2022/03/13
+    # Recursion [O(n): 94%]
     def maxDepth(self, root: TreeNode) -> int:
+        print("Code2")
+        if root is None:
+            return 0
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right)) 
+        
+    # =========================================
+            
+    #2021/07/01
+    def maxDepth1(self, root: TreeNode) -> int:
+        print("Code1")
         return self.dfs(root)
     
     def dfs(self, node):
