@@ -1169,10 +1169,10 @@ Num of Python Practice:  369
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   74 /  551
-Solved / Total (Medium):  269 / 1174
-Solved / Total (Hard)  :   26 /  473
-Solved / Total (All)   :  369 / 2198
+Solved / Total (Easy)  :   74 /  552
+Solved / Total (Medium):  269 / 1176
+Solved / Total (Hard)  :   26 /  475
+Solved / Total (All)   :  369 / 2203
 Total Score            : 1011
 =====================================
 

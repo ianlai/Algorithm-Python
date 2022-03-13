@@ -5,10 +5,31 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    
-    # === Inorder traversal (BST should be ascending)
+    #2022/03/13
+    #Pass the ranges [O(n): 83%]
     def isValidBST(self, root: TreeNode) -> bool:
-        print("Inorder")
+        print("Code3")
+        def isValidBST(node, minVal, maxVal):
+            if node is None:
+                return True
+            if node.val <= minVal or node.val >= maxVal:
+                return False
+            left = isValidBST(node.left, minVal, node.val)
+            if not left:
+                return False
+            right = isValidBST(node.right, node.val, maxVal)
+            if not right:
+                return False
+            return True
+            
+        return isValidBST(root, -inf, inf)
+    
+    # ================================================
+    
+    # 2021/04/22
+    # Inorder traversal 
+    def isValidBST(self, root: TreeNode) -> bool:
+        print("Code2: Inorder")
         if not root:
             return False
         
@@ -31,9 +52,11 @@ class Solution:
         self.inorder(root.right, arr)
         return 
     
-    # === Calculate the valid interval (6%)
-    def isValidBST1(self, root: TreeNode) -> bool:
-        print("Min-Max interval")
+    # ================================================
+    # 2021/04/22
+    # Calculate the valid interval [O(n): 6%]
+    def isValidBST(self, root: TreeNode) -> bool:
+        print("Code1: Min-Max interval")
         if not root:
             return False
         maxVal = float("inf")
