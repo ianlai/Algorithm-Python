@@ -924,8 +924,12 @@
     "Level": 1, 
     "Title": "Minimum Depth of Binary Tree", 
     "Url": "https://leetcode.com/problems/minimum-depth-of-binary-tree", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Tree", 
+        "DFS", 
+        "BFS"
+    ], 
+    "Memo": "兩邊都是None才能算葉子節點，因此判斷式比找max depth還多。", 
     "Date": "2022-03-14"
 },
 {
@@ -3891,6 +3895,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-01-02"
+},
+{
+    "Number": "1166", 
+    "Level": 2, 
+    "Title": "Design File System", 
+    "Url": "https://leetcode.com/problems/design-file-system", 
+    "Tags": ["Design", "Trie"], 
+    "Memo": "直接使用Hashmap會錯。新增時要考慮path+filename是否已經存在，也要考慮path是否存在。Trie的稍微變化題，要考慮比較多種的跳出結果，可以回傳多變數。"
 },
 {
     "Number": "1167", 

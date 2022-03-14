@@ -2623,6 +2623,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1166", 
+    "Level": 2, 
+    "Title": "Design File System", 
+    "Url": "https://leetcode.com/problems/design-file-system", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1167", 
     "Level": 2, 
     "Title": "Minimum Cost to Connect Sticks", 

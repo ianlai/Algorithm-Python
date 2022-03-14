@@ -352,6 +352,7 @@ algo
 │   ├── __0208__Implement Trie (Prefix Tree).py
 │   ├── __0211__Design Add and Search Words Data Structure.py
 │   ├── __0648__Replace Words.py
+│   ├── __1166__Design File System.py
 │   ├── __1268__Search Suggestions System.py
 │   └── __1804__Implement Trie II (Prefix Tree).py
 ├── Two-Pointer
@@ -418,7 +419,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 385 files
+32 directories, 386 files
 
 =====================================
 ============= Local Repo ============
@@ -750,6 +751,7 @@ __1143__Longest Common Subsequence.py
 __1146__Snapshot Array.py
 __1161__Maximum Level Sum of a Binary Tree.py
 __1165__Single-Row Keyboard.py
+__1166__Design File System.py
 __1167__Minimum Cost to Connect Sticks.py
 __1182__Shortest Distance to Target Color.py
 __1197__Minimum Knight Moves.py
@@ -793,7 +795,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  369
+Num of Python Practice:  370
 
 
 =====================================
@@ -1126,6 +1128,7 @@ Num of Python Practice:  369
  1146 Snapshot Array
  1161 Maximum Level Sum of a Binary Tree
  1165 Single-Row Keyboard
+ 1166 Design File System
  1167 Minimum Cost to Connect Sticks
  1182 Shortest Distance to Target Color
  1197 Minimum Knight Moves
@@ -1170,10 +1173,10 @@ Num of Python Practice:  369
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   74 /  552
-Solved / Total (Medium):  269 / 1176
+Solved / Total (Medium):  270 / 1176
 Solved / Total (Hard)  :   26 /  475
-Solved / Total (All)   :  369 / 2203
-Total Score            : 1011
+Solved / Total (All)   :  370 / 2203
+Total Score            : 1014
 =====================================
 
 ```
