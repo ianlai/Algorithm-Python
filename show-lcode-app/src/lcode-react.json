@@ -1658,10 +1658,11 @@
     "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree", 
     "Tags": [
         "Tree", 
+        "DFS", 
         "LCA"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Memo": "用Recursion。往下在變動的是root，結果只有三種(1)p,q都在裡面 (2)p,q只有一個在裡面 (3)p,q都不在裡面。", 
+    "Date": "2022-03-15"
 },
 {
     "Number": "0237", 
@@ -3901,8 +3902,12 @@
     "Level": 2, 
     "Title": "Design File System", 
     "Url": "https://leetcode.com/problems/design-file-system", 
-    "Tags": ["Design", "Trie"], 
-    "Memo": "直接使用Hashmap會錯。新增時要考慮path+filename是否已經存在，也要考慮path是否存在。Trie的稍微變化題，要考慮比較多種的跳出結果，可以回傳多變數。"
+    "Tags": [
+        "Design", 
+        "Trie"
+    ], 
+    "Memo": "直接使用Hashmap會錯。新增時要考慮path+filename是否已經存在，也要考慮path是否存在。Trie的稍微變化題，要考慮比較多種的跳出結果，可以回傳多變數。", 
+    "Date": "2022-03-14"
 },
 {
     "Number": "1167", 
