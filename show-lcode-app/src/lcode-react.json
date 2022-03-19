@@ -1618,8 +1618,8 @@
     "Level": 1, 
     "Title": "Summary Ranges", 
     "Url": "https://leetcode.com/problems/summary-ranges", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Array", "##Indeed"], 
+    "Memo": "掃一次過去，比res[-1]的尾巴多1的話，就merge起來。"
 },
 {
     "Number": "0230", 
@@ -2215,8 +2215,8 @@
     "Level": 3, 
     "Title": "Data Stream as Disjoint Intervals", 
     "Url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Design", "Sorting", "HashMap", "Union-Find","##Indeed"], 
+    "Memo": "LC228 Summary Range的延伸版，沒有先做好sorting且不斷輸入的情況。使用HashMap存每一個段落的頭尾，達到Add O(1)的效果。取Ranges的部分則是因為要排序，因此要O(mlogm)，m是range數。如果使用OrderedDict（類似Java TreeMap），插入的時候就排序好，可以讓時間複雜度更平衡。也可以使用DisjointSet來做這題。總共有的作法：(1)dict (2)ordered_dict (3)disjoint_set"
 },
 {
     "Number": "0362", 
