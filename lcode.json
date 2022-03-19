@@ -943,6 +943,22 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0168", 
+    "Level": 1, 
+    "Title": "Excel Sheet Column Title", 
+    "Url": "https://leetcode.com/problems/excel-sheet-column-title", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0171", 
+    "Level": 1, 
+    "Title": "Excel Sheet Column Number", 
+    "Url": "https://leetcode.com/problems/excel-sheet-column-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0173", 
     "Level": 2, 
     "Title": "Binary Search Tree Iterator", 

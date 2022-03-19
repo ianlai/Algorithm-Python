@@ -290,6 +290,8 @@ algo
 │   ├── __0014__Longest Common Prefix.py
 │   ├── __0151__Reverse Words in a String.py
 │   ├── __0161__One Edit Distance.py
+│   ├── __0168__Excel Sheet Column Title.py
+│   ├── __0171__Excel Sheet Column Number.py
 │   ├── __0392__Is Subsequence.py
 │   ├── __0423__Reconstruct Original Digits from English.py
 │   ├── __0459__Repeated Substring Pattern.py
@@ -421,7 +423,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 388 files
+32 directories, 390 files
 
 =====================================
 ============= Local Repo ============
@@ -543,6 +545,8 @@ __0160__Intersection of Two Linked Lists.py
 __0161__One Edit Distance.py
 __0162__Find Peak Element.py
 __0167__Two Sum II - Input array is sorted.py
+__0168__Excel Sheet Column Title.py
+__0171__Excel Sheet Column Number.py
 __0173__Binary Search Tree Iterator.py
 __0179__Largest Number.py
 __0187__Repeated DNA Sequences.py
@@ -799,7 +803,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  372
+Num of Python Practice:  374
 
 
 =====================================
@@ -922,6 +926,8 @@ Num of Python Practice:  372
  0161 One Edit Distance
  0162 Find Peak Element
  0167 Two Sum II - Input Array Is Sorted
+ 0168 Excel Sheet Column Title
+ 0171 Excel Sheet Column Number
  0173 Binary Search Tree Iterator
  0179 Largest Number
  0187 Repeated DNA Sequences
@@ -1178,11 +1184,11 @@ Num of Python Practice:  372
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   75 /  553
+Solved / Total (Easy)  :   77 /  553
 Solved / Total (Medium):  270 / 1176
 Solved / Total (Hard)  :   27 /  476
-Solved / Total (All)   :  372 / 2205
-Total Score            : 1020
+Solved / Total (All)   :  374 / 2205
+Total Score            : 1022
 =====================================
 
 ```
