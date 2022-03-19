@@ -1095,6 +1095,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0228", 
+    "Level": 1, 
+    "Title": "Summary Ranges", 
+    "Url": "https://leetcode.com/problems/summary-ranges", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0230", 
     "Level": 2, 
     "Title": "Kth Smallest Element in a BST", 
@@ -1491,6 +1499,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Intersection of Two Arrays II", 
     "Url": "https://leetcode.com/problems/intersection-of-two-arrays-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0352", 
+    "Level": 3, 
+    "Title": "Data Stream as Disjoint Intervals", 
+    "Url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals", 
     "Tags": [], 
     "Memo": ""
 },

@@ -7,6 +7,7 @@ algo
 │   ├── __0057__Insert Interval.py
 │   ├── __0122__Best Time to Buy and Sell Stock II.py
 │   ├── __0134__Gas Station.py
+│   ├── __0228__Summary Ranges.py
 │   ├── __0238__Product of Array Except Self.py
 │   ├── __0243__Shortest Word Distance.py
 │   ├── __0252__Meeting Rooms.py
@@ -162,6 +163,7 @@ algo
 │   └── __2008__Maximum Earnings From Taxi.py
 ├── DataStructure
 │   ├── __0146__LRU Cache.py
+│   ├── __0352__Data Stream as Disjoint Intervals.py
 │   ├── __0380__Insert Delete GetRandom O(1).py
 │   ├── __0387__First Unique Character in a String.py
 │   ├── __0706__Design HashMap.py
@@ -419,7 +421,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 386 files
+32 directories, 388 files
 
 =====================================
 ============= Local Repo ============
@@ -560,6 +562,7 @@ __0216__Combination Sum III.py
 __0221__Maximal Square.py
 __0222__Count Complete Tree Nodes.py
 __0226__Invert Binary Tree.py
+__0228__Summary Ranges.py
 __0230__Kth Smallest Element in a BST.py
 __0234__Palindrome Linked List.py
 __0235__Lowest Common Ancestor of a Binary Search Tree.py
@@ -610,6 +613,7 @@ __0346__Moving Average from Data Stream.py
 __0347__Top K Frequent Elements.py
 __0349__Intersection of Two Arrays.py
 __0350__Intersection of Two Arrays II.py
+__0352__Data Stream as Disjoint Intervals.py
 __0362__Design Hit Counter.py
 __0366__Find Leaves of Binary Tree.py
 __0377__Combination Sum IV.py
@@ -795,7 +799,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  370
+Num of Python Practice:  372
 
 
 =====================================
@@ -937,6 +941,7 @@ Num of Python Practice:  370
  0221 Maximal Square
  0222 Count Complete Tree Nodes
  0226 Invert Binary Tree
+ 0228 Summary Ranges
  0230 Kth Smallest Element in a BST
  0234 Palindrome Linked List
  0235 Lowest Common Ancestor of a Binary Search Tree
@@ -987,6 +992,7 @@ Num of Python Practice:  370
  0347 Top K Frequent Elements
  0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
+ 0352 Data Stream as Disjoint Intervals
  0362 Design Hit Counter
  0366 Find Leaves of Binary Tree
  0377 Combination Sum IV
@@ -1172,11 +1178,11 @@ Num of Python Practice:  370
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   74 /  552
+Solved / Total (Easy)  :   75 /  553
 Solved / Total (Medium):  270 / 1176
-Solved / Total (Hard)  :   26 /  475
-Solved / Total (All)   :  370 / 2203
-Total Score            : 1014
+Solved / Total (Hard)  :   27 /  476
+Solved / Total (All)   :  372 / 2205
+Total Score            : 1020
 =====================================
 
 ```
