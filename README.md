@@ -209,6 +209,7 @@ algo
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
 │   ├── __0264__Ugly Number II.py
+│   ├── __0295__Find Median from Data Stream.py
 │   ├── __0347__Top K Frequent Elements.py
 │   ├── __0378__Kth Smallest Element in a Sorted Matrix.py
 │   ├── __0692__Top K Frequent Words.py
@@ -423,7 +424,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 390 files
+32 directories, 391 files
 
 =====================================
 ============= Local Repo ============
@@ -599,6 +600,7 @@ __0286__Walls and Gates.py
 __0287__Find the Duplicate Number.py
 __0290__Word Pattern.py
 __0291__Word Pattern II.py
+__0295__Find Median from Data Stream.py
 __0297__Serialize and Deserialize Binary Tree.py
 __0300__Longest Increasing Subsequence.py
 __0303__Range Sum Query - Immutable.py
@@ -803,7 +805,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  374
+Num of Python Practice:  375
 
 
 =====================================
@@ -980,6 +982,7 @@ Num of Python Practice:  374
  0287 Find the Duplicate Number
  0290 Word Pattern
  0291 Word Pattern II
+ 0295 Find Median from Data Stream
  0297 Serialize and Deserialize Binary Tree
  0300 Longest Increasing Subsequence
  0303 Range Sum Query - Immutable
@@ -1184,11 +1187,11 @@ Num of Python Practice:  374
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   77 /  553
-Solved / Total (Medium):  270 / 1176
-Solved / Total (Hard)  :   27 /  476
-Solved / Total (All)   :  374 / 2205
-Total Score            : 1022
+Solved / Total (Easy)  :   77 /  555
+Solved / Total (Medium):  270 / 1180
+Solved / Total (Hard)  :   28 /  478
+Solved / Total (All)   :  375 / 2213
+Total Score            : 1027
 =====================================
 
 ```

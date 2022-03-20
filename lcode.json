@@ -1375,6 +1375,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0295", 
+    "Level": 3, 
+    "Title": "Find Median from Data Stream", 
+    "Url": "https://leetcode.com/problems/find-median-from-data-stream", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0297", 
     "Level": 3, 
     "Title": "Serialize and Deserialize Binary Tree", 
