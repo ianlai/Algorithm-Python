@@ -212,6 +212,7 @@ algo
 │   ├── __0295__Find Median from Data Stream.py
 │   ├── __0347__Top K Frequent Elements.py
 │   ├── __0378__Kth Smallest Element in a Sorted Matrix.py
+│   ├── __0480__Sliding Window Median.py
 │   ├── __0692__Top K Frequent Words.py
 │   ├── __0703__Kth Largest Element in a Stream.py
 │   ├── __0973__K Closest Points to Origin.py
@@ -424,7 +425,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 391 files
+32 directories, 392 files
 
 =====================================
 ============= Local Repo ============
@@ -644,6 +645,7 @@ __0450__Delete Node in a BST.py
 __0456__132 Pattern.py
 __0459__Repeated Substring Pattern.py
 __0474__Ones and Zeroes.py
+__0480__Sliding Window Median.py
 __0490__The Maze.py
 __0494__Target Sum.py
 __0496__Next Greater Element I.py
@@ -805,7 +807,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  375
+Num of Python Practice:  376
 
 
 =====================================
@@ -1026,6 +1028,7 @@ Num of Python Practice:  375
  0456 132 Pattern
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
+ 0480 Sliding Window Median
  0490 The Maze
  0494 Target Sum
  0496 Next Greater Element I
@@ -1189,9 +1192,9 @@ Num of Python Practice:  375
 =====================================
 Solved / Total (Easy)  :   77 /  555
 Solved / Total (Medium):  270 / 1180
-Solved / Total (Hard)  :   28 /  478
-Solved / Total (All)   :  375 / 2213
-Total Score            : 1027
+Solved / Total (Hard)  :   29 /  478
+Solved / Total (All)   :  376 / 2213
+Total Score            : 1032
 =====================================
 
 ```

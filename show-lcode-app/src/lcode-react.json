@@ -1776,7 +1776,7 @@
     "Level": 1, 
     "Title": "Shortest Word Distance", 
     "Url": "https://leetcode.com/problems/shortest-word-distance", 
-    "Tags": [], 
+    "Tags": ["##Indeed"], 
     "Memo": "", 
     "Date": "2022-01-31"
 },
@@ -1785,7 +1785,7 @@
     "Level": 2, 
     "Title": "Shortest Word Distance II", 
     "Url": "https://leetcode.com/problems/shortest-word-distance-ii", 
-    "Tags": [], 
+    "Tags": ["##Indeed"], 
     "Memo": "", 
     "Date": "2022-02-16"
 },
@@ -2565,6 +2565,20 @@
     ], 
     "Memo": "", 
     "Date": "2021-08-22"
+},
+{
+    "Number": "0480", 
+    "Level": 3, 
+    "Title": "Sliding Window Median", 
+    "Url": "https://leetcode.com/problems/sliding-window-median", 
+    "Tags": [
+        "Sorting", 
+        "Design", 
+        "Heap", 
+        "##Indeed"
+    ], 
+    "Memo": "LC0295的延伸，一樣是用兩個Heap的方法。SlidingWindow跟DataStream一樣都是要存下上一個狀態，這部分是相同的，但不同的是SlidingWindow還必須要實作刪除的部分。在Heap內的刪除使用內部函數可以達到O(logn)，但找到index來刪除也還是O(n)。也可以直接重新Heapify一次，雖然都是O(n)，但這方法速度會慢一些。", 
+    "Date": "2022-03-21"
 },
 {
     "Number": "0490", 

@@ -1727,6 +1727,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0480", 
+    "Level": 3, 
+    "Title": "Sliding Window Median", 
+    "Url": "https://leetcode.com/problems/sliding-window-median", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0490", 
     "Level": 2, 
     "Title": "The Maze", 

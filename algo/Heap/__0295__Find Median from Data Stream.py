@@ -1,6 +1,32 @@
 # 2022/03/20
-# Two heaps [86%]
+# Two heaps (always add from small heap) [86%]
 class MedianFinder:
+    def __init__(self):
+        print("Code5")
+        self.maxheap = [] #small part
+        self.minheap = [] #large part
+
+    #O(logn)
+    def addNum(self, num: int) -> None:
+        #print("addNum:", self.maxheap, self.minheap)
+        heapq.heappush(self.maxheap, -num)
+        heapq.heappush(self.minheap, -heapq.heappop(self.maxheap))
+        
+        if len(self.maxheap) < len(self.minheap):
+            heapq.heappush(self.maxheap, -heapq.heappop(self.minheap))   
+    #O(1)
+    def findMedian(self) -> float:
+        #print("findMedian:", self.maxheap, self.minheap)
+        size = len(self.maxheap) + len(self.minheap)
+        if size % 2 == 0:
+            return (-self.maxheap[0] + self.minheap[0]) / 2
+        else:
+            return -self.maxheap[0] #since small part always one element more 
+        
+# ==========================================        
+# 2022/03/20
+# Two heaps [86%]
+class MedianFinder4:
     def __init__(self):
         print("Code4")
         self.maxheap = [] #small part
