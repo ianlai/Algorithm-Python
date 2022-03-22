@@ -1,6 +1,53 @@
+# 2022/03/22 
+# SortedList [47%]
+from sortedcontainers import SortedList
+class MedianFinder:
+    def __init__(self):
+        print("** Code7 - SortedList")
+        self.sortedlist = SortedList()
+        
+    def addNum(self, num):
+        self.sortedlist.add(num)
+        
+    def findMedian(self):
+        size = len(self.sortedlist)
+        if size % 2 == 0:
+            return (self.sortedlist[size//2-1] + self.sortedlist[size//2]) / 2
+        else:
+            return self.sortedlist[size//2]
+            
+# ==========================================        
+# 2022/03/21
+# Two heaps [86%]
+class MedianFinder6:
+    def __init__(self):
+        print("** Code6 - Two heaps - simple implementation ")
+        self.lo = [] #max heap
+        self.hi = [] #min heap
+        
+    def addNum(self, num):
+        if self.lo and num <= -self.lo[0]:
+            heapq.heappush(self.lo, -num)
+        elif self.hi and num >= self.hi[0]:
+            heapq.heappush(self.hi, num)
+        else:
+            heapq.heappush(self.lo, -num)
+        if len(self.hi) > len(self.lo):
+            heapq.heappush(self.lo, -heapq.heappop(self.hi))
+        if len(self.lo) > len(self.hi) + 1:
+            heapq.heappush(self.hi, -heapq.heappop(self.lo))
+    
+    def findMedian(self):
+        size = len(self.lo) + len(self.hi)
+        if size % 2 == 0:
+            return (-self.lo[0] + self.hi[0]) / 2
+        else:
+            return -self.lo[0]
+        
+# ==========================================        
 # 2022/03/20
 # Two heaps (always add from small heap) [86%]
-class MedianFinder:
+class MedianFinder5:
     def __init__(self):
         print("Code5")
         self.maxheap = [] #small part
