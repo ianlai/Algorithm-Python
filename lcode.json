@@ -631,6 +631,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0110", 
+    "Level": 1, 
+    "Title": "Balanced Binary Tree", 
+    "Url": "https://leetcode.com/problems/balanced-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0111", 
     "Level": 1, 
     "Title": "Minimum Depth of Binary Tree", 
@@ -2651,6 +2659,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Snapshot Array", 
     "Url": "https://leetcode.com/problems/snapshot-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1160", 
+    "Level": 1, 
+    "Title": "Find Words That Can Be Formed by Characters", 
+    "Url": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters", 
     "Tags": [], 
     "Memo": ""
 },

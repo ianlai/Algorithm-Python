@@ -202,6 +202,7 @@ algo
 │   ├── __0349__Intersection of Two Arrays.py
 │   ├── __0535__Encode and Decode TinyURL.py
 │   ├── __0705__Design HashSet.py
+│   ├── __1160__Find Words That Can Be Formed by Characters.py
 │   ├── __1525__Number of Good Ways to Split a String.py
 │   ├── __2007__Find Original Array From Doubled Array.py
 │   └── __2156__Find Substring With Given Hash Value.py
@@ -312,6 +313,7 @@ algo
 │   ├── __0105__Construct Binary Tree from Preorder and Inorder Traversal.py
 │   ├── __0108__Convert Sorted Array to Binary Search Tree.py
 │   ├── __0109__Convert Sorted List to Binary Search Tree.py
+│   ├── __0110__Balanced Binary Tree.py
 │   ├── __0111__Minimum Depth of Binary Tree.py
 │   ├── __0114__Flatten Binary Tree to Linked List.py
 │   ├── __0116__Populating Next Right Pointers in Each Node.py
@@ -425,7 +427,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 392 files
+32 directories, 394 files
 
 =====================================
 ============= Local Repo ============
@@ -508,6 +510,7 @@ __0105__Construct Binary Tree from Preorder and Inorder Traversal.py
 __0107__Binary Tree Level Order Traversal II.py
 __0108__Convert Sorted Array to Binary Search Tree.py
 __0109__Convert Sorted List to Binary Search Tree.py
+__0110__Balanced Binary Tree.py
 __0111__Minimum Depth of Binary Tree.py
 __0112__Path Sum.py
 __0113__Path Sum II.py
@@ -761,6 +764,7 @@ __1130__Minimum Cost Tree From Leaf Values.py
 __1137__N-th Tribonacci Number.py
 __1143__Longest Common Subsequence.py
 __1146__Snapshot Array.py
+__1160__Find Words That Can Be Formed by Characters.py
 __1161__Maximum Level Sum of a Binary Tree.py
 __1165__Single-Row Keyboard.py
 __1166__Design File System.py
@@ -807,7 +811,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  376
+Num of Python Practice:  378
 
 
 =====================================
@@ -891,6 +895,7 @@ Num of Python Practice:  376
  0107 Binary Tree Level Order Traversal II
  0108 Convert Sorted Array to Binary Search Tree
  0109 Convert Sorted List to Binary Search Tree
+ 0110 Balanced Binary Tree
  0111 Minimum Depth of Binary Tree
  0112 Path Sum
  0113 Path Sum II
@@ -1144,6 +1149,7 @@ Num of Python Practice:  376
  1137 N-th Tribonacci Number
  1143 Longest Common Subsequence
  1146 Snapshot Array
+ 1160 Find Words That Can Be Formed by Characters
  1161 Maximum Level Sum of a Binary Tree
  1165 Single-Row Keyboard
  1166 Design File System
@@ -1190,11 +1196,11 @@ Num of Python Practice:  376
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   77 /  555
+Solved / Total (Easy)  :   79 /  555
 Solved / Total (Medium):  270 / 1180
 Solved / Total (Hard)  :   29 /  478
-Solved / Total (All)   :  376 / 2213
-Total Score            : 1032
+Solved / Total (All)   :  378 / 2213
+Total Score            : 1034
 =====================================
 
 ```

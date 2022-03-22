@@ -920,6 +920,15 @@
     "Date": "2021-07-18"
 },
 {
+    "Number": "0110", 
+    "Level": 1, 
+    "Title": "Balanced Binary Tree", 
+    "Url": "https://leetcode.com/problems/balanced-binary-tree", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-03-22"
+},
+{
     "Number": "0111", 
     "Level": 1, 
     "Title": "Minimum Depth of Binary Tree", 
@@ -3960,6 +3969,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-11-06"
+},
+{
+    "Number": "1160", 
+    "Level": 1, 
+    "Title": "Find Words That Can Be Formed by Characters", 
+    "Url": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1161", 
