@@ -356,7 +356,8 @@ algo
 │   ├── __1302__Deepest Leaves Sum.py
 │   ├── __1382__Balance a Binary Search Tree.py
 │   ├── __1448__Count Good Nodes in Binary Tree.py
-│   └── __1644__Lowest Common Ancestor of a Binary Tree II.py
+│   ├── __1644__Lowest Common Ancestor of a Binary Tree II.py
+│   └── __1650__Lowest Common Ancestor of a Binary Tree III.py
 ├── Trie
 │   ├── __0208__Implement Trie (Prefix Tree).py
 │   ├── __0211__Design Add and Search Words Data Structure.py
@@ -428,7 +429,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 395 files
+32 directories, 396 files
 
 =====================================
 ============= Local Repo ============
@@ -799,6 +800,7 @@ __1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1641__Count Sorted Vowel Strings.py
 __1644__Lowest Common Ancestor of a Binary Tree II.py
+__1650__Lowest Common Ancestor of a Binary Tree III.py
 __1696__Jump Game VI.py
 __1711__Count Good Meals.py
 __1762__Buildings With an Ocean View.py
@@ -813,7 +815,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  379
+Num of Python Practice:  380
 
 
 =====================================
@@ -1185,6 +1187,7 @@ Num of Python Practice:  379
  1593 Split a String Into the Max Number of Unique Substrings
  1641 Count Sorted Vowel Strings
  1644 Lowest Common Ancestor of a Binary Tree II
+ 1650 Lowest Common Ancestor of a Binary Tree III
  1696 Jump Game VI
  1711 Count Good Meals
  1762 Buildings With an Ocean View
@@ -1200,10 +1203,10 @@ Num of Python Practice:  379
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   79 /  555
-Solved / Total (Medium):  271 / 1180
+Solved / Total (Medium):  272 / 1180
 Solved / Total (Hard)  :   29 /  478
-Solved / Total (All)   :  379 / 2213
-Total Score            : 1037
+Solved / Total (All)   :  380 / 2213
+Total Score            : 1040
 =====================================
 
 ```
