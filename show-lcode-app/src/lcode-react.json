@@ -1669,7 +1669,8 @@
     "Tags": [
         "Tree", 
         "BST", 
-        "DFS"
+        "DFS", 
+        "**CHECK"
     ], 
     "Memo": "", 
     "Date": "2021-05-17"
@@ -2423,7 +2424,7 @@
         "DFS"
     ], 
     "Memo": "", 
-    "Date": "2021-06-18"
+    "Date": "2022-03-23"
 },
 {
     "Number": "0401", 
@@ -3134,7 +3135,14 @@
     "Level": 1, 
     "Title": "Kth Largest Element in a Stream", 
     "Url": "https://leetcode.com/problems/kth-largest-element-in-a-stream", 
-    "Tags": [], 
+    "Tags": [
+        "Design", 
+        "Tree", 
+        "BST", 
+        "Heap", 
+        "**BASIC", 
+        "**CHECK"
+    ], 
     "Memo": "", 
     "Date": "2021-06-14"
 },
@@ -3976,7 +3984,8 @@
     "Title": "Find Words That Can Be Formed by Characters", 
     "Url": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-03-22"
 },
 {
     "Number": "1161", 
