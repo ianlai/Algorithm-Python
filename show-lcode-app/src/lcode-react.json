@@ -1695,7 +1695,7 @@
     "Tags": [
         "Tree", 
         "BST", 
-        "LCA",
+        "LCA", 
         "**BASIC"
     ], 
     "Memo": "有趣的題目，第一次接觸可能會卡住。關鍵是如果root的值介於p, q之間，那root就是答案。相似的題目還有一般的Tree，又分成點有可能不在樹裡面或一定在樹裡面等等。", 
@@ -1709,7 +1709,7 @@
     "Tags": [
         "Tree", 
         "DFS", 
-        "LCA",
+        "LCA", 
         "**BASIC"
     ], 
     "Memo": "用Recursion。往下在變動的是root，結果只有三種(1)p,q都在裡面 (2)p,q只有一個在裡面 (3)p,q都不在裡面。", 
@@ -4382,6 +4382,19 @@
     ], 
     "Memo": "要用兩個DP陣列，關係式要想清楚，要多列幾層，否則可能會誤以為找到了。", 
     "Date": "2022-03-09"
+},
+{
+    "Number": "1644", 
+    "Level": 2, 
+    "Title": "Lowest Common Ancestor of a Binary Tree II", 
+    "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii", 
+    "Tags": [
+        "Tree", 
+        "DFS", 
+        "LCA"
+    ], 
+    "Memo": "和0236的不同是有可能p,q沒有兩個都在Tree裡面，此時要回None。但題目要我們不要先traverse過樹，代表本來可以碰到p或q就回傳，現在得另外把是否有找到兩個點的紀錄存起來，可以用boolean或int來存。", 
+    "Date": "2022-03-24"
 },
 {
     "Number": "1696", 
