@@ -1356,8 +1356,8 @@
         "LinkedList", 
         "Two-Pointer"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-30"
+    "Memo": "多個方法可做，最好的是只用一個loop裡面兩行code而已。簡單說方法就是兩條都往前走，走到底換到對方的開頭，這樣兩者都是會走a+b+c的距離，一定會碰到。", 
+    "Date": "2022-03-24"
 },
 {
     "Number": "0161", 
@@ -4401,8 +4401,11 @@
     "Level": 2, 
     "Title": "Lowest Common Ancestor of a Binary Tree III", 
     "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [        "Tree", 
+        "DFS", 
+        "LCA", "LinkedList"], 
+    "Memo": "方法一是先找到root，再使用LCA1。方法二更好，是直接利用0160找到兩條LinkedList相會點的方法，只需要一個loop裡面兩行code而已。簡單說方法就是兩條都往前走，走到底換到對方的開頭，這樣兩者都是會走a+b+c的距離，一定會碰到。", 
+    "Date": "2022-03-24"
 },
 {
     "Number": "1696", 

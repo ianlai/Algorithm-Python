@@ -10,8 +10,23 @@ class Node:
 
 class Solution:
     
-    # LCA3 - Find root first then LCA1 [O(n): 43%]
+    # 2022/03/24
+    # LCA3 - Merge two linkedlist [O(n): 94%]
     def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
+        print("Code2")
+        p1, q1 = p, q
+        
+        while p1 != q1:
+            p1 = p1.parent if p1 is not None else q
+            q1 = q1.parent if q1 is not None else p
+        return p1
+
+    # ===================================================
+    
+    # 2022/03/24
+    # LCA3 - Find root first then LCA1 [O(n): 43%]
+    def lowestCommonAncestor1(self, p: 'Node', q: 'Node') -> 'Node':
+        print("Code1")
         root = p 
         while root.parent:
             root = root.parent
