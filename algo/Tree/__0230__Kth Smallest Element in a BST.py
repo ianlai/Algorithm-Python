@@ -6,32 +6,35 @@
 #         self.right = right
 class Solution:
     
-    # Inorder traversal, iteration, up to k [O(k + h), 76%]
+    
+    # 2022/03/25
+    # Inorder traversal, iteration up to k [O(logn + k): 95%]
     def kthSmallest(self, root: TreeNode, k: int) -> int:
-        print("Inorder, iteration")
+        print("Code3: Inorder, iteration")
         if not root:
             return None 
-        
+            
         dummy = TreeNode(0)
         dummy.right = root
-        stack = [dummy]
         
-        for _ in range(k):
-            if not stack:
-                return None
+        stack = [dummy]
+        for i in range(k):
+            print(i, [node.val for node in stack])
             cur = stack.pop()
             if cur.right:
                 cur = cur.right
                 while cur:
                     stack.append(cur)
                     cur = cur.left
+        print(">", [node.val for node in stack])
         return stack[-1].val
-        
+    
     # =========================================================
 
-    # Inorder traversal to get the sorted array ; use return val [O(n), 6%]
+    # 2021/05/17
+    # Inorder traversal, recursion, get the whole sorted array  [O(n): 53%]
     def kthSmallest2(self, root: TreeNode, k: int) -> int:
-        print("Inorder, recursion, return val")
+        print("Code2: Inorder, recursion, return val")
         if not root:
             return None
         return self.inorder2(root)[k-1]
@@ -41,9 +44,10 @@ class Solution:
         
     # =========================================================
     
-    # Inorder traversal to get the sorted array ; use list argument [O(n), 53%]
+    # 2021/05/17
+    # Inorder traversal, recursion, get the whole sorted array; use list argument [O(n), 53%]
     def kthSmallest1(self, root: TreeNode, k: int) -> int:
-        print("Inorder, recursion, list argument")
+        print("Code1: Inorder, recursion, list argument")
         if not root:
             return None
         traversedList = []
@@ -56,20 +60,3 @@ class Solution:
         self.inorder1(node.left, traversedList)
         traversedList.append(node.val)
         self.inorder1(node.right, traversedList)
-        
-#     def kthSmallest(self, root: TreeNode, k: int) -> int:
-#         if not root:
-#             return None
-#         return self.inorder(root, k, [0])    
-#     def inorder(self, node, k, idx):
-#         if not node:
-#             return -1 
-#         print(idx[0], ":", node.val)    
-#         if self.inorder(node.left, k, idx) == -1:
-#             return -1
-#         if k == idx[0]:
-#             return node.val
-#         idx[0] += 1
-#         if k == idx[0]:
-#             return node.val
-#         self.inorder(node.right, k, idx)
