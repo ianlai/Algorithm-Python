@@ -1,17 +1,114 @@
 import heapq
 
-class Node:
-    def __init__(self, val = 0):
+# ==============================================
+class BSTNode:
+    def __init__(self, val):
         self.val = val
-        self.next = None
+        self.left = None
+        self.right = None
         
+class BST:
+    def __init__(self):
+        self.root = None
         
+    def add(self, val):
+        if self.root:
+            self._add(self.root, val)
+        else:
+            self.root = BSTNode(val)
+            
+    def _add(self, node, val):
+        assert node is not None
+        if val <= node.val:
+            if node.left:
+                self._add(node.left, val)
+            else:
+                node.left = BSTNode(val)
+        else:
+            if node.right:
+                self._add(node.right, val)
+            else:
+                node.right = BSTNode(val)
+        
+    def findKth(self, k):
+        if self.root is None:
+            return None
+        
+        dummy = BSTNode(0)
+        dummy.left = self.root
+        stack = [dummy]
+        
+        for _ in range(k):
+            if not stack:
+                return None
+            cur = stack.pop()
+            if cur.left:
+                cur = cur.left
+                while cur:
+                    stack.append(cur)
+                    cur = cur.right
+        return stack[-1].val
+     
+    #Debug 
+    def print(self):
+        inorder = []
+        self._dfs(self.root, inorder)
+        print(inorder)
+        
+    def dfs(self, node, arr):
+        if node is None:
+            return 
+        self._dfs(node.left, arr)
+        arr.append(node.val)
+        self._dfs(node.right, arr)
+
+        
+#2022/03/25
+#BST [TLE]
 class KthLargest:
     
-    # First-k Min-Heap [Time: 89% / Space: 49%]
+    #O(mlogm) [m is the initial number of element]
+    def __init__(self, k: int, nums: List[int]):
+        print("Code4")
+        self.bst = BST()
+        self.k = k
+        for num in nums:
+            self.bst.add(num)
+        #bst.print()
     
+    #Add: O(logn)
+    #FindKth: O(logn + k)
+    def add(self, val):
+        self.bst.add(val)
+        return self.bst.findKth(self.k)
+    
+# ==============================================
+    
+#2022/03/25
+#Binary search and insert (like insertion sort) [39%]
+class KthLargest3:
+    
+    #O(mlogm) [m is the initial number of element]
+    def __init__(self, k: int, nums: List[int]):
+        print("Code3")
+        self.nums = sorted(nums)      
+        self.k = k
+    
+    #O(n)
+    def add(self, val):
+        idx = bisect.bisect_left(self.nums, val)
+        self.nums.insert(idx, val)
+        return self.nums[len(self.nums)-self.k]
+    
+# ==============================================
+
+#2021/06/14 
+class KthLargest2:
+    
+    # First-k Min-Heap [Time: 89% / Space: 49%]
     # Heapify [O(k)]
     def __init__(self, k: int, nums: List[int]):
+        print("Code2")
         self.capacity = k
         self.nums = [] #[0] is min
         for num in nums:
@@ -24,14 +121,17 @@ class KthLargest:
         if len(self.nums) > self.capacity:
             heapq.heappop(self.nums)
         return self.nums[0]
-        
-    
-    # ==============================================
 
+# ==============================================
+class Node:
+    def __init__(self, val = 0):
+        self.val = val
+        self.next = None
+class KthLargest1:
     # Sorted linkedlist [TLE]
-    
     # Sort [O(n2)]
-    def __init__3(self, k: int, nums: List[int]):
+    def __init__(self, k: int, nums: List[int]):
+        print("Code1")
         self.k = k
         nums = sorted(nums)[::-1]
         self.preHead = Node()
@@ -53,7 +153,7 @@ class KthLargest:
         
 
     # Add [Real: O(idx of val in sorted array); Worst: O(n)]; kthLargest [O(k)]
-    def add3(self, val: int) -> int:
+    def add(self, val: int) -> int:
         pre, cur = self.preHead, self.preHead.next
         while True:
             if not cur or val > cur.val:
@@ -76,7 +176,6 @@ class KthLargest:
     
     # ==============================================
     # Sorted array [TLE]
-    
     # Sort [O(n2)]
     def __init__2(self, k: int, nums: List[int]):
         self.k = k
