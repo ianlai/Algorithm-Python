@@ -1670,10 +1670,11 @@
         "Tree", 
         "BST", 
         "DFS", 
-        "**CHECK"
+        "Stack", 
+        "**BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-17"
+    "Memo": "使用inorder可以得到sorted array，這是當然的，但這樣需要把所有點走完花O(n)。如果使用stack來做iteration，就可以在得到第k個的時候跳出來，因此時間複雜度會變成O(logn+k)，這方法一定要會。另外，一開始建立一個dummy node並且指向root(找min就用right，找max就用left)，可以讓我們不需處理空stack的情況。", 
+    "Date": "2022-03-25"
 },
 {
     "Number": "0234", 
@@ -2542,8 +2543,8 @@
         "Tree", 
         "BST"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-06"
+    "Memo": "兩個方法。方法1: 依據刪除的點有0,1或2個children有不同處理方式，麻煩的是2個children，因為原本的位置不能裝兩棵子樹，因此需要recursively merge到底。方法2是找到predecessor或successor來取代被刪除的點，然後recursively刪掉predecessor/successor也可以達到刪除target的目標。", 
+    "Date": "2022-03-25"
 },
 {
     "Number": "0456", 
@@ -3122,6 +3123,31 @@
     "Date": "2021-11-15"
 },
 {
+    "Number": "0700", 
+    "Level": 1, 
+    "Title": "Search in a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/search-in-a-binary-search-tree", 
+    "Tags": [
+        "Tree", 
+        "BST"
+    ], 
+    "Memo": "基本的搜尋。", 
+    "Date": "2022-03-25"
+},
+{
+    "Number": "0701", 
+    "Level": 2, 
+    "Title": "Insert into a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/insert-into-a-binary-search-tree", 
+    "Tags": [
+        "Tree", 
+        "BST", 
+        "**BASIC"
+    ], 
+    "Memo": "自建BST的時候一定需要這個，所以必須要會。要注意的點是需要上下關係，所以不能recursion到root為None的時候才來做事情，必須要針對root.left和root.right就做檢查。", 
+    "Date": "2022-03-25"
+},
+{
     "Number": "0702", 
     "Level": 2, 
     "Title": "Search in a Sorted Array of Unknown Size", 
@@ -3145,7 +3171,7 @@
         "**BASIC", 
         "**CHECK"
     ], 
-    "Memo": "", 
+    "Memo": "可以用(1)heap (2)BS + sorted array (3)BST，但目前自己實作的BST會超時，但其實時間複雜度應該比(2)低。", 
     "Date": "2021-06-14"
 },
 {
@@ -4401,9 +4427,12 @@
     "Level": 2, 
     "Title": "Lowest Common Ancestor of a Binary Tree III", 
     "Url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii", 
-    "Tags": [        "Tree", 
+    "Tags": [
+        "Tree", 
         "DFS", 
-        "LCA", "LinkedList"], 
+        "LCA", 
+        "LinkedList"
+    ], 
     "Memo": "方法一是先找到root，再使用LCA1。方法二更好，是直接利用0160找到兩條LinkedList相會點的方法，只需要一個loop裡面兩行code而已。簡單說方法就是兩條都往前走，走到底換到對方的開頭，這樣兩者都是會走a+b+c的距離，一定會碰到。", 
     "Date": "2022-03-24"
 },

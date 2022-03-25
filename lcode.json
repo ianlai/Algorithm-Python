@@ -2095,6 +2095,22 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0700", 
+    "Level": 1, 
+    "Title": "Search in a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/search-in-a-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0701", 
+    "Level": 2, 
+    "Title": "Insert into a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/insert-into-a-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0702", 
     "Level": 2, 
     "Title": "Search in a Sorted Array of Unknown Size", 

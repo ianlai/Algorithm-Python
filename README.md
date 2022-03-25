@@ -344,6 +344,8 @@ algo
 │   ├── __0572__Subtree of Another Tree.py
 │   ├── __0617__Merge Two Binary Trees.py
 │   ├── __0687__Longest Univalue Path.py
+│   ├── __0700__Search in a Binary Search Tree.py
+│   ├── __0701__Insert into a Binary Search Tree.py
 │   ├── __0776__Split BST.py
 │   ├── __0863__All Nodes Distance K in Binary Tree.py
 │   ├── __0938__Range Sum of BST.py
@@ -429,7 +431,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 396 files
+32 directories, 398 files
 
 =====================================
 ============= Local Repo ============
@@ -695,6 +697,8 @@ __0690__Employee Importance.py
 __0692__Top K Frequent Words.py
 __0694__Number of Distinct Islands.py
 __0695__Max Area of Island.py
+__0700__Search in a Binary Search Tree.py
+__0701__Insert into a Binary Search Tree.py
 __0702__Search in a Sorted Array of Unknown Size.py
 __0703__Kth Largest Element in a Stream.py
 __0704__Binary Search.py
@@ -815,7 +819,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  380
+Num of Python Practice:  382
 
 
 =====================================
@@ -1082,6 +1086,8 @@ Num of Python Practice:  380
  0692 Top K Frequent Words
  0694 Number of Distinct Islands
  0695 Max Area of Island
+ 0700 Search in a Binary Search Tree
+ 0701 Insert into a Binary Search Tree
  0702 Search in a Sorted Array of Unknown Size
  0703 Kth Largest Element in a Stream
  0704 Binary Search
@@ -1202,11 +1208,11 @@ Num of Python Practice:  380
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
 =====================================
-Solved / Total (Easy)  :   79 /  555
-Solved / Total (Medium):  272 / 1180
+Solved / Total (Easy)  :   80 /  555
+Solved / Total (Medium):  273 / 1181
 Solved / Total (Hard)  :   29 /  478
-Solved / Total (All)   :  380 / 2213
-Total Score            : 1040
+Solved / Total (All)   :  382 / 2214
+Total Score            : 1044
 =====================================
 
 ```
