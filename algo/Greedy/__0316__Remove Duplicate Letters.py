@@ -1,8 +1,28 @@
 class Solution:
     
     # 2022/03/26
-    # Greedyly select the smallest and check the remaining strings are after it (iteration) [O(26^s): 5%]
+    # Greedy find the last char where the substring of it still contains all chars [O(S): 5%]
     def removeDuplicateLetters(self, s: str) -> str:
+        print("Code4")
+        if not s:
+            return ""
+        #print(s)
+        counter = collections.Counter(s)
+        idxOfSmallestChar = 0
+        for i, c in enumerate(s):
+            if c < s[idxOfSmallestChar]:
+                idxOfSmallestChar = i
+            counter[c] -= 1
+            if counter[c] == 0:
+                break 
+        remainingString = s[idxOfSmallestChar:].replace(s[idxOfSmallestChar], "")
+        return s[idxOfSmallestChar] + self.removeDuplicateLetters(remainingString)
+        
+    # =======================================
+        
+    # 2022/03/26
+    # Greedyly select the smallest and check the remaining strings are after it (iteration) [O(26^S): 5%]
+    def removeDuplicateLetters3(self, s: str) -> str:
         print("Code3")
         alpha = "abcdefghijklmnopqrstuvwxyz"
         done = [True] * 26
