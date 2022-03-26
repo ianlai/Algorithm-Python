@@ -365,6 +365,7 @@ algo
 │   ├── __0208__Implement Trie (Prefix Tree).py
 │   ├── __0211__Design Add and Search Words Data Structure.py
 │   ├── __0648__Replace Words.py
+│   ├── __0677__Map Sum Pairs.py
 │   ├── __1166__Design File System.py
 │   ├── __1268__Search Suggestions System.py
 │   └── __1804__Implement Trie II (Prefix Tree).py
@@ -432,7 +433,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 399 files
+32 directories, 400 files
 
 =====================================
 ============= Local Repo ============
@@ -691,6 +692,7 @@ __0648__Replace Words.py
 __0658__Find K Closest Elements.py
 __0662__Maximum Width of Binary Tree.py
 __0670__Maximum Swap.py
+__0677__Map Sum Pairs.py
 __0680__Valid Palindrome II.py
 __0684__Redundant Connection.py
 __0687__Longest Univalue Path.py
@@ -821,7 +823,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  383
+Num of Python Practice:  384
 
 
 =====================================
@@ -1081,6 +1083,7 @@ Num of Python Practice:  383
  0658 Find K Closest Elements
  0662 Maximum Width of Binary Tree
  0670 Maximum Swap
+ 0677 Map Sum Pairs
  0680 Valid Palindrome II
  0684 Redundant Connection
  0687 Longest Univalue Path
@@ -1212,10 +1215,10 @@ Num of Python Practice:  383
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   80 /  555
-Solved / Total (Medium):  274 / 1181
+Solved / Total (Medium):  275 / 1181
 Solved / Total (Hard)  :   29 /  478
-Solved / Total (All)   :  383 / 2214
-Total Score            : 1047
+Solved / Total (All)   :  384 / 2214
+Total Score            : 1050
 =====================================
 
 ```
