@@ -187,6 +187,7 @@ algo
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   └── __2093__Minimum Cost to Reach City With Discounts.py
 ├── Greedy
+│   ├── __0316__Remove Duplicate Letters.py
 │   ├── __1029__Two City Scheduling.py
 │   └── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
 ├── HashMap
@@ -431,7 +432,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 398 files
+32 directories, 399 files
 
 =====================================
 ============= Local Repo ============
@@ -616,6 +617,7 @@ __0304__Range Sum Query 2D - Immutable.py
 __0305__Number of Islands II.py
 __0310__Minimum Height Trees.py
 __0314__Binary Tree Vertical Order Traversal.py
+__0316__Remove Duplicate Letters.py
 __0322__Coin Change.py
 __0323__Number of Connected Components in an Undirected Graph.py
 __0332__Reconstruct Itinerary.py
@@ -819,7 +821,7 @@ __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
 =====================================
-Num of Python Practice:  382
+Num of Python Practice:  383
 
 
 =====================================
@@ -1005,6 +1007,7 @@ Num of Python Practice:  382
  0305 Number of Islands II
  0310 Minimum Height Trees
  0314 Binary Tree Vertical Order Traversal
+ 0316 Remove Duplicate Letters
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
  0332 Reconstruct Itinerary
@@ -1209,10 +1212,10 @@ Num of Python Practice:  382
  2156 Find Substring With Given Hash Value
 =====================================
 Solved / Total (Easy)  :   80 /  555
-Solved / Total (Medium):  273 / 1181
+Solved / Total (Medium):  274 / 1181
 Solved / Total (Hard)  :   29 /  478
-Solved / Total (All)   :  382 / 2214
-Total Score            : 1044
+Solved / Total (All)   :  383 / 2214
+Total Score            : 1047
 =====================================
 
 ```

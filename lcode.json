@@ -1447,6 +1447,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0316", 
+    "Level": 2, 
+    "Title": "Remove Duplicate Letters", 
+    "Url": "https://leetcode.com/problems/remove-duplicate-letters", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0322", 
     "Level": 2, 
     "Title": "Coin Change", 
