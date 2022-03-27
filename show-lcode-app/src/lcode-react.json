@@ -2149,8 +2149,11 @@
     "Level": 2, 
     "Title": "Remove Duplicate Letters", 
     "Url": "https://leetcode.com/problems/remove-duplicate-letters", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Greedy", 
+        "Monotonic-Stack"
+    ], 
+    "Memo": "Greedy的作法不難想，但不太好寫，就是盡量找到最大又最後的字母，同時該字母後面的字串保有其他所有的字母，再使用recursive往下找。Monotonic-Stack的作法應該也是可以觀察出來，因為要保持順序（畢竟是刪除），但又要有大小順序，所以可以看出有Monotonic-Stack的感覺，但詳細實作還沒做過。", 
     "Date": "2022-03-26"
 },
 {
@@ -2452,8 +2455,12 @@
     "Level": 1, 
     "Title": "Fizz Buzz", 
     "Url": "https://leetcode.com/problems/fizz-buzz", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Math", 
+        "String"
+    ], 
+    "Memo": "是一題簡單題，不過是阿瑞出給我寫的，又要減少branch又要避免使用mod又要改成recursive，總之寫了四個不同的版本還蠻有趣的。", 
+    "Date": "2022-03-27"
 },
 {
     "Number": "0416", 
@@ -3043,8 +3050,12 @@
     "Level": 2, 
     "Title": "Map Sum Pairs", 
     "Url": "https://leetcode.com/problems/map-sum-pairs", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Design", 
+        "Trie", 
+        "##Google"
+    ], 
+    "Memo": "用Trie來存(key,value)，在計算sum的時候就找到該prefix的位置，往下遞迴的把全部value都加總起來回傳即可。", 
     "Date": "2022-03-27"
 },
 {
@@ -4630,23 +4641,45 @@
     "Level": 1, 
     "Title": "Find the Difference of Two Arrays", 
     "Url": "https://leetcode.com/problems/find-the-difference-of-two-arrays", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "HashMap", 
+        "**CONTEST"
+    ], 
+    "Memo": "20220327的週賽題目，用兩個Set很容易。", 
+    "Date": "2022-03-27"
 },
 {
     "Number": "2216", 
     "Level": 2, 
     "Title": "Minimum Deletions to Make Array Beautiful", 
     "Url": "https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Greedy", 
+        "**CONTEST"
+    ], 
+    "Memo": "刪除的題目就代表要保持順序，但這題其實相對單純，就是要比偶數位和奇數位（或是奇數位和偶數位）是否相同並且計數的問題。", 
+    "Date": "2022-03-27"
 },
 {
     "Number": "2217", 
     "Level": 2, 
     "Title": "Find Palindrome With Fixed Length", 
     "Url": "https://leetcode.com/problems/find-palindrome-with-fixed-length", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Math", 
+        "String", 
+        "**CONTEST"
+    ], 
+    "Memo": "還蠻有趣的題目，要觀察出如何做出半個Palindrome，然後往另外一邊翻就是Palindrome。在Leetcode提供了我的作法。", 
+    "Date": "2022-03-27"
+},
+{
+    "Number": "2218", 
+    "Level": 3, 
+    "Title": "Maximum Value of K Coins From Piles", 
+    "Url": "https://leetcode.com/problems/maximum-value-of-k-coins-from-piles", 
+    "Tags": ["DP", "**CONTEST"], 
+    "Memo": "競賽中最後一題來不及解，只做出TLE的解。第一個重點是題目可以當作一堆只取一次，不會有來回走動的問題，所以不用把整個array的狀態都存下來，只需要存dp(idx, k)就可以。第二個點是每次內循環只要走min(pile[idx],k)步而已，這邊做錯了就會超時。最後是用這題練習了@lru_cache，這樣就不需要自己維護memo dict。", 
+    "Date": "2022-03-27"
 }
 ]

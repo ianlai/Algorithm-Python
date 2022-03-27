@@ -160,7 +160,8 @@ algo
 │   ├── __1696__Jump Game VI.py
 │   ├── __1774__Closest Dessert Cost.py
 │   ├── __1937__Maximum Number of Points with Cost.py
-│   └── __2008__Maximum Earnings From Taxi.py
+│   ├── __2008__Maximum Earnings From Taxi.py
+│   └── __2218__Maximum Value of K Coins From Piles.py
 ├── DataStructure
 │   ├── __0146__LRU Cache.py
 │   ├── __0352__Data Stream as Disjoint Intervals.py
@@ -437,7 +438,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 404 files
+32 directories, 405 files
 
 =====================================
 ============= Local Repo ============
@@ -830,8 +831,9 @@ __2156__Find Substring With Given Hash Value.py
 __2215__Find the Difference of Two Arrays.py
 __2216__Minimum Deletions to Make Array Beautiful.py
 __2217__Find Palindrome With Fixed Length.py
+__2218__Maximum Value of K Coins From Piles.py
 =====================================
-Num of Python Practice:  388
+Num of Python Practice:  389
 
 
 =====================================
@@ -1225,12 +1227,13 @@ Num of Python Practice:  388
  2215 Find the Difference of Two Arrays
  2216 Minimum Deletions to Make Array Beautiful
  2217 Find Palindrome With Fixed Length
+ 2218 Maximum Value of K Coins From Piles
 =====================================
 Solved / Total (Easy)  :   82 /  556
 Solved / Total (Medium):  277 / 1183
-Solved / Total (Hard)  :   29 /  479
-Solved / Total (All)   :  388 / 2218
-Total Score            : 1058
+Solved / Total (Hard)  :   30 /  479
+Solved / Total (All)   :  389 / 2218
+Total Score            : 1063
 =====================================
 
 ```

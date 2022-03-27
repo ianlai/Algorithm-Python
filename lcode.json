@@ -3109,6 +3109,14 @@ lcode_data = `
     "Url": "https://leetcode.com/problems/find-palindrome-with-fixed-length", 
     "Tags": [], 
     "Memo": ""
+},
+{
+    "Number": "2218", 
+    "Level": 3, 
+    "Title": "Maximum Value of K Coins From Piles", 
+    "Url": "https://leetcode.com/problems/maximum-value-of-k-coins-from-piles", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]
 `;
