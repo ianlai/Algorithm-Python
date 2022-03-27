@@ -1647,6 +1647,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0412", 
+    "Level": 1, 
+    "Title": "Fizz Buzz", 
+    "Url": "https://leetcode.com/problems/fizz-buzz", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0416", 
     "Level": 2, 
     "Title": "Partition Equal Subset Sum", 
@@ -3075,6 +3083,30 @@ lcode_data = `
     "Level": 3, 
     "Title": "Find Substring With Given Hash Value", 
     "Url": "https://leetcode.com/problems/find-substring-with-given-hash-value", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2215", 
+    "Level": 1, 
+    "Title": "Find the Difference of Two Arrays", 
+    "Url": "https://leetcode.com/problems/find-the-difference-of-two-arrays", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2216", 
+    "Level": 2, 
+    "Title": "Minimum Deletions to Make Array Beautiful", 
+    "Url": "https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2217", 
+    "Level": 2, 
+    "Title": "Find Palindrome With Fixed Length", 
+    "Url": "https://leetcode.com/problems/find-palindrome-with-fixed-length", 
     "Tags": [], 
     "Memo": ""
 }

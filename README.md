@@ -189,7 +189,8 @@ algo
 ├── Greedy
 │   ├── __0316__Remove Duplicate Letters.py
 │   ├── __1029__Two City Scheduling.py
-│   └── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
+│   ├── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
+│   └── __2216__Minimum Deletions to Make Array Beautiful.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
@@ -206,7 +207,8 @@ algo
 │   ├── __1160__Find Words That Can Be Formed by Characters.py
 │   ├── __1525__Number of Good Ways to Split a String.py
 │   ├── __2007__Find Original Array From Doubled Array.py
-│   └── __2156__Find Substring With Given Hash Value.py
+│   ├── __2156__Find Substring With Given Hash Value.py
+│   └── __2215__Find the Difference of Two Arrays.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
@@ -250,9 +252,11 @@ algo
 │   ├── __0234__Palindrome Linked List.py
 │   └── __0237__Delete Node in a Linked List.py
 ├── Math
+│   ├── __0412__Fizz Buzz.py
 │   ├── __0593__Valid Square.py
 │   ├── __0754__Reach a Number.py
-│   └── __1344__Angle Between Hands of a Clock.py
+│   ├── __1344__Angle Between Hands of a Clock.py
+│   └── __2217__Find Palindrome With Fixed Length.py
 ├── Matrix
 │   ├── __0048__Rotate Image.py
 │   ├── __0054__Spiral Matrix.py
@@ -433,7 +437,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 400 files
+32 directories, 404 files
 
 =====================================
 ============= Local Repo ============
@@ -643,6 +647,7 @@ __0394__Decode String.py
 __0395__Longest Substring with At Least K Repeating Characters.py
 __0399__Evaluate Division.py
 __0401__Binary Watch.py
+__0412__Fizz Buzz.py
 __0416__Partition Equal Subset Sum.py
 __0417__Pacific Atlantic Water Flow.py
 __0423__Reconstruct Original Digits from English.py
@@ -822,8 +827,11 @@ __2093__Minimum Cost to Reach City With Discounts.py
 __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
 __2156__Find Substring With Given Hash Value.py
+__2215__Find the Difference of Two Arrays.py
+__2216__Minimum Deletions to Make Array Beautiful.py
+__2217__Find Palindrome With Fixed Length.py
 =====================================
-Num of Python Practice:  384
+Num of Python Practice:  388
 
 
 =====================================
@@ -1034,6 +1042,7 @@ Num of Python Practice:  384
  0395 Longest Substring with At Least K Repeating Characters
  0399 Evaluate Division
  0401 Binary Watch
+ 0412 Fizz Buzz
  0416 Partition Equal Subset Sum
  0417 Pacific Atlantic Water Flow
  0423 Reconstruct Original Digits from English
@@ -1213,12 +1222,15 @@ Num of Python Practice:  384
  2154 Keep Multiplying Found Values by Two
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
+ 2215 Find the Difference of Two Arrays
+ 2216 Minimum Deletions to Make Array Beautiful
+ 2217 Find Palindrome With Fixed Length
 =====================================
-Solved / Total (Easy)  :   80 /  555
-Solved / Total (Medium):  275 / 1181
-Solved / Total (Hard)  :   29 /  478
-Solved / Total (All)   :  384 / 2214
-Total Score            : 1050
+Solved / Total (Easy)  :   82 /  556
+Solved / Total (Medium):  277 / 1183
+Solved / Total (Hard)  :   29 /  479
+Solved / Total (All)   :  388 / 2218
+Total Score            : 1058
 =====================================
 
 ```

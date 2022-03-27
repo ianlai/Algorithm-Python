@@ -2448,6 +2448,14 @@
     "Date": "2021-05-28"
 },
 {
+    "Number": "0412", 
+    "Level": 1, 
+    "Title": "Fizz Buzz", 
+    "Url": "https://leetcode.com/problems/fizz-buzz", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0416", 
     "Level": 2, 
     "Title": "Partition Equal Subset Sum", 
@@ -3036,7 +3044,8 @@
     "Title": "Map Sum Pairs", 
     "Url": "https://leetcode.com/problems/map-sum-pairs", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-03-27"
 },
 {
     "Number": "0680", 
@@ -4615,5 +4624,29 @@
     ], 
     "Memo": "要在mod世界內計算，否則會變成大數然後超時。在mod世界除法的反向要用同餘的做法，比較難（可用輾轉相除法取到使得ab mod = 1的b）。另一個作法是直接從尾巴開始做，這樣在SlidingWindow往前移動的時候，就不是除法而是乘法了，就可以每次運算都加mod。", 
     "Date": "2022-02-02"
+},
+{
+    "Number": "2215", 
+    "Level": 1, 
+    "Title": "Find the Difference of Two Arrays", 
+    "Url": "https://leetcode.com/problems/find-the-difference-of-two-arrays", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2216", 
+    "Level": 2, 
+    "Title": "Minimum Deletions to Make Array Beautiful", 
+    "Url": "https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2217", 
+    "Level": 2, 
+    "Title": "Find Palindrome With Fixed Length", 
+    "Url": "https://leetcode.com/problems/find-palindrome-with-fixed-length", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]
