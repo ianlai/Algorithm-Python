@@ -4678,7 +4678,10 @@
     "Level": 3, 
     "Title": "Maximum Value of K Coins From Piles", 
     "Url": "https://leetcode.com/problems/maximum-value-of-k-coins-from-piles", 
-    "Tags": ["DP", "**CONTEST"], 
+    "Tags": [
+        "DP", 
+        "**CONTEST"
+    ], 
     "Memo": "競賽中最後一題來不及解，只做出TLE的解。第一個重點是題目可以當作一堆只取一次，不會有來回走動的問題，所以不用把整個array的狀態都存下來，只需要存dp(idx, k)就可以。第二個點是每次內循環只要走min(pile[idx],k)步而已，這邊做錯了就會超時。最後是用這題練習了@lru_cache，這樣就不需要自己維護memo dict。", 
     "Date": "2022-03-27"
 }

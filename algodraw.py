@@ -114,16 +114,16 @@ def draw(dates, values):
     #axs[0].plot_date(dates[-len(reviewNumber):], reviewNumber,'-', marker='o', color='#555555')  #review number
 
     ### Draw score figure 
-    axs[1].set_ylim(0,900) #score of quiz
+    axs[1].set_ylim(0,1200) #score of quiz
     axs[1].plot_date(dates, leetscore,'-', marker='.', markersize=10, color='#cc3300')
 
 
     # Year: Total 
     axs[1].set(xlabel="Date", ylabel="Score",
-    title="Score of Quiz (2021.04 - 2022.02)")
+    title="Score of Quiz (2021.04 - 2022.04)")
     axs[0].set_title("Number of Quiz", fontweight = 'bold')
     axs[1].set_title("Score of Quiz", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2022,2,28)) 
+    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2022,3,31)) 
 
     xloc1 = mdates.MonthLocator()
     xloc2 = mdates.WeekdayLocator(SUNDAY)
@@ -201,7 +201,7 @@ def draw(dates, values):
     #     plt.savefig(fileName)
 
     #2022
-    for month in range(1, 3, 1):
+    for month in range(1, 4, 1):
         monthStr = str(month).zfill(2)
         dateStr = "2022." + monthStr 
         numberTitle = "Number of Quiz (" + dateStr + ")"
