@@ -9,6 +9,7 @@ class Solution:
         for q in queries:
             # q-th number from base
             num = base + q - 1 
+            strNum = str(num)
             if q > 9 * base:
                 res.append(-1)
                 continue
@@ -16,10 +17,10 @@ class Solution:
                 # Even:
                 #   example1:  10  --> 10+01  = 1001
                 #   example2:  23  --> 23+32  = 2332
-                res.append(int(str(num) + str(num)[::-1]))         
+                res.append(int(strNum + strNum[::-1]))         
             else:
                 # Odd:
                 #   example1:  100 --> 100+01 = 10001
                 #   example2:  204 --> 204+02 = 20402
-                res.append(int(str(num) + str(num)[:digit][::-1])) 
+                res.append(int(strNum + strNum[::-1][1:])) 
         return res
