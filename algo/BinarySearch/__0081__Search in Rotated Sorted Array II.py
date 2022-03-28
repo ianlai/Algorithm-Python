@@ -2,8 +2,41 @@
 
 class Solution:
     
-    # Binary Search [Avg case: O(log), worst case: O(n) -> 76%]
+    # 2022/03/28 
+    # Implement Binary Search Left and use the function twice [O(logn): 77%]
     def search(self, nums: List[int], target: int) -> bool:
+        print("Code2")
+        def binarySearch(start, end, target):
+            while start < end:
+                mid = start + (end - start) // 2
+                if nums[mid] > nums[-1]:
+                    start = mid + 1
+                else:
+                    end = mid
+            return start  #leftmost 
+                    
+        start = 0
+        for i, v in enumerate(nums):
+            if v == target:
+                return True
+            if nums[i] != nums[-1]:
+                start = i
+        
+        end = len(nums)
+        minIdx = binarySearch(start, end, nums[-1])
+        idx = 0
+        if target <= nums[-1]:
+            idx = binarySearch(minIdx, end, target)
+        else:
+            idx = binarySearch(start, minIdx-1, target)
+        return True if nums[idx] == target else False
+
+    # =========================================================
+    
+    # 2021/12/14
+    # Binary Search [Avg case: O(log), worst case: O(n) -> 76%]
+    def search1(self, nums: List[int], target: int) -> bool:
+        print("Code1")
         
         # (1) Exception 
         if target == nums[-1]:
