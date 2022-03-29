@@ -208,6 +208,7 @@ algo
 │   ├── __1160__Find Words That Can Be Formed by Characters.py
 │   ├── __1525__Number of Good Ways to Split a String.py
 │   ├── __2007__Find Original Array From Doubled Array.py
+│   ├── __2013__Detect Squares.py
 │   ├── __2156__Find Substring With Given Hash Value.py
 │   └── __2215__Find the Difference of Two Arrays.py
 ├── Heap
@@ -288,7 +289,8 @@ algo
 │   └── __1096__Brace Expansion II.py
 ├── Sorting
 │   ├── __0179__Largest Number.py
-│   └── __0242__Valid Anagram.py
+│   ├── __0242__Valid Anagram.py
+│   └── __0539__Minimum Time Difference.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
@@ -438,7 +440,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 405 files
+32 directories, 407 files
 
 =====================================
 ============= Local Repo ============
@@ -680,6 +682,7 @@ __0528__Random Pick with Weight.py
 __0532__K-diff Pairs in an Array.py
 __0535__Encode and Decode TinyURL.py
 __0538__Convert BST to Greater Tree.py
+__0539__Minimum Time Difference.py
 __0540__Single Element in a Sorted Array.py
 __0542__01 Matrix.py
 __0543__Diameter of Binary Tree.py
@@ -824,6 +827,7 @@ __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
 __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
+__2013__Detect Squares.py
 __2093__Minimum Cost to Reach City With Discounts.py
 __2154__Keep Multiplying Found Values by Two.py
 __2155__All Divisions With the Highest Score of a Binary Array.py
@@ -833,7 +837,7 @@ __2216__Minimum Deletions to Make Array Beautiful.py
 __2217__Find Palindrome With Fixed Length.py
 __2218__Maximum Value of K Coins From Piles.py
 =====================================
-Num of Python Practice:  389
+Num of Python Practice:  391
 
 
 =====================================
@@ -1076,6 +1080,7 @@ Num of Python Practice:  389
  0532 K-diff Pairs in an Array
  0535 Encode and Decode TinyURL
  0538 Convert BST to Greater Tree
+ 0539 Minimum Time Difference
  0540 Single Element in a Sorted Array
  0542 01 Matrix
  0543 Diameter of Binary Tree
@@ -1220,6 +1225,7 @@ Num of Python Practice:  389
  1937 Maximum Number of Points with Cost
  2007 Find Original Array From Doubled Array
  2008 Maximum Earnings From Taxi
+ 2013 Detect Squares
  2093 Minimum Cost to Reach City With Discounts
  2154 Keep Multiplying Found Values by Two
  2155 All Divisions With the Highest Score of a Binary Array
@@ -1230,10 +1236,10 @@ Num of Python Practice:  389
  2218 Maximum Value of K Coins From Piles
 =====================================
 Solved / Total (Easy)  :   82 /  556
-Solved / Total (Medium):  277 / 1183
+Solved / Total (Medium):  279 / 1183
 Solved / Total (Hard)  :   30 /  479
-Solved / Total (All)   :  389 / 2218
-Total Score            : 1063
+Solved / Total (All)   :  391 / 2218
+Total Score            : 1069
 =====================================
 
 ```

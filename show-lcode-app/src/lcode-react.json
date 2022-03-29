@@ -2837,6 +2837,14 @@
     "Date": "2021-08-30"
 },
 {
+    "Number": "0539", 
+    "Level": 2, 
+    "Title": "Minimum Time Difference", 
+    "Url": "https://leetcode.com/problems/minimum-time-difference", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0540", 
     "Level": 2, 
     "Title": "Single Element in a Sorted Array", 
@@ -4581,6 +4589,14 @@
     ], 
     "Memo": "先做出Map存入某點可以跳到哪些點，之後就雙迴圈取最大值填表。", 
     "Date": "2022-01-25"
+},
+{
+    "Number": "2013", 
+    "Level": 2, 
+    "Title": "Detect Squares", 
+    "Url": "https://leetcode.com/problems/detect-squares", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "2093", 

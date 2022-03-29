@@ -1903,6 +1903,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0539", 
+    "Level": 2, 
+    "Title": "Minimum Time Difference", 
+    "Url": "https://leetcode.com/problems/minimum-time-difference", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0540", 
     "Level": 2, 
     "Title": "Single Element in a Sorted Array", 
@@ -3051,6 +3059,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Maximum Earnings From Taxi", 
     "Url": "https://leetcode.com/problems/maximum-earnings-from-taxi", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2013", 
+    "Level": 2, 
+    "Title": "Detect Squares", 
+    "Url": "https://leetcode.com/problems/detect-squares", 
     "Tags": [], 
     "Memo": ""
 },
