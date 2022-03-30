@@ -581,7 +581,7 @@
         "Matrix"
     ], 
     "Memo": "下一個row是接著上一個row，所以就是一般的Binary Search。", 
-    "Date": "2021-05-11"
+    "Date": "2022-03-30"
 },
 {
     "Number": "0075", 
@@ -2842,7 +2842,8 @@
     "Title": "Minimum Time Difference", 
     "Url": "https://leetcode.com/problems/minimum-time-difference", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-03-29"
 },
 {
     "Number": "0540", 
@@ -3539,6 +3540,14 @@
     ], 
     "Memo": "搞清楚loop invarient。FFFFTTTTTT，要找第一個T，且搜尋範圍內一定要有T。邏輯順序：", 
     "Date": "2022-03-05"
+},
+{
+    "Number": "0896", 
+    "Level": 1, 
+    "Title": "Monotonic Array", 
+    "Url": "https://leetcode.com/problems/monotonic-array", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0904", 
@@ -4596,7 +4605,8 @@
     "Title": "Detect Squares", 
     "Url": "https://leetcode.com/problems/detect-squares", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-03-29"
 },
 {
     "Number": "2093", 

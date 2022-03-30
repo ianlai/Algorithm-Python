@@ -22,6 +22,7 @@ algo
 │   ├── __0670__Maximum Swap.py
 │   ├── __0724__Find Pivot Index.py
 │   ├── __0760__Find Anagram Mappings.py
+│   ├── __0896__Monotonic Array.py
 │   ├── __0954__Array of Doubled Pairs.py
 │   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
@@ -440,7 +441,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 407 files
+32 directories, 408 files
 
 =====================================
 ============= Local Repo ============
@@ -740,6 +741,7 @@ __0841__Keys and Rooms.py
 __0862__Shortest Subarray with Sum at Least K.py
 __0863__All Nodes Distance K in Binary Tree.py
 __0875__Koko Eating Bananas.py
+__0896__Monotonic Array.py
 __0904__Fruit Into Baskets.py
 __0905__Sort Array By Parity.py
 __0909__Snakes and Ladders.py
@@ -837,7 +839,7 @@ __2216__Minimum Deletions to Make Array Beautiful.py
 __2217__Find Palindrome With Fixed Length.py
 __2218__Maximum Value of K Coins From Piles.py
 =====================================
-Num of Python Practice:  391
+Num of Python Practice:  392
 
 
 =====================================
@@ -1138,6 +1140,7 @@ Num of Python Practice:  391
  0862 Shortest Subarray with Sum at Least K
  0863 All Nodes Distance K in Binary Tree
  0875 Koko Eating Bananas
+ 0896 Monotonic Array
  0904 Fruit Into Baskets
  0905 Sort Array By Parity
  0909 Snakes and Ladders
@@ -1235,11 +1238,11 @@ Num of Python Practice:  391
  2217 Find Palindrome With Fixed Length
  2218 Maximum Value of K Coins From Piles
 =====================================
-Solved / Total (Easy)  :   82 /  556
+Solved / Total (Easy)  :   83 /  556
 Solved / Total (Medium):  279 / 1183
 Solved / Total (Hard)  :   30 /  479
-Solved / Total (All)   :  391 / 2218
-Total Score            : 1069
+Solved / Total (All)   :  392 / 2218
+Total Score            : 1070
 =====================================
 
 ```

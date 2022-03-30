@@ -2367,6 +2367,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0896", 
+    "Level": 1, 
+    "Title": "Monotonic Array", 
+    "Url": "https://leetcode.com/problems/monotonic-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0904", 
     "Level": 2, 
     "Title": "Fruit Into Baskets", 
