@@ -367,6 +367,7 @@ algo
 │   ├── __1302__Deepest Leaves Sum.py
 │   ├── __1382__Balance a Binary Search Tree.py
 │   ├── __1448__Count Good Nodes in Binary Tree.py
+│   ├── __1530__Number of Good Leaf Nodes Pairs.py
 │   ├── __1644__Lowest Common Ancestor of a Binary Tree II.py
 │   └── __1650__Lowest Common Ancestor of a Binary Tree III.py
 ├── Trie
@@ -441,7 +442,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 408 files
+32 directories, 409 files
 
 =====================================
 ============= Local Repo ============
@@ -815,6 +816,7 @@ __1438__Longest Continuous Subarray With Absolute Diff Less Than or Equal to Lim
 __1448__Count Good Nodes in Binary Tree.py
 __1475__Final Prices With a Special Discount in a Shop.py
 __1525__Number of Good Ways to Split a String.py
+__1530__Number of Good Leaf Nodes Pairs.py
 __1557__Minimum Number of Vertices to Reach All Nodes.py
 __1593__Split a String Into the Max Number of Unique Substrings.py
 __1641__Count Sorted Vowel Strings.py
@@ -839,7 +841,7 @@ __2216__Minimum Deletions to Make Array Beautiful.py
 __2217__Find Palindrome With Fixed Length.py
 __2218__Maximum Value of K Coins From Piles.py
 =====================================
-Num of Python Practice:  392
+Num of Python Practice:  393
 
 
 =====================================
@@ -1214,6 +1216,7 @@ Num of Python Practice:  392
  1448 Count Good Nodes in Binary Tree
  1475 Final Prices With a Special Discount in a Shop
  1525 Number of Good Ways to Split a String
+ 1530 Number of Good Leaf Nodes Pairs
  1557 Minimum Number of Vertices to Reach All Nodes
  1593 Split a String Into the Max Number of Unique Substrings
  1641 Count Sorted Vowel Strings
@@ -1239,10 +1242,10 @@ Num of Python Practice:  392
  2218 Maximum Value of K Coins From Piles
 =====================================
 Solved / Total (Easy)  :   83 /  556
-Solved / Total (Medium):  279 / 1183
+Solved / Total (Medium):  280 / 1183
 Solved / Total (Hard)  :   30 /  479
-Solved / Total (All)   :  392 / 2218
-Total Score            : 1070
+Solved / Total (All)   :  393 / 2218
+Total Score            : 1073
 =====================================
 
 ```

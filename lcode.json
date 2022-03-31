@@ -2959,6 +2959,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1530", 
+    "Level": 2, 
+    "Title": "Number of Good Leaf Nodes Pairs", 
+    "Url": "https://leetcode.com/problems/number-of-good-leaf-nodes-pairs", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1557", 
     "Level": 2, 
     "Title": "Minimum Number of Vertices to Reach All Nodes", 

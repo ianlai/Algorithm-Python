@@ -3547,7 +3547,8 @@
     "Title": "Monotonic Array", 
     "Url": "https://leetcode.com/problems/monotonic-array", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-03-30"
 },
 {
     "Number": "0904", 
@@ -4426,6 +4427,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-01-11"
+},
+{
+    "Number": "1530", 
+    "Level": 2, 
+    "Title": "Number of Good Leaf Nodes Pairs", 
+    "Url": "https://leetcode.com/problems/number-of-good-leaf-nodes-pairs", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1557", 
