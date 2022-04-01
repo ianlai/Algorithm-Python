@@ -187,6 +187,7 @@ algo
 │   ├── __0947__Most Stones Removed with Same Row or Column.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
+│   ├── __1971__Find if Path Exists in Graph.py
 │   └── __2093__Minimum Cost to Reach City With Discounts.py
 ├── Greedy
 │   ├── __0316__Remove Duplicate Letters.py
@@ -402,6 +403,7 @@ algo
 │   ├── __0438__Find All Anagrams in a String.py
 │   ├── __0532__K-diff Pairs in an Array.py
 │   ├── __0611__Valid Triangle Number.py
+│   ├── __0643__Maximum Average Subarray I.py
 │   ├── __0647__Palindromic Substrings.py
 │   ├── __0680__Valid Palindrome II.py
 │   ├── __0904__Fruit Into Baskets.py
@@ -442,7 +444,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 409 files
+32 directories, 411 files
 
 =====================================
 ============= Local Repo ============
@@ -697,6 +699,7 @@ __0576__Out of Boundary Paths.py
 __0593__Valid Square.py
 __0611__Valid Triangle Number.py
 __0617__Merge Two Binary Trees.py
+__0643__Maximum Average Subarray I.py
 __0646__Maximum Length of Pair Chain.py
 __0647__Palindromic Substrings.py
 __0648__Replace Words.py
@@ -829,6 +832,7 @@ __1774__Closest Dessert Cost.py
 __1804__Implement Trie II (Prefix Tree).py
 __1905__Count Sub Islands.py
 __1937__Maximum Number of Points with Cost.py
+__1971__Find if Path Exists in Graph.py
 __2007__Find Original Array From Doubled Array.py
 __2008__Maximum Earnings From Taxi.py
 __2013__Detect Squares.py
@@ -841,7 +845,7 @@ __2216__Minimum Deletions to Make Array Beautiful.py
 __2217__Find Palindrome With Fixed Length.py
 __2218__Maximum Value of K Coins From Piles.py
 =====================================
-Num of Python Practice:  393
+Num of Python Practice:  395
 
 
 =====================================
@@ -1097,6 +1101,7 @@ Num of Python Practice:  393
  0593 Valid Square
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
+ 0643 Maximum Average Subarray I
  0646 Maximum Length of Pair Chain
  0647 Palindromic Substrings
  0648 Replace Words
@@ -1229,6 +1234,7 @@ Num of Python Practice:  393
  1804 Implement Trie II (Prefix Tree)
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
+ 1971 Find if Path Exists in Graph
  2007 Find Original Array From Doubled Array
  2008 Maximum Earnings From Taxi
  2013 Detect Squares
@@ -1241,11 +1247,11 @@ Num of Python Practice:  393
  2217 Find Palindrome With Fixed Length
  2218 Maximum Value of K Coins From Piles
 =====================================
-Solved / Total (Easy)  :   83 /  556
-Solved / Total (Medium):  280 / 1183
+Solved / Total (Easy)  :   85 /  556
+Solved / Total (Medium):  280 / 1184
 Solved / Total (Hard)  :   30 /  479
-Solved / Total (All)   :  393 / 2218
-Total Score            : 1073
+Solved / Total (All)   :  395 / 2219
+Total Score            : 1075
 =====================================
 
 ```

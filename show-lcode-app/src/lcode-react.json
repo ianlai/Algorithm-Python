@@ -2984,6 +2984,15 @@
     "Date": "2021-04-23"
 },
 {
+    "Number": "0643", 
+    "Level": 1, 
+    "Title": "Maximum Average Subarray I", 
+    "Url": "https://leetcode.com/problems/maximum-average-subarray-i", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-04-01"
+},
+{
     "Number": "0646", 
     "Level": 2, 
     "Title": "Maximum Length of Pair Chain", 
@@ -4434,7 +4443,8 @@
     "Title": "Number of Good Leaf Nodes Pairs", 
     "Url": "https://leetcode.com/problems/number-of-good-leaf-nodes-pairs", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-01"
 },
 {
     "Number": "1557", 
@@ -4583,6 +4593,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-10-06"
+},
+{
+    "Number": "1971", 
+    "Level": 1, 
+    "Title": "Find if Path Exists in Graph", 
+    "Url": "https://leetcode.com/problems/find-if-path-exists-in-graph", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-04-01"
 },
 {
     "Number": "2007", 

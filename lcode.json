@@ -2007,6 +2007,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0643", 
+    "Level": 1, 
+    "Title": "Maximum Average Subarray I", 
+    "Url": "https://leetcode.com/problems/maximum-average-subarray-i", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0646", 
     "Level": 2, 
     "Title": "Maximum Length of Pair Chain", 
@@ -3059,6 +3067,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Maximum Number of Points with Cost", 
     "Url": "https://leetcode.com/problems/maximum-number-of-points-with-cost", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1971", 
+    "Level": 1, 
+    "Title": "Find if Path Exists in Graph", 
+    "Url": "https://leetcode.com/problems/find-if-path-exists-in-graph", 
     "Tags": [], 
     "Memo": ""
 },
