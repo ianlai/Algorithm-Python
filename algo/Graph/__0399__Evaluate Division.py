@@ -1,9 +1,127 @@
 class Solution(object):
-
-    # 2022/03/23
-    # DFS [Time O(E + VE + Q): 91% / Space O(E): 10%]
+    
+    # 2022/04/03
+    # 對所有連通塊做DFS一次，一維pathMap [O(E + (V+E) + Q): 68%] 
     def calcEquation(self, equations, values, queries):
-        print("** Code-3")
+        print("*** Code-6")
+        # Create linkMap: node1 -> node2 -> link rate
+        linkMap = collections.defaultdict(dict)
+        for i in range(len(values)):
+            v1, v2 = equations[i]
+            linkMap[v1][v2] = values[i]
+            linkMap[v2][v1] = 1 / values[i]
+        
+        def dfs(graph, cur, head, rate, nodeToRate, nodeToHead):
+            if cur in nodeToHead:
+                return
+            nodeToRate[cur] = rate
+            nodeToHead[cur] = head
+            for nxt in graph[cur]:
+                dfs(graph, nxt, head, rate * graph[cur][nxt], nodeToRate, nodeToHead)
+            
+        # Create nodeToRate: node -> path rate
+        # Create nodeToHead: node -> head node
+        nodeToRate = collections.defaultdict(int)
+        nodeToHead = collections.defaultdict(int)
+        for node in linkMap.keys():
+            dfs(linkMap, node, node, 1, nodeToRate, nodeToHead)
+
+        # Traverse queries
+        res = []
+        for v1, v2 in queries:
+            if v1 not in nodeToHead or v2 not in nodeToHead:
+                res.append(-1)
+                continue
+            if nodeToHead[v1] == nodeToHead[v2]:
+                res.append(nodeToRate[v2] / nodeToRate[v1])
+            else:
+                res.append(-1)
+        return res
+    
+    # =========================================
+    # 2022/04/03
+    # 對所有連通塊做DFS一次，二維pathMap二維 [O(E + (V+E) + Q): 49%] 
+    def calcEquation5(self, equations, values, queries):
+        print("Code-5")
+        # Create linkMap: node1 -> node2 -> link rate
+        linkMap = collections.defaultdict(dict)
+        for i in range(len(values)):
+            v1, v2 = equations[i]
+            linkMap[v1][v2] = values[i]
+            linkMap[v2][v1] = 1 / values[i]
+        
+        def dfs(graph, cur, start, rate, pathMap):
+            if cur in pathMap:
+                return
+            pathMap[cur][start] = rate
+            for nxt in graph[cur]:
+                dfs(graph, nxt, start, rate * graph[cur][nxt], pathMap)
+            
+        # Create pathMap: node -> representative -> path rate
+        pathMap = collections.defaultdict(dict)
+        for node in linkMap.keys():
+            dfs(linkMap, node, node, 1, pathMap)
+
+        # Traverse queries
+        res = []
+        for v1, v2 in queries:
+            if v1 not in pathMap or v2 not in pathMap:
+                res.append(-1)
+                continue
+            if list(pathMap[v1].keys())[0] == list(pathMap[v2].keys())[0]:
+                res.append(list(pathMap[v2].values())[0] / list(pathMap[v1].values())[0])
+            else:
+                res.append(-1)
+        return res
+
+    # =========================================
+    
+    # 2022/04/01
+    # 對所有點做DFS一次 [O(E + VE + Q): 60%] 
+    def calcEquation4(self, equations, values, queries):
+        print("* Code-4")
+        
+        def dfs(start, cur, graph, pathMap):
+            assert cur in pathMap[start]
+            
+            for next_node in graph[cur]:
+                if next_node in pathMap[start]:
+                    continue
+                pathMap[start][next_node] = pathMap[start][cur] * graph[cur][next_node]
+                dfs(start, next_node, graph, pathMap)
+                
+        #Generate the graph
+        graph = collections.defaultdict(dict)
+        for i in range(len(equations)):
+            v1, v2 = equations[i]
+            rate = values[i]
+            graph[v1][v2] = rate
+            graph[v2][v1] = 1/rate
+
+        #Generate pathMap for all nodes  
+        pathMap = collections.defaultdict(dict)
+        for node in graph.keys():
+            pathMap[node][node] = 1 
+            dfs(node, node, graph, pathMap)
+
+        #Generate the result array
+        result = []
+        for v1, v2 in queries:
+            if v2 in pathMap[v1]:
+                result.append(pathMap[v1][v2])
+            else:
+                result.append(-1)
+
+        return result
+
+    # =========================================
+    
+    # 2022/03/23
+    # DFS [Time O(E + min(V, Q)*E] : 91% / Space O(E): 10%]
+    # 只針對Query的點來跑DFS，且不重複跑
+    # 缺點：還是遍歷很多次，且兩層defaultdict不必要
+    def calcEquation3(self, equations, values, queries):
+        print("Code-3")
         
         def generateLinkGraph(equations, values):
             graph = collections.defaultdict(lambda: collections.defaultdict(int)) #link
