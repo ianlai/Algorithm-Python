@@ -261,7 +261,7 @@ def sf(s, num=6):
 ### Print info 
 ######################
 
-showQuizListFromDir()       #from local repo
+## showQuizListFromDir()       #from local repo
 showQuizListFromLeetcode()  #from leetcode
 
 ###################### 
