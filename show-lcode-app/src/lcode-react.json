@@ -3109,11 +3109,11 @@
     "Url": "https://leetcode.com/problems/longest-univalue-path", 
     "Tags": [
         "Tree", 
-        "DFS",
+        "DFS", 
         "**GOOD"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-01"
+    "Memo": "好題，標準的樹DFS，需要到自己的相同長度和下方的最長長度，可以回傳兩個值但會比較複雜，也可以到自己的長度回傳，最長長度則用global變數來記錄。", 
+    "Date": "2022-04-03"
 },
 {
     "Number": "0688", 
@@ -4237,7 +4237,10 @@
     "Level": 1, 
     "Title": "Find Winner on a Tic Tac Toe Game", 
     "Url": "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game", 
-    "Tags": ["Simulation", "Matrix"], 
+    "Tags": [
+        "Simulation", 
+        "Matrix"
+    ], 
     "Memo": "確認勝利的作法不需要把整個表重掃（雖然格子很小重掃也還好），但只需要針對剛下下來的這個位置的相同排或相同列或對角線來掃就好。要小心不要寫出重複的code。", 
     "Date": "2022-04-03"
 },
@@ -4454,7 +4457,12 @@
     "Level": 2, 
     "Title": "Number of Good Leaf Nodes Pairs", 
     "Url": "https://leetcode.com/problems/number-of-good-leaf-nodes-pairs", 
-    "Tags": ["Tree", "**CHECK", "**大波"], 
+    "Tags": [
+        "Tree", 
+        "DFS", 
+        "**CHECK", 
+        "**大波"
+    ], 
     "Memo": "要計算<=k的所有leaf有多少pair。要找出每一個node到下面的leaf的距離，統計出個數，之後是要藉由該距離找出符合的path數。大波給的方法裡面是把兩步合起來做，且回傳的array用一個巧妙的方法把不同個數當作index來存。但其實把兩步分開作，且使用一般的count map來做應該也可以。", 
     "Date": "2022-04-01"
 },
@@ -4644,7 +4652,11 @@
     "Level": 2, 
     "Title": "Detect Squares", 
     "Url": "https://leetcode.com/problems/detect-squares", 
-    "Tags": ["HashMap", "Design", "##Google"], 
+    "Tags": [
+        "HashMap", 
+        "Design", 
+        "##Google"
+    ], 
     "Memo": "感覺不難但不好想，如果把第一個尋找對象當成是尋找對角線的點，事情就會變得很單純，利用p3來牽制找p2和p4，再把三個點的出現次數相乘即為答案。", 
     "Date": "2022-03-29"
 },
@@ -4756,7 +4768,10 @@
     "Level": 1, 
     "Title": "Minimum Number of Operations to Convert Time", 
     "Url": "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time", 
-    "Tags": ["Math", "**CONTEST"], 
+    "Tags": [
+        "Math", 
+        "**CONTEST"
+    ], 
     "Memo": "轉換成分鐘就可以計算，原本以為這題要考慮時間會轉一圈，但其實題目已經給了固定的方向，只會往後調。", 
     "Date": "2022-04-03"
 },
@@ -4765,7 +4780,11 @@
     "Level": 2, 
     "Title": "Find Players With Zero or One Losses", 
     "Url": "https://leetcode.com/problems/find-players-with-zero-or-one-losses", 
-    "Tags": ["Graph", "HashMap", "**CONTEST"], 
+    "Tags": [
+        "Graph", 
+        "HashMap", 
+        "**CONTEST"
+    ], 
     "Memo": "計算每個點的indegree，並且統計每個indegree有幾個點。找出indegree-0和indegree-1的點，排序回傳。", 
     "Date": "2022-04-03"
 },
@@ -4774,7 +4793,11 @@
     "Level": 2, 
     "Title": "Maximum Candies Allocated to K Children", 
     "Url": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children", 
-    "Tags": ["Binary-Search", "Binary-Search值域", "**CONTEST"], 
+    "Tags": [
+        "Binary-Search", 
+        "Binary-Search值域", 
+        "**CONTEST"
+    ], 
     "Memo": "和0875吃香蕉那題一樣，要在值域裡面做BS。原本以為是Greedy的把最大的值分成一半，再裝回去，直到超過k個，找最小值，因此用heap，但後來發現這方法不對，假設是[1,2,10] k=3，那就會取到1。", 
     "Date": "2022-04-03"
 },
@@ -4783,7 +4806,10 @@
     "Level": 3, 
     "Title": "Encrypt and Decrypt Strings", 
     "Url": "https://leetcode.com/problems/encrypt-and-decrypt-strings", 
-    "Tags": ["HashMap", "**CONTEST"], 
+    "Tags": [
+        "HashMap", 
+        "**CONTEST"
+    ], 
     "Memo": "這題我單純的把所有字典檔內的字都先加密過，並且計算那個加密字是會被幾種初始字連到的count map，之後要decrypt的時候，就去找相對應的count而已。這題如果字典檔做大一點就沒這麼簡單，After-party聽到正規是用Trie來處理。", 
     "Date": "2022-04-03"
 }
