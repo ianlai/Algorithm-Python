@@ -75,7 +75,8 @@ algo
 │   ├── __1146__Snapshot Array.py
 │   ├── __1182__Shortest Distance to Target Color.py
 │   ├── __1198__Find Smallest Common Element in All Rows.py
-│   └── __1283__Find the Smallest Divisor Given a Threshold.py
+│   ├── __1283__Find the Smallest Divisor Given a Threshold.py
+│   └── __2226__Maximum Candies Allocated to K Children.py
 ├── BitOperation
 │   └── __0136__Single Number.py
 ├── DFS
@@ -188,7 +189,8 @@ algo
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   ├── __1971__Find if Path Exists in Graph.py
-│   └── __2093__Minimum Cost to Reach City With Discounts.py
+│   ├── __2093__Minimum Cost to Reach City With Discounts.py
+│   └── __2225__Find Players With Zero or One Losses.py
 ├── Greedy
 │   ├── __0316__Remove Duplicate Letters.py
 │   ├── __1029__Two City Scheduling.py
@@ -212,7 +214,8 @@ algo
 │   ├── __2007__Find Original Array From Doubled Array.py
 │   ├── __2013__Detect Squares.py
 │   ├── __2156__Find Substring With Given Hash Value.py
-│   └── __2215__Find the Difference of Two Arrays.py
+│   ├── __2215__Find the Difference of Two Arrays.py
+│   └── __2227__Encrypt and Decrypt Strings.py
 ├── Heap
 │   ├── __0215__Kth Largest Element in an Array.py
 │   ├── __0263__Ugly Number.py
@@ -260,13 +263,15 @@ algo
 │   ├── __0593__Valid Square.py
 │   ├── __0754__Reach a Number.py
 │   ├── __1344__Angle Between Hands of a Clock.py
-│   └── __2217__Find Palindrome With Fixed Length.py
+│   ├── __2217__Find Palindrome With Fixed Length.py
+│   └── __2224__Minimum Number of Operations to Convert Time.py
 ├── Matrix
 │   ├── __0048__Rotate Image.py
 │   ├── __0054__Spiral Matrix.py
 │   ├── __0073__Set Matrix Zeroes.py
 │   ├── __0304__Range Sum Query 2D - Immutable.py
-│   └── __0498__Diagonal Traverse.py
+│   ├── __0498__Diagonal Traverse.py
+│   └── __1275__Find Winner on a Tic Tac Toe Game.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
 │   ├── __0085__Maximal Rectangle.py
@@ -444,7 +449,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 411 files
+32 directories, 416 files
 
 =====================================
 ============= Local Repo ============
@@ -802,6 +807,7 @@ __1235__Maximum Profit in Job Scheduling.py
 __1248__Count Number of Nice Subarrays.py
 __1254__Number of Closed Islands.py
 __1268__Search Suggestions System.py
+__1275__Find Winner on a Tic Tac Toe Game.py
 __1277__Count Square Submatrices with All Ones.py
 __1283__Find the Smallest Divisor Given a Threshold.py
 __1289__Minimum Falling Path Sum II.py
@@ -844,8 +850,12 @@ __2215__Find the Difference of Two Arrays.py
 __2216__Minimum Deletions to Make Array Beautiful.py
 __2217__Find Palindrome With Fixed Length.py
 __2218__Maximum Value of K Coins From Piles.py
+__2224__Minimum Number of Operations to Convert Time.py
+__2225__Find Players With Zero or One Losses.py
+__2226__Maximum Candies Allocated to K Children.py
+__2227__Encrypt and Decrypt Strings.py
 =====================================
-Num of Python Practice:  395
+Num of Python Practice:  400
 
 
 =====================================
@@ -1204,6 +1214,7 @@ Num of Python Practice:  395
  1248 Count Number of Nice Subarrays
  1254 Number of Closed Islands
  1268 Search Suggestions System
+ 1275 Find Winner on a Tic Tac Toe Game
  1277 Count Square Submatrices with All Ones
  1283 Find the Smallest Divisor Given a Threshold
  1289 Minimum Falling Path Sum II
@@ -1246,12 +1257,16 @@ Num of Python Practice:  395
  2216 Minimum Deletions to Make Array Beautiful
  2217 Find Palindrome With Fixed Length
  2218 Maximum Value of K Coins From Piles
+ 2224 Minimum Number of Operations to Convert Time
+ 2225 Find Players With Zero or One Losses
+ 2226 Maximum Candies Allocated to K Children
+ 2227 Encrypt and Decrypt Strings
 =====================================
-Solved / Total (Easy)  :   85 /  556
-Solved / Total (Medium):  280 / 1184
-Solved / Total (Hard)  :   30 /  479
-Solved / Total (All)   :  395 / 2219
-Total Score            : 1075
+Solved / Total (Easy)  :   87 /  558
+Solved / Total (Medium):  282 / 1188
+Solved / Total (Hard)  :   31 /  481
+Solved / Total (All)   :  400 / 2227
+Total Score            : 1088
 =====================================
 
 ```

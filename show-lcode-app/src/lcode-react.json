@@ -963,7 +963,7 @@
         "DFS"
     ], 
     "Memo": "", 
-    "Date": "2021-05-03"
+    "Date": "2022-04-03"
 },
 {
     "Number": "0114", 
@@ -4230,6 +4230,14 @@
     "Date": "2021-08-02"
 },
 {
+    "Number": "1275", 
+    "Level": 1, 
+    "Title": "Find Winner on a Tic Tac Toe Game", 
+    "Url": "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1277", 
     "Level": 2, 
     "Title": "Count Square Submatrices with All Ones", 
@@ -4738,5 +4746,37 @@
     ], 
     "Memo": "競賽中最後一題來不及解，只做出TLE的解。第一個重點是題目可以當作一堆只取一次，不會有來回走動的問題，所以不用把整個array的狀態都存下來，只需要存dp(idx, k)就可以。第二個點是每次內循環只要走min(pile[idx],k)步而已，這邊做錯了就會超時。最後是用這題練習了@lru_cache，這樣就不需要自己維護memo dict。", 
     "Date": "2022-03-27"
+},
+{
+    "Number": "2224", 
+    "Level": 1, 
+    "Title": "Minimum Number of Operations to Convert Time", 
+    "Url": "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2225", 
+    "Level": 2, 
+    "Title": "Find Players With Zero or One Losses", 
+    "Url": "https://leetcode.com/problems/find-players-with-zero-or-one-losses", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2226", 
+    "Level": 2, 
+    "Title": "Maximum Candies Allocated to K Children", 
+    "Url": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2227", 
+    "Level": 3, 
+    "Title": "Encrypt and Decrypt Strings", 
+    "Url": "https://leetcode.com/problems/encrypt-and-decrypt-strings", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]

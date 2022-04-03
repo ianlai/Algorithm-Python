@@ -2831,6 +2831,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1275", 
+    "Level": 1, 
+    "Title": "Find Winner on a Tic Tac Toe Game", 
+    "Url": "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1277", 
     "Level": 2, 
     "Title": "Count Square Submatrices with All Ones", 
@@ -3163,6 +3171,38 @@ lcode_data = `
     "Level": 3, 
     "Title": "Maximum Value of K Coins From Piles", 
     "Url": "https://leetcode.com/problems/maximum-value-of-k-coins-from-piles", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2224", 
+    "Level": 1, 
+    "Title": "Minimum Number of Operations to Convert Time", 
+    "Url": "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2225", 
+    "Level": 2, 
+    "Title": "Find Players With Zero or One Losses", 
+    "Url": "https://leetcode.com/problems/find-players-with-zero-or-one-losses", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2226", 
+    "Level": 2, 
+    "Title": "Maximum Candies Allocated to K Children", 
+    "Url": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2227", 
+    "Level": 3, 
+    "Title": "Encrypt and Decrypt Strings", 
+    "Url": "https://leetcode.com/problems/encrypt-and-decrypt-strings", 
     "Tags": [], 
     "Memo": ""
 }
