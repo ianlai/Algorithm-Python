@@ -11,6 +11,35 @@ class Solution:
     # - Return longest length to current node
     # - Use global to track real longest path 
     def longestUnivaluePath(self, root: TreeNode) -> int:
+        print("*** Code4")
+        if root is None:
+            return 0
+        self.longest = 0
+        def helper(node):
+            if node is None:
+                return 0
+            left = helper(node.left)
+            right = helper(node.right)
+
+            res = 0
+            right_next = left_next = 0
+            if node.left and node.val == node.left.val:
+                left_next = left + 1
+            if node.right and node.val == node.right.val:
+                right_next = right + 1
+            self.longest = max(self.longest, left_next + right_next)
+            return max(left_next, right_next)
+        
+        helper(root)
+        return self.longest
+    
+    # =============================================
+        
+    # 2022/04/03
+    # DFS [O(n): 96%]
+    # - Return longest length to current node
+    # - Use global to track real longest path 
+    def longestUnivaluePath3(self, root: TreeNode) -> int:
         print("Code3")
         if root is None:
             return 0
