@@ -6,8 +6,29 @@
 #         self.right = right
 class Solution:
     
-    #DFS [O(n), 72%]
+    #2022/04/03 
     def pathSum(self, root: TreeNode, targetSum: int) -> List[List[int]]:
+        print("Code2")
+        res = []
+        def dfs(root, target, cur, res):
+            assert root 
+            if root.left is None and root.right is None:
+                if target == 0:
+                    res.append(list(cur))
+                return 
+            if root.left:
+                dfs(root.left , target - root.left.val, cur + [root.left.val], res)
+            if root.right:
+                dfs(root.right, target - root.right.val, cur + [root.right.val], res)
+        if root:
+            dfs(root, targetSum - root.val, [root.val], res)
+        return res
+    
+    
+    
+    # 2021/05/03
+    def pathSum1(self, root: TreeNode, targetSum: int) -> List[List[int]]:
+        print("Code1")
         if not root:
             return []
         ans = []
