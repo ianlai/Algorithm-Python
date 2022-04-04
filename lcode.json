@@ -3039,6 +3039,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1721", 
+    "Level": 2, 
+    "Title": "Swapping Nodes in a Linked List", 
+    "Url": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1762", 
     "Level": 2, 
     "Title": "Buildings With an Ocean View", 

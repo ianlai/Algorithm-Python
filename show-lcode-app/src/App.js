@@ -114,10 +114,10 @@ function sortList() {
 }
 
 function App() {
-  console.log("RERENDERING");
+//   console.log("RERENDERING");
   console.log(tagSet);
   console.log(tagList);
-  console.log("Show lcode data:", shownLcodeData.length);
+//   console.log("Show lcode data:", shownLcodeData.length);
 
   [memberTagList, changeTagList] = useState(tagList);
   [memberLevelList, changeLevelList] = useState(levelList);
@@ -153,8 +153,8 @@ function App() {
   }
   allTagList = Array.from(allTagMap.keys());
   allTagList.sort();
-  console.log("allTagMap:", allTagMap);
-  console.log("allTagList:", allTagList);
+//   console.log("allTagMap:", allTagMap);
+//   console.log("allTagList:", allTagList);
 
   return (
     <div className="App">

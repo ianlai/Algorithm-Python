@@ -258,7 +258,8 @@ algo
 │   ├── __0160__Intersection of Two Linked Lists.py
 │   ├── __0206__Reverse Linked List.py
 │   ├── __0234__Palindrome Linked List.py
-│   └── __0237__Delete Node in a Linked List.py
+│   ├── __0237__Delete Node in a Linked List.py
+│   └── __1721__Swapping Nodes in a Linked List.py
 ├── Math
 │   ├── __0412__Fizz Buzz.py
 │   ├── __0593__Valid Square.py
@@ -450,7 +451,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 416 files
+32 directories, 417 files
 
 =====================================
 ============= Leetcode ==============
@@ -834,6 +835,7 @@ algo
  1650 Lowest Common Ancestor of a Binary Tree III
  1696 Jump Game VI
  1711 Count Good Meals
+ 1721 Swapping Nodes in a Linked List
  1762 Buildings With an Ocean View
  1774 Closest Dessert Cost
  1804 Implement Trie II (Prefix Tree)
@@ -857,10 +859,10 @@ algo
  2227 Encrypt and Decrypt Strings
 =====================================
 Solved / Total (Easy)  :   87 /  558
-Solved / Total (Medium):  282 / 1188
+Solved / Total (Medium):  283 / 1188
 Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  400 / 2227
-Total Score            : 1088
+Solved / Total (All)   :  401 / 2227
+Total Score            : 1091
 =====================================
 
 ```
