@@ -131,6 +131,7 @@ algo
 │   ├── __0300__Longest Increasing Subsequence.py
 │   ├── __0322__Coin Change.py
 │   ├── __0338__Counting Bits.py
+│   ├── __0368__Largest Divisible Subset.py
 │   ├── __0377__Combination Sum IV.py
 │   ├── __0416__Partition Equal Subset Sum.py
 │   ├── __0474__Ones and Zeroes.py
@@ -451,7 +452,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 417 files
+32 directories, 418 files
 
 =====================================
 ============= Leetcode ==============
@@ -651,6 +652,7 @@ algo
  0352 Data Stream as Disjoint Intervals
  0362 Design Hit Counter
  0366 Find Leaves of Binary Tree
+ 0368 Largest Divisible Subset
  0377 Combination Sum IV
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
@@ -859,10 +861,10 @@ algo
  2227 Encrypt and Decrypt Strings
 =====================================
 Solved / Total (Easy)  :   87 /  558
-Solved / Total (Medium):  283 / 1189
+Solved / Total (Medium):  284 / 1189
 Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  401 / 2228
-Total Score            : 1091
+Solved / Total (All)   :  402 / 2228
+Total Score            : 1094
 =====================================
 
 ```
