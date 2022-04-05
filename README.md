@@ -859,9 +859,9 @@ algo
  2227 Encrypt and Decrypt Strings
 =====================================
 Solved / Total (Easy)  :   87 /  558
-Solved / Total (Medium):  283 / 1188
+Solved / Total (Medium):  283 / 1189
 Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  401 / 2227
+Solved / Total (All)   :  401 / 2228
 Total Score            : 1091
 =====================================
 

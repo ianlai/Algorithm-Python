@@ -1,8 +1,28 @@
 class Solution:
     
-    # 2022/01/25 
+    # 2022/04/05
     # Two-Pointer 
     def maxArea(self, height: List[int]) -> int:
+        print("Code-4")
+        maxArea = 0 
+        p1, p2 = 0, len(height) - 1
+        while p1 < p2:
+            area = (p2 - p1) * min(height[p1], height[p2])
+            maxArea = max(maxArea, area)
+            if height[p1] < height[p2]:
+                p1 += 1
+            elif height[p1] > height[p2]:
+                p2 -= 1
+            else:
+                p1 += 1
+                p2 -= 1
+        return maxArea
+        
+    # ===========================================
+
+    # 2022/01/25 
+    # Two-Pointer 
+    def maxArea3(self, height: List[int]) -> int:
         print("Code-3")
         left, right = 0, len(height) - 1
         res = 0

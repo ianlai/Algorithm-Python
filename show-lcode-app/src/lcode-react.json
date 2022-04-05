@@ -95,7 +95,7 @@
         "Two-Pointer"
     ], 
     "Memo": "", 
-    "Date": "2022-01-25"
+    "Date": "2022-04-05"
 },
 {
     "Number": "0014", 
@@ -4557,7 +4557,8 @@
     "Title": "Swapping Nodes in a Linked List", 
     "Url": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-04"
 },
 {
     "Number": "1762", 
