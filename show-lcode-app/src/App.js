@@ -6,6 +6,19 @@ import FilterLevelButton from "./FilterLevelButton.js";
 import TagButton from "./TagButton";
 import DATA from "./lcode-react.json";
 
+const LEVEL = {
+  EASY: 1,
+  MEDIUM: 2,
+  HARD: 3
+};
+
+const SORT_BY = {
+  ID_ASC: 1,
+  ID_DESC: 2,
+  DATE_ASC: 3,
+  DATE_DESC: 4
+};
+
 //Add tag into filtered tag list
 function onClickTagButton(targetTag) {
   if (!tagList.includes(targetTag)) {
@@ -22,7 +35,7 @@ function onClickFilterTagButton(targetTag) {
   setTagList(tagList);
 }
 
-//Leave the target level
+//Keep only the target level
 function onClickLevelButton(targetLevel) {
   levelList = [targetLevel];
   filterData();
@@ -38,17 +51,19 @@ function onClickFilterLevelButton(targetLevel) {
 }
 
 function onClickSortById() {
-  sortedBy = 0;
+  if (sortedBy !== SORT_BY.ID_ASC) {
+    sortedBy = SORT_BY.ID_ASC;
+  } else {
+    sortedBy = SORT_BY.ID_DESC;
+  }
   sortList();
 }
 
 function onClickSortByDate() {
-  if (sortedBy === 0) {
-    sortedBy = 1;
-  } else if (sortedBy === 1) {
-    sortedBy = 2;
-  } else if (sortedBy === 2) {
-    sortedBy = 1;
+  if (sortedBy !== SORT_BY.DATE_ASC) {
+    sortedBy = SORT_BY.DATE_ASC;
+  } else {
+    sortedBy = SORT_BY.DATE_DESC;
   }
   sortList();
 }
@@ -61,15 +76,12 @@ function filterData() {
   } else {
     shownLcodeData = [];
     for (let l of DATA) {
-      //Level
-      // if (levelList.length !== 3 && !levelList.includes(l.Level)) {
-      //   continue;
-      // }
+      //Filter by Level
       if (!levelList.includes(l.Level)) {
         continue;
       }
 
-      //Tags
+      //Filter by Tags
       let isIncluded = true;
       //   if (l.Tags.length === 0) {
       //     continue;
@@ -87,26 +99,31 @@ function filterData() {
   }
 }
 function sortList() {
-  if (sortedBy === 0) {
+  if (sortedBy === SORT_BY.ID_ASC) {
     shownLcodeData.sort((a, b) => {
       if (a.Number > b.Number) return 1;
       else if (a.Number === b.Number) return 0;
       else return -1;
     });
-  } else if (sortedBy === 1) {
+  } else if (sortedBy === SORT_BY.ID_DESC) {
+    shownLcodeData.sort((a, b) => {
+      if (a.Number < b.Number) return 1;
+      else if (a.Number === b.Number) return 0;
+      else return -1;
+    });
+  } else if (sortedBy === SORT_BY.DATE_ASC) {
     shownLcodeData.sort((a, b) => {
       if (a.Date > b.Date) return 1;
       else if (a.Date === b.Date) return 0;
       else return -1;
     });
-  } else if (sortedBy === 2) {
+  } else if (sortedBy === SORT_BY.DATE_DESC) {
     shownLcodeData.sort((a, b) => {
       if (a.Date > b.Date) return -1;
       else if (a.Date === b.Date) return 0;
       else return 1;
     });
   }
-  //console.log(shownLcodeData);
   setSortedBy(sortedBy);
 }
 
