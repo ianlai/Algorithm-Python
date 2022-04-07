@@ -3946,6 +3946,14 @@
     "Date": "2021-11-28"
 },
 {
+    "Number": "1046", 
+    "Level": 1, 
+    "Title": "Last Stone Weight", 
+    "Url": "https://leetcode.com/problems/last-stone-weight", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1048", 
     "Level": 2, 
     "Title": "Longest String Chain", 

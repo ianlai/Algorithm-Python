@@ -229,6 +229,7 @@ algo
 │   ├── __0692__Top K Frequent Words.py
 │   ├── __0703__Kth Largest Element in a Stream.py
 │   ├── __0973__K Closest Points to Origin.py
+│   ├── __1046__Last Stone Weight.py
 │   ├── __1094__Car Pooling.py
 │   └── __1167__Minimum Cost to Connect Sticks.py
 ├── Island
@@ -452,7 +453,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 418 files
+32 directories, 419 files
 
 =====================================
 ============= Leetcode ==============
@@ -786,6 +787,7 @@ algo
  1029 Two City Scheduling
  1038 Binary Search Tree to Greater Sum Tree
  1041 Robot Bounded In Circle
+ 1046 Last Stone Weight
  1048 Longest String Chain
  1049 Last Stone Weight II
  1087 Brace Expansion
@@ -860,11 +862,11 @@ algo
  2226 Maximum Candies Allocated to K Children
  2227 Encrypt and Decrypt Strings
 =====================================
-Solved / Total (Easy)  :   87 /  558
+Solved / Total (Easy)  :   88 /  559
 Solved / Total (Medium):  284 / 1189
 Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  402 / 2228
-Total Score            : 1094
+Solved / Total (All)   :  403 / 2229
+Total Score            : 1095
 =====================================
 
 ```
