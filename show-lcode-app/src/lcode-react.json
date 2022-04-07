@@ -3951,7 +3951,8 @@
     "Title": "Last Stone Weight", 
     "Url": "https://leetcode.com/problems/last-stone-weight", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-07"
 },
 {
     "Number": "1048", 
@@ -3975,6 +3976,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-10-04"
+},
+{
+    "Number": "1059", 
+    "Level": 2, 
+    "Title": "All Paths from Source Lead to Destination", 
+    "Url": "https://leetcode.com/problems/all-paths-from-source-lead-to-destination", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1087", 

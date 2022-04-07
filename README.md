@@ -188,6 +188,7 @@ algo
 │   ├── __0787__Cheapest Flights Within K Stops.py
 │   ├── __0797__All Paths From Source to Target.py
 │   ├── __0947__Most Stones Removed with Same Row or Column.py
+│   ├── __1059__All Paths from Source Lead to Destination.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   ├── __1971__Find if Path Exists in Graph.py
@@ -453,7 +454,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 419 files
+32 directories, 420 files
 
 =====================================
 ============= Leetcode ==============
@@ -790,6 +791,7 @@ algo
  1046 Last Stone Weight
  1048 Longest String Chain
  1049 Last Stone Weight II
+ 1059 All Paths from Source Lead to Destination
  1087 Brace Expansion
  1091 Shortest Path in Binary Matrix
  1094 Car Pooling
@@ -863,10 +865,10 @@ algo
  2227 Encrypt and Decrypt Strings
 =====================================
 Solved / Total (Easy)  :   88 /  559
-Solved / Total (Medium):  284 / 1189
+Solved / Total (Medium):  285 / 1189
 Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  403 / 2229
-Total Score            : 1095
+Solved / Total (All)   :  404 / 2229
+Total Score            : 1098
 =====================================
 
 ```

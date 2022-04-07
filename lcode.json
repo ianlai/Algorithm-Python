@@ -2663,6 +2663,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1059", 
+    "Level": 2, 
+    "Title": "All Paths from Source Lead to Destination", 
+    "Url": "https://leetcode.com/problems/all-paths-from-source-lead-to-destination", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1087", 
     "Level": 2, 
     "Title": "Brace Expansion", 
