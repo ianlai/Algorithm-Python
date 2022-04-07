@@ -1,57 +1,71 @@
 import React, { useState, useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import LcodeRow from "./LcodeRow.js";
 import FilterTagButton from "./FilterTagButton.js";
 import FilterLevelButton from "./FilterLevelButton.js";
 import TagButton from "./TagButton";
-import LCODEDATAS from "./lcode-react.json";
+import DATA from "./lcode-react.json";
 
-function onClickTagButton(tagName) {
-  tagSet.add(tagName);
-  tagList = Array.from(tagSet);
-  filterByTags();
+//Add tag into filtered tag list
+function onClickTagButton(targetTag) {
+  if (!tagList.includes(targetTag)) {
+    tagList.push(targetTag);
+    filterData();
+    setTagList(Array.from(tagList));
+  }
+}
+
+//Remove tag from filtered tag list
+function onClickFilterTagButton(targetTag) {
+  tagList = tagList.filter((tag) => tag !== targetTag);
+  filterData();
   setTagList(tagList);
 }
 
-function onClickFilterTagButton(tagName) {
-  tagSet.delete(tagName);
-  tagList = Array.from(tagSet);
-  filterByTags();
-  setTagList(tagList);
+//Leave the target level
+function onClickLevelButton(targetLevel) {
+  levelList = [targetLevel];
+  filterData();
+  setLevelList(Array.from(levelList));
 }
 
-function onClickLevelButton(level) {
-  levelSet.clear();
-  levelSet.add(level);
-  levelList = Array.from(levelSet);
-  filterByTags();
+//Remove level from filtered level list
+function onClickFilterLevelButton(targetLevel) {
+  levelList = Array.from(levelList);
+  levelList = levelList.filter((level) => level !== targetLevel);
+  filterData();
   setLevelList(levelList);
 }
-function onClickFilterLevelButton(level) {
-  levelSet.delete(level);
-  levelList = Array.from(levelSet);
-  filterByTags();
-  setTagList(levelList);
+
+function onClickSortById() {
+  sortedBy = 0;
+  sortList();
 }
 
-let shownLcodeData = LCODEDATAS;
-function filterByTags() {
-  console.log(
-    "filterByTags:",
-    tagList,
-    tagList.length,
-    levelSet,
-    levelSet.size
-  );
-  if (tagList.length === 0 && levelSet.size === 3) {
-    console.log("Reset data");
-    shownLcodeData = LCODEDATAS;
+function onClickSortByDate() {
+  if (sortedBy === 0) {
+    sortedBy = 1;
+  } else if (sortedBy === 1) {
+    sortedBy = 2;
+  } else if (sortedBy === 2) {
+    sortedBy = 1;
+  }
+  sortList();
+}
+
+function filterData() {
+  console.log("[filterData]", "tagList:", tagList, "levelList:", levelList);
+  if (tagList.length === 0 && levelList.length === 3) {
+    console.log("Reset the data");
+    shownLcodeData = DATA;
   } else {
     shownLcodeData = [];
-    for (let l of LCODEDATAS) {
+    for (let l of DATA) {
       //Level
-      if (levelSet.size !== 3 && !levelSet.has(l.Level)) {
+      // if (levelList.length !== 3 && !levelList.includes(l.Level)) {
+      //   continue;
+      // }
+      if (!levelList.includes(l.Level)) {
         continue;
       }
 
@@ -60,7 +74,7 @@ function filterByTags() {
       //   if (l.Tags.length === 0) {
       //     continue;
       //   }
-      for (let filteredTag of tagSet) {
+      for (let filteredTag of tagList) {
         if (!l.Tags.includes(filteredTag)) {
           isIncluded = false;
           break;
@@ -71,25 +85,24 @@ function filterByTags() {
       }
     }
   }
-  //   console.log(shownLcodeData);
 }
 function sortList() {
-  if (sortedBy == 0) {
+  if (sortedBy === 0) {
     shownLcodeData.sort((a, b) => {
       if (a.Number > b.Number) return 1;
-      else if (a.Number == b.Number) return 0;
+      else if (a.Number === b.Number) return 0;
       else return -1;
     });
-  } else if (sortedBy == 1) {
+  } else if (sortedBy === 1) {
     shownLcodeData.sort((a, b) => {
       if (a.Date > b.Date) return 1;
-      else if (a.Date == b.Date) return 0;
+      else if (a.Date === b.Date) return 0;
       else return -1;
     });
-  } else if (sortedBy == 2) {
+  } else if (sortedBy === 2) {
     shownLcodeData.sort((a, b) => {
       if (a.Date > b.Date) return -1;
-      else if (a.Date == b.Date) return 0;
+      else if (a.Date === b.Date) return 0;
       else return 1;
     });
   }
@@ -113,23 +126,26 @@ const AppHeader = () => (
       <span> || </span>
       <span style={{ color: "rgb(138 166 229)" }}>
         {" "}
-        {"Total: " + LCODEDATAS.length}{" "}
+        {"Total: " + DATA.length}{" "}
       </span>
     </div>
   </header>
 );
 
-const LevelSectionAll = () => (
-  <div className="LevelFilterRow">
-    {levelList.map((t) => (
-      <FilterLevelButton
-        name={`${levelMap[t]["name"]} (${levelMap[t]["count"]})`}
-        level={t}
-        onClickFilterLevelButton={onClickFilterLevelButton}
-      />
-    ))}
-  </div>
-);
+const LevelSectionAll = () => {
+  console.log("[LevelSectionAll]", levelMap);
+  return (
+    <div className="LevelFilterRow">
+      {levelList.map((t) => (
+        <FilterLevelButton
+          name={`${levelMap[t]["name"]} (${levelMap[t]["count"]})`}
+          level={t}
+          onClickFilterLevelButton={onClickFilterLevelButton}
+        />
+      ))}
+    </div>
+  );
+};
 
 const TagSectionAll = () => (
   <div className="TagFilterRowAll">
@@ -145,16 +161,19 @@ const TagSectionAll = () => (
   </div>
 );
 
-const TagSectionSelected = () => (
-  <div className="TagFilterRow">
-    {tagList.map((t) => (
-      <FilterTagButton
-        tagName={t}
-        onClickFilterTagButton={onClickFilterTagButton}
-      />
-    ))}
-  </div>
-);
+const TagSectionSelected = () => {
+  console.log("TagSectionSelected:", tagList);
+  return (
+    <div className="TagFilterRow">
+      {tagList.map((t) => (
+        <FilterTagButton
+          tagName={t}
+          onClickFilterTagButton={onClickFilterTagButton}
+        />
+      ))}
+    </div>
+  );
+};
 
 const DataTable = () => {
   return (
@@ -162,13 +181,7 @@ const DataTable = () => {
       <thead>
         <tr>
           <th>
-            <button
-              class="button-sorting"
-              onClick={() => {
-                sortedBy = 0;
-                sortList();
-              }}
-            >
+            <button class="button-sorting" onClick={onClickSortById}>
               ID
             </button>
           </th>
@@ -176,19 +189,7 @@ const DataTable = () => {
           <th>Tags</th>
           <th>Memo</th>
           <th>
-            <button
-              class="button-sorting"
-              onClick={() => {
-                if (sortedBy == 0) {
-                  sortedBy = 1;
-                } else if (sortedBy == 1) {
-                  sortedBy = 2;
-                } else if (sortedBy == 2) {
-                  sortedBy = 1;
-                }
-                sortList();
-              }}
-            >
+            <button class="button-sorting" onClick={onClickSortByDate}>
               Date
             </button>
           </th>
@@ -214,16 +215,11 @@ const DataTable = () => {
   );
 };
 
-let memberTagList, setTagList;
-let memberLevelList, setLevelList;
-let sortedBy = 0,
-  setSortedBy;
+//Global data
+let shownLcodeData = DATA;
 let allTagMap = new Map();
 let allTagList = [];
-let tagSet = new Set();
-let tagList = [];
-let levelSet = new Set([1, 2, 3]);
-let levelList = [1, 2, 3];
+let allLevelList = [1, 2, 3];
 let levelMap = {
   1: {
     name: "Easy",
@@ -239,19 +235,21 @@ let levelMap = {
   }
 };
 
+//Filtered data
+let tagList = [];
+let setTagList;
+let levelList = Array.from(allLevelList);
+let setLevelList;
+let sortedBy = 0;
+let setSortedBy;
+
 const App = () => {
-  console.log(tagSet);
-  console.log(tagList);
-  console.log("Show lcode data:", shownLcodeData.length);
-
-  [memberTagList, setTagList] = useState(tagList);
-  [memberLevelList, setLevelList] = useState(levelList);
-  [memberLevelList, setSortedBy] = useState(sortedBy);
-
+  [tagList, setTagList] = useState(tagList);
+  [levelList, setLevelList] = useState(levelList);
+  [sortedBy, setSortedBy] = useState(sortedBy);
   useEffect(() => {
     console.log("useEffect");
-    allTagMap = new Map();
-    for (let l of LCODEDATAS) {
+    for (let l of DATA) {
       levelMap[l.Level]["count"] += 1;
       for (let tag of l.Tags) {
         if (allTagMap.has(tag)) {
@@ -265,9 +263,21 @@ const App = () => {
     }
     allTagList = Array.from(allTagMap.keys());
     allTagList.sort();
-    console.log("allTagMap:", allTagMap);
-    console.log("allTagList:", allTagList);
   }, []);
+
+  console.log(
+    "[App]",
+    "tagList:",
+    tagList,
+    "levelList:",
+    levelList,
+    "allTagMap:",
+    allTagMap,
+    "allLevelList:",
+    allLevelList,
+    "allTagList:",
+    allTagList
+  );
 
   return (
     <div className="App">
