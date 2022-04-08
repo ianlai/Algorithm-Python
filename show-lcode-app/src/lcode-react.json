@@ -3493,10 +3493,11 @@
     "Tags": [
         "Graph", 
         "DFS", 
-        "**CHECK"
+        "Backtracking", 
+        "**GOOD"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-18"
+    "Memo": "DFS，嘗試加入cur或加入nxt兩種寫法。複雜度分析因為是算path，所以類似subset題，加上一個就等於複製一倍（原本的路徑們，新的路徑們包含新點），所以是指數2^V。", 
+    "Date": "2022-04-08"
 },
 {
     "Number": "0811", 
@@ -3982,8 +3983,13 @@
     "Level": 2, 
     "Title": "All Paths from Source Lead to Destination", 
     "Url": "https://leetcode.com/problems/all-paths-from-source-lead-to-destination", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "**CHECK"
+    ], 
+    "Memo": "", 
+    "Date": "2022-04-08"
 },
 {
     "Number": "1087", 
@@ -4321,6 +4327,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-01-01"
+},
+{
+    "Number": "1305", 
+    "Level": 2, 
+    "Title": "All Elements in Two Binary Search Trees", 
+    "Url": "https://leetcode.com/problems/all-elements-in-two-binary-search-trees", 
+    "Tags": ["Tree", "BST", "DFS", "Two-Pointer"], 
+    "Memo": "Inorder DFS取出有序array之後，使用two-poiter來合併。"
 },
 {
     "Number": "1306", 
