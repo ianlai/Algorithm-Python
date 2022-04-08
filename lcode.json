@@ -1679,6 +1679,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0419", 
+    "Level": 2, 
+    "Title": "Battleships in a Board", 
+    "Url": "https://leetcode.com/problems/battleships-in-a-board", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0423", 
     "Level": 2, 
     "Title": "Reconstruct Original Digits from English", 

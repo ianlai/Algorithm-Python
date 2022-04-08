@@ -238,6 +238,7 @@ algo
 │   ├── __0200__Number of Islands.py
 │   ├── __0305__Number of Islands II.py
 │   ├── __0417__Pacific Atlantic Water Flow.py
+│   ├── __0419__Battleships in a Board.py
 │   ├── __0694__Number of Distinct Islands.py
 │   ├── __0695__Max Area of Island.py
 │   ├── __0934__Shortest Bridge.py
@@ -455,7 +456,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 421 files
+32 directories, 422 files
 
 =====================================
 ============= Leetcode ==============
@@ -669,6 +670,7 @@ algo
  0412 Fizz Buzz
  0416 Partition Equal Subset Sum
  0417 Pacific Atlantic Water Flow
+ 0419 Battleships in a Board
  0423 Reconstruct Original Digits from English
  0435 Non-overlapping Intervals
  0437 Path Sum III
@@ -867,10 +869,10 @@ algo
  2227 Encrypt and Decrypt Strings
 =====================================
 Solved / Total (Easy)  :   88 /  559
-Solved / Total (Medium):  286 / 1189
+Solved / Total (Medium):  287 / 1189
 Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  405 / 2229
-Total Score            : 1101
+Solved / Total (All)   :  406 / 2229
+Total Score            : 1104
 =====================================
 
 ```
