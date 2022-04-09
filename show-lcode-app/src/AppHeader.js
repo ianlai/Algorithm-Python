@@ -1,11 +1,11 @@
 import React from "react";
 import DATA from "./lcode-react.json";
 
-const AppHeader = ({selectedTagIds, selectedLevelIds}) => {
-    const filteredByTagData =
+const AppHeader = ({ selectedTagIds, selectedLevelIds }) => {
+  const filteredByTagData =
     selectedTagIds.length > 0
       ? DATA.filter((data) =>
-          data.Tags.some((tagId) => selectedTagIds.includes(tagId))
+          selectedTagIds.every((tagId) => data.Tags.includes(tagId))
         )
       : DATA;
 
@@ -16,7 +16,7 @@ const AppHeader = ({selectedTagIds, selectedLevelIds}) => {
         )
       : filteredByTagData;
 
-      return (
+  return (
     <header className="App-header">
       <h3>
         Lcode visualization parsed from <code>lcode-react.json</code>
@@ -36,7 +36,7 @@ const AppHeader = ({selectedTagIds, selectedLevelIds}) => {
         </span>
       </div>
     </header>
-      );
+  );
 };
 
-  export default AppHeader
+export default AppHeader;

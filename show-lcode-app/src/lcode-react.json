@@ -2185,10 +2185,13 @@
     "Title": "Reconstruct Itinerary", 
     "Url": "https://leetcode.com/problems/reconstruct-itinerary", 
     "Tags": [
-        "Graph"
+        "Graph", 
+        "DFS", 
+        "Backtracking", 
+        "**大神"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-16"
+    "Memo": "重點是把資料整理成有序之後，做backtracking第一個解(path)就是有序的最小結果。使用兩個map，第一個map紀錄每一個邊是幾張票，第二個map則紀錄了每一個點到其他dst經過排序後的結果，用第二個map來做DFS，找到一個完整的path也就是ticket用完就跳出。", 
+    "Date": "2022-04-10"
 },
 {
     "Number": "0333", 
@@ -2752,10 +2755,9 @@
     "Tags": [
         "Tree", 
         "BFS", 
-        "DFS", 
-        "**CHECK"
+        "DFS"
     ], 
-    "Memo": "", 
+    "Memo": "使用BFS，換行的第一個就是結果。", 
     "Date": "2022-04-09"
 },
 {

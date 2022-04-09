@@ -24,10 +24,13 @@ const DataTable = ({ selectedTagIds, selectedLevelIds }) => {
     const filteredByTagData =
       selectedTagIds.length > 0
         ? DATA.filter((data) =>
-            data.Tags.some((tagId) => selectedTagIds.includes(tagId))
+            //data.Tags.every((tagId) => selectedTagIds.includes(tagId))
+            selectedTagIds.every((tagId) => data.Tags.includes(tagId))
           )
         : DATA;
-  
+    //console.log("filteredByTagData:", filteredByTagData)
+
+    //const filteredData = filteredByTagData
     const filteredData =
       selectedLevelIds.length > 0
         ? filteredByTagData.filter((data) =>
