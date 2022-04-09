@@ -6,6 +6,7 @@ import FilterLevelButton from "./FilterLevelButton.js";
 import TagButton from "./TagButton";
 import DATA from "./lcode-react.json";
 import TagList from "./TagList";
+import DataTable from "./DataTable";
 import { ALL_TAG_LIST, ALL_LEVEL_LIST } from "./data";
 import LevelList from "./LevelList";
 
@@ -22,27 +23,12 @@ const SORT_BY = {
   DATE_DESC: 4,
 };
 
-//Add tag into filtered tag list
-function onClickTagButton(targetTag) {
-  if (!tagList.includes(targetTag)) {
-    tagList.push(targetTag);
-    filterData();
-    setTagList(Array.from(tagList));
-  }
-}
 
 //Remove tag from filtered tag list
 function onClickFilterTagButton(targetTag) {
   tagList = tagList.filter((tag) => tag !== targetTag);
   filterData();
   setTagList(tagList);
-}
-
-//Keep only the target level
-function onClickLevelButton(targetLevel) {
-  levelList = [targetLevel];
-  filterData();
-  setLevelList(Array.from(levelList));
 }
 
 //Remove level from filtered level list
@@ -152,35 +138,6 @@ const AppHeader = () => (
   </header>
 );
 
-const LevelSectionAll = () => {
-  console.log("[LevelSectionAll]", levelMap);
-  return (
-    <div className="LevelFilterRow">
-      {levelList.map((t) => (
-        <FilterLevelButton
-          name={`${levelMap[t]["name"]} (${levelMap[t]["count"]})`}
-          level={t}
-          onClickFilterLevelButton={onClickFilterLevelButton}
-        />
-      ))}
-    </div>
-  );
-};
-
-const TagSectionAll = () => (
-  <div className="TagFilterRowAll">
-    {allTagList.map((t) => (
-      <TagButton
-        isSelected={false}
-        isAllTag={true}
-        tagName={t}
-        showName={t + "(" + allTagMap.get(t) + ")"}
-        onClickTagButton={onClickTagButton}
-      />
-    ))}
-  </div>
-);
-
 const TagSectionSelected = ({ selectedTagIds }) => {
   console.log("TagSectionSelected:", tagList);
   return (
@@ -195,59 +152,6 @@ const TagSectionSelected = ({ selectedTagIds }) => {
   );
 };
 
-const DataTable = ({ selectedTagIds, selectedLevelIds }) => {
-  const filteredByTagData =
-    selectedTagIds.length > 0
-      ? DATA.filter((data) =>
-          data.Tags.some((tagId) => selectedTagIds.includes(tagId))
-        )
-      : DATA;
-
-  const filteredData =
-    selectedLevelIds.length > 0
-      ? filteredByTagData.filter((data) =>
-          selectedLevelIds.includes(data.Level)
-        )
-      : filteredByTagData;
-
-  return (
-    <table class="styled-table" style={{ width: "100%" }}>
-      <thead>
-        <tr>
-          <th>
-            <button class="button-sorting" onClick={onClickSortById}>
-              ID
-            </button>
-          </th>
-          <th>Title</th>
-          <th>Tags</th>
-          <th>Memo</th>
-          <th>
-            <button class="button-sorting" onClick={onClickSortByDate}>
-              Date
-            </button>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        {filteredData.map((l) => (
-          <LcodeRow
-            id={l.Number}
-            level={l.Level}
-            title={l.Title}
-            url={l.Url}
-            tags={l.Tags}
-            memo={l.Memo}
-            date={l.Date}
-            tagList={tagList}
-            onClickTagButton={onClickTagButton}
-            onClickLevelButton={onClickLevelButton}
-          />
-        ))}
-      </tbody>
-    </table>
-  );
-};
 
 //Global data
 let shownLcodeData = DATA;
@@ -306,8 +210,6 @@ const AppV2 = () => {
   return (
     <div className="App">
       <AppHeader />
-      {/* <LevelSectionAll /> */}
-
       <LevelList
         selectedLevelIds={selectedLevelIds}
         setSelectedLevelIds={setSelectedLevelIds}
@@ -316,11 +218,11 @@ const AppV2 = () => {
         selectedTagIds={selectedTagIds}
         setSelectedTagIds={setSelectedTagIds}
       />
-      {/* <TagSectionAll />
-      <TagSectionSelected /> */}
       <DataTable
         selectedTagIds={selectedTagIds}
+        setSelectedTagIds={setSelectedTagIds}
         selectedLevelIds={selectedLevelIds}
+        setSelectedLevelIds={setSelectedLevelIds}
       />
     </div>
   );
