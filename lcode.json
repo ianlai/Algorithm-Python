@@ -2567,6 +2567,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0987", 
+    "Level": 3, 
+    "Title": "Vertical Order Traversal of a Binary Tree", 
+    "Url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0994", 
     "Level": 2, 
     "Title": "Rotting Oranges", 

@@ -1,5 +1,6 @@
 import React from "react";
 import { ALL_TAG_LIST } from "./data";
+import TagButton from "./TagButton";
 
 const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
   const handleClick = (tagId) => () => {
@@ -15,14 +16,23 @@ const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
       {ALL_TAG_LIST.map((tag) => {
         const isSelected = selectedTagIds.indexOf(tag.id) !== -1;
         return (
-          <li key={tag.id}>
-            <button
-              onClick={handleClick(tag.id)}
-              style={{ background: isSelected ? "red" : "white" }}
-            >
-              {tag.id} {tag.count}
-            </button>
-          </li>
+          <div className="TagFilterRowAll">
+            <li key={tag.id}>
+              {/* <button
+                onClick={handleClick(tag.id)}
+                style={{ background: isSelected ? "red" : "white" }}
+              >
+                {tag.id} {tag.count}
+              </button> */}
+              <TagButton
+                isSelected={false}
+                isAllTag={true}
+                tagName={tag.id}
+                showName={tag.id + "(" + tag.count + ")"}
+                // onClickTagButton={onClickTagButton}
+              />
+            </li>
+          </div>
         );
       })}
     </ul>

@@ -2138,11 +2138,10 @@
     "Tags": [
         "Tree", 
         "BFS", 
-        "DFS", 
-        "**CHECK"
+        "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-20"
+    "Memo": "要保持col和row順序，使用BFS自然會保持row順序，在col的部分可以使用sorting或紀錄最大最小值。", 
+    "Date": "2022-04-09"
 },
 {
     "Number": "0316", 
@@ -2503,7 +2502,8 @@
     "Title": "Battleships in a Board", 
     "Url": "https://leetcode.com/problems/battleships-in-a-board", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-08"
 },
 {
     "Number": "0423", 
@@ -3837,6 +3837,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-12-09"
+},
+{
+    "Number": "0987", 
+    "Level": 3, 
+    "Title": "Vertical Order Traversal of a Binary Tree", 
+    "Url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0994", 

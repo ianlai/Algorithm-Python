@@ -372,6 +372,7 @@ algo
 │   ├── __0938__Range Sum of BST.py
 │   ├── __0958__Check Completeness of a Binary Tree.py
 │   ├── __0979__Distribute Coins in Binary Tree.py
+│   ├── __0987__Vertical Order Traversal of a Binary Tree.py
 │   ├── __1008__Construct Binary Search Tree from Preorder Traversal.py
 │   ├── __1038__Binary Search Tree to Greater Sum Tree.py
 │   ├── __1110__Delete Nodes And Return Forest.py
@@ -456,7 +457,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 422 files
+32 directories, 423 files
 
 =====================================
 ============= Leetcode ==============
@@ -781,6 +782,7 @@ algo
  0983 Minimum Cost For Tickets
  0985 Sum of Even Numbers After Queries
  0986 Interval List Intersections
+ 0987 Vertical Order Traversal of a Binary Tree
  0994 Rotting Oranges
  1008 Construct Binary Search Tree from Preorder Traversal
  1011 Capacity To Ship Packages Within D Days
@@ -868,11 +870,11 @@ algo
  2226 Maximum Candies Allocated to K Children
  2227 Encrypt and Decrypt Strings
 =====================================
-Solved / Total (Easy)  :   88 /  559
+Solved / Total (Easy)  :   88 /  560
 Solved / Total (Medium):  287 / 1189
-Solved / Total (Hard)  :   31 /  481
-Solved / Total (All)   :  406 / 2229
-Total Score            : 1104
+Solved / Total (Hard)  :   32 /  481
+Solved / Total (All)   :  407 / 2230
+Total Score            : 1109
 =====================================
 
 ```
