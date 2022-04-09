@@ -1,20 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
-import LcodeRow from "./LcodeRow.js";
 import FilterTagButton from "./FilterTagButton.js";
-import FilterLevelButton from "./FilterLevelButton.js";
-import TagButton from "./TagButton";
 import DATA from "./lcode-react.json";
 import TagList from "./TagList";
+import AppHeader from "./AppHeader";
 import DataTable from "./DataTable";
 import { ALL_TAG_LIST, ALL_LEVEL_LIST } from "./data";
 import LevelList from "./LevelList";
-
-const LEVEL = {
-  EASY: 1,
-  MEDIUM: 2,
-  HARD: 3,
-};
 
 const SORT_BY = {
   ID_ASC: 1,
@@ -22,7 +14,6 @@ const SORT_BY = {
   DATE_ASC: 3,
   DATE_DESC: 4,
 };
-
 
 //Remove tag from filtered tag list
 function onClickFilterTagButton(targetTag) {
@@ -116,28 +107,6 @@ function sortList() {
   setSortedBy(sortedBy);
 }
 
-const AppHeader = () => (
-  <header className="App-header">
-    <h3>
-      Lcode visualization parsed from <code>lcode-react.json</code>
-    </h3>
-    <div
-      className="numberRow"
-      style={{ "font-weight": "bold", "font-size": "0.8em" }}
-    >
-      <span style={{ color: "rgb(138 166 229)" }}>
-        {" "}
-        {"Selected: " + shownLcodeData.length}
-      </span>
-      <span> || </span>
-      <span style={{ color: "rgb(138 166 229)" }}>
-        {" "}
-        {"Total: " + DATA.length}{" "}
-      </span>
-    </div>
-  </header>
-);
-
 const TagSectionSelected = ({ selectedTagIds }) => {
   console.log("TagSectionSelected:", tagList);
   return (
@@ -151,7 +120,6 @@ const TagSectionSelected = ({ selectedTagIds }) => {
     </div>
   );
 };
-
 
 //Global data
 let shownLcodeData = DATA;
@@ -191,16 +159,6 @@ const AppV2 = () => {
 
   console.log(
     "[App]",
-    // "tagList:",
-    // tagList,
-    // "levelList:",
-    // levelList,
-    // "allTagMap:",
-    // allTagMap,
-    // "allLevelList:",
-    // allLevelList,
-    // "allTagList:",
-    // allTagList,
     "ALL_TAG_LIST:",
     ALL_TAG_LIST,
     "ALL_LEVEL_LIST:",
@@ -209,7 +167,10 @@ const AppV2 = () => {
 
   return (
     <div className="App">
-      <AppHeader />
+      <AppHeader
+        selectedLevelIds={selectedLevelIds}
+        selectedTagIds={selectedTagIds}
+      />
       <LevelList
         selectedLevelIds={selectedLevelIds}
         setSelectedLevelIds={setSelectedLevelIds}
