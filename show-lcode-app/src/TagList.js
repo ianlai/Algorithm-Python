@@ -1,6 +1,7 @@
 import React from "react";
 import { ALL_TAG_LIST } from "./data";
-import TagButton from "./TagButton";
+import FilterTagButton from "./FilterTagButton";
+import TagButton from "./TagButtonV2";
 
 const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
   const handleClick = (tagId) => () => {
@@ -25,11 +26,13 @@ const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
                 {tag.id} {tag.count}
               </button> */}
               <TagButton
-                isSelected={false}
-                isAllTag={true}
-                tagName={tag.id}
+                type = {"all"}
+                isSelected={isSelected}
+                // isAllTag={true}
+                // tagName={tag.id}
                 showName={tag.id + "(" + tag.count + ")"}
                 // onClickTagButton={onClickTagButton}
+                onClickTagButton={handleClick(tag.id)}
               />
             </li>
           </div>

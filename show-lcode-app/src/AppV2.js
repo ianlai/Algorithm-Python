@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import LcodeRow from "./LcodeRow.js";
 import FilterTagButton from "./FilterTagButton.js";
@@ -6,18 +6,20 @@ import FilterLevelButton from "./FilterLevelButton.js";
 import TagButton from "./TagButton";
 import DATA from "./lcode-react.json";
 import TagList from "./TagList";
+import { ALL_TAG_LIST, ALL_LEVEL_LIST } from "./data";
+import LevelList from "./LevelList";
 
 const LEVEL = {
   EASY: 1,
   MEDIUM: 2,
-  HARD: 3
+  HARD: 3,
 };
 
 const SORT_BY = {
   ID_ASC: 1,
   ID_DESC: 2,
   DATE_ASC: 3,
-  DATE_DESC: 4
+  DATE_DESC: 4,
 };
 
 //Add tag into filtered tag list
@@ -179,11 +181,11 @@ const TagSectionAll = () => (
   </div>
 );
 
-const TagSectionSelected = () => {
+const TagSectionSelected = ({ selectedTagIds }) => {
   console.log("TagSectionSelected:", tagList);
   return (
     <div className="TagFilterRow">
-      {tagList.map((t) => (
+      {selectedTagIds.map((t) => (
         <FilterTagButton
           tagName={t}
           onClickFilterTagButton={onClickFilterTagButton}
@@ -193,13 +195,21 @@ const TagSectionSelected = () => {
   );
 };
 
-const DataTable = ({ selectedTagIds }) => {
-  const filteredData =
+const DataTable = ({ selectedTagIds, selectedLevelIds }) => {
+  const filteredByTagData =
     selectedTagIds.length > 0
       ? DATA.filter((data) =>
           data.Tags.some((tagId) => selectedTagIds.includes(tagId))
         )
       : DATA;
+
+  const filteredData =
+    selectedLevelIds.length > 0
+      ? filteredByTagData.filter((data) =>
+          selectedLevelIds.includes(data.Level)
+        )
+      : filteredByTagData;
+
   return (
     <table class="styled-table" style={{ width: "100%" }}>
       <thead>
@@ -247,16 +257,16 @@ let allLevelList = [1, 2, 3];
 let levelMap = {
   1: {
     name: "Easy",
-    count: 0
+    count: 0,
   },
   2: {
     name: "Medium",
-    count: 0
+    count: 0,
   },
   3: {
     name: "Hard",
-    count: 0
-  }
+    count: 0,
+  },
 };
 
 //Filtered data
@@ -272,51 +282,46 @@ const AppV2 = () => {
   [levelList, setLevelList] = useState(levelList);
   [sortedBy, setSortedBy] = useState(sortedBy);
 
+  const [selectedLevelIds, setSelectedLevelIds] = useState([]);
   const [selectedTagIds, setSelectedTagIds] = useState([]);
-
-  useEffect(() => {
-    console.log("useEffect");
-    for (let l of DATA) {
-      levelMap[l.Level]["count"] += 1;
-      for (let tag of l.Tags) {
-        if (allTagMap.has(tag)) {
-          //can't do allTagMap[key] = value, otherwise the map size won't change
-          //then the array can't be created
-          allTagMap.set(tag, allTagMap.get(tag) + 1);
-        } else {
-          allTagMap.set(tag, 1);
-        }
-      }
-    }
-    allTagList = Array.from(allTagMap.keys());
-    allTagList.sort();
-  }, []);
 
   console.log(
     "[App]",
-    "tagList:",
-    tagList,
-    "levelList:",
-    levelList,
-    "allTagMap:",
-    allTagMap,
-    "allLevelList:",
-    allLevelList,
-    "allTagList:",
-    allTagList
+    // "tagList:",
+    // tagList,
+    // "levelList:",
+    // levelList,
+    // "allTagMap:",
+    // allTagMap,
+    // "allLevelList:",
+    // allLevelList,
+    // "allTagList:",
+    // allTagList,
+    "ALL_TAG_LIST:",
+    ALL_TAG_LIST,
+    "ALL_LEVEL_LIST:",
+    ALL_LEVEL_LIST
   );
 
   return (
     <div className="App">
       <AppHeader />
-      <LevelSectionAll />
+      {/* <LevelSectionAll /> */}
+
+      <LevelList
+        selectedLevelIds={selectedLevelIds}
+        setSelectedLevelIds={setSelectedLevelIds}
+      />
       <TagList
         selectedTagIds={selectedTagIds}
         setSelectedTagIds={setSelectedTagIds}
       />
       {/* <TagSectionAll />
       <TagSectionSelected /> */}
-      <DataTable selectedTagIds={selectedTagIds} />
+      <DataTable
+        selectedTagIds={selectedTagIds}
+        selectedLevelIds={selectedLevelIds}
+      />
     </div>
   );
 };

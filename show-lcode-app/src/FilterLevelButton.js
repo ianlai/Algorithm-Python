@@ -7,10 +7,12 @@ function FilterLevelButton(props) {
     } else if (props.level === 3) {
       classNameLevel = "button-hard";
     }
+
   return (
     <button
       class="button-filter"
       className={classNameLevel}
+      style={{ border: props.isSelected ? '5px solid black' : ''}}
       onClick={() => props.onClickFilterLevelButton(props.level)}
     >
       {props.name}
