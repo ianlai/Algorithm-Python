@@ -15,21 +15,6 @@ const SORT_BY = {
   DATE_DESC: 4,
 };
 
-//Remove tag from filtered tag list
-function onClickFilterTagButton(targetTag) {
-  tagList = tagList.filter((tag) => tag !== targetTag);
-  filterData();
-  setTagList(tagList);
-}
-
-//Remove level from filtered level list
-function onClickFilterLevelButton(targetLevel) {
-  levelList = Array.from(levelList);
-  levelList = levelList.filter((level) => level !== targetLevel);
-  filterData();
-  setLevelList(levelList);
-}
-
 function onClickSortById() {
   if (sortedBy !== SORT_BY.ID_ASC) {
     sortedBy = SORT_BY.ID_ASC;
@@ -48,36 +33,6 @@ function onClickSortByDate() {
   sortList();
 }
 
-function filterData() {
-  console.log("[filterData]", "tagList:", tagList, "levelList:", levelList);
-  if (tagList.length === 0 && levelList.length === 3) {
-    console.log("Reset the data");
-    shownLcodeData = DATA;
-  } else {
-    shownLcodeData = [];
-    for (let l of DATA) {
-      //Filter by Level
-      if (!levelList.includes(l.Level)) {
-        continue;
-      }
-
-      //Filter by Tags
-      let isIncluded = true;
-      //   if (l.Tags.length === 0) {
-      //     continue;
-      //   }
-      for (let filteredTag of tagList) {
-        if (!l.Tags.includes(filteredTag)) {
-          isIncluded = false;
-          break;
-        }
-      }
-      if (isIncluded === true) {
-        shownLcodeData.push(l);
-      }
-    }
-  }
-}
 function sortList() {
   if (sortedBy === SORT_BY.ID_ASC) {
     shownLcodeData.sort((a, b) => {
@@ -106,20 +61,6 @@ function sortList() {
   }
   setSortedBy(sortedBy);
 }
-
-const TagSectionSelected = ({ selectedTagIds }) => {
-  console.log("TagSectionSelected:", tagList);
-  return (
-    <div className="TagFilterRow">
-      {selectedTagIds.map((t) => (
-        <FilterTagButton
-          tagName={t}
-          onClickFilterTagButton={onClickFilterTagButton}
-        />
-      ))}
-    </div>
-  );
-};
 
 //Global data
 let shownLcodeData = DATA;

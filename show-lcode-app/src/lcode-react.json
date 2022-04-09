@@ -2756,7 +2756,7 @@
         "**CHECK"
     ], 
     "Memo": "", 
-    "Date": "2021-08-02"
+    "Date": "2022-04-09"
 },
 {
     "Number": "0515", 
@@ -3843,10 +3843,13 @@
     "Level": 3, 
     "Title": "Vertical Order Traversal of a Binary Tree", 
     "Url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree", 
-    "Tags": [        "Tree", 
+    "Tags": [
+        "Tree", 
         "BFS", 
-        "DFS"], 
-    "Memo": "這題類似L314，差別在於他要的順序是col, row, val，所以本來在L314的時候使用BFS就可以完全避免排序，這題就不行，最後還是得排，因此使用DFS或BFS的差異就不大。col的部分可以紀錄最大最小，可以保持順序。下一步可以做的優化是(row, val)整體一起排序，或是使用BFS保持row的順序（但map本身又不能保持順序，所以還得用list)，只排序val，但應該沒差太多。"
+        "DFS"
+    ], 
+    "Memo": "這題類似L314，差別在於他要的順序是col, row, val，所以本來在L314的時候使用BFS就可以完全避免排序，這題就不行，最後還是得排，因此使用DFS或BFS的差異就不大。col的部分可以紀錄最大最小，可以保持順序。下一步可以做的優化是(row, val)整體一起排序，或是使用BFS保持row的順序（但map本身又不能保持順序，所以還得用list)，只排序val，但應該沒差太多。", 
+    "Date": "2022-04-09"
 },
 {
     "Number": "0994", 
