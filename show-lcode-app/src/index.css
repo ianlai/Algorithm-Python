@@ -217,7 +217,7 @@ a:hover {
   margin: 0;
 }
 .button-easy {
-  background-color: #168609;
+  background-color: #26821c;
 }
 .button-medium {
   background-color: #b37d09;
@@ -225,14 +225,26 @@ a:hover {
 .button-hard {
   background-color: #7e1604;
 }
-.button-easy:hover {
-  background-color: #27cc14;
+.button:hover {
+    box-shadow: inset 0 0 0 2px #87d4b9;
+  }
+/* .button-easy:hover {
+  box-shadow: inset 0 0 0 2px #7e1604;
 }
 .button-medium:hover {
   background-color: #ebb237;
 }
 .button-hard:hover {
   background-color: #ce4730;
+} */
+.button-easy.clicked {
+    background-color: #4a9d41;
+  }
+.button-medium.clicked {
+background-color: #ebb237;
+}
+.button-hard.clicked {
+background-color: #ce4730;
 }
 .LevelFilterRow{
   margin: 8px;

@@ -2,6 +2,16 @@ import TagButton from "./TagButton";
 import LevelButton from "./LevelButton";
 
 function LcodeRow(props) {
+
+    // const handleClickTagButton = (tagId) => () => {
+    //     const updatedSelectedTags = selectedTagIds.find(
+    //       (targetTagId) => targetTagId === tagId
+    //     )
+    //       ? selectedTagIds.filter((targetTagId) => targetTagId !== tagId)
+    //       : [...selectedTagIds, tagId];
+    //     setSelectedTagIds(updatedSelectedTags);
+    //   };
+
   return (
     <tr class="active-row">
       <th>

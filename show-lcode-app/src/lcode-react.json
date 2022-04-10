@@ -3109,6 +3109,14 @@
     "Date": "2021-05-20"
 },
 {
+    "Number": "0682", 
+    "Level": 1, 
+    "Title": "Baseball Game", 
+    "Url": "https://leetcode.com/problems/baseball-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0684", 
     "Level": 2, 
     "Title": "Redundant Connection", 
@@ -4891,5 +4899,29 @@
     ], 
     "Memo": "這題我單純的把所有字典檔內的字都先加密過，並且計算那個加密字是會被幾種初始字連到的count map，之後要decrypt的時候，就去找相對應的count而已。這題如果字典檔做大一點就沒這麼簡單，After-party聽到正規是用Trie來處理。", 
     "Date": "2022-04-03"
+},
+{
+    "Number": "2231", 
+    "Level": 1, 
+    "Title": "Largest Number After Digit Swaps by Parity", 
+    "Url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2232", 
+    "Level": 2, 
+    "Title": "Minimize Result by Adding Parentheses to Expression", 
+    "Url": "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2233", 
+    "Level": 2, 
+    "Title": "Maximum Product After K Increments", 
+    "Url": "https://leetcode.com/problems/maximum-product-after-k-increments", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]

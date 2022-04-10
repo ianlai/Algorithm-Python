@@ -2095,6 +2095,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0682", 
+    "Level": 1, 
+    "Title": "Baseball Game", 
+    "Url": "https://leetcode.com/problems/baseball-game", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0684", 
     "Level": 2, 
     "Title": "Redundant Connection", 
@@ -3259,6 +3267,30 @@ lcode_data = `
     "Level": 3, 
     "Title": "Encrypt and Decrypt Strings", 
     "Url": "https://leetcode.com/problems/encrypt-and-decrypt-strings", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2231", 
+    "Level": 1, 
+    "Title": "Largest Number After Digit Swaps by Parity", 
+    "Url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2232", 
+    "Level": 2, 
+    "Title": "Minimize Result by Adding Parentheses to Expression", 
+    "Url": "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2233", 
+    "Level": 2, 
+    "Title": "Maximum Product After K Increments", 
+    "Url": "https://leetcode.com/problems/maximum-product-after-k-increments", 
     "Tags": [], 
     "Memo": ""
 }

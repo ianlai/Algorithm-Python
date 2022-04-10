@@ -2,24 +2,15 @@ import React from "react";
 import DATA from "./lcode-react.json";
 import LcodeRow from "./LcodeRow.js";
 
-const DataTable = ({ selectedTagIds, selectedLevelIds }) => {
-
-//     //Add tag into filtered tag list
-//     const onClickTagButton = (targetTag) => {
-//     if (!tagList.includes(targetTag)) {
-//       tagList.push(targetTag);
-//       //filterData();
-//       setTagList(Array.from(tagList));
-//     }
-//   }
+const DataTable = ({ selectedTagIds, setSelectedTagIds, selectedLevelIds, setSelectedLevelIds }) => {
 
 
-//   //Keep only the target level
-// function onClickLevelButton(targetLevel) {
-//     levelList = [targetLevel];
-//     //filterData();
-//     setLevelList(Array.from(levelList));
-//   }
+const handleClickLevelButton = (levelId) => () => {
+    const updated = selectedLevelIds.find((id) => id === levelId)
+      ? selectedLevelIds.filter((id) => id !== levelId)
+      : [...selectedLevelIds, levelId];
+    setSelectedLevelIds(updated);
+  };
 
     const filteredByTagData =
       selectedTagIds.length > 0
@@ -28,9 +19,7 @@ const DataTable = ({ selectedTagIds, selectedLevelIds }) => {
             selectedTagIds.every((tagId) => data.Tags.includes(tagId))
           )
         : DATA;
-    //console.log("filteredByTagData:", filteredByTagData)
 
-    //const filteredData = filteredByTagData
     const filteredData =
       selectedLevelIds.length > 0
         ? filteredByTagData.filter((data) =>
@@ -68,8 +57,8 @@ const DataTable = ({ selectedTagIds, selectedLevelIds }) => {
               memo={l.Memo}
               date={l.Date}
               tagList={selectedTagIds}
-              //onClickTagButton={onClickTagButton}
-              //onClickLevelButton={onClickLevelButton}
+              onClickTagButton={handleClickLevelButton}
+              onClickLevelButton={handleClickLevelButton(l.Level)}
             />
           ))}
         </tbody>

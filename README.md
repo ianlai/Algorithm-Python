@@ -27,7 +27,8 @@ algo
 │   ├── __0954__Array of Doubled Pairs.py
 │   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
-│   └── __2154__Keep Multiplying Found Values by Two.py
+│   ├── __2154__Keep Multiplying Found Values by Two.py
+│   └── __2231__Largest Number After Digit Swaps by Parity.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
@@ -232,7 +233,8 @@ algo
 │   ├── __0973__K Closest Points to Origin.py
 │   ├── __1046__Last Stone Weight.py
 │   ├── __1094__Car Pooling.py
-│   └── __1167__Minimum Cost to Connect Sticks.py
+│   ├── __1167__Minimum Cost to Connect Sticks.py
+│   └── __2233__Maximum Product After K Increments.py
 ├── Island
 │   ├── __0130__Surrounded Regions.py
 │   ├── __0200__Number of Islands.py
@@ -308,6 +310,7 @@ algo
 │   ├── __0020__Valid Parentheses.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
 │   ├── __0155__Min Stack.py
+│   ├── __0682__Baseball Game.py
 │   └── __0735__Asteroid Collision.py
 ├── String
 │   ├── __0009__Palindrome Number.py
@@ -323,7 +326,8 @@ algo
 │   ├── __0792__Number of Matching Subsequences.py
 │   ├── __0811__Subdomain Visit Count.py
 │   ├── __1041__Robot Bounded In Circle.py
-│   └── __1165__Single-Row Keyboard.py
+│   ├── __1165__Single-Row Keyboard.py
+│   └── __2232__Minimize Result by Adding Parentheses to Expression.py
 ├── Tree
 │   ├── __0094__Binary Tree Inorder Traversal.py
 │   ├── __0098__Validate Binary Search Tree.py
@@ -457,7 +461,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 423 files
+32 directories, 427 files
 
 =====================================
 ============= Leetcode ==============
@@ -723,6 +727,7 @@ algo
  0670 Maximum Swap
  0677 Map Sum Pairs
  0680 Valid Palindrome II
+ 0682 Baseball Game
  0684 Redundant Connection
  0687 Longest Univalue Path
  0688 Knight Probability in Chessboard
@@ -869,12 +874,15 @@ algo
  2225 Find Players With Zero or One Losses
  2226 Maximum Candies Allocated to K Children
  2227 Encrypt and Decrypt Strings
+ 2231 Largest Number After Digit Swaps by Parity
+ 2232 Minimize Result by Adding Parentheses to Expression
+ 2233 Maximum Product After K Increments
 =====================================
-Solved / Total (Easy)  :   88 /  560
-Solved / Total (Medium):  287 / 1189
-Solved / Total (Hard)  :   32 /  481
-Solved / Total (All)   :  407 / 2230
-Total Score            : 1109
+Solved / Total (Easy)  :   90 /  561
+Solved / Total (Medium):  289 / 1191
+Solved / Total (Hard)  :   32 /  482
+Solved / Total (All)   :  411 / 2234
+Total Score            : 1117
 =====================================
 
 ```
