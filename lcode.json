@@ -2399,6 +2399,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0889", 
+    "Level": 2, 
+    "Title": "Construct Binary Tree from Preorder and Postorder Traversal", 
+    "Url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0896", 
     "Level": 1, 
     "Title": "Monotonic Array", 
@@ -2867,6 +2875,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Closed Islands", 
     "Url": "https://leetcode.com/problems/number-of-closed-islands", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1260", 
+    "Level": 1, 
+    "Title": "Shift 2D Grid", 
+    "Url": "https://leetcode.com/problems/shift-2d-grid", 
     "Tags": [], 
     "Memo": ""
 },

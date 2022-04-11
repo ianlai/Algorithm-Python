@@ -3114,7 +3114,8 @@
     "Title": "Baseball Game", 
     "Url": "https://leetcode.com/problems/baseball-game", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-10"
 },
 {
     "Number": "0684", 
@@ -3581,6 +3582,14 @@
     ], 
     "Memo": "搞清楚loop invarient。FFFFTTTTTT，要找第一個T，且搜尋範圍內一定要有T。邏輯順序：", 
     "Date": "2022-03-05"
+},
+{
+    "Number": "0889", 
+    "Level": 2, 
+    "Title": "Construct Binary Tree from Preorder and Postorder Traversal", 
+    "Url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0896", 
@@ -4285,6 +4294,14 @@
     "Date": "2021-11-15"
 },
 {
+    "Number": "1260", 
+    "Level": 1, 
+    "Title": "Shift 2D Grid", 
+    "Url": "https://leetcode.com/problems/shift-2d-grid", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1268", 
     "Level": 2, 
     "Title": "Search Suggestions System", 
@@ -4906,7 +4923,8 @@
     "Title": "Largest Number After Digit Swaps by Parity", 
     "Url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-10"
 },
 {
     "Number": "2232", 
@@ -4914,7 +4932,8 @@
     "Title": "Minimize Result by Adding Parentheses to Expression", 
     "Url": "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-10"
 },
 {
     "Number": "2233", 
@@ -4922,6 +4941,7 @@
     "Title": "Maximum Product After K Increments", 
     "Url": "https://leetcode.com/problems/maximum-product-after-k-increments", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-10"
 }
 ]

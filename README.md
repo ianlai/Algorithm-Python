@@ -279,6 +279,7 @@ algo
 │   ├── __0073__Set Matrix Zeroes.py
 │   ├── __0304__Range Sum Query 2D - Immutable.py
 │   ├── __0498__Diagonal Traverse.py
+│   ├── __1260__Shift 2D Grid.py
 │   └── __1275__Find Winner on a Tic Tac Toe Game.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
@@ -373,6 +374,7 @@ algo
 │   ├── __0701__Insert into a Binary Search Tree.py
 │   ├── __0776__Split BST.py
 │   ├── __0863__All Nodes Distance K in Binary Tree.py
+│   ├── __0889__Construct Binary Tree from Preorder and Postorder Traversal.py
 │   ├── __0938__Range Sum of BST.py
 │   ├── __0958__Check Completeness of a Binary Tree.py
 │   ├── __0979__Distribute Coins in Binary Tree.py
@@ -461,7 +463,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 427 files
+32 directories, 429 files
 
 =====================================
 ============= Leetcode ==============
@@ -765,6 +767,7 @@ algo
  0862 Shortest Subarray with Sum at Least K
  0863 All Nodes Distance K in Binary Tree
  0875 Koko Eating Bananas
+ 0889 Construct Binary Tree from Preorder and Postorder Traversal
  0896 Monotonic Array
  0904 Fruit Into Baskets
  0905 Sort Array By Parity
@@ -824,6 +827,7 @@ algo
  1235 Maximum Profit in Job Scheduling
  1248 Count Number of Nice Subarrays
  1254 Number of Closed Islands
+ 1260 Shift 2D Grid
  1268 Search Suggestions System
  1275 Find Winner on a Tic Tac Toe Game
  1277 Count Square Submatrices with All Ones
@@ -878,11 +882,11 @@ algo
  2232 Minimize Result by Adding Parentheses to Expression
  2233 Maximum Product After K Increments
 =====================================
-Solved / Total (Easy)  :   90 /  561
-Solved / Total (Medium):  289 / 1191
+Solved / Total (Easy)  :   91 /  563
+Solved / Total (Medium):  290 / 1191
 Solved / Total (Hard)  :   32 /  482
-Solved / Total (All)   :  411 / 2234
-Total Score            : 1117
+Solved / Total (All)   :  413 / 2236
+Total Score            : 1121
 =====================================
 
 ```
