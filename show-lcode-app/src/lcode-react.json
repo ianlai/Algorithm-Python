@@ -496,6 +496,14 @@
     "Date": "2021-12-10"
 },
 {
+    "Number": "0059", 
+    "Level": 2, 
+    "Title": "Spiral Matrix II", 
+    "Url": "https://leetcode.com/problems/spiral-matrix-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0061", 
     "Level": 2, 
     "Title": "Rotate List", 
@@ -881,6 +889,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-12-06"
+},
+{
+    "Number": "0106", 
+    "Level": 2, 
+    "Title": "Construct Binary Tree from Inorder and Postorder Traversal", 
+    "Url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-04-13"
 },
 {
     "Number": "0107", 
@@ -2013,6 +2030,15 @@
     "Date": "2022-03-06"
 },
 {
+    "Number": "0289", 
+    "Level": 2, 
+    "Title": "Game of Life", 
+    "Url": "https://leetcode.com/problems/game-of-life", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-04-12"
+},
+{
     "Number": "0290", 
     "Level": 1, 
     "Title": "Word Pattern", 
@@ -2521,6 +2547,15 @@
     "Date": "2021-11-26"
 },
 {
+    "Number": "0429", 
+    "Level": 2, 
+    "Title": "N-ary Tree Level Order Traversal", 
+    "Url": "https://leetcode.com/problems/n-ary-tree-level-order-traversal", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-04-12"
+},
+{
     "Number": "0435", 
     "Level": 2, 
     "Title": "Non-overlapping Intervals", 
@@ -2591,6 +2626,14 @@
     ], 
     "Memo": "兩個方法。方法1: 依據刪除的點有0,1或2個children有不同處理方式，麻煩的是2個children，因為原本的位置不能裝兩棵子樹，因此需要recursively merge到底。方法2是找到predecessor或successor來取代被刪除的點，然後recursively刪掉predecessor/successor也可以達到刪除target的目標。", 
     "Date": "2022-03-25"
+},
+{
+    "Number": "0453", 
+    "Level": 2, 
+    "Title": "Minimum Moves to Equal Array Elements", 
+    "Url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0456", 
@@ -3589,7 +3632,8 @@
     "Title": "Construct Binary Tree from Preorder and Postorder Traversal", 
     "Url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-11"
 },
 {
     "Number": "0896", 
@@ -4299,7 +4343,8 @@
     "Title": "Shift 2D Grid", 
     "Url": "https://leetcode.com/problems/shift-2d-grid", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-11"
 },
 {
     "Number": "1268", 

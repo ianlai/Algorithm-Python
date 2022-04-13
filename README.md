@@ -135,6 +135,7 @@ algo
 │   ├── __0368__Largest Divisible Subset.py
 │   ├── __0377__Combination Sum IV.py
 │   ├── __0416__Partition Equal Subset Sum.py
+│   ├── __0453__Minimum Moves to Equal Array Elements.py
 │   ├── __0474__Ones and Zeroes.py
 │   ├── __0494__Target Sum.py
 │   ├── __0509__Fibonacci Number.py
@@ -276,7 +277,9 @@ algo
 ├── Matrix
 │   ├── __0048__Rotate Image.py
 │   ├── __0054__Spiral Matrix.py
+│   ├── __0059__Spiral Matrix II.py
 │   ├── __0073__Set Matrix Zeroes.py
+│   ├── __0289__Game of Life.py
 │   ├── __0304__Range Sum Query 2D - Immutable.py
 │   ├── __0498__Diagonal Traverse.py
 │   ├── __1260__Shift 2D Grid.py
@@ -337,6 +340,7 @@ algo
 │   ├── __0101__Symmetric Tree.py
 │   ├── __0104__Maximum Depth of Binary Tree.py
 │   ├── __0105__Construct Binary Tree from Preorder and Inorder Traversal.py
+│   ├── __0106__Construct Binary Tree from Inorder and Postorder Traversal.py
 │   ├── __0108__Convert Sorted Array to Binary Search Tree.py
 │   ├── __0109__Convert Sorted List to Binary Search Tree.py
 │   ├── __0110__Balanced Binary Tree.py
@@ -358,6 +362,7 @@ algo
 │   ├── __0333__Largest BST Subtree.py
 │   ├── __0341__Flatten Nested List Iterator.py
 │   ├── __0366__Find Leaves of Binary Tree.py
+│   ├── __0429__N-ary Tree Level Order Traversal.py
 │   ├── __0437__Path Sum III.py
 │   ├── __0449__Serialize and Deserialize BST.py
 │   ├── __0450__Delete Node in a BST.py
@@ -463,7 +468,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 429 files
+32 directories, 434 files
 
 =====================================
 ============= Leetcode ==============
@@ -510,6 +515,7 @@ algo
  0055 Jump Game
  0056 Merge Intervals
  0057 Insert Interval
+ 0059 Spiral Matrix II
  0061 Rotate List
  0062 Unique Paths
  0063 Unique Paths II
@@ -543,6 +549,7 @@ algo
  0103 Binary Tree Zigzag Level Order Traversal
  0104 Maximum Depth of Binary Tree
  0105 Construct Binary Tree from Preorder and Inorder Traversal
+ 0106 Construct Binary Tree from Inorder and Postorder Traversal
  0107 Binary Tree Level Order Traversal II
  0108 Convert Sorted Array to Binary Search Tree
  0109 Convert Sorted List to Binary Search Tree
@@ -638,6 +645,7 @@ algo
  0285 Inorder Successor in BST
  0286 Walls and Gates
  0287 Find the Duplicate Number
+ 0289 Game of Life
  0290 Word Pattern
  0291 Word Pattern II
  0295 Find Median from Data Stream
@@ -679,12 +687,14 @@ algo
  0417 Pacific Atlantic Water Flow
  0419 Battleships in a Board
  0423 Reconstruct Original Digits from English
+ 0429 N-ary Tree Level Order Traversal
  0435 Non-overlapping Intervals
  0437 Path Sum III
  0438 Find All Anagrams in a String
  0441 Arranging Coins
  0449 Serialize and Deserialize BST
  0450 Delete Node in a BST
+ 0453 Minimum Moves to Equal Array Elements
  0456 132 Pattern
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
@@ -883,10 +893,10 @@ algo
  2233 Maximum Product After K Increments
 =====================================
 Solved / Total (Easy)  :   91 /  563
-Solved / Total (Medium):  290 / 1191
+Solved / Total (Medium):  295 / 1191
 Solved / Total (Hard)  :   32 /  482
-Solved / Total (All)   :  413 / 2236
-Total Score            : 1121
+Solved / Total (All)   :  418 / 2236
+Total Score            : 1136
 =====================================
 
 ```
