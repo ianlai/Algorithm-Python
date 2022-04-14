@@ -1,7 +1,23 @@
 class Solution:
     
-    # DP (2D array) [O(n2): 82%]
+    # 2022/04/14
+    # DP reversed [O(MN): 69%, O(MN): 30%]
     def findLength(self, A, B):
+        print("Code4")
+        m, n = len(A), len(B)
+        dp = [[0] * (n+1) for _ in range(m+1)]
+        maxLength = 0 
+        for i in reversed(range(m)):
+            for j in reversed(range(n)):
+                if A[i] == B[j]:
+                    dp[i][j] = dp[i+1][j+1] + 1
+                    maxLength = max(maxLength, dp[i][j])
+        return maxLength
+        
+    #======================================= 
+    # 2021/11/14
+    # DP (2D array) [O(n2): 82%]
+    def findLength3(self, A, B):
         print("Method3: 2D array 正著走; 全部的點都走過")
         memo = [[0] * (len(B) + 1) for _ in range(len(A) + 1)]
         count = 0
@@ -16,7 +32,7 @@ class Solution:
     #=======================================
     
     # DP (2D array) [O(n2): 8%]
-    def findLength(self, nums1: List[int], nums2: List[int]) -> int:
+    def findLength2(self, nums1: List[int], nums2: List[int]) -> int:
         print("Method2: 2D array 倒著走; 只走有相同的點")
         
         # Preprocess to record the same values in two arrays
