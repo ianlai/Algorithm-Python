@@ -1,12 +1,88 @@
 class Solution:
     
-    # 2022/03/09
-    # DP
+    # 2022/04/14
+    # DP, add extra col and row for avoiding corner cases handling, reversed 
+    # [Time:O(MN):88% / Space:O(MN):63%]
+    # 
+    # [3, 2, 1, 0]
+    # [2, 2, 1, 0]
+    # [2, 2, 1, 0]
+    # [1, 1, 1, 0]
+    # [1, 1, 1, 0]
+    # [0, 0, 0, 0]
+    # compare text1[i] == text2[j] 比較符合直覺
+    # 
+    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+        print("Code5")
+        m, n = len(text1), len(text2)
+        dp = [[0] * (n+1) for _ in range(m+1)]
+        
+        # dp[i][j] means the LCS of text1[:i] and text2[:j] (i, j start from 1)
+        for i in reversed(range(m)):
+            for j in reversed(range(n)):
+                if text1[i] == text2[j]:
+                    dp[i][j] = dp[i+1][j+1] + 1 
+                else:
+                    dp[i][j] = max(dp[i][j+1], dp[i+1][j])
+        for row in dp:
+            print(row)
+        return dp[0][0]
     
+    
+    # 2022/04/14
+    # DP, add extra col and row for avoiding corner cases handling 
+    # [Time:O(MN):88% / Space:O(MN):63%]
+    # 
+    # [0, 0, 0, 0]
+    # [0, 1, 1, 1]
+    # [0, 1, 1, 1]
+    # [0, 1, 2, 2]
+    # [0, 1, 2, 2]
+    # [0, 1, 2, 3]
+    # compare text1[i-1] == text2[j-1] 比較不符合直覺
+    #
+    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+        print("Code4")
+        m, n = len(text1), len(text2)
+        dp = [[0] * (n+1) for _ in range(m+1)]
+        
+        # dp[i][j] means the LCS of text1[:i] and text2[:j] (i, j start from 1)
+        for i in range(1, m+1):
+            for j in range(1, n+1):
+                if text1[i-1] == text2[j-1]:
+                    dp[i][j] = dp[i-1][j-1] + 1 
+                else:
+                    dp[i][j] = max(dp[i][j-1], dp[i-1][j])
+        for row in dp:
+            print(row)
+        return dp[m][n]
+    
+    # 2022/04/14
+    # DP [Time:O(MN):88% / Space:O(MN):63%]
+    def longestCommonSubsequence3(self, text1: str, text2: str) -> int:
+        print("Code3")
+        m, n = len(text1), len(text2)
+        dp = [[0] * n for _ in range(m)]
+        
+        for i in range(m):
+            for j in range(n):
+                if text1[i] == text2[j]:
+                    if i == 0 or j == 0:
+                        dp[i][j] = 1
+                    else:
+                        dp[i][j] = dp[i-1][j-1] + 1 
+                else:
+                    if i == 0:
+                        dp[i][j] = dp[i][j-1]
+                    elif j == 0:
+                        dp[i][j] = dp[i-1][j]
+                    else:
+                        dp[i][j] = max(dp[i][j-1], dp[i-1][j])
+        return dp[m-1][n-1]
     
     # 2022/03/09
     # Memoization [O(M*N2): 5%]
-    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+    def longestCommonSubsequence2(self, text1: str, text2: str) -> int:
         print("Code2")
 
         def helper(t1, t2, p1, p2, memo):
