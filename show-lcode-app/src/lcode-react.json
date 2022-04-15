@@ -501,7 +501,8 @@
     "Title": "Spiral Matrix II", 
     "Url": "https://leetcode.com/problems/spiral-matrix-ii", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-13"
 },
 {
     "Number": "0061", 
@@ -1656,6 +1657,14 @@
     "Date": "2022-01-04"
 },
 {
+    "Number": "0224", 
+    "Level": 3, 
+    "Title": "Basic Calculator", 
+    "Url": "https://leetcode.com/problems/basic-calculator", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0226", 
     "Level": 1, 
     "Title": "Invert Binary Tree", 
@@ -2633,7 +2642,8 @@
     "Title": "Minimum Moves to Equal Array Elements", 
     "Url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-13"
 },
 {
     "Number": "0456", 
@@ -3116,6 +3126,14 @@
     "Date": "2021-09-06"
 },
 {
+    "Number": "0669", 
+    "Level": 2, 
+    "Title": "Trim a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/trim-a-binary-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0670", 
     "Level": 2, 
     "Title": "Maximum Swap", 
@@ -3262,7 +3280,7 @@
         "BST"
     ], 
     "Memo": "基本的搜尋。", 
-    "Date": "2022-03-25"
+    "Date": "2022-04-14"
 },
 {
     "Number": "0701", 
@@ -3344,7 +3362,7 @@
         "DP"
     ], 
     "Memo": "", 
-    "Date": "2021-11-14"
+    "Date": "2022-04-14"
 },
 {
     "Number": "0721", 
@@ -4177,7 +4195,7 @@
         "DP"
     ], 
     "Memo": "", 
-    "Date": "2022-03-09"
+    "Date": "2022-04-14"
 },
 {
     "Number": "1146", 

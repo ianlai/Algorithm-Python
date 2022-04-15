@@ -343,6 +343,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0059", 
+    "Level": 2, 
+    "Title": "Spiral Matrix II", 
+    "Url": "https://leetcode.com/problems/spiral-matrix-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0061", 
     "Level": 2, 
     "Title": "Rotate List", 
@@ -603,6 +611,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Construct Binary Tree from Preorder and Inorder Traversal", 
     "Url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0106", 
+    "Level": 2, 
+    "Title": "Construct Binary Tree from Inorder and Postorder Traversal", 
+    "Url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal", 
     "Tags": [], 
     "Memo": ""
 },
@@ -1111,6 +1127,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0224", 
+    "Level": 3, 
+    "Title": "Basic Calculator", 
+    "Url": "https://leetcode.com/problems/basic-calculator", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0226", 
     "Level": 1, 
     "Title": "Invert Binary Tree", 
@@ -1363,6 +1387,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Find the Duplicate Number", 
     "Url": "https://leetcode.com/problems/find-the-duplicate-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0289", 
+    "Level": 2, 
+    "Title": "Game of Life", 
+    "Url": "https://leetcode.com/problems/game-of-life", 
     "Tags": [], 
     "Memo": ""
 },
@@ -1695,6 +1727,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0429", 
+    "Level": 2, 
+    "Title": "N-ary Tree Level Order Traversal", 
+    "Url": "https://leetcode.com/problems/n-ary-tree-level-order-traversal", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0435", 
     "Level": 2, 
     "Title": "Non-overlapping Intervals", 
@@ -1739,6 +1779,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Delete Node in a BST", 
     "Url": "https://leetcode.com/problems/delete-node-in-a-bst", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0453", 
+    "Level": 2, 
+    "Title": "Minimum Moves to Equal Array Elements", 
+    "Url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements", 
     "Tags": [], 
     "Memo": ""
 },
@@ -2067,6 +2115,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Maximum Width of Binary Tree", 
     "Url": "https://leetcode.com/problems/maximum-width-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0669", 
+    "Level": 2, 
+    "Title": "Trim a Binary Search Tree", 
+    "Url": "https://leetcode.com/problems/trim-a-binary-search-tree", 
     "Tags": [], 
     "Memo": ""
 },

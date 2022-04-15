@@ -314,6 +314,7 @@ algo
 │   ├── __0020__Valid Parentheses.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
 │   ├── __0155__Min Stack.py
+│   ├── __0224__Basic Calculator.py
 │   ├── __0682__Baseball Game.py
 │   └── __0735__Asteroid Collision.py
 ├── String
@@ -374,6 +375,7 @@ algo
 │   ├── __0563__Binary Tree Tilt.py
 │   ├── __0572__Subtree of Another Tree.py
 │   ├── __0617__Merge Two Binary Trees.py
+│   ├── __0669__Trim a Binary Search Tree.py
 │   ├── __0687__Longest Univalue Path.py
 │   ├── __0700__Search in a Binary Search Tree.py
 │   ├── __0701__Insert into a Binary Search Tree.py
@@ -457,6 +459,7 @@ algo
 │       ├── LinkedList.cpython-37.pyc
 │       └── UnrolledLinkedList.cpython-37.pyc
 ├── _Practice
+│   ├── KT
 │   ├── Mock
 │   │   └── NumOfPathsToDest.py
 │   ├── SN
@@ -468,7 +471,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-32 directories, 434 files
+33 directories, 436 files
 
 =====================================
 ============= Leetcode ==============
@@ -613,6 +616,7 @@ algo
  0216 Combination Sum III
  0221 Maximal Square
  0222 Count Complete Tree Nodes
+ 0224 Basic Calculator
  0226 Invert Binary Tree
  0228 Summary Ranges
  0230 Kth Smallest Element in a BST
@@ -736,6 +740,7 @@ algo
  0648 Replace Words
  0658 Find K Closest Elements
  0662 Maximum Width of Binary Tree
+ 0669 Trim a Binary Search Tree
  0670 Maximum Swap
  0677 Map Sum Pairs
  0680 Valid Palindrome II
@@ -893,10 +898,10 @@ algo
  2233 Maximum Product After K Increments
 =====================================
 Solved / Total (Easy)  :   91 /  563
-Solved / Total (Medium):  295 / 1191
-Solved / Total (Hard)  :   32 /  482
-Solved / Total (All)   :  418 / 2236
-Total Score            : 1136
+Solved / Total (Medium):  296 / 1193
+Solved / Total (Hard)  :   33 /  482
+Solved / Total (All)   :  420 / 2238
+Total Score            : 1144
 =====================================
 
 ```
