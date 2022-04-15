@@ -93,9 +93,10 @@ let setSortedBy;
 const AppV2 = () => {
   [tagList, setTagList] = useState(tagList);
   [levelList, setLevelList] = useState(levelList);
-  [sortedBy, setSortedBy] = useState(sortedBy);
+  //[sortedBy, setSortedBy] = useState(sortedBy);
 
-  const [selectedLevelIds, setSelectedLevelIds] = useState([1,2,3]);
+  
+  const [selectedLevelIds, setSelectedLevelIds] = useState([]);
   const [selectedTagIds, setSelectedTagIds] = useState([]);
 
   console.log(
