@@ -500,7 +500,7 @@
     "Level": 2, 
     "Title": "Spiral Matrix II", 
     "Url": "https://leetcode.com/problems/spiral-matrix-ii", 
-    "Tags": [], 
+    "Tags": ["Matrix"], 
     "Memo": "", 
     "Date": "2022-04-13"
 },
@@ -896,7 +896,7 @@
     "Level": 2, 
     "Title": "Construct Binary Tree from Inorder and Postorder Traversal", 
     "Url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal", 
-    "Tags": [], 
+    "Tags": ["Tree"], 
     "Memo": "", 
     "Date": "2022-04-13"
 },
@@ -1661,8 +1661,9 @@
     "Level": 3, 
     "Title": "Basic Calculator", 
     "Url": "https://leetcode.com/problems/basic-calculator", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Stack", "##Indeed"], 
+    "Memo": "", 
+    "Date": "2022-04-15"
 },
 {
     "Number": "0226", 
@@ -2043,7 +2044,7 @@
     "Level": 2, 
     "Title": "Game of Life", 
     "Url": "https://leetcode.com/problems/game-of-life", 
-    "Tags": [], 
+    "Tags": ["Matrix", "Simulation"], 
     "Memo": "", 
     "Date": "2022-04-12"
 },
@@ -2560,7 +2561,7 @@
     "Level": 2, 
     "Title": "N-ary Tree Level Order Traversal", 
     "Url": "https://leetcode.com/problems/n-ary-tree-level-order-traversal", 
-    "Tags": [], 
+    "Tags": ["Tree", "BFS"], 
     "Memo": "", 
     "Date": "2022-04-12"
 },
@@ -2641,7 +2642,7 @@
     "Level": 2, 
     "Title": "Minimum Moves to Equal Array Elements", 
     "Url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements", 
-    "Tags": [], 
+    "Tags": ["Array", "DP", "Sorting", "Math"], 
     "Memo": "", 
     "Date": "2022-04-13"
 },
@@ -3130,8 +3131,9 @@
     "Level": 2, 
     "Title": "Trim a Binary Search Tree", 
     "Url": "https://leetcode.com/problems/trim-a-binary-search-tree", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["Tree", "BST"], 
+    "Memo": "", 
+    "Date": "2022-04-15"
 },
 {
     "Number": "0670", 

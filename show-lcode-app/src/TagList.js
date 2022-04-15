@@ -14,7 +14,7 @@ const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
     setSelectedTagIds(updatedSelectedTags);
   };
   return (
-    <ul style={{ display: "flex", flexWrap: "wrap", listStyle: "none" }}>
+    <ul style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", listStyle: "none", margin: 0, padding: 0 }}>
       {ALL_TAG_LIST.map((tag) => {
         const isSelected = selectedTagIds.indexOf(tag.id) !== -1;
         return (

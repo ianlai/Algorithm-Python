@@ -1,7 +1,19 @@
-/* *{
-    margin:0;
-    padding:0;
- } */
+/* {
+    margin: 0;
+    padding: 0;
+} */
+
+ .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+  }
 
 body {
   margin: 0;
@@ -80,10 +92,6 @@ code {
   color: #e7391a;
 }
 
-/* .numberRow{
-    margin: 20px;
-} */
-
 a:link {
   color: rgb(94, 200, 226);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -95,10 +103,6 @@ a:visited {
   color: rgb(94, 200, 226);
 }
 
-/* visited link
-a:visited {
-    color: rgb(43, 57, 139);
-} */
 
 /* mouse over link */
 a:hover {
@@ -107,33 +111,6 @@ a:hover {
 
 /* CSS */
 
-.button-tag-all {
-  background-color: #7a7074;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  height: 20px;
-  line-height: 20px;
-  list-style: none;
-  margin: 3px;
-  outline: none;
-  padding: 0px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
 .button-sorting {
   background-color: #276858;
   border-radius: 8px;
@@ -164,13 +141,14 @@ a:hover {
 .button-sorting:hover {
   background-color: #3acfaa;
 }
+
 .button-tag,
 .button-filter,
 .button-tag-clicked,
 .button-easy,
 .button-medium,
 .button-hard {
-  background-color: #e75f93;
+  background-color: #07797f;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -198,11 +176,10 @@ a:hover {
 }
 
 .button-tag-clicked {
-  background-color: #6d83cab0;
-  cursor: auto;
+  background-color: #e482ebb0;
 }
 .button-tag:hover {
-  background-color: #f1afc8;
+  background-color: #42b9d7;
 }
 
 .button-filter:hover {
@@ -214,7 +191,7 @@ a:hover {
 .button-hard {
   height: 35px;
   background-color: #6d83cab0;
-  margin: 0;
+  margin: 0px 5px;
 }
 .button-easy {
   background-color: #26821c;
@@ -228,15 +205,6 @@ a:hover {
 .button:hover {
     box-shadow: inset 0 0 0 2px #87d4b9;
   }
-/* .button-easy:hover {
-  box-shadow: inset 0 0 0 2px #7e1604;
-}
-.button-medium:hover {
-  background-color: #ebb237;
-}
-.button-hard:hover {
-  background-color: #ce4730;
-} */
 .button-easy.clicked {
     background-color: #4a9d41;
   }
@@ -248,4 +216,27 @@ background-color: #ce4730;
 }
 .LevelFilterRow{
   margin: 8px;
+}
+
+.button-tag-all {
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+    list-style: none;
+    margin: 3px;
+    outline: none;
+    padding: 0px 16px;
+  }
+
+.button-tag-all:hover{
+    background-color: #42b9d7;
+}
+.button-tag-all.button-tag-clicked{
+    background-color: #e482ebb0;
 }
