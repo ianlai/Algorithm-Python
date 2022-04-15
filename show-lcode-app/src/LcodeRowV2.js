@@ -1,33 +1,21 @@
 import TagButton from "./TagButton";
-import LevelButton from "./LevelButton";
+import LevelButton from "./xxLevelButton";
+import FilterLevelButton from "./FilterLevelButton";
 
 function LcodeRowV2(props) {
 
-    // const handleClickTagButton = (tagId) => () => {
-    //     const updatedSelectedTags = selectedTagIds.find(
-    //       (targetTagId) => targetTagId === tagId
-    //     )
-    //       ? selectedTagIds.filter((targetTagId) => targetTagId !== tagId)
-    //       : [...selectedTagIds, tagId];
-    //     setSelectedTagIds(updatedSelectedTags);
-    //   };
-    
-    // const handleClickLevelButton = (levelId) => () => {
-    //     const updated = selectedLevelIds.find((id) => id === levelId)
-    //       ? selectedLevelIds.filter((id) => id !== levelId)
-    //       : [...selectedLevelIds, levelId];
-    //     setSelectedLevelIds(updated);
-    //   };
-
+  let selectedLevelIds = props.selectedLevelIds;
+  let setSelectedLevelIds = props.setSelectedLevelIds;
   return (
     <tr class="active-row">
       <th>
-        <LevelButton
-          id={props.id}
+        <FilterLevelButton
+          name={props.id}
+          // isSelected={isSelected}
           level={props.level}
-        //   onClickLevelButton={handleClickLevelButton}
-          //onClickLevelButton={handleClickLevelButton(t.id)}
-        ></LevelButton>
+          selectedLevelIds={selectedLevelIds}
+          setSelectedLevelIds={setSelectedLevelIds}
+        />
       </th>
       <th style={{ width: "20%" }}>
         <a href={props.url} class="large-font">

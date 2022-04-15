@@ -95,7 +95,7 @@ const AppV2 = () => {
   [levelList, setLevelList] = useState(levelList);
   [sortedBy, setSortedBy] = useState(sortedBy);
 
-  const [selectedLevelIds, setSelectedLevelIds] = useState([]);
+  const [selectedLevelIds, setSelectedLevelIds] = useState([1,2,3]);
   const [selectedTagIds, setSelectedTagIds] = useState([]);
 
   console.log(

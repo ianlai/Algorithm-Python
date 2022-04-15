@@ -5,13 +5,6 @@ import FilterLevelButton from "./FilterLevelButton";
 
 const LevelList = ({ selectedLevelIds, setSelectedLevelIds }) => {
 
-  const handleClickLevelButton = (levelId) => () => {
-    const updated = selectedLevelIds.find((id) => id === levelId)
-      ? selectedLevelIds.filter((id) => id !== levelId)
-      : [...selectedLevelIds, levelId];
-    setSelectedLevelIds(updated);
-  };
-
   return (
     <div className="LevelFilterRow">
       <ul style={{ display: "flex", flexWrap: "wrap", listStyle: "none" }}>
@@ -20,9 +13,10 @@ const LevelList = ({ selectedLevelIds, setSelectedLevelIds }) => {
           return(
           <FilterLevelButton
             name={t.name + " (" + t.count + ")"}
-            isSelected={isSelected}
+            //isSelected={isSelected}
             level={t.id}
-            onClickFilterLevelButton={handleClickLevelButton(t.id)}
+            selectedLevelIds={selectedLevelIds}
+            setSelectedLevelIds={setSelectedLevelIds}
           />)
           })}
       </ul>

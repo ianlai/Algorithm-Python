@@ -26,6 +26,8 @@ const handleClickLevelButton = (levelId) => () => {
             selectedLevelIds.includes(data.Level)
           )
         : filteredByTagData;
+
+    console.log("DataTable.js selectedLevelIds", selectedLevelIds)
   
     return (
       <table class="styled-table" style={{ width: "100%" }}>
@@ -57,6 +59,8 @@ const handleClickLevelButton = (levelId) => () => {
               memo={l.Memo}
               date={l.Date}
               tagList={selectedTagIds}
+              selectedLevelIds={selectedLevelIds}
+              setSelectedLevelIds={setSelectedLevelIds}
               onClickTagButton={handleClickLevelButton}
               onClickLevelButton={handleClickLevelButton(l.Level)}
             />

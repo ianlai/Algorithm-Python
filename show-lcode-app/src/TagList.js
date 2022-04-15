@@ -10,13 +10,7 @@ const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
     )
       ? selectedTagIds.filter((targetTagId) => targetTagId !== tagId)
       : [...selectedTagIds, tagId];
-
-    // updatedSelectedTags.sort((a, b) => {
-    //     if (a.tagId > b.tagId) return 1;
-    //     else if (a.tagId === b.tagId) return 0;
-    //     else return -1;
-    //   });
-    // console.log("updatedSelectedTags:", updatedSelectedTags)
+      
     setSelectedTagIds(updatedSelectedTags);
   };
   return (
