@@ -479,7 +479,8 @@
     "Url": "https://leetcode.com/problems/merge-intervals", 
     "Tags": [
         "Interval", 
-        "Sorting"
+        "Sorting",
+        "##Indeed"
     ], 
     "Memo": "(1)res空的時候丟入第一格，之後拿res[-1]和interval比較，可以merge就修改res[-1]，否則就append (2)掃描時間軸，把每個時間點標記打開或關閉，當有任何一個打開的時候便要打開，當全部都關閉的時候才關閉。", 
     "Date": "2021-12-10"
@@ -1852,7 +1853,8 @@
     "Tags": [
         "Schedule", 
         "Sorting", 
-        "Interval"
+        "Interval",
+        "##Indeed"
     ], 
     "Memo": "", 
     "Date": "2021-07-19"
@@ -3361,7 +3363,8 @@
     "Url": "https://leetcode.com/problems/maximum-length-of-repeated-subarray", 
     "Tags": [
         "Substring", 
-        "DP"
+        "DP",
+        "##Indeed"
     ], 
     "Memo": "", 
     "Date": "2022-04-14"
@@ -4194,7 +4197,8 @@
         "String", 
         "Subsequence", 
         "Memoization", 
-        "DP"
+        "DP",
+        "##Indeed"
     ], 
     "Memo": "", 
     "Date": "2022-04-14"
