@@ -2471,6 +2471,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0897", 
+    "Level": 1, 
+    "Title": "Increasing Order Search Tree", 
+    "Url": "https://leetcode.com/problems/increasing-order-search-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0904", 
     "Level": 2, 
     "Title": "Fruit Into Baskets", 
