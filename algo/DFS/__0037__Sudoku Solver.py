@@ -1,14 +1,82 @@
 class Solution:
     
+    # 2022/04/17
+    # Backtracking [Time: O(9 ^ space): 20% / Space: O(recursion level + blanks) = O(81) = O(1): 25%]
+    def solveSudoku(self, board: List[List[str]]) -> None:
+        print("Code2")
+        if not board or not board[0]:
+            return 
+        m, n = len(board), len(board[0])
+        
+        def collectBlanks():
+            blanks = []
+            for i in range(m):
+                for j in range(n):
+                    if board[i][j] == ".":
+                        blanks.append([i, j])
+            return blanks
+        
+        def backtracking(blanks, idx, cur):
+            if len(cur) == len(blanks):
+                return True
+            
+            for number in range(1, 10):
+                number = str(number)
+                row, col = blanks[idx]
+                if not isValid(row, col, number):
+                    continue
+                    
+                board[row][col] = str(number)
+                cur.append(number)
+                if backtracking(blanks, idx + 1, cur):
+                    return True
+                cur.pop()
+                board[row][col] = "."
+                
+        def isValid(row, col, number):
+            #check row
+            rowSet = set()
+            for i in range(9):
+                rowSet.add(board[row][i])
+            if number in rowSet:
+                return False
+            
+            #check col
+            colSet = set()
+            for i in range(9):
+                colSet.add(board[i][col])
+            if number in colSet:
+                return False
+            
+            #check block 
+            rowOut = row // 3
+            colOut = col // 3
+            blockSet = set()
+            for i in range(3):
+                for j in range(3):
+                    blockSet.add(board[rowOut * 3 + i][colOut * 3 + j])
+            if number in blockSet:
+                return False
+            return True
+        
+        blanks = collectBlanks()
+        filledBlanks = []
+        backtracking(blanks, 0, filledBlanks)
+        return 
+         
+        
+
+    # 2021/11/02 
     # DFS [O(9^b), 5%] ; b is number of blank
     # 有兩種座標，原始的二維矩陣座標(i, j) = val，或有數值才放入的一維矩陣list (i, j , val)
     # 一開始先計算有哪些空白，這樣才能使用index來做前進和回溯
     # 最後要提前跳出，這裡使用isDone的list來紀錄flag。否則填入的數值又被backtrack掉，會得到原本的board
     
-    def solveSudoku(self, board: List[List[str]]) -> None:
+    def solveSudoku1(self, board: List[List[str]]) -> None:
         """
         Do not return anything, modify board in-place instead.
         """
+        print("Code1")
         if not board or not board[0]:
             return 
         

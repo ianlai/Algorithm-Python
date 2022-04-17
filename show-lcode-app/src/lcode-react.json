@@ -288,10 +288,12 @@
     "Url": "https://leetcode.com/problems/sudoku-solver", 
     "Tags": [
         "Backtracking", 
-        "Matrix"
+        "Matrix", 
+        "##Amazon", 
+        "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-02"
+    "Memo": "先找出所有的空白，才能做backtracking。每次都嘗試1~9，再把idx往下走，如果最後填入數字長度等於空白長，那就找到答案了，可以提早回傳。", 
+    "Date": "2022-04-17"
 },
 {
     "Number": "0039", 
@@ -301,7 +303,8 @@
     "Tags": [
         "DFS", 
         "Backtracking", 
-        "**BASIC"
+        "**BASIC", 
+        "##Amazon"
     ], 
     "Memo": "不重複的元素可被無限重複使用。樹高是O(target/min，樹節點是O(N^(h+1)，因此是O(N^(target/min+1))。", 
     "Date": "2022-04-17"
@@ -341,7 +344,10 @@
         "Pattern", 
         "String", 
         "Memoization", 
-        "DP"
+        "DP", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook"
     ], 
     "Memo": "", 
     "Date": "2021-06-06"
@@ -484,7 +490,10 @@
     "Tags": [
         "Interval", 
         "Sorting", 
-        "##Indeed"
+        "##Indeed", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook"
     ], 
     "Memo": "(1)res空的時候丟入第一格，之後拿res[-1]和interval比較，可以merge就修改res[-1]，否則就append (2)掃描時間軸，把每個時間點標記打開或關閉，當有任何一個打開的時候便要打開，當全部都關閉的時候才關閉。", 
     "Date": "2021-12-10"
@@ -495,7 +504,10 @@
     "Title": "Insert Interval", 
     "Url": "https://leetcode.com/problems/insert-interval", 
     "Tags": [
-        "Interval"
+        "Interval", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook"
     ], 
     "Memo": "", 
     "Date": "2021-12-10"
@@ -645,7 +657,10 @@
         "Backtracking", 
         "Matrix", 
         "Word", 
-        "##Indeed"
+        "##Indeed", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook"
     ], 
     "Memo": "", 
     "Date": "2022-02-07"
@@ -1586,7 +1601,10 @@
     "Tags": [
         "BFS", 
         "Topological-Sorting", 
-        "Schedule"
+        "Schedule", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook"
     ], 
     "Memo": "", 
     "Date": "2021-11-14"
@@ -1612,7 +1630,10 @@
         "Word", 
         "Backtracking", 
         "Matrix", 
-        "##Indeed"
+        "##Indeed", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook"
     ], 
     "Memo": "", 
     "Date": "2021-10-22"
@@ -3701,7 +3722,8 @@
     "Title": "Increasing Order Search Tree", 
     "Url": "https://leetcode.com/problems/increasing-order-search-tree", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-17"
 },
 {
     "Number": "0904", 
