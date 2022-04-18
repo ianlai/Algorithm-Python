@@ -6,9 +6,34 @@
 #         self.right = right
 class Solution:
     
+    # 2022/04/18 
+    # Recursion and traverse only up to k [O(H+k): 96% / O(H): 90%]
+    def kthSmallest4(self, root: TreeNode, k: int) -> int:
+        print("Code4: Inorder, recursion")
+        
+        def inorder(root):
+            nonlocal k 
+            if not root:
+                return None
+            #left
+            val = inorder(root.left)
+            if val is not None:
+                return val
+            #middle
+            k -= 1
+            if k == 0:
+                return root.val
+            #right
+            val = inorder(root.right)
+            if val is not None:
+                return val
+        return inorder(root)
+
+    # =========================================================
+
     
     # 2022/03/25
-    # Inorder traversal, iteration up to k [O(logn + k): 95%]
+    # Inorder traversal, iteration up to k [O(H+k): 95%]
     def kthSmallest(self, root: TreeNode, k: int) -> int:
         print("Code3: Inorder, iteration")
         if not root:
