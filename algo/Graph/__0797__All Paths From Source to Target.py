@@ -3,7 +3,8 @@ class Solution:
     # 2022/04/08  
     # DFS [O(2^V): 57%]
     # 類似Subset題，加上一個點之後，可以分成原本的路徑和包含該點路徑，直接變兩倍
-
+    # 因為是DAG，沒有環，所以不需要visited
+    
     #加入nxt，開頭要先放一個
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         print("Code3")
@@ -16,7 +17,7 @@ class Solution:
     
         dest = len(graph) - 1
         res = []
-        dfs(0, dest, [0], res)
+        dfs(0, dest, [0], res) #開頭
         return res
         
     #加入cur，最後要補一個
@@ -24,7 +25,7 @@ class Solution:
         print("Code2")
         def dfs(node, dest, cur, res):
             if node == dest:
-                res.append(list(cur + [node]))
+                res.append(list(cur + [node]))  #最後
                 return 
             cur.append(node)
             for nxt in graph[node]:

@@ -575,8 +575,12 @@
     "Level": 3, 
     "Title": "Text Justification", 
     "Url": "https://leetcode.com/problems/text-justification", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "String", 
+        "##Indeed"
+    ], 
+    "Memo": "", 
+    "Date": "2022-04-19"
 },
 {
     "Number": "0069", 
@@ -3636,10 +3640,11 @@
         "Graph", 
         "DFS", 
         "Backtracking", 
+        "##Indeed", 
         "**GOOD"
     ], 
     "Memo": "DFS，嘗試加入cur或加入nxt兩種寫法。複雜度分析因為是算path，所以類似subset題，加上一個就等於複製一倍（原本的路徑們，新的路徑們包含新點），所以是指數2^V。", 
-    "Date": "2022-04-08"
+    "Date": "2022-04-19"
 },
 {
     "Number": "0811", 
@@ -4159,6 +4164,8 @@
     "Tags": [
         "Graph", 
         "DFS", 
+        "##Google", 
+        "##Amazon", 
         "**CHECK"
     ], 
     "Memo": "", 
