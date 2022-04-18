@@ -663,7 +663,7 @@
         "##Facebook"
     ], 
     "Memo": "", 
-    "Date": "2022-02-07"
+    "Date": "2022-04-18"
 },
 {
     "Number": "0080", 
@@ -1636,7 +1636,7 @@
         "##Facebook"
     ], 
     "Memo": "", 
-    "Date": "2021-10-22"
+    "Date": "2022-04-18"
 },
 {
     "Number": "0215", 
@@ -1736,7 +1736,7 @@
         "**BASIC"
     ], 
     "Memo": "使用inorder可以得到sorted array，這是當然的，但這樣需要把所有點走完花O(n)。如果使用stack來做iteration，就可以在得到第k個的時候跳出來，因此時間複雜度會變成O(logn+k)，這方法一定要會。另外，一開始建立一個dummy node並且指向root(找min就用right，找max就用left)，可以讓我們不需處理空stack的情況。", 
-    "Date": "2022-03-25"
+    "Date": "2022-04-18"
 },
 {
     "Number": "0234", 
