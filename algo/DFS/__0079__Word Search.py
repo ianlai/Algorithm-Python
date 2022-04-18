@@ -2,9 +2,44 @@ DIR = [(0,1), (0,-1), (1,0), (-1,0)]
 
 class Solution:
     
+    # 2022/04/18
+    # DFS, logic in for loop (inside) [Time:O(N*3^L):85% / Space:O(L):14%]
+    def exist5(self, board: List[List[str]], word: str) -> bool:
+        print("Code5")
+        m, n = len(board), len(board[0])
+        def dfs(i, j, idx, used):
+            for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+                if idx+1 == len(word):
+                    return True
+                #word comparison
+                if not (0 <= ni < m and 0 <= nj < n):
+                    continue
+                if board[ni][nj] != word[idx+1]:
+                    continue
+                #used need to be put together
+                if (ni, nj) in used:
+                    continue
+                used.add((ni, nj))
+                if dfs(ni, nj, idx + 1, used):
+                    return True
+                used.remove((ni, nj))
+            return False
+
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] == word[0]:
+                    if len(word) == 1:
+                        return True
+                    if dfs(i, j, 0, set([(i, j)])):
+                        return True
+        return False
+    
+    # ==============================================
+    
     # 2022/02/07 
+    # DFS, logic in dfs function (outside) [Time: O(N*3^L): 85% / Space: O(L): 14%]
     def exist(self, board: List[List[str]], word: str) -> bool:
-        print("Code4")
+        print("**Code4")
         m, n = len(board), len(board[0])
         def dfs(word, i, j, idx, visited):
             if idx == len(word):
