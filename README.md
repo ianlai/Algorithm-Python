@@ -320,6 +320,7 @@ algo
 ├── String
 │   ├── __0009__Palindrome Number.py
 │   ├── __0014__Longest Common Prefix.py
+│   ├── __0068__Text Justification.py
 │   ├── __0151__Reverse Words in a String.py
 │   ├── __0161__One Edit Distance.py
 │   ├── __0168__Excel Sheet Column Title.py
@@ -464,6 +465,7 @@ algo
 │   │   ├── Nonogram.py
 │   │   ├── SparseVector.py
 │   │   ├── SparseVectorExtend.py
+│   │   ├── WordProcessor.py
 │   │   ├── WordWrap.py
 │   │   └── __pycache__
 │   │       └── SparseVector.cpython-39.pyc
@@ -478,7 +480,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-34 directories, 442 files
+34 directories, 444 files
 
 =====================================
 ============= Leetcode ==============
@@ -530,6 +532,7 @@ algo
  0062 Unique Paths
  0063 Unique Paths II
  0064 Minimum Path Sum
+ 0068 Text Justification
  0069 Sqrt(x)
  0070 Climbing Stairs
  0073 Set Matrix Zeroes
@@ -907,9 +910,9 @@ algo
 =====================================
 Solved / Total (Easy)  :   92 /  565
 Solved / Total (Medium):  296 / 1197
-Solved / Total (Hard)  :   33 /  484
-Solved / Total (All)   :  421 / 2246
-Total Score            : 1145
+Solved / Total (Hard)  :   34 /  484
+Solved / Total (All)   :  422 / 2246
+Total Score            : 1150
 =====================================
 
 ```

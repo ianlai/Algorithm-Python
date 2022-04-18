@@ -383,6 +383,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0068", 
+    "Level": 3, 
+    "Title": "Text Justification", 
+    "Url": "https://leetcode.com/problems/text-justification", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0069", 
     "Level": 1, 
     "Title": "Sqrt(x)", 
