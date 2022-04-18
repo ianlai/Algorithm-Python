@@ -1,9 +1,12 @@
 class Node():
-    def __init__(self, c = ""):
-        self.char = c
+    
+    # not need to store char 
+    def __init__(self):
         self.charmap = {}
         self.isEnd = False
-        self.word = ""
+        
+        #store the word at the leaf for easier getting the whole word
+        self.word = "" 
 
 class Trie:
     def __init__(self):
@@ -12,12 +15,9 @@ class Trie:
     def insert(self, word: str) -> None:
         cur = self.root
         for c in word:
-            if c in cur.charmap:
-                cur = cur.charmap[c]
-            else:
-                nextNode = Node(c)
-                cur.charmap[c] = nextNode
-                cur = nextNode
+            if c not in cur.charmap:
+                cur.charmap[c] = Node()
+            cur = cur.charmap[c] 
         cur.isEnd = True
         cur.word = word
         
@@ -31,9 +31,64 @@ class Trie:
         
 class Solution:
     
-    #DFS + Trie (DFS to search) [Time: TLE~11% -> 63% (prune words at leaf)]
+    # 2022/04/18
+    # DFS + Trie (search function not needed) [Time: O(N*4*3^(L-1)): 57% / Space: O(WL): 5%]
+    # Prune the node without valid children
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
-        print("Tries")
+        print("Code3: Tries")
+        if len(board) == 0 or len(board[0]) == 0 or len(words) == 0:
+            return []
+        m, n  = len(board), len(board[0])
+        
+        def dfs(i, j, node, visitied, res):
+            assert 0 <= i < m and 0 <= j < n
+            
+            if board[i][j] not in node.charmap:
+                return 
+            
+            nextNode = node.charmap[board[i][j]]
+            if nextNode.isEnd:
+                res.add(nextNode.word)
+                #prune
+                if len(nextNode.charmap) == 0:
+                    del node.charmap[board[i][j]]
+            
+            # if (i, j) in visited:  <---incorrect
+            #     return
+            visited.add((i, j))
+            #visited[i][j] = 1
+            for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+                if not (0 <= ni < m and 0 <= nj < n):
+                    continue
+                if (ni, nj) in visited:
+                #if visited[ni][nj] == 1:
+                    continue
+                dfs(ni, nj, nextNode, visited, res)
+            visited.remove((i, j))
+            #visited[i][j] = 0
+            
+        #both visited set or visited matrix got same result of speed
+        visited = set()
+        #visited = [[0 for _ in range(n)] for _ in range(m)] 
+        res = set()  #remove redundancies 
+        
+        #Create Tries
+        trie = Trie()
+        for word in words:
+            trie.insert(word)
+        
+        #DFS to search
+        for i in range(m):
+            for j in range(n):
+                dfs(i, j, trie.root, visited, res) #cur starts with board[i][j]
+                
+        return list(res)
+    
+    # =================================================
+    # 2021/10/22
+    # DFS + Trie (DFS to search) [Time: TLE~11% -> O(N*4*3^(L-1)): 63% (prune words at leaf) / ]
+    def findWords2(self, board: List[List[str]], words: List[str]) -> List[str]:
+        print("Code2: Tries")
         if len(board) == 0 or len(board[0]) == 0 or len(words) == 0:
             return []
         
@@ -64,7 +119,8 @@ class Solution:
         if node.isEnd:
             self.res.add(node.word)
             if len(node.charmap) == 0:   #prune the found words at leaf
-                del parent.charmap[node.char]
+                del parent.charmap[self.board[i][j]]
+                return
     
         #Next 
         m, n  = len(self.board), len(self.board[0])
@@ -74,16 +130,18 @@ class Solution:
                 continue
             if self.visited[ni][nj] == 1: #remove the redundancies
                 continue
-            self.dfs3(ni, nj, node)  
+            self.dfs3(ni, nj, node)
+                
         self.visited[i][j] = 0  # backtracking
             
             
     # ===========================================
-    # DFS + PrefixSet [O(MN*3^L*L: 21%] //Boardsize: M*N ; WordList: T words with max L size
+    # 2021/10/22
+    # DFS + PrefixSet [Time: O(MN*4(3^L-1)*L): 5% / Space: O(T^2*L) 93%] //Boardsize: M*N ; WordList: T words with max L size
     # Note: Don't use list and add unnecessary conversation between list and string
     # Note: Use set instead of list
     def findWords1(self, board: List[List[str]], words: List[str]) -> List[str]:
-        print("PrefixSet")
+        print("Code1: PrefixSet")
         if len(board) == 0 or len(board[0]) == 0 or len(words) == 0:
             return []
         
