@@ -854,8 +854,8 @@
         "BST", 
         "DFS"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-08"
+    "Memo": "Inorder來做出有序數列，在那數列中找到兩個被swap的數，設定回來。記得數列必須要存node而不是值而已。但這作法空間是O(N)。", 
+    "Date": "2022-04-19"
 },
 {
     "Number": "0100", 
@@ -3428,7 +3428,7 @@
         "##Indeed"
     ], 
     "Memo": "", 
-    "Date": "2022-04-14"
+    "Date": "2022-04-19"
 },
 {
     "Number": "0721", 
@@ -3653,7 +3653,8 @@
     "Url": "https://leetcode.com/problems/subdomain-visit-count", 
     "Tags": [
         "String", 
-        "HashMap"
+        "HashMap", 
+        "##Indeed"
     ], 
     "Memo": "", 
     "Date": "2021-11-26"

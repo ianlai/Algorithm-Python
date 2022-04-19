@@ -1,8 +1,28 @@
 class Solution:
     
+    # 2022/04/19
+    # DP 正方向就可 [O(MN): 34%, O(MN): 33%]
+    def findLength(self, A, B):
+        print("Code5")
+        m, n = len(A), len(B)
+        dp = [[0] * (n) for _ in range(m)]
+        maxLength = 0 
+        for i in range(m):
+            for j in range(n):
+                if A[i] == B[j]:
+                    if i > 0 and j > 0:
+                        dp[i][j] = dp[i-1][j-1] + 1
+                    else:
+                        dp[i][j] = 1
+                maxLength = max(maxLength, dp[i][j])
+        # for row in dp:
+        #     print(row)
+        return maxLength
+    
+    
     # 2022/04/14
     # DP reversed [O(MN): 69%, O(MN): 30%]
-    def findLength(self, A, B):
+    def findLength4(self, A, B):
         print("Code4")
         m, n = len(A), len(B)
         dp = [[0] * (n+1) for _ in range(m+1)]
@@ -12,6 +32,8 @@ class Solution:
                 if A[i] == B[j]:
                     dp[i][j] = dp[i+1][j+1] + 1
                     maxLength = max(maxLength, dp[i][j])
+        for row in dp:
+            print(row)
         return maxLength
         
     #======================================= 
