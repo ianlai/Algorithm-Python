@@ -1,6 +1,5 @@
 
 from xml.dom import IndexSizeErr
-
 class Node:
     def __init__(self, idx = None, val = None):
         self.idx = idx

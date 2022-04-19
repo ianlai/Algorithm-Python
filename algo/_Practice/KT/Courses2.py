@@ -62,3 +62,49 @@ Complexity analysis variables:
 
 n: number of pairs in the input
 '''
+
+import collections
+from inspect import currentframe
+allCourses = [
+    ["Logic", "COBOL"],
+    ["Data Structures", "Algorithms"],
+    ["Creative Writing", "Data Structures"],
+    ["Algorithms", "COBOL"],
+    ["Intro to Computer Science", "Data Structures"],
+    ["Logic", "Compilers"],
+    ["Data Structures", "Logic"],
+    ["Creative Writing", "System Administration"],
+    ["Databases", "System Administration"],
+    ["Creative Writing", "Databases"],
+    ["Intro to Computer Science", "Graphics"],
+]
+
+
+def dfs(graph, src, dst, cur, paths):
+    if cur[-1] == dst:
+        paths.append(list(cur))
+        return 
+    for nxt in list(graph[cur[-1]]):
+        dfs(graph, src, dst, cur + [nxt], paths)
+
+def findAllPaths(allCourses, src, dst):
+    #Form graph
+    graph = collections.defaultdict(set)
+    for c1, c2 in allCourses:
+        graph[c1].add(c2)
+
+    #Find all paths from src to dst
+    paths = []
+    dfs(graph, src, dst, [src], paths)
+    return paths 
+
+src = "Creative Writing" 
+dst = "COBOL"
+paths = findAllPaths(allCourses, src, dst)
+print(paths)
+
+
+src = "Creative Writing" 
+dst = "System Administration"
+paths = findAllPaths(allCourses, src, dst)
+print(paths)

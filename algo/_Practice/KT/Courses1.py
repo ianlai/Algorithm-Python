@@ -1,5 +1,6 @@
 '''
-You are a developer for a university. Your current project is to develop a system for students to find courses they share with friends. The university has a system for querying courses students are enrolled in, returned as a list of (ID, course) pairs.
+You are a developer for a university. Your current project is to develop a system for students to find courses they share with friends. 
+The university has a system for querying courses students are enrolled in, returned as a list of (ID, course) pairs.
 Write a function that takes in a list of (student ID number, course name) pairs and returns, for every pair of students, a list of all courses they share.
 
 給定一個學生ID list，求裡面兩兩一組的共同課程。
@@ -72,6 +73,7 @@ def findPairs(courses):
     idToCourses = collections.defaultdict(set)
     for id, course in courses:
         idToCourses[id].add(course)
+    print(idToCourses)
 
     idPairToCourses = {}
     ids = list(idToCourses.keys())
