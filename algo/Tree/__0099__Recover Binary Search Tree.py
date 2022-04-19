@@ -6,11 +6,44 @@
 #         self.right = right
 class Solution:
     
-    # DFS + Sorted array [Time O(n) : 96% / Space O(n) : 94%]
+    # 2022/04/19
+    # DFS + Sorted array [Time O(n) : 80% / Space O(n) : 65%]
     def recoverTree(self, root: Optional[TreeNode]) -> None:
         """
         Do not return anything, modify root in-place instead.
         """
+        print("Code2")
+        sortedList = []
+        self.dfs(root, sortedList)
+        n = len(sortedList) 
+        leftIdx, rightIdx = None, None
+        
+        for i in range(n-1):
+            if sortedList[i].val > sortedList[i+1].val:
+                leftIdx = i 
+                break
+        for i in reversed(range(n)):
+            if sortedList[i-1].val > sortedList[i].val:
+                rightIdx = i 
+                break
+                
+        sortedList[leftIdx].val, sortedList[rightIdx].val = sortedList[rightIdx].val, sortedList[leftIdx].val
+    
+    def dfs(self, root, sortedList):
+        if not root:
+            return
+        self.dfs(root.left, sortedList)
+        sortedList.append(root)
+        self.dfs(root.right, sortedList)
+        
+    # =====================================
+    # 2021/08/08
+    # DFS + Sorted array [Time O(n) : 96% / Space O(n) : 94%]
+    def recoverTree1(self, root: Optional[TreeNode]) -> None:
+        """
+        Do not return anything, modify root in-place instead.
+        """
+        print("Code1")
         sorted = []
         self.dfs(root, sorted)
         swap = []
@@ -30,28 +63,3 @@ class Solution:
         sorted.append(root)
         self.dfs(root.right, sorted)
         
-        
-        
-    
-#     def recoverTree(self, root: Optional[TreeNode]) -> None:
-#         """
-#         Do not return anything, modify root in-place instead.
-#         """
-#         self.incorrectNodes = []
-#         dummy = TreeNode(-float('inf'))
-#         dummy.right = root
-#         self.dfs(dummy, dummy.right)
-#         print(self.incorrectNodes)
-        
-    
-#     def dfs(self, parent, root):
-#         if not root:
-#             return
-        
-#         while  
-        
-#         last = self.dfs(root.left)
-#         if last.val > root.val:
-#             self.incorrectNodes.append(last)
-#         self.dfs(root.right)
-#         return 
