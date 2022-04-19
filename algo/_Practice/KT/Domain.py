@@ -21,9 +21,6 @@ Output:
 
 
 
-
-
-
 '''
 ======================================
 [Problem-2] Longest Common Continuous Subarray
@@ -37,13 +34,31 @@ Output:  輸出兩個人最長連續相同的訪問紀錄
 ["xys.html", "7hsaa.html"]
 
 '''
+domainAccesses = [
+  ["3234.html", "xys.html", "7hsaa.html", "a", "b", "c", "z"],
+  ["3234.html", "sdhsfjdsh.html", "xys.html", "7hsaa.html", "z", "a", "b", "c", "d", "e"] 
+]
 
+def findLongestCommonAccess(arr1, arr2):
+    m, n = len(arr1), len(arr2)
+    dp = [ [0] * n for _ in range(m)]
+    maxLength = 0
+    res = []
+    for i in range(m):
+        for j in range(n):
+            if arr1[i] == arr2[j]:
+                if i == 0 or j == 0:
+                    dp[i][j] = 1
+                else:
+                    dp[i][j] = dp[i-1][j-1] + 1
+                    if dp[i][j] > maxLength:
+                        maxLength = dp[i][j]
+                        res = arr1[i-maxLength+1:i+1] #calculate back the max common string
+    return res
 
-
-
-
-
-
+arr1, arr2 = domainAccesses
+res = findLongestCommonAccess(arr1, arr2)
+print(res)
 
 '''
 ======================================
