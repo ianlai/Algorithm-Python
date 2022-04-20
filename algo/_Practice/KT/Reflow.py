@@ -1,3 +1,9 @@
+
+'''
+Problem1: wordWrap
+给一个word list 和最大的长度，要求把这些word用 - 串联起来，但不能超过最大的长度。
+'''
+
 def wordWrap(words, maxLen):
     if not words or maxLen == 0:
         return []
@@ -12,7 +18,18 @@ def wordWrap(words, maxLen):
     resList.pop()
     return "".join(resList)
 
+words = ["abc", "de", "fgh", "k", "m"]
+print(wordWrap(words, 11))
+print(wordWrap(words, 12))
+print(wordWrap(words, 13))
+print(wordWrap(words, 14))
+
+
+
+
 '''
+Problem2: wordProcessor
+
 Input: 
 text = ["Some modern typesetting programs ",
         "offer four justification",

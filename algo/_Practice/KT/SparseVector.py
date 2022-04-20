@@ -1,5 +1,3 @@
-
-from xml.dom import IndexSizeErr
 class Node:
     def __init__(self, idx = None, val = None):
         self.idx = idx
@@ -14,25 +12,25 @@ class SparseVector:
 
     def set(self, idx, val):
         if idx >= self.capacity:
-            raise IndexSizeErr
+            raise Exception("Index error")
         cur = self.head
-        while cur.next: 
+        while cur.next: #可走到底 （一開始根本不會走，直接進到L28)
             if cur.next.idx == idx:
                 cur.next.val = val
                 return 
             elif cur.next.idx < idx:
                 cur = cur.next
-            else:
+            else: #下一個的idx已經太大了，代表要插入在下一個之前
                 curNextKeep = cur.next
                 cur.next = Node(idx, val)
                 cur.next.next = curNextKeep
                 return 
-        cur.next = Node(idx, val)
+        cur.next = Node(idx, val) 
         return 
 
     def get(self, idx):
         if idx >= self.capacity:
-            raise IndexSizeErr
+            raise Exception("Index error")
         cur = self.head
         while cur.next:
             if cur.next.idx == idx:
@@ -78,4 +76,4 @@ if __name__ == '__main__':
     #print(v1.get(10))
     print(v1)
     print(v1.toString())
-    v1.set(10, 15)
+    #v1.set(10, 15)

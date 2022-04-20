@@ -19,6 +19,27 @@ Output:
 ["901 mail.com","50 yahoo.com","900 google.mail.com","5 wiki.org","5 org","1 intel.mail.com","951 com"]
 '''
 
+def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
+    print("Code2")
+    
+    # Generate the count map
+    domainToCount = collections.defaultdict(int)
+    for data in cpdomains:
+        count, originDomain = data.split(' ')
+        count = int(count)
+        subs = originDomain.split('.')
+        
+        domain = subs[-1]
+        domainToCount[domain] += count
+        for idx in range(len(subs)-2, -1, -1):
+            domain = subs[idx] + "." + domain 
+            domainToCount[domain] += count
+    
+    # Generate the res array based on count map
+    res = []
+    for domain, count in domainToCount.items():
+        res.append(str(count) + " " + domain)
+    return res
 
 
 '''

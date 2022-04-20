@@ -7,27 +7,24 @@
 Input definition: 
     {1,4} means 1 is parent of 4
 ------------------------------------------
-Target1:
-    Find the nodes with 0 or 1 parents 
+Problem1: Find the nodes with 0 or 1 parents 
 
 Input1: 
-    {{1,4}, {1,5}, {2,5}, {3,6}, {6,7}}
+    [[1,4], [1,5], [2,5], [3,6], [6,7]]
 
 Output1: 
     [1, 2, 3, 4, 6, 7]  //5 is not inside
 ------------------------------------------
-Target2:
-    Check two nodes have common ancestor
+Problem2: Check two nodes have common ancestor
 Input2: 
-    {{1,4}, {1,5}, {2,5}, {3,6}, {6,7}} 
+    [[1,4], [1,5], [2,5], [3,6], [6,7]]
     4, 5
 Output2: 
     True
 ------------------------------------------
-Target3:
-    Find the furthest ancestor
+Problem3: Find the furthest ancestor
 Input3: 
-    {{1,4}, {1,5}, {2,5}, {3,6}, {6,7}} 
+    [[1,4], [1,5], [2,5], [3,6], [6,7]]
     7
 Output3: 
     3
@@ -40,7 +37,7 @@ def findNodesWithZeroOrOneParents(links):
     for parent, child in links:
         nodeToParents[child].add(parent)
         if parent not in nodeToParents:
-            nodeToParents[parent] = set()
+            nodeToParents[parent] = set() #need this otherwise no-parent nodes are not in the map
 
     res = []
     for node, parents in nodeToParents.items():
@@ -90,7 +87,7 @@ print(checkCommonAncestor(links, 8, 3)) #False (8 not in graph)
 
 # =========================================
 
-#BFS
+#BFS: find the last node
 def findFurthestAncestor(links, node):
     nodeToParents = collections.defaultdict(set)
     for parent, child in links:
