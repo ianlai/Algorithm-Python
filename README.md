@@ -434,6 +434,7 @@ algo
 │   ├── __0643__Maximum Average Subarray I.py
 │   ├── __0647__Palindromic Substrings.py
 │   ├── __0680__Valid Palindrome II.py
+│   ├── __0777__Swap Adjacent in LR String.py
 │   ├── __0904__Fruit Into Baskets.py
 │   ├── __0905__Sort Array By Parity.py
 │   ├── __0912__Sort an Array.py
@@ -465,17 +466,21 @@ algo
 │   │   └── MaxSubarrayLength.py
 │   ├── KT
 │   │   ├── Ancestor.py
-│   │   ├── Courses1.py
-│   │   ├── Courses2.py
+│   │   ├── Calculator.py
+│   │   ├── Clockin.py
+│   │   ├── Courses.py
 │   │   ├── Domain.py
+│   │   ├── Meeting.py
 │   │   ├── Nonogram.py
 │   │   ├── RectangleFinder1.py
 │   │   ├── RectangleFinder2.py
 │   │   ├── RectangleFinder3.py
-│   │   ├── Reflow1.py
-│   │   ├── Reflow2.py
+│   │   ├── Reflow.py
 │   │   ├── SparseVector.py
 │   │   ├── SparseVectorExtend.py
+│   │   ├── Treasure.py
+│   │   ├── WordSearch.py
+│   │   ├── WordStep.py
 │   │   └── __pycache__
 │   │       └── SparseVector.cpython-39.pyc
 │   ├── Mock
@@ -489,7 +494,7 @@ algo
     ├── BinarySearch.py
     └── BinarySearchRange.py
 
-35 directories, 452 files
+35 directories, 457 files
 
 =====================================
 ============= Leetcode ==============
@@ -791,6 +796,7 @@ algo
  0760 Find Anagram Mappings
  0767 Reorganize String
  0776 Split BST
+ 0777 Swap Adjacent in LR String
  0784 Letter Case Permutation
  0785 Is Graph Bipartite?
  0787 Cheapest Flights Within K Stops
@@ -918,10 +924,10 @@ algo
  2233 Maximum Product After K Increments
 =====================================
 Solved / Total (Easy)  :   92 /  565
-Solved / Total (Medium):  296 / 1197
-Solved / Total (Hard)  :   34 /  484
-Solved / Total (All)   :  422 / 2246
-Total Score            : 1150
+Solved / Total (Medium):  297 / 1197
+Solved / Total (Hard)  :   34 /  485
+Solved / Total (All)   :  423 / 2247
+Total Score            : 1153
 =====================================
 
 ```

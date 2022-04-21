@@ -2383,6 +2383,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0777", 
+    "Level": 2, 
+    "Title": "Swap Adjacent in LR String", 
+    "Url": "https://leetcode.com/problems/swap-adjacent-in-lr-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0784", 
     "Level": 2, 
     "Title": "Letter Case Permutation", 
