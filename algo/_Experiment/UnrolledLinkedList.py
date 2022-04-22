@@ -96,3 +96,20 @@ class UnrolledLinkedList():
             arr.extend(cur.arr)
             cur = cur.next
         return arr
+
+if __name__ == "__main__":
+    print("Main of UnrolledLinkedList")
+    ull = UnrolledLinkedList(3)
+    ull.append(10)
+    ull.append(11)
+    ull.append(12)
+    ull.append(13)
+    ull.append(14)
+    ull.append(15)
+
+    ull.insert(3,3)
+    ull.insert(5,5)
+    ull.insert(3,33)
+    ull.printArray()
+    ull.printList()
+

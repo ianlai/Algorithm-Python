@@ -107,7 +107,8 @@ algo
 │   ├── __0784__Letter Case Permutation.py
 │   ├── __0841__Keys and Rooms.py
 │   ├── __1391__Check if There is a Valid Path in a Grid.py
-│   └── __1593__Split a String Into the Max Number of Unique Substrings.py
+│   ├── __1593__Split a String Into the Max Number of Unique Substrings.py
+│   └── __1706__Where Will the Ball Fall.py
 ├── DP
 │   ├── __0010__Regular Expression Matching.py
 │   ├── __0044__Wildcard Matching.py
@@ -460,7 +461,8 @@ algo
 │   └── __pycache__
 │       ├── ArrayList.cpython-37.pyc
 │       ├── LinkedList.cpython-37.pyc
-│       └── UnrolledLinkedList.cpython-37.pyc
+│       ├── UnrolledLinkedList.cpython-37.pyc
+│       └── UnrolledLinkedList.cpython-39.pyc
 ├── _Practice
 │   ├── AZ
 │   │   └── MaxSubarrayLength.py
@@ -492,9 +494,13 @@ algo
 │       └── BiggestNumber.py
 └── _Template
     ├── BinarySearch.py
-    └── BinarySearchRange.py
+    ├── BinarySearchRange.py
+    ├── DisjointSet.py
+    ├── DisjointSet.pyc
+    └── __pycache__
+        └── DisjointSet.cpython-39.pyc
 
-35 directories, 457 files
+36 directories, 462 files
 
 =====================================
 ============= Leetcode ==============
@@ -896,6 +902,7 @@ algo
  1644 Lowest Common Ancestor of a Binary Tree II
  1650 Lowest Common Ancestor of a Binary Tree III
  1696 Jump Game VI
+ 1706 Where Will the Ball Fall
  1711 Count Good Meals
  1721 Swapping Nodes in a Linked List
  1762 Buildings With an Ocean View
@@ -924,10 +931,10 @@ algo
  2233 Maximum Product After K Increments
 =====================================
 Solved / Total (Easy)  :   92 /  565
-Solved / Total (Medium):  297 / 1197
+Solved / Total (Medium):  298 / 1197
 Solved / Total (Hard)  :   34 /  485
-Solved / Total (All)   :  423 / 2247
-Total Score            : 1153
+Solved / Total (All)   :  424 / 2247
+Total Score            : 1156
 =====================================
 
 ```

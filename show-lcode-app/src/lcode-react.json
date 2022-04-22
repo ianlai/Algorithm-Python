@@ -3581,7 +3581,8 @@
     "Title": "Swap Adjacent in LR String", 
     "Url": "https://leetcode.com/problems/swap-adjacent-in-lr-string", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-21"
 },
 {
     "Number": "0784", 
@@ -4783,6 +4784,14 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2022-01-25"
+},
+{
+    "Number": "1706", 
+    "Level": 2, 
+    "Title": "Where Will the Ball Fall", 
+    "Url": "https://leetcode.com/problems/where-will-the-ball-fall", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1711", 
