@@ -2956,7 +2956,7 @@
         "**CHECK"
     ], 
     "Memo": "", 
-    "Date": "2021-11-14"
+    "Date": "2022-04-23"
 },
 {
     "Number": "0538", 
@@ -4664,16 +4664,25 @@
     "Date": "2022-02-03"
 },
 {
+    "Number": "1443", 
+    "Level": 2, 
+    "Title": "Minimum Time to Collect All Apples in a Tree", 
+    "Url": "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1448", 
     "Level": 2, 
     "Title": "Count Good Nodes in Binary Tree", 
     "Url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree", 
     "Tags": [
         "Tree", 
-        "DFS"
+        "DFS", 
+        "##Microsoft"
     ], 
-    "Memo": "", 
-    "Date": "2021-08-13"
+    "Memo": "O(H)一次可做完，往下不斷更新最大值，用最大值來相比，比最大值大就counter+1。", 
+    "Date": "2022-04-22"
 },
 {
     "Number": "1475", 
@@ -4791,7 +4800,8 @@
     "Title": "Where Will the Ball Fall", 
     "Url": "https://leetcode.com/problems/where-will-the-ball-fall", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-22"
 },
 {
     "Number": "1711", 

@@ -107,6 +107,7 @@ algo
 │   ├── __0784__Letter Case Permutation.py
 │   ├── __0841__Keys and Rooms.py
 │   ├── __1391__Check if There is a Valid Path in a Grid.py
+│   ├── __1443__Minimum Time to Collect All Apples in a Tree.py
 │   ├── __1593__Split a String Into the Max Number of Unique Substrings.py
 │   └── __1706__Where Will the Ball Fall.py
 ├── DP
@@ -486,6 +487,7 @@ algo
 │   │   └── __pycache__
 │   │       └── SparseVector.cpython-39.pyc
 │   ├── Mock
+│   │   ├── BracketMatch.py
 │   │   └── NumOfPathsToDest.py
 │   ├── SN
 │   │   ├── Countries.py
@@ -500,7 +502,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 462 files
+36 directories, 464 files
 
 =====================================
 ============= Leetcode ==============
@@ -892,6 +894,7 @@ algo
  1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
  1429 First Unique Number
  1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+ 1443 Minimum Time to Collect All Apples in a Tree
  1448 Count Good Nodes in Binary Tree
  1475 Final Prices With a Special Discount in a Shop
  1525 Number of Good Ways to Split a String
@@ -931,10 +934,10 @@ algo
  2233 Maximum Product After K Increments
 =====================================
 Solved / Total (Easy)  :   92 /  565
-Solved / Total (Medium):  298 / 1197
+Solved / Total (Medium):  299 / 1197
 Solved / Total (Hard)  :   34 /  485
-Solved / Total (All)   :  424 / 2247
-Total Score            : 1156
+Solved / Total (All)   :  425 / 2247
+Total Score            : 1159
 =====================================
 
 ```
