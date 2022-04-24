@@ -3405,6 +3405,38 @@ lcode_data = `
     "Url": "https://leetcode.com/problems/maximum-product-after-k-increments", 
     "Tags": [], 
     "Memo": ""
+},
+{
+    "Number": "2248", 
+    "Level": 1, 
+    "Title": "Intersection of Multiple Arrays", 
+    "Url": "https://leetcode.com/problems/intersection-of-multiple-arrays", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2249", 
+    "Level": 2, 
+    "Title": "Count Lattice Points Inside a Circle", 
+    "Url": "https://leetcode.com/problems/count-lattice-points-inside-a-circle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2250", 
+    "Level": 2, 
+    "Title": "Count Number of Rectangles Containing Each Point", 
+    "Url": "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2251", 
+    "Level": 3, 
+    "Title": "Number of Flowers in Full Bloom", 
+    "Url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]
 `;

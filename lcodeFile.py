@@ -195,7 +195,9 @@ def fetchFileDate():
 
 # run as a script (not module)
 if __name__ == '__main__':
-    fetchFileDate()
+    fileMap = fetchFileDate()
+    for id, date in sorted(fileMap.items()):
+        print(id, "  last updated: ", date)
 
 # filename = 'lcode.py'
 # print(os.path.getsize(filename))

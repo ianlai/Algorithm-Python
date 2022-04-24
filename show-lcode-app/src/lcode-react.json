@@ -4668,8 +4668,16 @@
     "Level": 2, 
     "Title": "Minimum Time to Collect All Apples in a Tree", 
     "Url": "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Tree", 
+        "Graph", 
+        "DFS", 
+        "DFS-Post", 
+        "**GOOD", 
+        "##Facebook"
+    ], 
+    "Memo": "例子看起來像Tree，但因為給的是邊，也不限定一個點只有左右分枝，所以更像Graph。在Graph裡做DFS勢必要使用visited(才不會走回去）。但要處理的事情卻又是要在for迴圈往下處理完後才做，是一個Postorder的DFS。", 
+    "Date": "2022-04-24"
 },
 {
     "Number": "1448", 
@@ -5113,5 +5121,37 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2022-04-10"
+},
+{
+    "Number": "2248", 
+    "Level": 1, 
+    "Title": "Intersection of Multiple Arrays", 
+    "Url": "https://leetcode.com/problems/intersection-of-multiple-arrays", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2249", 
+    "Level": 2, 
+    "Title": "Count Lattice Points Inside a Circle", 
+    "Url": "https://leetcode.com/problems/count-lattice-points-inside-a-circle", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2250", 
+    "Level": 2, 
+    "Title": "Count Number of Rectangles Containing Each Point", 
+    "Url": "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2251", 
+    "Level": 3, 
+    "Title": "Number of Flowers in Full Bloom", 
+    "Url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]
