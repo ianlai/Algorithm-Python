@@ -2412,10 +2412,13 @@
     "Url": "https://leetcode.com/problems/find-leaves-of-binary-tree", 
     "Tags": [
         "Tree", 
-        "DFS"
+        "DFS", 
+        "DFS-Post", 
+        "**BASIC", 
+        "##Indeed"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-01"
+    "Memo": "Postorder的題目，可以用map+sorting或是直接放到正確的list內。前者比較清楚，但最後的結果需要做sorting因此會比較慢。", 
+    "Date": "2022-04-25"
 },
 {
     "Number": "0368", 
@@ -4629,6 +4632,14 @@
     "Date": "2021-07-08"
 },
 {
+    "Number": "1396", 
+    "Level": 2, 
+    "Title": "Design Underground System", 
+    "Url": "https://leetcode.com/problems/design-underground-system", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1414", 
     "Level": 2, 
     "Title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K", 
@@ -5128,7 +5139,8 @@
     "Title": "Intersection of Multiple Arrays", 
     "Url": "https://leetcode.com/problems/intersection-of-multiple-arrays", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-24"
 },
 {
     "Number": "2249", 
@@ -5136,7 +5148,8 @@
     "Title": "Count Lattice Points Inside a Circle", 
     "Url": "https://leetcode.com/problems/count-lattice-points-inside-a-circle", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-24"
 },
 {
     "Number": "2250", 
@@ -5144,7 +5157,8 @@
     "Title": "Count Number of Rectangles Containing Each Point", 
     "Url": "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-24"
 },
 {
     "Number": "2251", 
@@ -5152,6 +5166,7 @@
     "Title": "Number of Flowers in Full Bloom", 
     "Url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-24"
 }
 ]

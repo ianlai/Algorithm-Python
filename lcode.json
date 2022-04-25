@@ -3079,6 +3079,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1396", 
+    "Level": 2, 
+    "Title": "Design Underground System", 
+    "Url": "https://leetcode.com/problems/design-underground-system", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1414", 
     "Level": 2, 
     "Title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K", 

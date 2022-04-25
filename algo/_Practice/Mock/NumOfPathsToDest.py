@@ -10,7 +10,6 @@ n = 5
 '''
 
 def num_of_paths_to_dest5(n):
-    print("Code5")
     dp = [1] * n
     for i in range(1, n):  # row
         for j in range(i+1, n):  # col

@@ -473,8 +473,8 @@ algo
 │   │   └── MaxSubarrayLength.py
 │   ├── KT
 │   │   ├── Ancestor.py
+│   │   ├── BadgeAccess.py
 │   │   ├── Calculator.py
-│   │   ├── Clockin.py
 │   │   ├── Courses.py
 │   │   ├── Domain.py
 │   │   ├── Meeting.py
@@ -896,6 +896,7 @@ algo
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
+ 1396 Design Underground System
  1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
  1429 First Unique Number
  1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
@@ -943,10 +944,10 @@ algo
  2251 Number of Flowers in Full Bloom
 =====================================
 Solved / Total (Easy)  :   93 /  566
-Solved / Total (Medium):  301 / 1199
-Solved / Total (Hard)  :   35 /  486
-Solved / Total (All)   :  429 / 2251
-Total Score            : 1171
+Solved / Total (Medium):  302 / 1199
+Solved / Total (Hard)  :   35 /  488
+Solved / Total (All)   :  430 / 2253
+Total Score            : 1174
 =====================================
 
 ```
