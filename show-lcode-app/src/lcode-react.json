@@ -2051,6 +2051,17 @@
     "Date": "2021-07-07"
 },
 {
+    "Number": "0284", 
+    "Level": 2, 
+    "Title": "Peeking Iterator", 
+    "Url": "https://leetcode.com/problems/peeking-iterator", 
+    "Tags": [
+        "Iterator"
+    ], 
+    "Memo": "不好想，一開始還誤會題目意思。總之是要給一個iterator來延伸出一個不會往前移動並且可以回傳目前pointer指到的值(next會回傳pointer值之後往前加一)。所以需要用一個buffer先把值存好，可以想成是真實pointer已經一開始先多走一格，但expose出來的pointer則是還在前一格，另外再處理真實pointer先早一步走到底的狀況。", 
+    "Date": "2022-04-26"
+},
+{
     "Number": "0285", 
     "Level": 2, 
     "Title": "Inorder Successor in BST", 
@@ -4636,8 +4647,13 @@
     "Level": 2, 
     "Title": "Design Underground System", 
     "Url": "https://leetcode.com/problems/design-underground-system", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "HashMap", 
+        "Design", 
+        "**BASIC"
+    ], 
+    "Memo": "基本的題目但蠻有趣的，重點是有很多關聯，要找到適合放在一起的mapping。這題可以學到in/out這種題目組成配對就可以先做成新的資料，還有資料流會讓時間序漸漸往後也要注意。", 
+    "Date": "2022-04-26"
 },
 {
     "Number": "1414", 
@@ -5138,7 +5154,10 @@
     "Level": 1, 
     "Title": "Intersection of Multiple Arrays", 
     "Url": "https://leetcode.com/problems/intersection-of-multiple-arrays", 
-    "Tags": [], 
+    "Tags": [
+        "**CONTEST", 
+        "Array"
+    ], 
     "Memo": "", 
     "Date": "2022-04-24"
 },
@@ -5147,8 +5166,11 @@
     "Level": 2, 
     "Title": "Count Lattice Points Inside a Circle", 
     "Url": "https://leetcode.com/problems/count-lattice-points-inside-a-circle", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Math"
+    ], 
+    "Memo": "走過所有的圓，遍歷出可能的點，然後要用圓心公式來判斷是否可以加入解裡面，使用set來去重。", 
     "Date": "2022-04-24"
 },
 {
@@ -5156,8 +5178,11 @@
     "Level": 2, 
     "Title": "Count Number of Rectangles Containing Each Point", 
     "Url": "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Binary-Search"
+    ], 
+    "Memo": "要看條件的題目，因為y限定在100之內，所以可以當成常數。做出100條array，把長方形按照高來分類裝入，再分別sorting好，就可以用binary search找到在每個list內的插入點，進而算出每個分組內的長方形個數，然後相加就是答案。", 
     "Date": "2022-04-24"
 },
 {
@@ -5165,8 +5190,12 @@
     "Level": 3, 
     "Title": "Number of Flowers in Full Bloom", 
     "Url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Sweep-Line", 
+        "Binary-Search"
+    ], 
+    "Memo": "使用掃描線，做打開關起來的動作，就可以得到時間事件map，再做prefix sum就能得到隨著時間變化的花朵數。接著掃全部人，使用bisect_right來找到適合的區間就是答案。", 
     "Date": "2022-04-24"
 }
 ]

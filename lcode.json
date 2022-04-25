@@ -1375,6 +1375,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0284", 
+    "Level": 2, 
+    "Title": "Peeking Iterator", 
+    "Url": "https://leetcode.com/problems/peeking-iterator", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0285", 
     "Level": 2, 
     "Title": "Inorder Successor in BST", 

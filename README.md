@@ -174,10 +174,12 @@ algo
 │   └── __2218__Maximum Value of K Coins From Piles.py
 ├── DataStructure
 │   ├── __0146__LRU Cache.py
+│   ├── __0284__Peeking Iterator.py
 │   ├── __0352__Data Stream as Disjoint Intervals.py
 │   ├── __0380__Insert Delete GetRandom O(1).py
 │   ├── __0387__First Unique Character in a String.py
 │   ├── __0706__Design HashMap.py
+│   ├── __1396__Design Underground System.py
 │   └── __1429__First Unique Number.py
 ├── Graph
 │   ├── __0261__Graph Valid Tree.py
@@ -507,7 +509,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 469 files
+36 directories, 471 files
 
 =====================================
 ============= Leetcode ==============
@@ -683,6 +685,7 @@ algo
  0278 First Bad Version
  0279 Perfect Squares
  0283 Move Zeroes
+ 0284 Peeking Iterator
  0285 Inorder Successor in BST
  0286 Walls and Gates
  0287 Find the Duplicate Number
@@ -944,10 +947,10 @@ algo
  2251 Number of Flowers in Full Bloom
 =====================================
 Solved / Total (Easy)  :   93 /  566
-Solved / Total (Medium):  302 / 1199
+Solved / Total (Medium):  303 / 1199
 Solved / Total (Hard)  :   35 /  488
-Solved / Total (All)   :  430 / 2253
-Total Score            : 1174
+Solved / Total (All)   :  431 / 2253
+Total Score            : 1177
 =====================================
 
 ```
