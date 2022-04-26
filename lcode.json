@@ -3167,6 +3167,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1584", 
+    "Level": 2, 
+    "Title": "Min Cost to Connect All Points", 
+    "Url": "https://leetcode.com/problems/min-cost-to-connect-all-points", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1593", 
     "Level": 2, 
     "Title": "Split a String Into the Max Number of Unique Substrings", 

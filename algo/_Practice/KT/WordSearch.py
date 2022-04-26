@@ -1,5 +1,6 @@
 '''
-Problem1
+======================================
+[Problem-1] 在Puzzle內找一個字串
 
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 Output: true
@@ -37,9 +38,18 @@ def exist5(self, board: List[List[str]], word: str) -> bool:
     return False
 
 '''
-Problem2 
+======================================
+[Problem-2] 在Puzzle內找多個字串
 
-Input: board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
+Input:  board = 
+        [["o","a","a","n"],
+         ["e","t","a","e"],
+         ["i","h","k","r"],
+         ["i","f","l","v"]]
+        
+        words = 
+        ["oath","pea","eat","rain"]
+
 Output: ["eat","oath"]
 '''
 class Node():

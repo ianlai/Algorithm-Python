@@ -1130,12 +1130,14 @@
     "Url": "https://leetcode.com/problems/word-ladder-ii", 
     "Tags": [
         "BFS", 
+        "BFS-雙向", 
         "DFS", 
         "String", 
         "Word", 
-        "Graph"
+        "Graph", 
+        "**CHECK"
     ], 
-    "Memo": "", 
+    "Memo": "和0127的不同是必須要找出所有最短距離的路徑，而不是只有最短距離。找最短距離的部分一樣使用BFS(單向或雙向皆可，雙向會比較快找到），再用找到的距離來做backtracking來找到所有的path。", 
     "Date": "2021-10-26"
 },
 {
@@ -1145,11 +1147,12 @@
     "Url": "https://leetcode.com/problems/word-ladder", 
     "Tags": [
         "BFS", 
+        "BFS-雙向", 
         "String", 
         "Word", 
         "Graph"
     ], 
-    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。", 
+    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。可用雙向BFS來加速。", 
     "Date": "2021-10-19"
 },
 {
@@ -1172,11 +1175,11 @@
     "Tags": [
         "**BASIC", 
         "Tree", 
-        "DFS",
+        "DFS", 
         "DFS-Pre"
     ], 
     "Memo": "加入當前的，再往下遞迴(Preorder)，蒐集成一條條的路，最後再iterate把那些路組成數字並且加總。", 
-    "Date": "2021-10-19"
+    "Date": "2022-04-26"
 },
 {
     "Number": "0130", 
@@ -2148,6 +2151,7 @@
         "Sorting", 
         "Design", 
         "Heap", 
+        "Top-K", 
         "##Indeed"
     ], 
     "Memo": "找Median可以用sorting或用QuickSelect。但這題是Design題，必須要不斷維持好的結構讓我們好找，而不是每次都從頭來，因此必須要把資料維持在某種狀態下。Insertion Sort可以讓加入的時候都是O(n)並且維持排序好的狀態，因此取出可以得到O(1)的速度，但這題是Hard，還是會TLE。題目其實不需要維持排序好的狀態，只要可以找到最中間的一個值或兩個值即可，因此使用兩個Heap的方法就可以達到這件事。要記得兩個Heap的大小要一直保持一致（左邊可以多1），我們才能只花O(1)就把中位數找到。", 
@@ -2767,6 +2771,7 @@
         "Sorting", 
         "Design", 
         "Heap", 
+        "Top-K", 
         "##Indeed"
     ], 
     "Memo": "LC0295的延伸，一樣是用兩個Heap的方法。SlidingWindow跟DataStream一樣都是要存下上一個狀態，這部分是相同的，但不同的是SlidingWindow還必須要實作刪除的部分。在Heap內的刪除使用內部函數可以達到O(logn)，但找到index來刪除也還是O(n)。也可以直接重新Heapify一次，雖然都是O(n)，但這方法速度會慢一些。", 
@@ -3026,10 +3031,13 @@
     "Title": "Diameter of Binary Tree", 
     "Url": "https://leetcode.com/problems/diameter-of-binary-tree", 
     "Tags": [
-        "Tree", "DFS", "DFS-Post", "**BASIC"
+        "Tree", 
+        "DFS", 
+        "DFS-Post", 
+        "**BASIC"
     ], 
     "Memo": "基本題。可以遞迴往下，回傳值有兩個，或是把diameter設成global不斷更新。", 
-    "Date": "2021-06-29"
+    "Date": "2022-04-26"
 },
 {
     "Number": "0547", 
@@ -4768,6 +4776,19 @@
     ], 
     "Memo": "找到所有indegree為0的點就可以，不需要使用Topological sorting。", 
     "Date": "2022-01-04"
+},
+{
+    "Number": "1584", 
+    "Level": 2, 
+    "Title": "Min Cost to Connect All Points", 
+    "Url": "https://leetcode.com/problems/min-cost-to-connect-all-points", 
+    "Tags": [
+        "Graph", 
+        "MST", 
+        "##Amazon"
+    ], 
+    "Memo": "第一題MST，使用Prim的作法，類似於Dijkstrais，都是Greedy的找當下最小的邊，需要使用heap+set來達成。", 
+    "Date": "2022-04-27"
 },
 {
     "Number": "1593", 

@@ -199,6 +199,7 @@ algo
 │   ├── __1059__All Paths from Source Lead to Destination.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
+│   ├── __1584__Min Cost to Connect All Points.py
 │   ├── __1971__Find if Path Exists in Graph.py
 │   ├── __2093__Minimum Cost to Reach City With Discounts.py
 │   └── __2225__Find Players With Zero or One Losses.py
@@ -509,7 +510,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 471 files
+36 directories, 472 files
 
 =====================================
 ============= Leetcode ==============
@@ -909,6 +910,7 @@ algo
  1525 Number of Good Ways to Split a String
  1530 Number of Good Leaf Nodes Pairs
  1557 Minimum Number of Vertices to Reach All Nodes
+ 1584 Min Cost to Connect All Points
  1593 Split a String Into the Max Number of Unique Substrings
  1641 Count Sorted Vowel Strings
  1644 Lowest Common Ancestor of a Binary Tree II
@@ -947,10 +949,10 @@ algo
  2251 Number of Flowers in Full Bloom
 =====================================
 Solved / Total (Easy)  :   93 /  566
-Solved / Total (Medium):  303 / 1199
+Solved / Total (Medium):  304 / 1199
 Solved / Total (Hard)  :   35 /  488
-Solved / Total (All)   :  431 / 2253
-Total Score            : 1177
+Solved / Total (All)   :  432 / 2253
+Total Score            : 1180
 =====================================
 
 ```
