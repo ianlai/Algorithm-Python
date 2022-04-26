@@ -1172,9 +1172,10 @@
     "Tags": [
         "**BASIC", 
         "Tree", 
-        "DFS"
+        "DFS",
+        "DFS-Pre"
     ], 
-    "Memo": "", 
+    "Memo": "加入當前的，再往下遞迴(Preorder)，蒐集成一條條的路，最後再iterate把那些路組成數字並且加總。", 
     "Date": "2021-10-19"
 },
 {
@@ -3025,9 +3026,9 @@
     "Title": "Diameter of Binary Tree", 
     "Url": "https://leetcode.com/problems/diameter-of-binary-tree", 
     "Tags": [
-        "Tree"
+        "Tree", "DFS", "DFS-Post", "**BASIC"
     ], 
-    "Memo": "好題。遞迴的回傳值有兩個。", 
+    "Memo": "基本題。可以遞迴往下，回傳值有兩個，或是把diameter設成global不斷更新。", 
     "Date": "2021-06-29"
 },
 {

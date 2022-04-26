@@ -5,7 +5,29 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    
+    # 2022/04/26 
+    # Post-order DFS [O(n): 59% / O(h): 11%]
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
+        print("Code2")
+        self.diameter = 0
+        
+        def dfs(node):
+            if node is None:
+                return 0 
+            left = dfs(node.left)
+            right = dfs(node.right)
+            self.diameter = max(self.diameter, left + right)
+            return max(left, right) + 1
+        
+        dfs(root)
+        return self.diameter 
+        
+    # ================================================
+        
+    # 2021/06/29 
+    def diameterOfBinaryTree1(self, root: TreeNode) -> int:
+        print("Code1")
         if not root:
             return 0        
         diameter, _ = self.helper(root)
