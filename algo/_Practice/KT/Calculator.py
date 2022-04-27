@@ -1,22 +1,13 @@
 '''
-Problem-1 Simple (no paranthese)
+======================================
+[Problem-1] Simple (no paranthese)
 
 input: " 2-1 + 2 "
 output: 3 
 '''
 
-
-'''
-Problem-2 With paranthese
-
-Input: s = "(1+(4+5+2)-3)+(6+8)"
-Output: 23
-'''
-
-
 input1 = " 2-1 + 2 "
 input2 = "  (1+(4+5+2)-3)+(6+8) "
-
 
 # [12, "+", 17, "-", 8] -> 21 
 def cal(expression):
@@ -49,7 +40,13 @@ def calulate1(input):
 
 print(calulate1(input1))
 
-# ============================================================================
+'''
+======================================
+[Problem-2] With paranthese
+
+Input: s = "(1+(4+5+2)-3)+(6+8)"
+Output: 23
+'''
 
 def calulate2(input):
     curNumber = ""

@@ -1,5 +1,7 @@
 '''
-Problem-1  找進出紀錄不符的人
+======================================
+[Problem-1] 找進出紀錄不符的人
+
 Given a list of people who enter and exit, find the people who entered without
 their badge and who exited without their badge.
 
@@ -55,7 +57,7 @@ def findInvalidRecords(records):
                 inOffice.remove(name)
         else:
             raise Exception()
-    res[0].extend(list(inOffice))
+    res[0].extend(list(inOffice)) #剩下還沒出來的
     return res
 
 print(findInvalidRecords(badge_records))
@@ -63,7 +65,8 @@ print()
 
 
 '''
-Problem-2  一小時內Access多次
+======================================
+[Problem-2] 一小時內Access多次
 
 给 list of [name, time], time is string format: '1300' //下午一点
 return: list of names and the times where their swipe badges within one hour. if there are multiple intervals that satisfy the condition, return any one of them.

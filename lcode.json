@@ -2935,6 +2935,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1202", 
+    "Level": 2, 
+    "Title": "Smallest String With Swaps", 
+    "Url": "https://leetcode.com/problems/smallest-string-with-swaps", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1214", 
     "Level": 2, 
     "Title": "Two Sum BSTs", 

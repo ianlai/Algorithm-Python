@@ -1,3 +1,6 @@
+from typing import List
+import collections
+
 '''
 ======================================
 [Problem-1] Subdomain visit count
@@ -16,11 +19,11 @@ Example 2:
 Input: 
 ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
 Output: 
-["901 mail.com","50 yahoo.com","900 google.mail.com","5 wiki.org","5 org","1 intel.mail.com","951 com"]
+["901 mail.com", "50 yahoo.com", "900 google.mail.com", "5 wiki.org", "5 org", "1 intel.mail.com", "951 com"]
 '''
 
-def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
-    print("Code2")
+def subdomainVisits(cpdomains: List[str]) -> List[str]:
+    print("subdomainVisits()")
     
     # Generate the count map
     domainToCount = collections.defaultdict(int)
@@ -41,6 +44,8 @@ def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         res.append(str(count) + " " + domain)
     return res
 
+input1 = ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
+print(subdomainVisits(input1))
 
 '''
 ======================================
@@ -65,11 +70,15 @@ def findLongestCommonAccess(arr1, arr2):
     dp = [ [0] * n for _ in range(m)]
     maxLength = 0
     res = []
+    
     for i in range(m):
         for j in range(n):
             if arr1[i] == arr2[j]:
                 if i == 0 or j == 0:
                     dp[i][j] = 1
+                    if dp[i][j] > maxLength:
+                        maxLength = dp[i][j]
+                        res = arr1[i-maxLength+1:i+1]
                 else:
                     dp[i][j] = dp[i-1][j-1] + 1
                     if dp[i][j] > maxLength:

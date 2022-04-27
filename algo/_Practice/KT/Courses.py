@@ -1,9 +1,10 @@
 '''
+======================================
+[Problem-1] 給定一個學生ID list，求裡面兩兩一組的共同課程。
+
 You are a developer for a university. Your current project is to develop a system for students to find courses they share with friends. 
 The university has a system for querying courses students are enrolled in, returned as a list of (ID, course) pairs.
 Write a function that takes in a list of (student ID number, course name) pairs and returns, for every pair of students, a list of all courses they share.
-
-給定一個學生ID list，求裡面兩兩一組的共同課程。
 
 Sample Input:
 
@@ -93,6 +94,9 @@ for pair in res.keys():
 
 
 '''
+======================================
+[Problem-2] 
+
 Students may decide to take different "tracks" or sequences of courses in the Computer Science curriculum. 
 There may be more than one track that includes the same course, but each student follows a single linear track from a "root" node to a "leaf" node. 
 In the graph below, their path always moves left to right.
@@ -174,6 +178,7 @@ allCourses = [
 ]
 
 
+#這是DAG 不用考慮繞圈的問題。
 def dfs(graph, src, dst, cur, paths):
     if cur[-1] == dst:
         paths.append(list(cur))
@@ -186,6 +191,8 @@ def findAllPaths(allCourses, src, dst):
     graph = collections.defaultdict(set)
     for c1, c2 in allCourses:
         graph[c1].add(c2)
+
+    print("graph:", graph)
 
     #Find all paths from src to dst
     paths = []

@@ -1306,7 +1306,10 @@
     "Level": 1, 
     "Title": "Binary Tree Preorder Traversal", 
     "Url": "https://leetcode.com/problems/binary-tree-preorder-traversal", 
-    "Tags": [], 
+    "Tags": [
+        "Tree", 
+        "DFS-Pre"
+    ], 
     "Memo": "", 
     "Date": "2021-04-24"
 },
@@ -1722,7 +1725,8 @@
     "Title": "Invert Binary Tree", 
     "Url": "https://leetcode.com/problems/invert-binary-tree", 
     "Tags": [
-        "Tree"
+        "Tree", 
+        "DFS"
     ], 
     "Memo": "", 
     "Date": "2021-04-20"
@@ -1942,9 +1946,13 @@
     "Level": 1, 
     "Title": "Binary Tree Paths", 
     "Url": "https://leetcode.com/problems/binary-tree-paths", 
-    "Tags": [], 
-    "Memo": "", 
-    "Date": "2021-05-15"
+    "Tags": [
+        "Tree", 
+        "DFS", 
+        "**BASIC"
+    ], 
+    "Memo": "最基本的DFS(backtracking)題目，要注意不能等到node為None才處理，必須要在上一層就裝入，才不會讓單邊空的也裝進去。", 
+    "Date": "2022-04-27"
 },
 {
     "Number": "0259", 
@@ -3057,7 +3065,10 @@
     "Level": 1, 
     "Title": "Maximum Depth of N-ary Tree", 
     "Url": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree", 
-    "Tags": [], 
+    "Tags": [
+        "Tree", 
+        "BFS"
+    ], 
     "Memo": "", 
     "Date": "2021-06-02"
 },
@@ -3137,7 +3148,10 @@
     "Level": 1, 
     "Title": "Merge Two Binary Trees", 
     "Url": "https://leetcode.com/problems/merge-two-binary-trees", 
-    "Tags": [], 
+    "Tags": [
+        "Tree", 
+        "DFS"
+    ], 
     "Memo": "", 
     "Date": "2021-04-23"
 },
@@ -4412,6 +4426,14 @@
     ], 
     "Memo": "", 
     "Date": "2021-12-13"
+},
+{
+    "Number": "1202", 
+    "Level": 2, 
+    "Title": "Smallest String With Swaps", 
+    "Url": "https://leetcode.com/problems/smallest-string-with-swaps", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1214", 

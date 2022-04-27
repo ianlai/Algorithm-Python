@@ -1,4 +1,7 @@
-"""
+'''
+======================================
+[Problem-1] Word Step
+
 Given two strings s1 and s2, we will call (s1, s2) a "step" if you can form s2 by adding exactly one letter to s1 and possibly rearranging the letters of s1.
 
 For example:
@@ -32,10 +35,9 @@ OF     : [ FOR, OFF ]
 NOW    : []
 POINT  : []
 ON     : [ ONE, NOT, NOW ]
-
+'''
 
 """
-
 counts = [
 	"POINT,333858038",
 	"NOT,4522732626",
@@ -64,6 +66,7 @@ counts = [
 #"BETWEEN,744064796",
 k = 150
 c = 5
+
 def get_list(counts, k, c):
     filtered = []
     for record in counts:
@@ -74,12 +77,12 @@ def get_list(counts, k, c):
     if k > len(filtered):
         return filtered
     return filtered[:k]
-"""    
+"""
+
+
 res = get_list(counts, k, c)
 for row in res:
     print(row)
-"""
-
 
 
 '''

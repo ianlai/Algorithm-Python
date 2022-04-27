@@ -1,7 +1,8 @@
 
 '''
-Problem1: wordWrap
-给一个word list 和最大的长度，要求把这些word用 - 串联起来，但不能超过最大的长度。
+======================================
+[Problem-1] wordWrap
+給一個word list 和最大的長度，要求把這些word用 - 串連起来，但不能超過最大的長度。
 '''
 
 def wordWrap(words, maxLen):
@@ -15,7 +16,7 @@ def wordWrap(words, maxLen):
         remain -= (len(word) + 1)
         resList.append(word)
         resList.append("-")
-    resList.pop()
+    resList.pop()  #扣掉最後多加的"-"
     return "".join(resList)
 
 words = ["abc", "de", "fgh", "k", "m"]
@@ -24,11 +25,9 @@ print(wordWrap(words, 12))
 print(wordWrap(words, 13))
 print(wordWrap(words, 14))
 
-
-
-
 '''
-Problem2: wordProcessor
+======================================
+[Problem-2] wordProcessor
 
 Input: 
 text = ["Some modern typesetting programs ",
@@ -44,16 +43,18 @@ Output:
         "yoyo"]
 '''
 
+#words = ["aa", "bbb", "c"]
+#wordsLength = 6
 def generateLine(words, wordsLength, lineLength):
     #special case
     if len(words) == 1:
         return words[0]
 
-    spaces = lineLength - wordsLength
+    spaces = lineLength - wordsLength #空白格子個數
     gaps = [0] * (len(words) - 1)
 
     # distribute spaces (banana) into gaps (monkey)
-    spaceForGap = spaces // len(gaps)
+    spaceForGap = spaces // len(gaps) #兩個字之間的空白數
     leftSpace = spaces % len(gaps)
 
     res = ""

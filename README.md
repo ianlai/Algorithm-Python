@@ -197,6 +197,7 @@ algo
 │   ├── __0797__All Paths From Source to Target.py
 │   ├── __0947__Most Stones Removed with Same Row or Column.py
 │   ├── __1059__All Paths from Source Lead to Destination.py
+│   ├── __1202__Smallest String With Swaps.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   ├── __1584__Min Cost to Connect All Points.py
@@ -482,9 +483,7 @@ algo
 │   │   ├── Domain.py
 │   │   ├── Meeting.py
 │   │   ├── Nonogram.py
-│   │   ├── RectangleFinder1.py
-│   │   ├── RectangleFinder2.py
-│   │   ├── RectangleFinder3.py
+│   │   ├── RectangleFinder.py
 │   │   ├── Reflow.py
 │   │   ├── SparseVector.py
 │   │   ├── SparseVectorExtend.py
@@ -510,7 +509,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 472 files
+36 directories, 471 files
 
 =====================================
 ============= Leetcode ==============
@@ -881,6 +880,7 @@ algo
  1182 Shortest Distance to Target Color
  1197 Minimum Knight Moves
  1198 Find Smallest Common Element in All Rows
+ 1202 Smallest String With Swaps
  1214 Two Sum BSTs
  1235 Maximum Profit in Job Scheduling
  1248 Count Number of Nice Subarrays
@@ -949,10 +949,10 @@ algo
  2251 Number of Flowers in Full Bloom
 =====================================
 Solved / Total (Easy)  :   93 /  566
-Solved / Total (Medium):  304 / 1199
+Solved / Total (Medium):  305 / 1199
 Solved / Total (Hard)  :   35 /  488
-Solved / Total (All)   :  432 / 2253
-Total Score            : 1180
+Solved / Total (All)   :  433 / 2253
+Total Score            : 1183
 =====================================
 
 ```
