@@ -3191,6 +3191,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1631", 
+    "Level": 2, 
+    "Title": "Path With Minimum Effort", 
+    "Url": "https://leetcode.com/problems/path-with-minimum-effort", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1641", 
     "Level": 2, 
     "Title": "Count Sorted Vowel Strings", 

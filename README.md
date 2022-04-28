@@ -78,6 +78,7 @@ algo
 │   ├── __1182__Shortest Distance to Target Color.py
 │   ├── __1198__Find Smallest Common Element in All Rows.py
 │   ├── __1283__Find the Smallest Divisor Given a Threshold.py
+│   ├── __1631__Path With Minimum Effort.py
 │   ├── __2226__Maximum Candies Allocated to K Children.py
 │   ├── __2250__Count Number of Rectangles Containing Each Point.py
 │   └── __2251__Number of Flowers in Full Bloom.py
@@ -509,7 +510,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 471 files
+36 directories, 472 files
 
 =====================================
 ============= Leetcode ==============
@@ -912,6 +913,7 @@ algo
  1557 Minimum Number of Vertices to Reach All Nodes
  1584 Min Cost to Connect All Points
  1593 Split a String Into the Max Number of Unique Substrings
+ 1631 Path With Minimum Effort
  1641 Count Sorted Vowel Strings
  1644 Lowest Common Ancestor of a Binary Tree II
  1650 Lowest Common Ancestor of a Binary Tree III
@@ -949,10 +951,10 @@ algo
  2251 Number of Flowers in Full Bloom
 =====================================
 Solved / Total (Easy)  :   93 /  566
-Solved / Total (Medium):  305 / 1199
-Solved / Total (Hard)  :   35 /  488
-Solved / Total (All)   :  433 / 2253
-Total Score            : 1183
+Solved / Total (Medium):  306 / 1199
+Solved / Total (Hard)  :   35 /  489
+Solved / Total (All)   :  434 / 2254
+Total Score            : 1186
 =====================================
 
 ```

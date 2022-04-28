@@ -4433,7 +4433,8 @@
     "Title": "Smallest String With Swaps", 
     "Url": "https://leetcode.com/problems/smallest-string-with-swaps", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-04-27"
 },
 {
     "Number": "1214", 
@@ -4824,6 +4825,23 @@
     ], 
     "Memo": "", 
     "Date": "2021-06-16"
+},
+{
+    "Number": "1631", 
+    "Level": 2, 
+    "Title": "Path With Minimum Effort", 
+    "Url": "https://leetcode.com/problems/path-with-minimum-effort", 
+    "Tags": [
+        "Graph", 
+        "DFS", 
+        "BFS", 
+        "Binary-Search", 
+        "Binary-Search值域", 
+        "##Google", 
+        "**GOOD"
+    ], 
+    "Memo": "好題！暴力DFS需要backtracking，也就是找所有的path，這樣所需時間是O(3^MN)。觀察高度有限定在10^6範圍，且解是在某個threshold以上都可以，代表可以用值域FFFFFTTTT找第一個T。每次找的過程需要走DFS/BFS，差別在這次的不需要backtracking，因此走完一次所需時間是O(MN)，因此整體的速度就是O(log(10^6)*MN)。", 
+    "Date": "2022-04-29"
 },
 {
     "Number": "1641", 
