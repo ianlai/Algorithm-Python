@@ -1,8 +1,65 @@
 class Solution:
     
-    # BFS [O(n2), 74%]
+    # 2022/04/29
+    # DFS 處理都在for迴圈內
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        print("BFS")
+        print("Code4-DFS 迴圈內處理")
+        m, n = len(grid), len(grid[0])
+        visited = [[0] * n for _ in range(m)]
+        
+        def dfs(x, y):
+            area = 1 
+            for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]:
+                if not (0 <= nx < m and 0 <= ny < n):
+                    continue
+                if grid[nx][ny] == 0:
+                    continue
+                if visited[nx][ny] == 1:
+                    continue
+                visited[nx][ny] = 1 
+                area += dfs(nx, ny)
+            return area
+            
+        maxArea = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 1:
+                    visited[i][j] = 1
+                    maxArea = max(maxArea, dfs(i, j)) 
+        return maxArea
+        
+    
+    # 2022/04/29
+    # DFS 處理都在dfs函數內
+    def maxAreaOfIsland3(self, grid: List[List[int]]) -> int:
+        print("Code3-DFS 函數內處理")
+        m, n = len(grid), len(grid[0])
+        visited = [[0] * n for _ in range(m)]
+        
+        def dfs(x, y):
+            if not (0 <= x < m and 0 <= y < n):
+                return 0
+            if grid[x][y] == 0:
+                return 0
+            if visited[x][y] == 1:
+                return 0
+            visited[x][y] = 1 
+            area = 1 
+            for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]:
+                area += dfs(nx, ny)
+            return area
+            
+        maxArea = 0
+        for i in range(m):
+            for j in range(n):
+                maxArea = max(maxArea, dfs(i, j)) 
+        return maxArea
+        
+        
+    # 2021/05/26
+    # BFS [O(n2), 74%]
+    def maxAreaOfIsland2(self, grid: List[List[int]]) -> int:
+        print("Code2-BFS")
         if not grid:
             return 0
     
@@ -43,7 +100,7 @@ class Solution:
     
     # DFS, change the island to sea after visited [O(n2), 30% / Worst case: O(n2), 56%]
     def maxAreaOfIsland1(self, grid: List[List[int]]) -> int:
-        print("DFS")
+        print("Code1-DFS")
         if not grid:
             return 0
         
