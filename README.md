@@ -360,6 +360,7 @@ algo
 │   ├── __0111__Minimum Depth of Binary Tree.py
 │   ├── __0114__Flatten Binary Tree to Linked List.py
 │   ├── __0116__Populating Next Right Pointers in Each Node.py
+│   ├── __0124__Binary Tree Maximum Path Sum.py
 │   ├── __0129__Sum Root to Leaf Numbers.py
 │   ├── __0144__Binary Tree Preorder Traversal.py
 │   ├── __0173__Binary Search Tree Iterator.py
@@ -510,7 +511,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 472 files
+36 directories, 473 files
 
 =====================================
 ============= Leetcode ==============
@@ -608,6 +609,7 @@ algo
  0121 Best Time to Buy and Sell Stock
  0122 Best Time to Buy and Sell Stock II
  0123 Best Time to Buy and Sell Stock III
+ 0124 Binary Tree Maximum Path Sum
  0125 Valid Palindrome
  0126 Word Ladder II
  0127 Word Ladder
@@ -952,9 +954,9 @@ algo
 =====================================
 Solved / Total (Easy)  :   93 /  566
 Solved / Total (Medium):  306 / 1199
-Solved / Total (Hard)  :   35 /  489
-Solved / Total (All)   :  434 / 2254
-Total Score            : 1186
+Solved / Total (Hard)  :   36 /  489
+Solved / Total (All)   :  435 / 2254
+Total Score            : 1191
 =====================================
 
 ```

@@ -141,10 +141,13 @@
     "Title": "Letter Combinations of a Phone Number", 
     "Url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number", 
     "Tags": [
-        "Backtracking"
+        "DFS", 
+        "Backtracking", 
+        "HashMap", 
+        "**BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-03"
+    "Memo": "Backtracking的基本題，比較有趣的是idx往前走但for-loop取出來的ch和idx並不是一樣的，需要做一層的轉換。", 
+    "Date": "2022-04-29"
 },
 {
     "Number": "0018", 
@@ -1111,6 +1114,15 @@
     ], 
     "Memo": "雙向DP，找出切割點。", 
     "Date": "2022-02-14"
+},
+{
+    "Number": "0124", 
+    "Level": 3, 
+    "Title": "Binary Tree Maximum Path Sum", 
+    "Url": "https://leetcode.com/problems/binary-tree-maximum-path-sum", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-04-29"
 },
 {
     "Number": "0125", 
@@ -3365,12 +3377,14 @@
     "Title": "Max Area of Island", 
     "Url": "https://leetcode.com/problems/max-area-of-island", 
     "Tags": [
+        "Graph", 
         "Island", 
         "BFS", 
-        "DFS"
+        "DFS", 
+        "##BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": "基本題。BFS或DFS走過全部的點，每次都算面積，然後找出最大的。我實作了函數內處理和迴圈內處理的兩種DFS。", 
+    "Date": "2022-04-29"
 },
 {
     "Number": "0700", 
@@ -3628,7 +3642,8 @@
     "Url": "https://leetcode.com/problems/letter-case-permutation", 
     "Tags": [
         "String", 
-        "DFS"
+        "DFS", 
+        "Backtracking"
     ], 
     "Memo": "", 
     "Date": "2021-05-27"
