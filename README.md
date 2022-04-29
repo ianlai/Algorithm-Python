@@ -106,6 +106,7 @@ algo
 │   ├── __0212__Word Search II.py
 │   ├── __0216__Combination Sum III.py
 │   ├── __0291__Word Pattern II.py
+│   ├── __0329__Longest Increasing Path in a Matrix.py
 │   ├── __0401__Binary Watch.py
 │   ├── __0690__Employee Importance.py
 │   ├── __0784__Letter Case Permutation.py
@@ -511,7 +512,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 473 files
+36 directories, 474 files
 
 =====================================
 ============= Leetcode ==============
@@ -706,6 +707,7 @@ algo
  0316 Remove Duplicate Letters
  0322 Coin Change
  0323 Number of Connected Components in an Undirected Graph
+ 0329 Longest Increasing Path in a Matrix
  0332 Reconstruct Itinerary
  0333 Largest BST Subtree
  0338 Counting Bits
@@ -954,9 +956,9 @@ algo
 =====================================
 Solved / Total (Easy)  :   93 /  566
 Solved / Total (Medium):  306 / 1199
-Solved / Total (Hard)  :   36 /  489
-Solved / Total (All)   :  435 / 2254
-Total Score            : 1191
+Solved / Total (Hard)  :   37 /  489
+Solved / Total (All)   :  436 / 2254
+Total Score            : 1196
 =====================================
 
 ```

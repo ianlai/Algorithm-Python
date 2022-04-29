@@ -2304,6 +2304,14 @@
     "Date": "2021-10-09"
 },
 {
+    "Number": "0329", 
+    "Level": 3, 
+    "Title": "Longest Increasing Path in a Matrix", 
+    "Url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0332", 
     "Level": 3, 
     "Title": "Reconstruct Itinerary", 
