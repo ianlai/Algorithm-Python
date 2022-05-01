@@ -50,7 +50,8 @@ algo
 │   ├── __0994__Rotting Oranges.py
 │   ├── __1091__Shortest Path in Binary Matrix.py
 │   ├── __1197__Minimum Knight Moves.py
-│   └── __1306__Jump Game III.py
+│   ├── __1306__Jump Game III.py
+│   └── __2258__Escape the Spreading Fire.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
 │   ├── __0033__Search in Rotated Sorted Array.py
@@ -517,7 +518,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 479 files
+36 directories, 480 files
 
 =====================================
 ============= Leetcode ==============
@@ -962,12 +963,13 @@ algo
  2255 Count Prefixes of a Given String
  2256 Minimum Average Difference
  2257 Count Unguarded Cells in the Grid
+ 2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   95 /  568
 Solved / Total (Medium):  308 / 1203
-Solved / Total (Hard)  :   37 /  491
-Solved / Total (All)   :  440 / 2262
-Total Score            : 1204
+Solved / Total (Hard)  :   38 /  491
+Solved / Total (All)   :  441 / 2262
+Total Score            : 1209
 =====================================
 
 ```

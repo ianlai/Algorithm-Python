@@ -3762,7 +3762,8 @@
     "Title": "Backspace String Compare", 
     "Url": "https://leetcode.com/problems/backspace-string-compare", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-01"
 },
 {
     "Number": "0862", 
@@ -5313,23 +5314,41 @@
     "Level": 1, 
     "Title": "Count Prefixes of a Given String", 
     "Url": "https://leetcode.com/problems/count-prefixes-of-a-given-string", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["**CONTEST", "String"], 
+    "Memo": "做出全部的Prefix，丟入Hashset來判斷。", 
+    "Date": "2022-05-01"
 },
 {
     "Number": "2256", 
     "Level": 2, 
     "Title": "Minimum Average Difference", 
     "Url": "https://leetcode.com/problems/minimum-average-difference", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["**CONTEST", "Prefix-Sum"], 
+    "Memo": "可以不需要存Prefix-Sum，只要正面掃一次就可以on-demand的計算兩邊的sum。", 
+    "Date": "2022-05-01"
 },
 {
     "Number": "2257", 
     "Level": 2, 
     "Title": "Count Unguarded Cells in the Grid", 
     "Url": "https://leetcode.com/problems/count-unguarded-cells-in-the-grid", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": ["**CONTEST", "Matrix"], 
+    "Memo": "看起來有點像DFS但其實沒有往深處去，就是把m*n的點掃過一遍，每個點各會有4個方向進來的可能性，因此時間還是O(mn)。", 
+    "Date": "2022-05-01"
+},
+{
+    "Number": "2258", 
+    "Level": 3, 
+    "Title": "Escape the Spreading Fire", 
+    "Url": "https://leetcode.com/problems/escape-the-spreading-fire", 
+    "Tags": [
+        "**CONTEST", 
+        "BFS", 
+        "Binary-Search",
+        "Binary-Search值域",
+        "**GOOD"
+    ], 
+    "Memo": "這又是一題Binary-Search值域的題目。這題的關鍵是要怎麼做BFS來判斷是否能抵達。方法就是先把火做BFS做出到每一個點需要的時間，再來就是對人做BFS，只要有點是火先到就不能走，看看能不能走到安全屋。等待時間的實現就是人開始的時間。再把等待時間用BinarySearch來做檢查是否達的成。", 
+    "Date": "2022-05-02"
 }
 ]
