@@ -1120,8 +1120,12 @@
     "Level": 3, 
     "Title": "Binary Tree Maximum Path Sum", 
     "Url": "https://leetcode.com/problems/binary-tree-maximum-path-sum", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Tree", 
+        "DFS", 
+        "DFS-Post"
+    ], 
+    "Memo": "原本來以為是Easy題，沒想到是Hard。關鍵是有負值，所以不是只比左和右還必須考慮不要連著左右（開始新點），所以必須把0放進去一起比。", 
     "Date": "2022-04-29"
 },
 {
@@ -2308,8 +2312,21 @@
     "Level": 3, 
     "Title": "Longest Increasing Path in a Matrix", 
     "Url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Graph", 
+        "DAG", 
+        "Matrix", 
+        "DFS", 
+        "Memoization", 
+        "BFS", 
+        "Topological-Sorting", 
+        "**GOOD", 
+        "##Google", 
+        "##Facebook", 
+        "##Amazon"
+    ], 
+    "Memo": "[Approach1]單純用DFS可以找到解但會是指數級別，必須要優化。正常情況下這種Graph題目又可以上下左右移動是不能Memo的，但因為這題要嚴格遞增，所以其實路線是不可能繞回去的，也就是這是一個DAG，因此每個DFS裡面的點都最多只會跑4次，又因為用Memo cache起來，因此時間是O(V+E) = O(MN + 4MN) = O(MN)。小提醒，這題根本不需要紀錄visited，因此長度也不需要用len(visited)來紀錄，而是dfs回傳值+1。[Approach2]和前面理由一樣，正常情況下這種可以上下左右移動的Matrix不能用DP，因為可能形成環，但因為絕對遞增的特性，這題是DAG，因此依賴關係是有順序的。有趣的是這依賴關係不是row或col漸增，而是有數字的漸增關係，可以用Topological-Sorting依序找出indegree=0的點，就能依序填DP表了。", 
+    "Date": "2022-04-30"
 },
 {
     "Number": "0332", 
@@ -3389,7 +3406,7 @@
         "Island", 
         "BFS", 
         "DFS", 
-        "##BASIC"
+        "**BASIC"
     ], 
     "Memo": "基本題。BFS或DFS走過全部的點，每次都算面積，然後找出最大的。我實作了函數內處理和迴圈內處理的兩種DFS。", 
     "Date": "2022-04-29"
@@ -3738,6 +3755,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-03-05"
+},
+{
+    "Number": "0844", 
+    "Level": 1, 
+    "Title": "Backspace String Compare", 
+    "Url": "https://leetcode.com/problems/backspace-string-compare", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0862", 
@@ -5282,5 +5307,29 @@
     ], 
     "Memo": "使用掃描線，做打開關起來的動作，就可以得到時間事件map，再做prefix sum就能得到隨著時間變化的花朵數。接著掃全部人，使用bisect_right來找到適合的區間就是答案。", 
     "Date": "2022-04-24"
+},
+{
+    "Number": "2255", 
+    "Level": 1, 
+    "Title": "Count Prefixes of a Given String", 
+    "Url": "https://leetcode.com/problems/count-prefixes-of-a-given-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2256", 
+    "Level": 2, 
+    "Title": "Minimum Average Difference", 
+    "Url": "https://leetcode.com/problems/minimum-average-difference", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2257", 
+    "Level": 2, 
+    "Title": "Count Unguarded Cells in the Grid", 
+    "Url": "https://leetcode.com/problems/count-unguarded-cells-in-the-grid", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]

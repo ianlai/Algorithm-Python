@@ -2471,6 +2471,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0844", 
+    "Level": 1, 
+    "Title": "Backspace String Compare", 
+    "Url": "https://leetcode.com/problems/backspace-string-compare", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0862", 
     "Level": 3, 
     "Title": "Shortest Subarray with Sum at Least K", 
@@ -3491,6 +3499,30 @@ lcode_data = `
     "Level": 3, 
     "Title": "Number of Flowers in Full Bloom", 
     "Url": "https://leetcode.com/problems/number-of-flowers-in-full-bloom", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2255", 
+    "Level": 1, 
+    "Title": "Count Prefixes of a Given String", 
+    "Url": "https://leetcode.com/problems/count-prefixes-of-a-given-string", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2256", 
+    "Level": 2, 
+    "Title": "Minimum Average Difference", 
+    "Url": "https://leetcode.com/problems/minimum-average-difference", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2257", 
+    "Level": 2, 
+    "Title": "Count Unguarded Cells in the Grid", 
+    "Url": "https://leetcode.com/problems/count-unguarded-cells-in-the-grid", 
     "Tags": [], 
     "Memo": ""
 }

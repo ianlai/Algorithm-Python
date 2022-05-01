@@ -28,7 +28,8 @@ algo
 │   ├── __0986__Interval List Intersections.py
 │   ├── __2154__Keep Multiplying Found Values by Two.py
 │   ├── __2231__Largest Number After Digit Swaps by Parity.py
-│   └── __2248__Intersection of Multiple Arrays.py
+│   ├── __2248__Intersection of Multiple Arrays.py
+│   └── __2256__Minimum Average Difference.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
@@ -295,7 +296,8 @@ algo
 │   ├── __0304__Range Sum Query 2D - Immutable.py
 │   ├── __0498__Diagonal Traverse.py
 │   ├── __1260__Shift 2D Grid.py
-│   └── __1275__Find Winner on a Tic Tac Toe Game.py
+│   ├── __1275__Find Winner on a Tic Tac Toe Game.py
+│   └── __2257__Count Unguarded Cells in the Grid.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
 │   ├── __0085__Maximal Rectangle.py
@@ -343,9 +345,11 @@ algo
 │   ├── __0767__Reorganize String.py
 │   ├── __0792__Number of Matching Subsequences.py
 │   ├── __0811__Subdomain Visit Count.py
+│   ├── __0844__Backspace String Compare.py
 │   ├── __1041__Robot Bounded In Circle.py
 │   ├── __1165__Single-Row Keyboard.py
-│   └── __2232__Minimize Result by Adding Parentheses to Expression.py
+│   ├── __2232__Minimize Result by Adding Parentheses to Expression.py
+│   └── __2255__Count Prefixes of a Given String.py
 ├── Tree
 │   ├── __0094__Binary Tree Inorder Traversal.py
 │   ├── __0098__Validate Binary Search Tree.py
@@ -497,6 +501,7 @@ algo
 │   │       └── SparseVector.cpython-39.pyc
 │   ├── Mock
 │   │   ├── BracketMatch.py
+│   │   ├── FloatCombinationSum.py
 │   │   ├── NumOfPathsToDest.py
 │   │   └── heap.py
 │   ├── SN
@@ -512,7 +517,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 474 files
+36 directories, 479 files
 
 =====================================
 ============= Leetcode ==============
@@ -825,6 +830,7 @@ algo
  0797 All Paths From Source to Target
  0811 Subdomain Visit Count
  0841 Keys and Rooms
+ 0844 Backspace String Compare
  0862 Shortest Subarray with Sum at Least K
  0863 All Nodes Distance K in Binary Tree
  0875 Koko Eating Bananas
@@ -953,12 +959,15 @@ algo
  2249 Count Lattice Points Inside a Circle
  2250 Count Number of Rectangles Containing Each Point
  2251 Number of Flowers in Full Bloom
+ 2255 Count Prefixes of a Given String
+ 2256 Minimum Average Difference
+ 2257 Count Unguarded Cells in the Grid
 =====================================
-Solved / Total (Easy)  :   93 /  566
-Solved / Total (Medium):  306 / 1199
-Solved / Total (Hard)  :   37 /  489
-Solved / Total (All)   :  436 / 2254
-Total Score            : 1196
+Solved / Total (Easy)  :   95 /  568
+Solved / Total (Medium):  308 / 1203
+Solved / Total (Hard)  :   37 /  491
+Solved / Total (All)   :  440 / 2262
+Total Score            : 1204
 =====================================
 
 ```
