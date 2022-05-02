@@ -1905,6 +1905,15 @@
     "Date": "2022-02-16"
 },
 {
+    "Number": "0245", 
+    "Level": 2, 
+    "Title": "Shortest Word Distance III", 
+    "Url": "https://leetcode.com/problems/shortest-word-distance-iii", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-02"
+},
+{
     "Number": "0249", 
     "Level": 2, 
     "Title": "Group Shifted Strings", 

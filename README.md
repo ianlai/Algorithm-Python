@@ -442,6 +442,7 @@ algo
 │   ├── __0167__Two Sum II - Input array is sorted.py
 │   ├── __0189__Rotate Array.py
 │   ├── __0209__Minimum Size Subarray Sum.py
+│   ├── __0245__Shortest Word Distance III.py
 │   ├── __0259__3Sum Smaller.py
 │   ├── __0277__Find the Celebrity.py
 │   ├── __0340__Longest Substring with At Most K Distinct Characters.py
@@ -518,7 +519,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 480 files
+36 directories, 481 files
 
 =====================================
 ============= Leetcode ==============
@@ -680,6 +681,7 @@ algo
  0242 Valid Anagram
  0243 Shortest Word Distance
  0244 Shortest Word Distance II
+ 0245 Shortest Word Distance III
  0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
@@ -966,10 +968,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   95 /  568
-Solved / Total (Medium):  308 / 1203
+Solved / Total (Medium):  309 / 1203
 Solved / Total (Hard)  :   38 /  491
-Solved / Total (All)   :  441 / 2262
-Total Score            : 1209
+Solved / Total (All)   :  442 / 2262
+Total Score            : 1212
 =====================================
 
 ```

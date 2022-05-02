@@ -1263,6 +1263,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0245", 
+    "Level": 2, 
+    "Title": "Shortest Word Distance III", 
+    "Url": "https://leetcode.com/problems/shortest-word-distance-iii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0249", 
     "Level": 2, 
     "Title": "Group Shifted Strings", 
