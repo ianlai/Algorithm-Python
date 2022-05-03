@@ -471,6 +471,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0082", 
+    "Level": 2, 
+    "Title": "Remove Duplicates from Sorted List II", 
+    "Url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0083", 
     "Level": 1, 
     "Title": "Remove Duplicates from Sorted List", 
@@ -2087,6 +2095,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0581", 
+    "Level": 2, 
+    "Title": "Shortest Unsorted Continuous Subarray", 
+    "Url": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0593", 
     "Level": 2, 
     "Title": "Valid Square", 
@@ -2155,6 +2171,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Maximum Width of Binary Tree", 
     "Url": "https://leetcode.com/problems/maximum-width-of-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0663", 
+    "Level": 2, 
+    "Title": "Equal Tree Partition", 
+    "Url": "https://leetcode.com/problems/equal-tree-partition", 
     "Tags": [], 
     "Memo": ""
 },

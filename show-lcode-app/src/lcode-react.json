@@ -703,6 +703,15 @@
     "Date": "2022-03-28"
 },
 {
+    "Number": "0082", 
+    "Level": 2, 
+    "Title": "Remove Duplicates from Sorted List II", 
+    "Url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-03"
+},
+{
     "Number": "0083", 
     "Level": 1, 
     "Title": "Remove Duplicates from Sorted List", 
@@ -1911,7 +1920,7 @@
     "Url": "https://leetcode.com/problems/shortest-word-distance-iii", 
     "Tags": [], 
     "Memo": "", 
-    "Date": "2022-05-02"
+    "Date": "2022-05-03"
 },
 {
     "Number": "0249", 
@@ -3167,6 +3176,15 @@
     "Date": "2022-01-25"
 },
 {
+    "Number": "0581", 
+    "Level": 2, 
+    "Title": "Shortest Unsorted Continuous Subarray", 
+    "Url": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-03"
+},
+{
     "Number": "0593", 
     "Level": 2, 
     "Title": "Valid Square", 
@@ -3268,6 +3286,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-09-06"
+},
+{
+    "Number": "0663", 
+    "Level": 2, 
+    "Title": "Equal Tree Partition", 
+    "Url": "https://leetcode.com/problems/equal-tree-partition", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-03"
 },
 {
     "Number": "0669", 

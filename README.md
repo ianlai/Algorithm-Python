@@ -269,6 +269,7 @@ algo
 │   ├── __0023__Merge k Sorted Lists.py
 │   ├── __0024__Swap Nodes in Pairs.py
 │   ├── __0061__Rotate List.py
+│   ├── __0082__Remove Duplicates from Sorted List II.py
 │   ├── __0083__Remove Duplicates from Sorted List.py
 │   ├── __0086__Partition List.py
 │   ├── __0092__Reverse Linked List II.py
@@ -324,7 +325,8 @@ algo
 ├── Sorting
 │   ├── __0179__Largest Number.py
 │   ├── __0242__Valid Anagram.py
-│   └── __0539__Minimum Time Difference.py
+│   ├── __0539__Minimum Time Difference.py
+│   └── __0581__Shortest Unsorted Continuous Subarray.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
@@ -394,6 +396,7 @@ algo
 │   ├── __0563__Binary Tree Tilt.py
 │   ├── __0572__Subtree of Another Tree.py
 │   ├── __0617__Merge Two Binary Trees.py
+│   ├── __0663__Equal Tree Partition.py
 │   ├── __0669__Trim a Binary Search Tree.py
 │   ├── __0687__Longest Univalue Path.py
 │   ├── __0700__Search in a Binary Search Tree.py
@@ -519,7 +522,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 481 files
+36 directories, 484 files
 
 =====================================
 ============= Leetcode ==============
@@ -582,6 +585,7 @@ algo
  0079 Word Search
  0080 Remove Duplicates from Sorted Array II
  0081 Search in Rotated Sorted Array II
+ 0082 Remove Duplicates from Sorted List II
  0083 Remove Duplicates from Sorted List
  0084 Largest Rectangle in Histogram
  0085 Maximal Rectangle
@@ -784,6 +788,7 @@ algo
  0563 Binary Tree Tilt
  0572 Subtree of Another Tree
  0576 Out of Boundary Paths
+ 0581 Shortest Unsorted Continuous Subarray
  0593 Valid Square
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
@@ -793,6 +798,7 @@ algo
  0648 Replace Words
  0658 Find K Closest Elements
  0662 Maximum Width of Binary Tree
+ 0663 Equal Tree Partition
  0669 Trim a Binary Search Tree
  0670 Maximum Swap
  0677 Map Sum Pairs
@@ -968,10 +974,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   95 /  568
-Solved / Total (Medium):  309 / 1203
+Solved / Total (Medium):  312 / 1203
 Solved / Total (Hard)  :   38 /  491
-Solved / Total (All)   :  442 / 2262
-Total Score            : 1212
+Solved / Total (All)   :  445 / 2262
+Total Score            : 1221
 =====================================
 
 ```
