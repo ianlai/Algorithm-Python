@@ -4,6 +4,7 @@ class Solution:
     # BFS + Binary Search 值域 [TC: O(mn + log(mn) * mn) = O(mnlog(mn)): 70% / SC: O(mn): 80%]
     def maximumMinutes(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
+        
         def generateFireGrid():
             fireGrid = [[inf] * n for _ in range(m)]
             fires = []
@@ -14,37 +15,37 @@ class Solution:
 
             deq = collections.deque(fires)
             while deq:
-                for _ in range(len(deq)):
-                    x, y, t = deq.popleft()
-                    fireGrid[x][y] = t 
-                    for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]:
-                        if not (0 <= nx < m and 0 <= ny < n):
-                            continue
-                        if grid[nx][ny] == 2:
-                            continue
-                        if t+1 < fireGrid[nx][ny]:
-                            deq.append((nx, ny, t+1))
+                x, y, t = deq.popleft()
+                if fireGrid[x][y] != inf: #visited check 
+                    continue
+                fireGrid[x][y] = t 
+                for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]:
+                    if not (0 <= nx < m and 0 <= ny < n):
+                        continue
+                    if grid[nx][ny] == 2: #wall
+                        continue
+                    if t+1 < fireGrid[nx][ny]:
+                        deq.append((nx, ny, t+1))
             return fireGrid
         
         def checkSafe(waitTime, fireGrid):
             deq = collections.deque([(0, 0, waitTime)])
             visited = set()
             while deq:
-                for _ in range(len(deq)):
-                    x, y, t = deq.popleft()
-                    if x == m-1 and y == n-1 and t <= fireGrid[x][y]:
-                        return True
-                    if t >= fireGrid[x][y]:
+                x, y, t = deq.popleft()
+                if x == m-1 and y == n-1 and t <= fireGrid[x][y]:
+                    return True
+                if t >= fireGrid[x][y]:
+                    continue
+                if (x, y) in visited: #visited check
+                    continue
+                visited.add((x, y))
+                for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]:
+                    if not (0 <= nx < m and 0 <= ny < n):
                         continue
-                    if (x, y) in visited:
+                    if grid[nx][ny] == 2: #wall
                         continue
-                    visited.add((x, y))
-                    for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]:
-                        if not (0 <= nx < m and 0 <= ny < n):
-                            continue
-                        if grid[nx][ny] == 2:
-                            continue
-                        deq.append((nx, ny, t+1))
+                    deq.append((nx, ny, t+1))
             return False
         
         fireGrid = generateFireGrid()
@@ -58,7 +59,8 @@ class Solution:
                 start = mid + 1
             else:
                 end = mid
-
-        #We can use start-1 to describe the two cases: out of left range and in range
+        
+        #We can use start - 1 to describe the two cases: out of left range and in range
         #Only the case out of right range needs to handle separately
+        #超出左邊界和邊界內都可以用start-1描述，只有超出右邊界需要另外處理
         return start - 1 if start < MAX_LIMIT else 10 ** 9
