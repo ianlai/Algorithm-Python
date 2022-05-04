@@ -3279,6 +3279,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1679", 
+    "Level": 2, 
+    "Title": "Max Number of K-Sum Pairs", 
+    "Url": "https://leetcode.com/problems/max-number-of-k-sum-pairs", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1696", 
     "Level": 2, 
     "Title": "Jump Game VI", 

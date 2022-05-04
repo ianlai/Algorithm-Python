@@ -4968,6 +4968,14 @@
     "Date": "2022-03-24"
 },
 {
+    "Number": "1679", 
+    "Level": 2, 
+    "Title": "Max Number of K-Sum Pairs", 
+    "Url": "https://leetcode.com/problems/max-number-of-k-sum-pairs", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1696", 
     "Level": 2, 
     "Title": "Jump Game VI", 
@@ -5394,6 +5402,6 @@
         "**GOOD"
     ], 
     "Memo": "這又是一題Binary-Search值域的題目。這題的關鍵是要怎麼做BFS來判斷是否能抵達。方法就是先把火做BFS做出到每一個點需要的時間，再來就是對人做BFS，只要有點是火先到就不能走，看看能不能走到安全屋。等待時間的實現就是人開始的時間。再把等待時間用BinarySearch來做檢查是否達的成。", 
-    "Date": "2022-05-02"
+    "Date": "2022-05-04"
 }
 ]

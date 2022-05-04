@@ -467,6 +467,7 @@ algo
 │   ├── __1214__Two Sum BSTs.py
 │   ├── __1248__Count Number of Nice Subarrays.py
 │   ├── __1358__Number of Substrings Containing All Three Characters.py
+│   ├── __1679__Max Number of K-Sum Pairs.py
 │   ├── __1711__Count Good Meals.py
 │   └── __2155__All Divisions With the Highest Score of a Binary Array.py
 ├── UnionFind
@@ -487,7 +488,7 @@ algo
 ├── _Practice
 │   ├── AZ
 │   │   └── MaxSubarrayLength.py
-│   ├── KT
+│   ├── ID-KT
 │   │   ├── Ancestor.py
 │   │   ├── BadgeAccess.py
 │   │   ├── Calculator.py
@@ -504,6 +505,9 @@ algo
 │   │   ├── WordStep.py
 │   │   └── __pycache__
 │   │       └── SparseVector.cpython-39.pyc
+│   ├── KT-KT
+│   │   ├── FindEmbeddedWord.py
+│   │   └── FindWordLocation.py
 │   ├── Mock
 │   │   ├── BracketMatch.py
 │   │   ├── FloatCombinationSum.py
@@ -517,12 +521,14 @@ algo
 └── _Template
     ├── BinarySearch.py
     ├── BinarySearchRange.py
+    ├── DFS.py
     ├── DisjointSet.py
     ├── DisjointSet.pyc
+    ├── Trie.py
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-36 directories, 484 files
+37 directories, 489 files
 
 =====================================
 ============= Leetcode ==============
@@ -936,6 +942,7 @@ algo
  1641 Count Sorted Vowel Strings
  1644 Lowest Common Ancestor of a Binary Tree II
  1650 Lowest Common Ancestor of a Binary Tree III
+ 1679 Max Number of K-Sum Pairs
  1696 Jump Game VI
  1706 Where Will the Ball Fall
  1711 Count Good Meals
@@ -974,10 +981,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   95 /  568
-Solved / Total (Medium):  312 / 1203
+Solved / Total (Medium):  313 / 1203
 Solved / Total (Hard)  :   38 /  491
-Solved / Total (All)   :  445 / 2262
-Total Score            : 1221
+Solved / Total (All)   :  446 / 2262
+Total Score            : 1224
 =====================================
 
 ```
