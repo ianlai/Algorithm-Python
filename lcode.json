@@ -1191,6 +1191,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0232", 
+    "Level": 1, 
+    "Title": "Implement Queue using Stacks", 
+    "Url": "https://leetcode.com/problems/implement-queue-using-stacks", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0234", 
     "Level": 1, 
     "Title": "Palindrome Linked List", 

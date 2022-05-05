@@ -1753,7 +1753,8 @@
     "Title": "Implement Stack using Queues", 
     "Url": "https://leetcode.com/problems/implement-stack-using-queues", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-05"
 },
 {
     "Number": "0226", 
@@ -1793,6 +1794,14 @@
     ], 
     "Memo": "使用inorder可以得到sorted array，這是當然的，但這樣需要把所有點走完花O(n)。如果使用stack來做iteration，就可以在得到第k個的時候跳出來，因此時間複雜度會變成O(logn+k)，這方法一定要會。另外，一開始建立一個dummy node並且指向root(找min就用right，找max就用left)，可以讓我們不需處理空stack的情況。", 
     "Date": "2022-04-18"
+},
+{
+    "Number": "0232", 
+    "Level": 1, 
+    "Title": "Implement Queue using Stacks", 
+    "Url": "https://leetcode.com/problems/implement-queue-using-stacks", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0234", 

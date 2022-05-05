@@ -1,6 +1,28 @@
 # 2022/05/05 
-# Single queue 
+# Single queue [push: O(n)]
 class MyStack:
+
+    def __init__(self):
+        print("Code3")
+        self.q = collections.deque()
+
+    def push(self, x: int) -> None:
+        self.q.append(x)
+        for _ in range(len(self.q)-1):
+            self.q.append(self.q.popleft())
+
+    def pop(self) -> int:
+        return self.q.popleft()
+        
+    def top(self) -> int:
+        return self.q[0]
+
+    def empty(self) -> bool:
+        return len(self.q) == 0
+    
+# 2022/05/05 
+# Single queue [pop/top: O(n)]
+class MyStack2:
 
     def __init__(self):
         print("Code2")
@@ -31,6 +53,8 @@ class MyStack:
 class MyStack1:
 
     def __init__(self):
+        print("Code1")
+
         self.deq1 = collections.deque()
         self.deq2 = collections.deque()
 
