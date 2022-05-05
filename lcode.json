@@ -1159,6 +1159,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0225", 
+    "Level": 1, 
+    "Title": "Implement Stack using Queues", 
+    "Url": "https://leetcode.com/problems/implement-stack-using-queues", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0226", 
     "Level": 1, 
     "Title": "Invert Binary Tree", 

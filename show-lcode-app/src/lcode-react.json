@@ -672,6 +672,8 @@
         "Backtracking", 
         "Matrix", 
         "Word", 
+        "Graph", 
+        "**GOOD", 
         "##Indeed", 
         "##Amazon", 
         "##Google", 
@@ -1670,6 +1672,7 @@
     "Title": "Word Search II", 
     "Url": "https://leetcode.com/problems/word-search-ii", 
     "Tags": [
+        "Graph", 
         "Trie", 
         "Word", 
         "Backtracking", 
@@ -1743,6 +1746,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-04-15"
+},
+{
+    "Number": "0225", 
+    "Level": 1, 
+    "Title": "Implement Stack using Queues", 
+    "Url": "https://leetcode.com/problems/implement-stack-using-queues", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0226", 
@@ -4973,7 +4984,8 @@
     "Title": "Max Number of K-Sum Pairs", 
     "Url": "https://leetcode.com/problems/max-number-of-k-sum-pairs", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-05"
 },
 {
     "Number": "1696", 

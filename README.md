@@ -314,6 +314,7 @@ algo
 │   ├── __1475__Final Prices With a Special Discount in a Shop.py
 │   └── __1762__Buildings With an Ocean View.py
 ├── Queue
+│   ├── __0225__Implement Stack using Queues.py
 │   └── __0346__Moving Average from Data Stream.py
 ├── Recursion
 │   ├── __0095__Unique Binary Search Trees II.py
@@ -528,7 +529,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-37 directories, 489 files
+37 directories, 490 files
 
 =====================================
 ============= Leetcode ==============
@@ -677,6 +678,7 @@ algo
  0221 Maximal Square
  0222 Count Complete Tree Nodes
  0224 Basic Calculator
+ 0225 Implement Stack using Queues
  0226 Invert Binary Tree
  0228 Summary Ranges
  0230 Kth Smallest Element in a BST
@@ -980,11 +982,11 @@ algo
  2257 Count Unguarded Cells in the Grid
  2258 Escape the Spreading Fire
 =====================================
-Solved / Total (Easy)  :   95 /  568
+Solved / Total (Easy)  :   96 /  568
 Solved / Total (Medium):  313 / 1203
-Solved / Total (Hard)  :   38 /  491
-Solved / Total (All)   :  446 / 2262
-Total Score            : 1224
+Solved / Total (Hard)  :   38 /  492
+Solved / Total (All)   :  447 / 2263
+Total Score            : 1225
 =====================================
 
 ```
