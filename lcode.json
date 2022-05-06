@@ -3151,6 +3151,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1361", 
+    "Level": 2, 
+    "Title": "Validate Binary Tree Nodes", 
+    "Url": "https://leetcode.com/problems/validate-binary-tree-nodes", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1382", 
     "Level": 2, 
     "Title": "Balance a Binary Search Tree", 

@@ -203,6 +203,7 @@ algo
 │   ├── __1059__All Paths from Source Lead to Destination.py
 │   ├── __1202__Smallest String With Swaps.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
+│   ├── __1361__Validate Binary Tree Nodes.py
 │   ├── __1557__Minimum Number of Vertices to Reach All Nodes.py
 │   ├── __1584__Min Cost to Connect All Points.py
 │   ├── __1971__Find if Path Exists in Graph.py
@@ -531,7 +532,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-37 directories, 492 files
+37 directories, 493 files
 
 =====================================
 ============= Leetcode ==============
@@ -929,6 +930,7 @@ algo
  1319 Number of Operations to Make Network Connected
  1344 Angle Between Hands of a Clock
  1358 Number of Substrings Containing All Three Characters
+ 1361 Validate Binary Tree Nodes
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
@@ -987,10 +989,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   97 /  568
-Solved / Total (Medium):  314 / 1203
+Solved / Total (Medium):  315 / 1203
 Solved / Total (Hard)  :   38 /  492
-Solved / Total (All)   :  449 / 2263
-Total Score            : 1229
+Solved / Total (All)   :  450 / 2263
+Total Score            : 1232
 =====================================
 
 ```
