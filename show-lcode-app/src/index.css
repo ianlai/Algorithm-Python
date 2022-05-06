@@ -176,6 +176,29 @@ a:hover {
   touch-action: manipulation;
 }
 
+.button-hide,
+.button-show{
+  background-color: #74aaf1;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #2d2828;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+  line-height: 20px;
+  list-style: none;
+  margin: 5px;
+  width: 150px;
+}
+.button-hide{
+    background-color: #2168eb;
+  }
+
 .button-tag-clicked {
   background-color: #e482ebb0;
 }

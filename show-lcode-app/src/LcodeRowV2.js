@@ -36,6 +36,10 @@ function LcodeRowV2(props) {
       </th>
       <th>
         {props.tags.map((tag) => {
+          if (props.isHide) {
+            if (tag.startsWith("##")) return;
+            if (tag.startsWith("**")) return;
+          }
           const isSelected = selectedTagIds.indexOf(tag) !== -1;
           return (
             <TagButtonV2

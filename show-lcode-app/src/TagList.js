@@ -3,31 +3,38 @@ import { ALL_TAG_LIST } from "./data";
 import FilterTagButton from "./FilterTagButton";
 import TagButtonV2 from "./TagButtonV2";
 
-const TagList = ({ selectedTagIds, setSelectedTagIds }) => {
+const TagList = ({ selectedTagIds, setSelectedTagIds, isHide }) => {
   const handleClick = (tagId) => () => {
     const updatedSelectedTags = selectedTagIds.find(
       (targetTagId) => targetTagId === tagId
     )
       ? selectedTagIds.filter((targetTagId) => targetTagId !== tagId)
       : [...selectedTagIds, tagId];
-      
+
     setSelectedTagIds(updatedSelectedTags);
   };
   return (
-    <ul style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", listStyle: "none", margin: 0, padding: 0 }}>
+    <ul
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        listStyle: "none",
+        margin: 0,
+        padding: 0,
+      }}
+    >
       {ALL_TAG_LIST.map((tag) => {
+        if (isHide) {
+          if (tag.id.startsWith("##")) return;
+          if (tag.id.startsWith("**")) return;
+        }
         const isSelected = selectedTagIds.indexOf(tag.id) !== -1;
         return (
           <div className="TagFilterRowAll">
             <li key={tag.id}>
-              {/* <button
-                onClick={handleClick(tag.id)}
-                style={{ background: isSelected ? "red" : "white" }}
-              >
-                {tag.id} {tag.count}
-              </button> */}
               <TagButtonV2
-                type = {"all"}
+                type={"all"}
                 isSelected={isSelected}
                 // isAllTag={true}
                 // tagName={tag.id}
