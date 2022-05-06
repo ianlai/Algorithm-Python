@@ -1801,7 +1801,8 @@
     "Title": "Implement Queue using Stacks", 
     "Url": "https://leetcode.com/problems/implement-queue-using-stacks", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-06"
 },
 {
     "Number": "0234", 
@@ -4215,10 +4216,12 @@
     "Tags": [
         "DFS", 
         "Matrix", 
-        "Island"
+        "Island", 
+        "**BASIC", 
+        "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": "遍歷邊界上的點，做DFS把陸地改成海(或是另外存到別的matrix上），數剩下來的陸地數（不需要DFS了，直接數就可以）。", 
+    "Date": "2022-05-06"
 },
 {
     "Number": "1025", 

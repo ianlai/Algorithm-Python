@@ -1,17 +1,28 @@
-import TagButton from "./TagButton";
 import LevelButton from "./xxLevelButton";
 import FilterLevelButton from "./FilterLevelButton";
+import TagButtonV2 from "./TagButtonV2";
 
 function LcodeRowV2(props) {
+  let selectedTagIds = props.selectedTagIds;
+  let setSelectedTagIds = props.setSelectedTagIds;
+
+  const handleTagClick = (tagId) => () => {
+    const updatedSelectedTags = selectedTagIds.find(
+      (targetTagId) => targetTagId === tagId
+    )
+      ? selectedTagIds.filter((targetTagId) => targetTagId !== tagId)
+      : [...selectedTagIds, tagId];
+    setSelectedTagIds(updatedSelectedTags);
+  };
 
   let selectedLevelIds = props.selectedLevelIds;
   let setSelectedLevelIds = props.setSelectedLevelIds;
+
   return (
     <tr class="active-row">
       <th>
         <FilterLevelButton
           name={props.id}
-          // isSelected={isSelected}
           level={props.level}
           selectedLevelIds={selectedLevelIds}
           setSelectedLevelIds={setSelectedLevelIds}
@@ -25,26 +36,14 @@ function LcodeRowV2(props) {
       </th>
       <th>
         {props.tags.map((tag) => {
-          //console.log(tag + props.tagList);
-          if (props.tagList.includes(tag)) {
-            console.log(tag + "is contained in tagList: " + props.tagList);
-            return (
-              <TagButton
-                isSelected
-                tagName={tag}
-                showName={tag}
-                onClickTagButton={props.onClickTagButton}
-              />
-            );
-          } else {
-            return (
-              <TagButton
-                tagName={tag}
-                showName={tag}
-                onClickTagButton={props.onClickTagButton}
-              />
-            );
-          }
+          const isSelected = selectedTagIds.indexOf(tag) !== -1;
+          return (
+            <TagButtonV2
+              isSelected={isSelected}
+              showName={tag}
+              onClickTagButton={handleTagClick(tag)}
+            />
+          );
         })}
       </th>
       <th style={{ width: "50%" }}> {props.memo} </th>

@@ -32,6 +32,7 @@ const DataTable = ({
     }
     console.log("sortBy:", sortBy)
   };
+
   const handleClickSortByDate = () => {
     if (sortBy !== SORT_BY.DATE_ASC) {
       setSortBy(SORT_BY.DATE_ASC);
@@ -75,7 +76,8 @@ const DataTable = ({
     }
   });
 
-  console.log("DataTable.js selectedLevelIds", selectedLevelIds);
+  console.log("[DataTable.js] selectedLevelIds", selectedLevelIds);
+  console.log("[DataTable.js] selectedTagIds", selectedTagIds);
 
   return (
     <table class="styled-table" style={{ width: "100%" }}>
@@ -107,10 +109,14 @@ const DataTable = ({
             memo={l.Memo}
             date={l.Date}
             tagList={selectedTagIds}
+            
             selectedLevelIds={selectedLevelIds}
             setSelectedLevelIds={setSelectedLevelIds}
-            onClickTagButton={handleClickLevelButton}
-            onClickLevelButton={handleClickLevelButton(l.Level)}
+            selectedTagIds={selectedTagIds}
+            setSelectedTagIds={setSelectedTagIds}
+
+            // onClickTagButton={handleClickLevelButton}
+            // onClickLevelButton={handleClickLevelButton(l.Level)}
           />
         ))}
       </tbody>

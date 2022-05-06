@@ -17,25 +17,24 @@ const AppHeader = ({ selectedTagIds, selectedLevelIds }) => {
       : filteredByTagData;
 
   return (
-    <header className="App-header">
+    <div className="App-header">
       <h3>
         Lcode visualization parsed from <code>lcode-react.json</code>
       </h3>
+
       <div
         className="numberRow"
-        style={{ "font-weight": "bold", "font-size": "0.8em" }}
+        style={{ "font-weight": "bold", "font-size": "0.8em", "margin": "0px" }}
       >
         <span style={{ color: "rgb(138 166 229)" }}>
-          {" "}
           {"Selected: " + filteredData.length}
         </span>
         <span> || </span>
         <span style={{ color: "rgb(138 166 229)" }}>
-          {" "}
           {"Total: " + DATA.length}{" "}
         </span>
       </div>
-    </header>
+    </div>
   );
 };
 
