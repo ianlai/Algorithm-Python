@@ -35,7 +35,8 @@ function LcodeRowV2(props) {
         </a>
       </th>
       <th>
-        {props.tags.map((tag) => {
+        {
+        props.tags.sort().map((tag) => {
           if (props.isHide) {
             if (tag.startsWith("##")) return;
             if (tag.startsWith("**")) return;
@@ -48,7 +49,8 @@ function LcodeRowV2(props) {
               onClickTagButton={handleTagClick(tag)}
             />
           );
-        })}
+        })
+        }
       </th>
       <th style={{ width: "50%" }}> {props.memo} </th>
       <th style={{ color: "rgb(138 166 229)", width: "8%" }}> {props.date} </th>
