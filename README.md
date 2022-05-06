@@ -335,7 +335,8 @@ algo
 │   ├── __0224__Basic Calculator.py
 │   ├── __0232__Implement Queue using Stacks.py
 │   ├── __0682__Baseball Game.py
-│   └── __0735__Asteroid Collision.py
+│   ├── __0735__Asteroid Collision.py
+│   └── __1209__Remove All Adjacent Duplicates in String II.py
 ├── String
 │   ├── __0009__Palindrome Number.py
 │   ├── __0014__Longest Common Prefix.py
@@ -530,7 +531,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-37 directories, 491 files
+37 directories, 492 files
 
 =====================================
 ============= Leetcode ==============
@@ -911,6 +912,7 @@ algo
  1197 Minimum Knight Moves
  1198 Find Smallest Common Element in All Rows
  1202 Smallest String With Swaps
+ 1209 Remove All Adjacent Duplicates in String II
  1214 Two Sum BSTs
  1235 Maximum Profit in Job Scheduling
  1248 Count Number of Nice Subarrays
@@ -985,10 +987,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   97 /  568
-Solved / Total (Medium):  313 / 1203
+Solved / Total (Medium):  314 / 1203
 Solved / Total (Hard)  :   38 /  492
-Solved / Total (All)   :  448 / 2263
-Total Score            : 1226
+Solved / Total (All)   :  449 / 2263
+Total Score            : 1229
 =====================================
 
 ```
