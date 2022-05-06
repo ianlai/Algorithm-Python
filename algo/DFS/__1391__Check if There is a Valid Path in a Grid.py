@@ -1,8 +1,51 @@
 class Solution:
     
-    
+    # 2022/05/06
+    # DFS (not backtracking) [O(MN): 90% / O(MN): 30%]
     def hasValidPath(self, grid: List[List[int]]) -> bool:
-        print("DRY code")
+        print("Code3")
+        m, n = len(grid), len(grid[0])
+        sToDir = {
+            1: [1, 3],
+            2: [0, 2],
+            3: [2, 3],
+            4: [1, 2],
+            5: [0, 3],
+            6: [0, 1]
+        }
+        dirToS = {
+            0: {2, 3, 4},
+            1: {1, 3, 5},
+            2: {2, 5, 6},
+            3: {1, 4, 6}
+        }
+        nextDir = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+        
+        def dfs(x, y, visited):
+            if x == m - 1 and y == n - 1:
+                return True
+            for d in sToDir[grid[x][y]]:
+                nx, ny = x + nextDir[d][0], y + nextDir[d][1]
+                if not (0 <= nx < m and 0 <= ny < n):
+                    continue
+                if grid[nx][ny] not in dirToS[d]:
+                    continue
+                if visited[nx][ny] == 1:
+                    continue
+                visited[nx][ny] = 1
+                if dfs(nx, ny, visited):
+                    return True
+            return False
+                
+        visited = [[0] * n for _ in range(m)]
+        visited[0][0] = 1
+        return dfs(0, 0, visited) 
+        
+        
+    # 2021/06/29 
+    # DFS (backtracking)  [45% / 27%]  //後來再看感覺backtracking不需要
+    def hasValidPath(self, grid: List[List[int]]) -> bool:
+        print("Code2: DRY code")
         if not grid or not grid[0]:
             return True
         m, n = len(grid), len(grid[0])
