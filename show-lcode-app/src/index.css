@@ -3,18 +3,30 @@
     padding: 0;
 } */
     
- .App-header { 
-    /* background-color: #3367cf; */
-    /* min-height: 10vh; */
-    /* display: flex;  */
-    /* flex-direction: row; */
-    /* align-items: center; */
-    /* justify-content: flex-start;  */
-    /* gap: 50px; */
-    /* color: white; */
-    /* margin: 0px; */
-    /* padding: 0px;  */
-  } 
+ /* .App-header { 
+    background-color: #3367cf;
+    min-height: 10vh;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 50px;
+    color:white;
+    margin: 0px;
+    padding: 0px;  
+  }  
+  */
+
+  .App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  color: white;
+  margin: 0px;
+}
 
 body {
   margin: 0;
@@ -178,25 +190,25 @@ a:hover {
 
 .button-hide,
 .button-show{
-  background-color: #74aaf1;
+    height: 35px;
+    margin: 0px 5px;
+  background-color: #4990ee;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  color: #2d2828;
+  color: hsl(0, 0%, 100%);
   cursor: pointer;
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 12px;
   font-weight: 700;
-  height: 30px;
   line-height: 20px;
   list-style: none;
-  margin: 5px;
-  width: 150px;
+  width: 50px;
 }
 .button-hide{
-    background-color: #2168eb;
+    background-color: #1f50ab;
   }
 
 .button-tag-clicked {

@@ -24,7 +24,7 @@ const AppHeader = ({ selectedTagIds, selectedLevelIds }) => {
 
       <div
         className="numberRow"
-        style={{ "font-weight": "bold", "font-size": "0.8em", "margin": "0px" }}
+        style={{ "font-weight": "bold", "font-size": "0.8em", margin: "0px" }}
       >
         <span style={{ color: "rgb(138 166 229)" }}>
           {"Selected: " + filteredData.length}

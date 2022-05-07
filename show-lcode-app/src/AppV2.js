@@ -94,7 +94,7 @@ const AppV2 = () => {
   [tagList, setTagList] = useState(tagList);
   [levelList, setLevelList] = useState(levelList);
   //[sortedBy, setSortedBy] = useState(sortedBy);
-  
+
   const [selectedLevelIds, setSelectedLevelIds] = useState([]);
   const [selectedTagIds, setSelectedTagIds] = useState([]);
   const [isHide, setIsHide] = useState(false);
@@ -116,17 +116,14 @@ const AppV2 = () => {
       <LevelList
         selectedLevelIds={selectedLevelIds}
         setSelectedLevelIds={setSelectedLevelIds}
+        isHide={isHide}
+        setIsHide={setIsHide}
       />
       <TagList
         selectedTagIds={selectedTagIds}
         setSelectedTagIds={setSelectedTagIds}
         isHide={isHide}
       />
-      <button onClick={() => {
-          setIsHide(!isHide)
-      }} className={isHide === true ? "button-hide": "button-show"} >
-        {isHide === true ? "Hide" : "Show" }
-      </button>
       <DataTable
         selectedTagIds={selectedTagIds}
         setSelectedTagIds={setSelectedTagIds}
