@@ -1017,10 +1017,12 @@
     "Url": "https://leetcode.com/problems/path-sum", 
     "Tags": [
         "Tree", 
-        "DFS"
+        "DFS", 
+        "DFS-Pre", 
+        "DFS-Post"
     ], 
-    "Memo": "", 
-    "Date": "2021-05-03"
+    "Memo": "基本是用DFS-Pre的型態往下探，直到到底判斷是否為0。也嘗試使用DFS-Post，把可能的Path累積起來，當然這方法只是試驗，速度和空間都變成指數級。", 
+    "Date": "2022-05-08"
 },
 {
     "Number": "0113", 
@@ -1029,10 +1031,12 @@
     "Url": "https://leetcode.com/problems/path-sum-ii", 
     "Tags": [
         "Tree", 
-        "DFS"
+        "DFS", 
+        "Backtracking", 
+        "**BASIC"
     ], 
-    "Memo": "", 
-    "Date": "2022-04-03"
+    "Memo": "這題是基本題，可以練習要加入這層還是下一層。", 
+    "Date": "2022-05-08"
 },
 {
     "Number": "0114", 
@@ -1752,7 +1756,10 @@
     "Level": 1, 
     "Title": "Implement Stack using Queues", 
     "Url": "https://leetcode.com/problems/implement-stack-using-queues", 
-    "Tags": [], 
+    "Tags": [
+        "Stack", 
+        "Queue"
+    ], 
     "Memo": "", 
     "Date": "2022-05-05"
 },
@@ -1800,7 +1807,10 @@
     "Level": 1, 
     "Title": "Implement Queue using Stacks", 
     "Url": "https://leetcode.com/problems/implement-queue-using-stacks", 
-    "Tags": [], 
+    "Tags": [
+        "Stack", 
+        "Queue"
+    ], 
     "Memo": "", 
     "Date": "2022-05-06"
 },
@@ -1918,7 +1928,8 @@
     "Title": "Shortest Word Distance", 
     "Url": "https://leetcode.com/problems/shortest-word-distance", 
     "Tags": [
-        "##Indeed"
+        "##Indeed", 
+        "Array"
     ], 
     "Memo": "", 
     "Date": "2022-01-31"
@@ -1929,7 +1940,9 @@
     "Title": "Shortest Word Distance II", 
     "Url": "https://leetcode.com/problems/shortest-word-distance-ii", 
     "Tags": [
-        "##Indeed"
+        "##Indeed", 
+        "HashMap", 
+        "Two-Pointer"
     ], 
     "Memo": "", 
     "Date": "2022-02-16"
@@ -1939,7 +1952,9 @@
     "Level": 2, 
     "Title": "Shortest Word Distance III", 
     "Url": "https://leetcode.com/problems/shortest-word-distance-iii", 
-    "Tags": [], 
+    "Tags": [
+        "Two-Pointer"
+    ], 
     "Memo": "", 
     "Date": "2022-05-03"
 },
@@ -4549,7 +4564,10 @@
     "Level": 2, 
     "Title": "Remove All Adjacent Duplicates in String II", 
     "Url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii", 
-    "Tags": [], 
+    "Tags": [
+        "String", 
+        "Stack"
+    ], 
     "Memo": "", 
     "Date": "2022-05-06"
 },
@@ -4760,7 +4778,10 @@
     "Level": 2, 
     "Title": "Validate Binary Tree Nodes", 
     "Url": "https://leetcode.com/problems/validate-binary-tree-nodes", 
-    "Tags": [], 
+    "Tags": [
+        "Graph", 
+        "Tree"
+    ], 
     "Memo": "", 
     "Date": "2022-05-07"
 },
@@ -4788,7 +4809,7 @@
         "**GOOD"
     ], 
     "Memo": "", 
-    "Date": "2022-05-07"
+    "Date": "2022-05-08"
 },
 {
     "Number": "1395", 
@@ -5014,7 +5035,11 @@
     "Level": 2, 
     "Title": "Max Number of K-Sum Pairs", 
     "Url": "https://leetcode.com/problems/max-number-of-k-sum-pairs", 
-    "Tags": [], 
+    "Tags": [
+        "Sorting", 
+        "Two-Pointer", 
+        "Two-Sum"
+    ], 
     "Memo": "", 
     "Date": "2022-05-05"
 },

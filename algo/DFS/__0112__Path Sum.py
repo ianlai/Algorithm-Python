@@ -6,8 +6,38 @@
 #         self.right = right
 class Solution:
     
-    # DFS [O(n), 79%] 
+    # 2022/05/07
+    # DFS-Post [O(2^h):13% / O(2^h):93%] 
     def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
+        print("Code2")
+        def helper(root):
+            if root is None:
+                return set()
+            
+            if root.left is None and root.right is None:
+                return set([root.val])
+            
+            lefts, rights = set(), set()
+            if root.left:
+                lefts = helper(root.left)
+            if root.right:
+                rights = helper(root.right)
+            
+            possibleSums = set()
+            for v in lefts:
+                possibleSums.add(v + root.val)
+            for v in rights:
+                possibleSums.add(v + root.val)
+            return possibleSums
+        
+        possibleSums = helper(root)
+        return targetSum in possibleSums 
+    
+    
+    # 2021/05/13 
+    # DFS-Pre [O(n):91%/ O(n):93%] 
+    def hasPathSum1(self, root: TreeNode, targetSum: int) -> bool:
+        print("Code1")
         if not root:
             return False
         return self.helper(root, targetSum - root.val) 

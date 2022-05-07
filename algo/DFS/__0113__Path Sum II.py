@@ -6,8 +6,28 @@
 #         self.right = right
 class Solution:
     
-    #2022/04/03 
+    # 2022/05/07
+    # Backtracking (在dfs內處理當層)
     def pathSum(self, root: TreeNode, targetSum: int) -> List[List[int]]:
+        print("Code3")
+        def dfs(root, target, cur, res):
+            if root is None:
+                return 
+            if not root.left and not root.right and root.val == target:
+                cur.append(root.val)
+                res.append(list(cur))
+                return
+            dfs(root.left , target - root.val, cur + [root.val], res)
+            dfs(root.right, target - root.val, cur + [root.val], res)
+        
+        res = []
+        if root:
+            dfs(root, targetSum, [], res)
+        return res
+    
+    # 2022/04/03 
+    # Backtracking (在dfs內處理下一層)
+    def pathSum2(self, root: TreeNode, targetSum: int) -> List[List[int]]:
         print("Code2")
         res = []
         def dfs(root, target, cur, res):
@@ -23,8 +43,6 @@ class Solution:
         if root:
             dfs(root, targetSum - root.val, [root.val], res)
         return res
-    
-    
     
     # 2021/05/03
     def pathSum1(self, root: TreeNode, targetSum: int) -> List[List[int]]:

@@ -1,6 +1,5 @@
 class Solution:
     
-    # 2022/05/06
     # DFS (not backtracking) [O(MN): 90% / O(MN): 30%]
     def hasValidPath(self, grid: List[List[int]]) -> bool:
         print("Code3")
