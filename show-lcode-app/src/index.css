@@ -18,11 +18,12 @@
   */
 
 
-  div {
+/* Support new line "\n" char showing in jsx */  
+div {
     white-space: pre-wrap;
-  } 
+} 
   
-  .App-header {
+.App-header {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;

@@ -1166,15 +1166,15 @@
         "String", 
         "Word", 
         "Graph", 
-        "**CHECK", 
+        "**GOOD", 
         "##Amazon", 
         "##Facebook", 
         "##Google", 
         "##Microsoft", 
         "##Apple"
     ], 
-    "Memo": "和0127的不同是必須要找出所有最短距離的路徑，而不是只有最短距離。找最短距離的部分一樣使用BFS(單向或雙向皆可，雙向會比較快找到），再用找到的距離來做backtracking來找到所有的path。", 
-    "Date": "2021-10-26"
+    "Memo": "和0127的不同是必須要找出所有最短距離的路徑，而不是只有最短距離。找最短距離的部分一樣使用BFS(單向或雙向皆可，雙向會比較快找到），每次都把上一層的點從wordSet刪除，確保做出來的圖沒有環，會是一個DAG。\n 利用此DAG，我們用DFS來做backtracking來找到所有的path，而因為是DAG，所有找出來的path都會是最短距離的path。", 
+    "Date": "2022-05-08"
 },
 {
     "Number": "0127", 
@@ -2406,7 +2406,7 @@
         "##Facebook", 
         "##Amazon"
     ], 
-    "Memo": "[Approach1]單純用DFS可以找到解但會是指數級別，必須要優化。正常情況下這種Graph題目又可以上下左右移動是不能Memo的，但因為這題要嚴格遞增，所以其實路線是不可能繞回去的，也就是這是一個DAG，因此每個DFS裡面的點都最多只會跑4次，又因為用Memo cache起來，因此時間是O(V+E) = O(MN + 4MN) = O(MN)。小提醒，這題根本不需要紀錄visited，因此長度也不需要用len(visited)來紀錄，而是dfs回傳值+1。[Approach2]和前面理由一樣，正常情況下這種可以上下左右移動的Matrix不能用DP，因為可能形成環，但因為絕對遞增的特性，這題是DAG，因此依賴關係是有順序的。有趣的是這依賴關係不是row或col漸增，而是有數字的漸增關係，可以用Topological-Sorting依序找出indegree=0的點，就能依序填DP表了。", 
+    "Memo": "[Approach1]單純用DFS可以找到解但會是指數級別，必須要優化。正常情況下這種Graph題目又可以上下左右移動是不能Memo的，但因為這題要嚴格遞增，所以其實路線是不可能繞回去的，也就是這是一個DAG，因此每個DFS裡面的點都最多只會跑4次，又因為用Memo cache起來，因此時間是O(V+E) = O(MN + 4MN) = O(MN)。小提醒，這題根本不需要紀錄visited，因此長度也不需要用len(visited)來紀錄，而是dfs回傳值+1。\n \n [Approach2]和前面理由一樣，正常情況下這種可以上下左右移動的Matrix不能用DP，因為可能形成環，但因為絕對遞增的特性，這題是DAG，因此依賴關係是有順序的。有趣的是這依賴關係不是row或col漸增，而是有數字的漸增關係，可以用Topological-Sorting依序找出indegree=0的點，就能依序填DP表了。", 
     "Date": "2022-04-30"
 },
 {
