@@ -1166,7 +1166,12 @@
         "String", 
         "Word", 
         "Graph", 
-        "**CHECK"
+        "**CHECK", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Google", 
+        "##Microsoft", 
+        "##Apple"
     ], 
     "Memo": "和0127的不同是必須要找出所有最短距離的路徑，而不是只有最短距離。找最短距離的部分一樣使用BFS(單向或雙向皆可，雙向會比較快找到），再用找到的距離來做backtracking來找到所有的path。", 
     "Date": "2021-10-26"
@@ -1181,10 +1186,16 @@
         "BFS-雙向", 
         "String", 
         "Word", 
-        "Graph"
+        "Graph", 
+        "**GOOD", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Google", 
+        "##Microsoft", 
+        "##Apple"
     ], 
-    "Memo": "使用distance map。每次都從可能的組合字裡面搜索，而不要從詞庫搜索。可用雙向BFS來加速。", 
-    "Date": "2021-10-19"
+    "Memo": "這題就是做BFS，但考點關鍵在於怎麼找到相連的字。一個目標字要找到相連的其他字所需時間：\n (1) 從wordList內掃描: O(WL) \n (2) 對目標字的每一個字元做26字母變換: O(26L) \n (3) 把目標字轉成代表字，再把每個代表字存的array取出: O(LL) (但需要preprocessing把每個字存入相對應代表字array)。\n 至於BFS的部分，可以用distance map，也可以單純使用visited set，距離的部分可以放入node內。最後則是可用雙向BFS來加速，因為兩個圓的面積會比一個圓還小。", 
+    "Date": "2022-05-08"
 },
 {
     "Number": "0128", 
@@ -1963,8 +1974,16 @@
     "Level": 2, 
     "Title": "Strobogrammatic Number II", 
     "Url": "https://leetcode.com/problems/strobogrammatic-number-ii", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "DFS", 
+        "Backtracking", 
+        "**GOOD", 
+        "##Facebook", 
+        "##Google", 
+        "##Microsoft"
+    ], 
+    "Memo": "可使用DFS的backtracking技巧來做出每一條的path。有兩個特殊條件一個是開頭不為0，一個是奇數長的中間值只能填018，其他的則是前半部決定了就會同時決定相對應的後半部數字。(1)可以對前半部做普通的DFS-backtracking，之後再轉換出後半部。(2)也可以前後兩個值一起用backtracking來填入，但要記得cur一開始就必須要設定n長度的初始值。", 
+    "Date": "2022-05-08"
 },
 {
     "Number": "0249", 

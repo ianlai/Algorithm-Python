@@ -20,7 +20,7 @@ function LcodeRowV2(props) {
 
   return (
     <tr class="active-row">
-      <th>
+      <th style={{ width: "5%" }}>
         <FilterLevelButton
           name={props.id}
           level={props.level}
@@ -28,13 +28,13 @@ function LcodeRowV2(props) {
           setSelectedLevelIds={setSelectedLevelIds}
         />
       </th>
-      <th style={{ width: "20%" }}>
+      <th style={{ width: "15%" }}>
         <a href={props.url} class="large-font">
           {" "}
           {props.title}{" "}
         </a>
       </th>
-      <th>
+      <th style={{ width: "15%" }}>
         {
         props.tags.sort().map((tag) => {
           if (props.isHide) {
@@ -52,8 +52,9 @@ function LcodeRowV2(props) {
         })
         }
       </th>
-      <th style={{ width: "50%" }}> {props.memo} </th>
+      <th style={{ width: "50%" }}> {props.memo}  </th>
       <th style={{ color: "rgb(138 166 229)", width: "8%" }}> {props.date} </th>
+
     </tr>
   );
 }
