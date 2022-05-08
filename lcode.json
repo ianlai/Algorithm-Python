@@ -1295,6 +1295,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0247", 
+    "Level": 2, 
+    "Title": "Strobogrammatic Number II", 
+    "Url": "https://leetcode.com/problems/strobogrammatic-number-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0249", 
     "Level": 2, 
     "Title": "Group Shifted Strings", 

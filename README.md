@@ -107,6 +107,7 @@ algo
 │   ├── __0139__Word Break.py
 │   ├── __0212__Word Search II.py
 │   ├── __0216__Combination Sum III.py
+│   ├── __0247__Strobogrammatic Number II.py
 │   ├── __0291__Word Pattern II.py
 │   ├── __0329__Longest Increasing Path in a Matrix.py
 │   ├── __0401__Binary Watch.py
@@ -532,7 +533,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-37 directories, 493 files
+37 directories, 494 files
 
 =====================================
 ============= Leetcode ==============
@@ -698,6 +699,7 @@ algo
  0243 Shortest Word Distance
  0244 Shortest Word Distance II
  0245 Shortest Word Distance III
+ 0247 Strobogrammatic Number II
  0249 Group Shifted Strings
  0252 Meeting Rooms
  0253 Meeting Rooms II
@@ -988,11 +990,11 @@ algo
  2257 Count Unguarded Cells in the Grid
  2258 Escape the Spreading Fire
 =====================================
-Solved / Total (Easy)  :   97 /  568
-Solved / Total (Medium):  315 / 1203
-Solved / Total (Hard)  :   38 /  492
-Solved / Total (All)   :  450 / 2263
-Total Score            : 1232
+Solved / Total (Easy)  :   97 /  569
+Solved / Total (Medium):  316 / 1205
+Solved / Total (Hard)  :   38 /  493
+Solved / Total (All)   :  451 / 2267
+Total Score            : 1235
 =====================================
 
 ```

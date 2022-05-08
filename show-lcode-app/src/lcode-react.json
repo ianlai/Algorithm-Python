@@ -1035,7 +1035,7 @@
         "Backtracking", 
         "**BASIC"
     ], 
-    "Memo": "這題是基本題，可以練習要加入這層還是下一層。", 
+    "Memo": "這題是基本題，要找path所以可以使用DFS中的Backtracking，可以練習進入迴圈的時候已經加好了或是進入後才加。使用BFS雖然也可以做traverse所有的點，但因為不能backtracking，代表目前的path都必須要存起來，會造成空間消耗很大，不適合。", 
     "Date": "2022-05-08"
 },
 {
@@ -1957,6 +1957,14 @@
     ], 
     "Memo": "", 
     "Date": "2022-05-03"
+},
+{
+    "Number": "0247", 
+    "Level": 2, 
+    "Title": "Strobogrammatic Number II", 
+    "Url": "https://leetcode.com/problems/strobogrammatic-number-ii", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0249", 

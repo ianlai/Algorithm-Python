@@ -7,7 +7,8 @@
 class Solution:
     
     # 2022/05/07
-    # Backtracking (在dfs內處理當層)
+    # Backtracking (在dfs內處理當層，代表進入迴圈的時候還沒扣好)
+    # [TC: O(N2) / SC: O(N)]
     def pathSum(self, root: TreeNode, targetSum: int) -> List[List[int]]:
         print("Code3")
         def dfs(root, target, cur, res):
@@ -26,7 +27,7 @@ class Solution:
         return res
     
     # 2022/04/03 
-    # Backtracking (在dfs內處理下一層)
+    # Backtracking (在dfs內處理下一層，代表進入迴圈的時候已經扣好了)
     def pathSum2(self, root: TreeNode, targetSum: int) -> List[List[int]]:
         print("Code2")
         res = []
