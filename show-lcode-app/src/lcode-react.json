@@ -1173,7 +1173,7 @@
         "##Microsoft", 
         "##Apple"
     ], 
-    "Memo": "和0127的不同是必須要找出所有最短距離的路徑，而不是只有最短距離。找最短距離的部分一樣使用BFS(單向或雙向皆可，雙向會比較快找到），每次都把上一層的點從wordSet刪除，確保做出來的圖沒有環，會是一個DAG。\n 利用此DAG，我們用DFS來做backtracking來找到所有的path，而因為是DAG，所有找出來的path都會是最短距離的path。", 
+    "Memo": "和0127的不同是必須要找出所有最短距離的路徑，而不是只有最短距離。找最短距離的部分一樣使用BFS(單向或雙向皆可，雙向會比較快找到），每次都把上一層的點從wordSet刪除，確保做出來的圖沒有環，會是一個DAG。利用此DAG，我們用DFS來做backtracking來找到所有的path，而因為是DAG，所有找出來的path都會是最短距離的path。", 
     "Date": "2022-05-08"
 },
 {
@@ -2371,9 +2371,18 @@
     "Url": "https://leetcode.com/problems/coin-change", 
     "Tags": [
         "DP", 
-        "DP背包"
+        "DP背包", 
+        "Memoization", 
+        "DFS", 
+        "BFS", 
+        "##Amazon", 
+        "##Google", 
+        "##Microsoft", 
+        "##Facebook", 
+        "##Apple", 
+        "**GOOD"
     ], 
-    "Memo": "", 
+    "Memo": "0/1背包問題，用過的錢幣可以繼續無限使用，所以Top-Down的話可以擴展出N條分支的樹。使用DFS就是所有路徑都走過，取最小，使用BFS的話則是找到最近的層就可以出去了，速度會快很多。Buttom-Up會比Memoization-DFS還快一些。", 
     "Date": "2021-10-04"
 },
 {
@@ -2717,8 +2726,8 @@
         "DP", 
         "DP背包"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-04"
+    "Memo": "基本的0/1背包問題，暴力法解就是要或不要，總共會是O(2^N)，改成DP則會是O(N*target)。", 
+    "Date": "2022-05-09"
 },
 {
     "Number": "0417", 
@@ -4138,10 +4147,14 @@
     "Url": "https://leetcode.com/problems/distribute-coins-in-binary-tree", 
     "Tags": [
         "Tree", 
-        "DFS"
+        "DFS", 
+        "DFS-Post", 
+        "##Microsoft", 
+        "##Amazon", 
+        "##Apple"
     ], 
-    "Memo": "", 
-    "Date": "2021-10-08"
+    "Memo": "DFS-Post來取得子節點的資訊，處理過後往上回。diff代表該點的子樹金幣數和子樹節點數的差異，這差異就是需要移動的金幣數。往上回diff數。step則是由下往上累積加起來，不用一層一層回，只需要存成global即可。", 
+    "Date": "2022-05-09"
 },
 {
     "Number": "0981", 

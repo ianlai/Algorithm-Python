@@ -6,13 +6,53 @@
 #         self.right = right
 class Solution:
     
-    # DFS [O(n): 80%]
+    # 2022/05/08 
+    # DFS-Post [O(n): 80%]
     def distributeCoins(self, root: Optional[TreeNode]) -> int:
+        print("Code4")
+        step = 0
+        
+        # diff: num of coin - num of coin
+        def dfs(root):
+            nonlocal step
+            if not root:
+                return 0
+            diffL = dfs(root.left)
+            diffR = dfs(root.right)      
+            diffRoot = root.val + diffL + diffR - 1 #root.val (coin) - 1 (node)
+            step += abs(diffL) + abs(diffR)
+            return diffRoot
+        
+        dfs(root)
+        return step
+    
+    # 2021/10/09 
+    # DFS [O(n): 80%]
+    def distributeCoins3(self, root: Optional[TreeNode]) -> int:
+        print("Code3")
+        
+        def helper(root):
+            if not root:
+                return 0, 0
+            diffL, stepL = helper(root.left)        #coin - node (left)
+            diffR, stepR = helper(root.right)       #coin - node (right)
+            diffRoot = root.val + diffL + diffR - 1 #coin - node (root)
+            stepRoot = abs(diffL) + abs(diffR) + stepL + stepR
+            return diffRoot, stepRoot
+        
+        _, stepRoot = helper(root)
+        return stepRoot
+    
+    #====================================================
+
+    # DFS [O(n): 80%]
+    def distributeCoins2(self, root: Optional[TreeNode]) -> int:
         print("Method2")
         self.steps = 0
         def helper(root):
             if not root:
                 return 0
+            
             diffL, diffR = 0, 0
             if root.left:
                 diffL = helper(root.left)  #coin - node (left)
@@ -21,6 +61,7 @@ class Solution:
                 
             diffRoot = root.val + diffL + diffR - 1 #coin - node (root )
             self.steps += abs(diffL) + abs(diffR)
+            
             return diffRoot
         helper(root)
         return self.steps

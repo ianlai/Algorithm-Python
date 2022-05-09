@@ -3,7 +3,12 @@ import { ALL_LEVEL_LIST } from "./data";
 import TagButton from "./TagButtonV2";
 import FilterLevelButton from "./FilterLevelButton";
 
-const LevelList = ({ selectedLevelIds, setSelectedLevelIds, isHide, setIsHide }) => {
+const LevelList = ({
+  selectedLevelIds,
+  setSelectedLevelIds,
+  isHide,
+  setIsHide,
+}) => {
   return (
     <div className="LevelFilterRow">
       <ul
@@ -26,14 +31,14 @@ const LevelList = ({ selectedLevelIds, setSelectedLevelIds, isHide, setIsHide })
             />
           );
         })}
-              <button
-        onClick={() => {
-          setIsHide(!isHide);
-        }}
-        className={isHide === true ? "button-hide" : "button-show"}
-      >
-        {isHide === true ? "Hide" : "Show"}
-      </button>
+        <button
+          onClick={() => {
+            setIsHide(!isHide);
+          }}
+          className = {isHide === true ? "button button-hide" : "button button-show"}
+        > 
+          {isHide === true ? "Hide" : "Show"}
+        </button>
       </ul>
     </div>
   );
