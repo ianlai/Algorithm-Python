@@ -143,11 +143,12 @@
     "Tags": [
         "DFS", 
         "Backtracking", 
+        "BFS", 
         "HashMap", 
         "**BASIC"
     ], 
-    "Memo": "Backtracking的基本題，比較有趣的是idx往前走但for-loop取出來的ch和idx並不是一樣的，需要做一層的轉換。", 
-    "Date": "2022-04-29"
+    "Memo": "[1] DFS-Backtracking的基本題，比較有趣的是idx往前走但for-loop取出來的ch和idx並不是一樣的，需要做一層的轉換。\n\n [2] BFS，也可用BFS一層一層產生出新的一排，類似subset的題目。", 
+    "Date": "2022-05-10"
 },
 {
     "Number": "0018", 
@@ -178,7 +179,10 @@
     "Level": 1, 
     "Title": "Valid Parentheses", 
     "Url": "https://leetcode.com/problems/valid-parentheses", 
-    "Tags": [], 
+    "Tags": [
+        "Stack", 
+        "Parentheses"
+    ], 
     "Memo": "", 
     "Date": "2021-05-17"
 },
@@ -2506,7 +2510,7 @@
         "Sorting", 
         "**BASIC"
     ], 
-    "Memo": "(1)Sorting->O(nlogn) (2)MaxHeap->O(n+klogn) (3)MinHeap->O(k+(n-k)logk) (4)QuickSelect->Avg:O(n) Worst:O(n2)", 
+    "Memo": "[1]Sorting->O(nlogn)\n[2]MaxHeap->O(n+klogn)\n[3]MinHeap->O(k+(n-k)logk)\n[4]QuickSelect->Avg:O(n) Worst:O(n2)", 
     "Date": "2022-03-07"
 },
 {
@@ -3816,7 +3820,7 @@
     "Title": "Number of Matching Subsequences", 
     "Url": "https://leetcode.com/problems/number-of-matching-subsequences", 
     "Tags": [
-        "Sequence", 
+        "Subsequence", 
         "String", 
         "HashMap", 
         "**GOOD", 
@@ -5318,6 +5322,7 @@
     "Tags": [
         "Math", 
         "String", 
+        "Palindrome", 
         "**CONTEST"
     ], 
     "Memo": "還蠻有趣的題目，要觀察出如何做出半個Palindrome，然後往另外一邊翻就是Palindrome。在Leetcode提供了我的作法。", 
@@ -5390,7 +5395,9 @@
     "Level": 1, 
     "Title": "Largest Number After Digit Swaps by Parity", 
     "Url": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity", 
-    "Tags": [], 
+    "Tags": [
+        "**CONTEST"
+    ], 
     "Memo": "", 
     "Date": "2022-04-10"
 },
@@ -5399,7 +5406,11 @@
     "Level": 2, 
     "Title": "Minimize Result by Adding Parentheses to Expression", 
     "Url": "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression", 
-    "Tags": [], 
+    "Tags": [
+        "**CONTEST", 
+        "String", 
+        "Parentheses"
+    ], 
     "Memo": "", 
     "Date": "2022-04-10"
 },
@@ -5408,7 +5419,9 @@
     "Level": 2, 
     "Title": "Maximum Product After K Increments", 
     "Url": "https://leetcode.com/problems/maximum-product-after-k-increments", 
-    "Tags": [], 
+    "Tags": [
+        "**CONTEST"
+    ], 
     "Memo": "", 
     "Date": "2022-04-10"
 },
