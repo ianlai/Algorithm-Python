@@ -42,6 +42,8 @@ class DisjointSet:
             else:
                 self.parent[ry] = rx #attach ry to rx
                 self.rank[rx] = max(self.rank[rx], self.rank[ry] + 1)
+            return True #可以連接（兩點不同塊）
+        return False #不可連接（兩點同塊）
 
     def print(self):
         print("count:", self.count)

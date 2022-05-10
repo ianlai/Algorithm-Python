@@ -1611,7 +1611,7 @@
         "Union-Find", 
         "**BASIC"
     ], 
-    "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。", 
+    "Memo": "[1]DFS [2]BFS [3]Disjoint-Set \n使用Disjoint-Set的話需要紀錄成二維的，或是需要多經過一層轉換。後來研究比較好的作法是直接做成一個Class，存成parent map，這樣就不限任何型態。在Number of Islands II則因為要紀錄狀態，一定得使用Union-Find。", 
     "Date": "2022-05-10"
 },
 {
@@ -3439,9 +3439,11 @@
     "Tags": [
         "Graph", 
         "DFS", 
-        "Union-Find"
+        "Union-Find",
+        "##Google", 
+        "##Microsoft"
     ], 
-    "Memo": "", 
+    "Memo": "[1]DFS，掃描每一個邊，試試看能否從v1走到v2，如果可以代表這邊是第一個多餘邊。如果不行，就加入該邊進入圖內。[2]DSU，把Union動作加入True/False的返回，如果可以加入代表兩點不屬於同一塊，如果不能加入(False)則代表兩點在同一塊，返回這個邊。", 
     "Date": "2021-12-30"
 },
 {

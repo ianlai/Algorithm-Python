@@ -49,7 +49,6 @@ class UnionFind5:
                 self.parents[head2] = -rank 
             return True
 
-
 class DisjointSet:
     def __init__(self):
         self.parent = {}
@@ -84,12 +83,80 @@ class DisjointSet:
     def _union_root(self, root, node):
         self.parent[node] = root
         self.rank[root] = max(self.rank[root], self.rank[node] + 1)
+ 
 
+class DSU8:
+    def __init__(self):
+        self.parent = {}
+        self.rank = {}
+        self.count = 0 
         
+    def find(self, x):
+        if x in self.parent:
+            if x == self.parent[x]:
+                return x
+            rx = self.find(self.parent[x])
+            self.parent[x] = rx
+            return rx
+        else:
+            self.parent[x] = x
+            self.rank[x] = 0
+            self.count += 1
+            return x 
+            
+    def union(self, x, y):
+        rx, ry = self.find(x), self.find(y)
+        if rx != ry:
+            if self.rank[rx] < self.rank[ry]:
+                self.parent[rx] = ry
+                self.rank[rx] = max(self.rank[ry], self.rank[rx] + 1)
+            else:
+                self.parent[ry] = rx
+                self.rank[ry] = max(self.rank[rx], self.rank[ry] + 1)
+            self.count -= 1
+            return True  #可連接
+        return False     #不可連接
+
 class Solution:
+    
+    
+    # 2022/05/10
+    # Disjoint Set [O(E*a(V)) = O(E): 70% / O(V):6%]
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+        print("Code8")
+        dsu = DSU8()
+        for v1, v2 in edges:
+            if not dsu.union(v1, v2): #不可連接，因為本來就連著，是同一塊
+                return [v1, v2]
+                
+        
+    # 2022/05/10
+    # DFS [O(VE): 33% / O(V):6%]
+    def findRedundantConnection7(self, edges: List[List[int]]) -> List[int]:
+        print("Code7")
+        def dfs(v1, v2, visited):
+            if v1 == v2:
+                return True
+            if v1 in visited:
+                return False
+            visited.add(v1)
+            for nv in graph[v1]:
+                if dfs(nv, v2, visited):
+                    return True
+                
+        graph = collections.defaultdict(set)
+        for v1, v2 in edges:
+            visited = set()
+            if dfs(v1, v2, visited): #加之前就到的了
+                return [v1, v2]
+            else: #加入這條邊
+                graph[v1].add(v2)
+                graph[v2].add(v1)
+        return None
+    
     # 2021/12/30
     # Union-Find, general class [O(): 16%]
-    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+    def findRedundantConnection6(self, edges: List[List[int]]) -> List[int]:
         print("Code6: UnionFind Class + General implementation (大神)")
         disjointSet = DisjointSet()
         for v1, v2 in edges:
