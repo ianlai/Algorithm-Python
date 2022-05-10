@@ -18,7 +18,8 @@
     "Title": "Add Two Numbers", 
     "Url": "https://leetcode.com/problems/add-two-numbers", 
     "Tags": [
-        "LinkedList"
+        "LinkedList", 
+        "**大波"
     ], 
     "Memo": "", 
     "Date": "2021-06-07"
@@ -1728,7 +1729,7 @@
         "DFS"
     ], 
     "Memo": "", 
-    "Date": "2021-05-30"
+    "Date": "2022-05-10"
 },
 {
     "Number": "0221", 
@@ -3439,12 +3440,12 @@
     "Tags": [
         "Graph", 
         "DFS", 
-        "Union-Find",
+        "Union-Find", 
         "##Google", 
         "##Microsoft"
     ], 
     "Memo": "[1]DFS，掃描每一個邊，試試看能否從v1走到v2，如果可以代表這邊是第一個多餘邊。如果不行，就加入該邊進入圖內。[2]DSU，把Union動作加入True/False的返回，如果可以加入代表兩點不屬於同一塊，如果不能加入(False)則代表兩點在同一塊，返回這個邊。", 
-    "Date": "2021-12-30"
+    "Date": "2022-05-10"
 },
 {
     "Number": "0687", 
