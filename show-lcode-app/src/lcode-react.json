@@ -1608,10 +1608,11 @@
         "Island", 
         "BFS", 
         "DFS", 
-        "Union-Find"
+        "Union-Find", 
+        "**BASIC"
     ], 
     "Memo": "使用Union-Find的話需要紀錄成二維的，或是需要多經過一層轉換。Number of Islands II則就需要使用Union-Find。", 
-    "Date": "2022-03-07"
+    "Date": "2022-05-10"
 },
 {
     "Number": "0206", 
@@ -3246,7 +3247,8 @@
     "Url": "https://leetcode.com/problems/out-of-boundary-paths", 
     "Tags": [
         "DP", 
-        "Memoization"
+        "Memoization", 
+        "**大波"
     ], 
     "Memo": "", 
     "Date": "2022-01-25"
@@ -4052,8 +4054,8 @@
     "Tags": [
         "DP"
     ], 
-    "Memo": "", 
-    "Date": "2021-07-09"
+    "Memo": "Buttom-Up還蠻容易做的，每一層都有10個值，可以用這題來練習Space Optimization。", 
+    "Date": "2022-05-10"
 },
 {
     "Number": "0938", 
@@ -4578,6 +4580,7 @@
     "Url": "https://leetcode.com/problems/minimum-knight-moves", 
     "Tags": [
         "BFS", 
+        "BFS-雙向", 
         "**CHECK"
     ], 
     "Memo": "可以再優化。", 
@@ -4622,7 +4625,8 @@
     "Url": "https://leetcode.com/problems/two-sum-bsts", 
     "Tags": [
         "BST", 
-        "Two-Sum"
+        "Two-Sum", 
+        "**大波"
     ], 
     "Memo": "", 
     "Date": "2021-07-19"
@@ -5012,11 +5016,13 @@
     "Url": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings", 
     "Tags": [
         "String", 
+        "DFS", 
         "Backtracking", 
-        "**大波"
+        "**大波", 
+        "##Microsoft"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-16"
+    "Memo": "使用Backtracking不斷做出新的path，並且紀錄最長path，要記得退棧。最後回傳最大值。", 
+    "Date": "2022-05-10"
 },
 {
     "Number": "1631", 

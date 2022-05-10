@@ -14,6 +14,7 @@ class DisjointSet:
         self.parent[y] = x # y attached to x 
         #self.parent[x] = y # x attached to y (won't work if we find cur only once)
 
+# INCORRECT (optimization not work)
 class DisjointSetOptimized:
     def __init__(self):
         self.parent = {} 
@@ -39,12 +40,68 @@ class DisjointSetOptimized:
         else:
             self.parent[y] = x #attach y to x
             self.rank[x] = max(self.rank[x], self.rank[y] + 1)
-    
+
+class DisjointSetNew:
+    def __init__(self):
+        self.count = 0
+        self.parent = {}
+        self.rank = {} #代表高度，不是個數！
+
+    #找不到就做新的，指向自己(包含新增功能)
+    #找的到就追到root，同時一路改成指向root。
+    def find(self, x):
+        # add new
+        if x not in self.parent:
+            self.count += 1
+            self.parent[x] = x
+            self.rank[x] = 0 #0或1都可以 (0代表是真的高度，一顆的時候就沒有高度)
+            return x
+
+        # find
+        if x != self.parent[x]:
+            # optimized-1: path compression
+            self.parent[x] = self.find(self.parent[x])
+            return self.parent[x]
+        else:
+            return x
+
+    #小的接大的
+    #可把判斷是否相同也包起來
+    #運算都在root上，不是x,y上 否則根本沒效果！
+    def union(self, x, y): 
+        rx = self.find(x)
+        ry = self.find(y)
+        if rx != ry:
+            self.count -= 1
+            # optimized-2: union by rank (attach small to big)
+            if self.rank[rx] < self.rank[ry]:
+                self.parent[rx] = ry  # attach rx to ry
+                self.rank[ry] = max(self.rank[ry], self.rank[rx] + 1)
+            else:
+                self.parent[ry] = rx #attach ry to rx
+                self.rank[rx] = max(self.rank[rx], self.rank[ry] + 1)
 class Solution:
     
+    # 2022/05/10
+    # Union-Find optimization [O(MN*a(MN)): 58%]
+    def numIslands(self, grid: List[List[str]]) -> int:
+        print("Code-8")
+        dj = DisjointSetNew()
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == "1":
+                    dj.find((i, j))
+                    for li, lj in [(i-1, j), (i, j-1)]:
+                        if not (0 <= li < len(grid) or 0 <= lj < len(grid[0])):
+                            continue
+                        if grid[li][lj] == "0":
+                            continue
+                        dj.union((li, lj), (i, j))
+        return dj.count
+                        
     # 2022/03/06
     # Union-Find; create Disjoint-Set class (optimized) [O(): 58%]
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands7(self, grid: List[List[str]]) -> int:
         print("Code-7")
         dset = DisjointSetOptimized()
         islandCount = 0

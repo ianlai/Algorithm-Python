@@ -991,9 +991,9 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   97 /  569
-Solved / Total (Medium):  316 / 1205
+Solved / Total (Medium):  316 / 1206
 Solved / Total (Hard)  :   38 /  493
-Solved / Total (All)   :  451 / 2267
+Solved / Total (All)   :  451 / 2268
 Total Score            : 1235
 =====================================
 
