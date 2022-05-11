@@ -2325,7 +2325,7 @@
     "Url": "https://leetcode.com/problems/number-of-islands-ii", 
     "Tags": [
         "Union-Find", 
-        "Graph",
+        "Graph", 
         "Matrix", 
         "Island"
     ], 
@@ -3700,14 +3700,17 @@
     "Url": "https://leetcode.com/problems/network-delay-time", 
     "Tags": [
         "Graph", 
+        "DFS", 
+        "BFS", 
         "SSSP", 
         "Dijkstra", 
         "Bellman-Ford", 
         "Heap", 
-        "**BASIC"
+        "**BASIC", 
+        "**CHECK"
     ], 
-    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。", 
-    "Date": "2021-12-31"
+    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。後來發現DFS和BFS也都能解，利用超過時間就跳出的這個特性使的我們不會進入環，但DFS會超時，BFS則不會。", 
+    "Date": "2022-05-11"
 },
 {
     "Number": "0752", 
@@ -4282,7 +4285,7 @@
         "DFS", 
         "Matrix", 
         "Island", 
-        "Graph",
+        "Graph", 
         "**BASIC", 
         "##Google"
     ], 

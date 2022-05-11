@@ -1,8 +1,93 @@
 class Solution:
     
+    # 2022/05/11
+    # BFS [O(VE): 52%]
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        print("Code7: BFS")
+        def bfs(graph, distance, start):
+            deq = collections.deque([(start, 0)])
+            while deq:
+                cur, time = deq.popleft()  #pop()就會TLE
+                if time >= distance[cur]:
+                    continue
+                distance[cur] = time 
+                for nxt, w in graph[cur].items():
+                    deq.append([nxt, time + w])
+                    
+        #Form graph map
+        graph = collections.defaultdict(dict) #v1 -> v2 -> d
+        for v1, v2, w in times:
+            graph[v1][v2] = w
+            
+        #Form distance map
+        distance = {}
+        for i in range(1, n+1):
+            distance[i] = inf
+        #distance[k] = 0  
+        
+        bfs(graph, distance, k)
+        
+        totalTime = max(distance.values())
+        return totalTime if totalTime != inf else -1
+    
+    # 2022/05/11
+    # DFS [TLE]
+    def networkDelayTime6(self, times: List[List[int]], n: int, k: int) -> int:
+        print("Code6: DFS")
+        def dfs(graph, distance, cur, timeElapsed):
+            if timeElapsed > distance[cur]:
+                return 
+            distance[cur] = timeElapsed
+            for nxt, w in graph[cur].items():
+                dfs(graph, distance, nxt, timeElapsed + w)
+            
+        graph = collections.defaultdict(dict) #v1 -> v2 -> d
+        #distance = collections.defaultdict(lambda: inf) #會有些node沒有被設定初始值
+        distance = {}
+        for i in range(1, n+1):
+            distance[i] = inf
+        
+        for v1, v2, w in times:
+            graph[v1][v2] = w
+        
+        distance[k] = 0
+        dfs(graph, distance, k, 0)
+        totalTime = max(distance.values())
+        return totalTime if totalTime != inf else -1
+        
+        
+    # 2022/05/04 
+    # Dijkstra [O(ElogV): 27%]
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        print("Code5: Dijkstra")
+        
+        #Parse to prepare cost matrix 
+        cost = collections.defaultdict(dict)  #c[u, v]
+        for u, v, w in times:
+            cost[u][v] = w
+        
+        #Dijkstra to update distance array
+        distance = [inf] * (n + 1)
+        distance[k] = 0
+        heap = [(0, k)]
+        while heap:
+            p, u = heapq.heappop(heap)
+            distance[u] = min(distance[u], p)
+            
+            for v, w in cost[u].items():  
+                if distance[u] + w < distance[v]:  #去v的距離
+                    heapq.heappush(heap, (distance[u] + w, v))
+                    
+        if any(time == inf for time in distance[1:]):
+            return -1
+        else:
+            return max(distance[1:])
+        
+    # =========================================================
+    
     # 2021/12/31 
     # Bellmon-Ford [O(EV): 7% -> 29%(with optimization)]
-    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+    def networkDelayTime4(self, times: List[List[int]], n: int, k: int) -> int:
         print("Code4: Bellmon-Ford")
         
         distance = [inf] * (n + 1)
