@@ -474,6 +474,7 @@ algo
 │   ├── __1358__Number of Substrings Containing All Three Characters.py
 │   ├── __1679__Max Number of K-Sum Pairs.py
 │   ├── __1711__Count Good Meals.py
+│   ├── __1838__Frequency of the Most Frequent Element.py
 │   └── __2155__All Divisions With the Highest Score of a Binary Array.py
 ├── UnionFind
 │   ├── DisjointSet.py
@@ -533,7 +534,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-37 directories, 494 files
+37 directories, 495 files
 
 =====================================
 ============= Leetcode ==============
@@ -960,6 +961,7 @@ algo
  1762 Buildings With an Ocean View
  1774 Closest Dessert Cost
  1804 Implement Trie II (Prefix Tree)
+ 1838 Frequency of the Most Frequent Element
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
  1971 Find if Path Exists in Graph
@@ -991,10 +993,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   97 /  569
-Solved / Total (Medium):  316 / 1206
+Solved / Total (Medium):  317 / 1206
 Solved / Total (Hard)  :   38 /  493
-Solved / Total (All)   :  451 / 2268
-Total Score            : 1235
+Solved / Total (All)   :  452 / 2268
+Total Score            : 1238
 =====================================
 
 ```

@@ -5172,6 +5172,14 @@
     "Date": "2022-01-17"
 },
 {
+    "Number": "1838", 
+    "Level": 2, 
+    "Title": "Frequency of the Most Frequent Element", 
+    "Url": "https://leetcode.com/problems/frequency-of-the-most-frequent-element", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1905", 
     "Level": 2, 
     "Title": "Count Sub Islands", 
