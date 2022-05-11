@@ -8,6 +8,8 @@ const LevelList = ({
   setSelectedLevelIds,
   isHide,
   setIsHide,
+  isHideStar,
+  setIsHideStar,
 }) => {
   return (
     <div className="LevelFilterRow">
@@ -37,7 +39,15 @@ const LevelList = ({
           }}
           className = {isHide === true ? "button button-hide" : "button button-show"}
         > 
-          {isHide === true ? "Hide" : "Show"}
+          {isHide === true ? "Hide ##" : "Show ##"}
+        </button>
+        <button
+          onClick={() => {
+            setIsHideStar(!isHideStar);
+          }}
+          className = {isHideStar === true ? "button button-hide" : "button button-show"}
+        > 
+          {isHideStar === true ? "Hide **" : "Show **"}
         </button>
       </ul>
     </div>

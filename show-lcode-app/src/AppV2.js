@@ -98,6 +98,7 @@ const AppV2 = () => {
   const [selectedLevelIds, setSelectedLevelIds] = useState([]);
   const [selectedTagIds, setSelectedTagIds] = useState([]);
   const [isHide, setIsHide] = useState(false);
+  const [isHideStar, setIsHideStar] = useState(false);
 
   console.log(
     "[App]",
@@ -118,11 +119,14 @@ const AppV2 = () => {
         setSelectedLevelIds={setSelectedLevelIds}
         isHide={isHide}
         setIsHide={setIsHide}
+        isHideStar={isHideStar}
+        setIsHideStar={setIsHideStar}
       />
       <TagList
         selectedTagIds={selectedTagIds}
         setSelectedTagIds={setSelectedTagIds}
         isHide={isHide}
+        isHideStar={isHideStar}
       />
       <DataTable
         selectedTagIds={selectedTagIds}
@@ -130,6 +134,7 @@ const AppV2 = () => {
         selectedLevelIds={selectedLevelIds}
         setSelectedLevelIds={setSelectedLevelIds}
         isHide={isHide}
+        isHideStar={isHideStar}
       />
     </div>
   );

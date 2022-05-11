@@ -35,10 +35,11 @@ function LcodeRowV2(props) {
         </a>
       </th>
       <th style={{ width: "15%" }}>
-        {
-        props.tags.sort().map((tag) => {
+        {props.tags.sort().map((tag) => {
           if (props.isHide) {
             if (tag.startsWith("##")) return;
+          }
+          if (props.isHideStar) {
             if (tag.startsWith("**")) return;
           }
           const isSelected = selectedTagIds.indexOf(tag) !== -1;
@@ -49,12 +50,10 @@ function LcodeRowV2(props) {
               onClickTagButton={handleTagClick(tag)}
             />
           );
-        })
-        }
+        })}
       </th>
-      <th style={{ width: "50%" }}> {props.memo}  </th>
+      <th style={{ width: "50%" }}> {props.memo} </th>
       <th style={{ color: "rgb(138 166 229)", width: "8%" }}> {props.date} </th>
-
     </tr>
   );
 }

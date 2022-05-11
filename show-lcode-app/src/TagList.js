@@ -3,7 +3,7 @@ import { ALL_TAG_LIST } from "./data";
 import FilterTagButton from "./FilterTagButton";
 import TagButtonV2 from "./TagButtonV2";
 
-const TagList = ({ selectedTagIds, setSelectedTagIds, isHide }) => {
+const TagList = ({ selectedTagIds, setSelectedTagIds, isHide, isHideStar }) => {
   const handleClick = (tagId) => () => {
     const updatedSelectedTags = selectedTagIds.find(
       (targetTagId) => targetTagId === tagId
@@ -27,6 +27,8 @@ const TagList = ({ selectedTagIds, setSelectedTagIds, isHide }) => {
       {ALL_TAG_LIST.map((tag) => {
         if (isHide) {
           if (tag.id.startsWith("##")) return;
+        }
+        if (isHideStar) {
           if (tag.id.startsWith("**")) return;
         }
         const isSelected = selectedTagIds.indexOf(tag.id) !== -1;

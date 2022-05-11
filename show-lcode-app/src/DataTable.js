@@ -7,7 +7,8 @@ const DataTable = ({
   setSelectedTagIds,
   selectedLevelIds,
   setSelectedLevelIds,
-  isHide
+  isHide,
+  isHideStar
 }) => {
   const SORT_BY = {
     ID_ASC: 1,
@@ -116,7 +117,7 @@ const DataTable = ({
             selectedTagIds={selectedTagIds}
             setSelectedTagIds={setSelectedTagIds}
             isHide={isHide}
-
+            isHideStar={isHideStar}
             // onClickTagButton={handleClickLevelButton}
             // onClickLevelButton={handleClickLevelButton(l.Level)}
           />

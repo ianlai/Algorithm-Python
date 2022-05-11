@@ -2325,6 +2325,7 @@
     "Url": "https://leetcode.com/problems/number-of-islands-ii", 
     "Tags": [
         "Union-Find", 
+        "Graph",
         "Matrix", 
         "Island"
     ], 
@@ -4281,6 +4282,7 @@
         "DFS", 
         "Matrix", 
         "Island", 
+        "Graph",
         "**BASIC", 
         "##Google"
     ], 
