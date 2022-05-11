@@ -5176,8 +5176,12 @@
     "Level": 2, 
     "Title": "Frequency of the Most Frequent Element", 
     "Url": "https://leetcode.com/problems/frequency-of-the-most-frequent-element", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Two-Pointer", 
+        "Sliding-Window"
+    ], 
+    "Memo": "一開始我一直想把相同數字用CountMap聚合在一起，那真的只是在幫自己找麻煩。直接把數字排好之後，用SlidingWindow的方法就可以找到答案，不需要追求額外的加速。", 
+    "Date": "2022-05-11"
 },
 {
     "Number": "1905", 
@@ -5190,10 +5194,11 @@
         "Graph", 
         "Matrix", 
         "Island", 
+        "**GOOD", 
         "**大波"
     ], 
-    "Memo": "", 
-    "Date": "2021-11-15"
+    "Memo": "有兩個板，一開始直覺會想0,1四種組合的差異，但要知道需要在連通塊層次考慮而不是一個點而已。因此，不能一開始就單純的掃，把grid1和grid2都為1的保留下來，因為只要island2有突出去而island1包不到就也不能算。\n 解法可以用DFS或BFS來寫都行，放入或取出後處理也都可以，再搭配一個isSubisland變數來存這個island2究竟要不要被計算。", 
+    "Date": "2022-05-11"
 },
 {
     "Number": "1937", 
