@@ -2513,7 +2513,7 @@
         "Sorting", 
         "**BASIC"
     ], 
-    "Memo": "[1]Sorting->O(nlogn)\n[2]MaxHeap->O(n+klogn)\n[3]MinHeap->O(k+(n-k)logk)\n[4]QuickSelect->Avg:O(n) Worst:O(n2)", 
+    "Memo": "[1]Sorting->O(nlogn)\n [2]MaxHeap->O(n+klogn)\n [3]MinHeap->O(k+(n-k)logk)\n [4]QuickSelect->Avg:O(n) Worst:O(n2)", 
     "Date": "2022-03-07"
 },
 {
@@ -5056,10 +5056,13 @@
     "Url": "https://leetcode.com/problems/count-sorted-vowel-strings", 
     "Tags": [
         "DP", 
+        "DFS", 
+        "BFS", 
+        "Math", 
         "##Google"
     ], 
-    "Memo": "要用兩個DP陣列，關係式要想清楚，要多列幾層，否則可能會誤以為找到了。", 
-    "Date": "2022-03-09"
+    "Memo": "[1]DFS/BFS都可列出全部的答案（計數）\n [2]DP，這應該是標準解法，時間和空間都是二維陣列，其中一維度只有5，所以就是O(N)。可以把空間做Optimization，可以看出只需要一列一列不斷往身上累加，因此可以只開一排5格的DP array，那空間複雜度就可以降為O(1)。\n [3]Math 數學解，題目剛好是重複排列H(5,n)，轉換成C(n+4, n)。用這方法可以O(1)的時間和空間找出答案。", 
+    "Date": "2022-05-11"
 },
 {
     "Number": "1644", 
