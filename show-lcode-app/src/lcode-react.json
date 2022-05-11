@@ -1370,10 +1370,10 @@
         "LinkedList", 
         "Cache", 
         "Design", 
-        "**CHECK"
+        "**GOOD"
     ], 
-    "Memo": "", 
-    "Date": "2021-06-07"
+    "Memo": "使用Double LinkedList比較好做，就可以達到Get/Put/Update/Evict都是O(1)的速度。一開始就寫一個head/tail，所有的點都在這個head/tail裡面，並把對node操作的兩個函數AddNode/RemoveNode都獨立封裝在最底層，中層包含了AddHead/PopTail/MoveToHead三個函數，就很整潔不會難寫。", 
+    "Date": "2022-05-11"
 },
 {
     "Number": "0148", 
