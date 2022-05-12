@@ -1,4 +1,4 @@
-function FilterLevelButton(props) {
+function LevelButtonV2(props) {
   let classNameLevel = "button ";
   if (props.level === 1) {
     classNameLevel += "button-easy ";
@@ -8,7 +8,6 @@ function FilterLevelButton(props) {
     classNameLevel += "button-hard ";
   }
   classNameLevel += props.isSelected ? "clicked" : "";
-  //console.log("classNameLevel:", classNameLevel);
 
   const handleClickLevelButton = (levelId) => () => {
     let selectedLevelIds = props.selectedLevelIds;
@@ -20,8 +19,6 @@ function FilterLevelButton(props) {
   };
   return (
     <button
-      //   class="button-filter"
-      //   style={{ border: props.isSelected ? '5px solid black' : ''}}
       className={classNameLevel}
       onClick={handleClickLevelButton(props.level)}
     >
@@ -29,4 +26,4 @@ function FilterLevelButton(props) {
     </button>
   );
 }
-export default FilterLevelButton;
+export default LevelButtonV2;

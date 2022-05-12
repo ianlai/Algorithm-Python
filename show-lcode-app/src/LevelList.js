@@ -1,7 +1,6 @@
 import React from "react";
 import { ALL_LEVEL_LIST } from "./data";
-import TagButton from "./TagButtonV2";
-import FilterLevelButton from "./FilterLevelButton";
+import LevelButtonV2 from "./LevelButtonV2";
 
 const LevelList = ({
   selectedLevelIds,
@@ -22,11 +21,9 @@ const LevelList = ({
         }}
       >
         {ALL_LEVEL_LIST.map((t) => {
-          const isSelected = selectedLevelIds.indexOf(t.id) !== -1;
           return (
-            <FilterLevelButton
+            <LevelButtonV2
               name={t.name + " (" + t.count + ")"}
-              //isSelected={isSelected}
               level={t.id}
               selectedLevelIds={selectedLevelIds}
               setSelectedLevelIds={setSelectedLevelIds}

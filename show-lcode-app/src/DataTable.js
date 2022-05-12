@@ -19,20 +19,12 @@ const DataTable = ({
 
   const [sortBy, setSortBy] = useState(SORT_BY.ID_ASC);
 
-  const handleClickLevelButton = (levelId) => () => {
-    const updated = selectedLevelIds.find((id) => id === levelId)
-      ? selectedLevelIds.filter((id) => id !== levelId)
-      : [...selectedLevelIds, levelId];
-    setSelectedLevelIds(updated);
-  };
-
   const handleClickSortById = () => {
     if (sortBy !== SORT_BY.ID_ASC) {
       setSortBy(SORT_BY.ID_ASC);
     } else {
       setSortBy(SORT_BY.ID_DESC);
     }
-    console.log("sortBy:", sortBy)
   };
 
   const handleClickSortByDate = () => {
@@ -41,8 +33,9 @@ const DataTable = ({
     } else {
       setSortBy(SORT_BY.DATE_DESC);
     }
-    console.log("sortBy:", sortBy)
   };
+
+  //Step1: filtered by tag
   const filteredByTagData =
     selectedTagIds.length > 0
       ? DATA.filter((data) =>
@@ -51,6 +44,7 @@ const DataTable = ({
         )
       : DATA;
 
+  //Step2: filtered by tag and level 
   const filteredData =
     selectedLevelIds.length > 0
       ? filteredByTagData.filter((data) =>
@@ -58,6 +52,7 @@ const DataTable = ({
         )
       : filteredByTagData;
 
+  //Step3: filtered by tag and level and sorted 
   const sortedData = filteredData.sort((a, b) => {
     if (sortBy === SORT_BY.ID_ASC) {
       if (a.Number < b.Number) return 1;
@@ -76,10 +71,8 @@ const DataTable = ({
       else if (a.Date === b.Date) return 0;
       else return -1;
     }
+    return null //exception
   });
-
-  console.log("[DataTable.js] selectedLevelIds", selectedLevelIds);
-  console.log("[DataTable.js] selectedTagIds", selectedTagIds);
 
   return (
     <table class="styled-table" style={{ width: "100%" }}>
@@ -116,10 +109,9 @@ const DataTable = ({
             setSelectedLevelIds={setSelectedLevelIds}
             selectedTagIds={selectedTagIds}
             setSelectedTagIds={setSelectedTagIds}
+
             isHide={isHide}
             isHideStar={isHideStar}
-            // onClickTagButton={handleClickLevelButton}
-            // onClickLevelButton={handleClickLevelButton(l.Level)}
           />
         ))}
       </tbody>

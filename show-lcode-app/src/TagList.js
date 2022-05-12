@@ -1,6 +1,5 @@
 import React from "react";
 import { ALL_TAG_LIST } from "./data";
-import FilterTagButton from "./FilterTagButton";
 import TagButtonV2 from "./TagButtonV2";
 
 const TagList = ({ selectedTagIds, setSelectedTagIds, isHide, isHideStar }) => {
@@ -26,10 +25,10 @@ const TagList = ({ selectedTagIds, setSelectedTagIds, isHide, isHideStar }) => {
     >
       {ALL_TAG_LIST.map((tag) => {
         if (isHide) {
-          if (tag.id.startsWith("##")) return;
+          if (tag.id.startsWith("##")) return null;
         }
         if (isHideStar) {
-          if (tag.id.startsWith("**")) return;
+          if (tag.id.startsWith("**")) return null;
         }
         const isSelected = selectedTagIds.indexOf(tag.id) !== -1;
         return (
@@ -38,10 +37,7 @@ const TagList = ({ selectedTagIds, setSelectedTagIds, isHide, isHideStar }) => {
               <TagButtonV2
                 type={"all"}
                 isSelected={isSelected}
-                // isAllTag={true}
-                // tagName={tag.id}
                 showName={tag.id + "(" + tag.count + ")"}
-                // onClickTagButton={onClickTagButton}
                 onClickTagButton={handleClick(tag.id)}
               />
             </li>

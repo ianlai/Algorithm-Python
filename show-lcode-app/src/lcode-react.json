@@ -1726,9 +1726,11 @@
     "Title": "Combination Sum III", 
     "Url": "https://leetcode.com/problems/combination-sum-iii", 
     "Tags": [
-        "DFS"
+        "DFS",
+        "Backtracking",
+        "BFS"
     ], 
-    "Memo": "", 
+    "Memo": "基本的Backtracking題目，原本以為一定是走DFS路線，不過最近發現用BFS每次都在一群array中往後塞新的值也是可以寫的，有趣。", 
     "Date": "2022-05-10"
 },
 {
@@ -4862,9 +4864,10 @@
         "HashMap", 
         "Matrix", 
         "DFS", 
+        "Union-Find",
         "**GOOD"
     ], 
-    "Memo": "", 
+    "Memo": "我自己是用DFS找到一條路可以抵達終點，但也看到有人是用DSU來寫。", 
     "Date": "2022-05-08"
 },
 {

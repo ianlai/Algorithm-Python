@@ -1,5 +1,4 @@
-import LevelButton from "./xxLevelButton";
-import FilterLevelButton from "./FilterLevelButton";
+import LevelButtonV2 from "./LevelButtonV2";
 import TagButtonV2 from "./TagButtonV2";
 
 function LcodeRowV2(props) {
@@ -21,7 +20,7 @@ function LcodeRowV2(props) {
   return (
     <tr class="active-row">
       <th style={{ width: "5%" }}>
-        <FilterLevelButton
+        <LevelButtonV2
           name={props.id}
           level={props.level}
           selectedLevelIds={selectedLevelIds}
@@ -37,10 +36,10 @@ function LcodeRowV2(props) {
       <th style={{ width: "15%" }}>
         {props.tags.sort().map((tag) => {
           if (props.isHide) {
-            if (tag.startsWith("##")) return;
+            if (tag.startsWith("##")) return null;
           }
           if (props.isHideStar) {
-            if (tag.startsWith("**")) return;
+            if (tag.startsWith("**")) return null;
           }
           const isSelected = selectedTagIds.indexOf(tag) !== -1;
           return (

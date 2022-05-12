@@ -40,7 +40,7 @@ targets = [2, 3, 4, 5, 6, 7, 8]
 arr = [3, 5, 5, 7]  #search array
 print(arr)
 for t in targets:
-  print(t, "=> L:", binarySearchLeft(arr, t), bisect.bisect_left(arr,t), "---- R:", binarySearchRight(arr, t), bisect.bisect(arr, t))
+  print(t, "=> L:", binarySearchLeft(arr, t), bisect.bisect_left(arr, t), "---- R:", binarySearchRight(arr, t), bisect.bisect(arr, t))
 
 
 

@@ -6,12 +6,6 @@ import FilterLevelButton from "./FilterLevelButton.js";
 import TagButton from "./TagButton";
 import DATA from "./lcode-react.json";
 
-const LEVEL = {
-  EASY: 1,
-  MEDIUM: 2,
-  HARD: 3
-};
-
 const SORT_BY = {
   ID_ASC: 1,
   ID_DESC: 2,
