@@ -494,6 +494,8 @@ algo
 ├── _Practice
 │   ├── AZ
 │   │   └── MaxSubarrayLength.py
+│   ├── GL
+│   │   └── TriangleChecker.py
 │   ├── ID-KT
 │   │   ├── Ancestor.py
 │   │   ├── BadgeAccess.py
@@ -534,7 +536,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-37 directories, 495 files
+38 directories, 496 files
 
 =====================================
 ============= Leetcode ==============

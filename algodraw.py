@@ -201,7 +201,7 @@ def draw(dates, values):
     #     plt.savefig(fileName)
 
     #2022
-    for month in range(1, 4, 1):
+    for month in range(1, 6):
         monthStr = str(month).zfill(2)
         dateStr = "2022." + monthStr 
         numberTitle = "Number of Quiz (" + dateStr + ")"
