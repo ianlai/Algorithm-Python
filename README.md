@@ -109,6 +109,7 @@ algo
 │   ├── __0212__Word Search II.py
 │   ├── __0216__Combination Sum III.py
 │   ├── __0247__Strobogrammatic Number II.py
+│   ├── __0267__Palindrome Permutation II.py
 │   ├── __0291__Word Pattern II.py
 │   ├── __0329__Longest Increasing Path in a Matrix.py
 │   ├── __0401__Binary Watch.py
@@ -224,6 +225,7 @@ algo
 │   ├── __0244__Shortest Word Distance II.py
 │   ├── __0249__Group Shifted Strings.py
 │   ├── __0260__Single Number III.py
+│   ├── __0266__Palindrome Permutation.py
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
 │   ├── __0349__Intersection of Two Arrays.py
@@ -537,7 +539,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-38 directories, 497 files
+38 directories, 499 files
 
 =====================================
 ============= Leetcode ==============
@@ -715,6 +717,8 @@ algo
  0261 Graph Valid Tree
  0263 Ugly Number
  0264 Ugly Number II
+ 0266 Palindrome Permutation
+ 0267 Palindrome Permutation II
  0270 Closest Binary Search Tree Value
  0277 Find the Celebrity
  0278 First Bad Version
@@ -996,11 +1000,11 @@ algo
  2257 Count Unguarded Cells in the Grid
  2258 Escape the Spreading Fire
 =====================================
-Solved / Total (Easy)  :   97 /  569
-Solved / Total (Medium):  318 / 1206
+Solved / Total (Easy)  :   98 /  569
+Solved / Total (Medium):  319 / 1206
 Solved / Total (Hard)  :   38 /  493
-Solved / Total (All)   :  453 / 2268
-Total Score            : 1241
+Solved / Total (All)   :  455 / 2268
+Total Score            : 1245
 =====================================
 
 ```

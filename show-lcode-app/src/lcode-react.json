@@ -1076,7 +1076,8 @@
     "Title": "Populating Next Right Pointers in Each Node II", 
     "Url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-13"
 },
 {
     "Number": "0118", 
@@ -2121,6 +2122,24 @@
     ], 
     "Memo": "", 
     "Date": "2021-06-05"
+},
+{
+    "Number": "0266", 
+    "Level": 1, 
+    "Title": "Palindrome Permutation", 
+    "Url": "https://leetcode.com/problems/palindrome-permutation", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-13"
+},
+{
+    "Number": "0267", 
+    "Level": 2, 
+    "Title": "Palindrome Permutation II", 
+    "Url": "https://leetcode.com/problems/palindrome-permutation-ii", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-13"
 },
 {
     "Number": "0270", 
