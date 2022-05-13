@@ -711,6 +711,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0117", 
+    "Level": 2, 
+    "Title": "Populating Next Right Pointers in Each Node II", 
+    "Url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0118", 
     "Level": 1, 
     "Title": "Pascal's Triangle", 

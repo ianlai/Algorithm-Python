@@ -34,6 +34,7 @@ algo
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
 │   ├── __0107__Binary Tree Level Order Traversal II.py
+│   ├── __0117__Populating Next Right Pointers in Each Node II.py
 │   ├── __0126__Word Ladder II.py
 │   ├── __0127__Word Ladder.py
 │   ├── __0133__Clone Graph.py
@@ -536,7 +537,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-38 directories, 496 files
+38 directories, 497 files
 
 =====================================
 ============= Leetcode ==============
@@ -629,6 +630,7 @@ algo
  0113 Path Sum II
  0114 Flatten Binary Tree to Linked List
  0116 Populating Next Right Pointers in Each Node
+ 0117 Populating Next Right Pointers in Each Node II
  0118 Pascal's Triangle
  0119 Pascal's Triangle II
  0120 Triangle
@@ -995,10 +997,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   97 /  569
-Solved / Total (Medium):  317 / 1206
+Solved / Total (Medium):  318 / 1206
 Solved / Total (Hard)  :   38 /  493
-Solved / Total (All)   :  452 / 2268
-Total Score            : 1238
+Solved / Total (All)   :  453 / 2268
+Total Score            : 1241
 =====================================
 
 ```
