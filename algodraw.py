@@ -123,7 +123,7 @@ def draw(dates, values):
     title="Score of Quiz (2021.04 - 2022.04)")
     axs[0].set_title("Number of Quiz", fontweight = 'bold')
     axs[1].set_title("Score of Quiz", fontweight = 'bold')
-    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2022,3,31)) 
+    axs[0].set_xlim(datetime.datetime(2021,4,1), datetime.datetime(2022,5,31)) 
 
     xloc1 = mdates.MonthLocator()
     xloc2 = mdates.WeekdayLocator(SUNDAY)
