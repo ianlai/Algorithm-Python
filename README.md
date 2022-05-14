@@ -214,6 +214,7 @@ algo
 │   └── __2225__Find Players With Zero or One Losses.py
 ├── Greedy
 │   ├── __0316__Remove Duplicate Letters.py
+│   ├── __0484__Find Permutation.py
 │   ├── __1029__Two City Scheduling.py
 │   ├── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
 │   └── __2216__Minimum Deletions to Make Array Beautiful.py
@@ -539,7 +540,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-38 directories, 499 files
+38 directories, 500 files
 
 =====================================
 ============= Leetcode ==============
@@ -783,6 +784,7 @@ algo
  0459 Repeated Substring Pattern
  0474 Ones and Zeroes
  0480 Sliding Window Median
+ 0484 Find Permutation
  0490 The Maze
  0494 Target Sum
  0496 Next Greater Element I
@@ -1001,10 +1003,10 @@ algo
  2258 Escape the Spreading Fire
 =====================================
 Solved / Total (Easy)  :   98 /  569
-Solved / Total (Medium):  319 / 1206
+Solved / Total (Medium):  320 / 1206
 Solved / Total (Hard)  :   38 /  493
-Solved / Total (All)   :  455 / 2268
-Total Score            : 1245
+Solved / Total (All)   :  456 / 2268
+Total Score            : 1248
 =====================================
 
 ```

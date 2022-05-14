@@ -237,7 +237,8 @@
     "Title": "Next Permutation", 
     "Url": "https://leetcode.com/problems/next-permutation", 
     "Tags": [
-        "Two-Pointer"
+        "Two-Pointer", 
+        "Permutation"
     ], 
     "Memo": "", 
     "Date": "2021-08-10"
@@ -379,6 +380,7 @@
     "Url": "https://leetcode.com/problems/permutations", 
     "Tags": [
         "Backtracking", 
+        "Permutation", 
         "**BASIC"
     ], 
     "Memo": "", 
@@ -2157,7 +2159,8 @@
         "Backtracking", 
         "Redundant-Removal", 
         "HashMap", 
-        "Palindrome"
+        "Palindrome", 
+        "Permutation"
     ], 
     "Memo": "是0047 PermutationII (有重複）和 0266 Palindrome Permutation的結合題。主要就是要處理有重複的排列問題。", 
     "Date": "2022-05-13"
@@ -2970,6 +2973,18 @@
     ], 
     "Memo": "LC0295的延伸，一樣是用兩個Heap的方法。SlidingWindow跟DataStream一樣都是要存下上一個狀態，這部分是相同的，但不同的是SlidingWindow還必須要實作刪除的部分。在Heap內的刪除使用內部函數可以達到O(logn)，但找到index來刪除也還是O(n)。也可以直接重新Heapify一次，雖然都是O(n)，但這方法速度會慢一些。", 
     "Date": "2022-03-21"
+},
+{
+    "Number": "0484", 
+    "Level": 2, 
+    "Title": "Find Permutation", 
+    "Url": "https://leetcode.com/problems/find-permutation", 
+    "Tags": [
+        "Greedy", 
+        "Permutation"
+    ], 
+    "Memo": "Backtraking會超時，要用最小排序作為基底，找到有幾個D代表那個區段要反序。", 
+    "Date": "2022-05-14"
 },
 {
     "Number": "0490", 
@@ -3845,7 +3860,8 @@
     "Tags": [
         "String", 
         "DFS", 
-        "Backtracking"
+        "Backtracking", 
+        "Permutation"
     ], 
     "Memo": "", 
     "Date": "2021-05-27"

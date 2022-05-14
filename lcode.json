@@ -1919,6 +1919,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0484", 
+    "Level": 2, 
+    "Title": "Find Permutation", 
+    "Url": "https://leetcode.com/problems/find-permutation", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0490", 
     "Level": 2, 
     "Title": "The Maze", 
