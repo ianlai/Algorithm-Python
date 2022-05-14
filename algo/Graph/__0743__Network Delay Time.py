@@ -1,8 +1,60 @@
 class Solution:
     
+    # 2022/05/14
+    # DFS [5% / 58%]
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        print("Code7: DFS")
+        def dfs(graph, distance, cur, timeElapsed):
+            if timeElapsed >= distance[cur]:
+                return 
+            distance[cur] = timeElapsed
+            for nxt, w in sorted(graph[cur], key = lambda x: x[1]):
+                dfs(graph, distance, nxt, timeElapsed + w)
+            
+        graph = collections.defaultdict(list) #v1 -> [v2, time] 
+        distance = {}
+        for i in range(1, n+1):
+            distance[i] = inf
+        
+        for v1, v2, time in times:
+            graph[v1].append((v2, time))
+        
+        #distance[k] = 0
+        dfs(graph, distance, k, 0)
+        totalTime = max(distance.values())
+        return totalTime if totalTime < inf else -1
+
+    # =========================================================
+
+    # DFS [TLE]
+    def networkDelayTime6(self, times: List[List[int]], n: int, k: int) -> int:
+        print("Code6: DFS (TLE)")
+        def dfs(graph, distance, cur, timeElapsed):
+            if timeElapsed > distance[cur]:
+                return 
+            distance[cur] = timeElapsed
+            for nxt, w in graph[cur].items():
+                dfs(graph, distance, nxt, timeElapsed + w)
+            
+        graph = collections.defaultdict(dict) #v1 -> v2 -> d
+        #distance = collections.defaultdict(lambda: inf) #會有些node沒有被設定初始值
+        distance = {}
+        for i in range(1, n+1):
+            distance[i] = inf
+        
+        for v1, v2, w in times:
+            graph[v1][v2] = w
+        
+        distance[k] = 0
+        dfs(graph, distance, k, 0)
+        totalTime = max(distance.values())
+        return totalTime if totalTime != inf else -1
+
+    # =========================================================
+
     # 2022/05/11
     # BFS [O(VE): 52%]
-    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+    def networkDelayTime7(self, times: List[List[int]], n: int, k: int) -> int:
         print("Code7: BFS")
         def bfs(graph, distance, start):
             deq = collections.deque([(start, 0)])
@@ -30,35 +82,11 @@ class Solution:
         totalTime = max(distance.values())
         return totalTime if totalTime != inf else -1
     
-    # 2022/05/11
-    # DFS [TLE]
-    def networkDelayTime6(self, times: List[List[int]], n: int, k: int) -> int:
-        print("Code6: DFS")
-        def dfs(graph, distance, cur, timeElapsed):
-            if timeElapsed > distance[cur]:
-                return 
-            distance[cur] = timeElapsed
-            for nxt, w in graph[cur].items():
-                dfs(graph, distance, nxt, timeElapsed + w)
-            
-        graph = collections.defaultdict(dict) #v1 -> v2 -> d
-        #distance = collections.defaultdict(lambda: inf) #會有些node沒有被設定初始值
-        distance = {}
-        for i in range(1, n+1):
-            distance[i] = inf
-        
-        for v1, v2, w in times:
-            graph[v1][v2] = w
-        
-        distance[k] = 0
-        dfs(graph, distance, k, 0)
-        totalTime = max(distance.values())
-        return totalTime if totalTime != inf else -1
-        
-        
+    # =========================================================
+
     # 2022/05/04 
     # Dijkstra [O(ElogV): 27%]
-    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+    def networkDelayTime5(self, times: List[List[int]], n: int, k: int) -> int:
         print("Code5: Dijkstra")
         
         #Parse to prepare cost matrix 

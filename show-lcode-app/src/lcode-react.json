@@ -3781,7 +3781,7 @@
         "**CHECK"
     ], 
     "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。後來發現DFS和BFS也都能解，利用超過時間就跳出的這個特性使的我們不會進入環，但DFS會超時，BFS則不會。", 
-    "Date": "2022-05-11"
+    "Date": "2022-05-14"
 },
 {
     "Number": "0752", 
