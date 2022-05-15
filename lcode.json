@@ -3653,6 +3653,46 @@ lcode_data = `
     "Url": "https://leetcode.com/problems/escape-the-spreading-fire", 
     "Tags": [], 
     "Memo": ""
+},
+{
+    "Number": "2269", 
+    "Level": 1, 
+    "Title": "Find the K-Beauty of a Number", 
+    "Url": "https://leetcode.com/problems/find-the-k-beauty-of-a-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2270", 
+    "Level": 2, 
+    "Title": "Number of Ways to Split Array", 
+    "Url": "https://leetcode.com/problems/number-of-ways-to-split-array", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2273", 
+    "Level": 1, 
+    "Title": "Find Resultant Array After Removing Anagrams", 
+    "Url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2274", 
+    "Level": 2, 
+    "Title": "Maximum Consecutive Floors Without Special Floors", 
+    "Url": "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2275", 
+    "Level": 2, 
+    "Title": "Largest Combination With Bitwise AND Greater Than Zero", 
+    "Url": "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero", 
+    "Tags": [], 
+    "Memo": ""
 }
 ]
 `;

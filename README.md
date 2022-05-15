@@ -29,7 +29,9 @@ algo
 │   ├── __2154__Keep Multiplying Found Values by Two.py
 │   ├── __2231__Largest Number After Digit Swaps by Parity.py
 │   ├── __2248__Intersection of Multiple Arrays.py
-│   └── __2256__Minimum Average Difference.py
+│   ├── __2256__Minimum Average Difference.py
+│   ├── __2270__Number of Ways to Split Array.py
+│   └── __2274__Maximum Consecutive Floors Without Special Floors.py
 ├── BFS
 │   ├── __0102__Binary Tree Level Order Traversal.py
 │   ├── __0103__Binary Tree Zigzag Level Order Traversal.py
@@ -86,7 +88,8 @@ algo
 │   ├── __2250__Count Number of Rectangles Containing Each Point.py
 │   └── __2251__Number of Flowers in Full Bloom.py
 ├── BitOperation
-│   └── __0136__Single Number.py
+│   ├── __0136__Single Number.py
+│   └── __2275__Largest Combination With Bitwise AND Greater Than Zero.py
 ├── DFS
 │   ├── __0017__Letter Combinations of a Phone Number.py
 │   ├── __0022__Generate Parentheses.py
@@ -333,7 +336,8 @@ algo
 │   ├── __0179__Largest Number.py
 │   ├── __0242__Valid Anagram.py
 │   ├── __0539__Minimum Time Difference.py
-│   └── __0581__Shortest Unsorted Continuous Subarray.py
+│   ├── __0581__Shortest Unsorted Continuous Subarray.py
+│   └── __2273__Find Resultant Array After Removing Anagrams.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
@@ -361,7 +365,8 @@ algo
 │   ├── __1041__Robot Bounded In Circle.py
 │   ├── __1165__Single-Row Keyboard.py
 │   ├── __2232__Minimize Result by Adding Parentheses to Expression.py
-│   └── __2255__Count Prefixes of a Given String.py
+│   ├── __2255__Count Prefixes of a Given String.py
+│   └── __2269__Find the K-Beauty of a Number.py
 ├── Tree
 │   ├── __0094__Binary Tree Inorder Traversal.py
 │   ├── __0098__Validate Binary Search Tree.py
@@ -540,7 +545,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-38 directories, 500 files
+38 directories, 505 files
 
 =====================================
 ============= Leetcode ==============
@@ -1001,12 +1006,17 @@ algo
  2256 Minimum Average Difference
  2257 Count Unguarded Cells in the Grid
  2258 Escape the Spreading Fire
+ 2269 Find the K-Beauty of a Number
+ 2270 Number of Ways to Split Array
+ 2273 Find Resultant Array After Removing Anagrams
+ 2274 Maximum Consecutive Floors Without Special Floors
+ 2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :   98 /  569
-Solved / Total (Medium):  320 / 1206
-Solved / Total (Hard)  :   38 /  493
-Solved / Total (All)   :  456 / 2268
-Total Score            : 1248
+Solved / Total (Easy)  :  100 /  571
+Solved / Total (Medium):  323 / 1210
+Solved / Total (Hard)  :   38 /  495
+Solved / Total (All)   :  461 / 2276
+Total Score            : 1259
 =====================================
 
 ```

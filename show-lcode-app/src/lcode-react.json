@@ -3780,7 +3780,7 @@
         "**BASIC", 
         "**CHECK"
     ], 
-    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。後來發現DFS和BFS也都能解，利用超過時間就跳出的這個特性使的我們不會進入環，但DFS會超時，BFS則不會。", 
+    "Memo": "算是SSSP的基本題，可以用Dijkstra (ElogV) 或Bellman-Ford (EV) 來解。後來發現DFS和BFS也都能解，利用超過時間就跳出的這個特性使的我們不會進入環，但DFS需要每次循環都對下一組做sorting否則會超時，BFS則不用。\n [1]DFS(stacK) [2]BFS (queue) [3]Dijkstra (heap) [4]Bellmen-Ford", 
     "Date": "2022-05-14"
 },
 {
@@ -5630,5 +5630,50 @@
     ], 
     "Memo": "這又是一題Binary-Search值域的題目。這題的關鍵是要怎麼做BFS來判斷是否能抵達。方法就是先把火做BFS做出到每一個點需要的時間，再來就是對人做BFS，只要有點是火先到就不能走，看看能不能走到安全屋。等待時間的實現就是人開始的時間。再把等待時間用BinarySearch來做檢查是否達的成。", 
     "Date": "2022-05-04"
+},
+{
+    "Number": "2269", 
+    "Level": 1, 
+    "Title": "Find the K-Beauty of a Number", 
+    "Url": "https://leetcode.com/problems/find-the-k-beauty-of-a-number", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-15"
+},
+{
+    "Number": "2270", 
+    "Level": 2, 
+    "Title": "Number of Ways to Split Array", 
+    "Url": "https://leetcode.com/problems/number-of-ways-to-split-array", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-15"
+},
+{
+    "Number": "2273", 
+    "Level": 1, 
+    "Title": "Find Resultant Array After Removing Anagrams", 
+    "Url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-15"
+},
+{
+    "Number": "2274", 
+    "Level": 2, 
+    "Title": "Maximum Consecutive Floors Without Special Floors", 
+    "Url": "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-15"
+},
+{
+    "Number": "2275", 
+    "Level": 2, 
+    "Title": "Largest Combination With Bitwise AND Greater Than Zero", 
+    "Url": "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-15"
 }
 ]
