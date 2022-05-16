@@ -1,7 +1,40 @@
 class Solution:
     
-    # BFS [O(n2): 75%]
+    '''
+    2022/05/16
+    BFS  [TC: O(MN): 51% / SC: O(MN): 39%]
+    '''
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
+        print("Code2")
+        if grid[0][0] != 0 or grid[-1][-1] != 0:
+            return -1
+        
+        m, n = len(grid), len(grid[0])
+        deq = collections.deque([(0, 0, 1)])
+        distance = {(0, 0): 1}
+        while deq: 
+            x, y, d = deq.popleft()
+            if x == m - 1 and y == n - 1:
+                return d
+            for dx in range(-1, 2):
+                for dy in range(-1, 2):
+                    if (dx, dy) == (0, 0):
+                        continue
+                    nx = x + dx
+                    ny = y + dy
+                    if not (0 <= nx < m and 0 <= ny < n):
+                        continue
+                    if grid[nx][ny] != 0:
+                        continue
+                    if (nx, ny) in distance:
+                        continue
+                    distance[(nx, ny)] = d + 1
+                    deq.append((nx, ny, d + 1))
+        return -1
+    
+    
+    # BFS [O(n2): 75%]
+    def shortestPathBinaryMatrix1(self, grid: List[List[int]]) -> int:
         print("Code1")
         if grid[0][0] == 1 or grid[-1][-1] == 1:
             return -1

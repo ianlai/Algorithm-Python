@@ -4487,7 +4487,7 @@
         "BFS"
     ], 
     "Memo": "", 
-    "Date": "2022-02-16"
+    "Date": "2022-05-16"
 },
 {
     "Number": "1094", 
@@ -5636,8 +5636,12 @@
     "Level": 1, 
     "Title": "Find the K-Beauty of a Number", 
     "Url": "https://leetcode.com/problems/find-the-k-beauty-of-a-number", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "String", 
+        "Substring"
+    ], 
+    "Memo": "做出N個substring測試就可得到答案。", 
     "Date": "2022-05-15"
 },
 {
@@ -5645,8 +5649,11 @@
     "Level": 2, 
     "Title": "Number of Ways to Split Array", 
     "Url": "https://leetcode.com/problems/number-of-ways-to-split-array", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Array"
+    ], 
+    "Memo": "做出left和right兩個sum，一開始全部元素都在right，之後依序把一個元素往左邊拋，就可以做到時間O(N)，空間O(1)完成。", 
     "Date": "2022-05-15"
 },
 {
@@ -5654,8 +5661,12 @@
     "Level": 1, 
     "Title": "Find Resultant Array After Removing Anagrams", 
     "Url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Sorting", 
+        "Anagram"
+    ], 
+    "Memo": "先把每一個字做sorting，就traverse過去，每次跟上一個比就行。", 
     "Date": "2022-05-15"
 },
 {
@@ -5663,8 +5674,11 @@
     "Level": 2, 
     "Title": "Maximum Consecutive Floors Without Special Floors", 
     "Url": "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Interval"
+    ], 
+    "Memo": "找出每個區段的長度，依次比大小找出最長的那個。", 
     "Date": "2022-05-15"
 },
 {
@@ -5672,8 +5686,12 @@
     "Level": 2, 
     "Title": "Largest Combination With Bitwise AND Greater Than Zero", 
     "Url": "https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "**CONTEST", 
+        "Bit", 
+        "Combination"
+    ], 
+    "Memo": "把每個數字轉成Bit，掃過每一個bit看有幾個為1，依序計算完所有的bit，取最大的個數。", 
     "Date": "2022-05-15"
 }
 ]
