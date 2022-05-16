@@ -1183,6 +1183,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0227", 
+    "Level": 2, 
+    "Title": "Basic Calculator II", 
+    "Url": "https://leetcode.com/problems/basic-calculator-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0228", 
     "Level": 1, 
     "Title": "Summary Ranges", 
