@@ -430,6 +430,7 @@ algo
 │   ├── __1161__Maximum Level Sum of a Binary Tree.py
 │   ├── __1302__Deepest Leaves Sum.py
 │   ├── __1305__All Elements in Two Binary Search Trees.py
+│   ├── __1379__Find a Corresponding Node of a Binary Tree in a Clone of That Tree.py
 │   ├── __1382__Balance a Binary Search Tree.py
 │   ├── __1448__Count Good Nodes in Binary Tree.py
 │   ├── __1530__Number of Good Leaf Nodes Pairs.py
@@ -547,7 +548,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-38 directories, 507 files
+38 directories, 508 files
 
 =====================================
 ============= Leetcode ==============
@@ -952,6 +953,7 @@ algo
  1344 Angle Between Hands of a Clock
  1358 Number of Substrings Containing All Three Characters
  1361 Validate Binary Tree Nodes
+ 1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree
  1382 Balance a Binary Search Tree
  1391 Check if There is a Valid Path in a Grid
  1395 Count Number of Teams
@@ -1016,10 +1018,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  100 /  571
-Solved / Total (Medium):  324 / 1210
+Solved / Total (Medium):  325 / 1210
 Solved / Total (Hard)  :   38 /  495
-Solved / Total (All)   :  462 / 2276
-Total Score            : 1262
+Solved / Total (All)   :  463 / 2276
+Total Score            : 1265
 =====================================
 
 ```

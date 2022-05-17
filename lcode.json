@@ -3207,6 +3207,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1379", 
+    "Level": 2, 
+    "Title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree", 
+    "Url": "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1382", 
     "Level": 2, 
     "Title": "Balance a Binary Search Tree", 
