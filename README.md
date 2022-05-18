@@ -292,6 +292,7 @@ algo
 │   ├── __0237__Delete Node in a Linked List.py
 │   └── __1721__Swapping Nodes in a Linked List.py
 ├── Math
+│   ├── __0223__Rectangle Area.py
 │   ├── __0412__Fizz Buzz.py
 │   ├── __0593__Valid Square.py
 │   ├── __0754__Reach a Number.py
@@ -536,6 +537,8 @@ algo
 │   ├── SN
 │   │   ├── Countries.py
 │   │   └── SwitchingArray.py
+│   ├── SPFY
+│   │   └── FindCityByOrder.py
 │   └── WP.py
 │       └── BiggestNumber.py
 └── _Template
@@ -548,7 +551,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-38 directories, 508 files
+39 directories, 510 files
 
 =====================================
 ============= Leetcode ==============
@@ -697,6 +700,7 @@ algo
  0216 Combination Sum III
  0221 Maximal Square
  0222 Count Complete Tree Nodes
+ 0223 Rectangle Area
  0224 Basic Calculator
  0225 Implement Stack using Queues
  0226 Invert Binary Tree
@@ -1017,11 +1021,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  100 /  571
-Solved / Total (Medium):  325 / 1210
+Solved / Total (Easy)  :  101 /  572
+Solved / Total (Medium):  325 / 1209
 Solved / Total (Hard)  :   38 /  495
-Solved / Total (All)   :  463 / 2276
-Total Score            : 1265
+Solved / Total (All)   :  464 / 2276
+Total Score            : 1266
 =====================================
 
 ```

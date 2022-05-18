@@ -1159,6 +1159,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0223", 
+    "Level": 2, 
+    "Title": "Rectangle Area", 
+    "Url": "https://leetcode.com/problems/rectangle-area", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0224", 
     "Level": 3, 
     "Title": "Basic Calculator", 
