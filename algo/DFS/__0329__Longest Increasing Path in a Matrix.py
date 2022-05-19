@@ -1,9 +1,47 @@
 class Solution:
     
-    
+    # 2022/05/19
+    '''
+    DP + Topological Sorting 
+    TC: O(MN + MN)
+    SC: O(MN + MN)
+    '''
+    def longestIncreasingPath(self, A: List[List[int]]) -> int:
+        m, n = len(A), len(A[0])
+        dp = [[0] * n for _ in range(m)]
+        indegreeMap = collections.defaultdict(int)
+        deq = collections.deque()
+        
+        for i in range(m):
+            for j in range(n):
+                indegree = 0
+                for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+                    if not (0 <= ni < m and 0 <= nj < n):
+                        continue
+                    if A[ni][nj] < A[i][j]:
+                        indegree += 1
+                indegreeMap[(i, j)] = indegree
+                if indegree == 0:
+                    deq.append((i, j))
+                    dp[i][j] = 1
+        while deq: 
+            i, j = deq.popleft()
+            for ni, nj in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+                if not (0 <= ni < m and 0 <= nj < n):
+                    continue
+                if A[ni][nj] > A[i][j]:
+                    indegreeMap[(ni, nj)] -= 1
+                    if indegreeMap[(ni, nj)] == 0:
+                        deq.append((ni, nj))         
+                        dp[ni][nj] = dp[i][j] + 1
+        res = 0
+        for row in dp:
+            res = max(res, max(row))
+        return res
+        
     # 2022/04/30
     # DP + Topological Sorting [TC: O(MN): 44% / SC: O(MN+4MN+MN) = O(MN): 5%]
-    def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
+    def longestIncreasingPath5(self, matrix: List[List[int]]) -> int:
         print("Code5 - DP + Topological Sorting")
         m, n = len(matrix), len(matrix[0])
         dp = [[0] * n for _ in range(m)]
