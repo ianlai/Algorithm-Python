@@ -114,7 +114,6 @@ algo
 │   ├── __0247__Strobogrammatic Number II.py
 │   ├── __0267__Palindrome Permutation II.py
 │   ├── __0291__Word Pattern II.py
-│   ├── __0329__Longest Increasing Path in a Matrix.py
 │   ├── __0401__Binary Watch.py
 │   ├── __0690__Employee Importance.py
 │   ├── __0784__Letter Case Permutation.py
@@ -145,6 +144,7 @@ algo
 │   ├── __0279__Perfect Squares.py
 │   ├── __0300__Longest Increasing Subsequence.py
 │   ├── __0322__Coin Change.py
+│   ├── __0329__Longest Increasing Path in a Matrix.py
 │   ├── __0338__Counting Bits.py
 │   ├── __0368__Largest Divisible Subset.py
 │   ├── __0377__Combination Sum IV.py

@@ -570,7 +570,7 @@
         "Matrix"
     ], 
     "Memo": "", 
-    "Date": "2021-11-14"
+    "Date": "2022-05-20"
 },
 {
     "Number": "0064", 
@@ -1787,7 +1787,8 @@
     "Title": "Rectangle Area", 
     "Url": "https://leetcode.com/problems/rectangle-area", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-19"
 },
 {
     "Number": "0224", 
@@ -2493,7 +2494,7 @@
         "##Amazon"
     ], 
     "Memo": "[Approach1]單純用DFS可以找到解但會是指數級別，必須要優化。正常情況下這種Graph題目又可以上下左右移動是不能Memo的，但因為這題要嚴格遞增，所以其實路線是不可能繞回去的，也就是這是一個DAG，因此每個DFS裡面的點都最多只會跑4次，又因為用Memo cache起來，因此時間是O(V+E) = O(MN + 4MN) = O(MN)。小提醒，這題根本不需要紀錄visited，因此長度也不需要用len(visited)來紀錄，而是dfs回傳值+1。\n \n [Approach2]和前面理由一樣，正常情況下這種可以上下左右移動的Matrix不能用DP，因為可能形成環，但因為絕對遞增的特性，這題是DAG，因此依賴關係是有順序的。有趣的是這依賴關係不是row或col漸增，而是有數字的漸增關係，可以用Topological-Sorting依序找出indegree=0的點，就能依序填DP表了。", 
-    "Date": "2022-04-30"
+    "Date": "2022-05-19"
 },
 {
     "Number": "0332", 
