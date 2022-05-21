@@ -207,6 +207,7 @@ algo
 │   ├── __0797__All Paths From Source to Target.py
 │   ├── __0947__Most Stones Removed with Same Row or Column.py
 │   ├── __1059__All Paths from Source Lead to Destination.py
+│   ├── __1192__Critical Connections in a Network.py
 │   ├── __1202__Smallest String With Swaps.py
 │   ├── __1319__Number of Operations to Make Network Connected.py
 │   ├── __1361__Validate Binary Tree Nodes.py
@@ -551,7 +552,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-39 directories, 510 files
+39 directories, 511 files
 
 =====================================
 ============= Leetcode ==============
@@ -936,6 +937,7 @@ algo
  1166 Design File System
  1167 Minimum Cost to Connect Sticks
  1182 Shortest Distance to Target Color
+ 1192 Critical Connections in a Network
  1197 Minimum Knight Moves
  1198 Find Smallest Common Element in All Rows
  1202 Smallest String With Swaps
@@ -1023,9 +1025,9 @@ algo
 =====================================
 Solved / Total (Easy)  :  101 /  572
 Solved / Total (Medium):  325 / 1209
-Solved / Total (Hard)  :   38 /  495
-Solved / Total (All)   :  464 / 2276
-Total Score            : 1266
+Solved / Total (Hard)  :   39 /  496
+Solved / Total (All)   :  465 / 2277
+Total Score            : 1271
 =====================================
 
 ```

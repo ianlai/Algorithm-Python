@@ -4675,6 +4675,14 @@
     "Date": "2022-03-06"
 },
 {
+    "Number": "1192", 
+    "Level": 3, 
+    "Title": "Critical Connections in a Network", 
+    "Url": "https://leetcode.com/problems/critical-connections-in-a-network", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1197", 
     "Level": 2, 
     "Title": "Minimum Knight Moves", 
