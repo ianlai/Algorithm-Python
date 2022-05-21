@@ -52,6 +52,7 @@ algo
 │   ├── __0909__Snakes and Ladders.py
 │   ├── __0994__Rotting Oranges.py
 │   ├── __1091__Shortest Path in Binary Matrix.py
+│   ├── __1162__As Far from Land as Possible.py
 │   ├── __1197__Minimum Knight Moves.py
 │   ├── __1306__Jump Game III.py
 │   └── __2258__Escape the Spreading Fire.py
@@ -552,7 +553,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-39 directories, 511 files
+39 directories, 512 files
 
 =====================================
 ============= Leetcode ==============
@@ -933,6 +934,7 @@ algo
  1146 Snapshot Array
  1160 Find Words That Can Be Formed by Characters
  1161 Maximum Level Sum of a Binary Tree
+ 1162 As Far from Land as Possible
  1165 Single-Row Keyboard
  1166 Design File System
  1167 Minimum Cost to Connect Sticks
@@ -1024,10 +1026,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  101 /  572
-Solved / Total (Medium):  325 / 1209
+Solved / Total (Medium):  326 / 1209
 Solved / Total (Hard)  :   39 /  496
-Solved / Total (All)   :  465 / 2277
-Total Score            : 1271
+Solved / Total (All)   :  466 / 2277
+Total Score            : 1274
 =====================================
 
 ```

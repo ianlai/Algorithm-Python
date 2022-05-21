@@ -4628,6 +4628,15 @@
     "Date": "2022-01-02"
 },
 {
+    "Number": "1162", 
+    "Level": 2, 
+    "Title": "As Far from Land as Possible", 
+    "Url": "https://leetcode.com/problems/as-far-from-land-as-possible", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-22"
+},
+{
     "Number": "1165", 
     "Level": 1, 
     "Title": "Single-Row Keyboard", 
@@ -4680,7 +4689,8 @@
     "Title": "Critical Connections in a Network", 
     "Url": "https://leetcode.com/problems/critical-connections-in-a-network", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-21"
 },
 {
     "Number": "1197", 

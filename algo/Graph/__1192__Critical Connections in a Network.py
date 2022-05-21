@@ -17,6 +17,7 @@ class Solution:
                     continue
                 if not visited[nextNode]:
                     dfs(graph, res, lowestOrder, visited, curNode, nextNode, curOrder + 1)
+                #DFS就算沒有進去的也要來更新lowestOrder
                 lowestOrder[curNode] = min(lowestOrder[curNode], lowestOrder[nextNode])
                 if lowestOrder[nextNode] == curOrder + 1:
                     res.append([curNode, nextNode])
