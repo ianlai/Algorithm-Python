@@ -840,7 +840,10 @@
     "Tags": [
         "Tree", 
         "BST", 
+        "DFS", 
+        "DFS-Post", 
         "Memoization", 
+        "D&C", 
         "**CHECK"
     ], 
     "Memo": "這題要再看。", 
@@ -3414,7 +3417,7 @@
         "Two-Pointer"
     ], 
     "Memo": "做出一個接收start,end的函數，函數內使用背向雙指針檢查。", 
-    "Date": "2022-02-17"
+    "Date": "2022-05-22"
 },
 {
     "Number": "0648", 
@@ -4046,6 +4049,18 @@
     "Date": "2022-04-17"
 },
 {
+    "Number": "0901", 
+    "Level": 2, 
+    "Title": "Online Stock Span", 
+    "Url": "https://leetcode.com/problems/online-stock-span", 
+    "Tags": [
+        "Monotonic-Stack", 
+        "Design"
+    ], 
+    "Memo": "要找到每一個點前面連續比較小或一樣有幾個點（並不是照順序幾個點）。使用Monotonic-Stack，重點是留下能打的，不能打的都丟掉的概念。儘管知道作法，但一開始還是會以為要把price都存下來再用stack內的idx來取，後來發現可以把stack內存入res和price，就不用額外開array來存price。", 
+    "Date": "2022-05-22"
+},
+{
     "Number": "0904", 
     "Level": 2, 
     "Title": "Fruit Into Baskets", 
@@ -4069,6 +4084,17 @@
     ], 
     "Memo": "", 
     "Date": "2022-05-02"
+},
+{
+    "Number": "0907", 
+    "Level": 2, 
+    "Title": "Sum of Subarray Minimums", 
+    "Url": "https://leetcode.com/problems/sum-of-subarray-minimums", 
+    "Tags": [
+        "Monotonic-Stack"   
+    ], 
+    "Memo": "", 
+    "Date": "2022-05-22"
 },
 {
     "Number": "0909", 
@@ -5401,6 +5427,18 @@
     ], 
     "Memo": "很類似0787，也就是雙條件的SSSP。從這題發現Dijkstra其實也是一種DP，所以用DP(memoization)來思考就沒有這麼難了。要注意的是這題需要剪枝（經歷過的點，並且discount數比較少，就可以直接跳過，而不是要完全一樣才能跳過），否則單純的DP是會TLE的。", 
     "Date": "2022-01-08"
+},
+{
+    "Number": "2104", 
+    "Level": 2, 
+    "Title": "Sum of Subarray Ranges", 
+    "Url": "https://leetcode.com/problems/sum-of-subarray-ranges", 
+    "Tags": [
+        "Monotonic-Stack",
+        "**GOOD"
+    ], 
+    "Memo": "一個好題來練習PLE, NLE, PGE, NGE四種Monotonic-Stack可以找的patterns。", 
+    "Date": "2022-05-22"
 },
 {
     "Number": "2154", 

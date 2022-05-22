@@ -321,10 +321,13 @@ algo
 │   ├── __0503__Next Greater Element II.py
 │   ├── __0739__Daily Temperatures.py
 │   ├── __0862__Shortest Subarray with Sum at Least K.py
+│   ├── __0901__Online Stock Span.py
+│   ├── __0907__Sum of Subarray Minimums.py
 │   ├── __0975__Odd Even Jump.py
 │   ├── __1438__Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py
 │   ├── __1475__Final Prices With a Special Discount in a Shop.py
-│   └── __1762__Buildings With an Ocean View.py
+│   ├── __1762__Buildings With an Ocean View.py
+│   └── __2104__Sum of Subarray Ranges.py
 ├── Queue
 │   ├── __0225__Implement Stack using Queues.py
 │   └── __0346__Moving Average from Data Stream.py
@@ -553,7 +556,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-39 directories, 512 files
+39 directories, 515 files
 
 =====================================
 ============= Leetcode ==============
@@ -886,8 +889,10 @@ algo
  0889 Construct Binary Tree from Preorder and Postorder Traversal
  0896 Monotonic Array
  0897 Increasing Order Search Tree
+ 0901 Online Stock Span
  0904 Fruit Into Baskets
  0905 Sort Array By Parity
+ 0907 Sum of Subarray Minimums
  0909 Snakes and Ladders
  0912 Sort an Array
  0922 Sort Array By Parity II
@@ -997,6 +1002,7 @@ algo
  2008 Maximum Earnings From Taxi
  2013 Detect Squares
  2093 Minimum Cost to Reach City With Discounts
+ 2104 Sum of Subarray Ranges
  2154 Keep Multiplying Found Values by Two
  2155 All Divisions With the Highest Score of a Binary Array
  2156 Find Substring With Given Hash Value
@@ -1025,11 +1031,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  101 /  572
-Solved / Total (Medium):  326 / 1209
-Solved / Total (Hard)  :   39 /  496
-Solved / Total (All)   :  466 / 2277
-Total Score            : 1274
+Solved / Total (Easy)  :  101 /  573
+Solved / Total (Medium):  329 / 1211
+Solved / Total (Hard)  :   39 /  497
+Solved / Total (All)   :  469 / 2281
+Total Score            : 1283
 =====================================
 
 ```

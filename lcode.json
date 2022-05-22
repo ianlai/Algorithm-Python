@@ -2631,6 +2631,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0901", 
+    "Level": 2, 
+    "Title": "Online Stock Span", 
+    "Url": "https://leetcode.com/problems/online-stock-span", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0904", 
     "Level": 2, 
     "Title": "Fruit Into Baskets", 
@@ -2643,6 +2651,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Sort Array By Parity", 
     "Url": "https://leetcode.com/problems/sort-array-by-parity", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0907", 
+    "Level": 2, 
+    "Title": "Sum of Subarray Minimums", 
+    "Url": "https://leetcode.com/problems/sum-of-subarray-minimums", 
     "Tags": [], 
     "Memo": ""
 },
@@ -3515,6 +3531,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Minimum Cost to Reach City With Discounts", 
     "Url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "2104", 
+    "Level": 2, 
+    "Title": "Sum of Subarray Ranges", 
+    "Url": "https://leetcode.com/problems/sum-of-subarray-ranges", 
     "Tags": [], 
     "Memo": ""
 },
