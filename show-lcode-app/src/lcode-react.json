@@ -339,7 +339,7 @@
     "Url": "https://leetcode.com/problems/trapping-rain-water", 
     "Tags": [
         "Two-Pointer", 
-        "Accumulated"
+        "Prefix-Sum"
     ], 
     "Memo": "", 
     "Date": "2021-10-16"
@@ -1195,6 +1195,7 @@
         "String", 
         "Word", 
         "Graph", 
+        "DAG", 
         "**GOOD", 
         "##Amazon", 
         "##Facebook", 
@@ -1789,7 +1790,9 @@
     "Level": 2, 
     "Title": "Rectangle Area", 
     "Url": "https://leetcode.com/problems/rectangle-area", 
-    "Tags": [], 
+    "Tags": [
+        "Math"
+    ], 
     "Memo": "", 
     "Date": "2022-05-19"
 },
@@ -1933,10 +1936,10 @@
     "Url": "https://leetcode.com/problems/product-of-array-except-self", 
     "Tags": [
         "Array", 
-        "Cumulative-Sum", 
+        "Prefix-Sum", 
         "**GOOD"
     ], 
-    "Memo": "雙向的Cumulative-Sum(乘積)。練習雙向Traverse的題目。", 
+    "Memo": "雙向的Prefix-Sum(乘積)。練習雙向Traverse的題目。", 
     "Date": "2022-02-09"
 },
 {
@@ -2377,7 +2380,7 @@
     "Url": "https://leetcode.com/problems/range-sum-query-immutable", 
     "Tags": [
         "Array", 
-        "Cumulative-Sum"
+        "Prefix-Sum"
     ], 
     "Memo": "", 
     "Date": "2022-02-15"
@@ -2389,7 +2392,7 @@
     "Url": "https://leetcode.com/problems/range-sum-query-2d-immutable", 
     "Tags": [
         "Matrix", 
-        "Cumulative-Sum"
+        "Prefix-Sum"
     ], 
     "Memo": "做出二維的Prefix-sum，A-B-C+D就可以用O(1)找出區塊和。", 
     "Date": "2022-02-15"
@@ -2670,7 +2673,10 @@
     "Level": 2, 
     "Title": "Range Addition", 
     "Url": "https://leetcode.com/problems/range-addition", 
-    "Tags": [], 
+    "Tags": [
+        "Prefix-Sum", 
+        "##Amazon"
+    ], 
     "Memo": "", 
     "Date": "2022-05-23"
 },
@@ -2989,7 +2995,7 @@
         "DP背包"
     ], 
     "Memo": "", 
-    "Date": "2021-08-22"
+    "Date": "2022-05-23"
 },
 {
     "Number": "0480", 
@@ -3178,7 +3184,7 @@
     "Url": "https://leetcode.com/problems/continuous-subarray-sum", 
     "Tags": [
         "Subarray", 
-        "Cumulative-Sum"
+        "Prefix-Sum"
     ], 
     "Memo": "不少邊界條件要注意。", 
     "Date": "2022-01-15"
@@ -3314,7 +3320,7 @@
         "Subarray", 
         "Two-Sum", 
         "HashMap", 
-        "Cumulative-Sum", 
+        "Prefix-Sum", 
         "**GOOD"
     ], 
     "Memo": "", 
@@ -3951,6 +3957,7 @@
         "Graph", 
         "DFS", 
         "Backtracking", 
+        "DAG", 
         "##Indeed", 
         "**GOOD"
     ], 
@@ -3996,7 +4003,7 @@
     "Title": "Shortest Subarray with Sum at Least K", 
     "Url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k", 
     "Tags": [
-        "Accumulated", 
+        "Prefix-Sum", 
         "Monotonic-Queue", 
         "Sliding-Window", 
         "**HARD"
@@ -4102,7 +4109,8 @@
     "Title": "Sum of Subarray Minimums", 
     "Url": "https://leetcode.com/problems/sum-of-subarray-minimums", 
     "Tags": [
-        "Monotonic-Stack"
+        "Monotonic-Stack", 
+        "Subarray"
     ], 
     "Memo": "", 
     "Date": "2022-05-22"
@@ -4144,7 +4152,10 @@
     "Level": 2, 
     "Title": "Flip String to Monotone Increasing", 
     "Url": "https://leetcode.com/problems/flip-string-to-monotone-increasing", 
-    "Tags": [], 
+    "Tags": [
+        "Prefix-Sum", 
+        "##Amazon"
+    ], 
     "Memo": "", 
     "Date": "2022-05-23"
 },
@@ -4154,7 +4165,7 @@
     "Title": "Binary Subarrays With Sum", 
     "Url": "https://leetcode.com/problems/binary-subarrays-with-sum", 
     "Tags": [
-        "Accumulated", 
+        "Prefix-Sum", 
         "HashMap", 
         "Sliding-Window", 
         "Two-Pointer", 
@@ -4678,7 +4689,9 @@
     "Level": 2, 
     "Title": "As Far from Land as Possible", 
     "Url": "https://leetcode.com/problems/as-far-from-land-as-possible", 
-    "Tags": [], 
+    "Tags": [
+        "BFS"
+    ], 
     "Memo": "", 
     "Date": "2022-05-22"
 },
@@ -4734,7 +4747,10 @@
     "Level": 3, 
     "Title": "Critical Connections in a Network", 
     "Url": "https://leetcode.com/problems/critical-connections-in-a-network", 
-    "Tags": [], 
+    "Tags": [
+        "Graph", 
+        "Tarjan"
+    ], 
     "Memo": "", 
     "Date": "2022-05-21"
 },
@@ -5455,6 +5471,7 @@
     "Url": "https://leetcode.com/problems/sum-of-subarray-ranges", 
     "Tags": [
         "Monotonic-Stack", 
+        "Subarray", 
         "**GOOD"
     ], 
     "Memo": "一個好題來練習PLE, NLE, PGE, NGE四種Monotonic-Stack可以找的patterns。", 

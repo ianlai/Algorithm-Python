@@ -2,9 +2,97 @@
 
 class Solution:
     
-    #Top-Down DP + Precalulate matrixZeroOne + Better getMatrixZeroOne [O(len + m*n): 81%]
+      # Buttom-Up DP [TLE]
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
-        print("Top-Down DP + Precalulate matrixZeroOne + Better getMatrixZeroOne")
+        print("Code6")
+        dp = [[[0] * len(strs) for _ in range(n+1)] for _ in range(m+1)]
+        
+        for k in range(len(strs)):
+            count0 = strs[k].count("0")
+            count1 = strs[k].count("1")
+            for i in range(m+1):
+                for j in range(n+1):
+                    if k == 0:
+                        if i >= count0 and j >= count1:
+                            dp[i][j][k] = 1
+                    if k > 0:
+                        dp[i][j][k] = dp[i][j][k-1]
+                        if i >= count0 and j >= count1:
+                            dp[i][j][k] = max(dp[i][j][k], 1 + dp[i-count0][j-count1][k-1])
+        # for row in dp:
+        #     print(row)
+        return dp[-1][-1][-1]
+    
+    
+    # Buttom-Up DP [TLE]
+    def findMaxForm5(self, strs: List[str], m: int, n: int) -> int:
+        print("Code5")
+        dp = [[[0] * len(strs) for _ in range(n+1)] for _ in range(m+1)]
+        
+        for i in range(m+1):
+            for j in range(n+1):
+                for k in range(len(strs)):
+                    count0 = strs[k].count("0")
+                    count1 = strs[k].count("1")
+                    if k == 0:
+                        if i >= count0 and j >= count1:
+                            dp[i][j][k] = 1
+                    if k > 0:
+                        dp[i][j][k] = dp[i][j][k-1]
+                        if i >= count0 and j >= count1:
+                            dp[i][j][k] = max(dp[i][j][k], 1 + dp[i-count0][j-count1][k-1])
+        # for row in dp:
+        #     print(row)
+        return dp[-1][-1][-1]
+    
+    
+    # 2022/05/23 
+    # Memoization DP 
+    # T.C. => O(M*N*S): 13%
+    # S.C. => O(M*N*S): 23%
+    def findMaxForm4(self, strs: List[str], m: int, n: int) -> int:
+        print("Code4")
+        #@lru_cache(maxsize = 128)
+        def dfs(idx, m, n, memo):
+            if idx == len(strs):
+                return 0
+            if (idx, m, n) in memo:
+                return memo[(idx, m, n)]
+            
+            count0 = strs[idx].count("0")
+            count1 = strs[idx].count("1")
+            
+            memo[(idx, m, n)] = dfs(idx + 1, m, n, memo)
+            if count0 <= m and count1 <= n:
+                countUse = 1 + dfs(idx + 1, m - count0, n - count1, memo)
+                memo[(idx, m, n)] = max(memo[(idx, m, n)], countUse)
+            return memo[(idx, m, n)]
+        
+        memo = {} 
+        return dfs(0, m, n, memo)
+    
+    # 2022/05/23 
+    # DFS [TLE]
+    def findMaxForm4(self, strs: List[str], m: int, n: int) -> int:
+            
+        #@lru_cache(maxsize = 128)
+        def dfs(idx, m, n):
+            if idx == len(strs):
+                return 0
+
+            count0 = strs[idx].count("0")
+            count1 = strs[idx].count("1")
+                        
+            if count0 <= m and count1 <= n:
+                return max(dfs(idx + 1, m, n), 1 + dfs(idx + 1, m - count0, n - count1))
+            else:
+                return dfs(idx + 1, m, n)
+        
+        return dfs(0, m, n)
+    
+    #Top-Down DP + Precalulate matrixZeroOne + Better getMatrixZeroOne [O(len + m*n): 81%]
+    def findMaxForm3(self, strs: List[str], m: int, n: int) -> int:
+        print("Code3: Top-Down DP + Precalulate matrixZeroOne + Better getMatrixZeroOne")
     
         def dfs(strs, m, n, idx):
             if m < 0 or n < 0:
@@ -32,8 +120,8 @@ class Solution:
     # =============================================================
 
     #Top-Down DP + Precalulate matrixZeroOne  [O(len + m*n): 81%]
-    def findMaxForm1(self, strs: List[str], m: int, n: int) -> int:
-        print("Top-Down DP + Precalulate matrixZeroOne ")
+    def findMaxForm2(self, strs: List[str], m: int, n: int) -> int:
+        print("Code2: Top-Down DP + Precalulate matrixZeroOne ")
     
         def dfs(strs, m, n, idx):
             if m < 0 or n < 0:
@@ -65,7 +153,7 @@ class Solution:
     
     #Top-Down DP [O(m*n*len): 49%]
     def findMaxForm1(self, strs: List[str], m: int, n: int) -> int:
-        print("Top-Down DP 1")
+        print("Code1: Top-Down DP 1")
         if len(strs) == 0:
             return 0
         memo = {}
