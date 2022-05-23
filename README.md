@@ -328,6 +328,9 @@ algo
 │   ├── __1475__Final Prices With a Special Discount in a Shop.py
 │   ├── __1762__Buildings With an Ocean View.py
 │   └── __2104__Sum of Subarray Ranges.py
+├── Prefix
+│   ├── __0370__Range Addition.py
+│   └── __0926__Flip String to Monotone Increasing.py
 ├── Queue
 │   ├── __0225__Implement Stack using Queues.py
 │   └── __0346__Moving Average from Data Stream.py
@@ -556,7 +559,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-39 directories, 515 files
+40 directories, 517 files
 
 =====================================
 ============= Leetcode ==============
@@ -775,6 +778,7 @@ algo
  0362 Design Hit Counter
  0366 Find Leaves of Binary Tree
  0368 Largest Divisible Subset
+ 0370 Range Addition
  0377 Combination Sum IV
  0378 Kth Smallest Element in a Sorted Matrix
  0380 Insert Delete GetRandom O(1)
@@ -896,6 +900,7 @@ algo
  0909 Snakes and Ladders
  0912 Sort an Array
  0922 Sort Array By Parity II
+ 0926 Flip String to Monotone Increasing
  0930 Binary Subarrays With Sum
  0931 Minimum Falling Path Sum
  0934 Shortest Bridge
@@ -1032,10 +1037,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  101 /  573
-Solved / Total (Medium):  329 / 1211
+Solved / Total (Medium):  331 / 1211
 Solved / Total (Hard)  :   39 /  497
-Solved / Total (All)   :  469 / 2281
-Total Score            : 1283
+Solved / Total (All)   :  471 / 2281
+Total Score            : 1289
 =====================================
 
 ```

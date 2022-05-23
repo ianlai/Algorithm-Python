@@ -1971,6 +1971,8 @@
     "Tags": [
         "Parentheses", 
         "Memoization", 
+        "D&C", 
+        "##大波", 
         "**CHECK"
     ], 
     "Memo": "", 
@@ -2662,6 +2664,15 @@
     ], 
     "Memo": "", 
     "Date": "2022-04-06"
+},
+{
+    "Number": "0370", 
+    "Level": 2, 
+    "Title": "Range Addition", 
+    "Url": "https://leetcode.com/problems/range-addition", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-23"
 },
 {
     "Number": "0377", 
@@ -4091,7 +4102,7 @@
     "Title": "Sum of Subarray Minimums", 
     "Url": "https://leetcode.com/problems/sum-of-subarray-minimums", 
     "Tags": [
-        "Monotonic-Stack"   
+        "Monotonic-Stack"
     ], 
     "Memo": "", 
     "Date": "2022-05-22"
@@ -4127,6 +4138,15 @@
     "Tags": [], 
     "Memo": "", 
     "Date": "2021-05-23"
+},
+{
+    "Number": "0926", 
+    "Level": 2, 
+    "Title": "Flip String to Monotone Increasing", 
+    "Url": "https://leetcode.com/problems/flip-string-to-monotone-increasing", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-23"
 },
 {
     "Number": "0930", 
@@ -5434,7 +5454,7 @@
     "Title": "Sum of Subarray Ranges", 
     "Url": "https://leetcode.com/problems/sum-of-subarray-ranges", 
     "Tags": [
-        "Monotonic-Stack",
+        "Monotonic-Stack", 
         "**GOOD"
     ], 
     "Memo": "一個好題來練習PLE, NLE, PGE, NGE四種Monotonic-Stack可以找的patterns。", 

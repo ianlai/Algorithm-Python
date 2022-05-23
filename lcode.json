@@ -1719,6 +1719,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0370", 
+    "Level": 2, 
+    "Title": "Range Addition", 
+    "Url": "https://leetcode.com/problems/range-addition", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0377", 
     "Level": 2, 
     "Title": "Combination Sum IV", 
@@ -2683,6 +2691,14 @@ lcode_data = `
     "Level": 1, 
     "Title": "Sort Array By Parity II", 
     "Url": "https://leetcode.com/problems/sort-array-by-parity-ii", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0926", 
+    "Level": 2, 
+    "Title": "Flip String to Monotone Increasing", 
+    "Url": "https://leetcode.com/problems/flip-string-to-monotone-increasing", 
     "Tags": [], 
     "Memo": ""
 },
