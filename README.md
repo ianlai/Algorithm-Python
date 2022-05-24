@@ -349,6 +349,7 @@ algo
 │   └── __2273__Find Resultant Array After Removing Anagrams.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
+│   ├── __0032__Longest Valid Parentheses.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
 │   ├── __0155__Min Stack.py
 │   ├── __0224__Basic Calculator.py
@@ -559,7 +560,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 517 files
+40 directories, 518 files
 
 =====================================
 ============= Leetcode ==============
@@ -584,6 +585,7 @@ algo
  0023 Merge k Sorted Lists
  0024 Swap Nodes in Pairs
  0031 Next Permutation
+ 0032 Longest Valid Parentheses
  0033 Search in Rotated Sorted Array
  0034 Find First and Last Position of Element in Sorted Array
  0035 Search Insert Position
@@ -1038,9 +1040,9 @@ algo
 =====================================
 Solved / Total (Easy)  :  101 /  573
 Solved / Total (Medium):  331 / 1211
-Solved / Total (Hard)  :   39 /  497
-Solved / Total (All)   :  471 / 2281
-Total Score            : 1289
+Solved / Total (Hard)  :   40 /  497
+Solved / Total (All)   :  472 / 2281
+Total Score            : 1294
 =====================================
 
 ```

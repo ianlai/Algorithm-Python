@@ -167,6 +167,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0032", 
+    "Level": 3, 
+    "Title": "Longest Valid Parentheses", 
+    "Url": "https://leetcode.com/problems/longest-valid-parentheses", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0033", 
     "Level": 2, 
     "Title": "Search in Rotated Sorted Array", 

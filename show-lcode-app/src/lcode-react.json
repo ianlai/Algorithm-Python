@@ -244,6 +244,15 @@
     "Date": "2021-08-10"
 },
 {
+    "Number": "0032", 
+    "Level": 3, 
+    "Title": "Longest Valid Parentheses", 
+    "Url": "https://leetcode.com/problems/longest-valid-parentheses", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-25"
+},
+{
     "Number": "0033", 
     "Level": 2, 
     "Title": "Search in Rotated Sorted Array", 
@@ -2992,10 +3001,12 @@
     "Tags": [
         "DP", 
         "Memoization", 
-        "DP背包"
+        "DP背包", 
+        "##Amazon", 
+        "##Google"
     ], 
-    "Memo": "", 
-    "Date": "2022-05-23"
+    "Memo": "多背包的問題，使用DFS會超時。\n [1]加上Memo的Memoization可以解，又因為是取或不取，沒有順序，所以不是dfs..for的那種架構，而是max(取，不取）這種架構。\n [2]也可以用Buttom-Up來做，但就是繞三維的圈，不過DP matrix可以只做二維的，不斷在size為MN的matrix上繞S次。", 
+    "Date": "2022-05-24"
 },
 {
     "Number": "0480", 

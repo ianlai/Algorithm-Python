@@ -2,47 +2,39 @@
 
 class Solution:
     
-      # Buttom-Up DP [TLE]
+    # 2022/05/23 
+    # Buttom-Up DP (2D) [O(SMN): 73% / O(MN): 45%]
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
-        print("Code6")
-        dp = [[[0] * len(strs) for _ in range(n+1)] for _ in range(m+1)]
+        print("Code7: DP (GOOD)")
+        dp = [ [0] * (n+1) for _ in range(m+1)] 
         
         for k in range(len(strs)):
             count0 = strs[k].count("0")
             count1 = strs[k].count("1")
-            for i in range(m+1):
-                for j in range(n+1):
+            for i in range(m, count0-1, -1):
+                for j in range(n, count1-1, -1):
                     if k == 0:
-                        if i >= count0 and j >= count1:
-                            dp[i][j][k] = 1
+                        dp[i][j] = 1              
                     if k > 0:
-                        dp[i][j][k] = dp[i][j][k-1]
-                        if i >= count0 and j >= count1:
-                            dp[i][j][k] = max(dp[i][j][k], 1 + dp[i-count0][j-count1][k-1])
-        # for row in dp:
-        #     print(row)
-        return dp[-1][-1][-1]
+                        dp[i][j] = max(dp[i][j], 1 + dp[i-count0][j-count1])
+        return dp[-1][-1]
     
-    
-    # Buttom-Up DP [TLE]
+    # 2022/05/23 
+    # Buttom-Up DP (3D) [O(S*(MN + MN)): 5% / O(MNS): 39%]
     def findMaxForm5(self, strs: List[str], m: int, n: int) -> int:
-        print("Code5")
-        dp = [[[0] * len(strs) for _ in range(n+1)] for _ in range(m+1)]
+        print("Code6")
+        dp = [[[0] * (n+1) for _ in range(m+1)] for _ in range(len(strs))]
         
-        for i in range(m+1):
-            for j in range(n+1):
-                for k in range(len(strs)):
-                    count0 = strs[k].count("0")
-                    count1 = strs[k].count("1")
+        for k in range(len(strs)):
+            count0 = strs[k].count("0")
+            count1 = strs[k].count("1")
+            dp[k] = dp[k-1]  #slow
+            for i in range(m, count0-1, -1):
+                for j in range(n, count1-1, -1):
                     if k == 0:
-                        if i >= count0 and j >= count1:
-                            dp[i][j][k] = 1
+                        dp[k][i][j] = 1              
                     if k > 0:
-                        dp[i][j][k] = dp[i][j][k-1]
-                        if i >= count0 and j >= count1:
-                            dp[i][j][k] = max(dp[i][j][k], 1 + dp[i-count0][j-count1][k-1])
-        # for row in dp:
-        #     print(row)
+                        dp[k][i][j] = max(dp[k-1][i][j], 1 + dp[k-1][i-count0][j-count1])
         return dp[-1][-1][-1]
     
     
@@ -51,7 +43,7 @@ class Solution:
     # T.C. => O(M*N*S): 13%
     # S.C. => O(M*N*S): 23%
     def findMaxForm4(self, strs: List[str], m: int, n: int) -> int:
-        print("Code4")
+        print("Code5: memo (GOOD)")
         #@lru_cache(maxsize = 128)
         def dfs(idx, m, n, memo):
             if idx == len(strs):
@@ -67,9 +59,27 @@ class Solution:
                 countUse = 1 + dfs(idx + 1, m - count0, n - count1, memo)
                 memo[(idx, m, n)] = max(memo[(idx, m, n)], countUse)
             return memo[(idx, m, n)]
-        
         memo = {} 
         return dfs(0, m, n, memo)
+
+    # Memoization (lru_cache) [93% / 5%]
+    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
+        print("Code4: lru_cache (GOOD)")
+        
+        @functools.lru_cache(maxsize = None)
+        def dfs(idx, m, n):
+            if idx == len(strs):
+                return 0
+
+            count0 = strs[idx].count("0")
+            count1 = strs[idx].count("1")
+                        
+            if count0 <= m and count1 <= n:
+                return max(dfs(idx + 1, m, n), 1 + dfs(idx + 1, m - count0, n - count1))
+            else:
+                return dfs(idx + 1, m, n)
+        
+        return dfs(0, m, n)
     
     # 2022/05/23 
     # DFS [TLE]
