@@ -69,6 +69,7 @@ algo
 │   ├── __0162__Find Peak Element.py
 │   ├── __0240__Search a 2D Matrix II.py
 │   ├── __0278__First Bad Version.py
+│   ├── __0354__Russian Doll Envelopes.py
 │   ├── __0362__Design Hit Counter.py
 │   ├── __0441__Arranging Coins.py
 │   ├── __0528__Random Pick with Weight.py
@@ -560,7 +561,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 518 files
+40 directories, 519 files
 
 =====================================
 ============= Leetcode ==============
@@ -777,6 +778,7 @@ algo
  0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
  0352 Data Stream as Disjoint Intervals
+ 0354 Russian Doll Envelopes
  0362 Design Hit Counter
  0366 Find Leaves of Binary Tree
  0368 Largest Divisible Subset
@@ -1040,9 +1042,9 @@ algo
 =====================================
 Solved / Total (Easy)  :  101 /  573
 Solved / Total (Medium):  331 / 1211
-Solved / Total (Hard)  :   40 /  497
-Solved / Total (All)   :  472 / 2281
-Total Score            : 1294
+Solved / Total (Hard)  :   41 /  497
+Solved / Total (All)   :  473 / 2281
+Total Score            : 1299
 =====================================
 
 ```

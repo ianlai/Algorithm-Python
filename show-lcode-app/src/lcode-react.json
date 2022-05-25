@@ -248,7 +248,11 @@
     "Level": 3, 
     "Title": "Longest Valid Parentheses", 
     "Url": "https://leetcode.com/problems/longest-valid-parentheses", 
-    "Tags": [], 
+    "Tags": [
+        "Stack", 
+        "DP", 
+        "Parentheses"
+    ], 
     "Memo": "", 
     "Date": "2022-05-25"
 },
@@ -2638,6 +2642,14 @@
     ], 
     "Memo": "LC228 Summary Range的延伸版，沒有先做好sorting且不斷輸入的情況。使用HashMap存每一個段落的頭尾，達到Add O(1)的效果。取Ranges的部分則是因為要排序，因此要O(mlogm)，m是range數。如果使用OrderedDict（類似Java TreeMap），插入的時候就排序好，可以讓時間複雜度更平衡。也可以使用DisjointSet來做這題。總共有的作法：(1)dict (2)ordered_dict (3)disjoint_set", 
     "Date": "2022-03-19"
+},
+{
+    "Number": "0354", 
+    "Level": 3, 
+    "Title": "Russian Doll Envelopes", 
+    "Url": "https://leetcode.com/problems/russian-doll-envelopes", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0362", 
