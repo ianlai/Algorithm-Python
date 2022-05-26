@@ -1614,6 +1614,14 @@
     "Date": "2021-05-19"
 },
 {
+    "Number": "0191", 
+    "Level": 1, 
+    "Title": "Number of 1 Bits", 
+    "Url": "https://leetcode.com/problems/number-of-1-bits", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0198", 
     "Level": 2, 
     "Title": "House Robber", 
@@ -2384,7 +2392,7 @@
         "Binary-Search"
     ], 
     "Memo": "DP的作法很直覺，開一個一維DP陣列，代表到i的最長subsequence個數。另一個作法則是做出一個字串，裡面每一個substring都是可能的subsequence。掃描時如果v大於最後的，就直接加入，如果沒有大於最後，就scan找到比v大的第一個元素，替換成這個v。因為是monotonic，所以可以使用BS來加速。要記得最後找出來的字串的長度雖然是LIS的長度，但內容是不對的，內容是不同組合拼出來的。", 
-    "Date": "2022-03-06"
+    "Date": "2022-05-26"
 },
 {
     "Number": "0303", 
@@ -2649,7 +2657,8 @@
     "Title": "Russian Doll Envelopes", 
     "Url": "https://leetcode.com/problems/russian-doll-envelopes", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-25"
 },
 {
     "Number": "0362", 

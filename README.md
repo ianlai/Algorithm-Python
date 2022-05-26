@@ -69,7 +69,6 @@ algo
 │   ├── __0162__Find Peak Element.py
 │   ├── __0240__Search a 2D Matrix II.py
 │   ├── __0278__First Bad Version.py
-│   ├── __0354__Russian Doll Envelopes.py
 │   ├── __0362__Design Hit Counter.py
 │   ├── __0441__Arranging Coins.py
 │   ├── __0528__Random Pick with Weight.py
@@ -91,6 +90,7 @@ algo
 │   └── __2251__Number of Flowers in Full Bloom.py
 ├── BitOperation
 │   ├── __0136__Single Number.py
+│   ├── __0191__Number of 1 Bits.py
 │   └── __2275__Largest Combination With Bitwise AND Greater Than Zero.py
 ├── DFS
 │   ├── __0017__Letter Combinations of a Phone Number.py
@@ -148,6 +148,7 @@ algo
 │   ├── __0322__Coin Change.py
 │   ├── __0329__Longest Increasing Path in a Matrix.py
 │   ├── __0338__Counting Bits.py
+│   ├── __0354__Russian Doll Envelopes.py
 │   ├── __0368__Largest Divisible Subset.py
 │   ├── __0377__Combination Sum IV.py
 │   ├── __0416__Partition Equal Subset Sum.py
@@ -561,7 +562,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 519 files
+40 directories, 520 files
 
 =====================================
 ============= Leetcode ==============
@@ -697,6 +698,7 @@ algo
  0179 Largest Number
  0187 Repeated DNA Sequences
  0189 Rotate Array
+ 0191 Number of 1 Bits
  0198 House Robber
  0199 Binary Tree Right Side View
  0200 Number of Islands
@@ -1040,11 +1042,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  101 /  573
-Solved / Total (Medium):  331 / 1211
+Solved / Total (Easy)  :  102 /  573
+Solved / Total (Medium):  331 / 1212
 Solved / Total (Hard)  :   41 /  497
-Solved / Total (All)   :  473 / 2281
-Total Score            : 1299
+Solved / Total (All)   :  474 / 2282
+Total Score            : 1300
 =====================================
 
 ```

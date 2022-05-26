@@ -1055,6 +1055,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0191", 
+    "Level": 1, 
+    "Title": "Number of 1 Bits", 
+    "Url": "https://leetcode.com/problems/number-of-1-bits", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0198", 
     "Level": 2, 
     "Title": "House Robber", 
