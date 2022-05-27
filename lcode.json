@@ -3263,6 +3263,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1342", 
+    "Level": 1, 
+    "Title": "Number of Steps to Reduce a Number to Zero", 
+    "Url": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1344", 
     "Level": 2, 
     "Title": "Angle Between Hands of a Clock", 
@@ -3483,6 +3491,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Swapping Nodes in a Linked List", 
     "Url": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1730", 
+    "Level": 2, 
+    "Title": "Shortest Path to Get Food", 
+    "Url": "https://leetcode.com/problems/shortest-path-to-get-food", 
     "Tags": [], 
     "Memo": ""
 },

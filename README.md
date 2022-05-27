@@ -91,6 +91,7 @@ algo
 ├── BitOperation
 │   ├── __0136__Single Number.py
 │   ├── __0191__Number of 1 Bits.py
+│   ├── __1342__Number of Steps to Reduce a Number to Zero.py
 │   └── __2275__Largest Combination With Bitwise AND Greater Than Zero.py
 ├── DFS
 │   ├── __0017__Letter Combinations of a Phone Number.py
@@ -562,7 +563,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 520 files
+40 directories, 521 files
 
 =====================================
 ============= Leetcode ==============
@@ -974,6 +975,7 @@ algo
  1305 All Elements in Two Binary Search Trees
  1306 Jump Game III
  1319 Number of Operations to Make Network Connected
+ 1342 Number of Steps to Reduce a Number to Zero
  1344 Angle Between Hands of a Clock
  1358 Number of Substrings Containing All Three Characters
  1361 Validate Binary Tree Nodes
@@ -1002,6 +1004,7 @@ algo
  1706 Where Will the Ball Fall
  1711 Count Good Meals
  1721 Swapping Nodes in a Linked List
+ 1730 Shortest Path to Get Food
  1762 Buildings With an Ocean View
  1774 Closest Dessert Cost
  1804 Implement Trie II (Prefix Tree)
@@ -1042,11 +1045,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  102 /  573
-Solved / Total (Medium):  331 / 1212
+Solved / Total (Easy)  :  103 /  573
+Solved / Total (Medium):  332 / 1211
 Solved / Total (Hard)  :   41 /  497
-Solved / Total (All)   :  474 / 2282
-Total Score            : 1300
+Solved / Total (All)   :  476 / 2281
+Total Score            : 1304
 =====================================
 
 ```
