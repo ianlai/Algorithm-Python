@@ -55,6 +55,7 @@ algo
 │   ├── __1162__As Far from Land as Possible.py
 │   ├── __1197__Minimum Knight Moves.py
 │   ├── __1306__Jump Game III.py
+│   ├── __1730__Shortest Path to Get Food.py
 │   └── __2258__Escape the Spreading Fire.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
@@ -563,7 +564,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 521 files
+40 directories, 522 files
 
 =====================================
 ============= Leetcode ==============

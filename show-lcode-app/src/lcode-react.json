@@ -218,7 +218,7 @@
         "Heap"
     ], 
     "Memo": "", 
-    "Date": "2021-07-18"
+    "Date": "2022-05-28"
 },
 {
     "Number": "0024", 
@@ -5015,7 +5015,8 @@
     "Title": "Number of Steps to Reduce a Number to Zero", 
     "Url": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-27"
 },
 {
     "Number": "1344", 
@@ -5373,7 +5374,8 @@
     "Title": "Shortest Path to Get Food", 
     "Url": "https://leetcode.com/problems/shortest-path-to-get-food", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-28"
 },
 {
     "Number": "1762", 
