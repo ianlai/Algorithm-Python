@@ -2618,6 +2618,14 @@
     "Date": "2022-03-07"
 },
 {
+    "Number": "0348", 
+    "Level": 2, 
+    "Title": "Design Tic-Tac-Toe", 
+    "Url": "https://leetcode.com/problems/design-tic-tac-toe", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0349", 
     "Level": 1, 
     "Title": "Intersection of Two Arrays", 
@@ -5256,6 +5264,14 @@
     ], 
     "Memo": "使用Backtracking不斷做出新的path，並且紀錄最長path，要記得退棧。最後回傳最大值。", 
     "Date": "2022-05-10"
+},
+{
+    "Number": "1603", 
+    "Level": 1, 
+    "Title": "Design Parking System", 
+    "Url": "https://leetcode.com/problems/design-parking-system", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "1631", 

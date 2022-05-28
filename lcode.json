@@ -1687,6 +1687,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0348", 
+    "Level": 2, 
+    "Title": "Design Tic-Tac-Toe", 
+    "Url": "https://leetcode.com/problems/design-tic-tac-toe", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0349", 
     "Level": 1, 
     "Title": "Intersection of Two Arrays", 
@@ -3419,6 +3427,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Split a String Into the Max Number of Unique Substrings", 
     "Url": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1603", 
+    "Level": 1, 
+    "Title": "Design Parking System", 
+    "Url": "https://leetcode.com/problems/design-parking-system", 
     "Tags": [], 
     "Memo": ""
 },

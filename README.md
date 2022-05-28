@@ -187,9 +187,10 @@ algo
 │   ├── __1937__Maximum Number of Points with Cost.py
 │   ├── __2008__Maximum Earnings From Taxi.py
 │   └── __2218__Maximum Value of K Coins From Piles.py
-├── DataStructure
+├── Design
 │   ├── __0146__LRU Cache.py
 │   ├── __0284__Peeking Iterator.py
+│   ├── __0348__Design Tic-Tac-Toe.py
 │   ├── __0352__Data Stream as Disjoint Intervals.py
 │   ├── __0380__Insert Delete GetRandom O(1).py
 │   ├── __0387__First Unique Character in a String.py
@@ -564,7 +565,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 522 files
+40 directories, 523 files
 
 =====================================
 ============= Leetcode ==============
@@ -779,6 +780,7 @@ algo
  0341 Flatten Nested List Iterator
  0346 Moving Average from Data Stream
  0347 Top K Frequent Elements
+ 0348 Design Tic-Tac-Toe
  0349 Intersection of Two Arrays
  0350 Intersection of Two Arrays II
  0352 Data Stream as Disjoint Intervals
@@ -996,6 +998,7 @@ algo
  1557 Minimum Number of Vertices to Reach All Nodes
  1584 Min Cost to Connect All Points
  1593 Split a String Into the Max Number of Unique Substrings
+ 1603 Design Parking System
  1631 Path With Minimum Effort
  1641 Count Sorted Vowel Strings
  1644 Lowest Common Ancestor of a Binary Tree II
@@ -1046,11 +1049,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  103 /  573
-Solved / Total (Medium):  332 / 1211
+Solved / Total (Easy)  :  104 /  573
+Solved / Total (Medium):  333 / 1211
 Solved / Total (Hard)  :   41 /  497
-Solved / Total (All)   :  476 / 2281
-Total Score            : 1304
+Solved / Total (All)   :  478 / 2281
+Total Score            : 1308
 =====================================
 
 ```
