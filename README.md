@@ -241,6 +241,7 @@ algo
 │   ├── __0287__Find the Duplicate Number.py
 │   ├── __0290__Word Pattern.py
 │   ├── __0349__Intersection of Two Arrays.py
+│   ├── __0409__Longest Palindrome.py
 │   ├── __0535__Encode and Decode TinyURL.py
 │   ├── __0705__Design HashSet.py
 │   ├── __1160__Find Words That Can Be Formed by Characters.py
@@ -566,7 +567,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 524 files
+40 directories, 525 files
 
 =====================================
 ============= Leetcode ==============
@@ -800,6 +801,7 @@ algo
  0395 Longest Substring with At Least K Repeating Characters
  0399 Evaluate Division
  0401 Binary Watch
+ 0409 Longest Palindrome
  0412 Fizz Buzz
  0416 Partition Equal Subset Sum
  0417 Pacific Atlantic Water Flow
@@ -1050,11 +1052,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  104 /  573
+Solved / Total (Easy)  :  105 /  573
 Solved / Total (Medium):  333 / 1211
 Solved / Total (Hard)  :   41 /  497
-Solved / Total (All)   :  478 / 2281
-Total Score            : 1308
+Solved / Total (All)   :  479 / 2281
+Total Score            : 1309
 =====================================
 
 ```
