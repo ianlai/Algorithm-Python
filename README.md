@@ -751,6 +751,7 @@ algo
  0264 Ugly Number II
  0266 Palindrome Permutation
  0267 Palindrome Permutation II
+ 0268 Missing Number
  0270 Closest Binary Search Tree Value
  0277 Find the Celebrity
  0278 First Bad Version
@@ -1052,11 +1053,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  105 /  573
+Solved / Total (Easy)  :  106 /  573
 Solved / Total (Medium):  333 / 1211
 Solved / Total (Hard)  :   41 /  497
-Solved / Total (All)   :  479 / 2281
-Total Score            : 1309
+Solved / Total (All)   :  480 / 2281
+Total Score            : 1310
 =====================================
 
 ```

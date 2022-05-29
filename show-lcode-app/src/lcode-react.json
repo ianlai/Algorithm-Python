@@ -215,9 +215,16 @@
     "Url": "https://leetcode.com/problems/merge-k-sorted-lists", 
     "Tags": [
         "LinkedList", 
-        "Heap"
+        "Heap", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Google", 
+        "##Microsoft", 
+        "##LinkedIn", 
+        "##Indeed", 
+        "##Apple"
     ], 
-    "Memo": "", 
+    "Memo": "先把每條LinkedList的開頭都裝入Heap，利用Heap的特性取出最小的，連到新的自製LinkedList上，取出來的那個List就要把開頭往下走一格。這題會遇到一個問題是Node沒辦法直接放入Heap比大小，但只放入值又不知道這是屬於哪一個List的，因此需要多包裝一層class並且自訂__lt__，或是直接把__lt__用lambda的形式黏入原本的Node Class內。", 
     "Date": "2022-05-28"
 },
 {
@@ -1408,7 +1415,12 @@
         "LinkedList", 
         "Cache", 
         "Design", 
-        "**GOOD"
+        "**GOOD", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Google", 
+        "##Microsoft", 
+        "##Apple"
     ], 
     "Memo": "使用Double LinkedList比較好做，就可以達到Get/Put/Update/Evict都是O(1)的速度。一開始就寫一個head/tail，所有的點都在這個head/tail裡面，並把對node操作的兩個函數AddNode/RemoveNode都獨立封裝在最底層，中層包含了AddHead/PopTail/MoveToHead三個函數，就很整潔不會難寫。", 
     "Date": "2022-05-11"
@@ -1618,8 +1630,12 @@
     "Level": 1, 
     "Title": "Number of 1 Bits", 
     "Url": "https://leetcode.com/problems/number-of-1-bits", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "String", 
+        "Bit", 
+        "Math"
+    ], 
+    "Memo": "要計算一個數轉成二進位後有幾個1，可以直接轉成string來計算，也可以用Bit Manipulation來計算。", 
     "Date": "2022-05-26"
 },
 {
@@ -1859,7 +1875,15 @@
     "Level": 2, 
     "Title": "Basic Calculator II", 
     "Url": "https://leetcode.com/problems/basic-calculator-ii", 
-    "Tags": [], 
+    "Tags": [
+        "String", 
+        "Stack", 
+        "**GOOD", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Apple", 
+        "##Microsoft"
+    ], 
     "Memo": "", 
     "Date": "2022-05-17"
 },
@@ -1971,7 +1995,13 @@
     "Url": "https://leetcode.com/problems/sliding-window-maximum", 
     "Tags": [
         "Sliding-Window", 
-        "Monotonic-Queue"
+        "Monotonic-Queue", 
+        "Design", 
+        "##Amazon", 
+        "##Facebook", 
+        "##Google", 
+        "##Microsoft", 
+        "##Apple"
     ], 
     "Memo": "過了半年，這題總算變簡單了。使用Sliding Window配上Monotonic Queue就不會很難做，記得存入Queue的值要是index，會比較好判斷是否要popleft()。", 
     "Date": "2022-02-04"
@@ -1997,7 +2027,7 @@
         "Parentheses", 
         "Memoization", 
         "D&C", 
-        "##大波", 
+        "**大波", 
         "**CHECK"
     ], 
     "Memo": "", 
@@ -2212,6 +2242,14 @@
     ], 
     "Memo": "是0047 PermutationII (有重複）和 0266 Palindrome Permutation的結合題。主要就是要處理有重複的排列問題。", 
     "Date": "2022-05-13"
+},
+{
+    "Number": "0268", 
+    "Level": 1, 
+    "Title": "Missing Number", 
+    "Url": "https://leetcode.com/problems/missing-number", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0270", 
@@ -2622,8 +2660,11 @@
     "Level": 2, 
     "Title": "Design Tic-Tac-Toe", 
     "Url": "https://leetcode.com/problems/design-tic-tac-toe", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Design", 
+        "Matrix"
+    ], 
+    "Memo": "[1]做出Matrix來填表，但判斷勝利只要跟當row和當col以及兩條對角線比就可以O(n)，不需要到O(n2) \n [2]如果只記每一row,每一col以及兩條對角線的兩者個數，就可以用O(1)的時間判斷出來。", 
     "Date": "2022-05-28"
 },
 {
@@ -2666,8 +2707,13 @@
     "Level": 3, 
     "Title": "Russian Doll Envelopes", 
     "Url": "https://leetcode.com/problems/russian-doll-envelopes", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Sorting", 
+        "DP", 
+        "LIS", 
+        "Binary-Search"
+    ], 
+    "Memo": "[1]用DP的話需要先Sorting，整體時間是O(n2)，在這題會超時。\n [2]用LIS替換sequence做出increasing的作法，再加上尋找idx，所需時間是O(nlogn)。但可以用LIS的關鍵在於要把二維的資訊用(w[0], -w[1])的形式，第二維反著裝，這樣就會變成LIS題目。", 
     "Date": "2022-05-25"
 },
 {
@@ -2753,10 +2799,16 @@
     "Tags": [
         "Design", 
         "Randomized", 
-        "**CHECK"
+        "**GOOD", 
+        "##Amazon", 
+        "##Apple", 
+        "##Google", 
+        "##Facebook", 
+        "##Indeed", 
+        "##LinkedIn"
     ], 
     "Memo": "", 
-    "Date": "2021-07-19"
+    "Date": "2022-05-28"
 },
 {
     "Number": "0384", 
@@ -2850,8 +2902,12 @@
     "Level": 1, 
     "Title": "Longest Palindrome", 
     "Url": "https://leetcode.com/problems/longest-palindrome", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "HashMap", 
+        "Palindrome", 
+        "##Amazon"
+    ], 
+    "Memo": "用HashMap計數元素，每一個count都取出最大偶數部分，最後比較有沒有剩下1以上，有的話答案再加一。", 
     "Date": "2022-05-28"
 },
 {
@@ -5032,8 +5088,12 @@
     "Level": 1, 
     "Title": "Number of Steps to Reduce a Number to Zero", 
     "Url": "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Math", 
+        "Bit", 
+        "Simulation"
+    ], 
+    "Memo": "偶數就除2，奇數就減1。[1] 可以用Simulation不斷往下計算。[2]也可以用log2計算有幾個bit，再計算有幾個bit為1。", 
     "Date": "2022-05-27"
 },
 {
@@ -5079,8 +5139,11 @@
     "Level": 2, 
     "Title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree", 
     "Url": "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Tree", 
+        "DFS"
+    ], 
+    "Memo": "Tree DFS traversal找值而已。", 
     "Date": "2022-05-17"
 },
 {
@@ -5280,8 +5343,12 @@
     "Level": 1, 
     "Title": "Design Parking System", 
     "Url": "https://leetcode.com/problems/design-parking-system", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "HashMap", 
+        "Design", 
+        "##Amazon"
+    ], 
+    "Memo": "用一個counter紀錄目前三種車的剩餘車位，超過0就是True。", 
     "Date": "2022-05-28"
 },
 {
@@ -5400,8 +5467,13 @@
     "Level": 2, 
     "Title": "Shortest Path to Get Food", 
     "Url": "https://leetcode.com/problems/shortest-path-to-get-food", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Matrix", 
+        "BFS", 
+        "##Amazon", 
+        "##Google"
+    ], 
+    "Memo": "基本的BFS題，要找到抵達任意食物的最短距離。", 
     "Date": "2022-05-28"
 },
 {

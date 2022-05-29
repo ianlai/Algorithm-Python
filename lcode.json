@@ -1439,6 +1439,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0268", 
+    "Level": 1, 
+    "Title": "Missing Number", 
+    "Url": "https://leetcode.com/problems/missing-number", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0270", 
     "Level": 1, 
     "Title": "Closest Binary Search Tree Value", 
