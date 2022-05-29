@@ -1615,6 +1615,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0318", 
+    "Level": 2, 
+    "Title": "Maximum Product of Word Lengths", 
+    "Url": "https://leetcode.com/problems/maximum-product-of-word-lengths", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0322", 
     "Level": 2, 
     "Title": "Coin Change", 

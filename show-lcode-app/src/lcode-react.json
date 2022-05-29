@@ -2249,7 +2249,8 @@
     "Title": "Missing Number", 
     "Url": "https://leetcode.com/problems/missing-number", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-29"
 },
 {
     "Number": "0270", 
@@ -2509,6 +2510,18 @@
     ], 
     "Memo": "Greedy的作法不難想，但不太好寫，就是盡量找到最大又最後的字母，同時該字母後面的字串保有其他所有的字母，再使用recursive往下找。Monotonic-Stack的作法應該也是可以觀察出來，因為要保持順序（畢竟是刪除），但又要有大小順序，所以可以看出有Monotonic-Stack的感覺，但詳細實作還沒做過。", 
     "Date": "2022-03-26"
+},
+{
+    "Number": "0318", 
+    "Level": 2, 
+    "Title": "Maximum Product of Word Lengths", 
+    "Url": "https://leetcode.com/problems/maximum-product-of-word-lengths", 
+    "Tags": [
+        "String", 
+        "Bit"
+    ], 
+    "Memo": "", 
+    "Date": "2022-05-29"
 },
 {
     "Number": "0322", 
@@ -2807,7 +2820,7 @@
         "##Indeed", 
         "##LinkedIn"
     ], 
-    "Memo": "", 
+    "Memo": "HashMap新增刪除的時間是O(1)，但getRandom必須轉成list才取，會是O(N)，因此必須HashMap + Array兩者並用。但併用代表刪除的時候也是要兩邊刪，Array刪除會需要O(N)，因此必須使用soft delete的技巧，把要刪的元素換到尾巴，再把size pointer往內移一個代表刪除。", 
     "Date": "2022-05-28"
 },
 {
