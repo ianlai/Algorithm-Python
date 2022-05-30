@@ -159,6 +159,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0029", 
+    "Level": 2, 
+    "Title": "Divide Two Integers", 
+    "Url": "https://leetcode.com/problems/divide-two-integers", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0031", 
     "Level": 2, 
     "Title": "Next Permutation", 

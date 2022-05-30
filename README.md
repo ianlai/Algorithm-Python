@@ -60,6 +60,7 @@ algo
 │   └── __2258__Escape the Spreading Fire.py
 ├── BinarySearch
 │   ├── __0004__Median of Two Sorted Arrays.py
+│   ├── __0029__Divide Two Integers.py
 │   ├── __0033__Search in Rotated Sorted Array.py
 │   ├── __0034__Find First and Last Position of Element in Sorted Array.py
 │   ├── __0035__Search Insert Position.py
@@ -569,7 +570,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 527 files
+40 directories, 528 files
 
 =====================================
 ============= Leetcode ==============
@@ -593,6 +594,7 @@ algo
  0022 Generate Parentheses
  0023 Merge k Sorted Lists
  0024 Swap Nodes in Pairs
+ 0029 Divide Two Integers
  0031 Next Permutation
  0032 Longest Valid Parentheses
  0033 Search in Rotated Sorted Array
@@ -1057,10 +1059,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  106 /  575
-Solved / Total (Medium):  334 / 1215
+Solved / Total (Medium):  335 / 1215
 Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  481 / 2289
-Total Score            : 1313
+Solved / Total (All)   :  482 / 2289
+Total Score            : 1316
 =====================================
 
 ```
