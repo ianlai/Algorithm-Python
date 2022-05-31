@@ -2799,6 +2799,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0937", 
+    "Level": 1, 
+    "Title": "Reorder Data in Log Files", 
+    "Url": "https://leetcode.com/problems/reorder-data-in-log-files", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0938", 
     "Level": 1, 
     "Title": "Range Sum of BST", 
@@ -3411,6 +3419,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Count Good Nodes in Binary Tree", 
     "Url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1461", 
+    "Level": 2, 
+    "Title": "Check If a String Contains All Binary Codes of Size K", 
+    "Url": "https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k", 
     "Tags": [], 
     "Memo": ""
 },

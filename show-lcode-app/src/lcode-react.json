@@ -244,7 +244,8 @@
     "Title": "Divide Two Integers", 
     "Url": "https://leetcode.com/problems/divide-two-integers", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-05-30"
 },
 {
     "Number": "0031", 
@@ -3395,7 +3396,11 @@
     "Tags": [
         "Matrix", 
         "DP", 
-        "**CHECK"
+        "**CHECK", 
+        "##Amazon", 
+        "##Google", 
+        "##Microsoft", 
+        "##Facebook"
     ], 
     "Memo": "", 
     "Date": "2021-08-21"
@@ -4340,6 +4345,15 @@
     "Date": "2022-05-10"
 },
 {
+    "Number": "0937", 
+    "Level": 1, 
+    "Title": "Reorder Data in Log Files", 
+    "Url": "https://leetcode.com/problems/reorder-data-in-log-files", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-31"
+},
+{
     "Number": "0938", 
     "Level": 1, 
     "Title": "Range Sum of BST", 
@@ -5281,6 +5295,15 @@
     ], 
     "Memo": "O(H)一次可做完，往下不斷更新最大值，用最大值來相比，比最大值大就counter+1。", 
     "Date": "2022-04-22"
+},
+{
+    "Number": "1461", 
+    "Level": 2, 
+    "Title": "Check If a String Contains All Binary Codes of Size K", 
+    "Url": "https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-05-31"
 },
 {
     "Number": "1475", 

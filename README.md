@@ -96,6 +96,7 @@ algo
 │   ├── __0191__Number of 1 Bits.py
 │   ├── __0318__Maximum Product of Word Lengths.py
 │   ├── __1342__Number of Steps to Reduce a Number to Zero.py
+│   ├── __1461__Check If a String Contains All Binary Codes of Size K.py
 │   └── __2275__Largest Combination With Bitwise AND Greater Than Zero.py
 ├── DFS
 │   ├── __0017__Letter Combinations of a Phone Number.py
@@ -356,6 +357,7 @@ algo
 │   ├── __0242__Valid Anagram.py
 │   ├── __0539__Minimum Time Difference.py
 │   ├── __0581__Shortest Unsorted Continuous Subarray.py
+│   ├── __0937__Reorder Data in Log Files.py
 │   └── __2273__Find Resultant Array After Removing Anagrams.py
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
@@ -525,7 +527,9 @@ algo
 │       └── UnrolledLinkedList.cpython-39.pyc
 ├── _Practice
 │   ├── AZ
-│   │   └── MaxSubarrayLength.py
+│   │   ├── ImplementQueue.py
+│   │   ├── MaxSubarrayLength.py
+│   │   └── MinPathOfMatrix.py
 │   ├── GL
 │   │   └── TriangleChecker.py
 │   ├── ID-KT
@@ -570,7 +574,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 528 files
+40 directories, 532 files
 
 =====================================
 ============= Leetcode ==============
@@ -924,6 +928,7 @@ algo
  0931 Minimum Falling Path Sum
  0934 Shortest Bridge
  0935 Knight Dialer
+ 0937 Reorder Data in Log Files
  0938 Range Sum of BST
  0947 Most Stones Removed with Same Row or Column
  0954 Array of Doubled Pairs
@@ -1001,6 +1006,7 @@ algo
  1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
  1443 Minimum Time to Collect All Apples in a Tree
  1448 Count Good Nodes in Binary Tree
+ 1461 Check If a String Contains All Binary Codes of Size K
  1475 Final Prices With a Special Discount in a Shop
  1525 Number of Good Ways to Split a String
  1530 Number of Good Leaf Nodes Pairs
@@ -1058,11 +1064,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  106 /  575
-Solved / Total (Medium):  335 / 1215
+Solved / Total (Easy)  :  107 /  575
+Solved / Total (Medium):  336 / 1216
 Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  482 / 2289
-Total Score            : 1316
+Solved / Total (All)   :  484 / 2290
+Total Score            : 1320
 =====================================
 
 ```
