@@ -5318,6 +5318,15 @@
     "Date": "2022-01-04"
 },
 {
+    "Number": "1480", 
+    "Level": 1, 
+    "Title": "Running Sum of 1d Array", 
+    "Url": "https://leetcode.com/problems/running-sum-of-1d-array", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-01"
+},
+{
     "Number": "1525", 
     "Level": 2, 
     "Title": "Number of Good Ways to Split a String", 

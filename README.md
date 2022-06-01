@@ -185,6 +185,7 @@ algo
 │   ├── __1277__Count Square Submatrices with All Ones.py
 │   ├── __1289__Minimum Falling Path Sum II.py
 │   ├── __1395__Count Number of Teams.py
+│   ├── __1480__Running Sum of 1d Array.py
 │   ├── __1641__Count Sorted Vowel Strings.py
 │   ├── __1696__Jump Game VI.py
 │   ├── __1774__Closest Dessert Cost.py
@@ -574,7 +575,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 532 files
+40 directories, 533 files
 
 =====================================
 ============= Leetcode ==============
@@ -1008,6 +1009,7 @@ algo
  1448 Count Good Nodes in Binary Tree
  1461 Check If a String Contains All Binary Codes of Size K
  1475 Final Prices With a Special Discount in a Shop
+ 1480 Running Sum of 1d Array
  1525 Number of Good Ways to Split a String
  1530 Number of Good Leaf Nodes Pairs
  1557 Minimum Number of Vertices to Reach All Nodes
@@ -1064,11 +1066,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  107 /  575
-Solved / Total (Medium):  336 / 1216
+Solved / Total (Easy)  :  108 /  575
+Solved / Total (Medium):  336 / 1217
 Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  484 / 2290
-Total Score            : 1320
+Solved / Total (All)   :  485 / 2291
+Total Score            : 1321
 =====================================
 
 ```
