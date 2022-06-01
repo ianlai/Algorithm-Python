@@ -3207,6 +3207,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1219", 
+    "Level": 2, 
+    "Title": "Path with Maximum Gold", 
+    "Url": "https://leetcode.com/problems/path-with-maximum-gold", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1235", 
     "Level": 3, 
     "Title": "Maximum Profit in Job Scheduling", 

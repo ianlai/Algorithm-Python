@@ -126,6 +126,7 @@ algo
 │   ├── __0690__Employee Importance.py
 │   ├── __0784__Letter Case Permutation.py
 │   ├── __0841__Keys and Rooms.py
+│   ├── __1219__Path with Maximum Gold.py
 │   ├── __1391__Check if There is a Valid Path in a Grid.py
 │   ├── __1443__Minimum Time to Collect All Apples in a Tree.py
 │   ├── __1593__Split a String Into the Max Number of Unique Substrings.py
@@ -575,7 +576,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 533 files
+40 directories, 534 files
 
 =====================================
 ============= Leetcode ==============
@@ -980,6 +981,7 @@ algo
  1202 Smallest String With Swaps
  1209 Remove All Adjacent Duplicates in String II
  1214 Two Sum BSTs
+ 1219 Path with Maximum Gold
  1235 Maximum Profit in Job Scheduling
  1248 Count Number of Nice Subarrays
  1254 Number of Closed Islands
@@ -1067,10 +1069,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  108 /  575
-Solved / Total (Medium):  336 / 1217
+Solved / Total (Medium):  337 / 1217
 Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  485 / 2291
-Total Score            : 1321
+Solved / Total (All)   :  486 / 2291
+Total Score            : 1324
 =====================================
 
 ```
