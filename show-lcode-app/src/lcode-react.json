@@ -5587,6 +5587,14 @@
     "Date": "2022-05-11"
 },
 {
+    "Number": "1861", 
+    "Level": 2, 
+    "Title": "Rotating the Box", 
+    "Url": "https://leetcode.com/problems/rotating-the-box", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1905", 
     "Level": 2, 
     "Title": "Count Sub Islands", 

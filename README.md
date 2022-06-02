@@ -324,6 +324,7 @@ algo
 │   ├── __0498__Diagonal Traverse.py
 │   ├── __1260__Shift 2D Grid.py
 │   ├── __1275__Find Winner on a Tic Tac Toe Game.py
+│   ├── __1861__Rotating the Box.py
 │   └── __2257__Count Unguarded Cells in the Grid.py
 ├── Monotonic
 │   ├── __0084__Largest Rectangle in Histogram.py
@@ -576,7 +577,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 534 files
+40 directories, 535 files
 
 =====================================
 ============= Leetcode ==============
@@ -1032,6 +1033,7 @@ algo
  1774 Closest Dessert Cost
  1804 Implement Trie II (Prefix Tree)
  1838 Frequency of the Most Frequent Element
+ 1861 Rotating the Box
  1905 Count Sub Islands
  1937 Maximum Number of Points with Cost
  1971 Find if Path Exists in Graph
@@ -1069,10 +1071,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  108 /  575
-Solved / Total (Medium):  337 / 1217
+Solved / Total (Medium):  338 / 1217
 Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  486 / 2291
-Total Score            : 1324
+Solved / Total (All)   :  487 / 2291
+Total Score            : 1327
 =====================================
 
 ```
