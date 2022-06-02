@@ -423,6 +423,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0071", 
+    "Level": 2, 
+    "Title": "Simplify Path", 
+    "Url": "https://leetcode.com/problems/simplify-path", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0073", 
     "Level": 2, 
     "Title": "Set Matrix Zeroes", 
@@ -2671,6 +2679,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0867", 
+    "Level": 1, 
+    "Title": "Transpose Matrix", 
+    "Url": "https://leetcode.com/problems/transpose-matrix", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0875", 
     "Level": 2, 
     "Title": "Koko Eating Bananas", 
@@ -3475,6 +3491,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Minimum Number of Vertices to Reach All Nodes", 
     "Url": "https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1567", 
+    "Level": 2, 
+    "Title": "Maximum Length of Subarray With Positive Product", 
+    "Url": "https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product", 
     "Tags": [], 
     "Memo": ""
 },

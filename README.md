@@ -234,6 +234,7 @@ algo
 │   ├── __0484__Find Permutation.py
 │   ├── __1029__Two City Scheduling.py
 │   ├── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
+│   ├── __1567__Maximum Length of Subarray With Positive Product.py
 │   └── __2216__Minimum Deletions to Make Array Beautiful.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
@@ -322,6 +323,7 @@ algo
 │   ├── __0289__Game of Life.py
 │   ├── __0304__Range Sum Query 2D - Immutable.py
 │   ├── __0498__Diagonal Traverse.py
+│   ├── __0867__Transpose Matrix.py
 │   ├── __1260__Shift 2D Grid.py
 │   ├── __1275__Find Winner on a Tic Tac Toe Game.py
 │   ├── __1861__Rotating the Box.py
@@ -365,6 +367,7 @@ algo
 ├── Stack
 │   ├── __0020__Valid Parentheses.py
 │   ├── __0032__Longest Valid Parentheses.py
+│   ├── __0071__Simplify Path.py
 │   ├── __0150__Evaluate Reverse Polish Notation.py
 │   ├── __0155__Min Stack.py
 │   ├── __0224__Basic Calculator.py
@@ -530,6 +533,7 @@ algo
 │       └── UnrolledLinkedList.cpython-39.pyc
 ├── _Practice
 │   ├── AZ
+│   │   ├── BalancePoints.py
 │   │   ├── ImplementQueue.py
 │   │   ├── MaxSubarrayLength.py
 │   │   └── MinPathOfMatrix.py
@@ -577,7 +581,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 535 files
+40 directories, 539 files
 
 =====================================
 ============= Leetcode ==============
@@ -634,6 +638,7 @@ algo
  0068 Text Justification
  0069 Sqrt(x)
  0070 Climbing Stairs
+ 0071 Simplify Path
  0073 Set Matrix Zeroes
  0074 Search a 2D Matrix
  0075 Sort Colors
@@ -915,6 +920,7 @@ algo
  0844 Backspace String Compare
  0862 Shortest Subarray with Sum at Least K
  0863 All Nodes Distance K in Binary Tree
+ 0867 Transpose Matrix
  0875 Koko Eating Bananas
  0889 Construct Binary Tree from Preorder and Postorder Traversal
  0896 Monotonic Array
@@ -1016,6 +1022,7 @@ algo
  1525 Number of Good Ways to Split a String
  1530 Number of Good Leaf Nodes Pairs
  1557 Minimum Number of Vertices to Reach All Nodes
+ 1567 Maximum Length of Subarray With Positive Product
  1584 Min Cost to Connect All Points
  1593 Split a String Into the Max Number of Unique Substrings
  1603 Design Parking System
@@ -1070,11 +1077,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  108 /  575
-Solved / Total (Medium):  338 / 1217
+Solved / Total (Easy)  :  109 /  575
+Solved / Total (Medium):  340 / 1217
 Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  487 / 2291
-Total Score            : 1327
+Solved / Total (All)   :  490 / 2291
+Total Score            : 1334
 =====================================
 
 ```

@@ -644,6 +644,15 @@
     "Date": "2021-05-17"
 },
 {
+    "Number": "0071", 
+    "Level": 2, 
+    "Title": "Simplify Path", 
+    "Url": "https://leetcode.com/problems/simplify-path", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-02"
+},
+{
     "Number": "0073", 
     "Level": 2, 
     "Title": "Set Matrix Zeroes", 
@@ -1498,8 +1507,11 @@
     "Level": 1, 
     "Title": "Min Stack", 
     "Url": "https://leetcode.com/problems/min-stack", 
-    "Tags": [], 
-    "Memo": "", 
+    "Tags": [
+        "Stack", 
+        "Design"
+    ], 
+    "Memo": "存stack和minStack。因為只有getMin，沒有popMin，所以只要取出stack的時候確認是否是目前最小，是的話就把minStack也pop掉就好。", 
     "Date": "2021-04-29"
 },
 {
@@ -4160,6 +4172,15 @@
     "Date": "2022-01-06"
 },
 {
+    "Number": "0867", 
+    "Level": 1, 
+    "Title": "Transpose Matrix", 
+    "Url": "https://leetcode.com/problems/transpose-matrix", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-02"
+},
+{
     "Number": "0875", 
     "Level": 2, 
     "Title": "Koko Eating Bananas", 
@@ -5021,7 +5042,13 @@
     "Url": "https://leetcode.com/problems/search-suggestions-system", 
     "Tags": [
         "String", 
-        "Trie"
+        "Trie", 
+        "**GOOD", 
+        "##Amazon", 
+        "##Google", 
+        "##Facebook", 
+        "##Apple", 
+        "##Microsoft"
     ], 
     "Memo": "", 
     "Date": "2021-08-02"
@@ -5373,6 +5400,15 @@
     "Date": "2022-01-04"
 },
 {
+    "Number": "1567", 
+    "Level": 2, 
+    "Title": "Maximum Length of Subarray With Positive Product", 
+    "Url": "https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-02"
+},
+{
     "Number": "1584", 
     "Level": 2, 
     "Title": "Min Cost to Connect All Points", 
@@ -5592,7 +5628,8 @@
     "Title": "Rotating the Box", 
     "Url": "https://leetcode.com/problems/rotating-the-box", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-06-02"
 },
 {
     "Number": "1905", 
