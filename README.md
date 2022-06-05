@@ -533,12 +533,20 @@ algo
 │       └── UnrolledLinkedList.cpython-39.pyc
 ├── _Practice
 │   ├── AZ
-│   │   ├── BalancePoints.py
 │   │   ├── ImplementQueue.py
 │   │   ├── MaxSubarrayLength.py
-│   │   └── MinPathOfMatrix.py
+│   │   ├── MinPathOfMatrix.py
+│   │   ├── s1_BalancePoints.py
+│   │   ├── s3_Advertiser.py
+│   │   └── s4_PurchaseAttribution.py
 │   ├── GL
 │   │   └── TriangleChecker.py
+│   ├── ID
+│   │   ├── Autocomplete.py
+│   │   ├── GitCommits.py
+│   │   ├── PythonValidator.py
+│   │   ├── Quantile.py
+│   │   └── StreamAverage.py
 │   ├── ID-KT
 │   │   ├── Ancestor.py
 │   │   ├── BadgeAccess.py
@@ -577,11 +585,12 @@ algo
     ├── DFS.py
     ├── DisjointSet.py
     ├── DisjointSet.pyc
+    ├── TopK.py
     ├── Trie.py
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-40 directories, 539 files
+41 directories, 547 files
 
 =====================================
 ============= Leetcode ==============
@@ -1077,10 +1086,10 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  109 /  575
-Solved / Total (Medium):  340 / 1217
-Solved / Total (Hard)  :   41 /  499
-Solved / Total (All)   :  490 / 2291
+Solved / Total (Easy)  :  109 /  576
+Solved / Total (Medium):  340 / 1220
+Solved / Total (Hard)  :   41 /  500
+Solved / Total (All)   :  490 / 2296
 Total Score            : 1334
 =====================================
 

@@ -1512,7 +1512,7 @@
         "Design"
     ], 
     "Memo": "存stack和minStack。因為只有getMin，沒有popMin，所以只要取出stack的時候確認是否是目前最小，是的話就把minStack也pop掉就好。", 
-    "Date": "2021-04-29"
+    "Date": "2022-06-04"
 },
 {
     "Number": "0159", 
