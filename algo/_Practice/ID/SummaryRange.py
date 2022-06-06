@@ -115,12 +115,10 @@ def summaryRangesNotSortedBS(nums):
             arr.append([v, v])
             used.add(v)
             continue
-        idx = bisect_left(arr, [v, v])
-        # if idx != 0 and idx != len(arr) and v <= arr[idx-1][1]:
-        #     continue
         if v in used:
             continue
 
+        idx = bisect_left(arr, [v, v])
         if idx != 0 and idx != len(arr) and v - 1 == arr[idx-1][1] and v + 1 == arr[idx][0]:
             end = arr[idx][1]
             arr[idx-1][1] = end

@@ -27,8 +27,6 @@ class HashMapApproach:
 
 
 
-
-
 class IntervalApproach:
     def __init__(self):
         self.intervals = []
@@ -37,11 +35,7 @@ class IntervalApproach:
         if not self.intervals:
             self.intervals.append([id, id])
         else:
-            idx = bisect_left(self.intervals, [id, id])
-            if id - 1 == self.intervals[idx-1][1] and id + 1 == self.intervals[idx][0]:
-                self.intervals[idx-1][1] = self.intervals[idx][1] 
-                self.intervals.pop(idx)
-            elif
+
                 
 
 
