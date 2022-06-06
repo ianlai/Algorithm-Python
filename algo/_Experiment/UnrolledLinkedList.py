@@ -12,6 +12,7 @@ class UnrolledLinkedList():
     def append(self, val):
         pre = self.preHead
         cur = pre.next
+
         if cur:
             while cur:
                 cur = cur.next
@@ -19,6 +20,10 @@ class UnrolledLinkedList():
         else:
             pre.next = ULLNode(val)
             cur = pre.next
+        
+        # while cur:
+        #     cur = cur.next
+        #     pre = pre.next
             
         if len(pre.arr) < self.capacity:
             pre.arr.append(val)
@@ -101,15 +106,27 @@ if __name__ == "__main__":
     print("Main of UnrolledLinkedList")
     ull = UnrolledLinkedList(3)
     ull.append(10)
-    ull.append(11)
-    ull.append(12)
-    ull.append(13)
-    ull.append(14)
-    ull.append(15)
-
-    ull.insert(3,3)
-    ull.insert(5,5)
-    ull.insert(3,33)
-    ull.printArray()
     ull.printList()
+    ull.append(11)
+    ull.printList()
+    ull.append(12)
+    ull.printList()
+    ull.append(13)
+    ull.printList()
+    ull.append(14)
+    ull.printList()
+    ull.append(15)
+    ull.printList()
+    ull.append(16)
+    ull.printList()
+    ull.insert(3,3)
+    ull.printList()
+    ull.insert(5,5)
+    ull.printList()
+
+    # ull.insert(3,3)
+    # ull.insert(5,5)
+    # ull.insert(3,33)
+    # ull.printArray()
+    # ull.printList()
 
