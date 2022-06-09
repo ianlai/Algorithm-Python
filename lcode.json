@@ -1031,6 +1031,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0170", 
+    "Level": 1, 
+    "Title": "Two Sum III - Data structure design", 
+    "Url": "https://leetcode.com/problems/two-sum-iii-data-structure-design", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0171", 
     "Level": 1, 
     "Title": "Excel Sheet Column Number", 
@@ -3331,6 +3339,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Number of Operations to Make Network Connected", 
     "Url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "1332", 
+    "Level": 1, 
+    "Title": "Remove Palindromic Subsequences", 
+    "Url": "https://leetcode.com/problems/remove-palindromic-subsequences", 
     "Tags": [], 
     "Memo": ""
 },

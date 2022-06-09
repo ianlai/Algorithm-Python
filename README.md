@@ -240,6 +240,7 @@ algo
 │   ├── __0001__Two Sum.py
 │   ├── __0049__Group Anagrams.py
 │   ├── __0137__Single Number II.py
+│   ├── __0170___Two Sum III - Data structure design.py
 │   ├── __0187__Repeated DNA Sequences.py
 │   ├── __0244__Shortest Word Distance II.py
 │   ├── __0249__Group Shifted Strings.py
@@ -510,6 +511,7 @@ algo
 │   ├── __1099__Two Sum Less Than K.py
 │   ├── __1214__Two Sum BSTs.py
 │   ├── __1248__Count Number of Nice Subarrays.py
+│   ├── __1332__Remove Palindromic Subsequences.py
 │   ├── __1358__Number of Substrings Containing All Three Characters.py
 │   ├── __1679__Max Number of K-Sum Pairs.py
 │   ├── __1711__Count Good Meals.py
@@ -543,14 +545,17 @@ algo
 │   │   └── TriangleChecker.py
 │   ├── ID
 │   │   ├── Autocomplete.py
+│   │   ├── DiceSum.java
 │   │   ├── ExpiredJob.py
 │   │   ├── GitCommits.py
+│   │   ├── MusicShuffle.py
 │   │   ├── NormalizeTitle.py
 │   │   ├── PythonValidator.py
 │   │   ├── Quantile.py
 │   │   ├── RootToLeafMinCost.py
 │   │   ├── StreamAverage.py
 │   │   ├── SummaryRange.py
+│   │   ├── UnrolledLinkedList.py
 │   │   └── WordDistance.py
 │   ├── ID-KT
 │   │   ├── Ancestor.py
@@ -595,7 +600,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 552 files
+41 directories, 557 files
 
 =====================================
 ============= Leetcode ==============
@@ -728,6 +733,7 @@ algo
  0162 Find Peak Element
  0167 Two Sum II - Input Array Is Sorted
  0168 Excel Sheet Column Title
+ 0170 Two Sum III - Data structure design
  0171 Excel Sheet Column Number
  0173 Binary Search Tree Iterator
  0179 Largest Number
@@ -1016,6 +1022,7 @@ algo
  1305 All Elements in Two Binary Search Trees
  1306 Jump Game III
  1319 Number of Operations to Make Network Connected
+ 1332 Remove Palindromic Subsequences
  1342 Number of Steps to Reduce a Number to Zero
  1344 Angle Between Hands of a Clock
  1358 Number of Substrings Containing All Three Characters
@@ -1091,11 +1098,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  109 /  576
-Solved / Total (Medium):  340 / 1220
+Solved / Total (Easy)  :  111 /  576
+Solved / Total (Medium):  340 / 1221
 Solved / Total (Hard)  :   41 /  500
-Solved / Total (All)   :  490 / 2296
-Total Score            : 1334
+Solved / Total (All)   :  492 / 2297
+Total Score            : 1336
 =====================================
 
 ```

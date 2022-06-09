@@ -17,6 +17,7 @@ http://www.1point3acres.com/bbs/thread-230257-1-1.html
 (2) DAG
 - DFS: O(V!) or O(V^e) (e: 每個node的邊數)
 - Memoization: O(V+E)  // 看起來是碰到V退出，但其實是DFS-Post，所以所有的邊都必須要走過
+- Dijkstra: O(ElogV)   //E包含V
 '''
 
 #Tree
@@ -65,23 +66,22 @@ def dfs1(graph, node, distToEnd):
     return totalCost
 
 # 嘗試想要backtracking（還沒成功）
-def dfs1_backtracking(graph, node, res, path, distToEnd):
-    if node not in graph:  #leaf
-        return 0
-    if node in distToEnd:
-        return distToEnd[node]
-    totalCost = math.inf
-    for nxt, cost in graph[node].items():
-        path.append(nxt)
-        #print(node, "->", nxt, ":", cost, path)
-        totalCost = min(totalCost, cost + dfs1(graph, nxt, res, path, distToEnd))
-        path.remove(nxt)
-    distToEnd[node] = totalCost  #memoization DP
-    return totalCost
+# def dfs1_backtracking(graph, node, res, path, distToEnd):
+#     if node not in graph:  #leaf
+#         return 0
+#     if node in distToEnd:
+#         return distToEnd[node]
+#     totalCost = math.inf
+#     for nxt, cost in graph[node].items():
+#         path.append(nxt)
+#         #print(node, "->", nxt, ":", cost, path)
+#         totalCost = min(totalCost, cost + dfs1(graph, nxt, res, path, distToEnd))
+#         path.remove(nxt)
+#     distToEnd[node] = totalCost  #memoization DP
+#     return totalCost
 
-'''
-從前到後的作法 [Incorrect]
-'''
+
+# 從前到後的作法 [Incorrect]
 # def findMinPath(graph, root):
 #     print("Code-2")
 #     res = []

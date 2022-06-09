@@ -219,3 +219,65 @@ for d in data:
     sm1.record(d)
 print(sm1)
 print(sm1.getMedian())
+
+
+
+class MedianFinder:
+    def __init__(self):
+        self.lo = [] #max heap
+        self.hi = [] #min heap
+    
+    # O(logn)
+    def addNum(self, num):
+        if self.lo and num <= -self.lo[0]:
+            heapq.heappush(self.lo, -num)
+        elif self.hi and num >= self.hi[0]:
+            heapq.heappush(self.hi, num)
+        else:
+            heapq.heappush(self.lo, -num)
+            
+        self.__balanceHeaps()
+    
+    # O(n)
+    def removeNum(self, num):
+        assert len(self.lo) + len(self.hi) > 0
+        
+        #O(n) faster [46%]
+        def removeFromHeap(h, num):
+            idx = h.index(num)
+            h[idx] = h[-1]
+            h.pop()
+            if idx < len(h):
+                heapq._siftup(h, idx)       # idx 一直到底部
+                heapq._siftdown(h, 0, idx)  # 從開頭0 到 idx
+         
+        #O(n) slower [30%]
+        def removeFromHeap1(h, num):
+            idx = h.index(num)
+            h[idx] = h[-1]
+            h.pop()
+            heapq.heapify(h)               # O(n)
+
+        if self.lo and num <= -self.lo[0]:
+            removeFromHeap(self.lo, -num)
+        elif self.hi and num >= self.hi[0]:
+            removeFromHeap(self.hi, num)
+            
+        self.__balanceHeaps()
+    
+    # O(1)
+    def findMedian(self):
+        size = len(self.lo) + len(self.hi)
+        if size % 2 == 0:
+            return (-self.lo[0] + self.hi[0]) / 2
+        else:
+            return -self.lo[0]
+    
+    def __balanceHeaps(self):
+        if len(self.hi) > len(self.lo):
+            heapq.heappush(self.lo, -heapq.heappop(self.hi))
+        if len(self.lo) > len(self.hi) + 1:
+            heapq.heappush(self.hi, -heapq.heappop(self.lo))
+        
+    def __str__(self):
+        return "lo:" + str([-v for v in self.lo]) + "  hi:" + str(self.hi)

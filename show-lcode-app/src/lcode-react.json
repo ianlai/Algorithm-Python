@@ -1584,6 +1584,15 @@
     "Date": "2022-03-19"
 },
 {
+    "Number": "0170", 
+    "Level": 1, 
+    "Title": "Two Sum III - Data structure design", 
+    "Url": "https://leetcode.com/problems/two-sum-iii-data-structure-design", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-09"
+},
+{
     "Number": "0171", 
     "Level": 1, 
     "Title": "Excel Sheet Column Number", 
@@ -5153,6 +5162,15 @@
     ], 
     "Memo": "判斷有幾個graph -> N，N-1就是需要的連線。注意需要用邊和點的關係來判斷是否做得到。", 
     "Date": "2021-11-29"
+},
+{
+    "Number": "1332", 
+    "Level": 1, 
+    "Title": "Remove Palindromic Subsequences", 
+    "Url": "https://leetcode.com/problems/remove-palindromic-subsequences", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-09"
 },
 {
     "Number": "1342", 
