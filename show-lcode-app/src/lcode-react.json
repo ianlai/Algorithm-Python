@@ -37,7 +37,7 @@
         "**BASIC"
     ], 
     "Memo": "", 
-    "Date": "2022-01-23"
+    "Date": "2022-06-10"
 },
 {
     "Number": "0004", 
@@ -5525,6 +5525,15 @@
     ], 
     "Memo": "方法一是先找到root，再使用LCA1。方法二更好，是直接利用0160找到兩條LinkedList相會點的方法，只需要一個loop裡面兩行code而已。簡單說方法就是兩條都往前走，走到底換到對方的開頭，這樣兩者都是會走a+b+c的距離，一定會碰到。", 
     "Date": "2022-03-24"
+},
+{
+    "Number": "1658", 
+    "Level": 2, 
+    "Title": "Minimum Operations to Reduce X to Zero", 
+    "Url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-11"
 },
 {
     "Number": "1679", 

@@ -1,5 +1,27 @@
 class Solution:
     
+    # 2022/06/10
+    # Sliding window [O(n): 69%]
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        print("Code6")
+        
+        mset = set()
+        left = 0
+        length = 0
+        for right in range(len(s)):
+            if s[right] not in mset:
+                mset.add(s[right])
+            else:
+                while s[left] != s[right]:
+                    mset.remove(s[left])
+                    left += 1
+                mset.remove(s[left])
+                left += 1
+                mset.add(s[right])
+            length = max(length, right - left + 1)
+        return length
+    
+        
     # 2022/01/22
     # Sliding window (list map) [O(1n): 69%]
     def lengthOfLongestSubstring5(self, s: str) -> int:
@@ -23,7 +45,7 @@ class Solution:
         
     # 2022/01/22
     # Sliding window [O(2n): 68%]
-    def lengthOfLongestSubstring(self, s: str) -> int:
+    def lengthOfLongestSubstring4(self, s: str) -> int:
         print("Code4")
         if not s:
             return 0

@@ -3575,6 +3575,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1658", 
+    "Level": 2, 
+    "Title": "Minimum Operations to Reduce X to Zero", 
+    "Url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1679", 
     "Level": 2, 
     "Title": "Max Number of K-Sum Pairs", 

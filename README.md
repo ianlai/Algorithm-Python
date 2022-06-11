@@ -513,6 +513,7 @@ algo
 │   ├── __1248__Count Number of Nice Subarrays.py
 │   ├── __1332__Remove Palindromic Subsequences.py
 │   ├── __1358__Number of Substrings Containing All Three Characters.py
+│   ├── __1658__Minimum Operations to Reduce X to Zero.py
 │   ├── __1679__Max Number of K-Sum Pairs.py
 │   ├── __1711__Count Good Meals.py
 │   ├── __1838__Frequency of the Most Frequent Element.py
@@ -600,7 +601,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 557 files
+41 directories, 558 files
 
 =====================================
 ============= Leetcode ==============
@@ -1051,6 +1052,7 @@ algo
  1641 Count Sorted Vowel Strings
  1644 Lowest Common Ancestor of a Binary Tree II
  1650 Lowest Common Ancestor of a Binary Tree III
+ 1658 Minimum Operations to Reduce X to Zero
  1679 Max Number of K-Sum Pairs
  1696 Jump Game VI
  1706 Where Will the Ball Fall
@@ -1099,10 +1101,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  111 /  576
-Solved / Total (Medium):  340 / 1221
+Solved / Total (Medium):  341 / 1222
 Solved / Total (Hard)  :   41 /  500
-Solved / Total (All)   :  492 / 2297
-Total Score            : 1336
+Solved / Total (All)   :  493 / 2298
+Total Score            : 1339
 =====================================
 
 ```
