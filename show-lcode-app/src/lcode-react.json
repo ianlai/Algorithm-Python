@@ -5549,6 +5549,14 @@
     "Date": "2022-05-05"
 },
 {
+    "Number": "1695", 
+    "Level": 2, 
+    "Title": "Maximum Erasure Value", 
+    "Url": "https://leetcode.com/problems/maximum-erasure-value", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1696", 
     "Level": 2, 
     "Title": "Jump Game VI", 
