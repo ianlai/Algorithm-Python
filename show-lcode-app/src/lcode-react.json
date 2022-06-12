@@ -5531,7 +5531,10 @@
     "Level": 2, 
     "Title": "Minimum Operations to Reduce X to Zero", 
     "Url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero", 
-    "Tags": [], 
+    "Tags": [
+        "Sliding-Window", 
+        "Two-Pointer"
+    ], 
     "Memo": "", 
     "Date": "2022-06-11"
 },
@@ -5553,8 +5556,15 @@
     "Level": 2, 
     "Title": "Maximum Erasure Value", 
     "Url": "https://leetcode.com/problems/maximum-erasure-value", 
-    "Tags": [], 
-    "Memo": ""
+    "Tags": [
+        "Sliding-Window", 
+        "Two-Pointer", 
+        "Prefix-Sum", 
+        "**BASIC", 
+        "**TEST"
+    ], 
+    "Memo": "先做Prefix-Sum，再利用Sliding-Window來去除重複的字。算是Sliding-Window的基本題。", 
+    "Date": "2022-06-12"
 },
 {
     "Number": "1696", 
@@ -5711,7 +5721,7 @@
     "Url": "https://leetcode.com/problems/find-original-array-from-doubled-array", 
     "Tags": [
         "HashMap", 
-        "**Test", 
+        "**TEST", 
         "##Google"
     ], 
     "Memo": "先Sorting就不用兩邊測。這題寫了UnitTest。", 
