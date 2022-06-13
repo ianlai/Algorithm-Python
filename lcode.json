@@ -3519,6 +3519,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1570", 
+    "Level": 2, 
+    "Title": "Dot Product of Two Sparse Vectors", 
+    "Url": "https://leetcode.com/problems/dot-product-of-two-sparse-vectors", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1584", 
     "Level": 2, 
     "Title": "Min Cost to Connect All Points", 

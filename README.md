@@ -203,6 +203,7 @@ algo
 │   ├── __0706__Design HashMap.py
 │   ├── __1396__Design Underground System.py
 │   ├── __1429__First Unique Number.py
+│   ├── __1570__Dot Product of Two Sparse Vectors.py
 │   └── __1603__Design Parking System.py
 ├── Graph
 │   ├── __0261__Graph Valid Tree.py
@@ -603,7 +604,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 560 files
+41 directories, 561 files
 
 =====================================
 ============= Leetcode ==============
@@ -1047,6 +1048,7 @@ algo
  1530 Number of Good Leaf Nodes Pairs
  1557 Minimum Number of Vertices to Reach All Nodes
  1567 Maximum Length of Subarray With Positive Product
+ 1570 Dot Product of Two Sparse Vectors
  1584 Min Cost to Connect All Points
  1593 Split a String Into the Max Number of Unique Substrings
  1603 Design Parking System
@@ -1104,10 +1106,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  111 /  578
-Solved / Total (Medium):  342 / 1225
+Solved / Total (Medium):  343 / 1225
 Solved / Total (Hard)  :   41 /  503
-Solved / Total (All)   :  494 / 2306
-Total Score            : 1342
+Solved / Total (All)   :  495 / 2306
+Total Score            : 1345
 =====================================
 
 ```
