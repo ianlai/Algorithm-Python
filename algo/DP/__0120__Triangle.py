@@ -1,8 +1,102 @@
 class Solution:
     
+    '''
+    2
+    3 4
+    6 5 7
+    4 1 8 3
+    '''
+    '''
+    由上往下可以用array交換，就不需要用mod
+    由下往上不用做min，更方便。
+    '''
+    def minimumTotal(self, triangle: List[List[int]]) -> int: 
+        print("2022/06/13 由下往上")
+        m = len(triangle)
+        dp = triangle[-1]
+        for i in range(m-2, -1, -1):
+            for j in range(len(triangle[i])):
+                dp[j] = triangle[i][j] + min(dp[j], dp[j+1])
+        return dp[0]
+    '''
+    T.C. = O(M^2)
+    S.C. = O(M) 
+    '''
+    def minimumTotal6(self, triangle: List[List[int]]) -> int: 
+        print("2022/06/13 ")
+        m = len(triangle)
+        dp = [[0] * m for _ in range(2)]
+        #dp0 = [0] * m
+        #dp1 = [0] * m
+        dp[0][0] = triangle[0][0]
+        
+        for i in range(1, m):
+            for j in range(m):
+                if j > i:
+                    break
+                    
+                dp[i%2][j] = triangle[i][j]
+                if j == i:
+                    dp[i%2][j] += dp[(i-1)%2][j-1] 
+                elif j == 0:
+                    dp[i%2][j] += dp[(i-1)%2][j]
+                else:
+                    dp[i%2][j] += min(dp[(i-1)%2][j-1], dp[(i-1)%2][j])
+                    
+        return min(dp[1]) if m % 2 == 0 else min(dp[0]) 
+    
+    '''
+    T.C. = O(M^2)
+    S.C. = O(M^2) 
+    '''
+    def minimumTotal5(self, triangle: List[List[int]]) -> int: 
+        print("2022/06/13")
+        m = len(triangle)
+        dp = [[0] * m for _ in range(m)]
+        dp[0][0] = triangle[0][0]
+        
+        for i in range(1, m):
+            for j in range(m):
+                if j > i:
+                    break
+                    
+                dp[i][j] = triangle[i][j]
+                if j == i:
+                    dp[i][j] += dp[i-1][j-1] 
+                elif j == 0:
+                    dp[i][j] += dp[i-1][j]
+                else:
+                    dp[i][j] += min(dp[i-1][j-1], dp[i-1][j])
+                
+        return min(dp[m-1])
+                
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     # =========================================================
     # Bottom-up DP with rolling array [time: O(n2): 19% / space: 65%]
-    def minimumTotal(self, triangle: List[List[int]]) -> int: 
+    def minimumTotal4(self, triangle: List[List[int]]) -> int: 
         print("Bottom-up DP; (i, j) defined as min path to top, rolling array to save storage")
         if not triangle:
             return 0
