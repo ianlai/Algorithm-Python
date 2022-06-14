@@ -13,8 +13,6 @@ fl: 按 ; 继续向右找。按 "," 沿反方向找到下一个 "l"      //right
 Fl: 按 ; 继续向左找。按 "," 沿反方向找到下一个 "l"      //left find l
 
 '''
-from ast import Raise
-
 
 class VimOperator(object):
     """Mock vim action for a string"""

@@ -167,6 +167,7 @@ algo
 │   ├── __0518__Coin Change 2.py
 │   ├── __0542__01 Matrix.py
 │   ├── __0576__Out of Boundary Paths.py
+│   ├── __0583__Delete Operation for Two Strings.py
 │   ├── __0646__Maximum Length of Pair Chain.py
 │   ├── __0688__Knight Probability in Chessboard.py
 │   ├── __0718__Maximum Length of Repeated Subarray.py
@@ -590,7 +591,9 @@ algo
 │   │   └── SwitchingArray.py
 │   ├── SPFY
 │   │   ├── FindCityByOrder.py
+│   │   ├── GuessWord.py
 │   │   ├── RobotEmulator.py
+│   │   ├── TextManipulator.py
 │   │   └── VimOperator.py
 │   └── WP.py
 │       └── BiggestNumber.py
@@ -605,7 +608,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 562 files
+41 directories, 565 files
 
 =====================================
 ============= Leetcode ==============
@@ -892,6 +895,7 @@ algo
  0572 Subtree of Another Tree
  0576 Out of Boundary Paths
  0581 Shortest Unsorted Continuous Subarray
+ 0583 Delete Operation for Two Strings
  0593 Valid Square
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
@@ -1107,10 +1111,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  111 /  578
-Solved / Total (Medium):  343 / 1225
+Solved / Total (Medium):  344 / 1225
 Solved / Total (Hard)  :   41 /  503
-Solved / Total (All)   :  495 / 2306
-Total Score            : 1345
+Solved / Total (All)   :  496 / 2306
+Total Score            : 1348
 =====================================
 
 ```

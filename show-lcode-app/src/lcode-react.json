@@ -3524,6 +3524,14 @@
     "Date": "2022-05-03"
 },
 {
+    "Number": "0583", 
+    "Level": 2, 
+    "Title": "Delete Operation for Two Strings", 
+    "Url": "https://leetcode.com/problems/delete-operation-for-two-strings", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0593", 
     "Level": 2, 
     "Title": "Valid Square", 
