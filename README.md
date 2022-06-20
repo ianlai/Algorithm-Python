@@ -254,6 +254,7 @@ algo
 │   ├── __0409__Longest Palindrome.py
 │   ├── __0535__Encode and Decode TinyURL.py
 │   ├── __0705__Design HashSet.py
+│   ├── __0820__Short Encoding of Words.py
 │   ├── __1160__Find Words That Can Be Formed by Characters.py
 │   ├── __1525__Number of Good Ways to Split a String.py
 │   ├── __2007__Find Original Array From Doubled Array.py
@@ -453,6 +454,7 @@ algo
 │   ├── __0897__Increasing Order Search Tree.py
 │   ├── __0938__Range Sum of BST.py
 │   ├── __0958__Check Completeness of a Binary Tree.py
+│   ├── __0968__Binary Tree Cameras.py
 │   ├── __0979__Distribute Coins in Binary Tree.py
 │   ├── __0987__Vertical Order Traversal of a Binary Tree.py
 │   ├── __1008__Construct Binary Search Tree from Preorder Traversal.py
@@ -593,7 +595,8 @@ algo
 │   │   ├── FindCityByOrder.py
 │   │   ├── GuessWord.py
 │   │   ├── RobotEmulator.py
-│   │   ├── TextManipulator.py
+│   │   ├── VO_Robot.py
+│   │   ├── VO_TextManipulator.py
 │   │   └── VimOperator.py
 │   └── WP.py
 │       └── BiggestNumber.py
@@ -608,7 +611,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 565 files
+41 directories, 568 files
 
 =====================================
 ============= Leetcode ==============
@@ -945,6 +948,7 @@ algo
  0792 Number of Matching Subsequences
  0797 All Paths From Source to Target
  0811 Subdomain Visit Count
+ 0820 Short Encoding of Words
  0841 Keys and Rooms
  0844 Backspace String Compare
  0862 Shortest Subarray with Sum at Least K
@@ -971,6 +975,7 @@ algo
  0947 Most Stones Removed with Same Row or Column
  0954 Array of Doubled Pairs
  0958 Check Completeness of a Binary Tree
+ 0968 Binary Tree Cameras
  0969 Pancake Sorting
  0973 K Closest Points to Origin
  0975 Odd Even Jump
@@ -1110,11 +1115,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  111 /  578
-Solved / Total (Medium):  344 / 1225
-Solved / Total (Hard)  :   41 /  503
-Solved / Total (All)   :  496 / 2306
-Total Score            : 1348
+Solved / Total (Easy)  :  111 /  579
+Solved / Total (Medium):  345 / 1229
+Solved / Total (Hard)  :   42 /  504
+Solved / Total (All)   :  498 / 2312
+Total Score            : 1356
 =====================================
 
 ```

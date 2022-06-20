@@ -3529,7 +3529,8 @@
     "Title": "Delete Operation for Two Strings", 
     "Url": "https://leetcode.com/problems/delete-operation-for-two-strings", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-06-15"
 },
 {
     "Number": "0593", 
@@ -4140,6 +4141,15 @@
     "Date": "2021-11-26"
 },
 {
+    "Number": "0820", 
+    "Level": 2, 
+    "Title": "Short Encoding of Words", 
+    "Url": "https://leetcode.com/problems/short-encoding-of-words", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-20"
+},
+{
     "Number": "0841", 
     "Level": 2, 
     "Title": "Keys and Rooms", 
@@ -4440,6 +4450,15 @@
     ], 
     "Memo": "", 
     "Date": "2021-09-06"
+},
+{
+    "Number": "0968", 
+    "Level": 3, 
+    "Title": "Binary Tree Cameras", 
+    "Url": "https://leetcode.com/problems/binary-tree-cameras", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-20"
 },
 {
     "Number": "0969", 

@@ -2663,6 +2663,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "0820", 
+    "Level": 2, 
+    "Title": "Short Encoding of Words", 
+    "Url": "https://leetcode.com/problems/short-encoding-of-words", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "0841", 
     "Level": 2, 
     "Title": "Keys and Rooms", 
@@ -2867,6 +2875,14 @@ lcode_data = `
     "Level": 2, 
     "Title": "Check Completeness of a Binary Tree", 
     "Url": "https://leetcode.com/problems/check-completeness-of-a-binary-tree", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
+    "Number": "0968", 
+    "Level": 3, 
+    "Title": "Binary Tree Cameras", 
+    "Url": "https://leetcode.com/problems/binary-tree-cameras", 
     "Tags": [], 
     "Memo": ""
 },
