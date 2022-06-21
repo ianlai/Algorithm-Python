@@ -278,6 +278,7 @@ algo
 │   ├── __1046__Last Stone Weight.py
 │   ├── __1094__Car Pooling.py
 │   ├── __1167__Minimum Cost to Connect Sticks.py
+│   ├── __1642__Furthest Building You Can Reach.py
 │   └── __2233__Maximum Product After K Increments.py
 ├── Island
 │   ├── __0130__Surrounded Regions.py
@@ -611,7 +612,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 568 files
+41 directories, 569 files
 
 =====================================
 ============= Leetcode ==============
@@ -1064,6 +1065,7 @@ algo
  1603 Design Parking System
  1631 Path With Minimum Effort
  1641 Count Sorted Vowel Strings
+ 1642 Furthest Building You Can Reach
  1644 Lowest Common Ancestor of a Binary Tree II
  1650 Lowest Common Ancestor of a Binary Tree III
  1658 Minimum Operations to Reduce X to Zero
@@ -1116,10 +1118,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  111 /  579
-Solved / Total (Medium):  345 / 1229
+Solved / Total (Medium):  346 / 1229
 Solved / Total (Hard)  :   42 /  504
-Solved / Total (All)   :  498 / 2312
-Total Score            : 1356
+Solved / Total (All)   :  499 / 2312
+Total Score            : 1359
 =====================================
 
 ```

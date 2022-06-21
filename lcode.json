@@ -3591,6 +3591,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1642", 
+    "Level": 2, 
+    "Title": "Furthest Building You Can Reach", 
+    "Url": "https://leetcode.com/problems/furthest-building-you-can-reach", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1644", 
     "Level": 2, 
     "Title": "Lowest Common Ancestor of a Binary Tree II", 
