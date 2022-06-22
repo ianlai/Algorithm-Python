@@ -2,9 +2,105 @@ import heapq
 
 class Solution:
     
+    # Heap [25% / 18%]
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        print("2022/06/22 - Python Syntax")
+        return heapq.nlargest(k, nums)[-1]  #heap + sort
+
+    # Quick Select [T.C. = O(n): 98% / S.C. = O(logn): 12%]
+    # Avg T.C.   = O(n)    
+    # Worst T.C. = O(n^2) 
+    def findKthLargest3(self, nums: List[int], k: int) -> int:
+        print("2022/06/22 - Quick Select")
+        def quickSelect(start, end, idx):
+            mid = start + (end - start) // 2
+            pivot = nums[mid]
+            l, r = start, end
+            while l <= r:
+                while l <= r and nums[l] < pivot:
+                    l += 1
+                while l <= r and nums[r] > pivot: 
+                    r -= 1
+                if l <= r:
+                    nums[l], nums[r] = nums[r], nums[l]
+                    l += 1
+                    r -= 1
+            if idx >= l:
+                return quickSelect(l, end, idx)
+            elif idx <= r:
+                return quickSelect(start, r, idx)
+            return nums[idx]
+        return quickSelect(0, len(nums) - 1, len(nums) - k)
+    
+    # Min Heap [O(k + (n-k)logk) / O(k)]
+    # Max Heap [O(n + klogn)     / O(n)]
+    def findKthLargest2(self, nums: List[int], k: int) -> int:
+        print("2022/06/22 - Max Heap")
+        maxNums = [-x for x in nums]
+        heapq.heapify(maxNums)
+        for _ in range(k):
+            m = heapq.heappop(maxNums)
+        return -m
+    
+    # Sorting [O(nlogn): 38% / O(logn): 18%]
+    def findKthLargest1(self, nums: List[int], k: int) -> int:
+        print("2022/06/22 - Sort")
+        return sorted(nums, key = lambda x: -x)[k-1]
+        
+    
+    def findKthLargest3(self, nums: List[int], k: int) -> int:
+        def partition(nums, k, start, end):
+            #if start == end:
+            #    return nums[k]
+            
+            pivotIdx = start + (end - start) // 2
+            pivot = nums[pivotIdx]
+            print("S:", start, "E:", end)
+            print(nums, pivot)
+            l, r = start, end
+            while l <= r:
+                while l <= r and nums[l] < pivot:
+                    l += 1
+                while l <= r and nums[r] > pivot:
+                    r -= 1
+                if l <= r:
+                    nums[l], nums[r] = nums[r], nums[l]    
+                    l += 1
+                    r -= 1
+            # if l < k-1:
+            #     return partition(nums, k, l, end)
+            # if l > k-1:
+            #     return partition(nums, k, start, r)
+            # if l == k-1:
+            #     return nums[l] 
+            
+            print(" R:", r, "L:", l)
+            print(" ", nums)
+            
+            # r, l might has diff 1 or 2 
+            if k <= r:
+                return partition(nums, k, start, r)
+            elif k >= l:
+                return partition(nums, k, l, end)
+            return nums[k]
+            
+        if not nums or not (0 < k <= len(nums)):
+            return 0
+        
+        s, e = 0, len(nums) - 1
+        print("Find {}-th ({} index)".format(len(nums) - k + 1, len(nums) - k))
+        print(sorted(nums))
+        print(nums)
+        return partition(nums, len(nums) - k, s, e)
+        
+        
+        
+        
+
+    
     # Quick Select [Avg: O(N), Worst: O(n2), 86%]
     # Quick Sort but only deal with one interval every time
-    def findKthLargest(self, nums: List[int], k: int) -> int:
+    def findKthLargest2(self, nums: List[int], k: int) -> int:
         print("Quick select")
         if not nums or k <= 0 or k > len(nums):
             return None
@@ -12,7 +108,7 @@ class Solution:
         
         return self.partition(nums, 0, len(nums) - 1, len(nums) - k)
                 
-    def partition(self, nums, start, end, kIdx):
+    def partition2(self, nums, start, end, kIdx):
         if start == end:
             return nums[kIdx]
 
