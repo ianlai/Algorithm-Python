@@ -3568,6 +3568,15 @@
     "Date": "2021-04-23"
 },
 {
+    "Number": "0630", 
+    "Level": 3, 
+    "Title": "Course Schedule III", 
+    "Url": "https://leetcode.com/problems/course-schedule-iii", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-24"
+},
+{
     "Number": "0643", 
     "Level": 1, 
     "Title": "Maximum Average Subarray I", 

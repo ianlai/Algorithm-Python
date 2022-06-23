@@ -272,6 +272,7 @@ algo
 │   ├── __0347__Top K Frequent Elements.py
 │   ├── __0378__Kth Smallest Element in a Sorted Matrix.py
 │   ├── __0480__Sliding Window Median.py
+│   ├── __0630__Course Schedule III.py
 │   ├── __0692__Top K Frequent Words.py
 │   ├── __0703__Kth Largest Element in a Stream.py
 │   ├── __0973__K Closest Points to Origin.py
@@ -612,7 +613,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 569 files
+41 directories, 570 files
 
 =====================================
 ============= Leetcode ==============
@@ -903,6 +904,7 @@ algo
  0593 Valid Square
  0611 Valid Triangle Number
  0617 Merge Two Binary Trees
+ 0630 Course Schedule III
  0643 Maximum Average Subarray I
  0646 Maximum Length of Pair Chain
  0647 Palindromic Substrings
@@ -1118,10 +1120,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  111 /  579
-Solved / Total (Medium):  346 / 1229
-Solved / Total (Hard)  :   42 /  504
-Solved / Total (All)   :  499 / 2312
-Total Score            : 1359
+Solved / Total (Medium):  346 / 1230
+Solved / Total (Hard)  :   43 /  505
+Solved / Total (All)   :  500 / 2314
+Total Score            : 1364
 =====================================
 
 ```
