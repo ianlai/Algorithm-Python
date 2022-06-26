@@ -5332,6 +5332,14 @@
     "Date": "2022-03-09"
 },
 {
+    "Number": "1423", 
+    "Level": 2, 
+    "Title": "Maximum Points You Can Obtain from Cards", 
+    "Url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1429", 
     "Level": 2, 
     "Title": "First Unique Number", 

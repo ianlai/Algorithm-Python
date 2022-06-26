@@ -519,6 +519,7 @@ algo
 │   ├── __1248__Count Number of Nice Subarrays.py
 │   ├── __1332__Remove Palindromic Subsequences.py
 │   ├── __1358__Number of Substrings Containing All Three Characters.py
+│   ├── __1423__Maximum Points You Can Obtain from Cards.py
 │   ├── __1658__Minimum Operations to Reduce X to Zero.py
 │   ├── __1679__Max Number of K-Sum Pairs.py
 │   ├── __1695__Maximum Erasure Value.py
@@ -613,7 +614,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 570 files
+41 directories, 571 files
 
 =====================================
 ============= Leetcode ==============
@@ -1050,6 +1051,7 @@ algo
  1395 Count Number of Teams
  1396 Design Underground System
  1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+ 1423 Maximum Points You Can Obtain from Cards
  1429 First Unique Number
  1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
  1443 Minimum Time to Collect All Apples in a Tree
@@ -1119,11 +1121,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  111 /  579
-Solved / Total (Medium):  346 / 1230
-Solved / Total (Hard)  :   43 /  505
-Solved / Total (All)   :  500 / 2314
-Total Score            : 1364
+Solved / Total (Easy)  :  111 /  581
+Solved / Total (Medium):  347 / 1233
+Solved / Total (Hard)  :   43 /  508
+Solved / Total (All)   :  501 / 2322
+Total Score            : 1367
 =====================================
 
 ```
