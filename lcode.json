@@ -3647,6 +3647,14 @@ lcode_data = `
     "Memo": ""
 },
 {
+    "Number": "1689", 
+    "Level": 2, 
+    "Title": "Partitioning Into Minimum Number Of Deci-Binary Numbers", 
+    "Url": "https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers", 
+    "Tags": [], 
+    "Memo": ""
+},
+{
     "Number": "1695", 
     "Level": 2, 
     "Title": "Maximum Erasure Value", 

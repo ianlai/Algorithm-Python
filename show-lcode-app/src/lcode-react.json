@@ -5337,7 +5337,8 @@
     "Title": "Maximum Points You Can Obtain from Cards", 
     "Url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-06-26"
 },
 {
     "Number": "1429", 
@@ -5612,6 +5613,15 @@
     ], 
     "Memo": "", 
     "Date": "2022-05-05"
+},
+{
+    "Number": "1689", 
+    "Level": 2, 
+    "Title": "Partitioning Into Minimum Number Of Deci-Binary Numbers", 
+    "Url": "https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-27"
 },
 {
     "Number": "1695", 

@@ -237,6 +237,7 @@ algo
 │   ├── __1029__Two City Scheduling.py
 │   ├── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
 │   ├── __1567__Maximum Length of Subarray With Positive Product.py
+│   ├── __1689__Partitioning Into Minimum Number Of Deci-Binary Numbers.py
 │   └── __2216__Minimum Deletions to Make Array Beautiful.py
 ├── HashMap
 │   ├── __0001__Two Sum.py
@@ -614,7 +615,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 571 files
+41 directories, 572 files
 
 =====================================
 ============= Leetcode ==============
@@ -1074,6 +1075,7 @@ algo
  1650 Lowest Common Ancestor of a Binary Tree III
  1658 Minimum Operations to Reduce X to Zero
  1679 Max Number of K-Sum Pairs
+ 1689 Partitioning Into Minimum Number Of Deci-Binary Numbers
  1695 Maximum Erasure Value
  1696 Jump Game VI
  1706 Where Will the Ball Fall
@@ -1122,10 +1124,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  111 /  581
-Solved / Total (Medium):  347 / 1233
+Solved / Total (Medium):  348 / 1233
 Solved / Total (Hard)  :   43 /  508
-Solved / Total (All)   :  501 / 2322
-Total Score            : 1367
+Solved / Total (All)   :  502 / 2322
+Total Score            : 1370
 =====================================
 
 ```
