@@ -233,6 +233,7 @@ algo
 │   └── __2225__Find Players With Zero or One Losses.py
 ├── Greedy
 │   ├── __0316__Remove Duplicate Letters.py
+│   ├── __0406__Queue Reconstruction by Height.py
 │   ├── __0484__Find Permutation.py
 │   ├── __1029__Two City Scheduling.py
 │   ├── __1414__Find the Minimum Number of Fibonacci Numbers Whose Sum Is K.py
@@ -615,7 +616,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 572 files
+41 directories, 573 files
 
 =====================================
 ============= Leetcode ==============
@@ -854,6 +855,7 @@ algo
  0395 Longest Substring with At Least K Repeating Characters
  0399 Evaluate Division
  0401 Binary Watch
+ 0406 Queue Reconstruction by Height
  0409 Longest Palindrome
  0412 Fizz Buzz
  0416 Partition Equal Subset Sum
@@ -1123,11 +1125,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  111 /  581
-Solved / Total (Medium):  348 / 1233
-Solved / Total (Hard)  :   43 /  508
-Solved / Total (All)   :  502 / 2322
-Total Score            : 1370
+Solved / Total (Easy)  :  109 /  578
+Solved / Total (Medium):  351 / 1235
+Solved / Total (Hard)  :   43 /  509
+Solved / Total (All)   :  503 / 2322
+Total Score            : 1377
 =====================================
 
 ```

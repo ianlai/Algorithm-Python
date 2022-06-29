@@ -2941,6 +2941,15 @@
     "Date": "2021-05-28"
 },
 {
+    "Number": "0406", 
+    "Level": 2, 
+    "Title": "Queue Reconstruction by Height", 
+    "Url": "https://leetcode.com/problems/queue-reconstruction-by-height", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-30"
+},
+{
     "Number": "0409", 
     "Level": 1, 
     "Title": "Longest Palindrome", 
