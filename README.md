@@ -18,6 +18,7 @@ algo
 │   ├── __0350__Intersection of Two Arrays II.py
 │   ├── __0384__Shuffle an Array.py
 │   ├── __0435__Non-overlapping Intervals.py
+│   ├── __0462__Minimum Moves to Equal Array Elements II.py
 │   ├── __0523__Continuous Subarray Sum.py
 │   ├── __0560__Subarray Sum Equals K.py
 │   ├── __0670__Maximum Swap.py
@@ -616,7 +617,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 573 files
+41 directories, 574 files
 
 =====================================
 ============= Leetcode ==============
@@ -872,6 +873,7 @@ algo
  0453 Minimum Moves to Equal Array Elements
  0456 132 Pattern
  0459 Repeated Substring Pattern
+ 0462 Minimum Moves to Equal Array Elements II
  0474 Ones and Zeroes
  0480 Sliding Window Median
  0484 Find Permutation
@@ -1126,10 +1128,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  109 /  578
-Solved / Total (Medium):  351 / 1235
+Solved / Total (Medium):  352 / 1236
 Solved / Total (Hard)  :   43 /  509
-Solved / Total (All)   :  503 / 2322
-Total Score            : 1377
+Solved / Total (All)   :  504 / 2323
+Total Score            : 1380
 =====================================
 
 ```

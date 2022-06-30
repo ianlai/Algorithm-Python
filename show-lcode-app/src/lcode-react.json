@@ -3142,6 +3142,15 @@
     "Date": "2021-12-26"
 },
 {
+    "Number": "0462", 
+    "Level": 2, 
+    "Title": "Minimum Moves to Equal Array Elements II", 
+    "Url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-06-30"
+},
+{
     "Number": "0474", 
     "Level": 2, 
     "Title": "Ones and Zeroes", 
