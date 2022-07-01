@@ -5675,6 +5675,15 @@
     "Date": "2022-04-22"
 },
 {
+    "Number": "1710", 
+    "Level": 1, 
+    "Title": "Maximum Units on a Truck", 
+    "Url": "https://leetcode.com/problems/maximum-units-on-a-truck", 
+    "Tags": [], 
+    "Memo": "", 
+    "Date": "2022-07-01"
+},
+{
     "Number": "1711", 
     "Level": 2, 
     "Title": "Count Good Meals", 

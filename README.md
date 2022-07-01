@@ -28,6 +28,7 @@ algo
 │   ├── __0954__Array of Doubled Pairs.py
 │   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
+│   ├── __1710__Maximum Units on a Truck.py
 │   ├── __2154__Keep Multiplying Found Values by Two.py
 │   ├── __2231__Largest Number After Digit Swaps by Parity.py
 │   ├── __2248__Intersection of Multiple Arrays.py
@@ -617,7 +618,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 574 files
+41 directories, 575 files
 
 =====================================
 ============= Leetcode ==============
@@ -1083,6 +1084,7 @@ algo
  1695 Maximum Erasure Value
  1696 Jump Game VI
  1706 Where Will the Ball Fall
+ 1710 Maximum Units on a Truck
  1711 Count Good Meals
  1721 Swapping Nodes in a Linked List
  1730 Shortest Path to Get Food
@@ -1127,11 +1129,11 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  109 /  578
-Solved / Total (Medium):  352 / 1236
+Solved / Total (Easy)  :  110 /  578
+Solved / Total (Medium):  352 / 1237
 Solved / Total (Hard)  :   43 /  509
-Solved / Total (All)   :  504 / 2323
-Total Score            : 1380
+Solved / Total (All)   :  505 / 2324
+Total Score            : 1381
 =====================================
 
 ```
