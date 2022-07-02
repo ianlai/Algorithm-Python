@@ -28,6 +28,7 @@ algo
 │   ├── __0954__Array of Doubled Pairs.py
 │   ├── __0985__Sum of Even Numbers After Queries.py
 │   ├── __0986__Interval List Intersections.py
+│   ├── __1465__Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts.py
 │   ├── __1710__Maximum Units on a Truck.py
 │   ├── __2154__Keep Multiplying Found Values by Two.py
 │   ├── __2231__Largest Number After Digit Swaps by Parity.py
@@ -618,7 +619,7 @@ algo
     └── __pycache__
         └── DisjointSet.cpython-39.pyc
 
-41 directories, 575 files
+41 directories, 576 files
 
 =====================================
 ============= Leetcode ==============
@@ -1063,6 +1064,7 @@ algo
  1443 Minimum Time to Collect All Apples in a Tree
  1448 Count Good Nodes in Binary Tree
  1461 Check If a String Contains All Binary Codes of Size K
+ 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
  1475 Final Prices With a Special Discount in a Shop
  1480 Running Sum of 1d Array
  1525 Number of Good Ways to Split a String
@@ -1130,10 +1132,10 @@ algo
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
 Solved / Total (Easy)  :  110 /  578
-Solved / Total (Medium):  352 / 1237
+Solved / Total (Medium):  353 / 1237
 Solved / Total (Hard)  :   43 /  509
-Solved / Total (All)   :  505 / 2324
-Total Score            : 1381
+Solved / Total (All)   :  506 / 2324
+Total Score            : 1384
 =====================================
 
 ```
