@@ -992,7 +992,7 @@
         "D&C"
     ], 
     "Memo": "", 
-    "Date": "2021-12-06"
+    "Date": "2022-07-14"
 },
 {
     "Number": "0106", 
@@ -3637,6 +3637,14 @@
     ], 
     "Memo": "搜尋到底就置換（儘管目標字還沒走完）。search函數回傳值不一定是True/False，這題就可以回傳搜尋到底的字。", 
     "Date": "2022-02-28"
+},
+{
+    "Number": "0653", 
+    "Level": 1, 
+    "Title": "Two Sum IV - Input is a BST", 
+    "Url": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst", 
+    "Tags": [], 
+    "Memo": ""
 },
 {
     "Number": "0658", 
