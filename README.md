@@ -1133,10 +1133,10 @@ algo
  2274 Maximum Consecutive Floors Without Special Floors
  2275 Largest Combination With Bitwise AND Greater Than Zero
 =====================================
-Solved / Total (Easy)  :  110 /  581
-Solved / Total (Medium):  354 / 1247
-Solved / Total (Hard)  :   43 /  512
-Solved / Total (All)   :  507 / 2340
+Solved / Total (Easy)  :  110 /  586
+Solved / Total (Medium):  354 / 1257
+Solved / Total (Hard)  :   43 /  518
+Solved / Total (All)   :  507 / 2361
 Total Score            : 1387
 =====================================
 

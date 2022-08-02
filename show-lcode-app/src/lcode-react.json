@@ -2832,7 +2832,7 @@
         "Matrix"
     ], 
     "Memo": "", 
-    "Date": "2021-07-09"
+    "Date": "2022-08-02"
 },
 {
     "Number": "0380", 
@@ -3644,7 +3644,8 @@
     "Title": "Two Sum IV - Input is a BST", 
     "Url": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst", 
     "Tags": [], 
-    "Memo": ""
+    "Memo": "", 
+    "Date": "2022-07-04"
 },
 {
     "Number": "0658", 

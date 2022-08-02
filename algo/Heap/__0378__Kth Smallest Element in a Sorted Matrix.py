@@ -1,7 +1,30 @@
 class Solution:
     
-    # Sorting [O(nlogn): 26%]
+    '''
+      2022/08/02
+      Heap (merge k-list) 
+      TC: O(N + klogN)
+      SC: O(N)
+    '''
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        print("Code3: Heap")
+        if len(matrix) == 0 or len(matrix[0]) == 0:
+            return -1
+        n = len(matrix)
+        if k > n ** 2:
+            return -1 
+        
+        heap = []
+        for row in range(n):
+            heapq.heappush(heap, (matrix[row][0], row, 0))        
+        for _ in range(k):
+            res, row, col = heapq.heappop(heap)
+            if col != n - 1:
+                heapq.heappush(heap, (matrix[row][col+1], row, col+1))       
+        return res
+    
+    # Sorting [O(nlogn): 26%]
+    def kthSmallest2(self, matrix: List[List[int]], k: int) -> int:
         print("Sorting")
         if not matrix:
             return None 
